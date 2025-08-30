@@ -1,0 +1,15 @@
+SELECT ?item ?itemLabel ?zhTitle ?yueTitle WHERE {
+  # Mainland-Chinese article
+  ?zhArticle  schema:about  ?item ;
+              schema:isPartOf <https://zh.wikipedia.org/> ;
+              schema:name    ?zhTitle .
+
+  # Cantonese article
+  ?yueArticle schema:about  ?item ;
+              schema:isPartOf <https://zh-yue.wikipedia.org/> ;
+              schema:name    ?yueTitle .
+
+  FILTER(STR(?zhTitle) != STR(?yueTitle))          # only keep different ones
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+LIMIT 10

@@ -1,0 +1,16 @@
+@prefix foaf:   <http://xmlns.com/foaf/0.1/> .               # 1. Namespace declarations
+@prefix dbo:    <http://dbpedia.org/ontology/> .
+@prefix dbr:    <http://dbpedia.org/resource/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+dbr:Michael_Jordan                             # 2. Subject (a prefixed name, shorthand for full IRI)
+    a foaf:Person ;                             # 3. Predicate–object pairs, grouped per subject
+        # “a” is shorthand for rdf:type
+    foaf:name            "Michael Jordan" ;     # 4. Literal string
+    dbo:birthDate        "1963-02-17"^^xsd:date ;# 5. Typed literal with datatype
+    dbo:birthPlace       dbr:Brooklyn ;         # 6. Object as another IRI
+    dbo:team             dbr:Chicago_Bulls ,    # 7. Comma to list multiple objects
+                         dbr:Washington_Bullets ;  
+    dbo:height           "1.98"^^xsd:decimal ;  # 8. Another typed literal
+    schema:occupation    "Basketball player" .  # 9. Final predicate–object ends with “.”
+    

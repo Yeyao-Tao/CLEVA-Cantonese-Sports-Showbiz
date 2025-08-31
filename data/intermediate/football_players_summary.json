@@ -1,0 +1,497 @@
+{
+  "summary": {
+    "total_players": 167,
+    "total_clubs": 509,
+    "total_teammate_pairs": 3371,
+    "players_with_multiple_clubs": 165,
+    "extraction_date": "2025-09-01T02:11:19.684841"
+  },
+  "sample_players": {
+    "Q6298063": {
+      "name": "João Cancelo",
+      "total_clubs": 17,
+      "football_clubs_count": 10,
+      "current_clubs": [
+        "Portugal men's national football team",
+        "Al Hilal SFC"
+      ],
+      "career_span": {
+        "start": 2010,
+        "end": 2025
+      }
+    },
+    "Q891520": {
+      "name": "Milan Škriniar",
+      "total_clubs": 12,
+      "football_clubs_count": 7,
+      "current_clubs": [
+        "Slovakia men's national football team",
+        "Fenerbahçe Istanbul"
+      ],
+      "career_span": {
+        "start": 2011,
+        "end": 2025
+      }
+    },
+    "Q641425": {
+      "name": "Fabinho (footballer, born 1993)",
+      "total_clubs": 11,
+      "football_clubs_count": 8,
+      "current_clubs": [
+        "Brazil men's national football team",
+        "Al Ittihad FC"
+      ],
+      "career_span": {
+        "start": 2012,
+        "end": 2025
+      }
+    },
+    "Q517192": {
+      "name": "Radja Nainggolan",
+      "total_clubs": 18,
+      "football_clubs_count": 12,
+      "current_clubs": [
+        "Bhayangkara F.C.",
+        "Stallions"
+      ],
+      "career_span": {
+        "start": 2004,
+        "end": 2025
+      }
+    },
+    "Q3192187": {
+      "name": "Kalidou Koulibaly",
+      "total_clubs": 8,
+      "football_clubs_count": 6,
+      "current_clubs": [
+        "Al Hilal SFC",
+        "Senegal men's national association football team"
+      ],
+      "career_span": {
+        "start": 2009,
+        "end": 2025
+      }
+    },
+    "Q192923": {
+      "name": "Sokratis Papastathopoulos",
+      "total_clubs": 16,
+      "football_clubs_count": 12,
+      "current_clubs": [],
+      "career_span": {
+        "start": 2003,
+        "end": 2025
+      }
+    },
+    "Q19388": {
+      "name": "Dani Parejo",
+      "total_clubs": 9,
+      "football_clubs_count": 6,
+      "current_clubs": [
+        "Valencia CF"
+      ],
+      "career_span": {
+        "start": 2006,
+        "end": 2025
+      }
+    },
+    "Q151260": {
+      "name": "Jérôme Boateng",
+      "total_clubs": 14,
+      "football_clubs_count": 8,
+      "current_clubs": [
+        "LASK Linz"
+      ],
+      "career_span": {
+        "start": 2004,
+        "end": 2025
+      }
+    },
+    "Q458101": {
+      "name": "Ciro Immobile",
+      "total_clubs": 15,
+      "football_clubs_count": 12,
+      "current_clubs": [
+        "Bologna F.C. 1909"
+      ],
+      "career_span": {
+        "start": 2009,
+        "end": 2025
+      }
+    },
+    "Q27569376": {
+      "name": "Trent Alexander-Arnold",
+      "total_clubs": 8,
+      "football_clubs_count": 2,
+      "current_clubs": [
+        "England men's national association football team",
+        "Real Madrid CF"
+      ],
+      "career_span": {
+        "start": 2013,
+        "end": 2025
+      }
+    }
+  },
+  "sample_teammates": [
+    {
+      "player1": {
+        "id": "Q6298063",
+        "name": "João Cancelo",
+        "start_year": 2014,
+        "end_year": 2015
+      },
+      "player2": {
+        "id": "Q15521306",
+        "name": "Bernardo Silva",
+        "start_year": 2013,
+        "end_year": 2015
+      },
+      "club": {
+        "id": "Q131499",
+        "name": "Unknown Club"
+      }
+    },
+    {
+      "player1": {
+        "id": "Q6298063",
+        "name": "João Cancelo",
+        "start_year": 2014,
+        "end_year": 2015
+      },
+      "player2": {
+        "id": "Q297603",
+        "name": "Nemanja Matić",
+        "start_year": 2011,
+        "end_year": 2014
+      },
+      "club": {
+        "id": "Q131499",
+        "name": "Unknown Club"
+      }
+    },
+    {
+      "player1": {
+        "id": "Q6298063",
+        "name": "João Cancelo",
+        "start_year": 2014,
+        "end_year": 2015
+      },
+      "player2": {
+        "id": "Q17074511",
+        "name": "Ederson (footballer, born 1993)",
+        "start_year": 2015,
+        "end_year": 2017
+      },
+      "club": {
+        "id": "Q131499",
+        "name": "Unknown Club"
+      }
+    },
+    {
+      "player1": {
+        "id": "Q6298063",
+        "name": "João Cancelo",
+        "start_year": 2014,
+        "end_year": 2015
+      },
+      "player2": {
+        "id": "Q2058682",
+        "name": "Jan Oblak",
+        "start_year": 2010,
+        "end_year": 2014
+      },
+      "club": {
+        "id": "Q131499",
+        "name": "Unknown Club"
+      }
+    },
+    {
+      "player1": {
+        "id": "Q193706",
+        "name": "David Luiz",
+        "start_year": 2007,
+        "end_year": 2007
+      },
+      "player2": {
+        "id": "Q193706",
+        "name": "David Luiz",
+        "start_year": 2007,
+        "end_year": 2011
+      },
+      "club": {
+        "id": "Q131499",
+        "name": "Unknown Club"
+      }
+    },
+    {
+      "player1": {
+        "id": "Q193706",
+        "name": "David Luiz",
+        "start_year": 2007,
+        "end_year": 2007
+      },
+      "player2": {
+        "id": "Q251683",
+        "name": "Ángel Di María",
+        "start_year": 2007,
+        "end_year": 2010
+      },
+      "club": {
+        "id": "Q131499",
+        "name": "Unknown Club"
+      }
+    },
+    {
+      "player1": {
+        "id": "Q193706",
+        "name": "David Luiz",
+        "start_year": 2007,
+        "end_year": 2011
+      },
+      "player2": {
+        "id": "Q297603",
+        "name": "Nemanja Matić",
+        "start_year": 2011,
+        "end_year": 2014
+      },
+      "club": {
+        "id": "Q131499",
+        "name": "Unknown Club"
+      }
+    },
+    {
+      "player1": {
+        "id": "Q193706",
+        "name": "David Luiz",
+        "start_year": 2007,
+        "end_year": 2011
+      },
+      "player2": {
+        "id": "Q251683",
+        "name": "Ángel Di María",
+        "start_year": 2007,
+        "end_year": 2010
+      },
+      "club": {
+        "id": "Q131499",
+        "name": "Unknown Club"
+      }
+    },
+    {
+      "player1": {
+        "id": "Q193706",
+        "name": "David Luiz",
+        "start_year": 2007,
+        "end_year": 2011
+      },
+      "player2": {
+        "id": "Q2058682",
+        "name": "Jan Oblak",
+        "start_year": 2010,
+        "end_year": 2014
+      },
+      "club": {
+        "id": "Q131499",
+        "name": "Unknown Club"
+      }
+    },
+    {
+      "player1": {
+        "id": "Q15521306",
+        "name": "Bernardo Silva",
+        "start_year": 2013,
+        "end_year": 2015
+      },
+      "player2": {
+        "id": "Q297603",
+        "name": "Nemanja Matić",
+        "start_year": 2011,
+        "end_year": 2014
+      },
+      "club": {
+        "id": "Q131499",
+        "name": "Unknown Club"
+      }
+    },
+    {
+      "player1": {
+        "id": "Q15521306",
+        "name": "Bernardo Silva",
+        "start_year": 2013,
+        "end_year": 2015
+      },
+      "player2": {
+        "id": "Q17074511",
+        "name": "Ederson (footballer, born 1993)",
+        "start_year": 2015,
+        "end_year": 2017
+      },
+      "club": {
+        "id": "Q131499",
+        "name": "Unknown Club"
+      }
+    },
+    {
+      "player1": {
+        "id": "Q15521306",
+        "name": "Bernardo Silva",
+        "start_year": 2013,
+        "end_year": 2015
+      },
+      "player2": {
+        "id": "Q2058682",
+        "name": "Jan Oblak",
+        "start_year": 2010,
+        "end_year": 2014
+      },
+      "club": {
+        "id": "Q131499",
+        "name": "Unknown Club"
+      }
+    },
+    {
+      "player1": {
+        "id": "Q297603",
+        "name": "Nemanja Matić",
+        "start_year": 2011,
+        "end_year": 2014
+      },
+      "player2": {
+        "id": "Q2058682",
+        "name": "Jan Oblak",
+        "start_year": 2010,
+        "end_year": 2014
+      },
+      "club": {
+        "id": "Q131499",
+        "name": "Unknown Club"
+      }
+    },
+    {
+      "player1": {
+        "id": "Q313170",
+        "name": "Jan Vertonghen",
+        "start_year": 2020,
+        "end_year": 2022
+      },
+      "player2": {
+        "id": "Q21621168",
+        "name": "Rúben Dias",
+        "start_year": 2017,
+        "end_year": 2020
+      },
+      "club": {
+        "id": "Q131499",
+        "name": "Unknown Club"
+      }
+    },
+    {
+      "player1": {
+        "id": "Q313170",
+        "name": "Jan Vertonghen",
+        "start_year": 2020,
+        "end_year": 2022
+      },
+      "player2": {
+        "id": "Q182063",
+        "name": "Nicolás Otamendi",
+        "start_year": 2020,
+        "end_year": null
+      },
+      "club": {
+        "id": "Q131499",
+        "name": "Unknown Club"
+      }
+    },
+    {
+      "player1": {
+        "id": "Q251683",
+        "name": "Ángel Di María",
+        "start_year": 2007,
+        "end_year": 2010
+      },
+      "player2": {
+        "id": "Q2058682",
+        "name": "Jan Oblak",
+        "start_year": 2010,
+        "end_year": 2014
+      },
+      "club": {
+        "id": "Q131499",
+        "name": "Unknown Club"
+      }
+    },
+    {
+      "player1": {
+        "id": "Q251683",
+        "name": "Ángel Di María",
+        "start_year": 2023,
+        "end_year": 2025
+      },
+      "player2": {
+        "id": "Q182063",
+        "name": "Nicolás Otamendi",
+        "start_year": 2020,
+        "end_year": null
+      },
+      "club": {
+        "id": "Q131499",
+        "name": "Unknown Club"
+      }
+    },
+    {
+      "player1": {
+        "id": "Q21621168",
+        "name": "Rúben Dias",
+        "start_year": 2017,
+        "end_year": 2020
+      },
+      "player2": {
+        "id": "Q17074511",
+        "name": "Ederson (footballer, born 1993)",
+        "start_year": 2015,
+        "end_year": 2017
+      },
+      "club": {
+        "id": "Q131499",
+        "name": "Unknown Club"
+      }
+    },
+    {
+      "player1": {
+        "id": "Q21621168",
+        "name": "Rúben Dias",
+        "start_year": 2017,
+        "end_year": 2020
+      },
+      "player2": {
+        "id": "Q182063",
+        "name": "Nicolás Otamendi",
+        "start_year": 2020,
+        "end_year": null
+      },
+      "club": {
+        "id": "Q131499",
+        "name": "Unknown Club"
+      }
+    },
+    {
+      "player1": {
+        "id": "Q6298063",
+        "name": "João Cancelo",
+        "start_year": 2014,
+        "end_year": 2015
+      },
+      "player2": {
+        "id": "Q6298063",
+        "name": "João Cancelo",
+        "start_year": 2015,
+        "end_year": 2018
+      },
+      "club": {
+        "id": "Q10333",
+        "name": "Unknown Club"
+      }
+    }
+  ]
+}

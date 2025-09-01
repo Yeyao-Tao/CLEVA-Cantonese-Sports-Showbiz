@@ -623,25 +623,86 @@ if __name__ == "__main__":
     print("Starting comprehensive analysis of all players with Cantonese name extraction...")
     all_data = process_all_players(directory_path)
     
-    # Find potential teammates
-    print("Finding potential teammates...")
+    # Filter to keep only players with Cantonese names
+    print("Filtering players to keep only those with Cantonese names...")
+    original_player_count = len(all_data['players'])
+    filtered_players = {
+        player_id: player_data 
+        for player_id, player_data in all_data['players'].items() 
+        if player_data['has_cantonese_data']
+    }
+    
+    # Update the players dictionary
+    all_data['players'] = filtered_players
+    
+    # Rebuild club_to_players mapping with filtered players only
+    print("Rebuilding club mappings with filtered players...")
+    filtered_club_to_players = {}
+    for player_id, player_data in filtered_players.items():
+        for club in player_data['clubs']:
+            club_id = club['club_id']
+            if club_id not in filtered_club_to_players:
+                filtered_club_to_players[club_id] = []
+            
+            filtered_club_to_players[club_id].append({
+                'player_id': player_id,
+                'player_name_english': player_data['player_names']['english'],
+                'player_name_cantonese': player_data['player_names']['cantonese_best'],
+                'player_has_cantonese': player_data['player_names']['cantonese_lang'] != 'none',
+                'start_year': club.get('start_year'),
+                'end_year': club.get('end_year'),
+                'is_current': club['is_current']
+            })
+    
+    all_data['club_to_players'] = filtered_club_to_players
+    
+    # Update Cantonese statistics for filtered data
+    filtered_cantonese_stats = {
+        'players_with_cantonese': len(filtered_players),
+        'clubs_with_cantonese': set(),
+        'total_cantonese_club_entries': 0,
+        'original_player_count': original_player_count,
+        'filtered_player_count': len(filtered_players),
+        'filtering_ratio': round(len(filtered_players) / original_player_count * 100, 2)
+    }
+    
+    # Count clubs with Cantonese names in filtered data
+    for player_data in filtered_players.values():
+        for club in player_data['clubs']:
+            if club['has_cantonese']:
+                filtered_cantonese_stats['clubs_with_cantonese'].add(club['club_id'])
+                filtered_cantonese_stats['total_cantonese_club_entries'] += 1
+    
+    filtered_cantonese_stats['unique_clubs_with_cantonese'] = len(filtered_cantonese_stats['clubs_with_cantonese'])
+    filtered_cantonese_stats['clubs_with_cantonese'] = list(filtered_cantonese_stats['clubs_with_cantonese'])
+    
+    all_data['cantonese_statistics'] = filtered_cantonese_stats
+    
+    # Find potential teammates with filtered data
+    print("Finding potential teammates among players with Cantonese names...")
     teammates = find_potential_teammates(all_data)
     
-    # Prepare enhanced output data with Cantonese information
+    # Prepare enhanced output data with Cantonese information (filtered)
     cantonese_stats = all_data['cantonese_statistics']
     
     output_data = {
         'metadata': {
-            'description': 'Football player club affiliations extracted from WikiData for Cantonese benchmark construction',
+            'description': 'Football player club affiliations extracted from WikiData for Cantonese benchmark construction - FILTERED for players with Cantonese names only',
             'purpose': 'Support generation of questions about player careers and teammate relationships with Cantonese names',
             'extraction_date': datetime.now().isoformat(),
             'total_players': len(all_data['players']),
             'total_potential_teammate_pairs': len(teammates),
+            'filtering_info': {
+                'original_player_count': cantonese_stats['original_player_count'],
+                'filtered_player_count': cantonese_stats['filtered_player_count'],
+                'filtering_ratio': cantonese_stats['filtering_ratio'],
+                'filter_criteria': 'Players must have valid Cantonese names (yue or zh-hk language codes)'
+            },
             'cantonese_coverage': {
                 'players_with_cantonese_names': cantonese_stats['players_with_cantonese'],
                 'unique_clubs_with_cantonese_names': cantonese_stats['unique_clubs_with_cantonese'],
                 'total_club_entries_with_cantonese': cantonese_stats['total_cantonese_club_entries'],
-                'coverage_percentage_players': round(cantonese_stats['players_with_cantonese'] / len(all_data['players']) * 100, 2),
+                'coverage_percentage_players': 100.0,  # 100% since all remaining players have Cantonese names
                 'teammate_pairs_with_cantonese': len([t for t in teammates if t['has_any_cantonese']])
             }
         },
@@ -654,7 +715,7 @@ if __name__ == "__main__":
     
     # Write to JSON file with enhanced name
     output_file = "./data/intermediate/football_players_clubs_complete.json"
-    print(f"Writing complete data with Cantonese names to {output_file}...")
+    print(f"Writing filtered data (Cantonese players only) to {output_file}...")
     
     # Ensure output directory exists
     os.makedirs("./data/intermediate", exist_ok=True)
@@ -663,18 +724,18 @@ if __name__ == "__main__":
         json.dump(output_data, f, indent=2, ensure_ascii=False)
     
     print("\n" + "="*80)
-    print("CANTONESE EXTRACTION COMPLETE")
+    print("CANTONESE FILTERING COMPLETE")
     print("="*80)
-    print(f"✓ Processed {len(all_data['players'])} players")
-    print(f"✓ Found {len(all_data['club_to_players'])} unique clubs")
-    print(f"✓ Identified {len(teammates)} potential teammate pairs")
-    print(f"✓ Players with Cantonese names: {cantonese_stats['players_with_cantonese']} ({output_data['metadata']['cantonese_coverage']['coverage_percentage_players']}%)")
+    print(f"✓ Original players processed: {cantonese_stats['original_player_count']}")
+    print(f"✓ Players with Cantonese names retained: {len(all_data['players'])} ({cantonese_stats['filtering_ratio']}%)")
+    print(f"✓ Players without Cantonese names filtered out: {cantonese_stats['original_player_count'] - len(all_data['players'])}")
+    print(f"✓ Found {len(all_data['club_to_players'])} unique clubs in filtered data")
+    print(f"✓ Identified {len(teammates)} potential teammate pairs (all with Cantonese names)")
     print(f"✓ Clubs with Cantonese names: {cantonese_stats['unique_clubs_with_cantonese']}")
-    print(f"✓ Teammate pairs with Cantonese data: {output_data['metadata']['cantonese_coverage']['teammate_pairs_with_cantonese']}")
-    print(f"✓ Complete data with Cantonese: {output_file}")
-    print("\nThis enhanced data can now be used to generate Cantonese benchmark questions about:")
-    print("  • Which teams players have played for (in Cantonese)")
-    print("  • Whether two players have been teammates (with Cantonese names)")
-    print("  • Player career timelines and transfers (bilingual)")
-    print("  • Club histories and player associations (with Cantonese club names)")
-    print("  • Translation tasks between English and Cantonese football names")
+    print(f"✓ Filtered data saved to: {output_file}")
+    print("\nFiltered dataset contains ONLY players with valid Cantonese names and can be used for:")
+    print("  • Cantonese benchmark questions about player careers")
+    print("  • Teammate relationship questions with Cantonese names")
+    print("  • Bilingual player career timelines and transfers")
+    print("  • Translation tasks between English and Cantonese player names")
+    print("  • All questions will have guaranteed Cantonese name coverage")

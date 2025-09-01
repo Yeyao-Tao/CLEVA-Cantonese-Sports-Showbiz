@@ -93,10 +93,14 @@ def get_longest_tenure_club(player_clubs: List[Dict[str, Any]]) -> Dict[str, Any
 
 
 def generate_team_question(player_id: str, player_data: Dict[str, Any], 
-                          popular_clubs: List[Dict[str, Any]]) -> Dict[str, Any]:
+                          popular_clubs: List[Dict[str, Any]], all_data: Dict[str, Any]) -> Dict[str, Any]:
     """Generate a multiple-choice question about which team a player has played for."""
     
-    player_name = player_data.get('player_name', 'Unknown Player')
+    # Get player names from player_names structure
+    player_names = player_data.get('player_names', {})
+    player_name = player_names.get('english', 'Unknown Player')
+    cantonese_name = player_names.get('cantonese_best', player_name)
+    
     player_clubs = get_football_clubs_only(player_data)
     
     if not player_clubs:
@@ -108,6 +112,7 @@ def generate_team_question(player_id: str, player_data: Dict[str, Any],
         return None
         
     correct_answer = correct_club['name']
+    correct_answer_cantonese = correct_club.get('cantonese_name', correct_answer)
     tenure_years = calculate_club_tenure(correct_club)
     
     # Generate 3 incorrect options from popular clubs
@@ -123,25 +128,56 @@ def generate_team_question(player_id: str, player_data: Dict[str, Any],
     distractors = random.sample(available_distractors, 3)
     distractor_names = [club['name'] for club in distractors]
     
-    # Create answer choices
-    choices = [correct_answer] + distractor_names
-    random.shuffle(choices)
+    # Get Cantonese names for distractors (need to look them up from the data)
+    distractor_names_cantonese = []
+    for distractor in distractors:
+        # Find the Cantonese name for this club from any player's data
+        cantonese_distractor_name = distractor['name']  # fallback to English
+        for pid, pdata in all_data.get('players', {}).items():
+            for club in pdata.get('clubs', []):
+                if club.get('club_id') == distractor['id']:
+                    cantonese_distractor_name = club.get('cantonese_name', distractor['name'])
+                    break
+            if cantonese_distractor_name != distractor['name']:
+                break
+        distractor_names_cantonese.append(cantonese_distractor_name)
     
-    # Find the correct answer index
+    # Create answer choices - need to maintain same order for both languages
+    all_choices = [correct_answer] + distractor_names
+    all_choices_cantonese = [correct_answer_cantonese] + distractor_names_cantonese
+    
+    # Create a combined list to shuffle together
+    combined_choices = list(zip(all_choices, all_choices_cantonese))
+    random.shuffle(combined_choices)
+    
+    # Separate back into individual lists
+    choices, choices_cantonese = zip(*combined_choices)
+    choices = list(choices)
+    choices_cantonese = list(choices_cantonese)
+    
+    # Find the correct answer indices
     correct_index = choices.index(correct_answer)
     correct_letter = ['A', 'B', 'C', 'D'][correct_index]
     
     question_data = {
         'question': f"Which team has {player_name} played for?",
+        'question_cantonese': f"{cantonese_name}曾經效力過邊隊？",
         'choices': {
             'A': choices[0],
             'B': choices[1], 
             'C': choices[2],
             'D': choices[3]
         },
+        'choices_cantonese': {
+            'A': choices_cantonese[0],
+            'B': choices_cantonese[1], 
+            'C': choices_cantonese[2],
+            'D': choices_cantonese[3]
+        },
         'correct_answer': correct_letter,
         'correct_club_info': {
             'name': correct_answer,
+            'name_cantonese': correct_answer_cantonese,
             'id': correct_club['club_id'],
             'start_year': correct_club.get('start_year'),
             'end_year': correct_club.get('end_year'),
@@ -151,10 +187,12 @@ def generate_team_question(player_id: str, player_data: Dict[str, Any],
         },
         'player_info': {
             'name': player_name,
+            'name_cantonese': cantonese_name,
             'id': player_id,
             'total_clubs': len(player_clubs)
         },
         'distractors': distractor_names,
+        'distractors_cantonese': distractor_names_cantonese,
         'question_type': 'player_team_affiliation'
     }
     
@@ -176,14 +214,16 @@ def generate_multiple_questions(all_data: Dict[str, Any],
     eligible_players = []
     for player_id, player_data in players.items():
         football_clubs = get_football_clubs_only(player_data)
-        if len(football_clubs) >= 1 and player_data.get('player_name'):
+        player_names = player_data.get('player_names', {})
+        player_name = player_names.get('english')
+        if len(football_clubs) >= 1 and player_name:
             eligible_players.append((player_id, player_data))
     
     print(f"Found {len(eligible_players)} eligible players")
 
     for player in eligible_players:
         player_id, player_data = player
-        question = generate_team_question(player_id, player_data, popular_clubs)
+        question = generate_team_question(player_id, player_data, popular_clubs, all_data)
         if question:
             questions.append(question)
 
@@ -193,9 +233,13 @@ def generate_multiple_questions(all_data: Dict[str, Any],
 def format_question_for_display(question_data: Dict[str, Any]) -> str:
     """Format a question for human-readable display."""
     
-    formatted = f'"""\n{question_data["question"]}\n'
+    formatted = f'"""\nEnglish: {question_data["question"]}\n'
     for letter in ['A', 'B', 'C', 'D']:
         formatted += f'{letter}. {question_data["choices"][letter]}\n'
+    
+    formatted += f'\nCantonese: {question_data["question_cantonese"]}\n'
+    for letter in ['A', 'B', 'C', 'D']:
+        formatted += f'{letter}. {question_data["choices_cantonese"][letter]}\n'
     formatted += '"""'
     
     return formatted
@@ -206,13 +250,14 @@ def save_questions(questions: List[Dict[str, Any]], output_file: str):
     
     output_data = {
         'metadata': {
-            'description': 'Multiple-choice questions about football player team affiliations',
+            'description': 'Multiple-choice questions about football player team affiliations in English and Cantonese',
             'purpose': 'Cantonese benchmark for testing LLM understanding of football terminology',
             'question_type': 'player_team_affiliation',
+            'languages': ['English', 'Cantonese'],
             'club_selection_method': 'longest_tenure',
             'total_questions': len(questions),
             'generation_date': datetime.now().isoformat(),
-            'format': 'Four choices (A, B, C, D) with one correct answer'
+            'format': 'Four choices (A, B, C, D) with one correct answer in both languages'
         },
         'questions': questions
     }
@@ -251,8 +296,8 @@ if __name__ == "__main__":
         print(f"\nQuestion {i}:")
         print(format_question_for_display(question))
         print(f"Correct Answer: {question['correct_answer']}")
-        print(f"Player: {question['player_info']['name']} ({question['player_info']['total_clubs']} clubs)")
-        print(f"Correct Club: {question['correct_club_info']['name']} ({question['correct_club_info']['tenure_years']} years)")
+        print(f"Player: {question['player_info']['name']} / {question['player_info']['name_cantonese']} ({question['player_info']['total_clubs']} clubs)")
+        print(f"Correct Club: {question['correct_club_info']['name']} / {question['correct_club_info']['name_cantonese']} ({question['correct_club_info']['tenure_years']} years)")
         if question['correct_club_info']['is_current']:
             print("  → Current club (longest tenure)")
         else:

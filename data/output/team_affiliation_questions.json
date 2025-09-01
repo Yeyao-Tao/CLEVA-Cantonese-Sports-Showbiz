@@ -1,0 +1,1412 @@
+{
+  "metadata": {
+    "description": "Multiple-choice questions about football player team affiliations",
+    "purpose": "Cantonese benchmark for testing LLM understanding of football terminology",
+    "question_type": "player_team_affiliation",
+    "total_questions": 50,
+    "generation_date": "2025-09-01T15:25:36.004034",
+    "format": "Four choices (A, B, C, D) with one correct answer"
+  },
+  "questions": [
+    {
+      "question": "Which team has Christopher Nkunku played for?",
+      "choices": {
+        "A": "Brescia Calcio",
+        "B": "Paris Saint-Germain FC",
+        "C": "S.L. Benfica B",
+        "D": "Southampton F.C."
+      },
+      "correct_answer": "B",
+      "correct_club_info": {
+        "name": "Paris Saint-Germain FC",
+        "id": "Q483020",
+        "start_year": 2015,
+        "end_year": 2019,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Christopher Nkunku",
+        "id": "Q21693199",
+        "total_clubs": 3
+      },
+      "distractors": [
+        "S.L. Benfica B",
+        "Brescia Calcio",
+        "Southampton F.C."
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Aymeric Laporte played for?",
+      "choices": {
+        "A": "Inter Milan",
+        "B": "Arsenal F.C.",
+        "C": "RCD Espanyol de Barcelona",
+        "D": "Athletic Club"
+      },
+      "correct_answer": "D",
+      "correct_club_info": {
+        "name": "Athletic Club",
+        "id": "Q8687",
+        "start_year": 2012,
+        "end_year": 2018,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Aymeric Laporte",
+        "id": "Q3855340",
+        "total_clubs": 5
+      },
+      "distractors": [
+        "Inter Milan",
+        "Arsenal F.C.",
+        "RCD Espanyol de Barcelona"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Kingsley Coman played for?",
+      "choices": {
+        "A": "SBV Vitesse",
+        "B": "Villarreal CF B",
+        "C": "Juventus FC",
+        "D": "GNK Dinamo Zagreb"
+      },
+      "correct_answer": "C",
+      "correct_club_info": {
+        "name": "Juventus FC",
+        "id": "Q1422",
+        "start_year": 2014,
+        "end_year": 2017,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Kingsley Coman",
+        "id": "Q6413296",
+        "total_clubs": 5
+      },
+      "distractors": [
+        "Villarreal CF B",
+        "GNK Dinamo Zagreb",
+        "SBV Vitesse"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Martin Ødegaard played for?",
+      "choices": {
+        "A": "LA Galaxy",
+        "B": "Stade Rennais F.C.",
+        "C": "Arsenal F.C.",
+        "D": "Tottenham Hotspur F.C."
+      },
+      "correct_answer": "C",
+      "correct_club_info": {
+        "name": "Arsenal F.C.",
+        "id": "Q9617",
+        "start_year": 2021,
+        "end_year": null,
+        "is_current": true
+      },
+      "player_info": {
+        "name": "Martin Ødegaard",
+        "id": "Q16902219",
+        "total_clubs": 7
+      },
+      "distractors": [
+        "LA Galaxy",
+        "Tottenham Hotspur F.C.",
+        "Stade Rennais F.C."
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Samir Handanović played for?",
+      "choices": {
+        "A": "NK Domžale",
+        "B": "Pedrabranca Futebol Clube",
+        "C": "Manchester United F.C.",
+        "D": "Albacete Balompié"
+      },
+      "correct_answer": "A",
+      "correct_club_info": {
+        "name": "NK Domžale",
+        "id": "Q384850",
+        "start_year": 2003,
+        "end_year": 2004,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Samir Handanović",
+        "id": "Q213002",
+        "total_clubs": 7
+      },
+      "distractors": [
+        "Manchester United F.C.",
+        "Albacete Balompié",
+        "Pedrabranca Futebol Clube"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Pedri played for?",
+      "choices": {
+        "A": "UD Las Palmas",
+        "B": "Manchester United F.C.",
+        "C": "Torino FC",
+        "D": "FC Bayern Munich"
+      },
+      "correct_answer": "A",
+      "correct_club_info": {
+        "name": "UD Las Palmas",
+        "id": "Q11979",
+        "start_year": 2019,
+        "end_year": 2020,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Pedri",
+        "id": "Q66606355",
+        "total_clubs": 2
+      },
+      "distractors": [
+        "Torino FC",
+        "FC Bayern Munich",
+        "Manchester United F.C."
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Cristiano Ronaldo played for?",
+      "choices": {
+        "A": "Olympique Lyonnais",
+        "B": "US Boulogne",
+        "C": "Manchester United F.C.",
+        "D": "Al-Duhail SC"
+      },
+      "correct_answer": "C",
+      "correct_club_info": {
+        "name": "Manchester United F.C.",
+        "id": "Q18656",
+        "start_year": 2021,
+        "end_year": 2022,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Cristiano Ronaldo",
+        "id": "Q11571",
+        "total_clubs": 7
+      },
+      "distractors": [
+        "Al-Duhail SC",
+        "US Boulogne",
+        "Olympique Lyonnais"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Yaya Touré played for?",
+      "choices": {
+        "A": "Uruguay Olympic football team",
+        "B": "Qingdao F.C.",
+        "C": "Al-Duhail SC",
+        "D": "Club Atlético Osasuna"
+      },
+      "correct_answer": "B",
+      "correct_club_info": {
+        "name": "Qingdao F.C.",
+        "id": "Q3866968",
+        "start_year": 2019,
+        "end_year": 2019,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Yaya Touré",
+        "id": "Q184277",
+        "total_clubs": 8
+      },
+      "distractors": [
+        "Al-Duhail SC",
+        "Club Atlético Osasuna",
+        "Uruguay Olympic football team"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Mohamed Salah played for?",
+      "choices": {
+        "A": "A.S. Roma",
+        "B": "Southampton F.C.",
+        "C": "Olympiacos F.C.",
+        "D": "FC Barcelona Atlètic"
+      },
+      "correct_answer": "A",
+      "correct_club_info": {
+        "name": "A.S. Roma",
+        "id": "Q2739",
+        "start_year": 2015,
+        "end_year": 2016,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Mohamed Salah",
+        "id": "Q1354960",
+        "total_clubs": 7
+      },
+      "distractors": [
+        "FC Barcelona Atlètic",
+        "Olympiacos F.C.",
+        "Southampton F.C."
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Raheem Sterling played for?",
+      "choices": {
+        "A": "Valencia CF Mestalla",
+        "B": "Club de Fútbol Monterrey",
+        "C": "Chelsea F.C.",
+        "D": "Los Angeles FC"
+      },
+      "correct_answer": "C",
+      "correct_club_info": {
+        "name": "Chelsea F.C.",
+        "id": "Q9616",
+        "start_year": 2022,
+        "end_year": null,
+        "is_current": true
+      },
+      "player_info": {
+        "name": "Raheem Sterling",
+        "id": "Q312157",
+        "total_clubs": 4
+      },
+      "distractors": [
+        "Valencia CF Mestalla",
+        "Los Angeles FC",
+        "Club de Fútbol Monterrey"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has David Alaba played for?",
+      "choices": {
+        "A": "Feyenoord Rotterdam",
+        "B": "FK Austria Wien",
+        "C": "LA Galaxy",
+        "D": "Levante UD"
+      },
+      "correct_answer": "B",
+      "correct_club_info": {
+        "name": "FK Austria Wien",
+        "id": "Q131209",
+        "start_year": 2002,
+        "end_year": 2008,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "David Alaba",
+        "id": "Q31981",
+        "total_clubs": 5
+      },
+      "distractors": [
+        "Feyenoord Rotterdam",
+        "LA Galaxy",
+        "Levante UD"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Bastian Schweinsteiger played for?",
+      "choices": {
+        "A": "AS Monaco FC",
+        "B": "Club Atlético Vélez Sarsfield",
+        "C": "FC Bayern Munich",
+        "D": "Real Sociedad"
+      },
+      "correct_answer": "C",
+      "correct_club_info": {
+        "name": "FC Bayern Munich",
+        "id": "Q15789",
+        "start_year": 2002,
+        "end_year": 2015,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Bastian Schweinsteiger",
+        "id": "Q44298",
+        "total_clubs": 4
+      },
+      "distractors": [
+        "Club Atlético Vélez Sarsfield",
+        "AS Monaco FC",
+        "Real Sociedad"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has James Rodríguez played for?",
+      "choices": {
+        "A": "Treviso F.B.C. 1993",
+        "B": "Albacete Balompié",
+        "C": "FC Sochaux-Montbéliard",
+        "D": "Everton F.C."
+      },
+      "correct_answer": "D",
+      "correct_club_info": {
+        "name": "Everton F.C.",
+        "id": "Q5794",
+        "start_year": 2020,
+        "end_year": 2021,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "James Rodríguez",
+        "id": "Q368441",
+        "total_clubs": 12
+      },
+      "distractors": [
+        "Albacete Balompié",
+        "FC Sochaux-Montbéliard",
+        "Treviso F.B.C. 1993"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Carlos Tevez played for?",
+      "choices": {
+        "A": "LA Galaxy",
+        "B": "Shanghai Shenhua F.C.",
+        "C": "Stade Rennais F.C.",
+        "D": "Club Atlético Vélez Sarsfield"
+      },
+      "correct_answer": "B",
+      "correct_club_info": {
+        "name": "Shanghai Shenhua F.C.",
+        "id": "Q725367",
+        "start_year": 2017,
+        "end_year": 2017,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Carlos Tevez",
+        "id": "Q50600",
+        "total_clubs": 10
+      },
+      "distractors": [
+        "LA Galaxy",
+        "Stade Rennais F.C.",
+        "Club Atlético Vélez Sarsfield"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Radamel Falcao played for?",
+      "choices": {
+        "A": "Portugal Olympic football team",
+        "B": "Club Atlético River Plate",
+        "C": "Newell's Old Boys",
+        "D": "Royal Antwerp F.C."
+      },
+      "correct_answer": "B",
+      "correct_club_info": {
+        "name": "Club Atlético River Plate",
+        "id": "Q15799",
+        "start_year": 2005,
+        "end_year": 2009,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Radamel Falcao",
+        "id": "Q138172",
+        "total_clubs": 10
+      },
+      "distractors": [
+        "Royal Antwerp F.C.",
+        "Portugal Olympic football team",
+        "Newell's Old Boys"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Leon Goretzka played for?",
+      "choices": {
+        "A": "ACF Fiorentina",
+        "B": "FC Barcelona C",
+        "C": "FC Schalke 04 II",
+        "D": "Borussia Mönchengladbach"
+      },
+      "correct_answer": "C",
+      "correct_club_info": {
+        "name": "FC Schalke 04 II",
+        "id": "Q3736767",
+        "start_year": 2015,
+        "end_year": 2015,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Leon Goretzka",
+        "id": "Q520721",
+        "total_clubs": 4
+      },
+      "distractors": [
+        "ACF Fiorentina",
+        "Borussia Mönchengladbach",
+        "FC Barcelona C"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Andrea Barzagli played for?",
+      "choices": {
+        "A": "Rayo Vallecano",
+        "B": "San Frediano Rondinella S.S.",
+        "C": "Al Sadd Sports Club",
+        "D": "Cagliari Calcio"
+      },
+      "correct_answer": "B",
+      "correct_club_info": {
+        "name": "San Frediano Rondinella S.S.",
+        "id": "Q4006951",
+        "start_year": 1998,
+        "end_year": 2000,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Andrea Barzagli",
+        "id": "Q107051",
+        "total_clubs": 9
+      },
+      "distractors": [
+        "Cagliari Calcio",
+        "Al Sadd Sports Club",
+        "Rayo Vallecano"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has David Silva played for?",
+      "choices": {
+        "A": "Valencia CF Mestalla",
+        "B": "SS Lazio",
+        "C": "Olympique Lyonnais",
+        "D": "Club Social y Deportivo Colo Colo"
+      },
+      "correct_answer": "A",
+      "correct_club_info": {
+        "name": "Valencia CF Mestalla",
+        "id": "Q918044",
+        "start_year": 2003,
+        "end_year": 2004,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "David Silva",
+        "id": "Q161069",
+        "total_clubs": 6
+      },
+      "distractors": [
+        "Olympique Lyonnais",
+        "SS Lazio",
+        "Club Social y Deportivo Colo Colo"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Toni Kroos played for?",
+      "choices": {
+        "A": "Club Atlético Vélez Sarsfield",
+        "B": "Juventus FC",
+        "C": "Club Atlético Osasuna",
+        "D": "FC Bayern Munich"
+      },
+      "correct_answer": "D",
+      "correct_club_info": {
+        "name": "FC Bayern Munich",
+        "id": "Q15789",
+        "start_year": 2007,
+        "end_year": 2014,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Toni Kroos",
+        "id": "Q131234",
+        "total_clubs": 3
+      },
+      "distractors": [
+        "Juventus FC",
+        "Club Atlético Vélez Sarsfield",
+        "Club Atlético Osasuna"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Marco Reus played for?",
+      "choices": {
+        "A": "R.S.C. Anderlecht",
+        "B": "Club Atlético Osasuna",
+        "C": "LA Galaxy",
+        "D": "Udinese Calcio"
+      },
+      "correct_answer": "C",
+      "correct_club_info": {
+        "name": "LA Galaxy",
+        "id": "Q204357",
+        "start_year": 2024,
+        "end_year": null,
+        "is_current": true
+      },
+      "player_info": {
+        "name": "Marco Reus",
+        "id": "Q152377",
+        "total_clubs": 4
+      },
+      "distractors": [
+        "Udinese Calcio",
+        "Club Atlético Osasuna",
+        "R.S.C. Anderlecht"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Claudio Marchisio played for?",
+      "choices": {
+        "A": "Clube de Regatas do Flamengo",
+        "B": "Juventus FC",
+        "C": "CR Vasco da Gama",
+        "D": "VfB Stuttgart II"
+      },
+      "correct_answer": "B",
+      "correct_club_info": {
+        "name": "Juventus FC",
+        "id": "Q1422",
+        "start_year": 2005,
+        "end_year": 2018,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Claudio Marchisio",
+        "id": "Q179995",
+        "total_clubs": 3
+      },
+      "distractors": [
+        "CR Vasco da Gama",
+        "Clube de Regatas do Flamengo",
+        "VfB Stuttgart II"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Kylian Mbappé played for?",
+      "choices": {
+        "A": "Tottenham Hotspur F.C.",
+        "B": "FC Bayern Munich",
+        "C": "Paris Saint-Germain FC",
+        "D": "Eintracht Frankfurt"
+      },
+      "correct_answer": "C",
+      "correct_club_info": {
+        "name": "Paris Saint-Germain FC",
+        "id": "Q483020",
+        "start_year": 2017,
+        "end_year": 2018,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Kylian Mbappé",
+        "id": "Q21621995",
+        "total_clubs": 5
+      },
+      "distractors": [
+        "FC Bayern Munich",
+        "Tottenham Hotspur F.C.",
+        "Eintracht Frankfurt"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Gianluigi Donnarumma played for?",
+      "choices": {
+        "A": "Málaga CF",
+        "B": "AC Milan",
+        "C": "Los Angeles FC",
+        "D": "SBV Vitesse"
+      },
+      "correct_answer": "B",
+      "correct_club_info": {
+        "name": "AC Milan",
+        "id": "Q1543",
+        "start_year": 2015,
+        "end_year": 2021,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Gianluigi Donnarumma",
+        "id": "Q20830808",
+        "total_clubs": 2
+      },
+      "distractors": [
+        "SBV Vitesse",
+        "Los Angeles FC",
+        "Málaga CF"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Lautaro Martínez played for?",
+      "choices": {
+        "A": "Inter Milan",
+        "B": "ACF Fiorentina",
+        "C": "Club Atlético Rosario Central",
+        "D": "Feyenoord Rotterdam"
+      },
+      "correct_answer": "A",
+      "correct_club_info": {
+        "name": "Inter Milan",
+        "id": "Q631",
+        "start_year": 2018,
+        "end_year": null,
+        "is_current": true
+      },
+      "player_info": {
+        "name": "Lautaro Martínez",
+        "id": "Q21484126",
+        "total_clubs": 2
+      },
+      "distractors": [
+        "ACF Fiorentina",
+        "Club Atlético Rosario Central",
+        "Feyenoord Rotterdam"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Arturo Vidal played for?",
+      "choices": {
+        "A": "Al Hilal SFC",
+        "B": "E.C. Vitória",
+        "C": "Pedrabranca Futebol Clube",
+        "D": "Inter Milan"
+      },
+      "correct_answer": "D",
+      "correct_club_info": {
+        "name": "Inter Milan",
+        "id": "Q631",
+        "start_year": 2020,
+        "end_year": 2022,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Arturo Vidal",
+        "id": "Q192671",
+        "total_clubs": 9
+      },
+      "distractors": [
+        "E.C. Vitória",
+        "Pedrabranca Futebol Clube",
+        "Al Hilal SFC"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Wayne Rooney played for?",
+      "choices": {
+        "A": "Everton F.C.",
+        "B": "Los Angeles FC",
+        "C": "Rayo Vallecano",
+        "D": "Atlético de Madrid"
+      },
+      "correct_answer": "A",
+      "correct_club_info": {
+        "name": "Everton F.C.",
+        "id": "Q5794",
+        "start_year": 2017,
+        "end_year": 2018,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Wayne Rooney",
+        "id": "Q266613",
+        "total_clubs": 5
+      },
+      "distractors": [
+        "Los Angeles FC",
+        "Atlético de Madrid",
+        "Rayo Vallecano"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Robert Lewandowski played for?",
+      "choices": {
+        "A": "Boca Juniors",
+        "B": "Olympiacos F.C.",
+        "C": "Lech Poznań",
+        "D": "Valencia CF"
+      },
+      "correct_answer": "C",
+      "correct_club_info": {
+        "name": "Lech Poznań",
+        "id": "Q52942",
+        "start_year": 2008,
+        "end_year": 2010,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Robert Lewandowski",
+        "id": "Q151269",
+        "total_clubs": 5
+      },
+      "distractors": [
+        "Valencia CF",
+        "Boca Juniors",
+        "Olympiacos F.C."
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Toby Alderweireld played for?",
+      "choices": {
+        "A": "FC Red Bull Salzburg",
+        "B": "Atlético de Madrid",
+        "C": "Fluminense F.C.",
+        "D": "Arsenal F.C."
+      },
+      "correct_answer": "B",
+      "correct_club_info": {
+        "name": "Atlético de Madrid",
+        "id": "Q8701",
+        "start_year": 2013,
+        "end_year": 2015,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Toby Alderweireld",
+        "id": "Q128840",
+        "total_clubs": 6
+      },
+      "distractors": [
+        "Fluminense F.C.",
+        "FC Red Bull Salzburg",
+        "Arsenal F.C."
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Ousmane Dembélé played for?",
+      "choices": {
+        "A": "FC Sochaux-Montbéliard",
+        "B": "FC Barcelona",
+        "C": "Club Athletico Paranaense",
+        "D": "Osasuna B"
+      },
+      "correct_answer": "B",
+      "correct_club_info": {
+        "name": "FC Barcelona",
+        "id": "Q7156",
+        "start_year": 2017,
+        "end_year": 2023,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Ousmane Dembélé",
+        "id": "Q20851003",
+        "total_clubs": 4
+      },
+      "distractors": [
+        "Club Athletico Paranaense",
+        "FC Sochaux-Montbéliard",
+        "Osasuna B"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Mike Maignan played for?",
+      "choices": {
+        "A": "TSG 1899 Hoffenheim",
+        "B": "Treviso F.B.C. 1993",
+        "C": "Arsenal F.C.",
+        "D": "Lille OSC"
+      },
+      "correct_answer": "D",
+      "correct_club_info": {
+        "name": "Lille OSC",
+        "id": "Q19516",
+        "start_year": 2015,
+        "end_year": null,
+        "is_current": true
+      },
+      "player_info": {
+        "name": "Mike Maignan",
+        "id": "Q17274709",
+        "total_clubs": 1
+      },
+      "distractors": [
+        "TSG 1899 Hoffenheim",
+        "Arsenal F.C.",
+        "Treviso F.B.C. 1993"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Zlatan Ibrahimović played for?",
+      "choices": {
+        "A": "Lille OSC",
+        "B": "Juventus FC",
+        "C": "Athletic Club",
+        "D": "Udinese Calcio"
+      },
+      "correct_answer": "B",
+      "correct_club_info": {
+        "name": "Juventus FC",
+        "id": "Q1422",
+        "start_year": 2004,
+        "end_year": 2006,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Zlatan Ibrahimović",
+        "id": "Q46896",
+        "total_clubs": 10
+      },
+      "distractors": [
+        "Athletic Club",
+        "Udinese Calcio",
+        "Lille OSC"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Jordan Henderson played for?",
+      "choices": {
+        "A": "Inter Miami CF",
+        "B": "Parma Calcio 1913",
+        "C": "Al-Ettifaq FC",
+        "D": "Feyenoord Rotterdam"
+      },
+      "correct_answer": "C",
+      "correct_club_info": {
+        "name": "Al-Ettifaq FC",
+        "id": "Q72844",
+        "start_year": 2023,
+        "end_year": 2024,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Jordan Henderson",
+        "id": "Q273715",
+        "total_clubs": 6
+      },
+      "distractors": [
+        "Parma Calcio 1913",
+        "Feyenoord Rotterdam",
+        "Inter Miami CF"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has N'Golo Kanté played for?",
+      "choices": {
+        "A": "Manchester United F.C.",
+        "B": "US Boulogne",
+        "C": "Inter Miami CF",
+        "D": "Genoa CFC"
+      },
+      "correct_answer": "B",
+      "correct_club_info": {
+        "name": "US Boulogne",
+        "id": "Q309400",
+        "start_year": 2011,
+        "end_year": 2013,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "N'Golo Kanté",
+        "id": "Q16665941",
+        "total_clubs": 5
+      },
+      "distractors": [
+        "Genoa CFC",
+        "Inter Miami CF",
+        "Manchester United F.C."
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Joshua Kimmich played for?",
+      "choices": {
+        "A": "Atlético de Madrid",
+        "B": "FC Red Bull Salzburg",
+        "C": "FC Bayern Munich",
+        "D": "GNK Dinamo Zagreb"
+      },
+      "correct_answer": "C",
+      "correct_club_info": {
+        "name": "FC Bayern Munich",
+        "id": "Q15789",
+        "start_year": 2015,
+        "end_year": null,
+        "is_current": true
+      },
+      "player_info": {
+        "name": "Joshua Kimmich",
+        "id": "Q13865408",
+        "total_clubs": 2
+      },
+      "distractors": [
+        "FC Red Bull Salzburg",
+        "GNK Dinamo Zagreb",
+        "Atlético de Madrid"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Bukayo Saka played for?",
+      "choices": {
+        "A": "FC Basel",
+        "B": "VfL Wolfsburg",
+        "C": "Arsenal F.C.",
+        "D": "Club Athletico Paranaense"
+      },
+      "correct_answer": "C",
+      "correct_club_info": {
+        "name": "Arsenal F.C.",
+        "id": "Q9617",
+        "start_year": 2018,
+        "end_year": null,
+        "is_current": true
+      },
+      "player_info": {
+        "name": "Bukayo Saka",
+        "id": "Q59306386",
+        "total_clubs": 1
+      },
+      "distractors": [
+        "FC Basel",
+        "VfL Wolfsburg",
+        "Club Athletico Paranaense"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Miranda (footballer, born 1984) played for?",
+      "choices": {
+        "A": "Feyenoord Rotterdam",
+        "B": "Esporte Clube Juventude",
+        "C": "Jiangsu F.C.",
+        "D": "Beşiktaş J.K."
+      },
+      "correct_answer": "C",
+      "correct_club_info": {
+        "name": "Jiangsu F.C.",
+        "id": "Q925648",
+        "start_year": 2019,
+        "end_year": 2020,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Miranda (footballer, born 1984)",
+        "id": "Q318119",
+        "total_clubs": 7
+      },
+      "distractors": [
+        "Beşiktaş J.K.",
+        "Feyenoord Rotterdam",
+        "Esporte Clube Juventude"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Fabinho (footballer, born 1993) played for?",
+      "choices": {
+        "A": "Al-Duhail SC",
+        "B": "Levante UD",
+        "C": "S.L. Benfica",
+        "D": "Real Madrid CF"
+      },
+      "correct_answer": "D",
+      "correct_club_info": {
+        "name": "Real Madrid CF",
+        "id": "Q8682",
+        "start_year": 2013,
+        "end_year": 2013,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Fabinho (footballer, born 1993)",
+        "id": "Q641425",
+        "total_clubs": 8
+      },
+      "distractors": [
+        "Al-Duhail SC",
+        "Levante UD",
+        "S.L. Benfica"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Luka Modrić played for?",
+      "choices": {
+        "A": "S.L. Benfica B",
+        "B": "AC Milan",
+        "C": "AFC Ajax",
+        "D": "SSC Napoli"
+      },
+      "correct_answer": "B",
+      "correct_club_info": {
+        "name": "AC Milan",
+        "id": "Q1543",
+        "start_year": 2025,
+        "end_year": null,
+        "is_current": true
+      },
+      "player_info": {
+        "name": "Luka Modrić",
+        "id": "Q483837",
+        "total_clubs": 6
+      },
+      "distractors": [
+        "SSC Napoli",
+        "AFC Ajax",
+        "S.L. Benfica B"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Petr Čech played for?",
+      "choices": {
+        "A": "Stade Rennais F.C.",
+        "B": "Albacete Balompié",
+        "C": "A.S. Roma",
+        "D": "Valencia CF Mestalla"
+      },
+      "correct_answer": "A",
+      "correct_club_info": {
+        "name": "Stade Rennais F.C.",
+        "id": "Q19509",
+        "start_year": 2002,
+        "end_year": 2004,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Petr Čech",
+        "id": "Q483137",
+        "total_clubs": 5
+      },
+      "distractors": [
+        "Valencia CF Mestalla",
+        "Albacete Balompié",
+        "A.S. Roma"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Lionel Messi played for?",
+      "choices": {
+        "A": "Al Qadsiah FC",
+        "B": "Paris Saint-Germain FC",
+        "C": "Real Sociedad",
+        "D": "Los Angeles FC"
+      },
+      "correct_answer": "B",
+      "correct_club_info": {
+        "name": "Paris Saint-Germain FC",
+        "id": "Q483020",
+        "start_year": 2021,
+        "end_year": 2023,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Lionel Messi",
+        "id": "Q615",
+        "total_clubs": 6
+      },
+      "distractors": [
+        "Real Sociedad",
+        "Los Angeles FC",
+        "Al Qadsiah FC"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Wojciech Szczęsny played for?",
+      "choices": {
+        "A": "Osasuna B",
+        "B": "San Frediano Rondinella S.S.",
+        "C": "Santos F.C.",
+        "D": "Arsenal F.C."
+      },
+      "correct_answer": "D",
+      "correct_club_info": {
+        "name": "Arsenal F.C.",
+        "id": "Q9617",
+        "start_year": 2006,
+        "end_year": 2017,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Wojciech Szczęsny",
+        "id": "Q188997",
+        "total_clubs": 5
+      },
+      "distractors": [
+        "Santos F.C.",
+        "San Frediano Rondinella S.S.",
+        "Osasuna B"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Manuel Neuer played for?",
+      "choices": {
+        "A": "Schalke 04",
+        "B": "Club Atlético Osasuna",
+        "C": "Al-Duhail SC",
+        "D": "Galatasaray S.K."
+      },
+      "correct_answer": "A",
+      "correct_club_info": {
+        "name": "Schalke 04",
+        "id": "Q32494",
+        "start_year": 2006,
+        "end_year": 2011,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Manuel Neuer",
+        "id": "Q107365",
+        "total_clubs": 3
+      },
+      "distractors": [
+        "Galatasaray S.K.",
+        "Al-Duhail SC",
+        "Club Atlético Osasuna"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Édouard Mendy played for?",
+      "choices": {
+        "A": "A.S. Roma",
+        "B": "Piacenza Calcio",
+        "C": "Stade de Reims",
+        "D": "Royal Antwerp F.C."
+      },
+      "correct_answer": "C",
+      "correct_club_info": {
+        "name": "Stade de Reims",
+        "id": "Q208228",
+        "start_year": 2016,
+        "end_year": 2019,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Édouard Mendy",
+        "id": "Q27736107",
+        "total_clubs": 6
+      },
+      "distractors": [
+        "A.S. Roma",
+        "Piacenza Calcio",
+        "Royal Antwerp F.C."
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Thibaut Courtois played for?",
+      "choices": {
+        "A": "FC Groningen",
+        "B": "FC Barcelona",
+        "C": "Chelsea F.C.",
+        "D": "Manchester City F.C."
+      },
+      "correct_answer": "C",
+      "correct_club_info": {
+        "name": "Chelsea F.C.",
+        "id": "Q9616",
+        "start_year": 2011,
+        "end_year": 2018,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Thibaut Courtois",
+        "id": "Q73360",
+        "total_clubs": 4
+      },
+      "distractors": [
+        "Manchester City F.C.",
+        "FC Groningen",
+        "FC Barcelona"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Gerard Piqué played for?",
+      "choices": {
+        "A": "Manchester United F.C.",
+        "B": "FC Basel",
+        "C": "Club Atlético Vélez Sarsfield",
+        "D": "Osasuna B"
+      },
+      "correct_answer": "A",
+      "correct_club_info": {
+        "name": "Manchester United F.C.",
+        "id": "Q18656",
+        "start_year": 2004,
+        "end_year": 2008,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Gerard Piqué",
+        "id": "Q17507",
+        "total_clubs": 5
+      },
+      "distractors": [
+        "Osasuna B",
+        "FC Basel",
+        "Club Atlético Vélez Sarsfield"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Dani Carvajal played for?",
+      "choices": {
+        "A": "Manchester United F.C.",
+        "B": "FC Barcelona Atlètic",
+        "C": "E.C. Vitória",
+        "D": "Real Madrid CF"
+      },
+      "correct_answer": "D",
+      "correct_club_info": {
+        "name": "Real Madrid CF",
+        "id": "Q8682",
+        "start_year": 2013,
+        "end_year": null,
+        "is_current": true
+      },
+      "player_info": {
+        "name": "Dani Carvajal",
+        "id": "Q127452",
+        "total_clubs": 3
+      },
+      "distractors": [
+        "E.C. Vitória",
+        "FC Barcelona Atlètic",
+        "Manchester United F.C."
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Sergej Milinković-Savić played for?",
+      "choices": {
+        "A": "Atlético de Madrid",
+        "B": "SBV Vitesse",
+        "C": "K.R.C. Genk",
+        "D": "São Paulo FC"
+      },
+      "correct_answer": "C",
+      "correct_club_info": {
+        "name": "K.R.C. Genk",
+        "id": "Q216032",
+        "start_year": 2014,
+        "end_year": 2015,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Sergej Milinković-Savić",
+        "id": "Q15673000",
+        "total_clubs": 4
+      },
+      "distractors": [
+        "SBV Vitesse",
+        "São Paulo FC",
+        "Atlético de Madrid"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Koen Casteels played for?",
+      "choices": {
+        "A": "Real Betis Balompié",
+        "B": "A.S. Roma",
+        "C": "West Ham United F.C.",
+        "D": "K.R.C. Genk"
+      },
+      "correct_answer": "D",
+      "correct_club_info": {
+        "name": "K.R.C. Genk",
+        "id": "Q216032",
+        "start_year": 2009,
+        "end_year": 2011,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Koen Casteels",
+        "id": "Q1756556",
+        "total_clubs": 5
+      },
+      "distractors": [
+        "A.S. Roma",
+        "West Ham United F.C.",
+        "Real Betis Balompié"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has Radja Nainggolan played for?",
+      "choices": {
+        "A": "Athletic Club",
+        "B": "Feyenoord Rotterdam",
+        "C": "RB Leipzig",
+        "D": "A.S. Roma"
+      },
+      "correct_answer": "D",
+      "correct_club_info": {
+        "name": "A.S. Roma",
+        "id": "Q2739",
+        "start_year": 2014,
+        "end_year": 2018,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "Radja Nainggolan",
+        "id": "Q517192",
+        "total_clubs": 12
+      },
+      "distractors": [
+        "RB Leipzig",
+        "Feyenoord Rotterdam",
+        "Athletic Club"
+      ],
+      "question_type": "player_team_affiliation"
+    },
+    {
+      "question": "Which team has César Azpilicueta played for?",
+      "choices": {
+        "A": "Boca Juniors",
+        "B": "Fenerbahçe Istanbul",
+        "C": "Club Atlético Osasuna",
+        "D": "Villarreal CF"
+      },
+      "correct_answer": "C",
+      "correct_club_info": {
+        "name": "Club Atlético Osasuna",
+        "id": "Q10286",
+        "start_year": 2001,
+        "end_year": 2006,
+        "is_current": false
+      },
+      "player_info": {
+        "name": "César Azpilicueta",
+        "id": "Q294806",
+        "total_clubs": 6
+      },
+      "distractors": [
+        "Villarreal CF",
+        "Fenerbahçe Istanbul",
+        "Boca Juniors"
+      ],
+      "question_type": "player_team_affiliation"
+    }
+  ]
+}

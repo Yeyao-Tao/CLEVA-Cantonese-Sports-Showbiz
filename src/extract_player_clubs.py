@@ -168,7 +168,7 @@ def analyze_clubs_in_directory(directory_path: str) -> None:
 
 if __name__ == "__main__":
     # Example usage with the current workspace
-    directory_path = "/Users/taoyeyao/workplace/CLEVA-Cantonese/data/intermediate/football_players_triples"
+    directory_path = "./data/intermediate/football_players_triples"
     
     if os.path.exists(directory_path):
         analyze_clubs_in_directory(directory_path)

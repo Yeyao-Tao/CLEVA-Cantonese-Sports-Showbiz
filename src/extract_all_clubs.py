@@ -458,7 +458,7 @@ def analyze_single_player(file_path: str) -> None:
 
 
 if __name__ == "__main__":
-    directory_path = "/Users/taoyeyao/workplace/CLEVA-Cantonese/data/intermediate/football_players_triples"
+    directory_path = "./data/intermediate/football_players_triples"
     
     if not os.path.exists(directory_path):
         print(f"Directory not found: {directory_path}")
@@ -488,7 +488,7 @@ if __name__ == "__main__":
     }
     
     # Write to JSON file
-    output_file = "/Users/taoyeyao/workplace/CLEVA-Cantonese/data/intermediate/football_players_clubs_complete.json"
+    output_file = "./data/intermediate/football_players_clubs_complete.json"
     print(f"Writing complete data to {output_file}...")
     
     with open(output_file, 'w', encoding='utf-8') as f:
@@ -516,7 +516,7 @@ if __name__ == "__main__":
         'sample_teammates': teammates[:20]  # First 20 teammate pairs
     }
     
-    summary_file = "/Users/taoyeyao/workplace/CLEVA-Cantonese/data/intermediate/football_players_summary.json"
+    summary_file = "./data/intermediate/football_players_summary.json"
     print(f"Writing summary to {summary_file}...")
     
     with open(summary_file, 'w', encoding='utf-8') as f:

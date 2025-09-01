@@ -36,7 +36,7 @@ def get_football_clubs_only(player_data: Dict[str, Any]) -> List[Dict[str, Any]]
     return clubs
 
 
-def get_popular_clubs(all_data: Dict[str, Any], min_players: int = 3) -> List[Dict[str, Any]]:
+def get_popular_clubs(all_data: Dict[str, Any], min_players: int) -> List[Dict[str, Any]]:
     """Get clubs that have had multiple players (good for distractors)."""
     club_to_players = all_data.get('club_to_players_mapping', {})
     popular_clubs = []
@@ -134,13 +134,11 @@ def generate_multiple_questions(all_data: Dict[str, Any],
     """Generate multiple team affiliation questions."""
     
     players = all_data.get('players', {})
-    popular_clubs = get_popular_clubs(all_data, min_players=2)
+    popular_clubs = get_popular_clubs(all_data, min_players=5)
     
     print(f"Found {len(popular_clubs)} popular clubs for distractors")
     
     questions = []
-    attempts = 0
-    max_attempts = num_questions * 5  # Prevent infinite loop
     
     # Get players with multiple football clubs (more interesting questions)
     eligible_players = []
@@ -150,21 +148,13 @@ def generate_multiple_questions(all_data: Dict[str, Any],
             eligible_players.append((player_id, player_data))
     
     print(f"Found {len(eligible_players)} eligible players")
-    
-    while len(questions) < num_questions and attempts < max_attempts:
-        attempts += 1
-        
-        # Randomly select a player
-        player_id, player_data = random.choice(eligible_players)
-        
-        # Generate question
+
+    for player in eligible_players:
+        player_id, player_data = player
         question = generate_team_question(player_id, player_data, popular_clubs)
-        
         if question:
-            # Avoid duplicate players (for variety)
-            if not any(q['player_info']['id'] == player_id for q in questions):
-                questions.append(question)
-    
+            questions.append(question)
+
     return questions
 
 

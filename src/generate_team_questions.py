@@ -66,6 +66,32 @@ def get_popular_clubs(all_data: Dict[str, Any], min_players: int) -> List[Dict[s
     return popular_clubs
 
 
+def calculate_club_tenure(club: Dict[str, Any]) -> int:
+    """Calculate the tenure (in years) for a club. Returns 0 if dates are missing."""
+    start_year = club.get('start_year')
+    end_year = club.get('end_year')
+    
+    if start_year is None:
+        return 0
+    
+    # If end_year is None, assume it's a current club and use current year (2025)
+    if end_year is None:
+        end_year = 2025
+    
+    # Ensure we don't have negative tenure
+    return max(0, end_year - start_year)
+
+
+def get_longest_tenure_club(player_clubs: List[Dict[str, Any]]) -> Dict[str, Any]:
+    """Get the club where the player had the longest tenure."""
+    if not player_clubs:
+        return None
+    
+    # Calculate tenure for each club and find the one with maximum tenure
+    club_with_max_tenure = max(player_clubs, key=calculate_club_tenure)
+    return club_with_max_tenure
+
+
 def generate_team_question(player_id: str, player_data: Dict[str, Any], 
                           popular_clubs: List[Dict[str, Any]]) -> Dict[str, Any]:
     """Generate a multiple-choice question about which team a player has played for."""
@@ -76,9 +102,13 @@ def generate_team_question(player_id: str, player_data: Dict[str, Any],
     if not player_clubs:
         return None
     
-    # Choose a correct answer (one of the clubs the player actually played for)
-    correct_club = random.choice(player_clubs)
+    # Choose the club where the player had the longest tenure
+    correct_club = get_longest_tenure_club(player_clubs)
+    if not correct_club:
+        return None
+        
     correct_answer = correct_club['name']
+    tenure_years = calculate_club_tenure(correct_club)
     
     # Generate 3 incorrect options from popular clubs
     player_club_ids = {club['club_id'] for club in player_clubs}
@@ -115,7 +145,9 @@ def generate_team_question(player_id: str, player_data: Dict[str, Any],
             'id': correct_club['club_id'],
             'start_year': correct_club.get('start_year'),
             'end_year': correct_club.get('end_year'),
-            'is_current': correct_club.get('is_current', False)
+            'tenure_years': tenure_years,
+            'is_current': correct_club.get('is_current', False),
+            'selection_reason': 'longest_tenure'
         },
         'player_info': {
             'name': player_name,
@@ -177,6 +209,7 @@ def save_questions(questions: List[Dict[str, Any]], output_file: str):
             'description': 'Multiple-choice questions about football player team affiliations',
             'purpose': 'Cantonese benchmark for testing LLM understanding of football terminology',
             'question_type': 'player_team_affiliation',
+            'club_selection_method': 'longest_tenure',
             'total_questions': len(questions),
             'generation_date': datetime.now().isoformat(),
             'format': 'Four choices (A, B, C, D) with one correct answer'
@@ -219,13 +252,13 @@ if __name__ == "__main__":
         print(format_question_for_display(question))
         print(f"Correct Answer: {question['correct_answer']}")
         print(f"Player: {question['player_info']['name']} ({question['player_info']['total_clubs']} clubs)")
-        print(f"Correct Club: {question['correct_club_info']['name']}")
+        print(f"Correct Club: {question['correct_club_info']['name']} ({question['correct_club_info']['tenure_years']} years)")
         if question['correct_club_info']['is_current']:
-            print("  → Current club")
+            print("  → Current club (longest tenure)")
         else:
             start = question['correct_club_info']['start_year'] or "?"
             end = question['correct_club_info']['end_year'] or "?"
-            print(f"  → Former club ({start}-{end})")
+            print(f"  → Former club ({start}-{end}, longest tenure)")
     
     print(f"\n✓ All {len(questions)} questions saved to {output_file}")
     print("✓ Ready for Cantonese benchmark construction!")

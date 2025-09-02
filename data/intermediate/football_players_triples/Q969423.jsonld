@@ -5505,19 +5505,15 @@
       "@type": "wikibase:Item",
       "label": {
         "@language": "en",
-        "@value": "Cartago"
+        "@value": "Cartago, Costa Rica"
       },
       "prefLabel": {
         "@language": "en",
-        "@value": "Cartago"
+        "@value": "Cartago, Costa Rica"
       },
       "name": {
         "@language": "en",
-        "@value": "Cartago"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "city in Costa Rica"
+        "@value": "Cartago, Costa Rica"
       }
     },
     {

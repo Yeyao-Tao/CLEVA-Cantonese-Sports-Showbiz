@@ -17311,18 +17311,36 @@
     {
       "@id": "wd:Q9022830",
       "@type": "wikibase:Item",
-      "label": {
-        "@language": "mul",
-        "@value": "Lionel"
-      },
-      "prefLabel": {
-        "@language": "mul",
-        "@value": "Lionel"
-      },
-      "name": {
-        "@language": "mul",
-        "@value": "Lionel"
-      },
+      "label": [
+        {
+          "@language": "en",
+          "@value": "Lionel"
+        },
+        {
+          "@language": "mul",
+          "@value": "Lionel"
+        }
+      ],
+      "prefLabel": [
+        {
+          "@language": "en",
+          "@value": "Lionel"
+        },
+        {
+          "@language": "mul",
+          "@value": "Lionel"
+        }
+      ],
+      "name": [
+        {
+          "@language": "en",
+          "@value": "Lionel"
+        },
+        {
+          "@language": "mul",
+          "@value": "Lionel"
+        }
+      ],
       "description": {
         "@language": "en",
         "@value": "male given name"
@@ -29708,7 +29726,7 @@
       },
       "description": {
         "@language": "en",
-        "@value": "identifier for an article in the online version of Encyclopedia of China (Third Edition)"
+        "@value": "identifier for an article in the online version of Encyclopedia of China (third edition)"
       },
       "propertyType": "http://wikiba.se/ontology#ExternalId",
       "directClaim": "wdt:P10565",
@@ -36848,7 +36866,7 @@
       },
       "description": {
         "@language": "en",
-        "@value": "identifier for an athlete at Global Sports Archive"
+        "@value": "identifier for an athlete at the Global Sports Archive website"
       },
       "propertyType": "http://wikiba.se/ontology#ExternalId",
       "directClaim": "wdt:P11963",

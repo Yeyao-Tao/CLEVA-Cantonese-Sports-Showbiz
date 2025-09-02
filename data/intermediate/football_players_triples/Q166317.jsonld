@@ -6,8 +6,8 @@
       "about": "wd:Q166317",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "softwareVersion": "1.0.0",
-      "version": 2394539800,
-      "dateModified": "2025-08-20T09:47:32Z",
+      "version": 2399107253,
+      "dateModified": "2025-09-01T11:23:50Z",
       "statements": 79,
       "sitelinks": 78,
       "identifiers": 39
@@ -1210,7 +1210,7 @@
         "wd:Q6037916"
       ],
       "P2446": "206050",
-      "P18": "http://commons.wikimedia.org/wiki/Special:FilePath/2017%20FRIENDLY%20MATCH%20RUSSIA%20v%20ARGENTINA%20-%20Paulo%20Dybala%2001.jpg",
+      "P18": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%9C%D0%B0%D1%82%D1%87%20%C2%AB%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%BE%C2%BB%20-%20%C2%AB%D0%AE%D0%B2%D0%B5%D0%BD%D1%82%D1%83%D1%81%C2%BB%200-2.%2020%20%D0%BE%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8F%202020%20%D0%B3%D0%BE%D0%B4%D0%B0%20%E2%80%94%201153905%20%28cropped%29.jpg",
       "P1618": "21",
       "P2003": "paulodybala",
       "P1412": [
@@ -1638,20 +1638,9 @@
         "wikibase:BestRank"
       ],
       "rank": "wikibase:NormalRank",
-      "ps:P18": "http://commons.wikimedia.org/wiki/Special:FilePath/2017%20FRIENDLY%20MATCH%20RUSSIA%20v%20ARGENTINA%20-%20Paulo%20Dybala%2001.jpg",
-      "P585": "2017-11-11T00:00:00Z",
-      "pqv:P585": "wdv:cd2738ac5fa17b635e855dc190b5c275",
-      "P2096": [
-        {
-          "@language": "en",
-          "@value": "Dybala playing for Argentina in 2017"
-        },
-        {
-          "@language": "it",
-          "@value": "Dybala con la nazionale argentina nel 2017"
-        }
-      ],
-      "wasDerivedFrom": "wdref:24446a2e0a033f51c17159ac543457bdc094ab1f"
+      "ps:P18": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%9C%D0%B0%D1%82%D1%87%20%C2%AB%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%BE%C2%BB%20-%20%C2%AB%D0%AE%D0%B2%D0%B5%D0%BD%D1%82%D1%83%D1%81%C2%BB%200-2.%2020%20%D0%BE%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8F%202020%20%D0%B3%D0%BE%D0%B4%D0%B0%20%E2%80%94%201153905%20%28cropped%29.jpg",
+      "P585": "2020-10-20T00:00:00Z",
+      "pqv:P585": "wdv:e2bd3d24a2998d7b6f6da6e2decd7e11"
     },
     {
       "@id": "wd:Q166317",
@@ -11857,172 +11846,6 @@
       "someValuesFrom": "owl:Thing"
     },
     {
-      "@id": "wd:P2096",
-      "@type": "wikibase:Property",
-      "label": {
-        "@language": "en",
-        "@value": "media legend"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "media legend"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "media legend"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "qualifier to describe the media of the statement. This avoids legend storage in the local infobox when the media is defined at Wikidata. For the date, use P585 instead"
-      },
-      "propertyType": "http://wikiba.se/ontology#Monolingualtext",
-      "directClaim": "wdt:P2096",
-      "claim": "p:P2096",
-      "statementProperty": "ps:P2096",
-      "statementValue": "psv:P2096",
-      "qualifier": "pq:P2096",
-      "qualifierValue": "pqv:P2096",
-      "reference": "pr:P2096",
-      "referenceValue": "prv:P2096",
-      "novalue": "wdno:P2096"
-    },
-    {
-      "@id": "p:P2096",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "psv:P2096",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "pqv:P2096",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "prv:P2096",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "wdt:P2096",
-      "@type": "owl:DatatypeProperty"
-    },
-    {
-      "@id": "ps:P2096",
-      "@type": "owl:DatatypeProperty"
-    },
-    {
-      "@id": "pq:P2096",
-      "@type": "owl:DatatypeProperty"
-    },
-    {
-      "@id": "pr:P2096",
-      "@type": "owl:DatatypeProperty"
-    },
-    {
-      "@id": "wdno:P2096",
-      "@type": "owl:Class",
-      "complementOf": "_:eee70990effb4cdc5825fadd13ba0aaa"
-    },
-    {
-      "@id": "_:eee70990effb4cdc5825fadd13ba0aaa",
-      "@type": "owl:Restriction",
-      "onProperty": "wdt:P2096",
-      "someValuesFrom": "owl:Thing"
-    },
-    {
-      "@id": "wd:P6315",
-      "@type": "wikibase:Property",
-      "label": {
-        "@language": "en",
-        "@value": "PlaymakerStats.com referee ID"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "PlaymakerStats.com referee ID"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "PlaymakerStats.com referee ID"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "identifier for an association football (soccer) referee at PlaymakerStats.com (formerly TheFinalBall.com)"
-      },
-      "propertyType": "http://wikiba.se/ontology#ExternalId",
-      "directClaim": "wdt:P6315",
-      "claim": "p:P6315",
-      "statementProperty": "ps:P6315",
-      "statementValue": "psv:P6315",
-      "qualifier": "pq:P6315",
-      "qualifierValue": "pqv:P6315",
-      "reference": "pr:P6315",
-      "referenceValue": "prv:P6315",
-      "novalue": "wdno:P6315",
-      "directClaimNormalized": "wdtn:P6315",
-      "statementValueNormalized": "psn:P6315",
-      "qualifierValueNormalized": "pqn:P6315",
-      "referenceValueNormalized": "prn:P6315"
-    },
-    {
-      "@id": "p:P6315",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "psv:P6315",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "pqv:P6315",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "prv:P6315",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "wdt:P6315",
-      "@type": "owl:DatatypeProperty"
-    },
-    {
-      "@id": "ps:P6315",
-      "@type": "owl:DatatypeProperty"
-    },
-    {
-      "@id": "pq:P6315",
-      "@type": "owl:DatatypeProperty"
-    },
-    {
-      "@id": "pr:P6315",
-      "@type": "owl:DatatypeProperty"
-    },
-    {
-      "@id": "psn:P6315",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "pqn:P6315",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "prn:P6315",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "wdtn:P6315",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "wdno:P6315",
-      "@type": "owl:Class",
-      "complementOf": "_:a5ac73ab47868275ab700a3dee9f566a"
-    },
-    {
-      "@id": "_:a5ac73ab47868275ab700a3dee9f566a",
-      "@type": "owl:Restriction",
-      "onProperty": "wdt:P6315",
-      "someValuesFrom": "owl:Thing"
-    },
-    {
       "@id": "wd:Q169514",
       "@type": "wikibase:Item",
       "label": {
@@ -13073,9 +12896,9 @@
       "timeCalendarModel": "http://www.wikidata.org/entity/Q1985727"
     },
     {
-      "@id": "wdv:cd2738ac5fa17b635e855dc190b5c275",
+      "@id": "wdv:e2bd3d24a2998d7b6f6da6e2decd7e11",
       "@type": "wikibase:TimeValue",
-      "timeValue": "2017-11-11T00:00:00Z",
+      "timeValue": "2020-10-20T00:00:00Z",
       "timePrecision": 11,
       "timeTimezone": 0,
       "timeCalendarModel": "http://www.wikidata.org/entity/Q1985727"
@@ -13252,11 +13075,6 @@
       "@id": "wdref:23fc7ae3c69b64d8cb1a4c566747af6545b7a51e",
       "@type": "wikibase:Reference",
       "P143": "wd:Q2998037"
-    },
-    {
-      "@id": "wdref:24446a2e0a033f51c17159ac543457bdc094ab1f",
-      "@type": "wikibase:Reference",
-      "P6315": "999999999999999999999999999999 goals"
     },
     {
       "@id": "wdref:bd49d3e4f67bc460ce7a06b6ac3027347cf5ee55",
@@ -13860,12 +13678,6 @@
     },
     "ps:P18": {
       "@type": "@id"
-    },
-    "P2096": {
-      "@id": "pq:P2096"
-    },
-    "P6315": {
-      "@id": "pr:P6315"
     },
     "p:P1618": {
       "@type": "@id"

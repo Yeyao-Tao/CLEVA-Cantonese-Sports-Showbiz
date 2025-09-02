@@ -4126,36 +4126,18 @@
     {
       "@id": "wd:Q64",
       "@type": "wikibase:Item",
-      "label": [
-        {
-          "@language": "en",
-          "@value": "Berlin"
-        },
-        {
-          "@language": "mul",
-          "@value": "Berlin"
-        }
-      ],
-      "prefLabel": [
-        {
-          "@language": "en",
-          "@value": "Berlin"
-        },
-        {
-          "@language": "mul",
-          "@value": "Berlin"
-        }
-      ],
-      "name": [
-        {
-          "@language": "en",
-          "@value": "Berlin"
-        },
-        {
-          "@language": "mul",
-          "@value": "Berlin"
-        }
-      ],
+      "label": {
+        "@language": "en",
+        "@value": "Berlin"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Berlin"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Berlin"
+      },
       "description": {
         "@language": "en",
         "@value": "federated state, capital and largest city of Germany"
@@ -9172,7 +9154,7 @@
       ],
       "description": {
         "@language": "en",
-        "@value": "identifier for topics in the German news portal \"Der Spiegel\""
+        "@value": "identifier for topics in the German news portal “Der Spiegel”"
       },
       "propertyType": "http://wikiba.se/ontology#ExternalId",
       "directClaim": "wdt:P10234",

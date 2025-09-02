@@ -14490,7 +14490,7 @@
       ],
       "description": {
         "@language": "en",
-        "@value": "identifier for topics in the German news portal \"Der Spiegel\""
+        "@value": "identifier for topics in the German news portal “Der Spiegel”"
       },
       "propertyType": "http://wikiba.se/ontology#ExternalId",
       "directClaim": "wdt:P10234",
@@ -15048,7 +15048,7 @@
       },
       "description": {
         "@language": "en",
-        "@value": "identifier for an athlete at Global Sports Archive"
+        "@value": "identifier for an athlete at the Global Sports Archive website"
       },
       "propertyType": "http://wikiba.se/ontology#ExternalId",
       "directClaim": "wdt:P11963",

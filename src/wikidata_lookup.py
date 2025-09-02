@@ -7,6 +7,10 @@ Filters out non-people (books, trials, photos) and non-footballers by requiring:
   - (P106 (occupation) includes Q937857 association football player) OR
     (P641 (sport) includes Q2736 association football)
 
+The script now filters for Cantonese labels during the data fetching process,
+only saving JSON-LD files for players who have Cantonese (yue) or Hong Kong Chinese (zh-hk) labels.
+This avoids storing unnecessary data for players without Cantonese names.
+
 Requires: requests
 """
 import requests
@@ -193,19 +197,22 @@ def has_cantonese_label(jsonld_data):
     # Return True if we have 'yue' labels, or if we have 'zh-hk' labels as fallback
     return has_yue or has_zh_hk
 
-def fetch_entity_jsonld(qid, output_dir=TRIPLES_DIR):
+def fetch_entity_jsonld(qid, output_dir=TRIPLES_DIR, filter_cantonese=False):
     """
-    Fetch JSON-LD triples for a Wikidata entity (Q-ID) and save to file.
+    Fetch JSON-LD triples for a Wikidata entity (Q-ID) and optionally save to file.
     
     Args:
         qid (str): The Wikidata Q-ID (e.g., "Q41421")
         output_dir (str): Directory to save the JSON-LD file
+        filter_cantonese (bool): If True, only save if entity has Cantonese labels
     
     Returns:
-        str: Path to the saved file, or None if failed
+        tuple: (jsonld_data, file_path) where:
+            - jsonld_data: The parsed JSON-LD data (dict) or None if failed
+            - file_path: Path to saved file or None if not saved/failed
     """
     if not qid:
-        return None
+        return None, None
         
     try:
         # Construct the URL for JSON-LD data
@@ -219,6 +226,14 @@ def fetch_entity_jsonld(qid, output_dir=TRIPLES_DIR):
         # Parse JSON to validate it
         jsonld_data = response.json()
         
+        # If filtering is enabled, check for Cantonese labels before saving
+        if filter_cantonese:
+            if not has_cantonese_label(jsonld_data):
+                print(f"    ✗ {qid} does not have Cantonese labels - not saving")
+                return jsonld_data, None
+            else:
+                print(f"    ✓ {qid} has Cantonese labels - proceeding to save")
+        
         # Ensure output directory exists
         os.makedirs(output_dir, exist_ok=True)
         
@@ -228,45 +243,64 @@ def fetch_entity_jsonld(qid, output_dir=TRIPLES_DIR):
             json.dump(jsonld_data, f, indent=2, ensure_ascii=False)
         
         print(f"    ✓ Saved JSON-LD for {qid} to {output_file}")
-        return output_file
+        return jsonld_data, output_file
         
     except requests.RequestException as e:
         print(f"    ✗ Error fetching JSON-LD for {qid}: {e}")
-        return None
+        return None, None
     except json.JSONDecodeError as e:
         print(f"    ✗ Error parsing JSON-LD for {qid}: {e}")
-        return None
+        return None, None
     except Exception as e:
         print(f"    ✗ Unexpected error for {qid}: {e}")
-        return None
+        return None, None
 
-def fetch_all_player_triples(qid_mapping, output_dir=TRIPLES_DIR):
+def fetch_all_player_triples(qid_mapping, output_dir=TRIPLES_DIR, filter_cantonese=False):
     """
     Fetch JSON-LD triples for all resolved players.
     
     Args:
         qid_mapping (dict): Mapping of player names to Q-IDs
         output_dir (str): Directory to save the JSON-LD files
+        filter_cantonese (bool): If True, only save files for players with Cantonese labels
     
     Returns:
-        dict: Mapping of Q-IDs to saved file paths
+        dict: Mapping of Q-IDs to saved file paths (only for players with Cantonese labels if filtering)
+        dict: Mapping of Q-IDs to player names for players with Cantonese labels
+        dict: Mapping of Q-IDs to player names for players without Cantonese labels (if filtering)
     """
     saved_files = {}
+    players_with_cantonese = {}
+    players_without_cantonese = {}
     successful_fetches = 0
     
     # Count how many players have Q-IDs
     players_with_qids = [(name, qid) for name, qid in qid_mapping.items() if qid]
     total_to_fetch = len(players_with_qids)
     
-    print(f"\nFetching JSON-LD triples for {total_to_fetch} players with Q-IDs...")
+    if filter_cantonese:
+        print(f"\nFetching JSON-LD triples for {total_to_fetch} players and filtering for Cantonese labels...")
+    else:
+        print(f"\nFetching JSON-LD triples for {total_to_fetch} players with Q-IDs...")
     
     start_time = time.time()
     for idx, (name, qid) in enumerate(players_with_qids, 1):
-        print(f"Fetching {idx}/{total_to_fetch}: {name} ({qid})")
-        file_path = fetch_entity_jsonld(qid, output_dir)
-        if file_path:
-            saved_files[qid] = file_path
+        print(f"Processing {idx}/{total_to_fetch}: {name} ({qid})")
+        jsonld_data, file_path = fetch_entity_jsonld(qid, output_dir, filter_cantonese)
+        
+        if jsonld_data is not None:  # Successfully fetched data
             successful_fetches += 1
+            if filter_cantonese:
+                if file_path is not None:  # Has Cantonese labels and was saved
+                    saved_files[qid] = file_path
+                    players_with_cantonese[qid] = name
+                    print(f"    ✓ {name} ({qid}) has Cantonese labels - saved")
+                else:  # No Cantonese labels, not saved
+                    players_without_cantonese[qid] = name
+                    print(f"    ✗ {name} ({qid}) does not have Cantonese labels - not saved")
+            else:
+                if file_path is not None:  # Successfully saved (no filtering)
+                    saved_files[qid] = file_path
         
         # Progress estimation for triple fetching
         if idx % 5 == 0 or idx == total_to_fetch:  # Show progress every 5 items or at the end
@@ -275,7 +309,7 @@ def fetch_all_player_triples(qid_mapping, output_dir=TRIPLES_DIR):
             remaining = total_to_fetch - idx
             eta_seconds = remaining * avg_time_per_fetch
             eta_minutes = eta_seconds / 60
-            print(f"  Triple fetching progress: {idx}/{total_to_fetch} ({idx/total_to_fetch*100:.1f}%) - ETA: {eta_minutes:.1f} minutes\n")
+            print(f"  Progress: {idx}/{total_to_fetch} ({idx/total_to_fetch*100:.1f}%) - ETA: {eta_minutes:.1f} minutes\n")
     
     # Skip players without Q-IDs
     skipped_count = len(qid_mapping) - total_to_fetch
@@ -283,9 +317,16 @@ def fetch_all_player_triples(qid_mapping, output_dir=TRIPLES_DIR):
         print(f"Skipped {skipped_count} players without Q-IDs")
     
     total_time = time.time() - start_time
-    print(f"\nCompleted triple fetching in {total_time/60:.1f} minutes")
-    print(f"Successfully fetched triples for {successful_fetches}/{total_to_fetch} players with Q-IDs")
-    return saved_files
+    print(f"\nCompleted processing in {total_time/60:.1f} minutes")
+    print(f"Successfully fetched data for {successful_fetches}/{total_to_fetch} players with Q-IDs")
+    
+    if filter_cantonese:
+        print(f"Saved JSON-LD files for {len(saved_files)} players with Cantonese labels")
+        print(f"Filtered out {len(players_without_cantonese)} players without Cantonese labels")
+        return saved_files, players_with_cantonese, players_without_cantonese
+    else:
+        print(f"Saved JSON-LD files for {len(saved_files)} players")
+        return saved_files, {}, {}
 
 def filter_players_with_cantonese_labels(saved_files):
     """
@@ -391,26 +432,23 @@ if __name__ == "__main__":
         if qids:
             print(f"  {nm}: {', '.join(qids)}")
 
-    # Fetch JSON-LD triples for all resolved players
-    saved_files = fetch_all_player_triples(mapping)
-    
-    # Filter players based on Cantonese labels
-    players_with_cantonese, players_without_cantonese = filter_players_with_cantonese_labels(saved_files)
+    # Fetch JSON-LD triples for all resolved players and filter for Cantonese labels
+    saved_files, players_with_cantonese, players_without_cantonese = fetch_all_player_triples(mapping, filter_cantonese=True)
     
     print(f"\n" + "="*50)
     print("FINAL SUMMARY:")
     print("="*50)
     print(f"- Total players processed: {len(names)}")
     print(f"- Players with Q-IDs found: {resolved_count}")
-    print(f"- JSON-LD files saved: {len(saved_files)}")
     print(f"- Players with Cantonese labels: {len(players_with_cantonese)}")
     print(f"- Players without Cantonese labels: {len(players_without_cantonese)}")
+    print(f"- JSON-LD files saved: {len(saved_files)} (only for players with Cantonese labels)")
     print(f"- Files saved to: {TRIPLES_DIR}")
     
     if players_with_cantonese:
         print(f"\nPlayers with Cantonese labels:")
-        for qid in players_with_cantonese:
-            print(f"  - {qid}")
+        for qid, name in players_with_cantonese.items():
+            print(f"  - {name} ({qid})")
     
     # Save the list of players with Cantonese labels to a file
     cantonese_players_file = "./data/intermediate/players_with_cantonese_labels.txt"

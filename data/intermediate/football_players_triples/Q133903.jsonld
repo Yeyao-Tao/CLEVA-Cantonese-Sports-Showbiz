@@ -6,8 +6,8 @@
       "about": "wd:Q133903",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "softwareVersion": "1.0.0",
-      "version": 2398086906,
-      "dateModified": "2025-08-29T13:21:26Z",
+      "version": 2398873521,
+      "dateModified": "2025-08-31T20:12:00Z",
       "statements": 94,
       "sitelinks": 70,
       "identifiers": 45
@@ -932,21 +932,6 @@
       "wikiGroup": "wikipedia"
     },
     {
-      "@id": "https://bn.wikipedia.org/wiki/%E0%A6%AB%E0%A6%BF%E0%A6%B0%E0%A6%9C%E0%A6%BF%E0%A6%B2_%E0%A6%AB%E0%A6%A8_%E0%A6%A1%E0%A6%BE%E0%A6%87%E0%A6%95",
-      "@type": "schema:Article",
-      "about": "wd:Q133903",
-      "inLanguage": "bn",
-      "isPartOf": "https://bn.wikipedia.org/",
-      "name": {
-        "@language": "bn",
-        "@value": "ফিরজিল ফন ডাইক"
-      }
-    },
-    {
-      "@id": "https://bn.wikipedia.org/",
-      "wikiGroup": "wikipedia"
-    },
-    {
       "@id": "https://sh.wikipedia.org/wiki/Virgil_van_Dijk",
       "@type": "schema:Article",
       "about": "wd:Q133903",
@@ -1065,6 +1050,21 @@
     {
       "@id": "https://ru.wikinews.org/",
       "wikiGroup": "wikinews"
+    },
+    {
+      "@id": "https://bn.wikipedia.org/wiki/%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BF%E0%A6%B2_%E0%A6%AD%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8_%E0%A6%A1%E0%A6%BE%E0%A6%87%E0%A6%95",
+      "@type": "schema:Article",
+      "about": "wd:Q133903",
+      "inLanguage": "bn",
+      "isPartOf": "https://bn.wikipedia.org/",
+      "name": {
+        "@language": "bn",
+        "@value": "ভার্জিল ভ্যান ডাইক"
+      }
+    },
+    {
+      "@id": "https://bn.wikipedia.org/",
+      "wikiGroup": "wikipedia"
     },
     {
       "@id": "wd:Q133903",

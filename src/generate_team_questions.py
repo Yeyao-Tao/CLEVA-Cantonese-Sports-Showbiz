@@ -38,31 +38,28 @@ def get_football_clubs_only(player_data: Dict[str, Any]) -> List[Dict[str, Any]]
 
 def get_popular_clubs(all_data: Dict[str, Any], min_players: int) -> List[Dict[str, Any]]:
     """Get clubs that have had multiple players (good for distractors)."""
+    clubs = all_data.get('all_clubs', {})
     club_to_players = all_data.get('club_to_players_mapping', {})
     popular_clubs = []
     
     for club_id, players_list in club_to_players.items():
         if len(players_list) >= min_players:
-            # Get club name from any player's data
-            club_name = "Unknown Club"
-            for player_data in all_data['players'].values():
-                for club in player_data['clubs']:
-                    if club['club_id'] == club_id:
-                        club_name = club['name']
-                        break
-                if club_name != "Unknown Club":
-                    break
-            
+            club = clubs[club_id]
+            club_name = club['club_names']['english']
+
             # Filter out national teams
             if any(keyword in club_name.lower() for keyword in ['national', 'under-', 'youth']):
                 continue
-                
-            popular_clubs.append({
-                'id': club_id,
-                'name': club_name,
-                'player_count': len(players_list)
-            })
-    
+
+            # Filter out clubs that have no Cantonese name
+            if club['has_cantonese']:
+                popular_clubs.append({
+                    'id': club_id,
+                    'name': club_name,
+                    'name_cantonese': club['club_names']['cantonese_best'],
+                    'player_count': len(players_list)
+                })
+
     return popular_clubs
 
 
@@ -132,14 +129,7 @@ def generate_team_question(player_id: str, player_data: Dict[str, Any],
     distractor_names_cantonese = []
     for distractor in distractors:
         # Find the Cantonese name for this club from any player's data
-        cantonese_distractor_name = distractor['name']  # fallback to English
-        for pid, pdata in all_data.get('players', {}).items():
-            for club in pdata.get('clubs', []):
-                if club.get('club_id') == distractor['id']:
-                    cantonese_distractor_name = club.get('cantonese_name', distractor['name'])
-                    break
-            if cantonese_distractor_name != distractor['name']:
-                break
+        cantonese_distractor_name = distractor['name_cantonese']
         distractor_names_cantonese.append(cantonese_distractor_name)
     
     # Create answer choices - need to maintain same order for both languages

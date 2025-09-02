@@ -6,8 +6,8 @@
       "about": "wd:Q151260",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "softwareVersion": "1.0.0",
-      "version": 2373003979,
-      "dateModified": "2025-07-03T19:57:19Z",
+      "version": 2398304609,
+      "dateModified": "2025-08-30T09:09:53Z",
       "statements": 111,
       "sitelinks": 77,
       "identifiers": 49
@@ -1176,7 +1176,22 @@
       "@id": "wd:Q151260",
       "P21": "wd:Q6581097",
       "P106": "wd:Q937857",
-      "P54": "wd:Q392310",
+      "P54": [
+        "wd:Q51974",
+        "wd:Q102720",
+        "wd:Q15789",
+        "wd:Q50602",
+        "wd:Q920263",
+        "wd:Q43310",
+        "wd:Q314851",
+        "wd:Q319699",
+        "wd:Q324854",
+        "wd:Q319699",
+        "wd:Q319699",
+        "wd:Q704",
+        "wd:Q847587",
+        "wd:Q392310"
+      ],
       "P19": "wd:Q56036",
       "P373": "Jérôme Boateng",
       "P227": "1022925687",
@@ -1321,7 +1336,10 @@
     },
     {
       "@id": "wds:q151260-A2977B8D-952F-4098-8DA0-4F872922DFD5",
-      "@type": "wikibase:Statement",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q51974",
       "P580": "2007-01-01T00:00:00Z",
@@ -1340,7 +1358,10 @@
     },
     {
       "@id": "wds:q151260-05EF9476-31E9-4F67-81C7-5E8F5865FF72",
-      "@type": "wikibase:Statement",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q102720",
       "P580": "2007-01-01T00:00:00Z",
@@ -1359,7 +1380,10 @@
     },
     {
       "@id": "wds:q151260-713C419B-3E2F-4D54-8175-6A14DA50CF9D",
-      "@type": "wikibase:Statement",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q15789",
       "P580": "2011-01-01T00:00:00Z",
@@ -1378,7 +1402,10 @@
     },
     {
       "@id": "wds:q151260-5D1E1142-209A-408E-A024-B11F7D973A13",
-      "@type": "wikibase:Statement",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q50602",
       "P580": "2010-01-01T00:00:00Z",
@@ -1397,7 +1424,10 @@
     },
     {
       "@id": "wds:q151260-4AEBFC1F-432C-42E4-A4D2-19AD92716E35",
-      "@type": "wikibase:Statement",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q920263",
       "P580": "2006-01-01T00:00:00Z",
@@ -1416,7 +1446,10 @@
     },
     {
       "@id": "wds:Q151260-219556E7-4D87-4D1C-8C54-305D4D5414A4",
-      "@type": "wikibase:Statement",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q43310",
       "P580": "2009-01-01T00:00:00Z",
@@ -1434,7 +1467,10 @@
     },
     {
       "@id": "wds:Q151260-39CEC857-067A-4F05-89A7-E16B37B337B4",
-      "@type": "wikibase:Statement",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q314851",
       "P580": "2007-01-01T00:00:00Z",
@@ -1453,7 +1489,10 @@
     },
     {
       "@id": "wds:Q151260-563637C9-6B73-4851-9F58-03F2A5C9E58A",
-      "@type": "wikibase:Statement",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q319699",
       "P580": "2004-01-01T00:00:00Z",
@@ -1472,7 +1511,10 @@
     },
     {
       "@id": "wds:Q151260-0D37C044-20DD-46D1-B533-60BB6E9C88D9",
-      "@type": "wikibase:Statement",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q324854",
       "P580": "2005-01-01T00:00:00Z",
@@ -1491,7 +1533,10 @@
     },
     {
       "@id": "wds:Q151260-C29A7484-F713-41AA-9DBA-A64882FE8E8E",
-      "@type": "wikibase:Statement",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q319699",
       "P580": "2006-01-01T00:00:00Z",
@@ -1510,7 +1555,10 @@
     },
     {
       "@id": "wds:Q151260-5A78D16B-6E18-4C27-B2C2-DA0F0321276F",
-      "@type": "wikibase:Statement",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q319699",
       "P580": "2005-01-01T00:00:00Z",
@@ -1529,7 +1577,10 @@
     },
     {
       "@id": "wds:Q151260-1917ced1-4530-8116-4573-991eb61f43d7",
-      "@type": "wikibase:Statement",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q704",
       "P580": "2021-09-01T00:00:00Z",
@@ -1547,7 +1598,10 @@
     },
     {
       "@id": "wds:Q151260-aaed8845-4105-cdde-9c7e-8b26cf46bc30",
-      "@type": "wikibase:Statement",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q847587",
       "P580": "2024-02-02T00:00:00Z",
@@ -1569,7 +1623,7 @@
         "wikibase:Statement",
         "wikibase:BestRank"
       ],
-      "rank": "wikibase:PreferredRank",
+      "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q392310",
       "P580": "2024-05-31T00:00:00Z",
       "pqv:P580": "wdv:43f2ce89c8b4476caa18884324919884",
@@ -1578,7 +1632,9 @@
       "P1351": "+0",
       "pqv:P1351": "wdv:67a17c05603b9e75b6c25826fa747705",
       "P585": "2025-06-11T00:00:00Z",
-      "pqv:P585": "wdv:d3e00d1e7b5a607540ca445180e3b9fc"
+      "pqv:P585": "wdv:d3e00d1e7b5a607540ca445180e3b9fc",
+      "P582": "2025-08-19T00:00:00Z",
+      "pqv:P582": "wdv:09b8981beb312d78fec5e416ae646d76"
     },
     {
       "@id": "wd:Q151260",
@@ -5861,23 +5917,41 @@
       "someValuesFrom": "owl:Thing"
     },
     {
-      "@id": "wd:Q392310",
+      "@id": "wd:Q51974",
       "@type": "wikibase:Item",
-      "label": {
-        "@language": "en",
-        "@value": "LASK Linz"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "LASK Linz"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "LASK Linz"
-      },
+      "label": [
+        {
+          "@language": "en",
+          "@value": "Hamburger SV"
+        },
+        {
+          "@language": "mul",
+          "@value": "Hamburger SV"
+        }
+      ],
+      "prefLabel": [
+        {
+          "@language": "en",
+          "@value": "Hamburger SV"
+        },
+        {
+          "@language": "mul",
+          "@value": "Hamburger SV"
+        }
+      ],
+      "name": [
+        {
+          "@language": "en",
+          "@value": "Hamburger SV"
+        },
+        {
+          "@language": "mul",
+          "@value": "Hamburger SV"
+        }
+      ],
       "description": {
         "@language": "en",
-        "@value": "association football club in Austria"
+        "@value": "German sports club based in Hamburg, with its largest branch being its football department"
       }
     },
     {
@@ -5952,6 +6026,244 @@
       "@type": "owl:Restriction",
       "onProperty": "wdt:P54",
       "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:Q102720",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Hertha BSC"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Hertha BSC"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Hertha BSC"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "sports club of Berlin in Germany"
+      }
+    },
+    {
+      "@id": "wd:Q15789",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "FC Bayern Munich"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "FC Bayern Munich"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "FC Bayern Munich"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "association football club in Munich, Germany"
+      }
+    },
+    {
+      "@id": "wd:Q50602",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Manchester City F.C."
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Manchester City F.C."
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Manchester City F.C."
+      },
+      "description": {
+        "@language": "en",
+        "@value": "association football club in Manchester, England"
+      }
+    },
+    {
+      "@id": "wd:Q920263",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Hertha BSC II"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Hertha BSC II"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Hertha BSC II"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "association football club"
+      }
+    },
+    {
+      "@id": "wd:Q43310",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Germany men's national association football team"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Germany men's national association football team"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Germany men's national association football team"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "German men's national association football team"
+      }
+    },
+    {
+      "@id": "wd:Q314851",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Germany national under-21 football team"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Germany national under-21 football team"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Germany national under-21 football team"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "national under-21 association football team representing Germany"
+      }
+    },
+    {
+      "@id": "wd:Q319699",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Germany national under-17 association football team"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Germany national under-17 association football team"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Germany national under-17 association football team"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "national association football team"
+      }
+    },
+    {
+      "@id": "wd:Q324854",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Germany national under-19 football team"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Germany national under-19 football team"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Germany national under-19 football team"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "national association football team"
+      }
+    },
+    {
+      "@id": "wd:Q704",
+      "@type": "wikibase:Item",
+      "label": [
+        {
+          "@language": "en",
+          "@value": "Olympique Lyonnais"
+        },
+        {
+          "@language": "mul",
+          "@value": "Olympique Lyonnais"
+        }
+      ],
+      "prefLabel": [
+        {
+          "@language": "en",
+          "@value": "Olympique Lyonnais"
+        },
+        {
+          "@language": "mul",
+          "@value": "Olympique Lyonnais"
+        }
+      ],
+      "name": [
+        {
+          "@language": "en",
+          "@value": "Olympique Lyonnais"
+        },
+        {
+          "@language": "mul",
+          "@value": "Olympique Lyonnais"
+        }
+      ],
+      "description": {
+        "@language": "en",
+        "@value": "association football club in Lyon, France"
+      }
+    },
+    {
+      "@id": "wd:Q847587",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "U.S. Salernitana 1919"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "U.S. Salernitana 1919"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "U.S. Salernitana 1919"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "association football club based in Salerno, Italy"
+      }
+    },
+    {
+      "@id": "wd:Q392310",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "LASK Linz"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "LASK Linz"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "LASK Linz"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "association football club in Austria"
+      }
     },
     {
       "@id": "wd:Q56036",
@@ -13586,44 +13898,6 @@
       }
     },
     {
-      "@id": "wd:Q51974",
-      "@type": "wikibase:Item",
-      "label": [
-        {
-          "@language": "en",
-          "@value": "Hamburger SV"
-        },
-        {
-          "@language": "mul",
-          "@value": "Hamburger SV"
-        }
-      ],
-      "prefLabel": [
-        {
-          "@language": "en",
-          "@value": "Hamburger SV"
-        },
-        {
-          "@language": "mul",
-          "@value": "Hamburger SV"
-        }
-      ],
-      "name": [
-        {
-          "@language": "en",
-          "@value": "Hamburger SV"
-        },
-        {
-          "@language": "mul",
-          "@value": "Hamburger SV"
-        }
-      ],
-      "description": {
-        "@language": "en",
-        "@value": "German sports club based in Hamburg, with its largest branch being its football department"
-      }
-    },
-    {
       "@id": "wd:P580",
       "@type": "wikibase:Property",
       "label": {
@@ -13974,166 +14248,6 @@
       "someValuesFrom": "owl:Thing"
     },
     {
-      "@id": "wd:Q102720",
-      "@type": "wikibase:Item",
-      "label": {
-        "@language": "en",
-        "@value": "Hertha BSC"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "Hertha BSC"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "Hertha BSC"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "sports club of Berlin in Germany"
-      }
-    },
-    {
-      "@id": "wd:Q15789",
-      "@type": "wikibase:Item",
-      "label": {
-        "@language": "en",
-        "@value": "FC Bayern Munich"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "FC Bayern Munich"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "FC Bayern Munich"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "association football club in Munich, Germany"
-      }
-    },
-    {
-      "@id": "wd:Q50602",
-      "@type": "wikibase:Item",
-      "label": {
-        "@language": "en",
-        "@value": "Manchester City F.C."
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "Manchester City F.C."
-      },
-      "name": {
-        "@language": "en",
-        "@value": "Manchester City F.C."
-      },
-      "description": {
-        "@language": "en",
-        "@value": "association football club in Manchester, England"
-      }
-    },
-    {
-      "@id": "wd:Q920263",
-      "@type": "wikibase:Item",
-      "label": {
-        "@language": "en",
-        "@value": "Hertha BSC II"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "Hertha BSC II"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "Hertha BSC II"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "association football club"
-      }
-    },
-    {
-      "@id": "wd:Q43310",
-      "@type": "wikibase:Item",
-      "label": {
-        "@language": "en",
-        "@value": "Germany men's national association football team"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "Germany men's national association football team"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "Germany men's national association football team"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "German men's national association football team"
-      }
-    },
-    {
-      "@id": "wd:Q314851",
-      "@type": "wikibase:Item",
-      "label": {
-        "@language": "en",
-        "@value": "Germany national under-21 football team"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "Germany national under-21 football team"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "Germany national under-21 football team"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "national under-21 association football team representing Germany"
-      }
-    },
-    {
-      "@id": "wd:Q319699",
-      "@type": "wikibase:Item",
-      "label": {
-        "@language": "en",
-        "@value": "Germany national under-17 association football team"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "Germany national under-17 association football team"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "Germany national under-17 association football team"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "national association football team"
-      }
-    },
-    {
-      "@id": "wd:Q324854",
-      "@type": "wikibase:Item",
-      "label": {
-        "@language": "en",
-        "@value": "Germany national under-19 football team"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "Germany national under-19 football team"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "Germany national under-19 football team"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "national association football team"
-      }
-    },
-    {
       "@id": "wd:Q11920",
       "@type": "wikibase:Item",
       "label": {
@@ -14171,64 +14285,6 @@
       "description": {
         "@language": "en",
         "@value": "German-language edition of Wikipedia"
-      }
-    },
-    {
-      "@id": "wd:Q704",
-      "@type": "wikibase:Item",
-      "label": [
-        {
-          "@language": "en",
-          "@value": "Olympique Lyonnais"
-        },
-        {
-          "@language": "mul",
-          "@value": "Olympique Lyonnais"
-        }
-      ],
-      "prefLabel": [
-        {
-          "@language": "en",
-          "@value": "Olympique Lyonnais"
-        },
-        {
-          "@language": "mul",
-          "@value": "Olympique Lyonnais"
-        }
-      ],
-      "name": [
-        {
-          "@language": "en",
-          "@value": "Olympique Lyonnais"
-        },
-        {
-          "@language": "mul",
-          "@value": "Olympique Lyonnais"
-        }
-      ],
-      "description": {
-        "@language": "en",
-        "@value": "association football club in Lyon, France"
-      }
-    },
-    {
-      "@id": "wd:Q847587",
-      "@type": "wikibase:Item",
-      "label": {
-        "@language": "en",
-        "@value": "U.S. Salernitana 1919"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "U.S. Salernitana 1919"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "U.S. Salernitana 1919"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "association football club based in Salerno, Italy"
       }
     },
     {
@@ -16304,6 +16360,14 @@
       "@id": "wdv:d3e00d1e7b5a607540ca445180e3b9fc",
       "@type": "wikibase:TimeValue",
       "timeValue": "2025-06-11T00:00:00Z",
+      "timePrecision": 11,
+      "timeTimezone": 0,
+      "timeCalendarModel": "http://www.wikidata.org/entity/Q1985727"
+    },
+    {
+      "@id": "wdv:09b8981beb312d78fec5e416ae646d76",
+      "@type": "wikibase:TimeValue",
+      "timeValue": "2025-08-19T00:00:00Z",
       "timePrecision": 11,
       "timeTimezone": 0,
       "timeCalendarModel": "http://www.wikidata.org/entity/Q1985727"

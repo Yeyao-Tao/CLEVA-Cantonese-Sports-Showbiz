@@ -6,11 +6,11 @@
       "about": "wd:Q46896",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "softwareVersion": "1.0.0",
-      "version": 2397776277,
-      "dateModified": "2025-08-28T16:18:19Z",
-      "statements": 214,
+      "version": 2398662844,
+      "dateModified": "2025-08-31T08:56:05Z",
+      "statements": 215,
       "sitelinks": 118,
-      "identifiers": 132
+      "identifiers": 133
     },
     {
       "@id": "wd:Q46896",
@@ -1996,13 +1996,6 @@
       "P12608": "8695",
       "P10832": "E39PBJxRxfGxgrV8hq9kg7D8YP",
       "P12800": "fr:Zlatan_Ibrahimović",
-      "P6262": [
-        "football:Zlatan_Ibrahimović",
-        "sweden:Zlatan_Ibrahimović",
-        "footballdatabase:Zlatan_Ibrahimović",
-        "easportsfc:Zlatan_Ibrahimović",
-        "sv.sverige:Zlatan_Ibrahimović"
-      ],
       "P40": "wd:Q127607065",
       "P13049": "1016376235",
       "P9346": "zlatan-ibrahimovic",
@@ -2035,6 +2028,14 @@
         "wd:Q160826"
       ],
       "P18": "http://commons.wikimedia.org/wiki/Special:FilePath/Zlatan%20Ibrahimovi%C4%87%20June%202018.jpg",
+      "P6262": [
+        "football:Zlatan_Ibrahimović",
+        "sweden:Zlatan_Ibrahimović",
+        "footballdatabase:Zlatan_Ibrahimović",
+        "footballranking:Zlatan_Ibrahimović",
+        "easportsfc:Zlatan_Ibrahimović",
+        "sv.sverige:Zlatan_Ibrahimović"
+      ],
       "P1618": "wds:Q46896-02d4e4f2-4de7-a970-8178-85b6480f9bf7"
     },
     {
@@ -4640,84 +4641,6 @@
     },
     {
       "@id": "wd:Q46896",
-      "p:P6262": "wds:Q46896-f153cf67-421f-1a8d-11af-308e0c2c1cb9"
-    },
-    {
-      "@id": "wds:Q46896-f153cf67-421f-1a8d-11af-308e0c2c1cb9",
-      "@type": [
-        "wikibase:Statement",
-        "wikibase:BestRank"
-      ],
-      "rank": "wikibase:NormalRank",
-      "ps:P6262": "football:Zlatan_Ibrahimović",
-      "pq:P407": "wd:Q1860",
-      "pq:P1810": "Zlatan Ibrahimović",
-      "P9675": "5049"
-    },
-    {
-      "@id": "wd:Q46896",
-      "p:P6262": "wds:Q46896-dba75691-4fb4-088a-71fa-7ca10e0b6b25"
-    },
-    {
-      "@id": "wds:Q46896-dba75691-4fb4-088a-71fa-7ca10e0b6b25",
-      "@type": [
-        "wikibase:Statement",
-        "wikibase:BestRank"
-      ],
-      "rank": "wikibase:NormalRank",
-      "ps:P6262": "sweden:Zlatan_Ibrahimović",
-      "pq:P407": "wd:Q1860",
-      "pq:P1810": "Zlatan Ibrahimović",
-      "P9675": "329"
-    },
-    {
-      "@id": "wd:Q46896",
-      "p:P6262": "wds:Q46896-a9ddf465-4551-d180-d4f8-7b4d3ab71efb"
-    },
-    {
-      "@id": "wds:Q46896-a9ddf465-4551-d180-d4f8-7b4d3ab71efb",
-      "@type": [
-        "wikibase:Statement",
-        "wikibase:BestRank"
-      ],
-      "rank": "wikibase:NormalRank",
-      "ps:P6262": "footballdatabase:Zlatan_Ibrahimović",
-      "pq:P1810": "Zlatan Ibrahimović",
-      "pq:P407": "wd:Q1860"
-    },
-    {
-      "@id": "wd:Q46896",
-      "p:P6262": "wds:Q46896-43ab565b-4d06-1607-362c-7aa55686cd01"
-    },
-    {
-      "@id": "wds:Q46896-43ab565b-4d06-1607-362c-7aa55686cd01",
-      "@type": [
-        "wikibase:Statement",
-        "wikibase:BestRank"
-      ],
-      "rank": "wikibase:NormalRank",
-      "ps:P6262": "easportsfc:Zlatan_Ibrahimović",
-      "pq:P407": "wd:Q1860",
-      "pq:P1810": "Zlatan Ibrahimović",
-      "P9675": "8558"
-    },
-    {
-      "@id": "wd:Q46896",
-      "p:P6262": "wds:Q46896-f9b3911e-4279-9a5b-716b-44b91c8224ac"
-    },
-    {
-      "@id": "wds:Q46896-f9b3911e-4279-9a5b-716b-44b91c8224ac",
-      "@type": [
-        "wikibase:Statement",
-        "wikibase:BestRank"
-      ],
-      "rank": "wikibase:NormalRank",
-      "ps:P6262": "sv.sverige:Zlatan_Ibrahimović",
-      "pq:P407": "wd:Q9027",
-      "pq:P1810": "Zlatan Ibrahimović"
-    },
-    {
-      "@id": "wd:Q46896",
       "p:P40": "wds:Q46896-d3a5780c-4d30-45fe-4457-cd090c4edcfc"
     },
     {
@@ -5194,6 +5117,99 @@
       "P585": "2018-01-01T00:00:00Z",
       "pqv:P585": "wdv:a112a6fb4487071d1ae3a0c6951488f6",
       "wasDerivedFrom": "wdref:3e9231ae8ba79224a8d978b457fc813715172b6d"
+    },
+    {
+      "@id": "wd:Q46896",
+      "p:P6262": "wds:Q46896-f153cf67-421f-1a8d-11af-308e0c2c1cb9"
+    },
+    {
+      "@id": "wds:Q46896-f153cf67-421f-1a8d-11af-308e0c2c1cb9",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P6262": "football:Zlatan_Ibrahimović",
+      "pq:P407": "wd:Q1860",
+      "pq:P1810": "Zlatan Ibrahimović",
+      "P9675": "5049"
+    },
+    {
+      "@id": "wd:Q46896",
+      "p:P6262": "wds:Q46896-dba75691-4fb4-088a-71fa-7ca10e0b6b25"
+    },
+    {
+      "@id": "wds:Q46896-dba75691-4fb4-088a-71fa-7ca10e0b6b25",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P6262": "sweden:Zlatan_Ibrahimović",
+      "pq:P407": "wd:Q1860",
+      "pq:P1810": "Zlatan Ibrahimović",
+      "P9675": "329"
+    },
+    {
+      "@id": "wd:Q46896",
+      "p:P6262": "wds:Q46896-a9ddf465-4551-d180-d4f8-7b4d3ab71efb"
+    },
+    {
+      "@id": "wds:Q46896-a9ddf465-4551-d180-d4f8-7b4d3ab71efb",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P6262": "footballdatabase:Zlatan_Ibrahimović",
+      "pq:P1810": "Zlatan Ibrahimović",
+      "pq:P407": "wd:Q1860"
+    },
+    {
+      "@id": "wd:Q46896",
+      "p:P6262": "wds:Q46896-9ba119e2-4ef7-48f3-539a-41b9d883fede"
+    },
+    {
+      "@id": "wds:Q46896-9ba119e2-4ef7-48f3-539a-41b9d883fede",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P6262": "footballranking:Zlatan_Ibrahimović",
+      "pq:P1810": "Zlatan Ibrahimović",
+      "pq:P407": "wd:Q1860"
+    },
+    {
+      "@id": "wd:Q46896",
+      "p:P6262": "wds:Q46896-43ab565b-4d06-1607-362c-7aa55686cd01"
+    },
+    {
+      "@id": "wds:Q46896-43ab565b-4d06-1607-362c-7aa55686cd01",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P6262": "easportsfc:Zlatan_Ibrahimović",
+      "pq:P407": "wd:Q1860",
+      "pq:P1810": "Zlatan Ibrahimović",
+      "P9675": "8558"
+    },
+    {
+      "@id": "wd:Q46896",
+      "p:P6262": "wds:Q46896-f9b3911e-4279-9a5b-716b-44b91c8224ac"
+    },
+    {
+      "@id": "wds:Q46896-f9b3911e-4279-9a5b-716b-44b91c8224ac",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P6262": "sv.sverige:Zlatan_Ibrahimović",
+      "pq:P407": "wd:Q9027",
+      "pq:P1810": "Zlatan Ibrahimović"
     },
     {
       "@id": "wd:Q46896",
@@ -21708,99 +21724,6 @@
       "someValuesFrom": "owl:Thing"
     },
     {
-      "@id": "wd:P6262",
-      "@type": "wikibase:Property",
-      "label": {
-        "@language": "en",
-        "@value": "Fandom article ID"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "Fandom article ID"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "Fandom article ID"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "identifier of an article on Fandom (Wikia). Format: subdomain:Page_title (language-code.subdomain:Page_title for non-English wikis)"
-      },
-      "propertyType": "http://wikiba.se/ontology#ExternalId",
-      "directClaim": "wdt:P6262",
-      "claim": "p:P6262",
-      "statementProperty": "ps:P6262",
-      "statementValue": "psv:P6262",
-      "qualifier": "pq:P6262",
-      "qualifierValue": "pqv:P6262",
-      "reference": "pr:P6262",
-      "referenceValue": "prv:P6262",
-      "novalue": "wdno:P6262",
-      "directClaimNormalized": "wdtn:P6262",
-      "statementValueNormalized": "psn:P6262",
-      "qualifierValueNormalized": "pqn:P6262",
-      "referenceValueNormalized": "prn:P6262"
-    },
-    {
-      "@id": "p:P6262",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "psv:P6262",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "pqv:P6262",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "prv:P6262",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "wdt:P6262",
-      "@type": "owl:DatatypeProperty"
-    },
-    {
-      "@id": "ps:P6262",
-      "@type": "owl:DatatypeProperty"
-    },
-    {
-      "@id": "pq:P6262",
-      "@type": "owl:DatatypeProperty"
-    },
-    {
-      "@id": "pr:P6262",
-      "@type": "owl:DatatypeProperty"
-    },
-    {
-      "@id": "psn:P6262",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "pqn:P6262",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "prn:P6262",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "wdtn:P6262",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "wdno:P6262",
-      "@type": "owl:Class",
-      "complementOf": "_:478870f14670f8deabe6c4bffb27a907"
-    },
-    {
-      "@id": "_:478870f14670f8deabe6c4bffb27a907",
-      "@type": "owl:Restriction",
-      "onProperty": "wdt:P6262",
-      "someValuesFrom": "owl:Thing"
-    },
-    {
       "@id": "wd:Q127607065",
       "@type": "wikibase:Item",
       "label": {
@@ -23264,6 +23187,99 @@
       "@id": "_:90353c5ec33a5dc569985590a17a3551",
       "@type": "owl:Restriction",
       "onProperty": "wdt:P18",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P6262",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "Fandom article ID"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Fandom article ID"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Fandom article ID"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "identifier of an article on Fandom (Wikia). Format: subdomain:Page_title (language-code.subdomain:Page_title for non-English wikis)"
+      },
+      "propertyType": "http://wikiba.se/ontology#ExternalId",
+      "directClaim": "wdt:P6262",
+      "claim": "p:P6262",
+      "statementProperty": "ps:P6262",
+      "statementValue": "psv:P6262",
+      "qualifier": "pq:P6262",
+      "qualifierValue": "pqv:P6262",
+      "reference": "pr:P6262",
+      "referenceValue": "prv:P6262",
+      "novalue": "wdno:P6262",
+      "directClaimNormalized": "wdtn:P6262",
+      "statementValueNormalized": "psn:P6262",
+      "qualifierValueNormalized": "pqn:P6262",
+      "referenceValueNormalized": "prn:P6262"
+    },
+    {
+      "@id": "p:P6262",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P6262",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P6262",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P6262",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P6262",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P6262",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P6262",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P6262",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "psn:P6262",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqn:P6262",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prn:P6262",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdtn:P6262",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P6262",
+      "@type": "owl:Class",
+      "complementOf": "_:478870f14670f8deabe6c4bffb27a907"
+    },
+    {
+      "@id": "_:478870f14670f8deabe6c4bffb27a907",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P6262",
       "someValuesFrom": "owl:Thing"
     },
     {
@@ -26658,79 +26674,6 @@
       "someValuesFrom": "owl:Thing"
     },
     {
-      "@id": "wd:P9675",
-      "@type": "wikibase:Property",
-      "label": {
-        "@language": "en",
-        "@value": "MediaWiki page ID"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "MediaWiki page ID"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "MediaWiki page ID"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "numeric identifier of a page in a MediaWiki wiki"
-      },
-      "propertyType": "http://wikiba.se/ontology#String",
-      "directClaim": "wdt:P9675",
-      "claim": "p:P9675",
-      "statementProperty": "ps:P9675",
-      "statementValue": "psv:P9675",
-      "qualifier": "pq:P9675",
-      "qualifierValue": "pqv:P9675",
-      "reference": "pr:P9675",
-      "referenceValue": "prv:P9675",
-      "novalue": "wdno:P9675"
-    },
-    {
-      "@id": "p:P9675",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "psv:P9675",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "pqv:P9675",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "prv:P9675",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "wdt:P9675",
-      "@type": "owl:DatatypeProperty"
-    },
-    {
-      "@id": "ps:P9675",
-      "@type": "owl:DatatypeProperty"
-    },
-    {
-      "@id": "pq:P9675",
-      "@type": "owl:DatatypeProperty"
-    },
-    {
-      "@id": "pr:P9675",
-      "@type": "owl:DatatypeProperty"
-    },
-    {
-      "@id": "wdno:P9675",
-      "@type": "owl:Class",
-      "complementOf": "_:2ecd9cbe9af12015ed94e2cdb5a03233"
-    },
-    {
-      "@id": "_:2ecd9cbe9af12015ed94e2cdb5a03233",
-      "@type": "owl:Restriction",
-      "onProperty": "wdt:P9675",
-      "someValuesFrom": "owl:Thing"
-    },
-    {
       "@id": "wd:Q465",
       "@type": "wikibase:Item",
       "label": {
@@ -27015,6 +26958,79 @@
         "@language": "en",
         "@value": "Swedish-language edition of Wikipedia"
       }
+    },
+    {
+      "@id": "wd:P9675",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "MediaWiki page ID"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "MediaWiki page ID"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "MediaWiki page ID"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "numeric identifier of a page in a MediaWiki wiki"
+      },
+      "propertyType": "http://wikiba.se/ontology#String",
+      "directClaim": "wdt:P9675",
+      "claim": "p:P9675",
+      "statementProperty": "ps:P9675",
+      "statementValue": "psv:P9675",
+      "qualifier": "pq:P9675",
+      "qualifierValue": "pqv:P9675",
+      "reference": "pr:P9675",
+      "referenceValue": "prv:P9675",
+      "novalue": "wdno:P9675"
+    },
+    {
+      "@id": "p:P9675",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P9675",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P9675",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P9675",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P9675",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P9675",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P9675",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P9675",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "wdno:P9675",
+      "@type": "owl:Class",
+      "complementOf": "_:2ecd9cbe9af12015ed94e2cdb5a03233"
+    },
+    {
+      "@id": "_:2ecd9cbe9af12015ed94e2cdb5a03233",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P9675",
+      "someValuesFrom": "owl:Thing"
     },
     {
       "@id": "wd:Q23830481",
@@ -28915,9 +28931,6 @@
     "P12800": {
       "@id": "wdt:P12800"
     },
-    "P6262": {
-      "@id": "wdt:P6262"
-    },
     "P40": {
       "@id": "wdt:P40",
       "@type": "@id"
@@ -28960,6 +28973,9 @@
     "P18": {
       "@id": "wdt:P18",
       "@type": "@id"
+    },
+    "P6262": {
+      "@id": "wdt:P6262"
     },
     "p": "http://www.wikidata.org/prop/",
     "P1618": {
@@ -29803,12 +29819,6 @@
     "p:P12800": {
       "@type": "@id"
     },
-    "p:P6262": {
-      "@type": "@id"
-    },
-    "P9675": {
-      "@id": "pq:P9675"
-    },
     "p:P40": {
       "@type": "@id"
     },
@@ -29876,6 +29886,12 @@
     },
     "ps:P18": {
       "@type": "@id"
+    },
+    "p:P6262": {
+      "@type": "@id"
+    },
+    "P9675": {
+      "@id": "pq:P9675"
     },
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "label": {

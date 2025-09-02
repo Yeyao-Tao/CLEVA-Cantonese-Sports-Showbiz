@@ -136,14 +136,13 @@ def extract_cantonese_labels(data: dict, target_id: str) -> Dict[str, str]:
     return cantonese_labels
 
 
-def get_best_cantonese_name(cantonese_labels: Dict[str, str], fallback_name: str = 'Unknown') -> Tuple[str, str]:
+def get_best_cantonese_name(cantonese_labels: Dict[str, str]) -> Tuple[str, str]:
     """
     Get the best Cantonese name from available labels.
     Prioritizes 'yue' over 'zh-hk', returns language code used.
     
     Args:
         cantonese_labels: Dict of language codes to labels
-        fallback_name: Name to use if no Cantonese labels found
         
     Returns:
         Tuple of (best_name, language_code_used)
@@ -153,7 +152,7 @@ def get_best_cantonese_name(cantonese_labels: Dict[str, str], fallback_name: str
     elif 'zh-hk' in cantonese_labels:
         return cantonese_labels['zh-hk'], 'zh-hk'
     else:
-        return fallback_name, 'none'
+        return 'unknown', 'none'
 
 
 def extract_entity_names(data: dict, target_id: str, paranames_cantonese: Dict[str, Dict[str, str]] = None) -> Dict[str, Any]:
@@ -225,112 +224,9 @@ def extract_entity_names(data: dict, target_id: str, paranames_cantonese: Dict[s
         names['cantonese_source'] = 'paranames'
     
     # Set best Cantonese name
-    names['cantonese_best'], names['cantonese_lang'] = get_best_cantonese_name(
-        names['cantonese'], names['english']
-    )
+    names['cantonese_best'], names['cantonese_lang'] = get_best_cantonese_name(names['cantonese'])
     
     return names
-    """
-    Extract ALL club information for a football player from WikiData JSONLD.
-    
-    Args:
-        jsonld_file_path: Path to the JSONLD file containing player data
-        
-    Returns:
-        Dictionary containing complete player and club information
-    """
-    with open(jsonld_file_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    
-    result = {
-        'player_id': None,
-        'player_name': None,
-        'clubs': [],
-        'current_clubs': [],
-        'former_clubs': [],
-        'total_clubs': 0
-    }
-    
-    # Extract player ID from filename
-    filename = os.path.basename(jsonld_file_path)
-    if filename.startswith('Q') and filename.endswith('.jsonld'):
-        result['player_id'] = filename[:-7]  # Remove .jsonld extension
-    
-    # Extract player name from Wikipedia entries
-    for item in data.get('@graph', []):
-        if (item.get('@type') == 'schema:Article' and 
-            'name' in item and 
-            item.get('inLanguage') == 'en' and
-            'wikipedia.org' in item.get('@id', '')):
-            
-            name = item.get('name', {})
-            if isinstance(name, dict) and '@value' in name:
-                result['player_name'] = name['@value']
-                break
-    
-    # Extract ALL club information from detailed statements
-    club_statements = []
-    for item in data.get('@graph', []):
-        # Look for ALL P54 statements with detailed information
-        item_type = item.get('@type')
-        is_statement = False
-        
-        if isinstance(item_type, list):
-            is_statement = 'wikibase:Statement' in item_type
-        elif isinstance(item_type, str):
-            is_statement = item_type == 'wikibase:Statement'
-        
-        if is_statement and 'ps:P54' in item:
-            
-            club_id = item.get('ps:P54', '').replace('wd:', '')
-            start_date = item.get('P580')  # start time
-            end_date = item.get('P582')    # end time
-            
-            # Check if this is a current club (no end date or special marker)
-            is_current = (end_date is None or 
-                         (isinstance(end_date, dict) and end_date.get('@id', '').startswith('_:')))
-            
-            club_info = {
-                'club_id': club_id,
-                'start_date': start_date,
-                'end_date': end_date,
-                'is_current': is_current,
-                'name': 'Unknown',
-                'description': ''
-            }
-            
-            club_statements.append(club_info)
-    
-    # Get club names and descriptions from the JSONLD data
-    club_names = {}
-    for item in data.get('@graph', []):
-        item_id = item.get('@id', '')
-        if (item.get('@type') == 'wikibase:Item' and 
-            item_id.startswith('wd:Q') and 
-            'label' in item):
-            
-            club_id = item_id.replace('wd:', '')
-            
-            # Handle label (can be dict or list)
-            label = item.get('label')
-            club_name = 'Unknown'
-            if isinstance(label, dict) and '@value' in label:
-                club_name = label['@value']
-            elif isinstance(label, list) and len(label) > 0 and '@value' in label[0]:
-                club_name = label[0]['@value']
-            
-            # Handle description (can be dict or list)
-            description = item.get('description', '')
-            club_description = ''
-            if isinstance(description, dict) and '@value' in description:
-                club_description = description['@value']
-            elif isinstance(description, list) and len(description) > 0 and '@value' in description[0]:
-                club_description = description[0]['@value']
-            
-            club_names[club_id] = {
-                'name': club_name,
-                'description': club_description
-            }
     
 def extract_all_clubs(jsonld_file_path: str, paranames_cantonese: Dict[str, Dict[str, str]] = None) -> Dict[str, Any]:
     """
@@ -762,6 +658,24 @@ if __name__ == "__main__":
     
     all_data['cantonese_statistics'] = filtered_cantonese_stats
     
+    # Extract all unique clubs with their information
+    print("Extracting all unique clubs information...")
+    all_clubs = {}
+    for player_data in filtered_players.values():
+        for club in player_data['clubs']:
+            club_id = club['club_id']
+            if club_id not in all_clubs:
+                all_clubs[club_id] = {
+                    'name_english': club['name'],
+                    'name_cantonese': club['cantonese_name'],
+                    'has_cantonese': club['has_cantonese'],
+                    'description_english': club['description'],
+                    'club_names': club['club_names'],
+                    'player_count': 0  # Will be updated below
+                }
+            # Count unique players for this club
+            all_clubs[club_id]['player_count'] = len(filtered_club_to_players.get(club_id, []))
+    
     # Find potential teammates with filtered data
     print("Finding potential teammates among players with Cantonese names...")
     teammates = find_potential_teammates(all_data)
@@ -773,6 +687,12 @@ if __name__ == "__main__":
         'metadata': {
             'description': 'Football player club affiliations extracted from WikiData for Cantonese benchmark construction - FILTERED for players with Cantonese names only',
             'purpose': 'Support generation of questions about player careers and teammate relationships with Cantonese names',
+            'data_structure': {
+                'players': 'Dictionary of player_id -> player data with club histories',
+                'club_to_players_mapping': 'Dictionary of club_id -> list of players who played there',
+                'all_clubs': 'Dictionary of club_id -> club data with English/Cantonese names and player counts',
+                'potential_teammates': 'Array of player pairs who potentially played together'
+            },
             'extraction_date': datetime.now().isoformat(),
             'total_players': len(all_data['players']),
             'total_potential_teammate_pairs': len(teammates),
@@ -798,6 +718,7 @@ if __name__ == "__main__":
         },
         'players': all_data['players'],
         'club_to_players_mapping': all_data['club_to_players'],
+        'all_clubs': all_clubs,
         'potential_teammates': teammates,
         'processing_info': all_data['processing_info'],
         'cantonese_statistics': cantonese_stats
@@ -820,6 +741,7 @@ if __name__ == "__main__":
     print(f"✓ Players with Cantonese names retained: {len(all_data['players'])} ({cantonese_stats['filtering_ratio']}%)")
     print(f"✓ Players without Cantonese names filtered out: {cantonese_stats['original_player_count'] - len(all_data['players'])}")
     print(f"✓ Found {len(all_data['club_to_players'])} unique clubs in filtered data")
+    print(f"✓ All clubs dictionary contains {len(all_clubs)} clubs indexed by club_id")
     print(f"✓ Identified {len(teammates)} potential teammate pairs (all with Cantonese names)")
     print(f"✓ Clubs with Cantonese names: {cantonese_stats['unique_clubs_with_cantonese']}")
     print(f"✓ Clubs enhanced by ParaNames: {cantonese_stats.get('unique_clubs_enhanced_by_paranames', 0)}")

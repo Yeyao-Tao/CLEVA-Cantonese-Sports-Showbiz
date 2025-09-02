@@ -6,11 +6,11 @@
       "about": "wd:Q150268",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "softwareVersion": "1.0.0",
-      "version": 2378065522,
-      "dateModified": "2025-07-11T10:57:49Z",
-      "statements": 92,
+      "version": 2399078418,
+      "dateModified": "2025-09-01T10:19:08Z",
+      "statements": 93,
       "sitelinks": 81,
-      "identifiers": 45
+      "identifiers": 46
     },
     {
       "@id": "wd:Q150268",
@@ -1325,6 +1325,8 @@
       "P12606": "22767",
       "P12608": "32087",
       "P13064": "david-de-gea-112623",
+      "P1617": "42c72760-a9af-41ed-ba4a-9823c952c051",
+      "wdtn:P1617": "http://www.bbc.co.uk/things/42c72760-a9af-41ed-ba4a-9823c952c051#id",
       "p:P21": "wds:q150268-F0E1565F-FA61-47C8-AEBA-7177D83FFC7D"
     },
     {
@@ -2680,6 +2682,21 @@
       "rank": "wikibase:NormalRank",
       "ps:P13064": "david-de-gea-112623",
       "pq:P1810": "DAVID DE GEA"
+    },
+    {
+      "@id": "wd:Q150268",
+      "p:P1617": "wds:Q150268-b72bedd2-9b9e-435c-8f25-7c7aecf9c5ab"
+    },
+    {
+      "@id": "wds:Q150268-b72bedd2-9b9e-435c-8f25-7c7aecf9c5ab",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P1617": "42c72760-a9af-41ed-ba4a-9823c952c051",
+      "psn:P1617": "http://www.bbc.co.uk/things/42c72760-a9af-41ed-ba4a-9823c952c051#id",
+      "wasDerivedFrom": "wdref:8582d8416671f1f2567247201bac753552435ca5"
     },
     {
       "@id": "wd:Q150268",
@@ -11001,6 +11018,99 @@
       "someValuesFrom": "owl:Thing"
     },
     {
+      "@id": "wd:P1617",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "BBC Things ID"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "BBC Things ID"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "BBC Things ID"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "identifier in the BBC Things database, automatically enriched with Wikipedia and MusicBrainz content"
+      },
+      "propertyType": "http://wikiba.se/ontology#ExternalId",
+      "directClaim": "wdt:P1617",
+      "claim": "p:P1617",
+      "statementProperty": "ps:P1617",
+      "statementValue": "psv:P1617",
+      "qualifier": "pq:P1617",
+      "qualifierValue": "pqv:P1617",
+      "reference": "pr:P1617",
+      "referenceValue": "prv:P1617",
+      "novalue": "wdno:P1617",
+      "directClaimNormalized": "wdtn:P1617",
+      "statementValueNormalized": "psn:P1617",
+      "qualifierValueNormalized": "pqn:P1617",
+      "referenceValueNormalized": "prn:P1617"
+    },
+    {
+      "@id": "p:P1617",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P1617",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P1617",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P1617",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P1617",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P1617",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P1617",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P1617",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "psn:P1617",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqn:P1617",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prn:P1617",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdtn:P1617",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P1617",
+      "@type": "owl:Class",
+      "complementOf": "_:8fdc3215765eb06e29c097f7d29bf9cf"
+    },
+    {
+      "@id": "_:8fdc3215765eb06e29c097f7d29bf9cf",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P1617",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
       "@id": "wd:Q69652498",
       "@type": "wikibase:Item",
       "label": {
@@ -13288,6 +13398,26 @@
       }
     },
     {
+      "@id": "wd:Q18336371",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "BBC Things"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "BBC Things"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "BBC Things"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "semantic database"
+      }
+    },
+    {
       "@id": "wd:Q16352322",
       "sameAs": "wd:Q150268"
     },
@@ -13757,6 +13887,11 @@
       "P813": "2022-09-10T00:00:00Z",
       "prv:P813": "wdv:6f29640699a4951891392dfb0d9b5f1b",
       "P854": "https://golden.com/wiki/David_de_Gea-NEKR36"
+    },
+    {
+      "@id": "wdref:8582d8416671f1f2567247201bac753552435ca5",
+      "@type": "wikibase:Reference",
+      "P248": "wd:Q18336371"
     }
   ],
   "@context": {
@@ -14057,6 +14192,12 @@
     },
     "P13064": {
       "@id": "wdt:P13064"
+    },
+    "P1617": {
+      "@id": "wdt:P1617"
+    },
+    "wdtn:P1617": {
+      "@type": "@id"
     },
     "p": "http://www.wikidata.org/prop/",
     "wds": "http://www.wikidata.org/entity/statement/",
@@ -14557,6 +14698,12 @@
       "@type": "@id"
     },
     "p:P13064": {
+      "@type": "@id"
+    },
+    "p:P1617": {
+      "@type": "@id"
+    },
+    "psn:P1617": {
       "@type": "@id"
     },
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",

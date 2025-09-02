@@ -6,8 +6,8 @@
       "about": "wd:Q20830808",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "softwareVersion": "1.0.0",
-      "version": 2391606085,
-      "dateModified": "2025-08-13T15:01:09Z",
+      "version": 2398503510,
+      "dateModified": "2025-08-30T21:25:46Z",
       "statements": 75,
       "sitelinks": 61,
       "identifiers": 39
@@ -989,7 +989,7 @@
       "P3883": "gianluigi-donnarumma",
       "P1285": "01000009476",
       "P2003": "donnarumma",
-      "P2013": "GigioDonnarumma",
+      "P2013": "dona",
       "P8736": "204936",
       "P2600": "6000000136343821844",
       "P118": [
@@ -1932,7 +1932,7 @@
         "wikibase:BestRank"
       ],
       "rank": "wikibase:NormalRank",
-      "ps:P2013": "GigioDonnarumma",
+      "ps:P2013": "dona",
       "pq:P1810": "Gigio Donnarumma",
       "P3744": "+1500000",
       "pqv:P3744": "wdv:7482788ab5c14e1dacacd3a2379670ff",

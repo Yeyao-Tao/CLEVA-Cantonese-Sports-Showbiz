@@ -6,10 +6,10 @@
       "about": "wd:Q43729",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "softwareVersion": "1.0.0",
-      "version": 2389678868,
-      "dateModified": "2025-08-09T09:52:53Z",
+      "version": 2398497500,
+      "dateModified": "2025-08-30T21:05:13Z",
       "statements": 133,
-      "sitelinks": 105,
+      "sitelinks": 106,
       "identifiers": 72
     },
     {
@@ -1592,6 +1592,21 @@
       "wikiGroup": "wikipedia"
     },
     {
+      "@id": "https://ky.wikipedia.org/wiki/%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D1%81_%D0%98%D0%BD%D1%8C%D0%B5%D1%81%D1%82%D0%B0",
+      "@type": "schema:Article",
+      "about": "wd:Q43729",
+      "inLanguage": "ky",
+      "isPartOf": "https://ky.wikipedia.org/",
+      "name": {
+        "@language": "ky",
+        "@value": "Андрес Иньеста"
+      }
+    },
+    {
+      "@id": "https://ky.wikipedia.org/",
+      "wikiGroup": "wikipedia"
+    },
+    {
       "@id": "wd:Q43729",
       "P1618": "8",
       "P21": "wd:Q6581097",
@@ -2116,7 +2131,10 @@
       ],
       "rank": "wikibase:NormalRank",
       "ps:P31": "wd:Q5",
-      "wasDerivedFrom": "wdref:014f9bd90f8dd3e2c6b96f79314b53e0407b619e"
+      "wasDerivedFrom": [
+        "wdref:014f9bd90f8dd3e2c6b96f79314b53e0407b619e",
+        "wdref:75786f1951a6d370f2dbac71c52111d675508672"
+      ]
     },
     {
       "@id": "wd:Q43729",
@@ -4173,6 +4191,10 @@
         {
           "@language": "xh",
           "@value": "Andrés Iniesta"
+        },
+        {
+          "@language": "ky",
+          "@value": "Андрес Иньеста"
         }
       ],
       "prefLabel": [
@@ -4595,6 +4617,10 @@
         {
           "@language": "xh",
           "@value": "Andrés Iniesta"
+        },
+        {
+          "@language": "ky",
+          "@value": "Андрес Иньеста"
         }
       ],
       "name": [
@@ -5017,6 +5043,10 @@
         {
           "@language": "xh",
           "@value": "Andrés Iniesta"
+        },
+        {
+          "@language": "ky",
+          "@value": "Андрес Иньеста"
         }
       ],
       "description": [
@@ -14534,7 +14564,7 @@
       ],
       "description": {
         "@language": "en",
-        "@value": "identifier for topics in the German news portal \"Der Spiegel\""
+        "@value": "identifier for topics in the German news portal “Der Spiegel”"
       },
       "propertyType": "http://wikiba.se/ontology#ExternalId",
       "directClaim": "wdt:P10234",
@@ -16445,6 +16475,44 @@
       "someValuesFrom": "owl:Thing"
     },
     {
+      "@id": "wd:Q60799",
+      "@type": "wikibase:Item",
+      "label": [
+        {
+          "@language": "en",
+          "@value": "Kyrgyz Wikipedia"
+        },
+        {
+          "@language": "mul",
+          "@value": "Кыргыз Википедиясы"
+        }
+      ],
+      "prefLabel": [
+        {
+          "@language": "en",
+          "@value": "Kyrgyz Wikipedia"
+        },
+        {
+          "@language": "mul",
+          "@value": "Кыргыз Википедиясы"
+        }
+      ],
+      "name": [
+        {
+          "@language": "en",
+          "@value": "Kyrgyz Wikipedia"
+        },
+        {
+          "@language": "mul",
+          "@value": "Кыргыз Википедиясы"
+        }
+      ],
+      "description": {
+        "@language": "en",
+        "@value": "Kyrgyz-language edition of Wikipedia"
+      }
+    },
+    {
       "@id": "wd:Q2449070",
       "@type": "wikibase:Item",
       "label": {
@@ -18320,6 +18388,10 @@
       }
     },
     {
+      "@id": "wd:Q65308593",
+      "sameAs": "wd:Q43729"
+    },
+    {
       "@id": "wd:Q97270724",
       "sameAs": "wd:Q43729"
     },
@@ -18945,6 +19017,11 @@
       "prv:P813": "wdv:9a680b9092d708b8a9d38a341d203a35",
       "pr:P950": "XX4870293",
       "prn:P950": "https://datos.bne.es/resource/XX4870293"
+    },
+    {
+      "@id": "wdref:75786f1951a6d370f2dbac71c52111d675508672",
+      "@type": "wikibase:Reference",
+      "P143": "wd:Q60799"
     },
     {
       "@id": "wdref:9c1b97cddef8e0287045af496830da6c43f55265",

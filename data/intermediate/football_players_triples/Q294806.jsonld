@@ -6,9 +6,9 @@
       "about": "wd:Q294806",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "softwareVersion": "1.0.0",
-      "version": 2398072482,
-      "dateModified": "2025-08-29T12:21:04Z",
-      "statements": 86,
+      "version": 2398935188,
+      "dateModified": "2025-09-01T00:17:49Z",
+      "statements": 87,
       "sitelinks": 66,
       "identifiers": 36
     },
@@ -1012,21 +1012,7 @@
       "P21": "wd:Q6581097",
       "P106": "wd:Q937857",
       "P19": "wd:Q1228466",
-      "P54": [
-        "wd:Q2657829",
-        "wd:Q10286",
-        "wd:Q132885",
-        "wd:Q9616",
-        "wd:Q3873503",
-        "wd:Q2310295",
-        "wd:Q2713491",
-        "wd:Q2356290",
-        "wd:Q1129595",
-        "wd:Q2637337",
-        "wd:Q42267",
-        "wd:Q8701",
-        "wd:Q10286"
-      ],
+      "P54": "wd:Q10329",
       "P373": "César Azpilicueta",
       "P18": "http://commons.wikimedia.org/wiki/Special:FilePath/C%C3%A9sar%20Azpilicueta%2C%20Al%20Hilal%20SFC%20vs%20Chelsea%20F.C.%2C%209%20February%202022.jpg",
       "P31": "wd:Q5",
@@ -1165,10 +1151,7 @@
     },
     {
       "@id": "wds:q294806-76B18938-FC7B-4772-A694-D71F0571EC82",
-      "@type": [
-        "wikibase:Statement",
-        "wikibase:BestRank"
-      ],
+      "@type": "wikibase:Statement",
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q2657829",
       "P580": "2006-01-01T00:00:00Z",
@@ -1186,10 +1169,7 @@
     },
     {
       "@id": "wds:q294806-4249B848-3360-47B5-B966-800788835AC3",
-      "@type": [
-        "wikibase:Statement",
-        "wikibase:BestRank"
-      ],
+      "@type": "wikibase:Statement",
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q10286",
       "P580": "2007-01-01T00:00:00Z",
@@ -1207,10 +1187,7 @@
     },
     {
       "@id": "wds:q294806-DD0F4F49-03F0-4203-A4FE-9E77FEA50B5F",
-      "@type": [
-        "wikibase:Statement",
-        "wikibase:BestRank"
-      ],
+      "@type": "wikibase:Statement",
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q132885",
       "P580": "2010-01-01T00:00:00Z",
@@ -1228,10 +1205,7 @@
     },
     {
       "@id": "wds:q294806-A0DF1B0D-68F8-4B08-9FC3-67CC395F3376",
-      "@type": [
-        "wikibase:Statement",
-        "wikibase:BestRank"
-      ],
+      "@type": "wikibase:Statement",
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q9616",
       "P580": "2012-01-01T00:00:00Z",
@@ -1250,10 +1224,7 @@
     },
     {
       "@id": "wds:q294806-7BBED5F4-CA75-469C-9EE4-260C6AA72298",
-      "@type": [
-        "wikibase:Statement",
-        "wikibase:BestRank"
-      ],
+      "@type": "wikibase:Statement",
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q3873503",
       "P580": "2005-01-01T00:00:00Z",
@@ -1271,10 +1242,7 @@
     },
     {
       "@id": "wds:q294806-B79D3055-FA54-4CE0-8B91-0C71C58082D7",
-      "@type": [
-        "wikibase:Statement",
-        "wikibase:BestRank"
-      ],
+      "@type": "wikibase:Statement",
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q2310295",
       "P580": "2006-01-01T00:00:00Z",
@@ -1292,10 +1260,7 @@
     },
     {
       "@id": "wds:q294806-7F070B29-A538-4857-9E60-60B4A6996892",
-      "@type": [
-        "wikibase:Statement",
-        "wikibase:BestRank"
-      ],
+      "@type": "wikibase:Statement",
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q2713491",
       "P580": "2007-01-01T00:00:00Z",
@@ -1313,10 +1278,7 @@
     },
     {
       "@id": "wds:q294806-7EE9DF67-0FB6-42F0-8B9A-2043B52F480E",
-      "@type": [
-        "wikibase:Statement",
-        "wikibase:BestRank"
-      ],
+      "@type": "wikibase:Statement",
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q2356290",
       "P580": "2009-01-01T00:00:00Z",
@@ -1334,10 +1296,7 @@
     },
     {
       "@id": "wds:q294806-51DBA139-13AB-4105-92C3-D005EAC1CBF0",
-      "@type": [
-        "wikibase:Statement",
-        "wikibase:BestRank"
-      ],
+      "@type": "wikibase:Statement",
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q1129595",
       "P580": "2008-01-01T00:00:00Z",
@@ -1355,10 +1314,7 @@
     },
     {
       "@id": "wds:q294806-D7D77D72-1A85-49D7-A882-85DBB897D2D4",
-      "@type": [
-        "wikibase:Statement",
-        "wikibase:BestRank"
-      ],
+      "@type": "wikibase:Statement",
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q2637337",
       "P580": "2012-01-01T00:00:00Z",
@@ -1376,10 +1332,7 @@
     },
     {
       "@id": "wds:q294806-BCCF6A0C-FBBD-436C-A262-399BEC56FC36",
-      "@type": [
-        "wikibase:Statement",
-        "wikibase:BestRank"
-      ],
+      "@type": "wikibase:Statement",
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q42267",
       "P580": "2013-01-01T00:00:00Z",
@@ -1397,20 +1350,17 @@
     },
     {
       "@id": "wds:Q294806-397898f7-44b2-4cb9-6843-5264b720ba34",
-      "@type": [
-        "wikibase:Statement",
-        "wikibase:BestRank"
-      ],
+      "@type": "wikibase:Statement",
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q8701",
       "P580": "2023-01-01T00:00:00Z",
       "pqv:P580": "wdv:60a280b7a39d2c2e62cd6c631b3e88e9",
-      "pq:P1350": "+39",
-      "pqv:P1350": "wdv:1b176da319ad85f596386689f8a1ce40",
+      "pq:P1350": "+54",
+      "pqv:P1350": "wdv:81687f937ba64971bb005f3704f04282",
       "P1351": "+1",
       "pqv:P1351": "wdv:1c9e02c1631d3fd5ec9a9fe9aa1fde65",
-      "P582": "2025-07-01T00:00:00Z",
-      "pqv:P582": "wdv:23b1f9ab4629dc311d7367e3ef223099"
+      "P582": "2025-01-01T00:00:00Z",
+      "pqv:P582": "wdv:0bba73a2c22634302960d00f316f5fff"
     },
     {
       "@id": "wd:Q294806",
@@ -1418,10 +1368,7 @@
     },
     {
       "@id": "wds:Q294806-6ff40751-4130-9896-c1fe-d08398b89cdf",
-      "@type": [
-        "wikibase:Statement",
-        "wikibase:BestRank"
-      ],
+      "@type": "wikibase:Statement",
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q10286",
       "P580": "2001-01-01T00:00:00Z",
@@ -1429,6 +1376,25 @@
       "P582": "2006-01-01T00:00:00Z",
       "pqv:P582": "wdv:efd690456e471a014e71685683c62024",
       "P2094": "wd:Q599867"
+    },
+    {
+      "@id": "wd:Q294806",
+      "p:P54": "wds:Q294806-2f25a889-4f53-564c-4085-62fdcd55d0ba"
+    },
+    {
+      "@id": "wds:Q294806-2f25a889-4f53-564c-4085-62fdcd55d0ba",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:PreferredRank",
+      "ps:P54": "wd:Q10329",
+      "P580": "2025-01-01T00:00:00Z",
+      "pqv:P580": "wdv:0bba73a2c22634302960d00f316f5fff",
+      "pq:P1350": "+0",
+      "pqv:P1350": "wdv:67a17c05603b9e75b6c25826fa747705",
+      "P1351": "+0",
+      "pqv:P1351": "wdv:67a17c05603b9e75b6c25826fa747705"
     },
     {
       "@id": "wd:Q294806",
@@ -4141,23 +4107,23 @@
       "someValuesFrom": "owl:Thing"
     },
     {
-      "@id": "wd:Q2657829",
+      "@id": "wd:Q10329",
       "@type": "wikibase:Item",
       "label": {
         "@language": "en",
-        "@value": "Osasuna B"
+        "@value": "Sevilla FC"
       },
       "prefLabel": {
         "@language": "en",
-        "@value": "Osasuna B"
+        "@value": "Sevilla FC"
       },
       "name": {
         "@language": "en",
-        "@value": "Osasuna B"
+        "@value": "Sevilla FC"
       },
       "description": {
         "@language": "en",
-        "@value": "reserve team of CA Osasuna"
+        "@value": "Spanish professional football club based in Seville"
       }
     },
     {
@@ -4232,226 +4198,6 @@
       "@type": "owl:Restriction",
       "onProperty": "wdt:P54",
       "someValuesFrom": "owl:Thing"
-    },
-    {
-      "@id": "wd:Q10286",
-      "@type": "wikibase:Item",
-      "label": {
-        "@language": "en",
-        "@value": "Club Atlético Osasuna"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "Club Atlético Osasuna"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "Club Atlético Osasuna"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "Spanish association football team"
-      }
-    },
-    {
-      "@id": "wd:Q132885",
-      "@type": "wikibase:Item",
-      "label": {
-        "@language": "en",
-        "@value": "Olympique de Marseille"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "Olympique de Marseille"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "Olympique de Marseille"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "association football club in Marseille, France"
-      }
-    },
-    {
-      "@id": "wd:Q9616",
-      "@type": "wikibase:Item",
-      "label": {
-        "@language": "en",
-        "@value": "Chelsea F.C."
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "Chelsea F.C."
-      },
-      "name": {
-        "@language": "en",
-        "@value": "Chelsea F.C."
-      },
-      "description": {
-        "@language": "en",
-        "@value": "association football club in London, England"
-      }
-    },
-    {
-      "@id": "wd:Q3873503",
-      "@type": "wikibase:Item",
-      "label": {
-        "@language": "en",
-        "@value": "Spain national under-16 association football team"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "Spain national under-16 association football team"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "Spain national under-16 association football team"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "under-16 association football team representing Spain"
-      }
-    },
-    {
-      "@id": "wd:Q2310295",
-      "@type": "wikibase:Item",
-      "label": {
-        "@language": "en",
-        "@value": "Spain national under-17 football team"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "Spain national under-17 football team"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "Spain national under-17 football team"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "under-17 association football team representing Spain"
-      }
-    },
-    {
-      "@id": "wd:Q2713491",
-      "@type": "wikibase:Item",
-      "label": {
-        "@language": "en",
-        "@value": "Spain national under-19 football team"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "Spain national under-19 football team"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "Spain national under-19 football team"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "under-19 association football team representing Spain"
-      }
-    },
-    {
-      "@id": "wd:Q2356290",
-      "@type": "wikibase:Item",
-      "label": {
-        "@language": "en",
-        "@value": "Spain national under-20 football team"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "Spain national under-20 football team"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "Spain national under-20 football team"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "under-20 association football team representing Spain"
-      }
-    },
-    {
-      "@id": "wd:Q1129595",
-      "@type": "wikibase:Item",
-      "label": {
-        "@language": "en",
-        "@value": "Spain national under-21 association football team"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "Spain national under-21 association football team"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "Spain national under-21 association football team"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "national under-21 association football team representing Spain"
-      }
-    },
-    {
-      "@id": "wd:Q2637337",
-      "@type": "wikibase:Item",
-      "label": {
-        "@language": "en",
-        "@value": "Spain national under-23 football team"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "Spain national under-23 football team"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "Spain national under-23 football team"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "under-23 association football team representing Spain, most often at the Olympics"
-      }
-    },
-    {
-      "@id": "wd:Q42267",
-      "@type": "wikibase:Item",
-      "label": {
-        "@language": "en",
-        "@value": "Spain men's national football team"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "Spain men's national football team"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "Spain men's national football team"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "men's national association football team representing Spain"
-      }
-    },
-    {
-      "@id": "wd:Q8701",
-      "@type": "wikibase:Item",
-      "label": {
-        "@language": "en",
-        "@value": "Atlético de Madrid"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "Atlético de Madrid"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "Atlético de Madrid"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "Spanish professional football club in Madrid"
-      }
     },
     {
       "@id": "wd:P373",
@@ -10265,6 +10011,26 @@
       "someValuesFrom": "owl:Thing"
     },
     {
+      "@id": "wd:Q2657829",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Osasuna B"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Osasuna B"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Osasuna B"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "reserve team of CA Osasuna"
+      }
+    },
+    {
       "@id": "wd:P580",
       "@type": "wikibase:Property",
       "label": {
@@ -10504,6 +10270,66 @@
       "someValuesFrom": "owl:Thing"
     },
     {
+      "@id": "wd:Q10286",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Club Atlético Osasuna"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Club Atlético Osasuna"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Club Atlético Osasuna"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "Spanish association football team"
+      }
+    },
+    {
+      "@id": "wd:Q132885",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Olympique de Marseille"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Olympique de Marseille"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Olympique de Marseille"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "association football club in Marseille, France"
+      }
+    },
+    {
+      "@id": "wd:Q9616",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Chelsea F.C."
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Chelsea F.C."
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Chelsea F.C."
+      },
+      "description": {
+        "@language": "en",
+        "@value": "association football club in London, England"
+      }
+    },
+    {
       "@id": "wd:P4656",
       "@type": "wikibase:Property",
       "label": {
@@ -10612,6 +10438,166 @@
       "description": {
         "@language": "en",
         "@value": "English-language edition of Wikipedia"
+      }
+    },
+    {
+      "@id": "wd:Q3873503",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Spain national under-16 association football team"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Spain national under-16 association football team"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Spain national under-16 association football team"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "under-16 association football team representing Spain"
+      }
+    },
+    {
+      "@id": "wd:Q2310295",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Spain national under-17 football team"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Spain national under-17 football team"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Spain national under-17 football team"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "under-17 association football team representing Spain"
+      }
+    },
+    {
+      "@id": "wd:Q2713491",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Spain national under-19 football team"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Spain national under-19 football team"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Spain national under-19 football team"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "under-19 association football team representing Spain"
+      }
+    },
+    {
+      "@id": "wd:Q2356290",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Spain national under-20 football team"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Spain national under-20 football team"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Spain national under-20 football team"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "under-20 association football team representing Spain"
+      }
+    },
+    {
+      "@id": "wd:Q1129595",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Spain national under-21 association football team"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Spain national under-21 association football team"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Spain national under-21 association football team"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "national under-21 association football team representing Spain"
+      }
+    },
+    {
+      "@id": "wd:Q2637337",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Spain national under-23 football team"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Spain national under-23 football team"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Spain national under-23 football team"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "under-23 association football team representing Spain, most often at the Olympics"
+      }
+    },
+    {
+      "@id": "wd:Q42267",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Spain men's national football team"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Spain men's national football team"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Spain men's national football team"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "men's national association football team representing Spain"
+      }
+    },
+    {
+      "@id": "wd:Q8701",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Atlético de Madrid"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Atlético de Madrid"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Atlético de Madrid"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "Spanish professional football club in Madrid"
       }
     },
     {
@@ -12263,9 +12249,9 @@
       "quantityUnit": "http://www.wikidata.org/entity/Q199"
     },
     {
-      "@id": "wdv:1b176da319ad85f596386689f8a1ce40",
+      "@id": "wdv:81687f937ba64971bb005f3704f04282",
       "@type": "wikibase:QuantityValue",
-      "quantityAmount": "+39",
+      "quantityAmount": "+54",
       "quantityUnit": "http://www.wikidata.org/entity/Q199"
     },
     {
@@ -12427,10 +12413,10 @@
       "timeCalendarModel": "http://www.wikidata.org/entity/Q1985727"
     },
     {
-      "@id": "wdv:23b1f9ab4629dc311d7367e3ef223099",
+      "@id": "wdv:0bba73a2c22634302960d00f316f5fff",
       "@type": "wikibase:TimeValue",
-      "timeValue": "2025-07-01T00:00:00Z",
-      "timePrecision": 11,
+      "timeValue": "2025-01-01T00:00:00Z",
+      "timePrecision": 9,
       "timeTimezone": 0,
       "timeCalendarModel": "http://www.wikidata.org/entity/Q1985727"
     },

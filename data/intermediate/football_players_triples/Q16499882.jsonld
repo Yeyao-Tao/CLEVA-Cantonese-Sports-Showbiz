@@ -6,11 +6,11 @@
       "about": "wd:Q16499882",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "softwareVersion": "1.0.0",
-      "version": 2374157516,
-      "dateModified": "2025-07-05T17:12:11Z",
-      "statements": 85,
+      "version": 2398323971,
+      "dateModified": "2025-08-30T10:11:59Z",
+      "statements": 86,
       "sitelinks": 61,
-      "identifiers": 40
+      "identifiers": 41
     },
     {
       "@id": "wd:Q16499882",
@@ -1027,6 +1027,7 @@
       "P12608": "46130",
       "P11379": "50178525",
       "P13049": "1211023680",
+      "P2448": "2820494",
       "p:P21": "wds:Q16499882-B6F13A5A-41B7-4B7C-BC22-F44198A989C6"
     },
     {
@@ -2279,6 +2280,19 @@
       ],
       "rank": "wikibase:NormalRank",
       "ps:P13049": "1211023680"
+    },
+    {
+      "@id": "wd:Q16499882",
+      "p:P2448": "wds:Q16499882-533c9844-4001-5b00-50aa-3bf81bd02c4c"
+    },
+    {
+      "@id": "wds:Q16499882-533c9844-4001-5b00-50aa-3bf81bd02c4c",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P2448": "2820494"
     },
     {
       "@id": "wd:Q16499882",
@@ -10493,6 +10507,99 @@
       "someValuesFrom": "owl:Thing"
     },
     {
+      "@id": "wd:P2448",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "Turkish Football Federation player ID"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Turkish Football Federation player ID"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Turkish Football Federation player ID"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "identifier for a player in the Turkish Football Federation's database"
+      },
+      "propertyType": "http://wikiba.se/ontology#ExternalId",
+      "directClaim": "wdt:P2448",
+      "claim": "p:P2448",
+      "statementProperty": "ps:P2448",
+      "statementValue": "psv:P2448",
+      "qualifier": "pq:P2448",
+      "qualifierValue": "pqv:P2448",
+      "reference": "pr:P2448",
+      "referenceValue": "prv:P2448",
+      "novalue": "wdno:P2448",
+      "directClaimNormalized": "wdtn:P2448",
+      "statementValueNormalized": "psn:P2448",
+      "qualifierValueNormalized": "pqn:P2448",
+      "referenceValueNormalized": "prn:P2448"
+    },
+    {
+      "@id": "p:P2448",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P2448",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P2448",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P2448",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P2448",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P2448",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P2448",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P2448",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "psn:P2448",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqn:P2448",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prn:P2448",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdtn:P2448",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P2448",
+      "@type": "owl:Class",
+      "complementOf": "_:6fd6eaac2168dc326827d3aed0105a05"
+    },
+    {
+      "@id": "_:6fd6eaac2168dc326827d3aed0105a05",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P2448",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
       "@id": "wd:Q48183",
       "@type": "wikibase:Item",
       "label": {
@@ -13344,6 +13451,9 @@
     "P13049": {
       "@id": "wdt:P13049"
     },
+    "P2448": {
+      "@id": "wdt:P2448"
+    },
     "p": "http://www.wikidata.org/prop/",
     "wds": "http://www.wikidata.org/entity/statement/",
     "p:P21": {
@@ -13819,6 +13929,9 @@
       "@type": "@id"
     },
     "p:P13049": {
+      "@type": "@id"
+    },
+    "p:P2448": {
       "@type": "@id"
     },
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",

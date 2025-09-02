@@ -6,11 +6,11 @@
       "about": "wd:Q483309",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "softwareVersion": "1.0.0",
-      "version": 2382754634,
-      "dateModified": "2025-07-22T13:26:34Z",
-      "statements": 113,
+      "version": 2398847075,
+      "dateModified": "2025-08-31T19:04:01Z",
+      "statements": 114,
       "sitelinks": 90,
-      "identifiers": 61
+      "identifiers": 62
     },
     {
       "@id": "wd:Q483309",
@@ -1496,6 +1496,7 @@
       "P12924": "114",
       "P1038": "wd:Q382074",
       "P1618": "93",
+      "P5404": "sergio-ramos-2",
       "p:P21": "wds:q483309-334C19BA-E6DC-4F5B-8233-72F33D8B8C56"
     },
     {
@@ -3141,6 +3142,19 @@
       "P580": "2025-01-01T00:00:00Z",
       "pqv:P580": "wdv:0bba73a2c22634302960d00f316f5fff",
       "pq:P54": "wd:Q768253"
+    },
+    {
+      "@id": "wd:Q483309",
+      "p:P5404": "wds:Q483309-c27436c7-4e9c-c867-ca5b-19c003e661f8"
+    },
+    {
+      "@id": "wds:Q483309-c27436c7-4e9c-c867-ca5b-19c003e661f8",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P5404": "sergio-ramos-2"
     },
     {
       "@id": "wd:Q483309",
@@ -13329,6 +13343,99 @@
       "someValuesFrom": "owl:Thing"
     },
     {
+      "@id": "wd:P5404",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "Rate Your Music artist ID"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Rate Your Music artist ID"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Rate Your Music artist ID"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "identifier for an artist or group on the website Rate Your Music"
+      },
+      "propertyType": "http://wikiba.se/ontology#ExternalId",
+      "directClaim": "wdt:P5404",
+      "claim": "p:P5404",
+      "statementProperty": "ps:P5404",
+      "statementValue": "psv:P5404",
+      "qualifier": "pq:P5404",
+      "qualifierValue": "pqv:P5404",
+      "reference": "pr:P5404",
+      "referenceValue": "prv:P5404",
+      "novalue": "wdno:P5404",
+      "directClaimNormalized": "wdtn:P5404",
+      "statementValueNormalized": "psn:P5404",
+      "qualifierValueNormalized": "pqn:P5404",
+      "referenceValueNormalized": "prn:P5404"
+    },
+    {
+      "@id": "p:P5404",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P5404",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P5404",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P5404",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P5404",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P5404",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P5404",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P5404",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "psn:P5404",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqn:P5404",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prn:P5404",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdtn:P5404",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P5404",
+      "@type": "owl:Class",
+      "complementOf": "_:ad78f88660b4be6b625d7a76400c0cfb"
+    },
+    {
+      "@id": "_:ad78f88660b4be6b625d7a76400c0cfb",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P5404",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
       "@id": "wd:Q10329",
       "@type": "wikibase:Item",
       "label": {
@@ -16869,6 +16976,9 @@
     "P1618": {
       "@id": "wdt:P1618"
     },
+    "P5404": {
+      "@id": "wdt:P5404"
+    },
     "p": "http://www.wikidata.org/prop/",
     "wds": "http://www.wikidata.org/entity/statement/",
     "p:P21": {
@@ -17444,6 +17554,9 @@
       "@type": "@id"
     },
     "pq:P54": {
+      "@type": "@id"
+    },
+    "p:P5404": {
       "@type": "@id"
     },
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",

@@ -8799,18 +8799,36 @@
     {
       "@id": "wd:Q44219357",
       "@type": "wikibase:Item",
-      "label": {
-        "@language": "en",
-        "@value": "Jonatan Braut Brunes"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "Jonatan Braut Brunes"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "Jonatan Braut Brunes"
-      },
+      "label": [
+        {
+          "@language": "en",
+          "@value": "Jonatan Braut Brunes"
+        },
+        {
+          "@language": "mul",
+          "@value": "Jonatan Braut Brunes"
+        }
+      ],
+      "prefLabel": [
+        {
+          "@language": "en",
+          "@value": "Jonatan Braut Brunes"
+        },
+        {
+          "@language": "mul",
+          "@value": "Jonatan Braut Brunes"
+        }
+      ],
+      "name": [
+        {
+          "@language": "en",
+          "@value": "Jonatan Braut Brunes"
+        },
+        {
+          "@language": "mul",
+          "@value": "Jonatan Braut Brunes"
+        }
+      ],
       "description": {
         "@language": "en",
         "@value": "Norwegian association football player"

@@ -6,9 +6,9 @@
       "about": "wd:Q6147586",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "softwareVersion": "1.0.0",
-      "version": 2392919975,
-      "dateModified": "2025-08-16T15:22:02Z",
-      "statements": 84,
+      "version": 2398922599,
+      "dateModified": "2025-08-31T23:11:40Z",
+      "statements": 85,
       "sitelinks": 66,
       "identifiers": 48
     },
@@ -1016,13 +1016,7 @@
       "P569": "1987-01-11T00:00:00Z",
       "P19": "wd:Q42448",
       "P27": "wd:Q145",
-      "P54": [
-        "wd:Q18305",
-        "wd:Q5214935",
-        "wd:Q48941",
-        "wd:Q19481",
-        "wd:Q47762"
-      ],
+      "P54": "wd:Q759482",
       "P735": "wd:Q1674029",
       "P373": "Jamie Vardy",
       "P2020": "jamie-vardy",
@@ -1030,7 +1024,6 @@
       "P2369": "159732",
       "P413": "wd:Q280658",
       "P2446": "197838",
-      "P1618": "9",
       "P2193": "61643",
       "P2574": "59351",
       "P734": "wd:Q7915569",
@@ -1227,10 +1220,7 @@
     },
     {
       "@id": "wds:Q6147586-5e2d8b4a-4226-b41b-3ac3-35ba1fc91103",
-      "@type": [
-        "wikibase:Statement",
-        "wikibase:BestRank"
-      ],
+      "@type": "wikibase:Statement",
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q18305",
       "P580": "2007-01-01T00:00:00Z",
@@ -1246,10 +1236,7 @@
     },
     {
       "@id": "wds:Q6147586-317d05f6-4a7b-d5af-21ff-e5a58ae90a7c",
-      "@type": [
-        "wikibase:Statement",
-        "wikibase:BestRank"
-      ],
+      "@type": "wikibase:Statement",
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q5214935",
       "P580": "2010-01-01T00:00:00Z",
@@ -1273,10 +1260,7 @@
     },
     {
       "@id": "wds:Q6147586-97f7a437-4106-7fd0-73aa-147d7b547591",
-      "@type": [
-        "wikibase:Statement",
-        "wikibase:BestRank"
-      ],
+      "@type": "wikibase:Statement",
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q48941",
       "P580": "2011-01-01T00:00:00Z",
@@ -1300,10 +1284,7 @@
     },
     {
       "@id": "wds:Q6147586-081624F2-978C-48C1-8B20-7EE466507970",
-      "@type": [
-        "wikibase:Statement",
-        "wikibase:BestRank"
-      ],
+      "@type": "wikibase:Statement",
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q19481",
       "P580": "2012-01-01T00:00:00Z",
@@ -1328,10 +1309,7 @@
     },
     {
       "@id": "wds:Q6147586-8A9E874F-559B-4880-94F0-F94461A4623A",
-      "@type": [
-        "wikibase:Statement",
-        "wikibase:BestRank"
-      ],
+      "@type": "wikibase:Statement",
       "rank": "wikibase:NormalRank",
       "ps:P54": "wd:Q47762",
       "P580": "2015-01-01T00:00:00Z",
@@ -1348,6 +1326,21 @@
       "pqv:P1351": "wdv:c39d22b9f5ccedc8a61c76ef12663e29",
       "P582": "2018-01-01T00:00:00Z",
       "pqv:P582": "wdv:a112a6fb4487071d1ae3a0c6951488f6"
+    },
+    {
+      "@id": "wd:Q6147586",
+      "p:P54": "wds:Q6147586-c7c21c02-4377-0d14-aee9-efa89ce1e2b8"
+    },
+    {
+      "@id": "wds:Q6147586-c7c21c02-4377-0d14-aee9-efa89ce1e2b8",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:PreferredRank",
+      "ps:P54": "wd:Q759482",
+      "P580": "2025-08-31T00:00:00Z",
+      "pqv:P580": "wdv:cf215ba0e3781467681fc458e231ed55"
     },
     {
       "@id": "wd:Q6147586",
@@ -1462,17 +1455,18 @@
     },
     {
       "@id": "wd:Q6147586",
-      "p:P1618": "wds:Q6147586-E2CC322E-02F6-4319-A96E-D9D6033BF823"
+      "P1618": "wds:Q6147586-E2CC322E-02F6-4319-A96E-D9D6033BF823"
     },
     {
       "@id": "wds:Q6147586-E2CC322E-02F6-4319-A96E-D9D6033BF823",
-      "@type": [
-        "wikibase:Statement",
-        "wikibase:BestRank"
-      ],
-      "rank": "wikibase:NormalRank",
+      "@type": "wikibase:Statement",
+      "rank": "wikibase:DeprecatedRank",
       "ps:P1618": "9",
-      "pq:P54": "wd:Q19481"
+      "pq:P54": "wd:Q19481",
+      "P580": "2012-01-01T00:00:00Z",
+      "pqv:P580": "wdv:a4cd9904a78844d854ea927fbdded8f2",
+      "P582": "2025-01-01T00:00:00Z",
+      "pqv:P582": "wdv:0bba73a2c22634302960d00f316f5fff"
     },
     {
       "@id": "wd:Q6147586",
@@ -4148,23 +4142,23 @@
       "someValuesFrom": "owl:Thing"
     },
     {
-      "@id": "wd:Q18305",
+      "@id": "wd:Q759482",
       "@type": "wikibase:Item",
       "label": {
         "@language": "en",
-        "@value": "Stocksbridge Park Steels F.C."
+        "@value": "U.S. Cremonese"
       },
       "prefLabel": {
         "@language": "en",
-        "@value": "Stocksbridge Park Steels F.C."
+        "@value": "U.S. Cremonese"
       },
       "name": {
         "@language": "en",
-        "@value": "Stocksbridge Park Steels F.C."
+        "@value": "U.S. Cremonese"
       },
       "description": {
         "@language": "en",
-        "@value": "football club"
+        "@value": "Italian football club based in Cremona, Lombardy"
       }
     },
     {
@@ -4239,86 +4233,6 @@
       "@type": "owl:Restriction",
       "onProperty": "wdt:P54",
       "someValuesFrom": "owl:Thing"
-    },
-    {
-      "@id": "wd:Q5214935",
-      "@type": "wikibase:Item",
-      "label": {
-        "@language": "en",
-        "@value": "FC Halifax Town"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "FC Halifax Town"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "FC Halifax Town"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "association football club in Halifax, England"
-      }
-    },
-    {
-      "@id": "wd:Q48941",
-      "@type": "wikibase:Item",
-      "label": {
-        "@language": "en",
-        "@value": "Fleetwood Town F.C."
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "Fleetwood Town F.C."
-      },
-      "name": {
-        "@language": "en",
-        "@value": "Fleetwood Town F.C."
-      },
-      "description": {
-        "@language": "en",
-        "@value": "association football club in Fleetwood, England"
-      }
-    },
-    {
-      "@id": "wd:Q19481",
-      "@type": "wikibase:Item",
-      "label": {
-        "@language": "en",
-        "@value": "Leicester City F.C."
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "Leicester City F.C."
-      },
-      "name": {
-        "@language": "en",
-        "@value": "Leicester City F.C."
-      },
-      "description": {
-        "@language": "en",
-        "@value": "association football club in Leicester, England"
-      }
-    },
-    {
-      "@id": "wd:Q47762",
-      "@type": "wikibase:Item",
-      "label": {
-        "@language": "en",
-        "@value": "England men's national association football team"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "England men's national association football team"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "England men's national association football team"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "men's national association football team representing England"
-      }
     },
     {
       "@id": "wd:Q1674029",
@@ -4967,79 +4881,6 @@
       "@id": "_:a5c9e848c112285d334c4e0c37cce132",
       "@type": "owl:Restriction",
       "onProperty": "wdt:P2446",
-      "someValuesFrom": "owl:Thing"
-    },
-    {
-      "@id": "wd:P1618",
-      "@type": "wikibase:Property",
-      "label": {
-        "@language": "en",
-        "@value": "sport number"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "sport number"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "sport number"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "number worn on a player's (competitor's) uniform, equipment, etc"
-      },
-      "propertyType": "http://wikiba.se/ontology#String",
-      "directClaim": "wdt:P1618",
-      "claim": "p:P1618",
-      "statementProperty": "ps:P1618",
-      "statementValue": "psv:P1618",
-      "qualifier": "pq:P1618",
-      "qualifierValue": "pqv:P1618",
-      "reference": "pr:P1618",
-      "referenceValue": "prv:P1618",
-      "novalue": "wdno:P1618"
-    },
-    {
-      "@id": "p:P1618",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "psv:P1618",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "pqv:P1618",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "prv:P1618",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "wdt:P1618",
-      "@type": "owl:DatatypeProperty"
-    },
-    {
-      "@id": "ps:P1618",
-      "@type": "owl:DatatypeProperty"
-    },
-    {
-      "@id": "pq:P1618",
-      "@type": "owl:DatatypeProperty"
-    },
-    {
-      "@id": "pr:P1618",
-      "@type": "owl:DatatypeProperty"
-    },
-    {
-      "@id": "wdno:P1618",
-      "@type": "owl:Class",
-      "complementOf": "_:c40031de330ada341dab2f27e7cbfdc7"
-    },
-    {
-      "@id": "_:c40031de330ada341dab2f27e7cbfdc7",
-      "@type": "owl:Restriction",
-      "onProperty": "wdt:P1618",
       "someValuesFrom": "owl:Thing"
     },
     {
@@ -11164,6 +11005,26 @@
       "someValuesFrom": "owl:Thing"
     },
     {
+      "@id": "wd:Q18305",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Stocksbridge Park Steels F.C."
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Stocksbridge Park Steels F.C."
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Stocksbridge Park Steels F.C."
+      },
+      "description": {
+        "@language": "en",
+        "@value": "football club"
+      }
+    },
+    {
       "@id": "wd:P580",
       "@type": "wikibase:Property",
       "label": {
@@ -11496,6 +11357,86 @@
       "someValuesFrom": "owl:Thing"
     },
     {
+      "@id": "wd:Q5214935",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "FC Halifax Town"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "FC Halifax Town"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "FC Halifax Town"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "association football club in Halifax, England"
+      }
+    },
+    {
+      "@id": "wd:Q48941",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Fleetwood Town F.C."
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Fleetwood Town F.C."
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Fleetwood Town F.C."
+      },
+      "description": {
+        "@language": "en",
+        "@value": "association football club in Fleetwood, England"
+      }
+    },
+    {
+      "@id": "wd:Q19481",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Leicester City F.C."
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Leicester City F.C."
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Leicester City F.C."
+      },
+      "description": {
+        "@language": "en",
+        "@value": "association football club in Leicester, England"
+      }
+    },
+    {
+      "@id": "wd:Q47762",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "England men's national association football team"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "England men's national association football team"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "England men's national association football team"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "men's national association football team representing England"
+      }
+    },
+    {
       "@id": "wd:P1545",
       "@type": "wikibase:Property",
       "label": {
@@ -11718,6 +11659,79 @@
         "@language": "en",
         "@value": "Russian-language edition of Wikipedia"
       }
+    },
+    {
+      "@id": "wd:P1618",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "sport number"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "sport number"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "sport number"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "number worn on a player's (competitor's) uniform, equipment, etc"
+      },
+      "propertyType": "http://wikiba.se/ontology#String",
+      "directClaim": "wdt:P1618",
+      "claim": "p:P1618",
+      "statementProperty": "ps:P1618",
+      "statementValue": "psv:P1618",
+      "qualifier": "pq:P1618",
+      "qualifierValue": "pqv:P1618",
+      "reference": "pr:P1618",
+      "referenceValue": "prv:P1618",
+      "novalue": "wdno:P1618"
+    },
+    {
+      "@id": "p:P1618",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P1618",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P1618",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P1618",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P1618",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P1618",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P1618",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P1618",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "wdno:P1618",
+      "@type": "owl:Class",
+      "complementOf": "_:c40031de330ada341dab2f27e7cbfdc7"
+    },
+    {
+      "@id": "_:c40031de330ada341dab2f27e7cbfdc7",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P1618",
+      "someValuesFrom": "owl:Thing"
     },
     {
       "@id": "wd:Q328",
@@ -12617,6 +12631,14 @@
       "timeCalendarModel": "http://www.wikidata.org/entity/Q1985727"
     },
     {
+      "@id": "wdv:cf215ba0e3781467681fc458e231ed55",
+      "@type": "wikibase:TimeValue",
+      "timeValue": "2025-08-31T00:00:00Z",
+      "timePrecision": 11,
+      "timeTimezone": 0,
+      "timeCalendarModel": "http://www.wikidata.org/entity/Q1985727"
+    },
+    {
       "@id": "wdv:3bba1d78db26295d05bb8742e465c3c9",
       "@type": "wikibase:TimeValue",
       "timeValue": "2011-05-03T00:00:00Z",
@@ -12960,9 +12982,6 @@
     },
     "P2446": {
       "@id": "wdt:P2446"
-    },
-    "P1618": {
-      "@id": "wdt:P1618"
     },
     "P2193": {
       "@id": "wdt:P2193"
@@ -13372,7 +13391,8 @@
     "P1810": {
       "@id": "pq:P1810"
     },
-    "p:P1618": {
+    "P1618": {
+      "@id": "p:P1618",
       "@type": "@id"
     },
     "pq:P54": {

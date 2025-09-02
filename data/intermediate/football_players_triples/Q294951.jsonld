@@ -10724,7 +10724,7 @@
       ],
       "description": {
         "@language": "en",
-        "@value": "identifier for topics in the German news portal \"Der Spiegel\""
+        "@value": "identifier for topics in the German news portal “Der Spiegel”"
       },
       "propertyType": "http://wikiba.se/ontology#ExternalId",
       "directClaim": "wdt:P10234",

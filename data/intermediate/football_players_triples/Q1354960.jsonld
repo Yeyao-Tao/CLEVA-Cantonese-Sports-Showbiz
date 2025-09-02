@@ -6,10 +6,10 @@
       "about": "wd:Q1354960",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "softwareVersion": "1.0.0",
-      "version": 2396288377,
-      "dateModified": "2025-08-25T07:26:45Z",
+      "version": 2398454602,
+      "dateModified": "2025-08-30T18:48:29Z",
       "statements": 136,
-      "sitelinks": 98,
+      "sitelinks": 99,
       "identifiers": 60
     },
     {
@@ -1488,6 +1488,21 @@
     },
     {
       "@id": "https://kaa.wikipedia.org/",
+      "wikiGroup": "wikipedia"
+    },
+    {
+      "@id": "https://zu.wikipedia.org/wiki/U-Mohamed_Salah",
+      "@type": "schema:Article",
+      "about": "wd:Q1354960",
+      "inLanguage": "zu",
+      "isPartOf": "https://zu.wikipedia.org/",
+      "name": {
+        "@language": "zu",
+        "@value": "U-Mohamed Salah"
+      }
+    },
+    {
+      "@id": "https://zu.wikipedia.org/",
       "wikiGroup": "wikipedia"
     },
     {

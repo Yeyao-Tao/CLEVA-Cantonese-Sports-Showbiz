@@ -1,0 +1,1817 @@
+{
+  "metadata": {
+    "description": "Cached Cantonese names for football players extracted from WikiData",
+    "purpose": "Avoid repeated name lookups in other scripts",
+    "total_players": 141,
+    "players_with_cantonese": 141,
+    "cantonese_coverage_percentage": 100.0,
+    "extraction_date": "2025-09-08T21:47:14.534856",
+    "sources": [
+      "WikiData JSONLD",
+      "ParaNames dataset"
+    ]
+  },
+  "players": {
+    "Q6298063": {
+      "id": "Q6298063",
+      "english": "João Cancelo",
+      "cantonese": {
+        "yue": "簡些路"
+      },
+      "cantonese_best": "簡些路",
+      "cantonese_lang": "yue",
+      "description_english": "Portuguese association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q641425": {
+      "id": "Q641425",
+      "english": "Fabinho",
+      "cantonese": {
+        "yue": "法賓奴",
+        "zh-hk": "費賓奴"
+      },
+      "cantonese_best": "法賓奴",
+      "cantonese_lang": "yue",
+      "description_english": "Brazilian association football player (born 1995)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q192923": {
+      "id": "Q192923",
+      "english": "Sokratis Papastathopoulos",
+      "cantonese": {
+        "yue": "蘇卡迪斯",
+        "zh-hk": "蘇卡迪斯·柏柏斯達夫普路斯"
+      },
+      "cantonese_best": "蘇卡迪斯",
+      "cantonese_lang": "yue",
+      "description_english": "Greek association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q151260": {
+      "id": "Q151260",
+      "english": "Jérôme Boateng",
+      "cantonese": {
+        "yue": "謝洛美·保定",
+        "zh-hk": "謝洛美·保定"
+      },
+      "cantonese_best": "謝洛美·保定",
+      "cantonese_lang": "yue",
+      "description_english": "German association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q27569376": {
+      "id": "Q27569376",
+      "english": "Trent Alexander-Arnold",
+      "cantonese": {
+        "yue": "阿諾"
+      },
+      "cantonese_best": "阿諾",
+      "cantonese_lang": "yue",
+      "description_english": "English association football player (born 1998)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q184277": {
+      "id": "Q184277",
+      "english": "Yaya Touré",
+      "cantonese": {
+        "yue": "耶耶托尼",
+        "zh-hk": "耶耶·托尼"
+      },
+      "cantonese_best": "耶耶托尼",
+      "cantonese_lang": "yue",
+      "description_english": "Ivorian association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q21621995": {
+      "id": "Q21621995",
+      "english": "Kylian Mbappé",
+      "cantonese": {
+        "zh-hk": "基利安·麥巴比",
+        "yue": "麥巴比"
+      },
+      "cantonese_best": "麥巴比",
+      "cantonese_lang": "yue",
+      "description_english": "French footballer (born 1998)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q368441": {
+      "id": "Q368441",
+      "english": "James Rodríguez",
+      "cantonese": {
+        "yue": "占士洛迪古斯",
+        "zh-hk": "占士·洛迪古斯"
+      },
+      "cantonese_best": "占士洛迪古斯",
+      "cantonese_lang": "yue",
+      "description_english": "Colombian association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q273715": {
+      "id": "Q273715",
+      "english": "Jordan Henderson",
+      "cantonese": {
+        "yue": "軒達臣",
+        "zh-hk": "佐敦·軒達臣"
+      },
+      "cantonese_best": "軒達臣",
+      "cantonese_lang": "yue",
+      "description_english": "English association football player (born 1990)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q192671": {
+      "id": "Q192671",
+      "english": "Arturo Vidal",
+      "cantonese": {
+        "yue": "亞杜羅·維度",
+        "zh-hk": "阿圖羅·維達爾"
+      },
+      "cantonese_best": "亞杜羅·維度",
+      "cantonese_lang": "yue",
+      "description_english": "Chilean association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q30055335": {
+      "id": "Q30055335",
+      "english": "Rafael Leão",
+      "cantonese": {
+        "zh-hk": "里奧"
+      },
+      "cantonese_best": "里奧",
+      "cantonese_lang": "zh-hk",
+      "description_english": "Portuguese footballer (born 1999)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q15673000": {
+      "id": "Q15673000",
+      "english": "Sergej Milinković-Savić",
+      "cantonese": {
+        "yue": "沙治米連高域沙域"
+      },
+      "cantonese_best": "沙治米連高域沙域",
+      "cantonese_lang": "yue",
+      "description_english": "Serbian association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q462779": {
+      "id": "Q462779",
+      "english": "Medhi Benatia",
+      "cantonese": {
+        "yue": "美迪·賓拿迪亞"
+      },
+      "cantonese_best": "美迪·賓拿迪亞",
+      "cantonese_lang": "yue",
+      "description_english": "Moroccan footballer",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q56332606": {
+      "id": "Q56332606",
+      "english": "Ronald Araújo",
+      "cantonese": {
+        "yue": "阿拿祖"
+      },
+      "cantonese_best": "阿拿祖",
+      "cantonese_lang": "yue",
+      "description_english": "Uruguayan association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q208050": {
+      "id": "Q208050",
+      "english": "Leonardo Bonucci",
+      "cantonese": {
+        "zh-hk": "李安納度·邦路斯"
+      },
+      "cantonese_best": "李安納度·邦路斯",
+      "cantonese_lang": "zh-hk",
+      "description_english": "Italian association football player",
+      "description_cantonese": {
+        "yue": "意大利足球員"
+      },
+      "cantonese_source": "wikidata"
+    },
+    "Q193706": {
+      "id": "Q193706",
+      "english": "David Luiz",
+      "cantonese": {
+        "yue": "大衛雷斯",
+        "zh-hk": "大衛·雷斯"
+      },
+      "cantonese_best": "大衛雷斯",
+      "cantonese_lang": "yue",
+      "description_english": "Brazilian association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q266613": {
+      "id": "Q266613",
+      "english": "Wayne Rooney",
+      "cantonese": {
+        "yue": "朗尼",
+        "zh-hk": "韋恩·朗尼"
+      },
+      "cantonese_best": "朗尼",
+      "cantonese_lang": "yue",
+      "description_english": "English footballer and manager",
+      "description_cantonese": {
+        "zh-hk": "英格蘭職業足球運動員"
+      },
+      "cantonese_source": "wikidata"
+    },
+    "Q357984": {
+      "id": "Q357984",
+      "english": "Kevin De Bruyne",
+      "cantonese": {
+        "yue": "迪布尼"
+      },
+      "cantonese_best": "迪布尼",
+      "cantonese_lang": "yue",
+      "description_english": "Belgian association football player (born 1991)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q214903": {
+      "id": "Q214903",
+      "english": "Diego Godín",
+      "cantonese": {
+        "yue": "高甸",
+        "zh-hk": "迪亞高·高甸"
+      },
+      "cantonese_best": "高甸",
+      "cantonese_lang": "yue",
+      "description_english": "Uruguayan association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q44298": {
+      "id": "Q44298",
+      "english": "Bastian Schweinsteiger",
+      "cantonese": {
+        "yue": "舒韋恩史迪加",
+        "zh-hk": "巴斯坦·舒韋恩史迪加"
+      },
+      "cantonese_best": "舒韋恩史迪加",
+      "cantonese_lang": "yue",
+      "description_english": "German association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q17499": {
+      "id": "Q17499",
+      "english": "Cesc Fàbregas",
+      "cantonese": {
+        "yue": "法比加斯",
+        "zh-hk": "薩斯克·法比加斯"
+      },
+      "cantonese_best": "法比加斯",
+      "cantonese_lang": "yue",
+      "description_english": "Spanish professional footballer player and manager",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q96755": {
+      "id": "Q96755",
+      "english": "Antonio Rüdiger",
+      "cantonese": {
+        "yue": "安東尼奧魯迪加"
+      },
+      "cantonese_best": "安東尼奧魯迪加",
+      "cantonese_lang": "yue",
+      "description_english": "German association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q187159": {
+      "id": "Q187159",
+      "english": "Jordi Alba",
+      "cantonese": {
+        "yue": "佐迪·艾巴",
+        "zh-hk": "佐迪·艾巴"
+      },
+      "cantonese_best": "佐迪·艾巴",
+      "cantonese_lang": "yue",
+      "description_english": "Spanish association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q15521306": {
+      "id": "Q15521306",
+      "english": "Bernardo Silva",
+      "cantonese": {
+        "yue": "賓拿度施華"
+      },
+      "cantonese_best": "賓拿度施華",
+      "cantonese_lang": "yue",
+      "description_english": "Portuguese association football player (born 1994)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q1756086": {
+      "id": "Q1756086",
+      "english": "Lorenzo Insigne",
+      "cantonese": {
+        "zh-hk": "洛倫佐·因西涅"
+      },
+      "cantonese_best": "洛倫佐·因西涅",
+      "cantonese_lang": "zh-hk",
+      "description_english": "Italian association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q391680": {
+      "id": "Q391680",
+      "english": "Douglas Costa",
+      "cantonese": {
+        "yue": "杜格拉斯·哥斯達",
+        "zh-hk": "杜格拉斯·哥斯達"
+      },
+      "cantonese_best": "杜格拉斯·哥斯達",
+      "cantonese_lang": "yue",
+      "description_english": "Brazilian association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q150268": {
+      "id": "Q150268",
+      "english": "David de Gea",
+      "cantonese": {
+        "yue": "迪基亞",
+        "zh-hk": "大衛·迪基亞"
+      },
+      "cantonese_best": "迪基亞",
+      "cantonese_lang": "yue",
+      "description_english": "Spanish association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q483137": {
+      "id": "Q483137",
+      "english": "Petr Čech",
+      "cantonese": {
+        "yue": "施治",
+        "zh-hk": "佩特·施治"
+      },
+      "cantonese_best": "施治",
+      "cantonese_lang": "yue",
+      "description_english": "Czech football goalkeeper",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q43666": {
+      "id": "Q43666",
+      "english": "Thomas Müller",
+      "cantonese": {
+        "yue": "湯馬士·梅拿",
+        "zh-hk": "湯瑪士·梅拿"
+      },
+      "cantonese_best": "湯馬士·梅拿",
+      "cantonese_lang": "yue",
+      "description_english": "German association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q44977": {
+      "id": "Q44977",
+      "english": "Pierre-Emerick Aubameyang",
+      "cantonese": {
+        "yue": "奧巴美揚"
+      },
+      "cantonese_best": "奧巴美揚",
+      "cantonese_lang": "yue",
+      "description_english": "Gabonese-French footballer (born 1989)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q80306": {
+      "id": "Q80306",
+      "english": "Giorgio Chiellini",
+      "cantonese": {
+        "yue": "喬治奧·基亞連尼"
+      },
+      "cantonese_best": "喬治奧·基亞連尼",
+      "cantonese_lang": "yue",
+      "description_english": "Italian sports executive and former association football player",
+      "description_cantonese": {
+        "yue": "意大利足球員"
+      },
+      "cantonese_source": "wikidata"
+    },
+    "Q161089": {
+      "id": "Q161089",
+      "english": "İlkay Gündoğan",
+      "cantonese": {
+        "yue": "根度簡"
+      },
+      "cantonese_best": "根度簡",
+      "cantonese_lang": "yue",
+      "description_english": "German footballer (born 1990)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q318119": {
+      "id": "Q318119",
+      "english": "Miranda",
+      "cantonese": {
+        "zh-hk": "小祖奧·米蘭達·迪蘇沙",
+        "yue": "祖奧米蘭達"
+      },
+      "cantonese_best": "祖奧米蘭達",
+      "cantonese_lang": "yue",
+      "description_english": "Brazilian footballer (born 1984)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q59306386": {
+      "id": "Q59306386",
+      "english": "Bukayo Saka",
+      "cantonese": {
+        "zh-hk": "布卡約·沙卡",
+        "yue": "布卡約·沙卡"
+      },
+      "cantonese_best": "布卡約·沙卡",
+      "cantonese_lang": "yue",
+      "description_english": "English footballer (born 2001)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q152377": {
+      "id": "Q152377",
+      "english": "Marco Reus",
+      "cantonese": {
+        "yue": "馬高·萊斯",
+        "zh-hk": "馬高·列奧斯"
+      },
+      "cantonese_best": "馬高·萊斯",
+      "cantonese_lang": "yue",
+      "description_english": "German association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q16499882": {
+      "id": "Q16499882",
+      "english": "Leroy Sané",
+      "cantonese": {
+        "zh-hk": "利萊·辛尼",
+        "yue": "利萊辛尼"
+      },
+      "cantonese_best": "利萊辛尼",
+      "cantonese_lang": "yue",
+      "description_english": "German association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q210453": {
+      "id": "Q210453",
+      "english": "Thiago Silva",
+      "cantonese": {
+        "yue": "泰亞高施華",
+        "zh-hk": "泰亞高·施華"
+      },
+      "cantonese_best": "泰亞高施華",
+      "cantonese_lang": "yue",
+      "description_english": "Brazilian association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q129027": {
+      "id": "Q129027",
+      "english": "Paul Pogba",
+      "cantonese": {
+        "yue": "普巴",
+        "zh-hk": "保羅·普巴"
+      },
+      "cantonese_best": "普巴",
+      "cantonese_lang": "yue",
+      "description_english": "French footballer (born 1993)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q119562": {
+      "id": "Q119562",
+      "english": "Sergio Agüero",
+      "cantonese": {
+        "yue": "阿古路",
+        "zh-hk": "沙治奧·阿古路"
+      },
+      "cantonese_best": "阿古路",
+      "cantonese_lang": "yue",
+      "description_english": "Argentine association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q17507": {
+      "id": "Q17507",
+      "english": "Gerard Piqué",
+      "cantonese": {
+        "yue": "碧基"
+      },
+      "cantonese_best": "碧基",
+      "cantonese_lang": "yue",
+      "description_english": "Spanish association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q21484126": {
+      "id": "Q21484126",
+      "english": "Lautaro Martínez",
+      "cantonese": {
+        "zh-hk": "拿達路·馬天尼斯",
+        "yue": "拿達路·馬天尼斯"
+      },
+      "cantonese_best": "拿達路·馬天尼斯",
+      "cantonese_lang": "yue",
+      "description_english": "Argentine association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q297603": {
+      "id": "Q297603",
+      "english": "Nemanja Matić",
+      "cantonese": {
+        "yue": "尼馬查馬迪",
+        "zh-hk": "尼曼查·馬迪"
+      },
+      "cantonese_best": "尼馬查馬迪",
+      "cantonese_lang": "yue",
+      "description_english": "Serbian association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q309966": {
+      "id": "Q309966",
+      "english": "Bernd Leno",
+      "cantonese": {
+        "yue": "蘭奴",
+        "zh-hk": "貝恩德·萊諾"
+      },
+      "cantonese_best": "蘭奴",
+      "cantonese_lang": "yue",
+      "description_english": "German association football player (born 1992)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q17493": {
+      "id": "Q17493",
+      "english": "Thiago Alcântara",
+      "cantonese": {
+        "yue": "堤亞高艾勤達拿"
+      },
+      "cantonese_best": "堤亞高艾勤達拿",
+      "cantonese_lang": "yue",
+      "description_english": "Spanish association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q213002": {
+      "id": "Q213002",
+      "english": "Samir Handanović",
+      "cantonese": {
+        "zh-hk": "薩米爾·漢丹洛域"
+      },
+      "cantonese_best": "薩米爾·漢丹洛域",
+      "cantonese_lang": "zh-hk",
+      "description_english": "Slovenian association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q131234": {
+      "id": "Q131234",
+      "english": "Toni Kroos",
+      "cantonese": {
+        "yue": "東尼·卻奧斯",
+        "zh-hk": "東尼·卻奧斯"
+      },
+      "cantonese_best": "東尼·卻奧斯",
+      "cantonese_lang": "yue",
+      "description_english": "German former football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q80892": {
+      "id": "Q80892",
+      "english": "Isco",
+      "cantonese": {
+        "yue": "伊斯高",
+        "zh-hk": "伊斯高"
+      },
+      "cantonese_best": "伊斯高",
+      "cantonese_lang": "yue",
+      "description_english": "Spanish association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q184586": {
+      "id": "Q184586",
+      "english": "Gareth Bale",
+      "cantonese": {
+        "zh-hk": "加里夫·巴利",
+        "yue": "加里夫巴利"
+      },
+      "cantonese_best": "加里夫巴利",
+      "cantonese_lang": "yue",
+      "description_english": "Welsh association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q43729": {
+      "id": "Q43729",
+      "english": "Andrés Iniesta",
+      "cantonese": {
+        "yue": "恩尼斯達"
+      },
+      "cantonese_best": "恩尼斯達",
+      "cantonese_lang": "yue",
+      "description_english": "Spanish association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q133903": {
+      "id": "Q133903",
+      "english": "Virgil van Dijk",
+      "cantonese": {
+        "yue": "雲迪積克",
+        "zh-hk": "維基爾·雲迪克"
+      },
+      "cantonese_best": "雲迪積克",
+      "cantonese_lang": "yue",
+      "description_english": "Dutch association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q311872": {
+      "id": "Q311872",
+      "english": "Philippe Coutinho",
+      "cantonese": {
+        "yue": "古天奴",
+        "zh-hk": "菲臘比·古天奴"
+      },
+      "cantonese_best": "古天奴",
+      "cantonese_lang": "yue",
+      "description_english": "Brazilian association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q20994118": {
+      "id": "Q20994118",
+      "english": "Rodri",
+      "cantonese": {
+        "yue": "洛迪 (足球員)"
+      },
+      "cantonese_best": "洛迪 (足球員)",
+      "cantonese_lang": "yue",
+      "description_english": "Spanish association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q66241169": {
+      "id": "Q66241169",
+      "english": "Jude Bellingham",
+      "cantonese": {
+        "zh-hk": "祖迪·比寧咸",
+        "yue": "祖迪·比寧咸"
+      },
+      "cantonese_best": "祖迪·比寧咸",
+      "cantonese_lang": "yue",
+      "description_english": "English association football player (born 2003)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q73360": {
+      "id": "Q73360",
+      "english": "Thibaut Courtois",
+      "cantonese": {
+        "yue": "高圖爾斯",
+        "zh-hk": "泰拔·高圖爾斯"
+      },
+      "cantonese_best": "高圖爾斯",
+      "cantonese_lang": "yue",
+      "description_english": "Belgian association football player (born 1992)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q18237361": {
+      "id": "Q18237361",
+      "english": "Alisson Becker",
+      "cantonese": {
+        "yue": "艾利臣"
+      },
+      "cantonese_best": "艾利臣",
+      "cantonese_lang": "yue",
+      "description_english": "Brazilian association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q28973866": {
+      "id": "Q28973866",
+      "english": "Vinícius Júnior",
+      "cantonese": {
+        "zh-hk": "雲尼斯奧斯·祖利亞",
+        "yue": "雲尼斯奧斯·祖利亞"
+      },
+      "cantonese_best": "雲尼斯奧斯·祖利亞",
+      "cantonese_lang": "yue",
+      "description_english": "Brazilian association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q31981": {
+      "id": "Q31981",
+      "english": "David Alaba",
+      "cantonese": {
+        "yue": "大衛·阿拉巴"
+      },
+      "cantonese_best": "大衛·阿拉巴",
+      "cantonese_lang": "yue",
+      "description_english": "Austrian footballer (born 1992)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q30148558": {
+      "id": "Q30148558",
+      "english": "Jadon Sancho",
+      "cantonese": {
+        "yue": "查頓辛祖"
+      },
+      "cantonese_best": "查頓辛祖",
+      "cantonese_lang": "yue",
+      "description_english": "English association football player (born 2000)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q3855340": {
+      "id": "Q3855340",
+      "english": "Aymeric Laporte",
+      "cantonese": {
+        "yue": "拿樸迪"
+      },
+      "cantonese_best": "拿樸迪",
+      "cantonese_lang": "yue",
+      "description_english": "Spanish-French footballer (born 1994)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q201381": {
+      "id": "Q201381",
+      "english": "Vincent Kompany",
+      "cantonese": {
+        "zh-hk": "文森特·甘賓尼"
+      },
+      "cantonese_best": "文森特·甘賓尼",
+      "cantonese_lang": "zh-hk",
+      "description_english": "Belgian association football player and manager (born 1986)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q969725": {
+      "id": "Q969725",
+      "english": "Harry Kane",
+      "cantonese": {
+        "yue": "哈利簡尼",
+        "zh-hk": "哈利簡尼"
+      },
+      "cantonese_best": "哈利簡尼",
+      "cantonese_lang": "yue",
+      "description_english": "English association football player (born 1993)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q1354960": {
+      "id": "Q1354960",
+      "english": "Mohamed Salah",
+      "cantonese": {
+        "yue": "沙拿",
+        "zh-hk": "穆罕默德·沙拿"
+      },
+      "cantonese_best": "沙拿",
+      "cantonese_lang": "yue",
+      "description_english": "Egyptian association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q313170": {
+      "id": "Q313170",
+      "english": "Jan Vertonghen",
+      "cantonese": {
+        "yue": "真維頓漢",
+        "zh-hk": "真·維頓漢"
+      },
+      "cantonese_best": "真維頓漢",
+      "cantonese_lang": "yue",
+      "description_english": "Belgian association football player (born 1987)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q19509544": {
+      "id": "Q19509544",
+      "english": "Federico Valverde",
+      "cantonese": {
+        "yue": "費達歷高華維迪",
+        "zh-hk": "費達歷高·韋華迪"
+      },
+      "cantonese_best": "費達歷高華維迪",
+      "cantonese_lang": "yue",
+      "description_english": "Uruguayan professional footballer",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q20851003": {
+      "id": "Q20851003",
+      "english": "Ousmane Dembélé",
+      "cantonese": {
+        "yue": "迪比利"
+      },
+      "cantonese_best": "迪比利",
+      "cantonese_lang": "yue",
+      "description_english": "French footballer (born 1997)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q4979316": {
+      "id": "Q4979316",
+      "english": "Bruno Fernandes",
+      "cantonese": {
+        "yue": "般奴費南迪斯",
+        "zh-hk": "般奴·費南迪斯"
+      },
+      "cantonese_best": "般奴費南迪斯",
+      "cantonese_lang": "yue",
+      "description_english": "Portuguese association football player (born 1994)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q39230": {
+      "id": "Q39230",
+      "english": "Marquinhos",
+      "cantonese": {
+        "yue": "馬昆奴斯",
+        "zh-hk": "馬昆奴斯"
+      },
+      "cantonese_best": "馬昆奴斯",
+      "cantonese_lang": "yue",
+      "description_english": "Brazilian association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q127452": {
+      "id": "Q127452",
+      "english": "Dani Carvajal",
+      "cantonese": {
+        "yue": "丹尼卡華積"
+      },
+      "cantonese_best": "丹尼卡華積",
+      "cantonese_lang": "yue",
+      "description_english": "Spanish association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q28967995": {
+      "id": "Q28967995",
+      "english": "Erling Haaland",
+      "cantonese": {
+        "yue": "夏蘭特",
+        "zh-hk": "艾寧·夏蘭特"
+      },
+      "cantonese_best": "夏蘭特",
+      "cantonese_lang": "yue",
+      "description_english": "Norwegian association football player (born 2000)",
+      "description_cantonese": {
+        "yue": "挪威足球員"
+      },
+      "cantonese_source": "wikidata"
+    },
+    "Q6147586": {
+      "id": "Q6147586",
+      "english": "Jamie Vardy",
+      "cantonese": {
+        "yue": "占美華迪"
+      },
+      "cantonese_best": "占美華迪",
+      "cantonese_lang": "yue",
+      "description_english": "English association football player (born 1987)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q13306": {
+      "id": "Q13306",
+      "english": "Alexandre Lacazette",
+      "cantonese": {
+        "yue": "拿卡錫迪",
+        "zh-hk": "阿歷山大·拿卡錫迪"
+      },
+      "cantonese_best": "拿卡錫迪",
+      "cantonese_lang": "yue",
+      "description_english": "French footballer (born 1991)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q68060": {
+      "id": "Q68060",
+      "english": "Gianluigi Buffon",
+      "cantonese": {
+        "yue": "保方"
+      },
+      "cantonese_best": "保方",
+      "cantonese_lang": "yue",
+      "description_english": "former Italian footballer (born 1978)",
+      "description_cantonese": {
+        "yue": "意大利足球員"
+      },
+      "cantonese_source": "wikidata"
+    },
+    "Q142794": {
+      "id": "Q142794",
+      "english": "Neymar",
+      "cantonese": {
+        "yue": "尼馬",
+        "zh-hk": "尼馬·達施華"
+      },
+      "cantonese_best": "尼馬",
+      "cantonese_lang": "yue",
+      "description_english": "Brazilian association football player.",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q96072055": {
+      "id": "Q96072055",
+      "english": "Jamal Musiala",
+      "cantonese": {
+        "yue": "查馬爾·穆斯亞拿"
+      },
+      "cantonese_best": "查馬爾·穆斯亞拿",
+      "cantonese_lang": "yue",
+      "description_english": "German association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q489039": {
+      "id": "Q489039",
+      "english": "Raphaël Varane",
+      "cantonese": {
+        "yue": "華拉尼",
+        "zh-hk": "拉斐爾·華拉尼"
+      },
+      "cantonese_best": "華拉尼",
+      "cantonese_lang": "yue",
+      "description_english": "French footballer (born 1993)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q201825": {
+      "id": "Q201825",
+      "english": "Marek Hamšík",
+      "cantonese": {
+        "zh-hk": "馬歷·咸錫",
+        "yue": "馬歷·咸錫"
+      },
+      "cantonese_best": "馬歷·咸錫",
+      "cantonese_lang": "yue",
+      "description_english": "Slovak footballer",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q107051": {
+      "id": "Q107051",
+      "english": "Andrea Barzagli",
+      "cantonese": {
+        "zh-hk": "安祖亞·巴沙利"
+      },
+      "cantonese_best": "安祖亞·巴沙利",
+      "cantonese_lang": "zh-hk",
+      "description_english": "Italian association football player",
+      "description_cantonese": {
+        "yue": "意大利足球員"
+      },
+      "cantonese_source": "wikidata"
+    },
+    "Q161054": {
+      "id": "Q161054",
+      "english": "Ivan Perišić",
+      "cantonese": {
+        "yue": "艾雲·比列錫",
+        "zh-hk": "貝里錫"
+      },
+      "cantonese_best": "艾雲·比列錫",
+      "cantonese_lang": "yue",
+      "description_english": "Croatian association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q15915040": {
+      "id": "Q15915040",
+      "english": "Andrew Robertson",
+      "cantonese": {
+        "yue": "安祖·羅拔臣",
+        "zh-hk": "安祖·羅拔臣"
+      },
+      "cantonese_best": "安祖·羅拔臣",
+      "cantonese_lang": "yue",
+      "description_english": "Scottish association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q459707": {
+      "id": "Q459707",
+      "english": "Diego Costa",
+      "cantonese": {
+        "yue": "迪亞高哥斯達",
+        "zh-hk": "迪亞高·哥斯達"
+      },
+      "cantonese_best": "迪亞高哥斯達",
+      "cantonese_lang": "yue",
+      "description_english": "Spanish-Brazilian association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q1907": {
+      "id": "Q1907",
+      "english": "Hugo Lloris",
+      "cantonese": {
+        "yue": "曉高洛里斯"
+      },
+      "cantonese_best": "曉高洛里斯",
+      "cantonese_lang": "yue",
+      "description_english": "French footballer (born 1986)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q313520": {
+      "id": "Q313520",
+      "english": "Naldo",
+      "cantonese": {
+        "yue": "拿杜",
+        "zh-hk": "拿杜"
+      },
+      "cantonese_best": "拿杜",
+      "cantonese_lang": "yue",
+      "description_english": "Brazilian footballer (1982–)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q185225": {
+      "id": "Q185225",
+      "english": "Santi Cazorla",
+      "cantonese": {
+        "zh-hk": "辛迪·卡蘇拿",
+        "yue": "辛迪卡蘇拿"
+      },
+      "cantonese_best": "辛迪卡蘇拿",
+      "cantonese_lang": "yue",
+      "description_english": "Spanish association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q251683": {
+      "id": "Q251683",
+      "english": "Ángel Di María",
+      "cantonese": {
+        "yue": "迪馬利亞"
+      },
+      "cantonese_best": "迪馬利亞",
+      "cantonese_lang": "yue",
+      "description_english": "Argentine footballer (born 1988)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q43913": {
+      "id": "Q43913",
+      "english": "Arjen Robben",
+      "cantonese": {
+        "yue": "阿仁洛賓"
+      },
+      "cantonese_best": "阿仁洛賓",
+      "cantonese_lang": "yue",
+      "description_english": "Dutch association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q337623": {
+      "id": "Q337623",
+      "english": "Marco Verratti",
+      "cantonese": {
+        "yue": "華拉堤",
+        "zh-hk": "馬高·華拉堤"
+      },
+      "cantonese_best": "華拉堤",
+      "cantonese_lang": "yue",
+      "description_english": "Italian association football player",
+      "description_cantonese": {
+        "yue": "意大利足球員"
+      },
+      "cantonese_source": "wikidata"
+    },
+    "Q483846": {
+      "id": "Q483846",
+      "english": "Gonzalo Higuaín",
+      "cantonese": {
+        "yue": "希古恩",
+        "zh-hk": "干沙路·希古恩"
+      },
+      "cantonese_best": "希古恩",
+      "cantonese_lang": "yue",
+      "description_english": "Argentine association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q483837": {
+      "id": "Q483837",
+      "english": "Luka Modrić",
+      "cantonese": {
+        "yue": "盧卡·摩德列治",
+        "zh-hk": "盧卡·莫迪歷"
+      },
+      "cantonese_best": "盧卡·摩德列治",
+      "cantonese_lang": "yue",
+      "description_english": "Croatian association football player (born 1985)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q615": {
+      "id": "Q615",
+      "english": "Lionel Messi",
+      "cantonese": {
+        "yue": "美斯",
+        "zh-hk": "利安奴·美斯"
+      },
+      "cantonese_best": "美斯",
+      "cantonese_lang": "yue",
+      "description_english": "Argentine association football player (born 1987)",
+      "description_cantonese": {
+        "zh-hk": "阿根廷足球運動員",
+        "yue": "亞根庭足球員"
+      },
+      "cantonese_source": "wikidata"
+    },
+    "Q83488": {
+      "id": "Q83488",
+      "english": "Mesut Özil",
+      "cantonese": {
+        "yue": "奧斯爾"
+      },
+      "cantonese_best": "奧斯爾",
+      "cantonese_lang": "yue",
+      "description_english": "German association footballer (born 1988)",
+      "description_cantonese": {
+        "yue": "土耳其裔德國足球員"
+      },
+      "cantonese_source": "wikidata"
+    },
+    "Q110053": {
+      "id": "Q110053",
+      "english": "Mats Hummels",
+      "cantonese": {
+        "yue": "麥斯·曉姆斯",
+        "zh-hk": "麥斯·曉姆斯"
+      },
+      "cantonese_best": "麥斯·曉姆斯",
+      "cantonese_lang": "yue",
+      "description_english": "German association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q8338725": {
+      "id": "Q8338725",
+      "english": "Riyad Mahrez",
+      "cantonese": {
+        "yue": "列恩馬列斯"
+      },
+      "cantonese_best": "列恩馬列斯",
+      "cantonese_lang": "yue",
+      "description_english": "Algerian-French footballer (born 1991)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q17274709": {
+      "id": "Q17274709",
+      "english": "Mike Maignan",
+      "cantonese": {
+        "yue": "邁治南"
+      },
+      "cantonese_best": "邁治南",
+      "cantonese_lang": "yue",
+      "description_english": "French footballer (born 1995)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q26517": {
+      "id": "Q26517",
+      "english": "Luis Suárez",
+      "cantonese": {
+        "yue": "路易斯·蘇亞利斯"
+      },
+      "cantonese_best": "路易斯·蘇亞利斯",
+      "cantonese_lang": "yue",
+      "description_english": "Uruguayan association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q115453": {
+      "id": "Q115453",
+      "english": "Ivan Rakitić",
+      "cantonese": {
+        "yue": "伊凡·拉傑迪",
+        "zh-hk": "艾雲·拉傑迪"
+      },
+      "cantonese_best": "伊凡·拉傑迪",
+      "cantonese_lang": "yue",
+      "description_english": "Croatian association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q161069": {
+      "id": "Q161069",
+      "english": "David Silva",
+      "cantonese": {
+        "zh-hk": "大衛·施華",
+        "yue": "大衞施華"
+      },
+      "cantonese_best": "大衞施華",
+      "cantonese_lang": "yue",
+      "description_english": "Spanish association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q19898898": {
+      "id": "Q19898898",
+      "english": "Frenkie de Jong",
+      "cantonese": {
+        "zh-hk": "弗蘭基·德容",
+        "yue": "法蘭基·迪莊"
+      },
+      "cantonese_best": "法蘭基·迪莊",
+      "cantonese_lang": "yue",
+      "description_english": "Dutch association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q167790": {
+      "id": "Q167790",
+      "english": "Edinson Acavani",
+      "cantonese": {
+        "zh-hk": "卡雲尼",
+        "yue": "艾甸臣卡雲尼"
+      },
+      "cantonese_best": "艾甸臣卡雲尼",
+      "cantonese_lang": "yue",
+      "description_english": "Uruguayan association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q20830808": {
+      "id": "Q20830808",
+      "english": "Gianluigi Donnarumma",
+      "cantonese": {
+        "zh-hk": "基安盧基·當拿隆馬",
+        "yue": "基安盧基·當拿隆馬"
+      },
+      "cantonese_best": "基安盧基·當拿隆馬",
+      "cantonese_lang": "yue",
+      "description_english": "Italian association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q6413296": {
+      "id": "Q6413296",
+      "english": "Kingsley Coman",
+      "cantonese": {
+        "yue": "京士利·高文"
+      },
+      "cantonese_best": "京士利·高文",
+      "cantonese_lang": "yue",
+      "description_english": "French footballer",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q46896": {
+      "id": "Q46896",
+      "english": "Zlatan Ibrahimović",
+      "cantonese": {
+        "yue": "伊巴謙莫域"
+      },
+      "cantonese_best": "伊巴謙莫域",
+      "cantonese_lang": "yue",
+      "description_english": "Swedish association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q312157": {
+      "id": "Q312157",
+      "english": "Raheem Sterling",
+      "cantonese": {
+        "yue": "史達寧",
+        "zh-hk": "拉謙·史達寧"
+      },
+      "cantonese_best": "史達寧",
+      "cantonese_lang": "yue",
+      "description_english": "English association football player (born 1994)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q50600": {
+      "id": "Q50600",
+      "english": "Carlos Tevez",
+      "cantonese": {
+        "yue": "迪維斯"
+      },
+      "cantonese_best": "迪維斯",
+      "cantonese_lang": "yue",
+      "description_english": "Argentine association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q128840": {
+      "id": "Q128840",
+      "english": "Toby Alderweireld",
+      "cantonese": {
+        "yue": "艾達韋列特",
+        "zh-hk": "杜比·艾達韋列特"
+      },
+      "cantonese_best": "艾達韋列特",
+      "cantonese_lang": "yue",
+      "description_english": "Belgian association football player (born 1989)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q17074511": {
+      "id": "Q17074511",
+      "english": "Ederson Moraes",
+      "cantonese": {
+        "zh-hk": "艾達臣·摩拉斯"
+      },
+      "cantonese_best": "艾達臣·摩拉斯",
+      "cantonese_lang": "zh-hk",
+      "description_english": "Brazilian goalkeeper (1993-)",
+      "description_cantonese": {
+        "zh-hk": "巴西足球員（1993—）"
+      },
+      "cantonese_source": "wikidata"
+    },
+    "Q1912": {
+      "id": "Q1912",
+      "english": "Karim Benzema",
+      "cantonese": {
+        "yue": "卡廉賓森馬",
+        "zh-hk": "卡廉·賓施馬"
+      },
+      "cantonese_best": "卡廉賓森馬",
+      "cantonese_lang": "yue",
+      "description_english": "French footballer (born 1987)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q551192": {
+      "id": "Q551192",
+      "english": "Alex Sandro",
+      "cantonese": {
+        "zh-hk": "A.辛特路"
+      },
+      "cantonese_best": "A.辛特路",
+      "cantonese_lang": "zh-hk",
+      "description_english": "Brazilian footballer (born 1991)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q16665941": {
+      "id": "Q16665941",
+      "english": "N'Golo Kanté",
+      "cantonese": {
+        "zh-hk": "尼高路·簡迪",
+        "yue": "簡迪"
+      },
+      "cantonese_best": "簡迪",
+      "cantonese_lang": "yue",
+      "description_english": "French footballer (born 1991)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q146907": {
+      "id": "Q146907",
+      "english": "Miralem Pjanić",
+      "cantonese": {
+        "zh-hk": "米拉萊姆·比真歷"
+      },
+      "cantonese_best": "米拉萊姆·比真歷",
+      "cantonese_lang": "zh-hk",
+      "description_english": "Bosnian association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q667596": {
+      "id": "Q667596",
+      "english": "Yann Sommer",
+      "cantonese": {
+        "yue": "恩·蘇馬"
+      },
+      "cantonese_best": "恩·蘇馬",
+      "cantonese_lang": "yue",
+      "description_english": "Swiss association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q29950055": {
+      "id": "Q29950055",
+      "english": "Éder Militão",
+      "cantonese": {
+        "zh-hk": "艾達·美列度奧",
+        "yue": "艾達美列度奧"
+      },
+      "cantonese_best": "艾達美列度奧",
+      "cantonese_lang": "yue",
+      "description_english": "Brazilian association football player (born 1998)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q969423": {
+      "id": "Q969423",
+      "english": "Keylor Navas",
+      "cantonese": {
+        "yue": "基羅拿華斯",
+        "zh-hk": "基羅·拿華斯"
+      },
+      "cantonese_best": "基羅拿華斯",
+      "cantonese_lang": "yue",
+      "description_english": "Costa Rican association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q2339": {
+      "id": "Q2339",
+      "english": "Robin van Persie",
+      "cantonese": {
+        "yue": "雲佩斯",
+        "zh-hk": "羅賓·雲佩斯"
+      },
+      "cantonese_best": "雲佩斯",
+      "cantonese_lang": "yue",
+      "description_english": "Dutch association football player and manager",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q214204": {
+      "id": "Q214204",
+      "english": "Eden Hazard",
+      "cantonese": {
+        "yue": "夏薩特",
+        "zh-hk": "伊登·夏薩特"
+      },
+      "cantonese_best": "夏薩特",
+      "cantonese_lang": "yue",
+      "description_english": "Belgian footballer (born 1991)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q188997": {
+      "id": "Q188997",
+      "english": "Wojciech Szczęsny",
+      "cantonese": {
+        "yue": "禾捷治施捷斯尼",
+        "zh-hk": "沃伊切赫·施捷斯尼"
+      },
+      "cantonese_best": "禾捷治施捷斯尼",
+      "cantonese_lang": "yue",
+      "description_english": "Polish association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q294806": {
+      "id": "Q294806",
+      "english": "César Azpilicueta",
+      "cantonese": {
+        "yue": "艾斯派古達",
+        "zh-hk": "施薩·艾斯派古達"
+      },
+      "cantonese_best": "艾斯派古達",
+      "cantonese_lang": "yue",
+      "description_english": "Spanish association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q180553": {
+      "id": "Q180553",
+      "english": "Alexis Sánchez Chileno",
+      "cantonese": {
+        "zh-hk": "阿歷斯·山齊士",
+        "yue": "阿歷斯山齊士"
+      },
+      "cantonese_best": "阿歷斯山齊士",
+      "cantonese_lang": "yue",
+      "description_english": "Chilean footballer (born 1988)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q459356": {
+      "id": "Q459356",
+      "english": "Fernandinho",
+      "cantonese": {
+        "yue": "費蘭甸奴"
+      },
+      "cantonese_best": "費蘭甸奴",
+      "cantonese_lang": "yue",
+      "description_english": "Brazilian association football player, born May 1985",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q160472": {
+      "id": "Q160472",
+      "english": "Marc-André ter Stegen",
+      "cantonese": {
+        "yue": "馬克-安德烈·達史特根",
+        "zh-hk": "馬克-安德烈·達·史特根"
+      },
+      "cantonese_best": "馬克-安德烈·達史特根",
+      "cantonese_lang": "yue",
+      "description_english": "German association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q965846": {
+      "id": "Q965846",
+      "english": "Papu Gómez",
+      "cantonese": {
+        "zh-hk": "達里奧·戈麥斯"
+      },
+      "cantonese_best": "達里奧·戈麥斯",
+      "cantonese_lang": "zh-hk",
+      "description_english": "Argentine association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q455462": {
+      "id": "Q455462",
+      "english": "Antoine Griezmann",
+      "cantonese": {
+        "yue": "基士文 (法國足球員)"
+      },
+      "cantonese_best": "基士文 (法國足球員)",
+      "cantonese_lang": "yue",
+      "description_english": "French footballer (born 1991)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q2058682": {
+      "id": "Q2058682",
+      "english": "Jan Oblak",
+      "cantonese": {
+        "yue": "奧比歷"
+      },
+      "cantonese_best": "奧比歷",
+      "cantonese_lang": "yue",
+      "description_english": "Slovenian association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q43682": {
+      "id": "Q43682",
+      "english": "Philipp Lahm",
+      "cantonese": {
+        "yue": "菲臘·拿姆"
+      },
+      "cantonese_best": "菲臘·拿姆",
+      "cantonese_lang": "yue",
+      "description_english": "German association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q49704": {
+      "id": "Q49704",
+      "english": "Sergio Busquets",
+      "cantonese": {
+        "yue": "沙治奧·布斯基斯"
+      },
+      "cantonese_best": "沙治奧·布斯基斯",
+      "cantonese_lang": "yue",
+      "description_english": "Spanish association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q182063": {
+      "id": "Q182063",
+      "english": "Nicolás Otamendi",
+      "cantonese": {
+        "yue": "尼古拉斯奧達文迪"
+      },
+      "cantonese_best": "尼古拉斯奧達文迪",
+      "cantonese_lang": "yue",
+      "description_english": "Argentine association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q166317": {
+      "id": "Q166317",
+      "english": "Paulo Dybala",
+      "cantonese": {
+        "yue": "保羅·戴巴拿",
+        "zh-hk": "保羅·戴巴拿"
+      },
+      "cantonese_best": "保羅·戴巴拿",
+      "cantonese_lang": "yue",
+      "description_english": "Argentine association football player (born 1993)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q11571": {
+      "id": "Q11571",
+      "english": "Cristiano Ronaldo",
+      "cantonese": {
+        "yue": "基斯坦奴朗拿度",
+        "zh-hk": "基斯坦奴·朗拿度"
+      },
+      "cantonese_best": "基斯坦奴朗拿度",
+      "cantonese_lang": "yue",
+      "description_english": "Portuguese association football player (born 1985)",
+      "description_cantonese": {
+        "zh-hk": "葡萄牙足球運動員",
+        "yue": "葡萄牙足球員"
+      },
+      "cantonese_source": "wikidata"
+    },
+    "Q138172": {
+      "id": "Q138172",
+      "english": "Radamel Falcao",
+      "cantonese": {
+        "zh-hk": "拉達梅爾·法卡奧"
+      },
+      "cantonese_best": "拉達梅爾·法卡奧",
+      "cantonese_lang": "zh-hk",
+      "description_english": "Colombian association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q66606355": {
+      "id": "Q66606355",
+      "english": "Pedri",
+      "cantonese": {
+        "yue": "柏迪"
+      },
+      "cantonese_best": "柏迪",
+      "cantonese_lang": "yue",
+      "description_english": "Spanish association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q3845710": {
+      "id": "Q3845710",
+      "english": "Marcelo Brozović",
+      "cantonese": {
+        "yue": "馬些路波索域"
+      },
+      "cantonese_best": "馬些路波索域",
+      "cantonese_lang": "yue",
+      "description_english": "Croatian association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q107365": {
+      "id": "Q107365",
+      "english": "Manuel Neuer",
+      "cantonese": {
+        "yue": "紐亞",
+        "zh-hk": "文奴爾·紐亞"
+      },
+      "cantonese_best": "紐亞",
+      "cantonese_lang": "yue",
+      "description_english": "German association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q1918": {
+      "id": "Q1918",
+      "english": "Franck Ribéry",
+      "cantonese": {
+        "yue": "列貝利"
+      },
+      "cantonese_best": "列貝利",
+      "cantonese_lang": "yue",
+      "description_english": "French footballer (born 1983)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q209942": {
+      "id": "Q209942",
+      "english": "Sadio Mané",
+      "cantonese": {
+        "yue": "沙迪奧文尼",
+        "zh-hk": "沙迪奧·文尼"
+      },
+      "cantonese_best": "沙迪奧文尼",
+      "cantonese_lang": "yue",
+      "description_english": "Senegalese association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q201752": {
+      "id": "Q201752",
+      "english": "Javi Martínez",
+      "cantonese": {
+        "yue": "查維·馬天尼斯",
+        "zh-hk": "查維·馬天尼斯"
+      },
+      "cantonese_best": "查維·馬天尼斯",
+      "cantonese_lang": "yue",
+      "description_english": "Spanish footballer",
+      "description_cantonese": {
+        "yue": "西班牙足球員"
+      },
+      "cantonese_source": "wikidata"
+    },
+    "Q13865408": {
+      "id": "Q13865408",
+      "english": "Joshua Kimmich",
+      "cantonese": {
+        "yue": "約素亞·劍米克"
+      },
+      "cantonese_best": "約素亞·劍米克",
+      "cantonese_lang": "yue",
+      "description_english": "German association football player (born 1995)",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q38136": {
+      "id": "Q38136",
+      "english": "Marcelo Vieira",
+      "cantonese": {
+        "yue": "馬些路",
+        "zh-hk": "馬些路·韋拉"
+      },
+      "cantonese_best": "馬些路",
+      "cantonese_lang": "yue",
+      "description_english": "Brazilian association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q151269": {
+      "id": "Q151269",
+      "english": "Robert Lewandowski",
+      "cantonese": {
+        "yue": "利雲度夫斯基",
+        "zh-hk": "羅拔·利雲度夫斯基"
+      },
+      "cantonese_best": "利雲度夫斯基",
+      "cantonese_lang": "yue",
+      "description_english": "Polish association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q294951": {
+      "id": "Q294951",
+      "english": "Christian Eriksen",
+      "cantonese": {
+        "yue": "基斯甸艾歷臣",
+        "zh-hk": "基斯甸·艾歷臣"
+      },
+      "cantonese_best": "基斯甸艾歷臣",
+      "cantonese_lang": "yue",
+      "description_english": "Danish association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q17500": {
+      "id": "Q17500",
+      "english": "Xavi Hernández",
+      "cantonese": {
+        "yue": "沙維"
+      },
+      "cantonese_best": "沙維",
+      "cantonese_lang": "yue",
+      "description_english": "Spanish association football player and manager",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q26259982": {
+      "id": "Q26259982",
+      "english": "Matthijs de Ligt",
+      "cantonese": {
+        "yue": "馬菲斯·迪列治"
+      },
+      "cantonese_best": "馬菲斯·迪列治",
+      "cantonese_lang": "yue",
+      "description_english": "Dutch association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    },
+    "Q483309": {
+      "id": "Q483309",
+      "english": "Sergio Ramos",
+      "cantonese": {
+        "yue": "沙治奧拉莫斯",
+        "zh-hk": "沙治奧·拉莫斯"
+      },
+      "cantonese_best": "沙治奧拉莫斯",
+      "cantonese_lang": "yue",
+      "description_english": "Spanish association football player",
+      "description_cantonese": {},
+      "cantonese_source": "wikidata"
+    }
+  }
+}

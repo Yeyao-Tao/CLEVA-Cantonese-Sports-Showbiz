@@ -9,7 +9,7 @@
     ],
     "club_selection_method": "longest_tenure",
     "total_questions": 141,
-    "generation_date": "2025-09-08T17:37:58.623346",
+    "generation_date": "2025-09-08T22:00:18.102795",
     "format": "Four choices (A, B, C, D) with one correct answer in both languages"
   },
   "questions": [
@@ -17,18 +17,18 @@
       "question": "Which team has João Cancelo played for?",
       "question_cantonese": "簡些路曾經效力過邊隊？",
       "choices": {
-        "A": "Chelsea F.C.",
-        "B": "Manchester City F.C.",
-        "C": "Olympique de Marseille",
-        "D": "SV Werder Bremen"
+        "A": "Olympique de Marseille",
+        "B": "A.S. Roma",
+        "C": "SV Werder Bremen",
+        "D": "Manchester City F.C."
       },
       "choices_cantonese": {
-        "A": "車路士",
-        "B": "曼城足球會",
-        "C": "馬賽足球會",
-        "D": "雲達不萊梅體育會"
+        "A": "馬賽足球會",
+        "B": "羅馬體育會",
+        "C": "雲達不萊梅體育會",
+        "D": "曼城足球會"
       },
-      "correct_answer": "B",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "Manchester City F.C.",
         "name_cantonese": "曼城足球會",
@@ -46,14 +46,14 @@
         "total_clubs": 10
       },
       "distractors": [
-        "Olympique de Marseille",
-        "Chelsea F.C.",
-        "SV Werder Bremen"
+        "SV Werder Bremen",
+        "A.S. Roma",
+        "Olympique de Marseille"
       ],
       "distractors_cantonese": [
-        "馬賽足球會",
-        "車路士",
-        "雲達不萊梅體育會"
+        "雲達不萊梅體育會",
+        "羅馬體育會",
+        "馬賽足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -61,18 +61,18 @@
       "question": "Which team has Fabinho played for?",
       "question_cantonese": "法賓奴曾經效力過邊隊？",
       "choices": {
-        "A": "Liverpool F.C.",
-        "B": "Villarreal CF",
-        "C": "Juventus FC",
+        "A": "São Paulo FC",
+        "B": "FC Barcelona",
+        "C": "Liverpool F.C.",
         "D": "Olympique de Marseille"
       },
       "choices_cantonese": {
-        "A": "利物浦足球會",
-        "B": "維拉利爾足球會",
-        "C": "祖雲達斯",
+        "A": "聖保羅足球會",
+        "B": "巴塞隆拿足球會",
+        "C": "利物浦足球會",
         "D": "馬賽足球會"
       },
-      "correct_answer": "A",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "Liverpool F.C.",
         "name_cantonese": "利物浦足球會",
@@ -90,14 +90,14 @@
         "total_clubs": 8
       },
       "distractors": [
+        "São Paulo FC",
         "Olympique de Marseille",
-        "Villarreal CF",
-        "Juventus FC"
+        "FC Barcelona"
       ],
       "distractors_cantonese": [
+        "聖保羅足球會",
         "馬賽足球會",
-        "維拉利爾足球會",
-        "祖雲達斯"
+        "巴塞隆拿足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -106,15 +106,15 @@
       "question_cantonese": "蘇卡迪斯曾經效力過邊隊？",
       "choices": {
         "A": "Borussia Dortmund",
-        "B": "S.L. Benfica",
-        "C": "Liverpool F.C.",
-        "D": "Paris Saint-Germain FC"
+        "B": "FC Porto",
+        "C": "FC Barcelona",
+        "D": "Inter Milan"
       },
       "choices_cantonese": {
         "A": "多蒙特",
-        "B": "賓菲加",
-        "C": "利物浦足球會",
-        "D": "巴黎聖日耳門"
+        "B": "波圖足球會",
+        "C": "巴塞隆拿足球會",
+        "D": "國際米蘭"
       },
       "correct_answer": "A",
       "correct_club_info": {
@@ -134,14 +134,14 @@
         "total_clubs": 12
       },
       "distractors": [
-        "S.L. Benfica",
-        "Liverpool F.C.",
-        "Paris Saint-Germain FC"
+        "Inter Milan",
+        "FC Barcelona",
+        "FC Porto"
       ],
       "distractors_cantonese": [
-        "賓菲加",
-        "利物浦足球會",
-        "巴黎聖日耳門"
+        "國際米蘭",
+        "巴塞隆拿足球會",
+        "波圖足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -149,18 +149,18 @@
       "question": "Which team has Jérôme Boateng played for?",
       "question_cantonese": "謝洛美·保定曾經效力過邊隊？",
       "choices": {
-        "A": "S.L. Benfica",
-        "B": "Manchester United F.C.",
-        "C": "Juventus FC",
-        "D": "FC Bayern Munich"
+        "A": "Valencia CF",
+        "B": "Villarreal CF",
+        "C": "FC Bayern Munich",
+        "D": "Real Madrid CF"
       },
       "choices_cantonese": {
-        "A": "賓菲加",
-        "B": "曼聯",
-        "C": "祖雲達斯",
-        "D": "拜仁慕尼黑"
+        "A": "華倫西亞足球會",
+        "B": "維拉利爾足球會",
+        "C": "拜仁慕尼黑",
+        "D": "皇家馬德里足球會"
       },
-      "correct_answer": "D",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "FC Bayern Munich",
         "name_cantonese": "拜仁慕尼黑",
@@ -178,14 +178,14 @@
         "total_clubs": 8
       },
       "distractors": [
-        "Manchester United F.C.",
-        "Juventus FC",
-        "S.L. Benfica"
+        "Real Madrid CF",
+        "Valencia CF",
+        "Villarreal CF"
       ],
       "distractors_cantonese": [
-        "曼聯",
-        "祖雲達斯",
-        "賓菲加"
+        "皇家馬德里足球會",
+        "華倫西亞足球會",
+        "維拉利爾足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -193,18 +193,18 @@
       "question": "Which team has Trent Alexander-Arnold played for?",
       "question_cantonese": "阿諾曾經效力過邊隊？",
       "choices": {
-        "A": "A.S. Roma",
-        "B": "Arsenal F.C.",
-        "C": "Valencia CF",
-        "D": "Liverpool F.C."
+        "A": "Chelsea F.C.",
+        "B": "Villarreal CF",
+        "C": "Liverpool F.C.",
+        "D": "Inter Miami CF"
       },
       "choices_cantonese": {
-        "A": "羅馬體育會",
-        "B": "阿仙奴",
-        "C": "華倫西亞足球會",
-        "D": "利物浦足球會"
+        "A": "車路士",
+        "B": "維拉利爾足球會",
+        "C": "利物浦足球會",
+        "D": "邁阿密國際"
       },
-      "correct_answer": "D",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "Liverpool F.C.",
         "name_cantonese": "利物浦足球會",
@@ -222,14 +222,14 @@
         "total_clubs": 2
       },
       "distractors": [
-        "Arsenal F.C.",
-        "Valencia CF",
-        "A.S. Roma"
+        "Inter Miami CF",
+        "Chelsea F.C.",
+        "Villarreal CF"
       ],
       "distractors_cantonese": [
-        "阿仙奴",
-        "華倫西亞足球會",
-        "羅馬體育會"
+        "邁阿密國際",
+        "車路士",
+        "維拉利爾足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -237,18 +237,18 @@
       "question": "Which team has Yaya Touré played for?",
       "question_cantonese": "耶耶托尼曾經效力過邊隊？",
       "choices": {
-        "A": "São Paulo FC",
-        "B": "Manchester City F.C.",
-        "C": "Olympique de Marseille",
-        "D": "Liverpool F.C."
+        "A": "Villarreal CF",
+        "B": "Arsenal F.C.",
+        "C": "Real Madrid CF",
+        "D": "Manchester City F.C."
       },
       "choices_cantonese": {
-        "A": "聖保羅足球會",
-        "B": "曼城足球會",
-        "C": "馬賽足球會",
-        "D": "利物浦足球會"
+        "A": "維拉利爾足球會",
+        "B": "阿仙奴",
+        "C": "皇家馬德里足球會",
+        "D": "曼城足球會"
       },
-      "correct_answer": "B",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "Manchester City F.C.",
         "name_cantonese": "曼城足球會",
@@ -266,14 +266,14 @@
         "total_clubs": 8
       },
       "distractors": [
-        "Olympique de Marseille",
-        "Liverpool F.C.",
-        "São Paulo FC"
+        "Arsenal F.C.",
+        "Villarreal CF",
+        "Real Madrid CF"
       ],
       "distractors_cantonese": [
-        "馬賽足球會",
-        "利物浦足球會",
-        "聖保羅足球會"
+        "阿仙奴",
+        "維拉利爾足球會",
+        "皇家馬德里足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -281,14 +281,14 @@
       "question": "Which team has Kylian Mbappé played for?",
       "question_cantonese": "麥巴比曾經效力過邊隊？",
       "choices": {
-        "A": "Inter Milan",
-        "B": "Borussia Dortmund",
+        "A": "Olympique de Marseille",
+        "B": "Manchester United F.C.",
         "C": "Inter Miami CF",
         "D": "Paris Saint-Germain FC"
       },
       "choices_cantonese": {
-        "A": "國際米蘭",
-        "B": "多蒙特",
+        "A": "馬賽足球會",
+        "B": "曼聯",
         "C": "邁阿密國際",
         "D": "巴黎聖日耳門"
       },
@@ -310,14 +310,14 @@
         "total_clubs": 5
       },
       "distractors": [
-        "Inter Milan",
-        "Borussia Dortmund",
-        "Inter Miami CF"
+        "Olympique de Marseille",
+        "Inter Miami CF",
+        "Manchester United F.C."
       ],
       "distractors_cantonese": [
-        "國際米蘭",
-        "多蒙特",
-        "邁阿密國際"
+        "馬賽足球會",
+        "邁阿密國際",
+        "曼聯"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -325,18 +325,18 @@
       "question": "Which team has James Rodríguez played for?",
       "question_cantonese": "占士洛迪古斯曾經效力過邊隊？",
       "choices": {
-        "A": "Real Madrid CF",
-        "B": "SV Werder Bremen",
-        "C": "Valencia CF",
-        "D": "FC Barcelona"
+        "A": "Schalke 04",
+        "B": "Chelsea F.C.",
+        "C": "Atlético de Madrid",
+        "D": "Real Madrid CF"
       },
       "choices_cantonese": {
-        "A": "皇家馬德里足球會",
-        "B": "雲達不萊梅體育會",
-        "C": "華倫西亞足球會",
-        "D": "巴塞隆拿足球會"
+        "A": "史浩克零四足球會",
+        "B": "車路士",
+        "C": "馬德里體育會",
+        "D": "皇家馬德里足球會"
       },
-      "correct_answer": "A",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "Real Madrid CF",
         "name_cantonese": "皇家馬德里足球會",
@@ -354,14 +354,14 @@
         "total_clubs": 12
       },
       "distractors": [
-        "FC Barcelona",
-        "SV Werder Bremen",
-        "Valencia CF"
+        "Schalke 04",
+        "Atlético de Madrid",
+        "Chelsea F.C."
       ],
       "distractors_cantonese": [
-        "巴塞隆拿足球會",
-        "雲達不萊梅體育會",
-        "華倫西亞足球會"
+        "史浩克零四足球會",
+        "馬德里體育會",
+        "車路士"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -369,18 +369,18 @@
       "question": "Which team has Jordan Henderson played for?",
       "question_cantonese": "軒達臣曾經效力過邊隊？",
       "choices": {
-        "A": "Liverpool F.C.",
-        "B": "Chelsea F.C.",
-        "C": "Schalke 04",
-        "D": "Olympique de Marseille"
+        "A": "Al-Nassr",
+        "B": "Tottenham Hotspur F.C.",
+        "C": "Atlético de Madrid",
+        "D": "Liverpool F.C."
       },
       "choices_cantonese": {
-        "A": "利物浦足球會",
-        "B": "車路士",
-        "C": "史浩克零四足球會",
-        "D": "馬賽足球會"
+        "A": "艾納斯",
+        "B": "熱刺",
+        "C": "馬德里體育會",
+        "D": "利物浦足球會"
       },
-      "correct_answer": "A",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "Liverpool F.C.",
         "name_cantonese": "利物浦足球會",
@@ -398,14 +398,14 @@
         "total_clubs": 6
       },
       "distractors": [
-        "Olympique de Marseille",
-        "Chelsea F.C.",
-        "Schalke 04"
+        "Atlético de Madrid",
+        "Al-Nassr",
+        "Tottenham Hotspur F.C."
       ],
       "distractors_cantonese": [
-        "馬賽足球會",
-        "車路士",
-        "史浩克零四足球會"
+        "馬德里體育會",
+        "艾納斯",
+        "熱刺"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -413,18 +413,18 @@
       "question": "Which team has Arturo Vidal played for?",
       "question_cantonese": "亞杜羅·維度曾經效力過邊隊？",
       "choices": {
-        "A": "Al-Nassr",
-        "B": "Bayer 04 Leverkusen",
-        "C": "Real Madrid CF",
-        "D": "Liverpool F.C."
+        "A": "Valencia CF",
+        "B": "Udinese Calcio",
+        "C": "Manchester United F.C.",
+        "D": "Bayer 04 Leverkusen"
       },
       "choices_cantonese": {
-        "A": "艾納斯",
-        "B": "利華古遜足球會",
-        "C": "皇家馬德里足球會",
-        "D": "利物浦足球會"
+        "A": "華倫西亞足球會",
+        "B": "烏甸尼斯足球會",
+        "C": "曼聯",
+        "D": "利華古遜足球會"
       },
-      "correct_answer": "B",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "Bayer 04 Leverkusen",
         "name_cantonese": "利華古遜足球會",
@@ -442,14 +442,14 @@
         "total_clubs": 9
       },
       "distractors": [
-        "Real Madrid CF",
-        "Al-Nassr",
-        "Liverpool F.C."
+        "Valencia CF",
+        "Udinese Calcio",
+        "Manchester United F.C."
       ],
       "distractors_cantonese": [
-        "皇家馬德里足球會",
-        "艾納斯",
-        "利物浦足球會"
+        "華倫西亞足球會",
+        "烏甸尼斯足球會",
+        "曼聯"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -457,18 +457,18 @@
       "question": "Which team has Rafael Leão played for?",
       "question_cantonese": "里奧曾經效力過邊隊？",
       "choices": {
-        "A": "AC Milan",
-        "B": "FC Porto",
-        "C": "Manchester United F.C.",
-        "D": "A.S. Roma"
+        "A": "Arsenal F.C.",
+        "B": "AC Milan",
+        "C": "FC Barcelona",
+        "D": "Manchester United F.C."
       },
       "choices_cantonese": {
-        "A": "unknown",
-        "B": "波圖足球會",
-        "C": "曼聯",
-        "D": "羅馬體育會"
+        "A": "阿仙奴",
+        "B": "unknown",
+        "C": "巴塞隆拿足球會",
+        "D": "曼聯"
       },
-      "correct_answer": "A",
+      "correct_answer": "B",
       "correct_club_info": {
         "name": "AC Milan",
         "name_cantonese": "unknown",
@@ -486,14 +486,14 @@
         "total_clubs": 3
       },
       "distractors": [
-        "A.S. Roma",
-        "FC Porto",
-        "Manchester United F.C."
+        "FC Barcelona",
+        "Manchester United F.C.",
+        "Arsenal F.C."
       ],
       "distractors_cantonese": [
-        "羅馬體育會",
-        "波圖足球會",
-        "曼聯"
+        "巴塞隆拿足球會",
+        "曼聯",
+        "阿仙奴"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -501,18 +501,18 @@
       "question": "Which team has Sergej Milinković-Savić played for?",
       "question_cantonese": "沙治米連高域沙域曾經效力過邊隊？",
       "choices": {
-        "A": "SS Lazio",
-        "B": "Olympique de Marseille",
-        "C": "Manchester City F.C.",
-        "D": "AFC Ajax"
+        "A": "FC Bayern Munich",
+        "B": "Borussia Dortmund",
+        "C": "Juventus FC",
+        "D": "SS Lazio"
       },
       "choices_cantonese": {
-        "A": "拉素體育會",
-        "B": "馬賽足球會",
-        "C": "曼城足球會",
-        "D": "阿積士足球會"
+        "A": "拜仁慕尼黑",
+        "B": "多蒙特",
+        "C": "祖雲達斯",
+        "D": "拉素體育會"
       },
-      "correct_answer": "A",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "SS Lazio",
         "name_cantonese": "拉素體育會",
@@ -530,14 +530,14 @@
         "total_clubs": 4
       },
       "distractors": [
-        "Olympique de Marseille",
-        "AFC Ajax",
-        "Manchester City F.C."
+        "Juventus FC",
+        "Borussia Dortmund",
+        "FC Bayern Munich"
       ],
       "distractors_cantonese": [
-        "馬賽足球會",
-        "阿積士足球會",
-        "曼城足球會"
+        "祖雲達斯",
+        "多蒙特",
+        "拜仁慕尼黑"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -545,18 +545,18 @@
       "question": "Which team has Medhi Benatia played for?",
       "question_cantonese": "美迪·賓拿迪亞曾經效力過邊隊？",
       "choices": {
-        "A": "Udinese Calcio",
-        "B": "Liverpool F.C.",
-        "C": "Borussia Dortmund",
-        "D": "Paris Saint-Germain FC"
+        "A": "Atlético de Madrid",
+        "B": "Villarreal CF",
+        "C": "Udinese Calcio",
+        "D": "FC Porto"
       },
       "choices_cantonese": {
-        "A": "烏甸尼斯足球會",
-        "B": "利物浦足球會",
-        "C": "多蒙特",
-        "D": "巴黎聖日耳門"
+        "A": "馬德里體育會",
+        "B": "維拉利爾足球會",
+        "C": "烏甸尼斯足球會",
+        "D": "波圖足球會"
       },
-      "correct_answer": "A",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "Udinese Calcio",
         "name_cantonese": "烏甸尼斯足球會",
@@ -574,14 +574,14 @@
         "total_clubs": 11
       },
       "distractors": [
-        "Paris Saint-Germain FC",
-        "Borussia Dortmund",
-        "Liverpool F.C."
+        "Villarreal CF",
+        "FC Porto",
+        "Atlético de Madrid"
       ],
       "distractors_cantonese": [
-        "巴黎聖日耳門",
-        "多蒙特",
-        "利物浦足球會"
+        "維拉利爾足球會",
+        "波圖足球會",
+        "馬德里體育會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -589,18 +589,18 @@
       "question": "Which team has Ronald Araújo played for?",
       "question_cantonese": "阿拿祖曾經效力過邊隊？",
       "choices": {
-        "A": "FC Bayern Munich",
-        "B": "Inter Miami CF",
-        "C": "Juventus FC",
-        "D": "FC Barcelona"
+        "A": "A.S. Roma",
+        "B": "Liverpool F.C.",
+        "C": "FC Barcelona",
+        "D": "Olympique Lyonnais"
       },
       "choices_cantonese": {
-        "A": "拜仁慕尼黑",
-        "B": "邁阿密國際",
-        "C": "祖雲達斯",
-        "D": "巴塞隆拿足球會"
+        "A": "羅馬體育會",
+        "B": "利物浦足球會",
+        "C": "巴塞隆拿足球會",
+        "D": "奧林匹克里昂"
       },
-      "correct_answer": "D",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "FC Barcelona",
         "name_cantonese": "巴塞隆拿足球會",
@@ -618,14 +618,14 @@
         "total_clubs": 4
       },
       "distractors": [
-        "FC Bayern Munich",
-        "Juventus FC",
-        "Inter Miami CF"
+        "Olympique Lyonnais",
+        "A.S. Roma",
+        "Liverpool F.C."
       ],
       "distractors_cantonese": [
-        "拜仁慕尼黑",
-        "祖雲達斯",
-        "邁阿密國際"
+        "奧林匹克里昂",
+        "羅馬體育會",
+        "利物浦足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -634,15 +634,15 @@
       "question_cantonese": "李安納度·邦路斯曾經效力過邊隊？",
       "choices": {
         "A": "Juventus FC",
-        "B": "Udinese Calcio",
-        "C": "A.S. Roma",
-        "D": "Inter Miami CF"
+        "B": "FC Barcelona",
+        "C": "Al-Nassr",
+        "D": "Schalke 04"
       },
       "choices_cantonese": {
         "A": "祖雲達斯",
-        "B": "烏甸尼斯足球會",
-        "C": "羅馬體育會",
-        "D": "邁阿密國際"
+        "B": "巴塞隆拿足球會",
+        "C": "艾納斯",
+        "D": "史浩克零四足球會"
       },
       "correct_answer": "A",
       "correct_club_info": {
@@ -662,14 +662,14 @@
         "total_clubs": 10
       },
       "distractors": [
-        "Udinese Calcio",
-        "A.S. Roma",
-        "Inter Miami CF"
+        "Schalke 04",
+        "Al-Nassr",
+        "FC Barcelona"
       ],
       "distractors_cantonese": [
-        "烏甸尼斯足球會",
-        "羅馬體育會",
-        "邁阿密國際"
+        "史浩克零四足球會",
+        "艾納斯",
+        "巴塞隆拿足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -677,18 +677,18 @@
       "question": "Which team has David Luiz played for?",
       "question_cantonese": "大衛雷斯曾經效力過邊隊？",
       "choices": {
-        "A": "E.C. Vitória",
-        "B": "Schalke 04",
-        "C": "SV Werder Bremen",
-        "D": "Manchester United F.C."
+        "A": "FC Bayern Munich",
+        "B": "Olympique Lyonnais",
+        "C": "Tottenham Hotspur F.C.",
+        "D": "E.C. Vitória"
       },
       "choices_cantonese": {
-        "A": "維多利亞體育俱樂部",
-        "B": "史浩克零四足球會",
-        "C": "雲達不萊梅體育會",
-        "D": "曼聯"
+        "A": "拜仁慕尼黑",
+        "B": "奧林匹克里昂",
+        "C": "熱刺",
+        "D": "維多利亞體育俱樂部"
       },
-      "correct_answer": "A",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "E.C. Vitória",
         "name_cantonese": "維多利亞體育俱樂部",
@@ -706,14 +706,14 @@
         "total_clubs": 12
       },
       "distractors": [
-        "Schalke 04",
-        "SV Werder Bremen",
-        "Manchester United F.C."
+        "FC Bayern Munich",
+        "Tottenham Hotspur F.C.",
+        "Olympique Lyonnais"
       ],
       "distractors_cantonese": [
-        "史浩克零四足球會",
-        "雲達不萊梅體育會",
-        "曼聯"
+        "拜仁慕尼黑",
+        "熱刺",
+        "奧林匹克里昂"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -723,14 +723,14 @@
       "choices": {
         "A": "São Paulo FC",
         "B": "Manchester United F.C.",
-        "C": "Inter Miami CF",
-        "D": "Juventus FC"
+        "C": "Schalke 04",
+        "D": "A.S. Roma"
       },
       "choices_cantonese": {
         "A": "聖保羅足球會",
         "B": "曼聯",
-        "C": "邁阿密國際",
-        "D": "祖雲達斯"
+        "C": "史浩克零四足球會",
+        "D": "羅馬體育會"
       },
       "correct_answer": "B",
       "correct_club_info": {
@@ -750,14 +750,14 @@
         "total_clubs": 5
       },
       "distractors": [
-        "São Paulo FC",
-        "Inter Miami CF",
-        "Juventus FC"
+        "A.S. Roma",
+        "Schalke 04",
+        "São Paulo FC"
       ],
       "distractors_cantonese": [
-        "聖保羅足球會",
-        "邁阿密國際",
-        "祖雲達斯"
+        "羅馬體育會",
+        "史浩克零四足球會",
+        "聖保羅足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -766,17 +766,17 @@
       "question_cantonese": "迪布尼曾經效力過邊隊？",
       "choices": {
         "A": "Valencia CF",
-        "B": "Manchester City F.C.",
-        "C": "AFC Ajax",
-        "D": "Real Madrid CF"
+        "B": "FC Bayern Munich",
+        "C": "Manchester City F.C.",
+        "D": "S.L. Benfica"
       },
       "choices_cantonese": {
         "A": "華倫西亞足球會",
-        "B": "曼城足球會",
-        "C": "阿積士足球會",
-        "D": "皇家馬德里足球會"
+        "B": "拜仁慕尼黑",
+        "C": "曼城足球會",
+        "D": "賓菲加"
       },
-      "correct_answer": "B",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "Manchester City F.C.",
         "name_cantonese": "曼城足球會",
@@ -794,14 +794,14 @@
         "total_clubs": 6
       },
       "distractors": [
-        "Real Madrid CF",
         "Valencia CF",
-        "AFC Ajax"
+        "FC Bayern Munich",
+        "S.L. Benfica"
       ],
       "distractors_cantonese": [
-        "皇家馬德里足球會",
         "華倫西亞足球會",
-        "阿積士足球會"
+        "拜仁慕尼黑",
+        "賓菲加"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -809,16 +809,16 @@
       "question": "Which team has Diego Godín played for?",
       "question_cantonese": "高甸曾經效力過邊隊？",
       "choices": {
-        "A": "Sevilla FC",
-        "B": "Chelsea F.C.",
+        "A": "Chelsea F.C.",
+        "B": "Arsenal F.C.",
         "C": "Newell's Old Boys",
-        "D": "FC Bayern Munich"
+        "D": "Al-Nassr"
       },
       "choices_cantonese": {
-        "A": "西維爾足球會",
-        "B": "車路士",
+        "A": "車路士",
+        "B": "阿仙奴",
         "C": "紐維爾舊生體育會",
-        "D": "拜仁慕尼黑"
+        "D": "艾納斯"
       },
       "correct_answer": "C",
       "correct_club_info": {
@@ -838,14 +838,14 @@
         "total_clubs": 9
       },
       "distractors": [
-        "Sevilla FC",
-        "FC Bayern Munich",
-        "Chelsea F.C."
+        "Al-Nassr",
+        "Chelsea F.C.",
+        "Arsenal F.C."
       ],
       "distractors_cantonese": [
-        "西維爾足球會",
-        "拜仁慕尼黑",
-        "車路士"
+        "艾納斯",
+        "車路士",
+        "阿仙奴"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -853,18 +853,18 @@
       "question": "Which team has Bastian Schweinsteiger played for?",
       "question_cantonese": "舒韋恩史迪加曾經效力過邊隊？",
       "choices": {
-        "A": "Inter Milan",
-        "B": "FC Porto",
-        "C": "Villarreal CF",
-        "D": "FC Bayern Munich"
+        "A": "Olympique de Marseille",
+        "B": "FC Bayern Munich",
+        "C": "A.S. Roma",
+        "D": "Valencia CF"
       },
       "choices_cantonese": {
-        "A": "國際米蘭",
-        "B": "波圖足球會",
-        "C": "維拉利爾足球會",
-        "D": "拜仁慕尼黑"
+        "A": "馬賽足球會",
+        "B": "拜仁慕尼黑",
+        "C": "羅馬體育會",
+        "D": "華倫西亞足球會"
       },
-      "correct_answer": "D",
+      "correct_answer": "B",
       "correct_club_info": {
         "name": "FC Bayern Munich",
         "name_cantonese": "拜仁慕尼黑",
@@ -882,14 +882,14 @@
         "total_clubs": 4
       },
       "distractors": [
-        "FC Porto",
-        "Villarreal CF",
-        "Inter Milan"
+        "A.S. Roma",
+        "Olympique de Marseille",
+        "Valencia CF"
       ],
       "distractors_cantonese": [
-        "波圖足球會",
-        "維拉利爾足球會",
-        "國際米蘭"
+        "羅馬體育會",
+        "馬賽足球會",
+        "華倫西亞足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -897,18 +897,18 @@
       "question": "Which team has Cesc Fàbregas played for?",
       "question_cantonese": "法比加斯曾經效力過邊隊？",
       "choices": {
-        "A": "FC Bayern Munich",
-        "B": "S.L. Benfica",
-        "C": "Tottenham Hotspur F.C.",
-        "D": "Arsenal F.C."
+        "A": "S.L. Benfica",
+        "B": "Tottenham Hotspur F.C.",
+        "C": "Arsenal F.C.",
+        "D": "Inter Milan"
       },
       "choices_cantonese": {
-        "A": "拜仁慕尼黑",
-        "B": "賓菲加",
-        "C": "熱刺",
-        "D": "阿仙奴"
+        "A": "賓菲加",
+        "B": "熱刺",
+        "C": "阿仙奴",
+        "D": "國際米蘭"
       },
-      "correct_answer": "D",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "Arsenal F.C.",
         "name_cantonese": "阿仙奴",
@@ -927,13 +927,13 @@
       },
       "distractors": [
         "S.L. Benfica",
-        "FC Bayern Munich",
-        "Tottenham Hotspur F.C."
+        "Tottenham Hotspur F.C.",
+        "Inter Milan"
       ],
       "distractors_cantonese": [
         "賓菲加",
-        "拜仁慕尼黑",
-        "熱刺"
+        "熱刺",
+        "國際米蘭"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -941,18 +941,18 @@
       "question": "Which team has Antonio Rüdiger played for?",
       "question_cantonese": "安東尼奧魯迪加曾經效力過邊隊？",
       "choices": {
-        "A": "S.L. Benfica",
-        "B": "Olympique Lyonnais",
-        "C": "Atlético de Madrid",
-        "D": "Chelsea F.C."
+        "A": "FC Bayern Munich",
+        "B": "SV Werder Bremen",
+        "C": "Chelsea F.C.",
+        "D": "Juventus FC"
       },
       "choices_cantonese": {
-        "A": "賓菲加",
-        "B": "奧林匹克里昂",
-        "C": "馬德里體育會",
-        "D": "車路士"
+        "A": "拜仁慕尼黑",
+        "B": "雲達不萊梅體育會",
+        "C": "車路士",
+        "D": "祖雲達斯"
       },
-      "correct_answer": "D",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "Chelsea F.C.",
         "name_cantonese": "車路士",
@@ -970,14 +970,14 @@
         "total_clubs": 6
       },
       "distractors": [
-        "Atlético de Madrid",
-        "Olympique Lyonnais",
-        "S.L. Benfica"
+        "FC Bayern Munich",
+        "SV Werder Bremen",
+        "Juventus FC"
       ],
       "distractors_cantonese": [
-        "馬德里體育會",
-        "奧林匹克里昂",
-        "賓菲加"
+        "拜仁慕尼黑",
+        "雲達不萊梅體育會",
+        "祖雲達斯"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -985,18 +985,18 @@
       "question": "Which team has Jordi Alba played for?",
       "question_cantonese": "佐迪·艾巴曾經效力過邊隊？",
       "choices": {
-        "A": "Olympique Lyonnais",
-        "B": "Paris Saint-Germain FC",
-        "C": "FC Barcelona",
-        "D": "Villarreal CF"
+        "A": "Borussia Dortmund",
+        "B": "FC Barcelona",
+        "C": "AFC Ajax",
+        "D": "Al-Nassr"
       },
       "choices_cantonese": {
-        "A": "奧林匹克里昂",
-        "B": "巴黎聖日耳門",
-        "C": "巴塞隆拿足球會",
-        "D": "維拉利爾足球會"
+        "A": "多蒙特",
+        "B": "巴塞隆拿足球會",
+        "C": "阿積士足球會",
+        "D": "艾納斯"
       },
-      "correct_answer": "C",
+      "correct_answer": "B",
       "correct_club_info": {
         "name": "FC Barcelona",
         "name_cantonese": "巴塞隆拿足球會",
@@ -1014,14 +1014,14 @@
         "total_clubs": 5
       },
       "distractors": [
-        "Olympique Lyonnais",
-        "Villarreal CF",
-        "Paris Saint-Germain FC"
+        "Al-Nassr",
+        "Borussia Dortmund",
+        "AFC Ajax"
       ],
       "distractors_cantonese": [
-        "奧林匹克里昂",
-        "維拉利爾足球會",
-        "巴黎聖日耳門"
+        "艾納斯",
+        "多蒙特",
+        "阿積士足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -1029,18 +1029,18 @@
       "question": "Which team has Bernardo Silva played for?",
       "question_cantonese": "賓拿度施華曾經效力過邊隊？",
       "choices": {
-        "A": "FC Bayern Munich",
-        "B": "Villarreal CF",
-        "C": "FC Barcelona",
-        "D": "Manchester City F.C."
+        "A": "Manchester City F.C.",
+        "B": "Al-Nassr",
+        "C": "Borussia Dortmund",
+        "D": "Arsenal F.C."
       },
       "choices_cantonese": {
-        "A": "拜仁慕尼黑",
-        "B": "維拉利爾足球會",
-        "C": "巴塞隆拿足球會",
-        "D": "曼城足球會"
+        "A": "曼城足球會",
+        "B": "艾納斯",
+        "C": "多蒙特",
+        "D": "阿仙奴"
       },
-      "correct_answer": "D",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "Manchester City F.C.",
         "name_cantonese": "曼城足球會",
@@ -1058,14 +1058,14 @@
         "total_clubs": 5
       },
       "distractors": [
-        "FC Barcelona",
-        "FC Bayern Munich",
-        "Villarreal CF"
+        "Arsenal F.C.",
+        "Borussia Dortmund",
+        "Al-Nassr"
       ],
       "distractors_cantonese": [
-        "巴塞隆拿足球會",
-        "拜仁慕尼黑",
-        "維拉利爾足球會"
+        "阿仙奴",
+        "多蒙特",
+        "艾納斯"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -1073,18 +1073,18 @@
       "question": "Which team has Lorenzo Insigne played for?",
       "question_cantonese": "洛倫佐·因西涅曾經效力過邊隊？",
       "choices": {
-        "A": "Atlético de Madrid",
-        "B": "Olympique de Marseille",
-        "C": "SSC Napoli",
-        "D": "Tottenham Hotspur F.C."
+        "A": "Tottenham Hotspur F.C.",
+        "B": "Valencia CF",
+        "C": "SV Werder Bremen",
+        "D": "SSC Napoli"
       },
       "choices_cantonese": {
-        "A": "馬德里體育會",
-        "B": "馬賽足球會",
-        "C": "unknown",
-        "D": "熱刺"
+        "A": "熱刺",
+        "B": "華倫西亞足球會",
+        "C": "雲達不萊梅體育會",
+        "D": "unknown"
       },
-      "correct_answer": "C",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "SSC Napoli",
         "name_cantonese": "unknown",
@@ -1102,14 +1102,14 @@
         "total_clubs": 5
       },
       "distractors": [
-        "Atlético de Madrid",
         "Tottenham Hotspur F.C.",
-        "Olympique de Marseille"
+        "SV Werder Bremen",
+        "Valencia CF"
       ],
       "distractors_cantonese": [
-        "馬德里體育會",
         "熱刺",
-        "馬賽足球會"
+        "雲達不萊梅體育會",
+        "華倫西亞足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -1117,18 +1117,18 @@
       "question": "Which team has Douglas Costa played for?",
       "question_cantonese": "杜格拉斯·哥斯達曾經效力過邊隊？",
       "choices": {
-        "A": "Paris Saint-Germain FC",
-        "B": "Olympique Lyonnais",
-        "C": "FC Shakhtar Donetsk",
-        "D": "Chelsea F.C."
+        "A": "FC Shakhtar Donetsk",
+        "B": "Inter Milan",
+        "C": "Udinese Calcio",
+        "D": "FC Porto"
       },
       "choices_cantonese": {
-        "A": "巴黎聖日耳門",
-        "B": "奧林匹克里昂",
-        "C": "薩克達足球會",
-        "D": "車路士"
+        "A": "薩克達足球會",
+        "B": "國際米蘭",
+        "C": "烏甸尼斯足球會",
+        "D": "波圖足球會"
       },
-      "correct_answer": "C",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "FC Shakhtar Donetsk",
         "name_cantonese": "薩克達足球會",
@@ -1146,14 +1146,14 @@
         "total_clubs": 11
       },
       "distractors": [
-        "Olympique Lyonnais",
-        "Paris Saint-Germain FC",
-        "Chelsea F.C."
+        "Inter Milan",
+        "Udinese Calcio",
+        "FC Porto"
       ],
       "distractors_cantonese": [
-        "奧林匹克里昂",
-        "巴黎聖日耳門",
-        "車路士"
+        "國際米蘭",
+        "烏甸尼斯足球會",
+        "波圖足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -1161,16 +1161,16 @@
       "question": "Which team has David de Gea played for?",
       "question_cantonese": "迪基亞曾經效力過邊隊？",
       "choices": {
-        "A": "Manchester City F.C.",
-        "B": "FC Bayern Munich",
+        "A": "Valencia CF",
+        "B": "Udinese Calcio",
         "C": "Manchester United F.C.",
-        "D": "Real Madrid CF"
+        "D": "Al-Nassr"
       },
       "choices_cantonese": {
-        "A": "曼城足球會",
-        "B": "拜仁慕尼黑",
+        "A": "華倫西亞足球會",
+        "B": "烏甸尼斯足球會",
         "C": "曼聯",
-        "D": "皇家馬德里足球會"
+        "D": "艾納斯"
       },
       "correct_answer": "C",
       "correct_club_info": {
@@ -1190,14 +1190,14 @@
         "total_clubs": 4
       },
       "distractors": [
-        "Real Madrid CF",
-        "FC Bayern Munich",
-        "Manchester City F.C."
+        "Udinese Calcio",
+        "Valencia CF",
+        "Al-Nassr"
       ],
       "distractors_cantonese": [
-        "皇家馬德里足球會",
-        "拜仁慕尼黑",
-        "曼城足球會"
+        "烏甸尼斯足球會",
+        "華倫西亞足球會",
+        "艾納斯"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -1205,18 +1205,18 @@
       "question": "Which team has Petr Čech played for?",
       "question_cantonese": "施治曾經效力過邊隊？",
       "choices": {
-        "A": "Chelsea F.C.",
-        "B": "Valencia CF",
-        "C": "Villarreal CF",
-        "D": "FC Barcelona"
+        "A": "FC Porto",
+        "B": "Chelsea F.C.",
+        "C": "Valencia CF",
+        "D": "Atlético de Madrid"
       },
       "choices_cantonese": {
-        "A": "車路士",
-        "B": "華倫西亞足球會",
-        "C": "維拉利爾足球會",
-        "D": "巴塞隆拿足球會"
+        "A": "波圖足球會",
+        "B": "車路士",
+        "C": "華倫西亞足球會",
+        "D": "馬德里體育會"
       },
-      "correct_answer": "A",
+      "correct_answer": "B",
       "correct_club_info": {
         "name": "Chelsea F.C.",
         "name_cantonese": "車路士",
@@ -1234,14 +1234,14 @@
         "total_clubs": 5
       },
       "distractors": [
-        "FC Barcelona",
         "Valencia CF",
-        "Villarreal CF"
+        "FC Porto",
+        "Atlético de Madrid"
       ],
       "distractors_cantonese": [
-        "巴塞隆拿足球會",
         "華倫西亞足球會",
-        "維拉利爾足球會"
+        "波圖足球會",
+        "馬德里體育會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -1249,18 +1249,18 @@
       "question": "Which team has Thomas Müller played for?",
       "question_cantonese": "湯馬士·梅拿曾經效力過邊隊？",
       "choices": {
-        "A": "Borussia Dortmund",
-        "B": "FC Bayern Munich",
+        "A": "FC Bayern Munich",
+        "B": "Juventus FC",
         "C": "Chelsea F.C.",
-        "D": "São Paulo FC"
+        "D": "Manchester United F.C."
       },
       "choices_cantonese": {
-        "A": "多蒙特",
-        "B": "拜仁慕尼黑",
+        "A": "拜仁慕尼黑",
+        "B": "祖雲達斯",
         "C": "車路士",
-        "D": "聖保羅足球會"
+        "D": "曼聯"
       },
-      "correct_answer": "B",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "FC Bayern Munich",
         "name_cantonese": "拜仁慕尼黑",
@@ -1278,14 +1278,14 @@
         "total_clubs": 3
       },
       "distractors": [
-        "Borussia Dortmund",
-        "São Paulo FC",
-        "Chelsea F.C."
+        "Manchester United F.C.",
+        "Chelsea F.C.",
+        "Juventus FC"
       ],
       "distractors_cantonese": [
-        "多蒙特",
-        "聖保羅足球會",
-        "車路士"
+        "曼聯",
+        "車路士",
+        "祖雲達斯"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -1293,18 +1293,18 @@
       "question": "Which team has Pierre-Emerick Aubameyang played for?",
       "question_cantonese": "奧巴美揚曾經效力過邊隊？",
       "choices": {
-        "A": "Valencia CF",
-        "B": "Real Madrid CF",
-        "C": "Borussia Dortmund",
-        "D": "FC Bayern Munich"
+        "A": "Borussia Dortmund",
+        "B": "Inter Miami CF",
+        "C": "Inter Milan",
+        "D": "AFC Ajax"
       },
       "choices_cantonese": {
-        "A": "華倫西亞足球會",
-        "B": "皇家馬德里足球會",
-        "C": "多蒙特",
-        "D": "拜仁慕尼黑"
+        "A": "多蒙特",
+        "B": "邁阿密國際",
+        "C": "國際米蘭",
+        "D": "阿積士足球會"
       },
-      "correct_answer": "C",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "Borussia Dortmund",
         "name_cantonese": "多蒙特",
@@ -1322,14 +1322,14 @@
         "total_clubs": 13
       },
       "distractors": [
-        "Valencia CF",
-        "Real Madrid CF",
-        "FC Bayern Munich"
+        "AFC Ajax",
+        "Inter Miami CF",
+        "Inter Milan"
       ],
       "distractors_cantonese": [
-        "華倫西亞足球會",
-        "皇家馬德里足球會",
-        "拜仁慕尼黑"
+        "阿積士足球會",
+        "邁阿密國際",
+        "國際米蘭"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -1337,16 +1337,16 @@
       "question": "Which team has Giorgio Chiellini played for?",
       "question_cantonese": "喬治奧·基亞連尼曾經效力過邊隊？",
       "choices": {
-        "A": "AFC Ajax",
-        "B": "Manchester United F.C.",
+        "A": "Olympique Lyonnais",
+        "B": "Real Madrid CF",
         "C": "Juventus FC",
-        "D": "Liverpool F.C."
+        "D": "Sevilla FC"
       },
       "choices_cantonese": {
-        "A": "阿積士足球會",
-        "B": "曼聯",
+        "A": "奧林匹克里昂",
+        "B": "皇家馬德里足球會",
         "C": "祖雲達斯",
-        "D": "利物浦足球會"
+        "D": "西維爾足球會"
       },
       "correct_answer": "C",
       "correct_club_info": {
@@ -1366,14 +1366,14 @@
         "total_clubs": 6
       },
       "distractors": [
-        "Manchester United F.C.",
-        "Liverpool F.C.",
-        "AFC Ajax"
+        "Olympique Lyonnais",
+        "Sevilla FC",
+        "Real Madrid CF"
       ],
       "distractors_cantonese": [
-        "曼聯",
-        "利物浦足球會",
-        "阿積士足球會"
+        "奧林匹克里昂",
+        "西維爾足球會",
+        "皇家馬德里足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -1381,18 +1381,18 @@
       "question": "Which team has İlkay Gündoğan played for?",
       "question_cantonese": "根度簡曾經效力過邊隊？",
       "choices": {
-        "A": "Manchester City F.C.",
-        "B": "Paris Saint-Germain FC",
-        "C": "Schalke 04",
-        "D": "Real Madrid CF"
+        "A": "Chelsea F.C.",
+        "B": "Juventus FC",
+        "C": "Sevilla FC",
+        "D": "Manchester City F.C."
       },
       "choices_cantonese": {
-        "A": "曼城足球會",
-        "B": "巴黎聖日耳門",
-        "C": "史浩克零四足球會",
-        "D": "皇家馬德里足球會"
+        "A": "車路士",
+        "B": "祖雲達斯",
+        "C": "西維爾足球會",
+        "D": "曼城足球會"
       },
-      "correct_answer": "A",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "Manchester City F.C.",
         "name_cantonese": "曼城足球會",
@@ -1410,14 +1410,14 @@
         "total_clubs": 7
       },
       "distractors": [
-        "Schalke 04",
-        "Real Madrid CF",
-        "Paris Saint-Germain FC"
+        "Chelsea F.C.",
+        "Juventus FC",
+        "Sevilla FC"
       ],
       "distractors_cantonese": [
-        "史浩克零四足球會",
-        "皇家馬德里足球會",
-        "巴黎聖日耳門"
+        "車路士",
+        "祖雲達斯",
+        "西維爾足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -1425,18 +1425,18 @@
       "question": "Which team has Miranda played for?",
       "question_cantonese": "祖奧米蘭達曾經效力過邊隊？",
       "choices": {
-        "A": "Arsenal F.C.",
-        "B": "São Paulo FC",
-        "C": "Chelsea F.C.",
-        "D": "Borussia Dortmund"
+        "A": "A.S. Roma",
+        "B": "FC Bayern Munich",
+        "C": "Arsenal F.C.",
+        "D": "São Paulo FC"
       },
       "choices_cantonese": {
-        "A": "阿仙奴",
-        "B": "聖保羅足球會",
-        "C": "車路士",
-        "D": "多蒙特"
+        "A": "羅馬體育會",
+        "B": "拜仁慕尼黑",
+        "C": "阿仙奴",
+        "D": "聖保羅足球會"
       },
-      "correct_answer": "B",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "São Paulo FC",
         "name_cantonese": "聖保羅足球會",
@@ -1454,14 +1454,14 @@
         "total_clubs": 7
       },
       "distractors": [
+        "FC Bayern Munich",
         "Arsenal F.C.",
-        "Chelsea F.C.",
-        "Borussia Dortmund"
+        "A.S. Roma"
       ],
       "distractors_cantonese": [
+        "拜仁慕尼黑",
         "阿仙奴",
-        "車路士",
-        "多蒙特"
+        "羅馬體育會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -1469,18 +1469,18 @@
       "question": "Which team has Bukayo Saka played for?",
       "question_cantonese": "布卡約·沙卡曾經效力過邊隊？",
       "choices": {
-        "A": "FC Bayern Munich",
-        "B": "Tottenham Hotspur F.C.",
-        "C": "Arsenal F.C.",
-        "D": "SV Werder Bremen"
+        "A": "Arsenal F.C.",
+        "B": "Schalke 04",
+        "C": "Villarreal CF",
+        "D": "Inter Miami CF"
       },
       "choices_cantonese": {
-        "A": "拜仁慕尼黑",
-        "B": "熱刺",
-        "C": "阿仙奴",
-        "D": "雲達不萊梅體育會"
+        "A": "阿仙奴",
+        "B": "史浩克零四足球會",
+        "C": "維拉利爾足球會",
+        "D": "邁阿密國際"
       },
-      "correct_answer": "C",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "Arsenal F.C.",
         "name_cantonese": "阿仙奴",
@@ -1498,14 +1498,14 @@
         "total_clubs": 1
       },
       "distractors": [
-        "SV Werder Bremen",
-        "Tottenham Hotspur F.C.",
-        "FC Bayern Munich"
+        "Schalke 04",
+        "Inter Miami CF",
+        "Villarreal CF"
       ],
       "distractors_cantonese": [
-        "雲達不萊梅體育會",
-        "熱刺",
-        "拜仁慕尼黑"
+        "史浩克零四足球會",
+        "邁阿密國際",
+        "維拉利爾足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -1513,15 +1513,15 @@
       "question": "Which team has Marco Reus played for?",
       "question_cantonese": "馬高·萊斯曾經效力過邊隊？",
       "choices": {
-        "A": "FC Barcelona",
-        "B": "Liverpool F.C.",
-        "C": "FC Bayern Munich",
+        "A": "Liverpool F.C.",
+        "B": "FC Porto",
+        "C": "Olympique Lyonnais",
         "D": "Borussia Dortmund"
       },
       "choices_cantonese": {
-        "A": "巴塞隆拿足球會",
-        "B": "利物浦足球會",
-        "C": "拜仁慕尼黑",
+        "A": "利物浦足球會",
+        "B": "波圖足球會",
+        "C": "奧林匹克里昂",
         "D": "多蒙特"
       },
       "correct_answer": "D",
@@ -1542,14 +1542,14 @@
         "total_clubs": 4
       },
       "distractors": [
-        "FC Bayern Munich",
         "Liverpool F.C.",
-        "FC Barcelona"
+        "Olympique Lyonnais",
+        "FC Porto"
       ],
       "distractors_cantonese": [
-        "拜仁慕尼黑",
         "利物浦足球會",
-        "巴塞隆拿足球會"
+        "奧林匹克里昂",
+        "波圖足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -1557,18 +1557,18 @@
       "question": "Which team has Leroy Sané played for?",
       "question_cantonese": "利萊辛尼曾經效力過邊隊？",
       "choices": {
-        "A": "SV Werder Bremen",
-        "B": "FC Bayern Munich",
-        "C": "Borussia Dortmund",
-        "D": "Juventus FC"
+        "A": "FC Bayern Munich",
+        "B": "Liverpool F.C.",
+        "C": "Real Madrid CF",
+        "D": "Inter Miami CF"
       },
       "choices_cantonese": {
-        "A": "雲達不萊梅體育會",
-        "B": "拜仁慕尼黑",
-        "C": "多蒙特",
-        "D": "祖雲達斯"
+        "A": "拜仁慕尼黑",
+        "B": "利物浦足球會",
+        "C": "皇家馬德里足球會",
+        "D": "邁阿密國際"
       },
-      "correct_answer": "B",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "FC Bayern Munich",
         "name_cantonese": "拜仁慕尼黑",
@@ -1586,14 +1586,14 @@
         "total_clubs": 4
       },
       "distractors": [
-        "Borussia Dortmund",
-        "Juventus FC",
-        "SV Werder Bremen"
+        "Real Madrid CF",
+        "Inter Miami CF",
+        "Liverpool F.C."
       ],
       "distractors_cantonese": [
-        "多蒙特",
-        "祖雲達斯",
-        "雲達不萊梅體育會"
+        "皇家馬德里足球會",
+        "邁阿密國際",
+        "利物浦足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -1601,18 +1601,18 @@
       "question": "Which team has Thiago Silva played for?",
       "question_cantonese": "泰亞高施華曾經效力過邊隊？",
       "choices": {
-        "A": "AFC Ajax",
-        "B": "Arsenal F.C.",
-        "C": "Paris Saint-Germain FC",
-        "D": "Udinese Calcio"
+        "A": "Paris Saint-Germain FC",
+        "B": "S.L. Benfica",
+        "C": "Olympique Lyonnais",
+        "D": "Manchester City F.C."
       },
       "choices_cantonese": {
-        "A": "阿積士足球會",
-        "B": "阿仙奴",
-        "C": "巴黎聖日耳門",
-        "D": "烏甸尼斯足球會"
+        "A": "巴黎聖日耳門",
+        "B": "賓菲加",
+        "C": "奧林匹克里昂",
+        "D": "曼城足球會"
       },
-      "correct_answer": "C",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "Paris Saint-Germain FC",
         "name_cantonese": "巴黎聖日耳門",
@@ -1630,14 +1630,14 @@
         "total_clubs": 13
       },
       "distractors": [
-        "AFC Ajax",
-        "Arsenal F.C.",
-        "Udinese Calcio"
+        "S.L. Benfica",
+        "Olympique Lyonnais",
+        "Manchester City F.C."
       ],
       "distractors_cantonese": [
-        "阿積士足球會",
-        "阿仙奴",
-        "烏甸尼斯足球會"
+        "賓菲加",
+        "奧林匹克里昂",
+        "曼城足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -1645,18 +1645,18 @@
       "question": "Which team has Paul Pogba played for?",
       "question_cantonese": "普巴曾經效力過邊隊？",
       "choices": {
-        "A": "Manchester United F.C.",
-        "B": "Villarreal CF",
-        "C": "Inter Milan",
+        "A": "FC Bayern Munich",
+        "B": "Valencia CF",
+        "C": "Manchester United F.C.",
         "D": "Manchester City F.C."
       },
       "choices_cantonese": {
-        "A": "曼聯",
-        "B": "維拉利爾足球會",
-        "C": "國際米蘭",
+        "A": "拜仁慕尼黑",
+        "B": "華倫西亞足球會",
+        "C": "曼聯",
         "D": "曼城足球會"
       },
-      "correct_answer": "A",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "Manchester United F.C.",
         "name_cantonese": "曼聯",
@@ -1674,13 +1674,13 @@
         "total_clubs": 5
       },
       "distractors": [
-        "Inter Milan",
-        "Villarreal CF",
+        "FC Bayern Munich",
+        "Valencia CF",
         "Manchester City F.C."
       ],
       "distractors_cantonese": [
-        "國際米蘭",
-        "維拉利爾足球會",
+        "拜仁慕尼黑",
+        "華倫西亞足球會",
         "曼城足球會"
       ],
       "question_type": "player_team_affiliation"
@@ -1689,18 +1689,18 @@
       "question": "Which team has Sergio Agüero played for?",
       "question_cantonese": "阿古路曾經效力過邊隊？",
       "choices": {
-        "A": "Al-Nassr",
+        "A": "Manchester City F.C.",
         "B": "São Paulo FC",
-        "C": "Arsenal F.C.",
-        "D": "Manchester City F.C."
+        "C": "Tottenham Hotspur F.C.",
+        "D": "Sevilla FC"
       },
       "choices_cantonese": {
-        "A": "艾納斯",
+        "A": "曼城足球會",
         "B": "聖保羅足球會",
-        "C": "阿仙奴",
-        "D": "曼城足球會"
+        "C": "熱刺",
+        "D": "西維爾足球會"
       },
-      "correct_answer": "D",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "Manchester City F.C.",
         "name_cantonese": "曼城足球會",
@@ -1718,14 +1718,14 @@
         "total_clubs": 4
       },
       "distractors": [
-        "São Paulo FC",
-        "Al-Nassr",
-        "Arsenal F.C."
+        "Tottenham Hotspur F.C.",
+        "Sevilla FC",
+        "São Paulo FC"
       ],
       "distractors_cantonese": [
-        "聖保羅足球會",
-        "艾納斯",
-        "阿仙奴"
+        "熱刺",
+        "西維爾足球會",
+        "聖保羅足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -1733,16 +1733,16 @@
       "question": "Which team has Gerard Piqué played for?",
       "question_cantonese": "碧基曾經效力過邊隊？",
       "choices": {
-        "A": "Atlético de Madrid",
-        "B": "Juventus FC",
+        "A": "Real Madrid CF",
+        "B": "S.L. Benfica",
         "C": "FC Barcelona",
-        "D": "FC Bayern Munich"
+        "D": "AFC Ajax"
       },
       "choices_cantonese": {
-        "A": "馬德里體育會",
-        "B": "祖雲達斯",
+        "A": "皇家馬德里足球會",
+        "B": "賓菲加",
         "C": "巴塞隆拿足球會",
-        "D": "拜仁慕尼黑"
+        "D": "阿積士足球會"
       },
       "correct_answer": "C",
       "correct_club_info": {
@@ -1762,14 +1762,14 @@
         "total_clubs": 5
       },
       "distractors": [
-        "Juventus FC",
-        "FC Bayern Munich",
-        "Atlético de Madrid"
+        "AFC Ajax",
+        "Real Madrid CF",
+        "S.L. Benfica"
       ],
       "distractors_cantonese": [
-        "祖雲達斯",
-        "拜仁慕尼黑",
-        "馬德里體育會"
+        "阿積士足球會",
+        "皇家馬德里足球會",
+        "賓菲加"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -1779,14 +1779,14 @@
       "choices": {
         "A": "Olympique Lyonnais",
         "B": "Inter Milan",
-        "C": "Paris Saint-Germain FC",
-        "D": "FC Barcelona"
+        "C": "Inter Miami CF",
+        "D": "FC Bayern Munich"
       },
       "choices_cantonese": {
         "A": "奧林匹克里昂",
         "B": "國際米蘭",
-        "C": "巴黎聖日耳門",
-        "D": "巴塞隆拿足球會"
+        "C": "邁阿密國際",
+        "D": "拜仁慕尼黑"
       },
       "correct_answer": "B",
       "correct_club_info": {
@@ -1806,14 +1806,14 @@
         "total_clubs": 2
       },
       "distractors": [
-        "Paris Saint-Germain FC",
-        "FC Barcelona",
-        "Olympique Lyonnais"
+        "FC Bayern Munich",
+        "Olympique Lyonnais",
+        "Inter Miami CF"
       ],
       "distractors_cantonese": [
-        "巴黎聖日耳門",
-        "巴塞隆拿足球會",
-        "奧林匹克里昂"
+        "拜仁慕尼黑",
+        "奧林匹克里昂",
+        "邁阿密國際"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -1821,18 +1821,18 @@
       "question": "Which team has Nemanja Matić played for?",
       "question_cantonese": "尼馬查馬迪曾經效力過邊隊？",
       "choices": {
-        "A": "Manchester United F.C.",
-        "B": "Arsenal F.C.",
-        "C": "Juventus FC",
-        "D": "FC Bayern Munich"
+        "A": "Villarreal CF",
+        "B": "Manchester United F.C.",
+        "C": "Paris Saint-Germain FC",
+        "D": "Arsenal F.C."
       },
       "choices_cantonese": {
-        "A": "曼聯",
-        "B": "阿仙奴",
-        "C": "祖雲達斯",
-        "D": "拜仁慕尼黑"
+        "A": "維拉利爾足球會",
+        "B": "曼聯",
+        "C": "巴黎聖日耳門",
+        "D": "阿仙奴"
       },
-      "correct_answer": "A",
+      "correct_answer": "B",
       "correct_club_info": {
         "name": "Manchester United F.C.",
         "name_cantonese": "曼聯",
@@ -1851,13 +1851,13 @@
       },
       "distractors": [
         "Arsenal F.C.",
-        "Juventus FC",
-        "FC Bayern Munich"
+        "Paris Saint-Germain FC",
+        "Villarreal CF"
       ],
       "distractors_cantonese": [
         "阿仙奴",
-        "祖雲達斯",
-        "拜仁慕尼黑"
+        "巴黎聖日耳門",
+        "維拉利爾足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -1865,18 +1865,18 @@
       "question": "Which team has Bernd Leno played for?",
       "question_cantonese": "蘭奴曾經效力過邊隊？",
       "choices": {
-        "A": "Manchester City F.C.",
-        "B": "Al-Nassr",
-        "C": "Tottenham Hotspur F.C.",
-        "D": "Bayer 04 Leverkusen"
+        "A": "Olympique de Marseille",
+        "B": "Bayer 04 Leverkusen",
+        "C": "São Paulo FC",
+        "D": "S.L. Benfica"
       },
       "choices_cantonese": {
-        "A": "曼城足球會",
-        "B": "艾納斯",
-        "C": "熱刺",
-        "D": "利華古遜足球會"
+        "A": "馬賽足球會",
+        "B": "利華古遜足球會",
+        "C": "聖保羅足球會",
+        "D": "賓菲加"
       },
-      "correct_answer": "D",
+      "correct_answer": "B",
       "correct_club_info": {
         "name": "Bayer 04 Leverkusen",
         "name_cantonese": "利華古遜足球會",
@@ -1894,14 +1894,14 @@
         "total_clubs": 4
       },
       "distractors": [
-        "Manchester City F.C.",
-        "Tottenham Hotspur F.C.",
-        "Al-Nassr"
+        "S.L. Benfica",
+        "São Paulo FC",
+        "Olympique de Marseille"
       ],
       "distractors_cantonese": [
-        "曼城足球會",
-        "熱刺",
-        "艾納斯"
+        "賓菲加",
+        "聖保羅足球會",
+        "馬賽足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -1909,16 +1909,16 @@
       "question": "Which team has Thiago Alcântara played for?",
       "question_cantonese": "堤亞高艾勤達拿曾經效力過邊隊？",
       "choices": {
-        "A": "Tottenham Hotspur F.C.",
+        "A": "Manchester City F.C.",
         "B": "FC Bayern Munich",
-        "C": "Real Madrid CF",
-        "D": "Atlético de Madrid"
+        "C": "Olympique Lyonnais",
+        "D": "Valencia CF"
       },
       "choices_cantonese": {
-        "A": "熱刺",
+        "A": "曼城足球會",
         "B": "拜仁慕尼黑",
-        "C": "皇家馬德里足球會",
-        "D": "馬德里體育會"
+        "C": "奧林匹克里昂",
+        "D": "華倫西亞足球會"
       },
       "correct_answer": "B",
       "correct_club_info": {
@@ -1938,14 +1938,14 @@
         "total_clubs": 4
       },
       "distractors": [
-        "Atlético de Madrid",
-        "Real Madrid CF",
-        "Tottenham Hotspur F.C."
+        "Valencia CF",
+        "Manchester City F.C.",
+        "Olympique Lyonnais"
       ],
       "distractors_cantonese": [
-        "馬德里體育會",
-        "皇家馬德里足球會",
-        "熱刺"
+        "華倫西亞足球會",
+        "曼城足球會",
+        "奧林匹克里昂"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -1953,18 +1953,18 @@
       "question": "Which team has Samir Handanović played for?",
       "question_cantonese": "薩米爾·漢丹洛域曾經效力過邊隊？",
       "choices": {
-        "A": "Valencia CF",
-        "B": "Tottenham Hotspur F.C.",
-        "C": "Inter Milan",
-        "D": "Olympique Lyonnais"
+        "A": "Borussia Dortmund",
+        "B": "Inter Milan",
+        "C": "Villarreal CF",
+        "D": "Inter Miami CF"
       },
       "choices_cantonese": {
-        "A": "華倫西亞足球會",
-        "B": "熱刺",
-        "C": "國際米蘭",
-        "D": "奧林匹克里昂"
+        "A": "多蒙特",
+        "B": "國際米蘭",
+        "C": "維拉利爾足球會",
+        "D": "邁阿密國際"
       },
-      "correct_answer": "C",
+      "correct_answer": "B",
       "correct_club_info": {
         "name": "Inter Milan",
         "name_cantonese": "國際米蘭",
@@ -1982,14 +1982,14 @@
         "total_clubs": 7
       },
       "distractors": [
-        "Valencia CF",
-        "Tottenham Hotspur F.C.",
-        "Olympique Lyonnais"
+        "Borussia Dortmund",
+        "Inter Miami CF",
+        "Villarreal CF"
       ],
       "distractors_cantonese": [
-        "華倫西亞足球會",
-        "熱刺",
-        "奧林匹克里昂"
+        "多蒙特",
+        "邁阿密國際",
+        "維拉利爾足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -1997,18 +1997,18 @@
       "question": "Which team has Toni Kroos played for?",
       "question_cantonese": "東尼·卻奧斯曾經效力過邊隊？",
       "choices": {
-        "A": "Inter Milan",
-        "B": "Schalke 04",
-        "C": "Real Madrid CF",
-        "D": "Atlético de Madrid"
+        "A": "AFC Ajax",
+        "B": "Inter Milan",
+        "C": "Sevilla FC",
+        "D": "Real Madrid CF"
       },
       "choices_cantonese": {
-        "A": "國際米蘭",
-        "B": "史浩克零四足球會",
-        "C": "皇家馬德里足球會",
-        "D": "馬德里體育會"
+        "A": "阿積士足球會",
+        "B": "國際米蘭",
+        "C": "西維爾足球會",
+        "D": "皇家馬德里足球會"
       },
-      "correct_answer": "C",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "Real Madrid CF",
         "name_cantonese": "皇家馬德里足球會",
@@ -2026,14 +2026,14 @@
         "total_clubs": 3
       },
       "distractors": [
-        "Atlético de Madrid",
         "Inter Milan",
-        "Schalke 04"
+        "AFC Ajax",
+        "Sevilla FC"
       ],
       "distractors_cantonese": [
-        "馬德里體育會",
         "國際米蘭",
-        "史浩克零四足球會"
+        "阿積士足球會",
+        "西維爾足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -2041,18 +2041,18 @@
       "question": "Which team has Isco played for?",
       "question_cantonese": "伊斯高曾經效力過邊隊？",
       "choices": {
-        "A": "Olympique de Marseille",
-        "B": "Udinese Calcio",
-        "C": "Atlético de Madrid",
-        "D": "Real Madrid CF"
+        "A": "Atlético de Madrid",
+        "B": "Real Madrid CF",
+        "C": "Villarreal CF",
+        "D": "Manchester City F.C."
       },
       "choices_cantonese": {
-        "A": "馬賽足球會",
-        "B": "烏甸尼斯足球會",
-        "C": "馬德里體育會",
-        "D": "皇家馬德里足球會"
+        "A": "馬德里體育會",
+        "B": "皇家馬德里足球會",
+        "C": "維拉利爾足球會",
+        "D": "曼城足球會"
       },
-      "correct_answer": "D",
+      "correct_answer": "B",
       "correct_club_info": {
         "name": "Real Madrid CF",
         "name_cantonese": "皇家馬德里足球會",
@@ -2070,14 +2070,14 @@
         "total_clubs": 6
       },
       "distractors": [
-        "Udinese Calcio",
+        "Manchester City F.C.",
         "Atlético de Madrid",
-        "Olympique de Marseille"
+        "Villarreal CF"
       ],
       "distractors_cantonese": [
-        "烏甸尼斯足球會",
+        "曼城足球會",
         "馬德里體育會",
-        "馬賽足球會"
+        "維拉利爾足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -2085,18 +2085,18 @@
       "question": "Which team has Gareth Bale played for?",
       "question_cantonese": "加里夫巴利曾經效力過邊隊？",
       "choices": {
-        "A": "Juventus FC",
-        "B": "Atlético de Madrid",
-        "C": "Real Madrid CF",
-        "D": "A.S. Roma"
+        "A": "Borussia Dortmund",
+        "B": "Real Madrid CF",
+        "C": "FC Porto",
+        "D": "Villarreal CF"
       },
       "choices_cantonese": {
-        "A": "祖雲達斯",
-        "B": "馬德里體育會",
-        "C": "皇家馬德里足球會",
-        "D": "羅馬體育會"
+        "A": "多蒙特",
+        "B": "皇家馬德里足球會",
+        "C": "波圖足球會",
+        "D": "維拉利爾足球會"
       },
-      "correct_answer": "C",
+      "correct_answer": "B",
       "correct_club_info": {
         "name": "Real Madrid CF",
         "name_cantonese": "皇家馬德里足球會",
@@ -2114,14 +2114,14 @@
         "total_clubs": 5
       },
       "distractors": [
-        "Atlético de Madrid",
-        "A.S. Roma",
-        "Juventus FC"
+        "Villarreal CF",
+        "Borussia Dortmund",
+        "FC Porto"
       ],
       "distractors_cantonese": [
-        "馬德里體育會",
-        "羅馬體育會",
-        "祖雲達斯"
+        "維拉利爾足球會",
+        "多蒙特",
+        "波圖足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -2129,18 +2129,18 @@
       "question": "Which team has Andrés Iniesta played for?",
       "question_cantonese": "恩尼斯達曾經效力過邊隊？",
       "choices": {
-        "A": "A.S. Roma",
-        "B": "Al-Nassr",
-        "C": "Villarreal CF",
-        "D": "FC Barcelona"
+        "A": "Borussia Dortmund",
+        "B": "FC Barcelona",
+        "C": "Juventus FC",
+        "D": "A.S. Roma"
       },
       "choices_cantonese": {
-        "A": "羅馬體育會",
-        "B": "艾納斯",
-        "C": "維拉利爾足球會",
-        "D": "巴塞隆拿足球會"
+        "A": "多蒙特",
+        "B": "巴塞隆拿足球會",
+        "C": "祖雲達斯",
+        "D": "羅馬體育會"
       },
-      "correct_answer": "D",
+      "correct_answer": "B",
       "correct_club_info": {
         "name": "FC Barcelona",
         "name_cantonese": "巴塞隆拿足球會",
@@ -2159,13 +2159,13 @@
       },
       "distractors": [
         "A.S. Roma",
-        "Al-Nassr",
-        "Villarreal CF"
+        "Juventus FC",
+        "Borussia Dortmund"
       ],
       "distractors_cantonese": [
         "羅馬體育會",
-        "艾納斯",
-        "維拉利爾足球會"
+        "祖雲達斯",
+        "多蒙特"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -2173,18 +2173,18 @@
       "question": "Which team has Virgil van Dijk played for?",
       "question_cantonese": "雲迪積克曾經效力過邊隊？",
       "choices": {
-        "A": "Liverpool F.C.",
-        "B": "Chelsea F.C.",
-        "C": "S.L. Benfica",
-        "D": "Valencia CF"
+        "A": "Schalke 04",
+        "B": "Paris Saint-Germain FC",
+        "C": "Liverpool F.C.",
+        "D": "Manchester City F.C."
       },
       "choices_cantonese": {
-        "A": "利物浦足球會",
-        "B": "車路士",
-        "C": "賓菲加",
-        "D": "華倫西亞足球會"
+        "A": "史浩克零四足球會",
+        "B": "巴黎聖日耳門",
+        "C": "利物浦足球會",
+        "D": "曼城足球會"
       },
-      "correct_answer": "A",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "Liverpool F.C.",
         "name_cantonese": "利物浦足球會",
@@ -2202,14 +2202,14 @@
         "total_clubs": 4
       },
       "distractors": [
-        "Chelsea F.C.",
-        "Valencia CF",
-        "S.L. Benfica"
+        "Manchester City F.C.",
+        "Paris Saint-Germain FC",
+        "Schalke 04"
       ],
       "distractors_cantonese": [
-        "車路士",
-        "華倫西亞足球會",
-        "賓菲加"
+        "曼城足球會",
+        "巴黎聖日耳門",
+        "史浩克零四足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -2217,18 +2217,18 @@
       "question": "Which team has Philippe Coutinho played for?",
       "question_cantonese": "古天奴曾經效力過邊隊？",
       "choices": {
-        "A": "Inter Milan",
-        "B": "Tottenham Hotspur F.C.",
-        "C": "Arsenal F.C.",
-        "D": "Paris Saint-Germain FC"
+        "A": "Olympique de Marseille",
+        "B": "Real Madrid CF",
+        "C": "Inter Milan",
+        "D": "Arsenal F.C."
       },
       "choices_cantonese": {
-        "A": "國際米蘭",
-        "B": "熱刺",
-        "C": "阿仙奴",
-        "D": "巴黎聖日耳門"
+        "A": "馬賽足球會",
+        "B": "皇家馬德里足球會",
+        "C": "國際米蘭",
+        "D": "阿仙奴"
       },
-      "correct_answer": "A",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "Inter Milan",
         "name_cantonese": "國際米蘭",
@@ -2246,13 +2246,13 @@
         "total_clubs": 11
       },
       "distractors": [
-        "Tottenham Hotspur F.C.",
-        "Paris Saint-Germain FC",
+        "Olympique de Marseille",
+        "Real Madrid CF",
         "Arsenal F.C."
       ],
       "distractors_cantonese": [
-        "熱刺",
-        "巴黎聖日耳門",
+        "馬賽足球會",
+        "皇家馬德里足球會",
         "阿仙奴"
       ],
       "question_type": "player_team_affiliation"
@@ -2261,16 +2261,16 @@
       "question": "Which team has Rodri played for?",
       "question_cantonese": "洛迪 (足球員)曾經效力過邊隊？",
       "choices": {
-        "A": "FC Bayern Munich",
-        "B": "SV Werder Bremen",
+        "A": "Liverpool F.C.",
+        "B": "Valencia CF",
         "C": "Manchester City F.C.",
-        "D": "S.L. Benfica"
+        "D": "Udinese Calcio"
       },
       "choices_cantonese": {
-        "A": "拜仁慕尼黑",
-        "B": "雲達不萊梅體育會",
+        "A": "利物浦足球會",
+        "B": "華倫西亞足球會",
         "C": "曼城足球會",
-        "D": "賓菲加"
+        "D": "烏甸尼斯足球會"
       },
       "correct_answer": "C",
       "correct_club_info": {
@@ -2290,14 +2290,14 @@
         "total_clubs": 4
       },
       "distractors": [
-        "S.L. Benfica",
-        "FC Bayern Munich",
-        "SV Werder Bremen"
+        "Liverpool F.C.",
+        "Valencia CF",
+        "Udinese Calcio"
       ],
       "distractors_cantonese": [
-        "賓菲加",
-        "拜仁慕尼黑",
-        "雲達不萊梅體育會"
+        "利物浦足球會",
+        "華倫西亞足球會",
+        "烏甸尼斯足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -2305,18 +2305,18 @@
       "question": "Which team has Jude Bellingham played for?",
       "question_cantonese": "祖迪·比寧咸曾經效力過邊隊？",
       "choices": {
-        "A": "Valencia CF",
-        "B": "Borussia Dortmund",
-        "C": "Manchester United F.C.",
-        "D": "Tottenham Hotspur F.C."
+        "A": "FC Bayern Munich",
+        "B": "Liverpool F.C.",
+        "C": "Borussia Dortmund",
+        "D": "São Paulo FC"
       },
       "choices_cantonese": {
-        "A": "華倫西亞足球會",
-        "B": "多蒙特",
-        "C": "曼聯",
-        "D": "熱刺"
+        "A": "拜仁慕尼黑",
+        "B": "利物浦足球會",
+        "C": "多蒙特",
+        "D": "聖保羅足球會"
       },
-      "correct_answer": "B",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "Borussia Dortmund",
         "name_cantonese": "多蒙特",
@@ -2334,14 +2334,14 @@
         "total_clubs": 3
       },
       "distractors": [
-        "Tottenham Hotspur F.C.",
-        "Valencia CF",
-        "Manchester United F.C."
+        "FC Bayern Munich",
+        "São Paulo FC",
+        "Liverpool F.C."
       ],
       "distractors_cantonese": [
-        "熱刺",
-        "華倫西亞足球會",
-        "曼聯"
+        "拜仁慕尼黑",
+        "聖保羅足球會",
+        "利物浦足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -2349,18 +2349,18 @@
       "question": "Which team has Thibaut Courtois played for?",
       "question_cantonese": "高圖爾斯曾經效力過邊隊？",
       "choices": {
-        "A": "Valencia CF",
-        "B": "S.L. Benfica",
-        "C": "Udinese Calcio",
-        "D": "Chelsea F.C."
+        "A": "Villarreal CF",
+        "B": "Chelsea F.C.",
+        "C": "São Paulo FC",
+        "D": "Al-Nassr"
       },
       "choices_cantonese": {
-        "A": "華倫西亞足球會",
-        "B": "賓菲加",
-        "C": "烏甸尼斯足球會",
-        "D": "車路士"
+        "A": "維拉利爾足球會",
+        "B": "車路士",
+        "C": "聖保羅足球會",
+        "D": "艾納斯"
       },
-      "correct_answer": "D",
+      "correct_answer": "B",
       "correct_club_info": {
         "name": "Chelsea F.C.",
         "name_cantonese": "車路士",
@@ -2378,14 +2378,14 @@
         "total_clubs": 4
       },
       "distractors": [
-        "Valencia CF",
-        "S.L. Benfica",
-        "Udinese Calcio"
+        "Villarreal CF",
+        "São Paulo FC",
+        "Al-Nassr"
       ],
       "distractors_cantonese": [
-        "華倫西亞足球會",
-        "賓菲加",
-        "烏甸尼斯足球會"
+        "維拉利爾足球會",
+        "聖保羅足球會",
+        "艾納斯"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -2393,18 +2393,18 @@
       "question": "Which team has Alisson Becker played for?",
       "question_cantonese": "艾利臣曾經效力過邊隊？",
       "choices": {
-        "A": "S.L. Benfica",
-        "B": "Liverpool F.C.",
-        "C": "Paris Saint-Germain FC",
-        "D": "Udinese Calcio"
+        "A": "SV Werder Bremen",
+        "B": "Valencia CF",
+        "C": "Manchester City F.C.",
+        "D": "Liverpool F.C."
       },
       "choices_cantonese": {
-        "A": "賓菲加",
-        "B": "利物浦足球會",
-        "C": "巴黎聖日耳門",
-        "D": "烏甸尼斯足球會"
+        "A": "雲達不萊梅體育會",
+        "B": "華倫西亞足球會",
+        "C": "曼城足球會",
+        "D": "利物浦足球會"
       },
-      "correct_answer": "B",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "Liverpool F.C.",
         "name_cantonese": "利物浦足球會",
@@ -2422,14 +2422,14 @@
         "total_clubs": 3
       },
       "distractors": [
-        "S.L. Benfica",
-        "Udinese Calcio",
-        "Paris Saint-Germain FC"
+        "SV Werder Bremen",
+        "Manchester City F.C.",
+        "Valencia CF"
       ],
       "distractors_cantonese": [
-        "賓菲加",
-        "烏甸尼斯足球會",
-        "巴黎聖日耳門"
+        "雲達不萊梅體育會",
+        "曼城足球會",
+        "華倫西亞足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -2437,18 +2437,18 @@
       "question": "Which team has Vinícius Júnior played for?",
       "question_cantonese": "雲尼斯奧斯·祖利亞曾經效力過邊隊？",
       "choices": {
-        "A": "Udinese Calcio",
-        "B": "Real Madrid CF",
-        "C": "Manchester United F.C.",
-        "D": "Borussia Dortmund"
+        "A": "Chelsea F.C.",
+        "B": "Inter Miami CF",
+        "C": "Real Madrid CF",
+        "D": "Tottenham Hotspur F.C."
       },
       "choices_cantonese": {
-        "A": "烏甸尼斯足球會",
-        "B": "皇家馬德里足球會",
-        "C": "曼聯",
-        "D": "多蒙特"
+        "A": "車路士",
+        "B": "邁阿密國際",
+        "C": "皇家馬德里足球會",
+        "D": "熱刺"
       },
-      "correct_answer": "B",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "Real Madrid CF",
         "name_cantonese": "皇家馬德里足球會",
@@ -2466,14 +2466,14 @@
         "total_clubs": 2
       },
       "distractors": [
-        "Udinese Calcio",
-        "Manchester United F.C.",
-        "Borussia Dortmund"
+        "Chelsea F.C.",
+        "Inter Miami CF",
+        "Tottenham Hotspur F.C."
       ],
       "distractors_cantonese": [
-        "烏甸尼斯足球會",
-        "曼聯",
-        "多蒙特"
+        "車路士",
+        "邁阿密國際",
+        "熱刺"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -2481,18 +2481,18 @@
       "question": "Which team has David Alaba played for?",
       "question_cantonese": "大衛·阿拉巴曾經效力過邊隊？",
       "choices": {
-        "A": "Chelsea F.C.",
-        "B": "Inter Milan",
-        "C": "FC Bayern Munich",
-        "D": "Schalke 04"
+        "A": "FC Porto",
+        "B": "Atlético de Madrid",
+        "C": "Juventus FC",
+        "D": "FC Bayern Munich"
       },
       "choices_cantonese": {
-        "A": "車路士",
-        "B": "國際米蘭",
-        "C": "拜仁慕尼黑",
-        "D": "史浩克零四足球會"
+        "A": "波圖足球會",
+        "B": "馬德里體育會",
+        "C": "祖雲達斯",
+        "D": "拜仁慕尼黑"
       },
-      "correct_answer": "C",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "FC Bayern Munich",
         "name_cantonese": "拜仁慕尼黑",
@@ -2510,14 +2510,14 @@
         "total_clubs": 5
       },
       "distractors": [
-        "Chelsea F.C.",
-        "Inter Milan",
-        "Schalke 04"
+        "Atlético de Madrid",
+        "Juventus FC",
+        "FC Porto"
       ],
       "distractors_cantonese": [
-        "車路士",
-        "國際米蘭",
-        "史浩克零四足球會"
+        "馬德里體育會",
+        "祖雲達斯",
+        "波圖足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -2525,18 +2525,18 @@
       "question": "Which team has Jadon Sancho played for?",
       "question_cantonese": "查頓辛祖曾經效力過邊隊？",
       "choices": {
-        "A": "Borussia Dortmund",
-        "B": "FC Barcelona",
-        "C": "Paris Saint-Germain FC",
-        "D": "Liverpool F.C."
+        "A": "Schalke 04",
+        "B": "AFC Ajax",
+        "C": "Borussia Dortmund",
+        "D": "Al-Nassr"
       },
       "choices_cantonese": {
-        "A": "多蒙特",
-        "B": "巴塞隆拿足球會",
-        "C": "巴黎聖日耳門",
-        "D": "利物浦足球會"
+        "A": "史浩克零四足球會",
+        "B": "阿積士足球會",
+        "C": "多蒙特",
+        "D": "艾納斯"
       },
-      "correct_answer": "A",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "Borussia Dortmund",
         "name_cantonese": "多蒙特",
@@ -2554,14 +2554,14 @@
         "total_clubs": 5
       },
       "distractors": [
-        "Liverpool F.C.",
-        "Paris Saint-Germain FC",
-        "FC Barcelona"
+        "Al-Nassr",
+        "Schalke 04",
+        "AFC Ajax"
       ],
       "distractors_cantonese": [
-        "利物浦足球會",
-        "巴黎聖日耳門",
-        "巴塞隆拿足球會"
+        "艾納斯",
+        "史浩克零四足球會",
+        "阿積士足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -2569,18 +2569,18 @@
       "question": "Which team has Aymeric Laporte played for?",
       "question_cantonese": "拿樸迪曾經效力過邊隊？",
       "choices": {
-        "A": "Juventus FC",
-        "B": "Athletic Club",
-        "C": "SV Werder Bremen",
-        "D": "Arsenal F.C."
+        "A": "Chelsea F.C.",
+        "B": "Olympique de Marseille",
+        "C": "Athletic Club",
+        "D": "FC Porto"
       },
       "choices_cantonese": {
-        "A": "祖雲達斯",
-        "B": "畢爾包體育會",
-        "C": "雲達不萊梅體育會",
-        "D": "阿仙奴"
+        "A": "車路士",
+        "B": "馬賽足球會",
+        "C": "畢爾包體育會",
+        "D": "波圖足球會"
       },
-      "correct_answer": "B",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "Athletic Club",
         "name_cantonese": "畢爾包體育會",
@@ -2598,14 +2598,14 @@
         "total_clubs": 5
       },
       "distractors": [
-        "Juventus FC",
-        "SV Werder Bremen",
-        "Arsenal F.C."
+        "Chelsea F.C.",
+        "FC Porto",
+        "Olympique de Marseille"
       ],
       "distractors_cantonese": [
-        "祖雲達斯",
-        "雲達不萊梅體育會",
-        "阿仙奴"
+        "車路士",
+        "波圖足球會",
+        "馬賽足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -2613,18 +2613,18 @@
       "question": "Which team has Vincent Kompany played for?",
       "question_cantonese": "文森特·甘賓尼曾經效力過邊隊？",
       "choices": {
-        "A": "Manchester City F.C.",
-        "B": "SV Werder Bremen",
-        "C": "Schalke 04",
-        "D": "Udinese Calcio"
+        "A": "Inter Milan",
+        "B": "São Paulo FC",
+        "C": "Manchester City F.C.",
+        "D": "Villarreal CF"
       },
       "choices_cantonese": {
-        "A": "曼城足球會",
-        "B": "雲達不萊梅體育會",
-        "C": "史浩克零四足球會",
-        "D": "烏甸尼斯足球會"
+        "A": "國際米蘭",
+        "B": "聖保羅足球會",
+        "C": "曼城足球會",
+        "D": "維拉利爾足球會"
       },
-      "correct_answer": "A",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "Manchester City F.C.",
         "name_cantonese": "曼城足球會",
@@ -2642,14 +2642,14 @@
         "total_clubs": 4
       },
       "distractors": [
-        "Schalke 04",
-        "SV Werder Bremen",
-        "Udinese Calcio"
+        "São Paulo FC",
+        "Villarreal CF",
+        "Inter Milan"
       ],
       "distractors_cantonese": [
-        "史浩克零四足球會",
-        "雲達不萊梅體育會",
-        "烏甸尼斯足球會"
+        "聖保羅足球會",
+        "維拉利爾足球會",
+        "國際米蘭"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -2657,18 +2657,18 @@
       "question": "Which team has Harry Kane played for?",
       "question_cantonese": "哈利簡尼曾經效力過邊隊？",
       "choices": {
-        "A": "Juventus FC",
-        "B": "Arsenal F.C.",
-        "C": "Schalke 04",
-        "D": "Tottenham Hotspur F.C."
+        "A": "Tottenham Hotspur F.C.",
+        "B": "Inter Milan",
+        "C": "Udinese Calcio",
+        "D": "Sevilla FC"
       },
       "choices_cantonese": {
-        "A": "祖雲達斯",
-        "B": "阿仙奴",
-        "C": "史浩克零四足球會",
-        "D": "熱刺"
+        "A": "熱刺",
+        "B": "國際米蘭",
+        "C": "烏甸尼斯足球會",
+        "D": "西維爾足球會"
       },
-      "correct_answer": "D",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "Tottenham Hotspur F.C.",
         "name_cantonese": "熱刺",
@@ -2686,14 +2686,14 @@
         "total_clubs": 6
       },
       "distractors": [
-        "Arsenal F.C.",
-        "Schalke 04",
-        "Juventus FC"
+        "Inter Milan",
+        "Sevilla FC",
+        "Udinese Calcio"
       ],
       "distractors_cantonese": [
-        "阿仙奴",
-        "史浩克零四足球會",
-        "祖雲達斯"
+        "國際米蘭",
+        "西維爾足球會",
+        "烏甸尼斯足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -2701,18 +2701,18 @@
       "question": "Which team has Mohamed Salah played for?",
       "question_cantonese": "沙拿曾經效力過邊隊？",
       "choices": {
-        "A": "São Paulo FC",
-        "B": "Manchester United F.C.",
-        "C": "Manchester City F.C.",
-        "D": "Liverpool F.C."
+        "A": "Manchester United F.C.",
+        "B": "Al-Nassr",
+        "C": "Liverpool F.C.",
+        "D": "São Paulo FC"
       },
       "choices_cantonese": {
-        "A": "聖保羅足球會",
-        "B": "曼聯",
-        "C": "曼城足球會",
-        "D": "利物浦足球會"
+        "A": "曼聯",
+        "B": "艾納斯",
+        "C": "利物浦足球會",
+        "D": "聖保羅足球會"
       },
-      "correct_answer": "D",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "Liverpool F.C.",
         "name_cantonese": "利物浦足球會",
@@ -2730,13 +2730,13 @@
         "total_clubs": 7
       },
       "distractors": [
-        "Manchester City F.C.",
         "São Paulo FC",
+        "Al-Nassr",
         "Manchester United F.C."
       ],
       "distractors_cantonese": [
-        "曼城足球會",
         "聖保羅足球會",
+        "艾納斯",
         "曼聯"
       ],
       "question_type": "player_team_affiliation"
@@ -2745,18 +2745,18 @@
       "question": "Which team has Jan Vertonghen played for?",
       "question_cantonese": "真維頓漢曾經效力過邊隊？",
       "choices": {
-        "A": "Manchester City F.C.",
-        "B": "FC Porto",
-        "C": "Tottenham Hotspur F.C.",
-        "D": "Olympique de Marseille"
+        "A": "FC Barcelona",
+        "B": "A.S. Roma",
+        "C": "Al-Nassr",
+        "D": "Tottenham Hotspur F.C."
       },
       "choices_cantonese": {
-        "A": "曼城足球會",
-        "B": "波圖足球會",
-        "C": "熱刺",
-        "D": "馬賽足球會"
+        "A": "巴塞隆拿足球會",
+        "B": "羅馬體育會",
+        "C": "艾納斯",
+        "D": "熱刺"
       },
-      "correct_answer": "C",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "Tottenham Hotspur F.C.",
         "name_cantonese": "熱刺",
@@ -2774,14 +2774,14 @@
         "total_clubs": 5
       },
       "distractors": [
-        "Olympique de Marseille",
-        "Manchester City F.C.",
-        "FC Porto"
+        "Al-Nassr",
+        "FC Barcelona",
+        "A.S. Roma"
       ],
       "distractors_cantonese": [
-        "馬賽足球會",
-        "曼城足球會",
-        "波圖足球會"
+        "艾納斯",
+        "巴塞隆拿足球會",
+        "羅馬體育會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -2789,16 +2789,16 @@
       "question": "Which team has Federico Valverde played for?",
       "question_cantonese": "費達歷高華維迪曾經效力過邊隊？",
       "choices": {
-        "A": "Borussia Dortmund",
+        "A": "Udinese Calcio",
         "B": "Real Madrid CF",
-        "C": "Liverpool F.C.",
-        "D": "Sevilla FC"
+        "C": "Juventus FC",
+        "D": "Al-Nassr"
       },
       "choices_cantonese": {
-        "A": "多蒙特",
+        "A": "烏甸尼斯足球會",
         "B": "皇家馬德里足球會",
-        "C": "利物浦足球會",
-        "D": "西維爾足球會"
+        "C": "祖雲達斯",
+        "D": "艾納斯"
       },
       "correct_answer": "B",
       "correct_club_info": {
@@ -2818,14 +2818,14 @@
         "total_clubs": 4
       },
       "distractors": [
-        "Sevilla FC",
-        "Borussia Dortmund",
-        "Liverpool F.C."
+        "Al-Nassr",
+        "Juventus FC",
+        "Udinese Calcio"
       ],
       "distractors_cantonese": [
-        "西維爾足球會",
-        "多蒙特",
-        "利物浦足球會"
+        "艾納斯",
+        "祖雲達斯",
+        "烏甸尼斯足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -2833,18 +2833,18 @@
       "question": "Which team has Ousmane Dembélé played for?",
       "question_cantonese": "迪比利曾經效力過邊隊？",
       "choices": {
-        "A": "AFC Ajax",
-        "B": "Al-Nassr",
-        "C": "FC Barcelona",
-        "D": "Villarreal CF"
+        "A": "Atlético de Madrid",
+        "B": "Schalke 04",
+        "C": "Al-Nassr",
+        "D": "FC Barcelona"
       },
       "choices_cantonese": {
-        "A": "阿積士足球會",
-        "B": "艾納斯",
-        "C": "巴塞隆拿足球會",
-        "D": "維拉利爾足球會"
+        "A": "馬德里體育會",
+        "B": "史浩克零四足球會",
+        "C": "艾納斯",
+        "D": "巴塞隆拿足球會"
       },
-      "correct_answer": "C",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "FC Barcelona",
         "name_cantonese": "巴塞隆拿足球會",
@@ -2862,14 +2862,14 @@
         "total_clubs": 4
       },
       "distractors": [
+        "Atlético de Madrid",
         "Al-Nassr",
-        "AFC Ajax",
-        "Villarreal CF"
+        "Schalke 04"
       ],
       "distractors_cantonese": [
+        "馬德里體育會",
         "艾納斯",
-        "阿積士足球會",
-        "維拉利爾足球會"
+        "史浩克零四足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -2877,16 +2877,16 @@
       "question": "Which team has Bruno Fernandes played for?",
       "question_cantonese": "般奴費南迪斯曾經效力過邊隊？",
       "choices": {
-        "A": "Paris Saint-Germain FC",
+        "A": "Inter Milan",
         "B": "Olympique Lyonnais",
         "C": "Manchester United F.C.",
-        "D": "Schalke 04"
+        "D": "SV Werder Bremen"
       },
       "choices_cantonese": {
-        "A": "巴黎聖日耳門",
+        "A": "國際米蘭",
         "B": "奧林匹克里昂",
         "C": "曼聯",
-        "D": "史浩克零四足球會"
+        "D": "雲達不萊梅體育會"
       },
       "correct_answer": "C",
       "correct_club_info": {
@@ -2906,14 +2906,14 @@
         "total_clubs": 6
       },
       "distractors": [
-        "Schalke 04",
-        "Paris Saint-Germain FC",
-        "Olympique Lyonnais"
+        "Inter Milan",
+        "Olympique Lyonnais",
+        "SV Werder Bremen"
       ],
       "distractors_cantonese": [
-        "史浩克零四足球會",
-        "巴黎聖日耳門",
-        "奧林匹克里昂"
+        "國際米蘭",
+        "奧林匹克里昂",
+        "雲達不萊梅體育會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -2921,18 +2921,18 @@
       "question": "Which team has Marquinhos played for?",
       "question_cantonese": "馬昆奴斯曾經效力過邊隊？",
       "choices": {
-        "A": "AFC Ajax",
-        "B": "Real Madrid CF",
-        "C": "Paris Saint-Germain FC",
-        "D": "Juventus FC"
+        "A": "Paris Saint-Germain FC",
+        "B": "Udinese Calcio",
+        "C": "Atlético de Madrid",
+        "D": "Al-Nassr"
       },
       "choices_cantonese": {
-        "A": "阿積士足球會",
-        "B": "皇家馬德里足球會",
-        "C": "巴黎聖日耳門",
-        "D": "祖雲達斯"
+        "A": "巴黎聖日耳門",
+        "B": "烏甸尼斯足球會",
+        "C": "馬德里體育會",
+        "D": "艾納斯"
       },
-      "correct_answer": "C",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "Paris Saint-Germain FC",
         "name_cantonese": "巴黎聖日耳門",
@@ -2950,14 +2950,14 @@
         "total_clubs": 3
       },
       "distractors": [
-        "Real Madrid CF",
-        "AFC Ajax",
-        "Juventus FC"
+        "Atlético de Madrid",
+        "Udinese Calcio",
+        "Al-Nassr"
       ],
       "distractors_cantonese": [
-        "皇家馬德里足球會",
-        "阿積士足球會",
-        "祖雲達斯"
+        "馬德里體育會",
+        "烏甸尼斯足球會",
+        "艾納斯"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -2965,15 +2965,15 @@
       "question": "Which team has Dani Carvajal played for?",
       "question_cantonese": "丹尼卡華積曾經效力過邊隊？",
       "choices": {
-        "A": "Schalke 04",
-        "B": "Inter Miami CF",
-        "C": "Olympique de Marseille",
+        "A": "Tottenham Hotspur F.C.",
+        "B": "Atlético de Madrid",
+        "C": "S.L. Benfica",
         "D": "Real Madrid CF"
       },
       "choices_cantonese": {
-        "A": "史浩克零四足球會",
-        "B": "邁阿密國際",
-        "C": "馬賽足球會",
+        "A": "熱刺",
+        "B": "馬德里體育會",
+        "C": "賓菲加",
         "D": "皇家馬德里足球會"
       },
       "correct_answer": "D",
@@ -2994,14 +2994,14 @@
         "total_clubs": 3
       },
       "distractors": [
-        "Schalke 04",
-        "Inter Miami CF",
-        "Olympique de Marseille"
+        "Atlético de Madrid",
+        "S.L. Benfica",
+        "Tottenham Hotspur F.C."
       ],
       "distractors_cantonese": [
-        "史浩克零四足球會",
-        "邁阿密國際",
-        "馬賽足球會"
+        "馬德里體育會",
+        "賓菲加",
+        "熱刺"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -3009,18 +3009,18 @@
       "question": "Which team has Erling Haaland played for?",
       "question_cantonese": "夏蘭特曾經效力過邊隊？",
       "choices": {
-        "A": "Al-Nassr",
-        "B": "S.L. Benfica",
-        "C": "São Paulo FC",
-        "D": "Manchester City F.C."
+        "A": "Sevilla FC",
+        "B": "SV Werder Bremen",
+        "C": "Manchester City F.C.",
+        "D": "Juventus FC"
       },
       "choices_cantonese": {
-        "A": "艾納斯",
-        "B": "賓菲加",
-        "C": "聖保羅足球會",
-        "D": "曼城足球會"
+        "A": "西維爾足球會",
+        "B": "雲達不萊梅體育會",
+        "C": "曼城足球會",
+        "D": "祖雲達斯"
       },
-      "correct_answer": "D",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "Manchester City F.C.",
         "name_cantonese": "曼城足球會",
@@ -3038,14 +3038,14 @@
         "total_clubs": 5
       },
       "distractors": [
-        "São Paulo FC",
-        "Al-Nassr",
-        "S.L. Benfica"
+        "SV Werder Bremen",
+        "Sevilla FC",
+        "Juventus FC"
       ],
       "distractors_cantonese": [
-        "聖保羅足球會",
-        "艾納斯",
-        "賓菲加"
+        "雲達不萊梅體育會",
+        "西維爾足球會",
+        "祖雲達斯"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -3053,18 +3053,18 @@
       "question": "Which team has Jamie Vardy played for?",
       "question_cantonese": "占美華迪曾經效力過邊隊？",
       "choices": {
-        "A": "Leicester City F.C.",
-        "B": "Inter Milan",
-        "C": "Paris Saint-Germain FC",
-        "D": "Olympique Lyonnais"
+        "A": "Manchester United F.C.",
+        "B": "Leicester City F.C.",
+        "C": "Valencia CF",
+        "D": "Udinese Calcio"
       },
       "choices_cantonese": {
-        "A": "unknown",
-        "B": "國際米蘭",
-        "C": "巴黎聖日耳門",
-        "D": "奧林匹克里昂"
+        "A": "曼聯",
+        "B": "unknown",
+        "C": "華倫西亞足球會",
+        "D": "烏甸尼斯足球會"
       },
-      "correct_answer": "A",
+      "correct_answer": "B",
       "correct_club_info": {
         "name": "Leicester City F.C.",
         "name_cantonese": "unknown",
@@ -3082,14 +3082,14 @@
         "total_clubs": 5
       },
       "distractors": [
-        "Inter Milan",
-        "Olympique Lyonnais",
-        "Paris Saint-Germain FC"
+        "Manchester United F.C.",
+        "Valencia CF",
+        "Udinese Calcio"
       ],
       "distractors_cantonese": [
-        "國際米蘭",
-        "奧林匹克里昂",
-        "巴黎聖日耳門"
+        "曼聯",
+        "華倫西亞足球會",
+        "烏甸尼斯足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -3097,18 +3097,18 @@
       "question": "Which team has Alexandre Lacazette played for?",
       "question_cantonese": "拿卡錫迪曾經效力過邊隊？",
       "choices": {
-        "A": "FC Bayern Munich",
-        "B": "Olympique Lyonnais",
-        "C": "Tottenham Hotspur F.C.",
-        "D": "Manchester United F.C."
+        "A": "Olympique Lyonnais",
+        "B": "Atlético de Madrid",
+        "C": "Borussia Dortmund",
+        "D": "Juventus FC"
       },
       "choices_cantonese": {
-        "A": "拜仁慕尼黑",
-        "B": "奧林匹克里昂",
-        "C": "熱刺",
-        "D": "曼聯"
+        "A": "奧林匹克里昂",
+        "B": "馬德里體育會",
+        "C": "多蒙特",
+        "D": "祖雲達斯"
       },
-      "correct_answer": "B",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "Olympique Lyonnais",
         "name_cantonese": "奧林匹克里昂",
@@ -3126,14 +3126,14 @@
         "total_clubs": 4
       },
       "distractors": [
-        "Manchester United F.C.",
-        "Tottenham Hotspur F.C.",
-        "FC Bayern Munich"
+        "Atlético de Madrid",
+        "Juventus FC",
+        "Borussia Dortmund"
       ],
       "distractors_cantonese": [
-        "曼聯",
-        "熱刺",
-        "拜仁慕尼黑"
+        "馬德里體育會",
+        "祖雲達斯",
+        "多蒙特"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -3141,18 +3141,18 @@
       "question": "Which team has Gianluigi Buffon played for?",
       "question_cantonese": "保方曾經效力過邊隊？",
       "choices": {
-        "A": "São Paulo FC",
-        "B": "Villarreal CF",
-        "C": "Atlético de Madrid",
-        "D": "Juventus FC"
+        "A": "Olympique de Marseille",
+        "B": "Juventus FC",
+        "C": "Borussia Dortmund",
+        "D": "Olympique Lyonnais"
       },
       "choices_cantonese": {
-        "A": "聖保羅足球會",
-        "B": "維拉利爾足球會",
-        "C": "馬德里體育會",
-        "D": "祖雲達斯"
+        "A": "馬賽足球會",
+        "B": "祖雲達斯",
+        "C": "多蒙特",
+        "D": "奧林匹克里昂"
       },
-      "correct_answer": "D",
+      "correct_answer": "B",
       "correct_club_info": {
         "name": "Juventus FC",
         "name_cantonese": "祖雲達斯",
@@ -3170,14 +3170,14 @@
         "total_clubs": 5
       },
       "distractors": [
-        "São Paulo FC",
-        "Atlético de Madrid",
-        "Villarreal CF"
+        "Borussia Dortmund",
+        "Olympique de Marseille",
+        "Olympique Lyonnais"
       ],
       "distractors_cantonese": [
-        "聖保羅足球會",
-        "馬德里體育會",
-        "維拉利爾足球會"
+        "多蒙特",
+        "馬賽足球會",
+        "奧林匹克里昂"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -3185,18 +3185,18 @@
       "question": "Which team has Neymar played for?",
       "question_cantonese": "尼馬曾經效力過邊隊？",
       "choices": {
-        "A": "Villarreal CF",
-        "B": "Olympique de Marseille",
-        "C": "Paris Saint-Germain FC",
-        "D": "Borussia Dortmund"
+        "A": "Paris Saint-Germain FC",
+        "B": "Inter Miami CF",
+        "C": "São Paulo FC",
+        "D": "AFC Ajax"
       },
       "choices_cantonese": {
-        "A": "維拉利爾足球會",
-        "B": "馬賽足球會",
-        "C": "巴黎聖日耳門",
-        "D": "多蒙特"
+        "A": "巴黎聖日耳門",
+        "B": "邁阿密國際",
+        "C": "聖保羅足球會",
+        "D": "阿積士足球會"
       },
-      "correct_answer": "C",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "Paris Saint-Germain FC",
         "name_cantonese": "巴黎聖日耳門",
@@ -3214,14 +3214,14 @@
         "total_clubs": 5
       },
       "distractors": [
-        "Olympique de Marseille",
-        "Borussia Dortmund",
-        "Villarreal CF"
+        "São Paulo FC",
+        "Inter Miami CF",
+        "AFC Ajax"
       ],
       "distractors_cantonese": [
-        "馬賽足球會",
-        "多蒙特",
-        "維拉利爾足球會"
+        "聖保羅足球會",
+        "邁阿密國際",
+        "阿積士足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -3229,18 +3229,18 @@
       "question": "Which team has Jamal Musiala played for?",
       "question_cantonese": "查馬爾·穆斯亞拿曾經效力過邊隊？",
       "choices": {
-        "A": "Manchester City F.C.",
-        "B": "FC Bayern Munich",
-        "C": "Chelsea F.C.",
-        "D": "Arsenal F.C."
+        "A": "FC Bayern Munich",
+        "B": "FC Barcelona",
+        "C": "Inter Miami CF",
+        "D": "Schalke 04"
       },
       "choices_cantonese": {
-        "A": "曼城足球會",
-        "B": "拜仁慕尼黑",
-        "C": "車路士",
-        "D": "阿仙奴"
+        "A": "拜仁慕尼黑",
+        "B": "巴塞隆拿足球會",
+        "C": "邁阿密國際",
+        "D": "史浩克零四足球會"
       },
-      "correct_answer": "B",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "FC Bayern Munich",
         "name_cantonese": "拜仁慕尼黑",
@@ -3258,14 +3258,14 @@
         "total_clubs": 2
       },
       "distractors": [
-        "Arsenal F.C.",
-        "Manchester City F.C.",
-        "Chelsea F.C."
+        "Inter Miami CF",
+        "Schalke 04",
+        "FC Barcelona"
       ],
       "distractors_cantonese": [
-        "阿仙奴",
-        "曼城足球會",
-        "車路士"
+        "邁阿密國際",
+        "史浩克零四足球會",
+        "巴塞隆拿足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -3273,15 +3273,15 @@
       "question": "Which team has Raphaël Varane played for?",
       "question_cantonese": "華拉尼曾經效力過邊隊？",
       "choices": {
-        "A": "São Paulo FC",
-        "B": "A.S. Roma",
-        "C": "Valencia CF",
+        "A": "Valencia CF",
+        "B": "Olympique Lyonnais",
+        "C": "A.S. Roma",
         "D": "Real Madrid CF"
       },
       "choices_cantonese": {
-        "A": "聖保羅足球會",
-        "B": "羅馬體育會",
-        "C": "華倫西亞足球會",
+        "A": "華倫西亞足球會",
+        "B": "奧林匹克里昂",
+        "C": "羅馬體育會",
         "D": "皇家馬德里足球會"
       },
       "correct_answer": "D",
@@ -3302,12 +3302,12 @@
         "total_clubs": 4
       },
       "distractors": [
-        "São Paulo FC",
+        "Olympique Lyonnais",
         "Valencia CF",
         "A.S. Roma"
       ],
       "distractors_cantonese": [
-        "聖保羅足球會",
+        "奧林匹克里昂",
         "華倫西亞足球會",
         "羅馬體育會"
       ],
@@ -3317,18 +3317,18 @@
       "question": "Which team has Marek Hamšík played for?",
       "question_cantonese": "馬歷·咸錫曾經效力過邊隊？",
       "choices": {
-        "A": "Real Madrid CF",
-        "B": "Chelsea F.C.",
-        "C": "SSC Napoli",
-        "D": "Juventus FC"
+        "A": "SSC Napoli",
+        "B": "Villarreal CF",
+        "C": "S.L. Benfica",
+        "D": "SV Werder Bremen"
       },
       "choices_cantonese": {
-        "A": "皇家馬德里足球會",
-        "B": "車路士",
-        "C": "unknown",
-        "D": "祖雲達斯"
+        "A": "unknown",
+        "B": "維拉利爾足球會",
+        "C": "賓菲加",
+        "D": "雲達不萊梅體育會"
       },
-      "correct_answer": "C",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "SSC Napoli",
         "name_cantonese": "unknown",
@@ -3346,14 +3346,14 @@
         "total_clubs": 6
       },
       "distractors": [
-        "Chelsea F.C.",
-        "Real Madrid CF",
-        "Juventus FC"
+        "S.L. Benfica",
+        "Villarreal CF",
+        "SV Werder Bremen"
       ],
       "distractors_cantonese": [
-        "車路士",
-        "皇家馬德里足球會",
-        "祖雲達斯"
+        "賓菲加",
+        "維拉利爾足球會",
+        "雲達不萊梅體育會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -3361,18 +3361,18 @@
       "question": "Which team has Andrea Barzagli played for?",
       "question_cantonese": "安祖亞·巴沙利曾經效力過邊隊？",
       "choices": {
-        "A": "Al-Nassr",
-        "B": "Juventus FC",
-        "C": "Liverpool F.C.",
-        "D": "Villarreal CF"
+        "A": "Juventus FC",
+        "B": "Chelsea F.C.",
+        "C": "Arsenal F.C.",
+        "D": "Liverpool F.C."
       },
       "choices_cantonese": {
-        "A": "艾納斯",
-        "B": "祖雲達斯",
-        "C": "利物浦足球會",
-        "D": "維拉利爾足球會"
+        "A": "祖雲達斯",
+        "B": "車路士",
+        "C": "阿仙奴",
+        "D": "利物浦足球會"
       },
-      "correct_answer": "B",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "Juventus FC",
         "name_cantonese": "祖雲達斯",
@@ -3390,14 +3390,14 @@
         "total_clubs": 9
       },
       "distractors": [
-        "Liverpool F.C.",
-        "Al-Nassr",
-        "Villarreal CF"
+        "Chelsea F.C.",
+        "Arsenal F.C.",
+        "Liverpool F.C."
       ],
       "distractors_cantonese": [
-        "利物浦足球會",
-        "艾納斯",
-        "維拉利爾足球會"
+        "車路士",
+        "阿仙奴",
+        "利物浦足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -3405,18 +3405,18 @@
       "question": "Which team has Ivan Perišić played for?",
       "question_cantonese": "艾雲·比列錫曾經效力過邊隊？",
       "choices": {
-        "A": "Inter Milan",
-        "B": "São Paulo FC",
-        "C": "Villarreal CF",
-        "D": "Manchester United F.C."
+        "A": "Atlético de Madrid",
+        "B": "Manchester City F.C.",
+        "C": "S.L. Benfica",
+        "D": "Inter Milan"
       },
       "choices_cantonese": {
-        "A": "國際米蘭",
-        "B": "聖保羅足球會",
-        "C": "維拉利爾足球會",
-        "D": "曼聯"
+        "A": "馬德里體育會",
+        "B": "曼城足球會",
+        "C": "賓菲加",
+        "D": "國際米蘭"
       },
-      "correct_answer": "A",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "Inter Milan",
         "name_cantonese": "國際米蘭",
@@ -3434,14 +3434,14 @@
         "total_clubs": 11
       },
       "distractors": [
-        "São Paulo FC",
-        "Manchester United F.C.",
-        "Villarreal CF"
+        "Atlético de Madrid",
+        "Manchester City F.C.",
+        "S.L. Benfica"
       ],
       "distractors_cantonese": [
-        "聖保羅足球會",
-        "曼聯",
-        "維拉利爾足球會"
+        "馬德里體育會",
+        "曼城足球會",
+        "賓菲加"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -3449,18 +3449,18 @@
       "question": "Which team has Andrew Robertson played for?",
       "question_cantonese": "安祖·羅拔臣曾經效力過邊隊？",
       "choices": {
-        "A": "Olympique Lyonnais",
-        "B": "Liverpool F.C.",
-        "C": "AFC Ajax",
-        "D": "Valencia CF"
+        "A": "Liverpool F.C.",
+        "B": "Sevilla FC",
+        "C": "Tottenham Hotspur F.C.",
+        "D": "Manchester United F.C."
       },
       "choices_cantonese": {
-        "A": "奧林匹克里昂",
-        "B": "利物浦足球會",
-        "C": "阿積士足球會",
-        "D": "華倫西亞足球會"
+        "A": "利物浦足球會",
+        "B": "西維爾足球會",
+        "C": "熱刺",
+        "D": "曼聯"
       },
-      "correct_answer": "B",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "Liverpool F.C.",
         "name_cantonese": "利物浦足球會",
@@ -3478,14 +3478,14 @@
         "total_clubs": 4
       },
       "distractors": [
-        "Valencia CF",
-        "AFC Ajax",
-        "Olympique Lyonnais"
+        "Sevilla FC",
+        "Manchester United F.C.",
+        "Tottenham Hotspur F.C."
       ],
       "distractors_cantonese": [
-        "華倫西亞足球會",
-        "阿積士足球會",
-        "奧林匹克里昂"
+        "西維爾足球會",
+        "曼聯",
+        "熱刺"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -3493,18 +3493,18 @@
       "question": "Which team has Diego Costa played for?",
       "question_cantonese": "迪亞高哥斯達曾經效力過邊隊？",
       "choices": {
-        "A": "Al-Nassr",
-        "B": "Atlético de Madrid",
-        "C": "FC Bayern Munich",
-        "D": "Tottenham Hotspur F.C."
+        "A": "Atlético de Madrid",
+        "B": "São Paulo FC",
+        "C": "Valencia CF",
+        "D": "Paris Saint-Germain FC"
       },
       "choices_cantonese": {
-        "A": "艾納斯",
-        "B": "馬德里體育會",
-        "C": "拜仁慕尼黑",
-        "D": "熱刺"
+        "A": "馬德里體育會",
+        "B": "聖保羅足球會",
+        "C": "華倫西亞足球會",
+        "D": "巴黎聖日耳門"
       },
-      "correct_answer": "B",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "Atlético de Madrid",
         "name_cantonese": "馬德里體育會",
@@ -3522,14 +3522,14 @@
         "total_clubs": 15
       },
       "distractors": [
-        "FC Bayern Munich",
-        "Al-Nassr",
-        "Tottenham Hotspur F.C."
+        "Paris Saint-Germain FC",
+        "Valencia CF",
+        "São Paulo FC"
       ],
       "distractors_cantonese": [
-        "拜仁慕尼黑",
-        "艾納斯",
-        "熱刺"
+        "巴黎聖日耳門",
+        "華倫西亞足球會",
+        "聖保羅足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -3537,18 +3537,18 @@
       "question": "Which team has Hugo Lloris played for?",
       "question_cantonese": "曉高洛里斯曾經效力過邊隊？",
       "choices": {
-        "A": "Schalke 04",
-        "B": "Tottenham Hotspur F.C.",
-        "C": "São Paulo FC",
-        "D": "FC Porto"
+        "A": "Tottenham Hotspur F.C.",
+        "B": "Arsenal F.C.",
+        "C": "Atlético de Madrid",
+        "D": "A.S. Roma"
       },
       "choices_cantonese": {
-        "A": "史浩克零四足球會",
-        "B": "熱刺",
-        "C": "聖保羅足球會",
-        "D": "波圖足球會"
+        "A": "熱刺",
+        "B": "阿仙奴",
+        "C": "馬德里體育會",
+        "D": "羅馬體育會"
       },
-      "correct_answer": "B",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "Tottenham Hotspur F.C.",
         "name_cantonese": "熱刺",
@@ -3566,14 +3566,14 @@
         "total_clubs": 4
       },
       "distractors": [
-        "FC Porto",
-        "Schalke 04",
-        "São Paulo FC"
+        "A.S. Roma",
+        "Atlético de Madrid",
+        "Arsenal F.C."
       ],
       "distractors_cantonese": [
-        "波圖足球會",
-        "史浩克零四足球會",
-        "聖保羅足球會"
+        "羅馬體育會",
+        "馬德里體育會",
+        "阿仙奴"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -3581,18 +3581,18 @@
       "question": "Which team has Naldo played for?",
       "question_cantonese": "拿杜曾經效力過邊隊？",
       "choices": {
-        "A": "Manchester United F.C.",
-        "B": "Paris Saint-Germain FC",
-        "C": "SV Werder Bremen",
-        "D": "Tottenham Hotspur F.C."
+        "A": "Sevilla FC",
+        "B": "SV Werder Bremen",
+        "C": "Borussia Dortmund",
+        "D": "Arsenal F.C."
       },
       "choices_cantonese": {
-        "A": "曼聯",
-        "B": "巴黎聖日耳門",
-        "C": "雲達不萊梅體育會",
-        "D": "熱刺"
+        "A": "西維爾足球會",
+        "B": "雲達不萊梅體育會",
+        "C": "多蒙特",
+        "D": "阿仙奴"
       },
-      "correct_answer": "C",
+      "correct_answer": "B",
       "correct_club_info": {
         "name": "SV Werder Bremen",
         "name_cantonese": "雲達不萊梅體育會",
@@ -3610,14 +3610,14 @@
         "total_clubs": 6
       },
       "distractors": [
-        "Tottenham Hotspur F.C.",
-        "Manchester United F.C.",
-        "Paris Saint-Germain FC"
+        "Arsenal F.C.",
+        "Borussia Dortmund",
+        "Sevilla FC"
       ],
       "distractors_cantonese": [
-        "熱刺",
-        "曼聯",
-        "巴黎聖日耳門"
+        "阿仙奴",
+        "多蒙特",
+        "西維爾足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -3625,18 +3625,18 @@
       "question": "Which team has Santi Cazorla played for?",
       "question_cantonese": "辛迪卡蘇拿曾經效力過邊隊？",
       "choices": {
-        "A": "Juventus FC",
-        "B": "Arsenal F.C.",
-        "C": "Chelsea F.C.",
-        "D": "Atlético de Madrid"
+        "A": "S.L. Benfica",
+        "B": "Chelsea F.C.",
+        "C": "Real Madrid CF",
+        "D": "Arsenal F.C."
       },
       "choices_cantonese": {
-        "A": "祖雲達斯",
-        "B": "阿仙奴",
-        "C": "車路士",
-        "D": "馬德里體育會"
+        "A": "賓菲加",
+        "B": "車路士",
+        "C": "皇家馬德里足球會",
+        "D": "阿仙奴"
       },
-      "correct_answer": "B",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "Arsenal F.C.",
         "name_cantonese": "阿仙奴",
@@ -3654,14 +3654,14 @@
         "total_clubs": 9
       },
       "distractors": [
-        "Atlético de Madrid",
-        "Juventus FC",
-        "Chelsea F.C."
+        "S.L. Benfica",
+        "Chelsea F.C.",
+        "Real Madrid CF"
       ],
       "distractors_cantonese": [
-        "馬德里體育會",
-        "祖雲達斯",
-        "車路士"
+        "賓菲加",
+        "車路士",
+        "皇家馬德里足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -3670,13 +3670,13 @@
       "question_cantonese": "迪馬利亞曾經效力過邊隊？",
       "choices": {
         "A": "Olympique de Marseille",
-        "B": "AFC Ajax",
+        "B": "Schalke 04",
         "C": "Al-Nassr",
         "D": "Paris Saint-Germain FC"
       },
       "choices_cantonese": {
         "A": "馬賽足球會",
-        "B": "阿積士足球會",
+        "B": "史浩克零四足球會",
         "C": "艾納斯",
         "D": "巴黎聖日耳門"
       },
@@ -3698,14 +3698,14 @@
         "total_clubs": 8
       },
       "distractors": [
-        "Olympique de Marseille",
-        "AFC Ajax",
-        "Al-Nassr"
+        "Schalke 04",
+        "Al-Nassr",
+        "Olympique de Marseille"
       ],
       "distractors_cantonese": [
-        "馬賽足球會",
-        "阿積士足球會",
-        "艾納斯"
+        "史浩克零四足球會",
+        "艾納斯",
+        "馬賽足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -3713,18 +3713,18 @@
       "question": "Which team has Arjen Robben played for?",
       "question_cantonese": "阿仁洛賓曾經效力過邊隊？",
       "choices": {
-        "A": "Sevilla FC",
-        "B": "FC Bayern Munich",
-        "C": "Arsenal F.C.",
-        "D": "A.S. Roma"
+        "A": "FC Bayern Munich",
+        "B": "FC Porto",
+        "C": "AFC Ajax",
+        "D": "Manchester City F.C."
       },
       "choices_cantonese": {
-        "A": "西維爾足球會",
-        "B": "拜仁慕尼黑",
-        "C": "阿仙奴",
-        "D": "羅馬體育會"
+        "A": "拜仁慕尼黑",
+        "B": "波圖足球會",
+        "C": "阿積士足球會",
+        "D": "曼城足球會"
       },
-      "correct_answer": "B",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "FC Bayern Munich",
         "name_cantonese": "拜仁慕尼黑",
@@ -3742,14 +3742,14 @@
         "total_clubs": 8
       },
       "distractors": [
-        "A.S. Roma",
-        "Arsenal F.C.",
-        "Sevilla FC"
+        "FC Porto",
+        "Manchester City F.C.",
+        "AFC Ajax"
       ],
       "distractors_cantonese": [
-        "羅馬體育會",
-        "阿仙奴",
-        "西維爾足球會"
+        "波圖足球會",
+        "曼城足球會",
+        "阿積士足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -3757,18 +3757,18 @@
       "question": "Which team has Marco Verratti played for?",
       "question_cantonese": "華拉堤曾經效力過邊隊？",
       "choices": {
-        "A": "Atlético de Madrid",
-        "B": "A.S. Roma",
-        "C": "Paris Saint-Germain FC",
-        "D": "Olympique Lyonnais"
+        "A": "Paris Saint-Germain FC",
+        "B": "Real Madrid CF",
+        "C": "Inter Milan",
+        "D": "A.S. Roma"
       },
       "choices_cantonese": {
-        "A": "馬德里體育會",
-        "B": "羅馬體育會",
-        "C": "巴黎聖日耳門",
-        "D": "奧林匹克里昂"
+        "A": "巴黎聖日耳門",
+        "B": "皇家馬德里足球會",
+        "C": "國際米蘭",
+        "D": "羅馬體育會"
       },
-      "correct_answer": "C",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "Paris Saint-Germain FC",
         "name_cantonese": "巴黎聖日耳門",
@@ -3786,13 +3786,13 @@
         "total_clubs": 4
       },
       "distractors": [
-        "Atlético de Madrid",
-        "Olympique Lyonnais",
+        "Inter Milan",
+        "Real Madrid CF",
         "A.S. Roma"
       ],
       "distractors_cantonese": [
-        "馬德里體育會",
-        "奧林匹克里昂",
+        "國際米蘭",
+        "皇家馬德里足球會",
         "羅馬體育會"
       ],
       "question_type": "player_team_affiliation"
@@ -3801,18 +3801,18 @@
       "question": "Which team has Gonzalo Higuaín played for?",
       "question_cantonese": "希古恩曾經效力過邊隊？",
       "choices": {
-        "A": "Atlético de Madrid",
-        "B": "Real Madrid CF",
-        "C": "Manchester City F.C.",
-        "D": "Schalke 04"
+        "A": "Arsenal F.C.",
+        "B": "AFC Ajax",
+        "C": "Real Madrid CF",
+        "D": "Al-Nassr"
       },
       "choices_cantonese": {
-        "A": "馬德里體育會",
-        "B": "皇家馬德里足球會",
-        "C": "曼城足球會",
-        "D": "史浩克零四足球會"
+        "A": "阿仙奴",
+        "B": "阿積士足球會",
+        "C": "皇家馬德里足球會",
+        "D": "艾納斯"
       },
-      "correct_answer": "B",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "Real Madrid CF",
         "name_cantonese": "皇家馬德里足球會",
@@ -3830,14 +3830,14 @@
         "total_clubs": 7
       },
       "distractors": [
-        "Schalke 04",
-        "Manchester City F.C.",
-        "Atlético de Madrid"
+        "Arsenal F.C.",
+        "Al-Nassr",
+        "AFC Ajax"
       ],
       "distractors_cantonese": [
-        "史浩克零四足球會",
-        "曼城足球會",
-        "馬德里體育會"
+        "阿仙奴",
+        "艾納斯",
+        "阿積士足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -3845,18 +3845,18 @@
       "question": "Which team has Luka Modrić played for?",
       "question_cantonese": "盧卡·摩德列治曾經效力過邊隊？",
       "choices": {
-        "A": "Udinese Calcio",
-        "B": "FC Porto",
-        "C": "Real Madrid CF",
-        "D": "Valencia CF"
+        "A": "Real Madrid CF",
+        "B": "Sevilla FC",
+        "C": "Manchester City F.C.",
+        "D": "Paris Saint-Germain FC"
       },
       "choices_cantonese": {
-        "A": "烏甸尼斯足球會",
-        "B": "波圖足球會",
-        "C": "皇家馬德里足球會",
-        "D": "華倫西亞足球會"
+        "A": "皇家馬德里足球會",
+        "B": "西維爾足球會",
+        "C": "曼城足球會",
+        "D": "巴黎聖日耳門"
       },
-      "correct_answer": "C",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "Real Madrid CF",
         "name_cantonese": "皇家馬德里足球會",
@@ -3874,14 +3874,14 @@
         "total_clubs": 6
       },
       "distractors": [
-        "Udinese Calcio",
-        "FC Porto",
-        "Valencia CF"
+        "Manchester City F.C.",
+        "Sevilla FC",
+        "Paris Saint-Germain FC"
       ],
       "distractors_cantonese": [
-        "烏甸尼斯足球會",
-        "波圖足球會",
-        "華倫西亞足球會"
+        "曼城足球會",
+        "西維爾足球會",
+        "巴黎聖日耳門"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -3889,18 +3889,18 @@
       "question": "Which team has Lionel Messi played for?",
       "question_cantonese": "美斯曾經效力過邊隊？",
       "choices": {
-        "A": "Olympique Lyonnais",
-        "B": "FC Barcelona",
-        "C": "Udinese Calcio",
-        "D": "São Paulo FC"
+        "A": "Schalke 04",
+        "B": "Arsenal F.C.",
+        "C": "São Paulo FC",
+        "D": "FC Barcelona"
       },
       "choices_cantonese": {
-        "A": "奧林匹克里昂",
-        "B": "巴塞隆拿足球會",
-        "C": "烏甸尼斯足球會",
-        "D": "聖保羅足球會"
+        "A": "史浩克零四足球會",
+        "B": "阿仙奴",
+        "C": "聖保羅足球會",
+        "D": "巴塞隆拿足球會"
       },
-      "correct_answer": "B",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "FC Barcelona",
         "name_cantonese": "巴塞隆拿足球會",
@@ -3919,13 +3919,13 @@
       },
       "distractors": [
         "São Paulo FC",
-        "Olympique Lyonnais",
-        "Udinese Calcio"
+        "Arsenal F.C.",
+        "Schalke 04"
       ],
       "distractors_cantonese": [
         "聖保羅足球會",
-        "奧林匹克里昂",
-        "烏甸尼斯足球會"
+        "阿仙奴",
+        "史浩克零四足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -3933,18 +3933,18 @@
       "question": "Which team has Mesut Özil played for?",
       "question_cantonese": "奧斯爾曾經效力過邊隊？",
       "choices": {
-        "A": "Olympique de Marseille",
-        "B": "Arsenal F.C.",
-        "C": "FC Porto",
-        "D": "Manchester United F.C."
+        "A": "Arsenal F.C.",
+        "B": "S.L. Benfica",
+        "C": "Al-Nassr",
+        "D": "FC Porto"
       },
       "choices_cantonese": {
-        "A": "馬賽足球會",
-        "B": "阿仙奴",
-        "C": "波圖足球會",
-        "D": "曼聯"
+        "A": "阿仙奴",
+        "B": "賓菲加",
+        "C": "艾納斯",
+        "D": "波圖足球會"
       },
-      "correct_answer": "B",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "Arsenal F.C.",
         "name_cantonese": "阿仙奴",
@@ -3963,13 +3963,13 @@
       },
       "distractors": [
         "FC Porto",
-        "Manchester United F.C.",
-        "Olympique de Marseille"
+        "Al-Nassr",
+        "S.L. Benfica"
       ],
       "distractors_cantonese": [
         "波圖足球會",
-        "曼聯",
-        "馬賽足球會"
+        "艾納斯",
+        "賓菲加"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -3977,18 +3977,18 @@
       "question": "Which team has Mats Hummels played for?",
       "question_cantonese": "麥斯·曉姆斯曾經效力過邊隊？",
       "choices": {
-        "A": "Borussia Dortmund",
-        "B": "Chelsea F.C.",
-        "C": "FC Barcelona",
-        "D": "Manchester United F.C."
+        "A": "FC Porto",
+        "B": "São Paulo FC",
+        "C": "Borussia Dortmund",
+        "D": "Villarreal CF"
       },
       "choices_cantonese": {
-        "A": "多蒙特",
-        "B": "車路士",
-        "C": "巴塞隆拿足球會",
-        "D": "曼聯"
+        "A": "波圖足球會",
+        "B": "聖保羅足球會",
+        "C": "多蒙特",
+        "D": "維拉利爾足球會"
       },
-      "correct_answer": "A",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "Borussia Dortmund",
         "name_cantonese": "多蒙特",
@@ -4006,14 +4006,14 @@
         "total_clubs": 7
       },
       "distractors": [
-        "FC Barcelona",
-        "Chelsea F.C.",
-        "Manchester United F.C."
+        "São Paulo FC",
+        "FC Porto",
+        "Villarreal CF"
       ],
       "distractors_cantonese": [
-        "巴塞隆拿足球會",
-        "車路士",
-        "曼聯"
+        "聖保羅足球會",
+        "波圖足球會",
+        "維拉利爾足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -4021,18 +4021,18 @@
       "question": "Which team has Riyad Mahrez played for?",
       "question_cantonese": "列恩馬列斯曾經效力過邊隊？",
       "choices": {
-        "A": "Manchester City F.C.",
-        "B": "Atlético de Madrid",
-        "C": "FC Bayern Munich",
-        "D": "Chelsea F.C."
+        "A": "Tottenham Hotspur F.C.",
+        "B": "Paris Saint-Germain FC",
+        "C": "São Paulo FC",
+        "D": "Manchester City F.C."
       },
       "choices_cantonese": {
-        "A": "曼城足球會",
-        "B": "馬德里體育會",
-        "C": "拜仁慕尼黑",
-        "D": "車路士"
+        "A": "熱刺",
+        "B": "巴黎聖日耳門",
+        "C": "聖保羅足球會",
+        "D": "曼城足球會"
       },
-      "correct_answer": "A",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "Manchester City F.C.",
         "name_cantonese": "曼城足球會",
@@ -4050,14 +4050,14 @@
         "total_clubs": 5
       },
       "distractors": [
-        "FC Bayern Munich",
-        "Chelsea F.C.",
-        "Atlético de Madrid"
+        "Paris Saint-Germain FC",
+        "Tottenham Hotspur F.C.",
+        "São Paulo FC"
       ],
       "distractors_cantonese": [
-        "拜仁慕尼黑",
-        "車路士",
-        "馬德里體育會"
+        "巴黎聖日耳門",
+        "熱刺",
+        "聖保羅足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -4065,18 +4065,18 @@
       "question": "Which team has Mike Maignan played for?",
       "question_cantonese": "邁治南曾經效力過邊隊？",
       "choices": {
-        "A": "Paris Saint-Germain FC",
-        "B": "Inter Milan",
-        "C": "Lille OSC",
-        "D": "Atlético de Madrid"
+        "A": "Inter Miami CF",
+        "B": "SV Werder Bremen",
+        "C": "Villarreal CF",
+        "D": "Lille OSC"
       },
       "choices_cantonese": {
-        "A": "巴黎聖日耳門",
-        "B": "國際米蘭",
-        "C": "里爾奧林匹克體育會",
-        "D": "馬德里體育會"
+        "A": "邁阿密國際",
+        "B": "雲達不萊梅體育會",
+        "C": "維拉利爾足球會",
+        "D": "里爾奧林匹克體育會"
       },
-      "correct_answer": "C",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "Lille OSC",
         "name_cantonese": "里爾奧林匹克體育會",
@@ -4094,14 +4094,14 @@
         "total_clubs": 1
       },
       "distractors": [
-        "Paris Saint-Germain FC",
-        "Atlético de Madrid",
-        "Inter Milan"
+        "Villarreal CF",
+        "Inter Miami CF",
+        "SV Werder Bremen"
       ],
       "distractors_cantonese": [
-        "巴黎聖日耳門",
-        "馬德里體育會",
-        "國際米蘭"
+        "維拉利爾足球會",
+        "邁阿密國際",
+        "雲達不萊梅體育會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -4109,18 +4109,18 @@
       "question": "Which team has Luis Suárez played for?",
       "question_cantonese": "路易斯·蘇亞利斯曾經效力過邊隊？",
       "choices": {
-        "A": "Tottenham Hotspur F.C.",
-        "B": "Inter Milan",
-        "C": "Olympique de Marseille",
-        "D": "FC Barcelona"
+        "A": "S.L. Benfica",
+        "B": "FC Barcelona",
+        "C": "Paris Saint-Germain FC",
+        "D": "Al-Nassr"
       },
       "choices_cantonese": {
-        "A": "熱刺",
-        "B": "國際米蘭",
-        "C": "馬賽足球會",
-        "D": "巴塞隆拿足球會"
+        "A": "賓菲加",
+        "B": "巴塞隆拿足球會",
+        "C": "巴黎聖日耳門",
+        "D": "艾納斯"
       },
-      "correct_answer": "D",
+      "correct_answer": "B",
       "correct_club_info": {
         "name": "FC Barcelona",
         "name_cantonese": "巴塞隆拿足球會",
@@ -4138,14 +4138,14 @@
         "total_clubs": 9
       },
       "distractors": [
-        "Tottenham Hotspur F.C.",
-        "Olympique de Marseille",
-        "Inter Milan"
+        "Paris Saint-Germain FC",
+        "S.L. Benfica",
+        "Al-Nassr"
       ],
       "distractors_cantonese": [
-        "熱刺",
-        "馬賽足球會",
-        "國際米蘭"
+        "巴黎聖日耳門",
+        "賓菲加",
+        "艾納斯"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -4153,18 +4153,18 @@
       "question": "Which team has Ivan Rakitić played for?",
       "question_cantonese": "伊凡·拉傑迪曾經效力過邊隊？",
       "choices": {
-        "A": "FC Barcelona",
-        "B": "Paris Saint-Germain FC",
-        "C": "Manchester United F.C.",
+        "A": "FC Bayern Munich",
+        "B": "Manchester City F.C.",
+        "C": "FC Barcelona",
         "D": "Atlético de Madrid"
       },
       "choices_cantonese": {
-        "A": "巴塞隆拿足球會",
-        "B": "巴黎聖日耳門",
-        "C": "曼聯",
+        "A": "拜仁慕尼黑",
+        "B": "曼城足球會",
+        "C": "巴塞隆拿足球會",
         "D": "馬德里體育會"
       },
-      "correct_answer": "A",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "FC Barcelona",
         "name_cantonese": "巴塞隆拿足球會",
@@ -4182,14 +4182,14 @@
         "total_clubs": 7
       },
       "distractors": [
+        "FC Bayern Munich",
         "Atlético de Madrid",
-        "Paris Saint-Germain FC",
-        "Manchester United F.C."
+        "Manchester City F.C."
       ],
       "distractors_cantonese": [
+        "拜仁慕尼黑",
         "馬德里體育會",
-        "巴黎聖日耳門",
-        "曼聯"
+        "曼城足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -4197,18 +4197,18 @@
       "question": "Which team has David Silva played for?",
       "question_cantonese": "大衞施華曾經效力過邊隊？",
       "choices": {
-        "A": "Liverpool F.C.",
-        "B": "Manchester City F.C.",
-        "C": "FC Porto",
-        "D": "Tottenham Hotspur F.C."
+        "A": "Manchester City F.C.",
+        "B": "A.S. Roma",
+        "C": "Paris Saint-Germain FC",
+        "D": "AFC Ajax"
       },
       "choices_cantonese": {
-        "A": "利物浦足球會",
-        "B": "曼城足球會",
-        "C": "波圖足球會",
-        "D": "熱刺"
+        "A": "曼城足球會",
+        "B": "羅馬體育會",
+        "C": "巴黎聖日耳門",
+        "D": "阿積士足球會"
       },
-      "correct_answer": "B",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "Manchester City F.C.",
         "name_cantonese": "曼城足球會",
@@ -4226,14 +4226,14 @@
         "total_clubs": 6
       },
       "distractors": [
-        "FC Porto",
-        "Tottenham Hotspur F.C.",
-        "Liverpool F.C."
+        "Paris Saint-Germain FC",
+        "AFC Ajax",
+        "A.S. Roma"
       ],
       "distractors_cantonese": [
-        "波圖足球會",
-        "熱刺",
-        "利物浦足球會"
+        "巴黎聖日耳門",
+        "阿積士足球會",
+        "羅馬體育會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -4241,18 +4241,18 @@
       "question": "Which team has Frenkie de Jong played for?",
       "question_cantonese": "法蘭基·迪莊曾經效力過邊隊？",
       "choices": {
-        "A": "Liverpool F.C.",
+        "A": "FC Barcelona",
         "B": "Tottenham Hotspur F.C.",
-        "C": "FC Barcelona",
-        "D": "S.L. Benfica"
+        "C": "Olympique de Marseille",
+        "D": "Juventus FC"
       },
       "choices_cantonese": {
-        "A": "利物浦足球會",
+        "A": "巴塞隆拿足球會",
         "B": "熱刺",
-        "C": "巴塞隆拿足球會",
-        "D": "賓菲加"
+        "C": "馬賽足球會",
+        "D": "祖雲達斯"
       },
-      "correct_answer": "C",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "FC Barcelona",
         "name_cantonese": "巴塞隆拿足球會",
@@ -4270,14 +4270,14 @@
         "total_clubs": 4
       },
       "distractors": [
-        "Liverpool F.C.",
         "Tottenham Hotspur F.C.",
-        "S.L. Benfica"
+        "Olympique de Marseille",
+        "Juventus FC"
       ],
       "distractors_cantonese": [
-        "利物浦足球會",
         "熱刺",
-        "賓菲加"
+        "馬賽足球會",
+        "祖雲達斯"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -4285,18 +4285,18 @@
       "question": "Which team has Edinson Acavani played for?",
       "question_cantonese": "艾甸臣卡雲尼曾經效力過邊隊？",
       "choices": {
-        "A": "Arsenal F.C.",
-        "B": "AFC Ajax",
-        "C": "Paris Saint-Germain FC",
-        "D": "FC Barcelona"
+        "A": "Paris Saint-Germain FC",
+        "B": "Manchester City F.C.",
+        "C": "Villarreal CF",
+        "D": "Udinese Calcio"
       },
       "choices_cantonese": {
-        "A": "阿仙奴",
-        "B": "阿積士足球會",
-        "C": "巴黎聖日耳門",
-        "D": "巴塞隆拿足球會"
+        "A": "巴黎聖日耳門",
+        "B": "曼城足球會",
+        "C": "維拉利爾足球會",
+        "D": "烏甸尼斯足球會"
       },
-      "correct_answer": "C",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "Paris Saint-Germain FC",
         "name_cantonese": "巴黎聖日耳門",
@@ -4314,14 +4314,14 @@
         "total_clubs": 7
       },
       "distractors": [
-        "Arsenal F.C.",
-        "AFC Ajax",
-        "FC Barcelona"
+        "Udinese Calcio",
+        "Manchester City F.C.",
+        "Villarreal CF"
       ],
       "distractors_cantonese": [
-        "阿仙奴",
-        "阿積士足球會",
-        "巴塞隆拿足球會"
+        "烏甸尼斯足球會",
+        "曼城足球會",
+        "維拉利爾足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -4329,18 +4329,18 @@
       "question": "Which team has Gianluigi Donnarumma played for?",
       "question_cantonese": "基安盧基·當拿隆馬曾經效力過邊隊？",
       "choices": {
-        "A": "AC Milan",
-        "B": "Manchester United F.C.",
-        "C": "Udinese Calcio",
-        "D": "Inter Miami CF"
+        "A": "Borussia Dortmund",
+        "B": "A.S. Roma",
+        "C": "Juventus FC",
+        "D": "AC Milan"
       },
       "choices_cantonese": {
-        "A": "unknown",
-        "B": "曼聯",
-        "C": "烏甸尼斯足球會",
-        "D": "邁阿密國際"
+        "A": "多蒙特",
+        "B": "羅馬體育會",
+        "C": "祖雲達斯",
+        "D": "unknown"
       },
-      "correct_answer": "A",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "AC Milan",
         "name_cantonese": "unknown",
@@ -4358,14 +4358,14 @@
         "total_clubs": 2
       },
       "distractors": [
-        "Udinese Calcio",
-        "Manchester United F.C.",
-        "Inter Miami CF"
+        "A.S. Roma",
+        "Juventus FC",
+        "Borussia Dortmund"
       ],
       "distractors_cantonese": [
-        "烏甸尼斯足球會",
-        "曼聯",
-        "邁阿密國際"
+        "羅馬體育會",
+        "祖雲達斯",
+        "多蒙特"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -4373,18 +4373,18 @@
       "question": "Which team has Kingsley Coman played for?",
       "question_cantonese": "京士利·高文曾經效力過邊隊？",
       "choices": {
-        "A": "Olympique Lyonnais",
-        "B": "SV Werder Bremen",
-        "C": "FC Bayern Munich",
-        "D": "Atlético de Madrid"
+        "A": "FC Bayern Munich",
+        "B": "A.S. Roma",
+        "C": "Villarreal CF",
+        "D": "Olympique Lyonnais"
       },
       "choices_cantonese": {
-        "A": "奧林匹克里昂",
-        "B": "雲達不萊梅體育會",
-        "C": "拜仁慕尼黑",
-        "D": "馬德里體育會"
+        "A": "拜仁慕尼黑",
+        "B": "羅馬體育會",
+        "C": "維拉利爾足球會",
+        "D": "奧林匹克里昂"
       },
-      "correct_answer": "C",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "FC Bayern Munich",
         "name_cantonese": "拜仁慕尼黑",
@@ -4402,14 +4402,14 @@
         "total_clubs": 5
       },
       "distractors": [
-        "SV Werder Bremen",
+        "A.S. Roma",
         "Olympique Lyonnais",
-        "Atlético de Madrid"
+        "Villarreal CF"
       ],
       "distractors_cantonese": [
-        "雲達不萊梅體育會",
+        "羅馬體育會",
         "奧林匹克里昂",
-        "馬德里體育會"
+        "維拉利爾足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -4418,17 +4418,17 @@
       "question_cantonese": "伊巴謙莫域曾經效力過邊隊？",
       "choices": {
         "A": "FC Bayern Munich",
-        "B": "Udinese Calcio",
-        "C": "AFC Ajax",
-        "D": "Borussia Dortmund"
+        "B": "São Paulo FC",
+        "C": "Sevilla FC",
+        "D": "AFC Ajax"
       },
       "choices_cantonese": {
         "A": "拜仁慕尼黑",
-        "B": "烏甸尼斯足球會",
-        "C": "阿積士足球會",
-        "D": "多蒙特"
+        "B": "聖保羅足球會",
+        "C": "西維爾足球會",
+        "D": "阿積士足球會"
       },
-      "correct_answer": "C",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "AFC Ajax",
         "name_cantonese": "阿積士足球會",
@@ -4446,14 +4446,14 @@
         "total_clubs": 10
       },
       "distractors": [
-        "Borussia Dortmund",
-        "FC Bayern Munich",
-        "Udinese Calcio"
+        "Sevilla FC",
+        "São Paulo FC",
+        "FC Bayern Munich"
       ],
       "distractors_cantonese": [
-        "多蒙特",
-        "拜仁慕尼黑",
-        "烏甸尼斯足球會"
+        "西維爾足球會",
+        "聖保羅足球會",
+        "拜仁慕尼黑"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -4461,18 +4461,18 @@
       "question": "Which team has Raheem Sterling played for?",
       "question_cantonese": "史達寧曾經效力過邊隊？",
       "choices": {
-        "A": "Atlético de Madrid",
-        "B": "Villarreal CF",
-        "C": "AFC Ajax",
-        "D": "Manchester City F.C."
+        "A": "Manchester United F.C.",
+        "B": "Manchester City F.C.",
+        "C": "Olympique de Marseille",
+        "D": "Real Madrid CF"
       },
       "choices_cantonese": {
-        "A": "馬德里體育會",
-        "B": "維拉利爾足球會",
-        "C": "阿積士足球會",
-        "D": "曼城足球會"
+        "A": "曼聯",
+        "B": "曼城足球會",
+        "C": "馬賽足球會",
+        "D": "皇家馬德里足球會"
       },
-      "correct_answer": "D",
+      "correct_answer": "B",
       "correct_club_info": {
         "name": "Manchester City F.C.",
         "name_cantonese": "曼城足球會",
@@ -4490,14 +4490,14 @@
         "total_clubs": 4
       },
       "distractors": [
-        "Villarreal CF",
-        "Atlético de Madrid",
-        "AFC Ajax"
+        "Manchester United F.C.",
+        "Olympique de Marseille",
+        "Real Madrid CF"
       ],
       "distractors_cantonese": [
-        "維拉利爾足球會",
-        "馬德里體育會",
-        "阿積士足球會"
+        "曼聯",
+        "馬賽足球會",
+        "皇家馬德里足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -4505,18 +4505,18 @@
       "question": "Which team has Carlos Tevez played for?",
       "question_cantonese": "迪維斯曾經效力過邊隊？",
       "choices": {
-        "A": "FC Barcelona",
-        "B": "Liverpool F.C.",
-        "C": "Manchester City F.C.",
+        "A": "Manchester City F.C.",
+        "B": "Schalke 04",
+        "C": "FC Barcelona",
         "D": "Chelsea F.C."
       },
       "choices_cantonese": {
-        "A": "巴塞隆拿足球會",
-        "B": "利物浦足球會",
-        "C": "曼城足球會",
+        "A": "曼城足球會",
+        "B": "史浩克零四足球會",
+        "C": "巴塞隆拿足球會",
         "D": "車路士"
       },
-      "correct_answer": "C",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "Manchester City F.C.",
         "name_cantonese": "曼城足球會",
@@ -4534,14 +4534,14 @@
         "total_clubs": 10
       },
       "distractors": [
-        "Liverpool F.C.",
-        "Chelsea F.C.",
-        "FC Barcelona"
+        "Schalke 04",
+        "FC Barcelona",
+        "Chelsea F.C."
       ],
       "distractors_cantonese": [
-        "利物浦足球會",
-        "車路士",
-        "巴塞隆拿足球會"
+        "史浩克零四足球會",
+        "巴塞隆拿足球會",
+        "車路士"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -4549,18 +4549,18 @@
       "question": "Which team has Toby Alderweireld played for?",
       "question_cantonese": "艾達韋列特曾經效力過邊隊？",
       "choices": {
-        "A": "Olympique Lyonnais",
-        "B": "Al-Nassr",
-        "C": "Valencia CF",
-        "D": "Tottenham Hotspur F.C."
+        "A": "Arsenal F.C.",
+        "B": "Udinese Calcio",
+        "C": "Tottenham Hotspur F.C.",
+        "D": "Manchester City F.C."
       },
       "choices_cantonese": {
-        "A": "奧林匹克里昂",
-        "B": "艾納斯",
-        "C": "華倫西亞足球會",
-        "D": "熱刺"
+        "A": "阿仙奴",
+        "B": "烏甸尼斯足球會",
+        "C": "熱刺",
+        "D": "曼城足球會"
       },
-      "correct_answer": "D",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "Tottenham Hotspur F.C.",
         "name_cantonese": "熱刺",
@@ -4578,14 +4578,14 @@
         "total_clubs": 6
       },
       "distractors": [
-        "Al-Nassr",
-        "Valencia CF",
-        "Olympique Lyonnais"
+        "Manchester City F.C.",
+        "Udinese Calcio",
+        "Arsenal F.C."
       ],
       "distractors_cantonese": [
-        "艾納斯",
-        "華倫西亞足球會",
-        "奧林匹克里昂"
+        "曼城足球會",
+        "烏甸尼斯足球會",
+        "阿仙奴"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -4593,16 +4593,16 @@
       "question": "Which team has Ederson Moraes played for?",
       "question_cantonese": "艾達臣·摩拉斯曾經效力過邊隊？",
       "choices": {
-        "A": "Real Madrid CF",
+        "A": "Borussia Dortmund",
         "B": "Manchester City F.C.",
-        "C": "Inter Miami CF",
-        "D": "Tottenham Hotspur F.C."
+        "C": "Juventus FC",
+        "D": "SV Werder Bremen"
       },
       "choices_cantonese": {
-        "A": "皇家馬德里足球會",
+        "A": "多蒙特",
         "B": "曼城足球會",
-        "C": "邁阿密國際",
-        "D": "熱刺"
+        "C": "祖雲達斯",
+        "D": "雲達不萊梅體育會"
       },
       "correct_answer": "B",
       "correct_club_info": {
@@ -4622,14 +4622,14 @@
         "total_clubs": 5
       },
       "distractors": [
-        "Inter Miami CF",
-        "Real Madrid CF",
-        "Tottenham Hotspur F.C."
+        "Borussia Dortmund",
+        "Juventus FC",
+        "SV Werder Bremen"
       ],
       "distractors_cantonese": [
-        "邁阿密國際",
-        "皇家馬德里足球會",
-        "熱刺"
+        "多蒙特",
+        "祖雲達斯",
+        "雲達不萊梅體育會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -4637,18 +4637,18 @@
       "question": "Which team has Karim Benzema played for?",
       "question_cantonese": "卡廉賓森馬曾經效力過邊隊？",
       "choices": {
-        "A": "Villarreal CF",
-        "B": "Borussia Dortmund",
-        "C": "FC Bayern Munich",
-        "D": "Real Madrid CF"
+        "A": "Atlético de Madrid",
+        "B": "Real Madrid CF",
+        "C": "São Paulo FC",
+        "D": "Al-Nassr"
       },
       "choices_cantonese": {
-        "A": "維拉利爾足球會",
-        "B": "多蒙特",
-        "C": "拜仁慕尼黑",
-        "D": "皇家馬德里足球會"
+        "A": "馬德里體育會",
+        "B": "皇家馬德里足球會",
+        "C": "聖保羅足球會",
+        "D": "艾納斯"
       },
-      "correct_answer": "D",
+      "correct_answer": "B",
       "correct_club_info": {
         "name": "Real Madrid CF",
         "name_cantonese": "皇家馬德里足球會",
@@ -4666,14 +4666,14 @@
         "total_clubs": 4
       },
       "distractors": [
-        "Villarreal CF",
-        "FC Bayern Munich",
-        "Borussia Dortmund"
+        "São Paulo FC",
+        "Al-Nassr",
+        "Atlético de Madrid"
       ],
       "distractors_cantonese": [
-        "維拉利爾足球會",
-        "拜仁慕尼黑",
-        "多蒙特"
+        "聖保羅足球會",
+        "艾納斯",
+        "馬德里體育會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -4681,18 +4681,18 @@
       "question": "Which team has Alex Sandro played for?",
       "question_cantonese": "A.辛特路曾經效力過邊隊？",
       "choices": {
-        "A": "Borussia Dortmund",
-        "B": "Juventus FC",
-        "C": "Inter Milan",
-        "D": "AFC Ajax"
+        "A": "Atlético de Madrid",
+        "B": "Borussia Dortmund",
+        "C": "Juventus FC",
+        "D": "A.S. Roma"
       },
       "choices_cantonese": {
-        "A": "多蒙特",
-        "B": "祖雲達斯",
-        "C": "國際米蘭",
-        "D": "阿積士足球會"
+        "A": "馬德里體育會",
+        "B": "多蒙特",
+        "C": "祖雲達斯",
+        "D": "羅馬體育會"
       },
-      "correct_answer": "B",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "Juventus FC",
         "name_cantonese": "祖雲達斯",
@@ -4710,14 +4710,14 @@
         "total_clubs": 6
       },
       "distractors": [
-        "Inter Milan",
-        "AFC Ajax",
-        "Borussia Dortmund"
+        "Borussia Dortmund",
+        "A.S. Roma",
+        "Atlético de Madrid"
       ],
       "distractors_cantonese": [
-        "國際米蘭",
-        "阿積士足球會",
-        "多蒙特"
+        "多蒙特",
+        "羅馬體育會",
+        "馬德里體育會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -4725,18 +4725,18 @@
       "question": "Which team has N'Golo Kanté played for?",
       "question_cantonese": "簡迪曾經效力過邊隊？",
       "choices": {
-        "A": "Juventus FC",
-        "B": "Chelsea F.C.",
-        "C": "Inter Miami CF",
-        "D": "Tottenham Hotspur F.C."
+        "A": "Manchester United F.C.",
+        "B": "Sevilla FC",
+        "C": "Olympique Lyonnais",
+        "D": "Chelsea F.C."
       },
       "choices_cantonese": {
-        "A": "祖雲達斯",
-        "B": "車路士",
-        "C": "邁阿密國際",
-        "D": "熱刺"
+        "A": "曼聯",
+        "B": "西維爾足球會",
+        "C": "奧林匹克里昂",
+        "D": "車路士"
       },
-      "correct_answer": "B",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "Chelsea F.C.",
         "name_cantonese": "車路士",
@@ -4754,14 +4754,14 @@
         "total_clubs": 5
       },
       "distractors": [
-        "Tottenham Hotspur F.C.",
-        "Inter Miami CF",
-        "Juventus FC"
+        "Olympique Lyonnais",
+        "Manchester United F.C.",
+        "Sevilla FC"
       ],
       "distractors_cantonese": [
-        "熱刺",
-        "邁阿密國際",
-        "祖雲達斯"
+        "奧林匹克里昂",
+        "曼聯",
+        "西維爾足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -4769,18 +4769,18 @@
       "question": "Which team has Miralem Pjanić played for?",
       "question_cantonese": "米拉萊姆·比真歷曾經效力過邊隊？",
       "choices": {
-        "A": "A.S. Roma",
-        "B": "Real Madrid CF",
-        "C": "Inter Miami CF",
-        "D": "São Paulo FC"
+        "A": "Inter Miami CF",
+        "B": "Al-Nassr",
+        "C": "A.S. Roma",
+        "D": "Udinese Calcio"
       },
       "choices_cantonese": {
-        "A": "羅馬體育會",
-        "B": "皇家馬德里足球會",
-        "C": "邁阿密國際",
-        "D": "聖保羅足球會"
+        "A": "邁阿密國際",
+        "B": "艾納斯",
+        "C": "羅馬體育會",
+        "D": "烏甸尼斯足球會"
       },
-      "correct_answer": "A",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "A.S. Roma",
         "name_cantonese": "羅馬體育會",
@@ -4799,13 +4799,13 @@
       },
       "distractors": [
         "Inter Miami CF",
-        "São Paulo FC",
-        "Real Madrid CF"
+        "Al-Nassr",
+        "Udinese Calcio"
       ],
       "distractors_cantonese": [
         "邁阿密國際",
-        "聖保羅足球會",
-        "皇家馬德里足球會"
+        "艾納斯",
+        "烏甸尼斯足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -4813,18 +4813,18 @@
       "question": "Which team has Yann Sommer played for?",
       "question_cantonese": "恩·蘇馬曾經效力過邊隊？",
       "choices": {
-        "A": "Manchester City F.C.",
-        "B": "Al-Nassr",
-        "C": "Liverpool F.C.",
-        "D": "Borussia Mönchengladbach"
+        "A": "AFC Ajax",
+        "B": "Arsenal F.C.",
+        "C": "Borussia Mönchengladbach",
+        "D": "FC Porto"
       },
       "choices_cantonese": {
-        "A": "曼城足球會",
-        "B": "艾納斯",
-        "C": "利物浦足球會",
-        "D": "慕遜加柏足球會"
+        "A": "阿積士足球會",
+        "B": "阿仙奴",
+        "C": "慕遜加柏足球會",
+        "D": "波圖足球會"
       },
-      "correct_answer": "D",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "Borussia Mönchengladbach",
         "name_cantonese": "慕遜加柏足球會",
@@ -4842,14 +4842,14 @@
         "total_clubs": 7
       },
       "distractors": [
-        "Al-Nassr",
-        "Liverpool F.C.",
-        "Manchester City F.C."
+        "Arsenal F.C.",
+        "FC Porto",
+        "AFC Ajax"
       ],
       "distractors_cantonese": [
-        "艾納斯",
-        "利物浦足球會",
-        "曼城足球會"
+        "阿仙奴",
+        "波圖足球會",
+        "阿積士足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -4857,18 +4857,18 @@
       "question": "Which team has Éder Militão played for?",
       "question_cantonese": "艾達美列度奧曾經效力過邊隊？",
       "choices": {
-        "A": "SV Werder Bremen",
-        "B": "Olympique de Marseille",
-        "C": "Real Madrid CF",
-        "D": "Inter Miami CF"
+        "A": "Manchester United F.C.",
+        "B": "S.L. Benfica",
+        "C": "Liverpool F.C.",
+        "D": "Real Madrid CF"
       },
       "choices_cantonese": {
-        "A": "雲達不萊梅體育會",
-        "B": "馬賽足球會",
-        "C": "皇家馬德里足球會",
-        "D": "邁阿密國際"
+        "A": "曼聯",
+        "B": "賓菲加",
+        "C": "利物浦足球會",
+        "D": "皇家馬德里足球會"
       },
-      "correct_answer": "C",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "Real Madrid CF",
         "name_cantonese": "皇家馬德里足球會",
@@ -4886,14 +4886,14 @@
         "total_clubs": 3
       },
       "distractors": [
-        "Olympique de Marseille",
-        "Inter Miami CF",
-        "SV Werder Bremen"
+        "Liverpool F.C.",
+        "S.L. Benfica",
+        "Manchester United F.C."
       ],
       "distractors_cantonese": [
-        "馬賽足球會",
-        "邁阿密國際",
-        "雲達不萊梅體育會"
+        "利物浦足球會",
+        "賓菲加",
+        "曼聯"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -4901,16 +4901,16 @@
       "question": "Which team has Keylor Navas played for?",
       "question_cantonese": "基羅拿華斯曾經效力過邊隊？",
       "choices": {
-        "A": "Schalke 04",
+        "A": "Chelsea F.C.",
         "B": "Deportivo Saprissa",
-        "C": "Inter Miami CF",
-        "D": "Manchester City F.C."
+        "C": "Sevilla FC",
+        "D": "A.S. Roma"
       },
       "choices_cantonese": {
-        "A": "史浩克零四足球會",
+        "A": "車路士",
         "B": "unknown",
-        "C": "邁阿密國際",
-        "D": "曼城足球會"
+        "C": "西維爾足球會",
+        "D": "羅馬體育會"
       },
       "correct_answer": "B",
       "correct_club_info": {
@@ -4930,14 +4930,14 @@
         "total_clubs": 9
       },
       "distractors": [
-        "Manchester City F.C.",
-        "Inter Miami CF",
-        "Schalke 04"
+        "Chelsea F.C.",
+        "Sevilla FC",
+        "A.S. Roma"
       ],
       "distractors_cantonese": [
-        "曼城足球會",
-        "邁阿密國際",
-        "史浩克零四足球會"
+        "車路士",
+        "西維爾足球會",
+        "羅馬體育會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -4945,15 +4945,15 @@
       "question": "Which team has Robin van Persie played for?",
       "question_cantonese": "雲佩斯曾經效力過邊隊？",
       "choices": {
-        "A": "FC Porto",
-        "B": "Olympique Lyonnais",
-        "C": "SV Werder Bremen",
+        "A": "SV Werder Bremen",
+        "B": "Juventus FC",
+        "C": "FC Porto",
         "D": "Arsenal F.C."
       },
       "choices_cantonese": {
-        "A": "波圖足球會",
-        "B": "奧林匹克里昂",
-        "C": "雲達不萊梅體育會",
+        "A": "雲達不萊梅體育會",
+        "B": "祖雲達斯",
+        "C": "波圖足球會",
         "D": "阿仙奴"
       },
       "correct_answer": "D",
@@ -4974,14 +4974,14 @@
         "total_clubs": 5
       },
       "distractors": [
-        "SV Werder Bremen",
+        "Juventus FC",
         "FC Porto",
-        "Olympique Lyonnais"
+        "SV Werder Bremen"
       ],
       "distractors_cantonese": [
-        "雲達不萊梅體育會",
+        "祖雲達斯",
         "波圖足球會",
-        "奧林匹克里昂"
+        "雲達不萊梅體育會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -4989,18 +4989,18 @@
       "question": "Which team has Eden Hazard played for?",
       "question_cantonese": "夏薩特曾經效力過邊隊？",
       "choices": {
-        "A": "AFC Ajax",
-        "B": "Borussia Dortmund",
-        "C": "Inter Milan",
-        "D": "Chelsea F.C."
+        "A": "Chelsea F.C.",
+        "B": "A.S. Roma",
+        "C": "S.L. Benfica",
+        "D": "Inter Milan"
       },
       "choices_cantonese": {
-        "A": "阿積士足球會",
-        "B": "多蒙特",
-        "C": "國際米蘭",
-        "D": "車路士"
+        "A": "車路士",
+        "B": "羅馬體育會",
+        "C": "賓菲加",
+        "D": "國際米蘭"
       },
-      "correct_answer": "D",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "Chelsea F.C.",
         "name_cantonese": "車路士",
@@ -5018,14 +5018,14 @@
         "total_clubs": 4
       },
       "distractors": [
-        "AFC Ajax",
-        "Inter Milan",
-        "Borussia Dortmund"
+        "S.L. Benfica",
+        "A.S. Roma",
+        "Inter Milan"
       ],
       "distractors_cantonese": [
-        "阿積士足球會",
-        "國際米蘭",
-        "多蒙特"
+        "賓菲加",
+        "羅馬體育會",
+        "國際米蘭"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -5033,18 +5033,18 @@
       "question": "Which team has Wojciech Szczęsny played for?",
       "question_cantonese": "禾捷治施捷斯尼曾經效力過邊隊？",
       "choices": {
-        "A": "Paris Saint-Germain FC",
-        "B": "Inter Miami CF",
-        "C": "Arsenal F.C.",
-        "D": "Al-Nassr"
+        "A": "Schalke 04",
+        "B": "São Paulo FC",
+        "C": "S.L. Benfica",
+        "D": "Arsenal F.C."
       },
       "choices_cantonese": {
-        "A": "巴黎聖日耳門",
-        "B": "邁阿密國際",
-        "C": "阿仙奴",
-        "D": "艾納斯"
+        "A": "史浩克零四足球會",
+        "B": "聖保羅足球會",
+        "C": "賓菲加",
+        "D": "阿仙奴"
       },
-      "correct_answer": "C",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "Arsenal F.C.",
         "name_cantonese": "阿仙奴",
@@ -5062,14 +5062,14 @@
         "total_clubs": 5
       },
       "distractors": [
-        "Paris Saint-Germain FC",
-        "Inter Miami CF",
-        "Al-Nassr"
+        "S.L. Benfica",
+        "Schalke 04",
+        "São Paulo FC"
       ],
       "distractors_cantonese": [
-        "巴黎聖日耳門",
-        "邁阿密國際",
-        "艾納斯"
+        "賓菲加",
+        "史浩克零四足球會",
+        "聖保羅足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -5077,18 +5077,18 @@
       "question": "Which team has César Azpilicueta played for?",
       "question_cantonese": "艾斯派古達曾經效力過邊隊？",
       "choices": {
-        "A": "Real Madrid CF",
-        "B": "Chelsea F.C.",
-        "C": "A.S. Roma",
-        "D": "Villarreal CF"
+        "A": "FC Porto",
+        "B": "Arsenal F.C.",
+        "C": "São Paulo FC",
+        "D": "Chelsea F.C."
       },
       "choices_cantonese": {
-        "A": "皇家馬德里足球會",
-        "B": "車路士",
-        "C": "羅馬體育會",
-        "D": "維拉利爾足球會"
+        "A": "波圖足球會",
+        "B": "阿仙奴",
+        "C": "聖保羅足球會",
+        "D": "車路士"
       },
-      "correct_answer": "B",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "Chelsea F.C.",
         "name_cantonese": "車路士",
@@ -5106,14 +5106,14 @@
         "total_clubs": 7
       },
       "distractors": [
-        "A.S. Roma",
-        "Real Madrid CF",
-        "Villarreal CF"
+        "São Paulo FC",
+        "FC Porto",
+        "Arsenal F.C."
       ],
       "distractors_cantonese": [
-        "羅馬體育會",
-        "皇家馬德里足球會",
-        "維拉利爾足球會"
+        "聖保羅足球會",
+        "波圖足球會",
+        "阿仙奴"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -5121,18 +5121,18 @@
       "question": "Which team has Alexis Sánchez Chileno played for?",
       "question_cantonese": "阿歷斯山齊士曾經效力過邊隊？",
       "choices": {
-        "A": "Sevilla FC",
-        "B": "Udinese Calcio",
-        "C": "Borussia Dortmund",
-        "D": "S.L. Benfica"
+        "A": "Tottenham Hotspur F.C.",
+        "B": "Juventus FC",
+        "C": "Schalke 04",
+        "D": "Udinese Calcio"
       },
       "choices_cantonese": {
-        "A": "西維爾足球會",
-        "B": "烏甸尼斯足球會",
-        "C": "多蒙特",
-        "D": "賓菲加"
+        "A": "熱刺",
+        "B": "祖雲達斯",
+        "C": "史浩克零四足球會",
+        "D": "烏甸尼斯足球會"
       },
-      "correct_answer": "B",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "Udinese Calcio",
         "name_cantonese": "烏甸尼斯足球會",
@@ -5150,14 +5150,14 @@
         "total_clubs": 12
       },
       "distractors": [
-        "S.L. Benfica",
-        "Borussia Dortmund",
-        "Sevilla FC"
+        "Juventus FC",
+        "Tottenham Hotspur F.C.",
+        "Schalke 04"
       ],
       "distractors_cantonese": [
-        "賓菲加",
-        "多蒙特",
-        "西維爾足球會"
+        "祖雲達斯",
+        "熱刺",
+        "史浩克零四足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -5166,15 +5166,15 @@
       "question_cantonese": "費蘭甸奴曾經效力過邊隊？",
       "choices": {
         "A": "Manchester City F.C.",
-        "B": "Al-Nassr",
-        "C": "Atlético de Madrid",
-        "D": "Villarreal CF"
+        "B": "S.L. Benfica",
+        "C": "Tottenham Hotspur F.C.",
+        "D": "Paris Saint-Germain FC"
       },
       "choices_cantonese": {
         "A": "曼城足球會",
-        "B": "艾納斯",
-        "C": "馬德里體育會",
-        "D": "維拉利爾足球會"
+        "B": "賓菲加",
+        "C": "熱刺",
+        "D": "巴黎聖日耳門"
       },
       "correct_answer": "A",
       "correct_club_info": {
@@ -5194,14 +5194,14 @@
         "total_clubs": 4
       },
       "distractors": [
-        "Atlético de Madrid",
-        "Villarreal CF",
-        "Al-Nassr"
+        "Tottenham Hotspur F.C.",
+        "Paris Saint-Germain FC",
+        "S.L. Benfica"
       ],
       "distractors_cantonese": [
-        "馬德里體育會",
-        "維拉利爾足球會",
-        "艾納斯"
+        "熱刺",
+        "巴黎聖日耳門",
+        "賓菲加"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -5209,18 +5209,18 @@
       "question": "Which team has Marc-André ter Stegen played for?",
       "question_cantonese": "馬克-安德烈·達史特根曾經效力過邊隊？",
       "choices": {
-        "A": "Borussia Dortmund",
-        "B": "Al-Nassr",
-        "C": "Borussia Mönchengladbach",
-        "D": "AFC Ajax"
+        "A": "A.S. Roma",
+        "B": "Borussia Mönchengladbach",
+        "C": "AFC Ajax",
+        "D": "Udinese Calcio"
       },
       "choices_cantonese": {
-        "A": "多蒙特",
-        "B": "艾納斯",
-        "C": "慕遜加柏足球會",
-        "D": "阿積士足球會"
+        "A": "羅馬體育會",
+        "B": "慕遜加柏足球會",
+        "C": "阿積士足球會",
+        "D": "烏甸尼斯足球會"
       },
-      "correct_answer": "C",
+      "correct_answer": "B",
       "correct_club_info": {
         "name": "Borussia Mönchengladbach",
         "name_cantonese": "慕遜加柏足球會",
@@ -5239,13 +5239,13 @@
       },
       "distractors": [
         "AFC Ajax",
-        "Borussia Dortmund",
-        "Al-Nassr"
+        "A.S. Roma",
+        "Udinese Calcio"
       ],
       "distractors_cantonese": [
         "阿積士足球會",
-        "多蒙特",
-        "艾納斯"
+        "羅馬體育會",
+        "烏甸尼斯足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -5255,14 +5255,14 @@
       "choices": {
         "A": "Arsenal F.C.",
         "B": "Atalanta BC",
-        "C": "São Paulo FC",
-        "D": "Manchester City F.C."
+        "C": "Juventus FC",
+        "D": "Liverpool F.C."
       },
       "choices_cantonese": {
         "A": "阿仙奴",
         "B": "阿特蘭大足球會",
-        "C": "聖保羅足球會",
-        "D": "曼城足球會"
+        "C": "祖雲達斯",
+        "D": "利物浦足球會"
       },
       "correct_answer": "B",
       "correct_club_info": {
@@ -5282,14 +5282,14 @@
         "total_clubs": 6
       },
       "distractors": [
-        "São Paulo FC",
-        "Manchester City F.C.",
-        "Arsenal F.C."
+        "Arsenal F.C.",
+        "Liverpool F.C.",
+        "Juventus FC"
       ],
       "distractors_cantonese": [
-        "聖保羅足球會",
-        "曼城足球會",
-        "阿仙奴"
+        "阿仙奴",
+        "利物浦足球會",
+        "祖雲達斯"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -5297,18 +5297,18 @@
       "question": "Which team has Antoine Griezmann played for?",
       "question_cantonese": "基士文 (法國足球員)曾經效力過邊隊？",
       "choices": {
-        "A": "Juventus FC",
-        "B": "Borussia Dortmund",
-        "C": "Liverpool F.C.",
-        "D": "Real Sociedad"
+        "A": "Real Madrid CF",
+        "B": "Real Sociedad",
+        "C": "Schalke 04",
+        "D": "Inter Milan"
       },
       "choices_cantonese": {
-        "A": "祖雲達斯",
-        "B": "多蒙特",
-        "C": "利物浦足球會",
-        "D": "皇家社會"
+        "A": "皇家馬德里足球會",
+        "B": "皇家社會",
+        "C": "史浩克零四足球會",
+        "D": "國際米蘭"
       },
-      "correct_answer": "D",
+      "correct_answer": "B",
       "correct_club_info": {
         "name": "Real Sociedad",
         "name_cantonese": "皇家社會",
@@ -5326,14 +5326,14 @@
         "total_clubs": 6
       },
       "distractors": [
-        "Liverpool F.C.",
-        "Borussia Dortmund",
-        "Juventus FC"
+        "Real Madrid CF",
+        "Inter Milan",
+        "Schalke 04"
       ],
       "distractors_cantonese": [
-        "利物浦足球會",
-        "多蒙特",
-        "祖雲達斯"
+        "皇家馬德里足球會",
+        "國際米蘭",
+        "史浩克零四足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -5341,18 +5341,18 @@
       "question": "Which team has Jan Oblak played for?",
       "question_cantonese": "奧比歷曾經效力過邊隊？",
       "choices": {
-        "A": "Tottenham Hotspur F.C.",
-        "B": "SV Werder Bremen",
-        "C": "Villarreal CF",
-        "D": "Atlético de Madrid"
+        "A": "FC Barcelona",
+        "B": "Atlético de Madrid",
+        "C": "Udinese Calcio",
+        "D": "AFC Ajax"
       },
       "choices_cantonese": {
-        "A": "熱刺",
-        "B": "雲達不萊梅體育會",
-        "C": "維拉利爾足球會",
-        "D": "馬德里體育會"
+        "A": "巴塞隆拿足球會",
+        "B": "馬德里體育會",
+        "C": "烏甸尼斯足球會",
+        "D": "阿積士足球會"
       },
-      "correct_answer": "D",
+      "correct_answer": "B",
       "correct_club_info": {
         "name": "Atlético de Madrid",
         "name_cantonese": "馬德里體育會",
@@ -5370,14 +5370,14 @@
         "total_clubs": 8
       },
       "distractors": [
-        "SV Werder Bremen",
-        "Villarreal CF",
-        "Tottenham Hotspur F.C."
+        "Udinese Calcio",
+        "FC Barcelona",
+        "AFC Ajax"
       ],
       "distractors_cantonese": [
-        "雲達不萊梅體育會",
-        "維拉利爾足球會",
-        "熱刺"
+        "烏甸尼斯足球會",
+        "巴塞隆拿足球會",
+        "阿積士足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -5385,18 +5385,18 @@
       "question": "Which team has Philipp Lahm played for?",
       "question_cantonese": "菲臘·拿姆曾經效力過邊隊？",
       "choices": {
-        "A": "Olympique Lyonnais",
-        "B": "Manchester City F.C.",
-        "C": "Olympique de Marseille",
-        "D": "FC Bayern Munich"
+        "A": "FC Bayern Munich",
+        "B": "Real Madrid CF",
+        "C": "Chelsea F.C.",
+        "D": "Sevilla FC"
       },
       "choices_cantonese": {
-        "A": "奧林匹克里昂",
-        "B": "曼城足球會",
-        "C": "馬賽足球會",
-        "D": "拜仁慕尼黑"
+        "A": "拜仁慕尼黑",
+        "B": "皇家馬德里足球會",
+        "C": "車路士",
+        "D": "西維爾足球會"
       },
-      "correct_answer": "D",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "FC Bayern Munich",
         "name_cantonese": "拜仁慕尼黑",
@@ -5414,14 +5414,14 @@
         "total_clubs": 3
       },
       "distractors": [
-        "Olympique Lyonnais",
-        "Olympique de Marseille",
-        "Manchester City F.C."
+        "Real Madrid CF",
+        "Chelsea F.C.",
+        "Sevilla FC"
       ],
       "distractors_cantonese": [
-        "奧林匹克里昂",
-        "馬賽足球會",
-        "曼城足球會"
+        "皇家馬德里足球會",
+        "車路士",
+        "西維爾足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -5429,18 +5429,18 @@
       "question": "Which team has Sergio Busquets played for?",
       "question_cantonese": "沙治奧·布斯基斯曾經效力過邊隊？",
       "choices": {
-        "A": "Schalke 04",
-        "B": "FC Barcelona",
-        "C": "Juventus FC",
-        "D": "Al-Nassr"
+        "A": "FC Barcelona",
+        "B": "Manchester City F.C.",
+        "C": "Olympique de Marseille",
+        "D": "Tottenham Hotspur F.C."
       },
       "choices_cantonese": {
-        "A": "史浩克零四足球會",
-        "B": "巴塞隆拿足球會",
-        "C": "祖雲達斯",
-        "D": "艾納斯"
+        "A": "巴塞隆拿足球會",
+        "B": "曼城足球會",
+        "C": "馬賽足球會",
+        "D": "熱刺"
       },
-      "correct_answer": "B",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "FC Barcelona",
         "name_cantonese": "巴塞隆拿足球會",
@@ -5458,14 +5458,14 @@
         "total_clubs": 8
       },
       "distractors": [
-        "Al-Nassr",
-        "Schalke 04",
-        "Juventus FC"
+        "Manchester City F.C.",
+        "Tottenham Hotspur F.C.",
+        "Olympique de Marseille"
       ],
       "distractors_cantonese": [
-        "艾納斯",
-        "史浩克零四足球會",
-        "祖雲達斯"
+        "曼城足球會",
+        "熱刺",
+        "馬賽足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -5473,18 +5473,18 @@
       "question": "Which team has Nicolás Otamendi played for?",
       "question_cantonese": "尼古拉斯奧達文迪曾經效力過邊隊？",
       "choices": {
-        "A": "Schalke 04",
-        "B": "Arsenal F.C.",
-        "C": "Manchester City F.C.",
-        "D": "FC Barcelona"
+        "A": "Paris Saint-Germain FC",
+        "B": "Manchester City F.C.",
+        "C": "São Paulo FC",
+        "D": "A.S. Roma"
       },
       "choices_cantonese": {
-        "A": "史浩克零四足球會",
-        "B": "阿仙奴",
-        "C": "曼城足球會",
-        "D": "巴塞隆拿足球會"
+        "A": "巴黎聖日耳門",
+        "B": "曼城足球會",
+        "C": "聖保羅足球會",
+        "D": "羅馬體育會"
       },
-      "correct_answer": "C",
+      "correct_answer": "B",
       "correct_club_info": {
         "name": "Manchester City F.C.",
         "name_cantonese": "曼城足球會",
@@ -5502,14 +5502,14 @@
         "total_clubs": 6
       },
       "distractors": [
-        "Arsenal F.C.",
-        "FC Barcelona",
-        "Schalke 04"
+        "São Paulo FC",
+        "Paris Saint-Germain FC",
+        "A.S. Roma"
       ],
       "distractors_cantonese": [
-        "阿仙奴",
-        "巴塞隆拿足球會",
-        "史浩克零四足球會"
+        "聖保羅足球會",
+        "巴黎聖日耳門",
+        "羅馬體育會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -5517,18 +5517,18 @@
       "question": "Which team has Paulo Dybala played for?",
       "question_cantonese": "保羅·戴巴拿曾經效力過邊隊？",
       "choices": {
-        "A": "Villarreal CF",
-        "B": "Juventus FC",
-        "C": "S.L. Benfica",
-        "D": "Schalke 04"
+        "A": "Manchester United F.C.",
+        "B": "SV Werder Bremen",
+        "C": "Valencia CF",
+        "D": "Juventus FC"
       },
       "choices_cantonese": {
-        "A": "維拉利爾足球會",
-        "B": "祖雲達斯",
-        "C": "賓菲加",
-        "D": "史浩克零四足球會"
+        "A": "曼聯",
+        "B": "雲達不萊梅體育會",
+        "C": "華倫西亞足球會",
+        "D": "祖雲達斯"
       },
-      "correct_answer": "B",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "Juventus FC",
         "name_cantonese": "祖雲達斯",
@@ -5546,14 +5546,14 @@
         "total_clubs": 4
       },
       "distractors": [
-        "S.L. Benfica",
-        "Villarreal CF",
-        "Schalke 04"
+        "Valencia CF",
+        "SV Werder Bremen",
+        "Manchester United F.C."
       ],
       "distractors_cantonese": [
-        "賓菲加",
-        "維拉利爾足球會",
-        "史浩克零四足球會"
+        "華倫西亞足球會",
+        "雲達不萊梅體育會",
+        "曼聯"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -5561,16 +5561,16 @@
       "question": "Which team has Cristiano Ronaldo played for?",
       "question_cantonese": "基斯坦奴朗拿度曾經效力過邊隊？",
       "choices": {
-        "A": "Liverpool F.C.",
-        "B": "Schalke 04",
+        "A": "Manchester City F.C.",
+        "B": "Paris Saint-Germain FC",
         "C": "Real Madrid CF",
-        "D": "Valencia CF"
+        "D": "A.S. Roma"
       },
       "choices_cantonese": {
-        "A": "利物浦足球會",
-        "B": "史浩克零四足球會",
+        "A": "曼城足球會",
+        "B": "巴黎聖日耳門",
         "C": "皇家馬德里足球會",
-        "D": "華倫西亞足球會"
+        "D": "羅馬體育會"
       },
       "correct_answer": "C",
       "correct_club_info": {
@@ -5590,14 +5590,14 @@
         "total_clubs": 7
       },
       "distractors": [
-        "Schalke 04",
-        "Valencia CF",
-        "Liverpool F.C."
+        "A.S. Roma",
+        "Manchester City F.C.",
+        "Paris Saint-Germain FC"
       ],
       "distractors_cantonese": [
-        "史浩克零四足球會",
-        "華倫西亞足球會",
-        "利物浦足球會"
+        "羅馬體育會",
+        "曼城足球會",
+        "巴黎聖日耳門"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -5605,18 +5605,18 @@
       "question": "Which team has Radamel Falcao played for?",
       "question_cantonese": "拉達梅爾·法卡奧曾經效力過邊隊？",
       "choices": {
-        "A": "AS Monaco FC",
-        "B": "Schalke 04",
-        "C": "Inter Miami CF",
-        "D": "Udinese Calcio"
+        "A": "Inter Miami CF",
+        "B": "AS Monaco FC",
+        "C": "Borussia Dortmund",
+        "D": "Olympique de Marseille"
       },
       "choices_cantonese": {
-        "A": "unknown",
-        "B": "史浩克零四足球會",
-        "C": "邁阿密國際",
-        "D": "烏甸尼斯足球會"
+        "A": "邁阿密國際",
+        "B": "unknown",
+        "C": "多蒙特",
+        "D": "馬賽足球會"
       },
-      "correct_answer": "A",
+      "correct_answer": "B",
       "correct_club_info": {
         "name": "AS Monaco FC",
         "name_cantonese": "unknown",
@@ -5634,14 +5634,14 @@
         "total_clubs": 10
       },
       "distractors": [
-        "Schalke 04",
         "Inter Miami CF",
-        "Udinese Calcio"
+        "Olympique de Marseille",
+        "Borussia Dortmund"
       ],
       "distractors_cantonese": [
-        "史浩克零四足球會",
         "邁阿密國際",
-        "烏甸尼斯足球會"
+        "馬賽足球會",
+        "多蒙特"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -5649,16 +5649,16 @@
       "question": "Which team has Pedri played for?",
       "question_cantonese": "柏迪曾經效力過邊隊？",
       "choices": {
-        "A": "Manchester City F.C.",
+        "A": "Inter Milan",
         "B": "FC Barcelona",
-        "C": "S.L. Benfica",
-        "D": "Juventus FC"
+        "C": "Paris Saint-Germain FC",
+        "D": "FC Bayern Munich"
       },
       "choices_cantonese": {
-        "A": "曼城足球會",
+        "A": "國際米蘭",
         "B": "巴塞隆拿足球會",
-        "C": "賓菲加",
-        "D": "祖雲達斯"
+        "C": "巴黎聖日耳門",
+        "D": "拜仁慕尼黑"
       },
       "correct_answer": "B",
       "correct_club_info": {
@@ -5678,14 +5678,14 @@
         "total_clubs": 2
       },
       "distractors": [
-        "Juventus FC",
-        "S.L. Benfica",
-        "Manchester City F.C."
+        "Paris Saint-Germain FC",
+        "FC Bayern Munich",
+        "Inter Milan"
       ],
       "distractors_cantonese": [
-        "祖雲達斯",
-        "賓菲加",
-        "曼城足球會"
+        "巴黎聖日耳門",
+        "拜仁慕尼黑",
+        "國際米蘭"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -5693,18 +5693,18 @@
       "question": "Which team has Marcelo Brozović played for?",
       "question_cantonese": "馬些路波索域曾經效力過邊隊？",
       "choices": {
-        "A": "Inter Milan",
-        "B": "SV Werder Bremen",
-        "C": "Liverpool F.C.",
-        "D": "Borussia Dortmund"
+        "A": "Sevilla FC",
+        "B": "Inter Milan",
+        "C": "FC Bayern Munich",
+        "D": "Udinese Calcio"
       },
       "choices_cantonese": {
-        "A": "國際米蘭",
-        "B": "雲達不萊梅體育會",
-        "C": "利物浦足球會",
-        "D": "多蒙特"
+        "A": "西維爾足球會",
+        "B": "國際米蘭",
+        "C": "拜仁慕尼黑",
+        "D": "烏甸尼斯足球會"
       },
-      "correct_answer": "A",
+      "correct_answer": "B",
       "correct_club_info": {
         "name": "Inter Milan",
         "name_cantonese": "國際米蘭",
@@ -5722,14 +5722,14 @@
         "total_clubs": 5
       },
       "distractors": [
-        "Borussia Dortmund",
-        "SV Werder Bremen",
-        "Liverpool F.C."
+        "Udinese Calcio",
+        "FC Bayern Munich",
+        "Sevilla FC"
       ],
       "distractors_cantonese": [
-        "多蒙特",
-        "雲達不萊梅體育會",
-        "利物浦足球會"
+        "烏甸尼斯足球會",
+        "拜仁慕尼黑",
+        "西維爾足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -5737,18 +5737,18 @@
       "question": "Which team has Manuel Neuer played for?",
       "question_cantonese": "紐亞曾經效力過邊隊？",
       "choices": {
-        "A": "Olympique Lyonnais",
-        "B": "Atlético de Madrid",
-        "C": "FC Bayern Munich",
-        "D": "Tottenham Hotspur F.C."
+        "A": "FC Bayern Munich",
+        "B": "SV Werder Bremen",
+        "C": "Manchester City F.C.",
+        "D": "Udinese Calcio"
       },
       "choices_cantonese": {
-        "A": "奧林匹克里昂",
-        "B": "馬德里體育會",
-        "C": "拜仁慕尼黑",
-        "D": "熱刺"
+        "A": "拜仁慕尼黑",
+        "B": "雲達不萊梅體育會",
+        "C": "曼城足球會",
+        "D": "烏甸尼斯足球會"
       },
-      "correct_answer": "C",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "FC Bayern Munich",
         "name_cantonese": "拜仁慕尼黑",
@@ -5766,14 +5766,14 @@
         "total_clubs": 3
       },
       "distractors": [
-        "Atlético de Madrid",
-        "Olympique Lyonnais",
-        "Tottenham Hotspur F.C."
+        "SV Werder Bremen",
+        "Udinese Calcio",
+        "Manchester City F.C."
       ],
       "distractors_cantonese": [
-        "馬德里體育會",
-        "奧林匹克里昂",
-        "熱刺"
+        "雲達不萊梅體育會",
+        "烏甸尼斯足球會",
+        "曼城足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -5781,18 +5781,18 @@
       "question": "Which team has Franck Ribéry played for?",
       "question_cantonese": "列貝利曾經效力過邊隊？",
       "choices": {
-        "A": "FC Barcelona",
-        "B": "Olympique Lyonnais",
-        "C": "FC Bayern Munich",
-        "D": "FC Porto"
+        "A": "FC Bayern Munich",
+        "B": "Inter Milan",
+        "C": "Juventus FC",
+        "D": "Arsenal F.C."
       },
       "choices_cantonese": {
-        "A": "巴塞隆拿足球會",
-        "B": "奧林匹克里昂",
-        "C": "拜仁慕尼黑",
-        "D": "波圖足球會"
+        "A": "拜仁慕尼黑",
+        "B": "國際米蘭",
+        "C": "祖雲達斯",
+        "D": "阿仙奴"
       },
-      "correct_answer": "C",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "FC Bayern Munich",
         "name_cantonese": "拜仁慕尼黑",
@@ -5810,14 +5810,14 @@
         "total_clubs": 9
       },
       "distractors": [
-        "FC Barcelona",
-        "FC Porto",
-        "Olympique Lyonnais"
+        "Inter Milan",
+        "Juventus FC",
+        "Arsenal F.C."
       ],
       "distractors_cantonese": [
-        "巴塞隆拿足球會",
-        "波圖足球會",
-        "奧林匹克里昂"
+        "國際米蘭",
+        "祖雲達斯",
+        "阿仙奴"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -5825,18 +5825,18 @@
       "question": "Which team has Sadio Mané played for?",
       "question_cantonese": "沙迪奧文尼曾經效力過邊隊？",
       "choices": {
-        "A": "Atlético de Madrid",
-        "B": "FC Porto",
-        "C": "Manchester City F.C.",
-        "D": "Liverpool F.C."
+        "A": "Paris Saint-Germain FC",
+        "B": "Valencia CF",
+        "C": "Liverpool F.C.",
+        "D": "Manchester City F.C."
       },
       "choices_cantonese": {
-        "A": "馬德里體育會",
-        "B": "波圖足球會",
-        "C": "曼城足球會",
-        "D": "利物浦足球會"
+        "A": "巴黎聖日耳門",
+        "B": "華倫西亞足球會",
+        "C": "利物浦足球會",
+        "D": "曼城足球會"
       },
-      "correct_answer": "D",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "Liverpool F.C.",
         "name_cantonese": "利物浦足球會",
@@ -5854,14 +5854,14 @@
         "total_clubs": 6
       },
       "distractors": [
-        "Atlético de Madrid",
-        "FC Porto",
-        "Manchester City F.C."
+        "Valencia CF",
+        "Manchester City F.C.",
+        "Paris Saint-Germain FC"
       ],
       "distractors_cantonese": [
-        "馬德里體育會",
-        "波圖足球會",
-        "曼城足球會"
+        "華倫西亞足球會",
+        "曼城足球會",
+        "巴黎聖日耳門"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -5869,18 +5869,18 @@
       "question": "Which team has Javi Martínez played for?",
       "question_cantonese": "查維·馬天尼斯曾經效力過邊隊？",
       "choices": {
-        "A": "Inter Milan",
-        "B": "FC Bayern Munich",
-        "C": "Sevilla FC",
-        "D": "Real Madrid CF"
+        "A": "Sevilla FC",
+        "B": "Inter Miami CF",
+        "C": "Liverpool F.C.",
+        "D": "FC Bayern Munich"
       },
       "choices_cantonese": {
-        "A": "國際米蘭",
-        "B": "拜仁慕尼黑",
-        "C": "西維爾足球會",
-        "D": "皇家馬德里足球會"
+        "A": "西維爾足球會",
+        "B": "邁阿密國際",
+        "C": "利物浦足球會",
+        "D": "拜仁慕尼黑"
       },
-      "correct_answer": "B",
+      "correct_answer": "D",
       "correct_club_info": {
         "name": "FC Bayern Munich",
         "name_cantonese": "拜仁慕尼黑",
@@ -5898,13 +5898,13 @@
         "total_clubs": 11
       },
       "distractors": [
-        "Inter Milan",
-        "Real Madrid CF",
+        "Liverpool F.C.",
+        "Inter Miami CF",
         "Sevilla FC"
       ],
       "distractors_cantonese": [
-        "國際米蘭",
-        "皇家馬德里足球會",
+        "利物浦足球會",
+        "邁阿密國際",
         "西維爾足球會"
       ],
       "question_type": "player_team_affiliation"
@@ -5913,18 +5913,18 @@
       "question": "Which team has Joshua Kimmich played for?",
       "question_cantonese": "約素亞·劍米克曾經效力過邊隊？",
       "choices": {
-        "A": "FC Bayern Munich",
-        "B": "Udinese Calcio",
-        "C": "Juventus FC",
-        "D": "Inter Milan"
+        "A": "Udinese Calcio",
+        "B": "FC Bayern Munich",
+        "C": "Valencia CF",
+        "D": "SV Werder Bremen"
       },
       "choices_cantonese": {
-        "A": "拜仁慕尼黑",
-        "B": "烏甸尼斯足球會",
-        "C": "祖雲達斯",
-        "D": "國際米蘭"
+        "A": "烏甸尼斯足球會",
+        "B": "拜仁慕尼黑",
+        "C": "華倫西亞足球會",
+        "D": "雲達不萊梅體育會"
       },
-      "correct_answer": "A",
+      "correct_answer": "B",
       "correct_club_info": {
         "name": "FC Bayern Munich",
         "name_cantonese": "拜仁慕尼黑",
@@ -5942,14 +5942,14 @@
         "total_clubs": 2
       },
       "distractors": [
-        "Inter Milan",
-        "Juventus FC",
-        "Udinese Calcio"
+        "Valencia CF",
+        "Udinese Calcio",
+        "SV Werder Bremen"
       ],
       "distractors_cantonese": [
-        "國際米蘭",
-        "祖雲達斯",
-        "烏甸尼斯足球會"
+        "華倫西亞足球會",
+        "烏甸尼斯足球會",
+        "雲達不萊梅體育會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -5958,15 +5958,15 @@
       "question_cantonese": "馬些路曾經效力過邊隊？",
       "choices": {
         "A": "Real Madrid CF",
-        "B": "Chelsea F.C.",
-        "C": "Inter Miami CF",
-        "D": "Valencia CF"
+        "B": "Liverpool F.C.",
+        "C": "Manchester City F.C.",
+        "D": "Borussia Dortmund"
       },
       "choices_cantonese": {
         "A": "皇家馬德里足球會",
-        "B": "車路士",
-        "C": "邁阿密國際",
-        "D": "華倫西亞足球會"
+        "B": "利物浦足球會",
+        "C": "曼城足球會",
+        "D": "多蒙特"
       },
       "correct_answer": "A",
       "correct_club_info": {
@@ -5986,14 +5986,14 @@
         "total_clubs": 4
       },
       "distractors": [
-        "Chelsea F.C.",
-        "Inter Miami CF",
-        "Valencia CF"
+        "Borussia Dortmund",
+        "Manchester City F.C.",
+        "Liverpool F.C."
       ],
       "distractors_cantonese": [
-        "車路士",
-        "邁阿密國際",
-        "華倫西亞足球會"
+        "多蒙特",
+        "曼城足球會",
+        "利物浦足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -6001,18 +6001,18 @@
       "question": "Which team has Robert Lewandowski played for?",
       "question_cantonese": "利雲度夫斯基曾經效力過邊隊？",
       "choices": {
-        "A": "FC Bayern Munich",
-        "B": "Manchester United F.C.",
-        "C": "Al-Nassr",
-        "D": "Chelsea F.C."
+        "A": "Arsenal F.C.",
+        "B": "FC Bayern Munich",
+        "C": "A.S. Roma",
+        "D": "SV Werder Bremen"
       },
       "choices_cantonese": {
-        "A": "拜仁慕尼黑",
-        "B": "曼聯",
-        "C": "艾納斯",
-        "D": "車路士"
+        "A": "阿仙奴",
+        "B": "拜仁慕尼黑",
+        "C": "羅馬體育會",
+        "D": "雲達不萊梅體育會"
       },
-      "correct_answer": "A",
+      "correct_answer": "B",
       "correct_club_info": {
         "name": "FC Bayern Munich",
         "name_cantonese": "拜仁慕尼黑",
@@ -6030,14 +6030,14 @@
         "total_clubs": 5
       },
       "distractors": [
-        "Manchester United F.C.",
-        "Chelsea F.C.",
-        "Al-Nassr"
+        "A.S. Roma",
+        "Arsenal F.C.",
+        "SV Werder Bremen"
       ],
       "distractors_cantonese": [
-        "曼聯",
-        "車路士",
-        "艾納斯"
+        "羅馬體育會",
+        "阿仙奴",
+        "雲達不萊梅體育會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -6045,18 +6045,18 @@
       "question": "Which team has Christian Eriksen played for?",
       "question_cantonese": "基斯甸艾歷臣曾經效力過邊隊？",
       "choices": {
-        "A": "Sevilla FC",
-        "B": "Middelfart Boldklub",
-        "C": "Villarreal CF",
-        "D": "Real Madrid CF"
+        "A": "FC Porto",
+        "B": "SV Werder Bremen",
+        "C": "Middelfart Boldklub",
+        "D": "FC Bayern Munich"
       },
       "choices_cantonese": {
-        "A": "西維爾足球會",
-        "B": "unknown",
-        "C": "維拉利爾足球會",
-        "D": "皇家馬德里足球會"
+        "A": "波圖足球會",
+        "B": "雲達不萊梅體育會",
+        "C": "unknown",
+        "D": "拜仁慕尼黑"
       },
-      "correct_answer": "B",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "Middelfart Boldklub",
         "name_cantonese": "unknown",
@@ -6074,14 +6074,14 @@
         "total_clubs": 7
       },
       "distractors": [
-        "Real Madrid CF",
-        "Sevilla FC",
-        "Villarreal CF"
+        "FC Porto",
+        "FC Bayern Munich",
+        "SV Werder Bremen"
       ],
       "distractors_cantonese": [
-        "皇家馬德里足球會",
-        "西維爾足球會",
-        "維拉利爾足球會"
+        "波圖足球會",
+        "拜仁慕尼黑",
+        "雲達不萊梅體育會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -6089,18 +6089,18 @@
       "question": "Which team has Xavi Hernández played for?",
       "question_cantonese": "沙維曾經效力過邊隊？",
       "choices": {
-        "A": "Tottenham Hotspur F.C.",
-        "B": "FC Bayern Munich",
-        "C": "FC Barcelona",
-        "D": "S.L. Benfica"
+        "A": "FC Barcelona",
+        "B": "Real Madrid CF",
+        "C": "AFC Ajax",
+        "D": "Tottenham Hotspur F.C."
       },
       "choices_cantonese": {
-        "A": "熱刺",
-        "B": "拜仁慕尼黑",
-        "C": "巴塞隆拿足球會",
-        "D": "賓菲加"
+        "A": "巴塞隆拿足球會",
+        "B": "皇家馬德里足球會",
+        "C": "阿積士足球會",
+        "D": "熱刺"
       },
-      "correct_answer": "C",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "FC Barcelona",
         "name_cantonese": "巴塞隆拿足球會",
@@ -6118,14 +6118,14 @@
         "total_clubs": 3
       },
       "distractors": [
+        "Real Madrid CF",
         "Tottenham Hotspur F.C.",
-        "FC Bayern Munich",
-        "S.L. Benfica"
+        "AFC Ajax"
       ],
       "distractors_cantonese": [
+        "皇家馬德里足球會",
         "熱刺",
-        "拜仁慕尼黑",
-        "賓菲加"
+        "阿積士足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -6133,18 +6133,18 @@
       "question": "Which team has Matthijs de Ligt played for?",
       "question_cantonese": "馬菲斯·迪列治曾經效力過邊隊？",
       "choices": {
-        "A": "Inter Milan",
-        "B": "Paris Saint-Germain FC",
-        "C": "Manchester City F.C.",
-        "D": "AFC Ajax"
+        "A": "Atlético de Madrid",
+        "B": "FC Barcelona",
+        "C": "AFC Ajax",
+        "D": "Liverpool F.C."
       },
       "choices_cantonese": {
-        "A": "國際米蘭",
-        "B": "巴黎聖日耳門",
-        "C": "曼城足球會",
-        "D": "阿積士足球會"
+        "A": "馬德里體育會",
+        "B": "巴塞隆拿足球會",
+        "C": "阿積士足球會",
+        "D": "利物浦足球會"
       },
-      "correct_answer": "D",
+      "correct_answer": "C",
       "correct_club_info": {
         "name": "AFC Ajax",
         "name_cantonese": "阿積士足球會",
@@ -6162,14 +6162,14 @@
         "total_clubs": 4
       },
       "distractors": [
-        "Manchester City F.C.",
-        "Inter Milan",
-        "Paris Saint-Germain FC"
+        "Atlético de Madrid",
+        "Liverpool F.C.",
+        "FC Barcelona"
       ],
       "distractors_cantonese": [
-        "曼城足球會",
-        "國際米蘭",
-        "巴黎聖日耳門"
+        "馬德里體育會",
+        "利物浦足球會",
+        "巴塞隆拿足球會"
       ],
       "question_type": "player_team_affiliation"
     },
@@ -6177,18 +6177,18 @@
       "question": "Which team has Sergio Ramos played for?",
       "question_cantonese": "沙治奧拉莫斯曾經效力過邊隊？",
       "choices": {
-        "A": "Manchester City F.C.",
-        "B": "FC Barcelona",
-        "C": "Olympique de Marseille",
-        "D": "Real Madrid CF"
+        "A": "Real Madrid CF",
+        "B": "Villarreal CF",
+        "C": "Al-Nassr",
+        "D": "Tottenham Hotspur F.C."
       },
       "choices_cantonese": {
-        "A": "曼城足球會",
-        "B": "巴塞隆拿足球會",
-        "C": "馬賽足球會",
-        "D": "皇家馬德里足球會"
+        "A": "皇家馬德里足球會",
+        "B": "維拉利爾足球會",
+        "C": "艾納斯",
+        "D": "熱刺"
       },
-      "correct_answer": "D",
+      "correct_answer": "A",
       "correct_club_info": {
         "name": "Real Madrid CF",
         "name_cantonese": "皇家馬德里足球會",
@@ -6206,14 +6206,14 @@
         "total_clubs": 5
       },
       "distractors": [
-        "Olympique de Marseille",
-        "Manchester City F.C.",
-        "FC Barcelona"
+        "Al-Nassr",
+        "Villarreal CF",
+        "Tottenham Hotspur F.C."
       ],
       "distractors_cantonese": [
-        "馬賽足球會",
-        "曼城足球會",
-        "巴塞隆拿足球會"
+        "艾納斯",
+        "維拉利爾足球會",
+        "熱刺"
       ],
       "question_type": "player_team_affiliation"
     }

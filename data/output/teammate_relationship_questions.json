@@ -9,7 +9,7 @@
     ],
     "answer_format": "Player pairs (e.g., \"Player A and Player B\")",
     "total_questions": 50,
-    "generation_date": "2025-09-08T17:55:59.623693",
+    "generation_date": "2025-09-08T22:00:32.282784",
     "format": "Four choices (A, B, C, D) with one correct answer (actual club teammates) and three distractors (non-teammates)",
     "note": "Focuses specifically on club teammates, not national team teammates"
   },
@@ -18,51 +18,51 @@
       "question": "Which two players below have been teammates in the same club before?",
       "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
       "choices": {
-        "A": "Robin van Persie and Vinícius Júnior",
-        "B": "Papu Gómez and Thomas Müller",
-        "C": "Bernardo Silva and Fernandinho",
-        "D": "Sadio Mané and Lorenzo Insigne"
+        "A": "Nicolás Otamendi and Ronald Araújo",
+        "B": "Carlos Tevez and Marcelo Brozović",
+        "C": "Zlatan Ibrahimović and Jérôme Boateng",
+        "D": "Sokratis Papastathopoulos and Isco"
       },
       "choices_cantonese": {
-        "A": "雲佩斯同雲尼斯奧斯·祖利亞",
-        "B": "達里奧·戈麥斯同湯馬士·梅拿",
-        "C": "賓拿度施華同費蘭甸奴",
-        "D": "沙迪奧文尼同洛倫佐·因西涅"
+        "A": "尼古拉斯奧達文迪同阿拿祖",
+        "B": "迪維斯同馬些路波索域",
+        "C": "伊巴謙莫域同謝洛美·保定",
+        "D": "蘇卡迪斯同伊斯高"
       },
-      "correct_answer": "C",
+      "correct_answer": "D",
       "correct_pair_info": {
         "player1": {
-          "id": "Q15521306",
-          "name_english": "Bernardo Silva",
-          "name_cantonese": "賓拿度施華",
-          "start_year": 2017,
+          "id": "Q192923",
+          "name_english": "Sokratis Papastathopoulos",
+          "name_cantonese": "蘇卡迪斯",
+          "start_year": 2023,
+          "end_year": 2024
+        },
+        "player2": {
+          "id": "Q80892",
+          "name_english": "Isco",
+          "name_cantonese": "伊斯高",
+          "start_year": 2023,
           "end_year": null
         },
-        "player2": {
-          "id": "Q459356",
-          "name_english": "Fernandinho",
-          "name_cantonese": "費蘭甸奴",
-          "start_year": 2013,
-          "end_year": 2022
-        },
         "club": {
-          "id": "Q50602",
-          "name_english": "Manchester City F.C.",
-          "name_cantonese": "曼城足球會",
+          "id": "Q8723",
+          "name_english": "Real Betis Balompié",
+          "name_cantonese": "皇家貝迪斯足球會",
           "type": "club"
         }
       },
       "explanations": {
         "A": "They have never been teammates",
         "B": "They have never been teammates",
-        "C": "They were teammates at Manchester City F.C.",
-        "D": "They have never been teammates"
+        "C": "They have never been teammates",
+        "D": "They were teammates at Real Betis Balompié"
       },
       "explanations_cantonese": {
         "A": "佢哋從來冇做過隊友",
         "B": "佢哋從來冇做過隊友",
-        "C": "佢哋喺曼城足球會做過隊友",
-        "D": "佢哋從來冇做過隊友"
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋喺皇家貝迪斯足球會做過隊友"
       },
       "question_type": "teammate_relationship"
     },
@@ -70,51 +70,51 @@
       "question": "Which two players below have been teammates in the same club before?",
       "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
       "choices": {
-        "A": "Matthijs de Ligt and Diego Godín",
-        "B": "Lautaro Martínez and César Azpilicueta",
-        "C": "Arturo Vidal and Carlos Tevez",
-        "D": "Yann Sommer and Riyad Mahrez"
+        "A": "Vinícius Júnior and Sergio Busquets",
+        "B": "Toby Alderweireld and Leroy Sané",
+        "C": "David Luiz and Douglas Costa",
+        "D": "Gareth Bale and Hugo Lloris"
       },
       "choices_cantonese": {
-        "A": "馬菲斯·迪列治同高甸",
-        "B": "拿達路·馬天尼斯同艾斯派古達",
-        "C": "亞杜羅·維度同迪維斯",
-        "D": "恩·蘇馬同列恩馬列斯"
+        "A": "雲尼斯奧斯·祖利亞同沙治奧·布斯基斯",
+        "B": "艾達韋列特同利萊辛尼",
+        "C": "大衛雷斯同杜格拉斯·哥斯達",
+        "D": "加里夫巴利同曉高洛里斯"
       },
-      "correct_answer": "C",
+      "correct_answer": "D",
       "correct_pair_info": {
         "player1": {
-          "id": "Q192671",
-          "name_english": "Arturo Vidal",
-          "name_cantonese": "亞杜羅·維度",
-          "start_year": 2011,
-          "end_year": 2015
+          "id": "Q184586",
+          "name_english": "Gareth Bale",
+          "name_cantonese": "加里夫巴利",
+          "start_year": 2020,
+          "end_year": 2021
         },
         "player2": {
-          "id": "Q50600",
-          "name_english": "Carlos Tevez",
-          "name_cantonese": "迪維斯",
-          "start_year": 2013,
-          "end_year": 2015
+          "id": "Q1907",
+          "name_english": "Hugo Lloris",
+          "name_cantonese": "曉高洛里斯",
+          "start_year": 2012,
+          "end_year": 2023
         },
         "club": {
-          "id": "Q1422",
-          "name_english": "Juventus FC",
-          "name_cantonese": "祖雲達斯",
+          "id": "Q18741",
+          "name_english": "Tottenham Hotspur F.C.",
+          "name_cantonese": "熱刺",
           "type": "club"
         }
       },
       "explanations": {
         "A": "They have never been teammates",
         "B": "They have never been teammates",
-        "C": "They were teammates at Juventus FC",
-        "D": "They have never been teammates"
+        "C": "They have never been teammates",
+        "D": "They were teammates at Tottenham Hotspur F.C."
       },
       "explanations_cantonese": {
         "A": "佢哋從來冇做過隊友",
         "B": "佢哋從來冇做過隊友",
-        "C": "佢哋喺祖雲達斯做過隊友",
-        "D": "佢哋從來冇做過隊友"
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋喺熱刺做過隊友"
       },
       "question_type": "teammate_relationship"
     },
@@ -122,32 +122,136 @@
       "question": "Which two players below have been teammates in the same club before?",
       "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
       "choices": {
-        "A": "Marcelo Brozović and N'Golo Kanté",
-        "B": "David Alaba and Luka Modrić",
-        "C": "Raheem Sterling and Marco Reus",
-        "D": "Isco and Alexis Sánchez Chileno"
+        "A": "Kevin De Bruyne and Raphaël Varane",
+        "B": "Zlatan Ibrahimović and Arjen Robben",
+        "C": "Sergio Busquets and Raphaël Varane",
+        "D": "David Alaba and Joshua Kimmich"
       },
       "choices_cantonese": {
-        "A": "馬些路波索域同簡迪",
-        "B": "大衛·阿拉巴同盧卡·摩德列治",
-        "C": "史達寧同馬高·萊斯",
-        "D": "伊斯高同阿歷斯山齊士"
+        "A": "迪布尼同華拉尼",
+        "B": "伊巴謙莫域同阿仁洛賓",
+        "C": "沙治奧·布斯基斯同華拉尼",
+        "D": "大衛·阿拉巴同約素亞·劍米克"
       },
-      "correct_answer": "B",
+      "correct_answer": "D",
       "correct_pair_info": {
         "player1": {
           "id": "Q31981",
           "name_english": "David Alaba",
           "name_cantonese": "大衛·阿拉巴",
-          "start_year": 2021,
-          "end_year": null
+          "start_year": 2010,
+          "end_year": 2021
         },
         "player2": {
-          "id": "Q483837",
-          "name_english": "Luka Modrić",
-          "name_cantonese": "盧卡·摩德列治",
-          "start_year": 2012,
+          "id": "Q13865408",
+          "name_english": "Joshua Kimmich",
+          "name_cantonese": "約素亞·劍米克",
+          "start_year": 2015,
+          "end_year": null
+        },
+        "club": {
+          "id": "Q15789",
+          "name_english": "FC Bayern Munich",
+          "name_cantonese": "拜仁慕尼黑",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They have never been teammates",
+        "C": "They have never been teammates",
+        "D": "They were teammates at FC Bayern Munich"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋喺拜仁慕尼黑做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Ivan Perišić and Ivan Rakitić",
+        "B": "Rodri and Giorgio Chiellini",
+        "C": "Bernardo Silva and Wayne Rooney",
+        "D": "Marcelo Vieira and Diego Godín"
+      },
+      "choices_cantonese": {
+        "A": "艾雲·比列錫同伊凡·拉傑迪",
+        "B": "洛迪 (足球員)同喬治奧·基亞連尼",
+        "C": "賓拿度施華同朗尼",
+        "D": "馬些路同高甸"
+      },
+      "correct_answer": "A",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q161054",
+          "name_english": "Ivan Perišić",
+          "name_cantonese": "艾雲·比列錫",
+          "start_year": 2024,
+          "end_year": 2024
+        },
+        "player2": {
+          "id": "Q115453",
+          "name_english": "Ivan Rakitić",
+          "name_cantonese": "伊凡·拉傑迪",
+          "start_year": 2024,
           "end_year": 2025
+        },
+        "club": {
+          "id": "Q181216",
+          "name_english": "HNK Hajduk Split",
+          "name_cantonese": "夏德足球會",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They were teammates at HNK Hajduk Split",
+        "B": "They have never been teammates",
+        "C": "They have never been teammates",
+        "D": "They have never been teammates"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋喺夏德足球會做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋從來冇做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Gareth Bale and Keylor Navas",
+        "B": "Frenkie de Jong and Bernardo Silva",
+        "C": "Arjen Robben and N'Golo Kanté",
+        "D": "Paul Pogba and Toni Kroos"
+      },
+      "choices_cantonese": {
+        "A": "加里夫巴利同基羅拿華斯",
+        "B": "法蘭基·迪莊同賓拿度施華",
+        "C": "阿仁洛賓同簡迪",
+        "D": "普巴同東尼·卻奧斯"
+      },
+      "correct_answer": "A",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q184586",
+          "name_english": "Gareth Bale",
+          "name_cantonese": "加里夫巴利",
+          "start_year": 2013,
+          "end_year": 2022
+        },
+        "player2": {
+          "id": "Q969423",
+          "name_english": "Keylor Navas",
+          "name_cantonese": "基羅拿華斯",
+          "start_year": 2014,
+          "end_year": 2019
         },
         "club": {
           "id": "Q8682",
@@ -157,169 +261,13 @@
         }
       },
       "explanations": {
-        "A": "They have never been teammates",
-        "B": "They were teammates at Real Madrid CF",
-        "C": "They have never been teammates",
-        "D": "They have never been teammates"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋喺皇家馬德里足球會做過隊友",
-        "C": "佢哋從來冇做過隊友",
-        "D": "佢哋從來冇做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Neymar and Joshua Kimmich",
-        "B": "Christian Eriksen and Dani Carvajal",
-        "C": "Marco Verratti and Sergio Ramos",
-        "D": "Sergio Agüero and Alex Sandro"
-      },
-      "choices_cantonese": {
-        "A": "尼馬同約素亞·劍米克",
-        "B": "基斯甸艾歷臣同丹尼卡華積",
-        "C": "華拉堤同沙治奧拉莫斯",
-        "D": "阿古路同A.辛特路"
-      },
-      "correct_answer": "C",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q337623",
-          "name_english": "Marco Verratti",
-          "name_cantonese": "華拉堤",
-          "start_year": 2012,
-          "end_year": 2023
-        },
-        "player2": {
-          "id": "Q483309",
-          "name_english": "Sergio Ramos",
-          "name_cantonese": "沙治奧拉莫斯",
-          "start_year": 2021,
-          "end_year": 2023
-        },
-        "club": {
-          "id": "Q483020",
-          "name_english": "Paris Saint-Germain FC",
-          "name_cantonese": "巴黎聖日耳門",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They have never been teammates",
-        "B": "They have never been teammates",
-        "C": "They were teammates at Paris Saint-Germain FC",
-        "D": "They have never been teammates"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋從來冇做過隊友",
-        "C": "佢哋喺巴黎聖日耳門做過隊友",
-        "D": "佢哋從來冇做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Christian Eriksen and Robin van Persie",
-        "B": "Karim Benzema and Luis Suárez",
-        "C": "Jamie Vardy and Miranda",
-        "D": "Alexis Sánchez Chileno and Xavi Hernández"
-      },
-      "choices_cantonese": {
-        "A": "基斯甸艾歷臣同雲佩斯",
-        "B": "卡廉賓森馬同路易斯·蘇亞利斯",
-        "C": "占美華迪同祖奧米蘭達",
-        "D": "阿歷斯山齊士同沙維"
-      },
-      "correct_answer": "D",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q180553",
-          "name_english": "Alexis Sánchez Chileno",
-          "name_cantonese": "阿歷斯山齊士",
-          "start_year": 2011,
-          "end_year": 2014
-        },
-        "player2": {
-          "id": "Q17500",
-          "name_english": "Xavi Hernández",
-          "name_cantonese": "沙維",
-          "start_year": 1998,
-          "end_year": 2015
-        },
-        "club": {
-          "id": "Q7156",
-          "name_english": "FC Barcelona",
-          "name_cantonese": "巴塞隆拿足球會",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They have never been teammates",
-        "B": "They have never been teammates",
-        "C": "They have never been teammates",
-        "D": "They were teammates at FC Barcelona"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋從來冇做過隊友",
-        "C": "佢哋從來冇做過隊友",
-        "D": "佢哋喺巴塞隆拿足球會做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Kevin De Bruyne and Nicolás Otamendi",
-        "B": "Sokratis Papastathopoulos and Cesc Fàbregas",
-        "C": "Jadon Sancho and João Cancelo",
-        "D": "Virgil van Dijk and Nemanja Matić"
-      },
-      "choices_cantonese": {
-        "A": "迪布尼同尼古拉斯奧達文迪",
-        "B": "蘇卡迪斯同法比加斯",
-        "C": "查頓辛祖同簡些路",
-        "D": "雲迪積克同尼馬查馬迪"
-      },
-      "correct_answer": "A",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q357984",
-          "name_english": "Kevin De Bruyne",
-          "name_cantonese": "迪布尼",
-          "start_year": 2015,
-          "end_year": 2025
-        },
-        "player2": {
-          "id": "Q182063",
-          "name_english": "Nicolás Otamendi",
-          "name_cantonese": "尼古拉斯奧達文迪",
-          "start_year": 2015,
-          "end_year": 2020
-        },
-        "club": {
-          "id": "Q50602",
-          "name_english": "Manchester City F.C.",
-          "name_cantonese": "曼城足球會",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They were teammates at Manchester City F.C.",
+        "A": "They were teammates at Real Madrid CF",
         "B": "They have never been teammates",
         "C": "They have never been teammates",
         "D": "They have never been teammates"
       },
       "explanations_cantonese": {
-        "A": "佢哋喺曼城足球會做過隊友",
+        "A": "佢哋喺皇家馬德里足球會做過隊友",
         "B": "佢哋從來冇做過隊友",
         "C": "佢哋從來冇做過隊友",
         "D": "佢哋從來冇做過隊友"
@@ -330,16 +278,16 @@
       "question": "Which two players below have been teammates in the same club before?",
       "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
       "choices": {
-        "A": "João Cancelo and Medhi Benatia",
-        "B": "Marc-André ter Stegen and Thomas Müller",
-        "C": "Petr Čech and Mats Hummels",
-        "D": "Luka Modrić and Marcelo Brozović"
+        "A": "João Cancelo and Gonzalo Higuaín",
+        "B": "N'Golo Kanté and João Cancelo",
+        "C": "Santi Cazorla and Wayne Rooney",
+        "D": "Jamie Vardy and David Alaba"
       },
       "choices_cantonese": {
-        "A": "簡些路同美迪·賓拿迪亞",
-        "B": "馬克-安德烈·達史特根同湯馬士·梅拿",
-        "C": "施治同麥斯·曉姆斯",
-        "D": "盧卡·摩德列治同馬些路波索域"
+        "A": "簡些路同希古恩",
+        "B": "簡迪同簡些路",
+        "C": "辛迪卡蘇拿同朗尼",
+        "D": "占美華迪同大衛·阿拉巴"
       },
       "correct_answer": "A",
       "correct_pair_info": {
@@ -351,11 +299,11 @@
           "end_year": 2019
         },
         "player2": {
-          "id": "Q462779",
-          "name_english": "Medhi Benatia",
-          "name_cantonese": "美迪·賓拿迪亞",
-          "start_year": 2017,
-          "end_year": 2019
+          "id": "Q483846",
+          "name_english": "Gonzalo Higuaín",
+          "name_cantonese": "希古恩",
+          "start_year": 2016,
+          "end_year": 2020
         },
         "club": {
           "id": "Q1422",
@@ -382,16 +330,1056 @@
       "question": "Which two players below have been teammates in the same club before?",
       "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
       "choices": {
-        "A": "Eden Hazard and Leonardo Bonucci",
-        "B": "Toni Kroos and Cristiano Ronaldo",
-        "C": "Radamel Falcao and Marcelo Vieira",
-        "D": "Santi Cazorla and David Alaba"
+        "A": "Franck Ribéry and Karim Benzema",
+        "B": "Raheem Sterling and César Azpilicueta",
+        "C": "Sokratis Papastathopoulos and Jordan Henderson",
+        "D": "Jérôme Boateng and Yann Sommer"
       },
       "choices_cantonese": {
-        "A": "夏薩特同李安納度·邦路斯",
+        "A": "列貝利同卡廉賓森馬",
+        "B": "史達寧同艾斯派古達",
+        "C": "蘇卡迪斯同軒達臣",
+        "D": "謝洛美·保定同恩·蘇馬"
+      },
+      "correct_answer": "B",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q312157",
+          "name_english": "Raheem Sterling",
+          "name_cantonese": "史達寧",
+          "start_year": 2022,
+          "end_year": null
+        },
+        "player2": {
+          "id": "Q294806",
+          "name_english": "César Azpilicueta",
+          "name_cantonese": "艾斯派古達",
+          "start_year": 2012,
+          "end_year": 2023
+        },
+        "club": {
+          "id": "Q9616",
+          "name_english": "Chelsea F.C.",
+          "name_cantonese": "車路士",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They were teammates at Chelsea F.C.",
+        "C": "They have never been teammates",
+        "D": "They have never been teammates"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋喺車路士做過隊友",
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋從來冇做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Sergio Agüero and César Azpilicueta",
+        "B": "David Luiz and Cesc Fàbregas",
+        "C": "Mike Maignan and Leonardo Bonucci",
+        "D": "Sergej Milinković-Savić and Virgil van Dijk"
+      },
+      "choices_cantonese": {
+        "A": "阿古路同艾斯派古達",
+        "B": "大衛雷斯同法比加斯",
+        "C": "邁治南同李安納度·邦路斯",
+        "D": "沙治米連高域沙域同雲迪積克"
+      },
+      "correct_answer": "B",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q193706",
+          "name_english": "David Luiz",
+          "name_cantonese": "大衛雷斯",
+          "start_year": 2011,
+          "end_year": 2014
+        },
+        "player2": {
+          "id": "Q17499",
+          "name_english": "Cesc Fàbregas",
+          "name_cantonese": "法比加斯",
+          "start_year": 2014,
+          "end_year": 2019
+        },
+        "club": {
+          "id": "Q9616",
+          "name_english": "Chelsea F.C.",
+          "name_cantonese": "車路士",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They were teammates at Chelsea F.C.",
+        "C": "They have never been teammates",
+        "D": "They have never been teammates"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋喺車路士做過隊友",
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋從來冇做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Trent Alexander-Arnold and Wayne Rooney",
+        "B": "Jamal Musiala and Vincent Kompany",
+        "C": "Gianluigi Buffon and Miralem Pjanić",
+        "D": "Ederson Moraes and David de Gea"
+      },
+      "choices_cantonese": {
+        "A": "阿諾同朗尼",
+        "B": "查馬爾·穆斯亞拿同文森特·甘賓尼",
+        "C": "保方同米拉萊姆·比真歷",
+        "D": "艾達臣·摩拉斯同迪基亞"
+      },
+      "correct_answer": "C",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q68060",
+          "name_english": "Gianluigi Buffon",
+          "name_cantonese": "保方",
+          "start_year": 2019,
+          "end_year": 2021
+        },
+        "player2": {
+          "id": "Q146907",
+          "name_english": "Miralem Pjanić",
+          "name_cantonese": "米拉萊姆·比真歷",
+          "start_year": 2016,
+          "end_year": 2020
+        },
+        "club": {
+          "id": "Q1422",
+          "name_english": "Juventus FC",
+          "name_cantonese": "祖雲達斯",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They have never been teammates",
+        "C": "They were teammates at Juventus FC",
+        "D": "They have never been teammates"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋喺祖雲達斯做過隊友",
+        "D": "佢哋從來冇做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Marcelo Brozović and Alisson Becker",
+        "B": "Yann Sommer and Raheem Sterling",
+        "C": "Nemanja Matić and Diego Godín",
+        "D": "Gianluigi Donnarumma and Keylor Navas"
+      },
+      "choices_cantonese": {
+        "A": "馬些路波索域同艾利臣",
+        "B": "恩·蘇馬同史達寧",
+        "C": "尼馬查馬迪同高甸",
+        "D": "基安盧基·當拿隆馬同基羅拿華斯"
+      },
+      "correct_answer": "D",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q20830808",
+          "name_english": "Gianluigi Donnarumma",
+          "name_cantonese": "基安盧基·當拿隆馬",
+          "start_year": 2021,
+          "end_year": 2025
+        },
+        "player2": {
+          "id": "Q969423",
+          "name_english": "Keylor Navas",
+          "name_cantonese": "基羅拿華斯",
+          "start_year": 2019,
+          "end_year": 2024
+        },
+        "club": {
+          "id": "Q483020",
+          "name_english": "Paris Saint-Germain FC",
+          "name_cantonese": "巴黎聖日耳門",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They have never been teammates",
+        "C": "They have never been teammates",
+        "D": "They were teammates at Paris Saint-Germain FC"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋喺巴黎聖日耳門做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Douglas Costa and Xavi Hernández",
+        "B": "Frenkie de Jong and Sadio Mané",
+        "C": "Miralem Pjanić and Fabinho",
+        "D": "Kingsley Coman and Manuel Neuer"
+      },
+      "choices_cantonese": {
+        "A": "杜格拉斯·哥斯達同沙維",
+        "B": "法蘭基·迪莊同沙迪奧文尼",
+        "C": "米拉萊姆·比真歷同法賓奴",
+        "D": "京士利·高文同紐亞"
+      },
+      "correct_answer": "D",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q6413296",
+          "name_english": "Kingsley Coman",
+          "name_cantonese": "京士利·高文",
+          "start_year": 2017,
+          "end_year": 2025
+        },
+        "player2": {
+          "id": "Q107365",
+          "name_english": "Manuel Neuer",
+          "name_cantonese": "紐亞",
+          "start_year": 2011,
+          "end_year": null
+        },
+        "club": {
+          "id": "Q15789",
+          "name_english": "FC Bayern Munich",
+          "name_cantonese": "拜仁慕尼黑",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They have never been teammates",
+        "C": "They have never been teammates",
+        "D": "They were teammates at FC Bayern Munich"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋喺拜仁慕尼黑做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Raheem Sterling and Arturo Vidal",
+        "B": "Andrés Iniesta and Ivan Perišić",
+        "C": "Marek Hamšík and Kylian Mbappé",
+        "D": "David de Gea and Sergio Agüero"
+      },
+      "choices_cantonese": {
+        "A": "史達寧同亞杜羅·維度",
+        "B": "恩尼斯達同艾雲·比列錫",
+        "C": "馬歷·咸錫同麥巴比",
+        "D": "迪基亞同阿古路"
+      },
+      "correct_answer": "D",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q150268",
+          "name_english": "David de Gea",
+          "name_cantonese": "迪基亞",
+          "start_year": 2009,
+          "end_year": 2011
+        },
+        "player2": {
+          "id": "Q119562",
+          "name_english": "Sergio Agüero",
+          "name_cantonese": "阿古路",
+          "start_year": 2006,
+          "end_year": 2011
+        },
+        "club": {
+          "id": "Q8701",
+          "name_english": "Atlético de Madrid",
+          "name_cantonese": "馬德里體育會",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They have never been teammates",
+        "C": "They have never been teammates",
+        "D": "They were teammates at Atlético de Madrid"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋喺馬德里體育會做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Hugo Lloris and Neymar",
+        "B": "Bukayo Saka and Alexis Sánchez Chileno",
+        "C": "Paul Pogba and Marco Reus",
+        "D": "Raheem Sterling and Andrés Iniesta"
+      },
+      "choices_cantonese": {
+        "A": "曉高洛里斯同尼馬",
+        "B": "布卡約·沙卡同阿歷斯山齊士",
+        "C": "普巴同馬高·萊斯",
+        "D": "史達寧同恩尼斯達"
+      },
+      "correct_answer": "B",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q59306386",
+          "name_english": "Bukayo Saka",
+          "name_cantonese": "布卡約·沙卡",
+          "start_year": 2018,
+          "end_year": null
+        },
+        "player2": {
+          "id": "Q180553",
+          "name_english": "Alexis Sánchez Chileno",
+          "name_cantonese": "阿歷斯山齊士",
+          "start_year": 2014,
+          "end_year": 2018
+        },
+        "club": {
+          "id": "Q9617",
+          "name_english": "Arsenal F.C.",
+          "name_cantonese": "阿仙奴",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They were teammates at Arsenal F.C.",
+        "C": "They have never been teammates",
+        "D": "They have never been teammates"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋喺阿仙奴做過隊友",
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋從來冇做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Paul Pogba and Alex Sandro",
+        "B": "Raheem Sterling and Marc-André ter Stegen",
+        "C": "Andrés Iniesta and Bernd Leno",
+        "D": "Cristiano Ronaldo and Andrew Robertson"
+      },
+      "choices_cantonese": {
+        "A": "普巴同A.辛特路",
+        "B": "史達寧同馬克-安德烈·達史特根",
+        "C": "恩尼斯達同蘭奴",
+        "D": "基斯坦奴朗拿度同安祖·羅拔臣"
+      },
+      "correct_answer": "A",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q129027",
+          "name_english": "Paul Pogba",
+          "name_cantonese": "普巴",
+          "start_year": 2022,
+          "end_year": 2024
+        },
+        "player2": {
+          "id": "Q551192",
+          "name_english": "Alex Sandro",
+          "name_cantonese": "A.辛特路",
+          "start_year": 2015,
+          "end_year": 2024
+        },
+        "club": {
+          "id": "Q1422",
+          "name_english": "Juventus FC",
+          "name_cantonese": "祖雲達斯",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They were teammates at Juventus FC",
+        "B": "They have never been teammates",
+        "C": "They have never been teammates",
+        "D": "They have never been teammates"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋喺祖雲達斯做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋從來冇做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Andrew Robertson and Aymeric Laporte",
+        "B": "Riyad Mahrez and Bukayo Saka",
+        "C": "Fernandinho and Marco Verratti",
+        "D": "Kevin De Bruyne and İlkay Gündoğan"
+      },
+      "choices_cantonese": {
+        "A": "安祖·羅拔臣同拿樸迪",
+        "B": "列恩馬列斯同布卡約·沙卡",
+        "C": "費蘭甸奴同華拉堤",
+        "D": "迪布尼同根度簡"
+      },
+      "correct_answer": "D",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q357984",
+          "name_english": "Kevin De Bruyne",
+          "name_cantonese": "迪布尼",
+          "start_year": 2015,
+          "end_year": 2025
+        },
+        "player2": {
+          "id": "Q161089",
+          "name_english": "İlkay Gündoğan",
+          "name_cantonese": "根度簡",
+          "start_year": 2016,
+          "end_year": 2023
+        },
+        "club": {
+          "id": "Q50602",
+          "name_english": "Manchester City F.C.",
+          "name_cantonese": "曼城足球會",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They have never been teammates",
+        "C": "They have never been teammates",
+        "D": "They were teammates at Manchester City F.C."
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋喺曼城足球會做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Marek Hamšík and David Silva",
+        "B": "Marcelo Brozović and Yaya Touré",
+        "C": "João Cancelo and Marcelo Brozović",
+        "D": "Thiago Silva and David Alaba"
+      },
+      "choices_cantonese": {
+        "A": "馬歷·咸錫同大衞施華",
+        "B": "馬些路波索域同耶耶托尼",
+        "C": "簡些路同馬些路波索域",
+        "D": "泰亞高施華同大衛·阿拉巴"
+      },
+      "correct_answer": "C",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q6298063",
+          "name_english": "João Cancelo",
+          "name_cantonese": "簡些路",
+          "start_year": 2017,
+          "end_year": 2018
+        },
+        "player2": {
+          "id": "Q3845710",
+          "name_english": "Marcelo Brozović",
+          "name_cantonese": "馬些路波索域",
+          "start_year": 2015,
+          "end_year": 2023
+        },
+        "club": {
+          "id": "Q631",
+          "name_english": "Inter Milan",
+          "name_cantonese": "國際米蘭",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They have never been teammates",
+        "C": "They were teammates at Inter Milan",
+        "D": "They have never been teammates"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋喺國際米蘭做過隊友",
+        "D": "佢哋從來冇做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Jadon Sancho and Joshua Kimmich",
+        "B": "Toni Kroos and Andrea Barzagli",
+        "C": "César Azpilicueta and Matthijs de Ligt",
+        "D": "Leroy Sané and Rodri"
+      },
+      "choices_cantonese": {
+        "A": "查頓辛祖同約素亞·劍米克",
+        "B": "東尼·卻奧斯同安祖亞·巴沙利",
+        "C": "艾斯派古達同馬菲斯·迪列治",
+        "D": "利萊辛尼同洛迪 (足球員)"
+      },
+      "correct_answer": "D",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q16499882",
+          "name_english": "Leroy Sané",
+          "name_cantonese": "利萊辛尼",
+          "start_year": 2016,
+          "end_year": 2020
+        },
+        "player2": {
+          "id": "Q20994118",
+          "name_english": "Rodri",
+          "name_cantonese": "洛迪 (足球員)",
+          "start_year": 2019,
+          "end_year": null
+        },
+        "club": {
+          "id": "Q50602",
+          "name_english": "Manchester City F.C.",
+          "name_cantonese": "曼城足球會",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They have never been teammates",
+        "C": "They have never been teammates",
+        "D": "They were teammates at Manchester City F.C."
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋喺曼城足球會做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "İlkay Gündoğan and Marcelo Brozović",
+        "B": "Gerard Piqué and Antoine Griezmann",
+        "C": "Pedri and Ángel Di María",
+        "D": "Sergio Ramos and Vincent Kompany"
+      },
+      "choices_cantonese": {
+        "A": "根度簡同馬些路波索域",
+        "B": "碧基同基士文 (法國足球員)",
+        "C": "柏迪同迪馬利亞",
+        "D": "沙治奧拉莫斯同文森特·甘賓尼"
+      },
+      "correct_answer": "B",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q17507",
+          "name_english": "Gerard Piqué",
+          "name_cantonese": "碧基",
+          "start_year": 2008,
+          "end_year": 2022
+        },
+        "player2": {
+          "id": "Q455462",
+          "name_english": "Antoine Griezmann",
+          "name_cantonese": "基士文 (法國足球員)",
+          "start_year": 2019,
+          "end_year": 2022
+        },
+        "club": {
+          "id": "Q7156",
+          "name_english": "FC Barcelona",
+          "name_cantonese": "巴塞隆拿足球會",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They were teammates at FC Barcelona",
+        "C": "They have never been teammates",
+        "D": "They have never been teammates"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋喺巴塞隆拿足球會做過隊友",
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋從來冇做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Leonardo Bonucci and Isco",
+        "B": "Hugo Lloris and Gianluigi Donnarumma",
+        "C": "Marcelo Brozović and Gareth Bale",
+        "D": "Cesc Fàbregas and César Azpilicueta"
+      },
+      "choices_cantonese": {
+        "A": "李安納度·邦路斯同伊斯高",
+        "B": "曉高洛里斯同基安盧基·當拿隆馬",
+        "C": "馬些路波索域同加里夫巴利",
+        "D": "法比加斯同艾斯派古達"
+      },
+      "correct_answer": "D",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q17499",
+          "name_english": "Cesc Fàbregas",
+          "name_cantonese": "法比加斯",
+          "start_year": 2014,
+          "end_year": 2019
+        },
+        "player2": {
+          "id": "Q294806",
+          "name_english": "César Azpilicueta",
+          "name_cantonese": "艾斯派古達",
+          "start_year": 2012,
+          "end_year": 2023
+        },
+        "club": {
+          "id": "Q9616",
+          "name_english": "Chelsea F.C.",
+          "name_cantonese": "車路士",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They have never been teammates",
+        "C": "They have never been teammates",
+        "D": "They were teammates at Chelsea F.C."
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋喺車路士做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "N'Golo Kanté and Virgil van Dijk",
+        "B": "Robin van Persie and Medhi Benatia",
+        "C": "Wayne Rooney and Sergej Milinković-Savić",
+        "D": "Douglas Costa and Paul Pogba"
+      },
+      "choices_cantonese": {
+        "A": "簡迪同雲迪積克",
+        "B": "雲佩斯同美迪·賓拿迪亞",
+        "C": "朗尼同沙治米連高域沙域",
+        "D": "杜格拉斯·哥斯達同普巴"
+      },
+      "correct_answer": "D",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q391680",
+          "name_english": "Douglas Costa",
+          "name_cantonese": "杜格拉斯·哥斯達",
+          "start_year": 2018,
+          "end_year": 2022
+        },
+        "player2": {
+          "id": "Q129027",
+          "name_english": "Paul Pogba",
+          "name_cantonese": "普巴",
+          "start_year": 2022,
+          "end_year": 2024
+        },
+        "club": {
+          "id": "Q1422",
+          "name_english": "Juventus FC",
+          "name_cantonese": "祖雲達斯",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They have never been teammates",
+        "C": "They have never been teammates",
+        "D": "They were teammates at Juventus FC"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋喺祖雲達斯做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Raphaël Varane and Robin van Persie",
+        "B": "Ivan Rakitić and Jamie Vardy",
+        "C": "Robin van Persie and Harry Kane",
+        "D": "David Alaba and Federico Valverde"
+      },
+      "choices_cantonese": {
+        "A": "華拉尼同雲佩斯",
+        "B": "伊凡·拉傑迪同占美華迪",
+        "C": "雲佩斯同哈利簡尼",
+        "D": "大衛·阿拉巴同費達歷高華維迪"
+      },
+      "correct_answer": "D",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q31981",
+          "name_english": "David Alaba",
+          "name_cantonese": "大衛·阿拉巴",
+          "start_year": 2021,
+          "end_year": null
+        },
+        "player2": {
+          "id": "Q19509544",
+          "name_english": "Federico Valverde",
+          "name_cantonese": "費達歷高華維迪",
+          "start_year": 2018,
+          "end_year": null
+        },
+        "club": {
+          "id": "Q8682",
+          "name_english": "Real Madrid CF",
+          "name_cantonese": "皇家馬德里足球會",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They have never been teammates",
+        "C": "They have never been teammates",
+        "D": "They were teammates at Real Madrid CF"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋喺皇家馬德里足球會做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Leonardo Bonucci and Sergio Agüero",
+        "B": "James Rodríguez and Leroy Sané",
+        "C": "Antonio Rüdiger and Antonio Rüdiger",
+        "D": "Franck Ribéry and Antonio Rüdiger"
+      },
+      "choices_cantonese": {
+        "A": "李安納度·邦路斯同阿古路",
+        "B": "占士洛迪古斯同利萊辛尼",
+        "C": "安東尼奧魯迪加同安東尼奧魯迪加",
+        "D": "列貝利同安東尼奧魯迪加"
+      },
+      "correct_answer": "C",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q96755",
+          "name_english": "Antonio Rüdiger",
+          "name_cantonese": "安東尼奧魯迪加",
+          "start_year": 2016,
+          "end_year": 2017
+        },
+        "player2": {
+          "id": "Q96755",
+          "name_english": "Antonio Rüdiger",
+          "name_cantonese": "安東尼奧魯迪加",
+          "start_year": 2015,
+          "end_year": 2016
+        },
+        "club": {
+          "id": "Q2739",
+          "name_english": "A.S. Roma",
+          "name_cantonese": "羅馬體育會",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They have never been teammates",
+        "C": "They were teammates at A.S. Roma",
+        "D": "They have never been teammates"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋喺羅馬體育會做過隊友",
+        "D": "佢哋從來冇做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Petr Čech and Vinícius Júnior",
+        "B": "Fernandinho and Jérôme Boateng",
+        "C": "Dani Carvajal and Lautaro Martínez",
+        "D": "Jérôme Boateng and James Rodríguez"
+      },
+      "choices_cantonese": {
+        "A": "施治同雲尼斯奧斯·祖利亞",
+        "B": "費蘭甸奴同謝洛美·保定",
+        "C": "丹尼卡華積同拿達路·馬天尼斯",
+        "D": "謝洛美·保定同占士洛迪古斯"
+      },
+      "correct_answer": "D",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q151260",
+          "name_english": "Jérôme Boateng",
+          "name_cantonese": "謝洛美·保定",
+          "start_year": 2011,
+          "end_year": 2021
+        },
+        "player2": {
+          "id": "Q368441",
+          "name_english": "James Rodríguez",
+          "name_cantonese": "占士洛迪古斯",
+          "start_year": 2017,
+          "end_year": 2019
+        },
+        "club": {
+          "id": "Q15789",
+          "name_english": "FC Bayern Munich",
+          "name_cantonese": "拜仁慕尼黑",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They have never been teammates",
+        "C": "They have never been teammates",
+        "D": "They were teammates at FC Bayern Munich"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋喺拜仁慕尼黑做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Paul Pogba and Cristiano Ronaldo",
+        "B": "Wojciech Szczęsny and Wayne Rooney",
+        "C": "Yann Sommer and Thibaut Courtois",
+        "D": "Neymar and Hugo Lloris"
+      },
+      "choices_cantonese": {
+        "A": "普巴同基斯坦奴朗拿度",
+        "B": "禾捷治施捷斯尼同朗尼",
+        "C": "恩·蘇馬同高圖爾斯",
+        "D": "尼馬同曉高洛里斯"
+      },
+      "correct_answer": "A",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q129027",
+          "name_english": "Paul Pogba",
+          "name_cantonese": "普巴",
+          "start_year": 2016,
+          "end_year": 2022
+        },
+        "player2": {
+          "id": "Q11571",
+          "name_english": "Cristiano Ronaldo",
+          "name_cantonese": "基斯坦奴朗拿度",
+          "start_year": 2021,
+          "end_year": 2022
+        },
+        "club": {
+          "id": "Q18656",
+          "name_english": "Manchester United F.C.",
+          "name_cantonese": "曼聯",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They were teammates at Manchester United F.C.",
+        "B": "They have never been teammates",
+        "C": "They have never been teammates",
+        "D": "They have never been teammates"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋喺曼聯做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋從來冇做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Andrés Iniesta and Andrea Barzagli",
+        "B": "Aymeric Laporte and Edinson Acavani",
+        "C": "N'Golo Kanté and Javi Martínez",
+        "D": "Antoine Griezmann and Antoine Griezmann"
+      },
+      "choices_cantonese": {
+        "A": "恩尼斯達同安祖亞·巴沙利",
+        "B": "拿樸迪同艾甸臣卡雲尼",
+        "C": "簡迪同查維·馬天尼斯",
+        "D": "基士文 (法國足球員)同基士文 (法國足球員)"
+      },
+      "correct_answer": "D",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q455462",
+          "name_english": "Antoine Griezmann",
+          "name_cantonese": "基士文 (法國足球員)",
+          "start_year": 2021,
+          "end_year": 2022
+        },
+        "player2": {
+          "id": "Q455462",
+          "name_english": "Antoine Griezmann",
+          "name_cantonese": "基士文 (法國足球員)",
+          "start_year": 2022,
+          "end_year": null
+        },
+        "club": {
+          "id": "Q8701",
+          "name_english": "Atlético de Madrid",
+          "name_cantonese": "馬德里體育會",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They have never been teammates",
+        "C": "They have never been teammates",
+        "D": "They were teammates at Atlético de Madrid"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋喺馬德里體育會做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "James Rodríguez and Christian Eriksen",
+        "B": "Marco Reus and Éder Militão",
+        "C": "Arturo Vidal and Alexis Sánchez Chileno",
+        "D": "N'Golo Kanté and Miralem Pjanić"
+      },
+      "choices_cantonese": {
+        "A": "占士洛迪古斯同基斯甸艾歷臣",
+        "B": "馬高·萊斯同艾達美列度奧",
+        "C": "亞杜羅·維度同阿歷斯山齊士",
+        "D": "簡迪同米拉萊姆·比真歷"
+      },
+      "correct_answer": "C",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q192671",
+          "name_english": "Arturo Vidal",
+          "name_cantonese": "亞杜羅·維度",
+          "start_year": 2005,
+          "end_year": 2007
+        },
+        "player2": {
+          "id": "Q180553",
+          "name_english": "Alexis Sánchez Chileno",
+          "name_cantonese": "阿歷斯山齊士",
+          "start_year": 2006,
+          "end_year": 2008
+        },
+        "club": {
+          "id": "Q207373",
+          "name_english": "Club Social y Deportivo Colo Colo",
+          "name_cantonese": "高路高路體育會",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They have never been teammates",
+        "C": "They were teammates at Club Social y Deportivo Colo Colo",
+        "D": "They have never been teammates"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋喺高路高路體育會做過隊友",
+        "D": "佢哋從來冇做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Cesc Fàbregas and Harry Kane",
+        "B": "Toni Kroos and Cristiano Ronaldo",
+        "C": "Cristiano Ronaldo and Fernandinho",
+        "D": "Naldo and Paul Pogba"
+      },
+      "choices_cantonese": {
+        "A": "法比加斯同哈利簡尼",
         "B": "東尼·卻奧斯同基斯坦奴朗拿度",
-        "C": "拉達梅爾·法卡奧同馬些路",
-        "D": "辛迪卡蘇拿同大衛·阿拉巴"
+        "C": "基斯坦奴朗拿度同費蘭甸奴",
+        "D": "拿杜同普巴"
       },
       "correct_answer": "B",
       "correct_pair_info": {
@@ -434,776 +1422,48 @@
       "question": "Which two players below have been teammates in the same club before?",
       "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
       "choices": {
-        "A": "Pierre-Emerick Aubameyang and Philipp Lahm",
-        "B": "Sergej Milinković-Savić and Andrea Barzagli",
-        "C": "Yann Sommer and Arturo Vidal",
-        "D": "James Rodríguez and Thomas Müller"
+        "A": "Gareth Bale and Hugo Lloris",
+        "B": "Jordan Henderson and Arturo Vidal",
+        "C": "Alisson Becker and Samir Handanović",
+        "D": "Antonio Rüdiger and Luis Suárez"
       },
       "choices_cantonese": {
-        "A": "奧巴美揚同菲臘·拿姆",
-        "B": "沙治米連高域沙域同安祖亞·巴沙利",
-        "C": "恩·蘇馬同亞杜羅·維度",
-        "D": "占士洛迪古斯同湯馬士·梅拿"
-      },
-      "correct_answer": "D",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q368441",
-          "name_english": "James Rodríguez",
-          "name_cantonese": "占士洛迪古斯",
-          "start_year": 2017,
-          "end_year": 2019
-        },
-        "player2": {
-          "id": "Q43666",
-          "name_english": "Thomas Müller",
-          "name_cantonese": "湯馬士·梅拿",
-          "start_year": 2008,
-          "end_year": 2025
-        },
-        "club": {
-          "id": "Q15789",
-          "name_english": "FC Bayern Munich",
-          "name_cantonese": "拜仁慕尼黑",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They have never been teammates",
-        "B": "They have never been teammates",
-        "C": "They have never been teammates",
-        "D": "They were teammates at FC Bayern Munich"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋從來冇做過隊友",
-        "C": "佢哋從來冇做過隊友",
-        "D": "佢哋喺拜仁慕尼黑做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Ángel Di María and Radamel Falcao",
-        "B": "Sokratis Papastathopoulos and Pedri",
-        "C": "Yaya Touré and Lautaro Martínez",
-        "D": "Edinson Acavani and Fernandinho"
-      },
-      "choices_cantonese": {
-        "A": "迪馬利亞同拉達梅爾·法卡奧",
-        "B": "蘇卡迪斯同柏迪",
-        "C": "耶耶托尼同拿達路·馬天尼斯",
-        "D": "艾甸臣卡雲尼同費蘭甸奴"
+        "A": "加里夫巴利同曉高洛里斯",
+        "B": "軒達臣同亞杜羅·維度",
+        "C": "艾利臣同薩米爾·漢丹洛域",
+        "D": "安東尼奧魯迪加同路易斯·蘇亞利斯"
       },
       "correct_answer": "A",
       "correct_pair_info": {
         "player1": {
-          "id": "Q251683",
-          "name_english": "Ángel Di María",
-          "name_cantonese": "迪馬利亞",
-          "start_year": 2014,
-          "end_year": 2015
-        },
-        "player2": {
-          "id": "Q138172",
-          "name_english": "Radamel Falcao",
-          "name_cantonese": "拉達梅爾·法卡奧",
-          "start_year": 2014,
-          "end_year": 2015
-        },
-        "club": {
-          "id": "Q18656",
-          "name_english": "Manchester United F.C.",
-          "name_cantonese": "曼聯",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They were teammates at Manchester United F.C.",
-        "B": "They have never been teammates",
-        "C": "They have never been teammates",
-        "D": "They have never been teammates"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋喺曼聯做過隊友",
-        "B": "佢哋從來冇做過隊友",
-        "C": "佢哋從來冇做過隊友",
-        "D": "佢哋從來冇做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Jamal Musiala and Antonio Rüdiger",
-        "B": "Lionel Messi and Carlos Tevez",
-        "C": "Éder Militão and João Cancelo",
-        "D": "Arturo Vidal and Kingsley Coman"
-      },
-      "choices_cantonese": {
-        "A": "查馬爾·穆斯亞拿同安東尼奧魯迪加",
-        "B": "美斯同迪維斯",
-        "C": "艾達美列度奧同簡些路",
-        "D": "亞杜羅·維度同京士利·高文"
-      },
-      "correct_answer": "D",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q192671",
-          "name_english": "Arturo Vidal",
-          "name_cantonese": "亞杜羅·維度",
-          "start_year": 2015,
-          "end_year": 2018
-        },
-        "player2": {
-          "id": "Q6413296",
-          "name_english": "Kingsley Coman",
-          "name_cantonese": "京士利·高文",
-          "start_year": 2015,
-          "end_year": 2017
-        },
-        "club": {
-          "id": "Q15789",
-          "name_english": "FC Bayern Munich",
-          "name_cantonese": "拜仁慕尼黑",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They have never been teammates",
-        "B": "They have never been teammates",
-        "C": "They have never been teammates",
-        "D": "They were teammates at FC Bayern Munich"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋從來冇做過隊友",
-        "C": "佢哋從來冇做過隊友",
-        "D": "佢哋喺拜仁慕尼黑做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Antoine Griezmann and Pedri",
-        "B": "Marquinhos and Andrés Iniesta",
-        "C": "Luka Modrić and Alisson Becker",
-        "D": "Samir Handanović and Wojciech Szczęsny"
-      },
-      "choices_cantonese": {
-        "A": "基士文 (法國足球員)同柏迪",
-        "B": "馬昆奴斯同恩尼斯達",
-        "C": "盧卡·摩德列治同艾利臣",
-        "D": "薩米爾·漢丹洛域同禾捷治施捷斯尼"
-      },
-      "correct_answer": "A",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q455462",
-          "name_english": "Antoine Griezmann",
-          "name_cantonese": "基士文 (法國足球員)",
-          "start_year": 2019,
-          "end_year": 2022
-        },
-        "player2": {
-          "id": "Q66606355",
-          "name_english": "Pedri",
-          "name_cantonese": "柏迪",
-          "start_year": 2020,
-          "end_year": null
-        },
-        "club": {
-          "id": "Q7156",
-          "name_english": "FC Barcelona",
-          "name_cantonese": "巴塞隆拿足球會",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They were teammates at FC Barcelona",
-        "B": "They have never been teammates",
-        "C": "They have never been teammates",
-        "D": "They have never been teammates"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋喺巴塞隆拿足球會做過隊友",
-        "B": "佢哋從來冇做過隊友",
-        "C": "佢哋從來冇做過隊友",
-        "D": "佢哋從來冇做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Thiago Silva and Hugo Lloris",
-        "B": "Vinícius Júnior and Cristiano Ronaldo",
-        "C": "Miranda and Xavi Hernández",
-        "D": "Miralem Pjanić and Wayne Rooney"
-      },
-      "choices_cantonese": {
-        "A": "泰亞高施華同曉高洛里斯",
-        "B": "雲尼斯奧斯·祖利亞同基斯坦奴朗拿度",
-        "C": "祖奧米蘭達同沙維",
-        "D": "米拉萊姆·比真歷同朗尼"
-      },
-      "correct_answer": "B",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q28973866",
-          "name_english": "Vinícius Júnior",
-          "name_cantonese": "雲尼斯奧斯·祖利亞",
-          "start_year": 2018,
-          "end_year": null
-        },
-        "player2": {
-          "id": "Q11571",
-          "name_english": "Cristiano Ronaldo",
-          "name_cantonese": "基斯坦奴朗拿度",
-          "start_year": 2009,
-          "end_year": 2018
-        },
-        "club": {
-          "id": "Q8682",
-          "name_english": "Real Madrid CF",
-          "name_cantonese": "皇家馬德里足球會",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They have never been teammates",
-        "B": "They were teammates at Real Madrid CF",
-        "C": "They have never been teammates",
-        "D": "They have never been teammates"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋喺皇家馬德里足球會做過隊友",
-        "C": "佢哋從來冇做過隊友",
-        "D": "佢哋從來冇做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Alex Sandro and Leroy Sané",
-        "B": "Javi Martínez and Ángel Di María",
-        "C": "Diego Costa and Antoine Griezmann",
-        "D": "Rodri and Virgil van Dijk"
-      },
-      "choices_cantonese": {
-        "A": "A.辛特路同利萊辛尼",
-        "B": "查維·馬天尼斯同迪馬利亞",
-        "C": "迪亞高哥斯達同基士文 (法國足球員)",
-        "D": "洛迪 (足球員)同雲迪積克"
-      },
-      "correct_answer": "C",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q459707",
-          "name_english": "Diego Costa",
-          "name_cantonese": "迪亞高哥斯達",
-          "start_year": 2010,
-          "end_year": 2014
-        },
-        "player2": {
-          "id": "Q455462",
-          "name_english": "Antoine Griezmann",
-          "name_cantonese": "基士文 (法國足球員)",
-          "start_year": 2014,
-          "end_year": 2019
-        },
-        "club": {
-          "id": "Q8701",
-          "name_english": "Atlético de Madrid",
-          "name_cantonese": "馬德里體育會",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They have never been teammates",
-        "B": "They have never been teammates",
-        "C": "They were teammates at Atlético de Madrid",
-        "D": "They have never been teammates"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋從來冇做過隊友",
-        "C": "佢哋喺馬德里體育會做過隊友",
-        "D": "佢哋從來冇做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Bernardo Silva and Neymar",
-        "B": "James Rodríguez and Radamel Falcao",
-        "C": "Keylor Navas and Harry Kane",
-        "D": "Alexandre Lacazette and Xavi Hernández"
-      },
-      "choices_cantonese": {
-        "A": "賓拿度施華同尼馬",
-        "B": "占士洛迪古斯同拉達梅爾·法卡奧",
-        "C": "基羅拿華斯同哈利簡尼",
-        "D": "拿卡錫迪同沙維"
-      },
-      "correct_answer": "B",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q368441",
-          "name_english": "James Rodríguez",
-          "name_cantonese": "占士洛迪古斯",
-          "start_year": 2024,
-          "end_year": 2025
-        },
-        "player2": {
-          "id": "Q138172",
-          "name_english": "Radamel Falcao",
-          "name_cantonese": "拉達梅爾·法卡奧",
-          "start_year": 2021,
-          "end_year": 2024
-        },
-        "club": {
-          "id": "Q10300",
-          "name_english": "Rayo Vallecano",
-          "name_cantonese": "華歷簡奴",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They have never been teammates",
-        "B": "They were teammates at Rayo Vallecano",
-        "C": "They have never been teammates",
-        "D": "They have never been teammates"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋喺華歷簡奴做過隊友",
-        "C": "佢哋從來冇做過隊友",
-        "D": "佢哋從來冇做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Dani Carvajal and Virgil van Dijk",
-        "B": "Paul Pogba and Jadon Sancho",
-        "C": "Leroy Sané and Marco Reus",
-        "D": "Keylor Navas and Sergio Agüero"
-      },
-      "choices_cantonese": {
-        "A": "丹尼卡華積同雲迪積克",
-        "B": "普巴同查頓辛祖",
-        "C": "利萊辛尼同馬高·萊斯",
-        "D": "基羅拿華斯同阿古路"
-      },
-      "correct_answer": "B",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q129027",
-          "name_english": "Paul Pogba",
-          "name_cantonese": "普巴",
-          "start_year": 2016,
-          "end_year": 2022
-        },
-        "player2": {
-          "id": "Q30148558",
-          "name_english": "Jadon Sancho",
-          "name_cantonese": "查頓辛祖",
-          "start_year": 2021,
-          "end_year": null
-        },
-        "club": {
-          "id": "Q18656",
-          "name_english": "Manchester United F.C.",
-          "name_cantonese": "曼聯",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They have never been teammates",
-        "B": "They were teammates at Manchester United F.C.",
-        "C": "They have never been teammates",
-        "D": "They have never been teammates"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋喺曼聯做過隊友",
-        "C": "佢哋從來冇做過隊友",
-        "D": "佢哋從來冇做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Antonio Rüdiger and Gonzalo Higuaín",
-        "B": "Alisson Becker and Robin van Persie",
-        "C": "Nicolás Otamendi and Alisson Becker",
-        "D": "César Azpilicueta and Arturo Vidal"
-      },
-      "choices_cantonese": {
-        "A": "安東尼奧魯迪加同希古恩",
-        "B": "艾利臣同雲佩斯",
-        "C": "尼古拉斯奧達文迪同艾利臣",
-        "D": "艾斯派古達同亞杜羅·維度"
-      },
-      "correct_answer": "A",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q96755",
-          "name_english": "Antonio Rüdiger",
-          "name_cantonese": "安東尼奧魯迪加",
-          "start_year": 2017,
-          "end_year": 2022
-        },
-        "player2": {
-          "id": "Q483846",
-          "name_english": "Gonzalo Higuaín",
-          "name_cantonese": "希古恩",
-          "start_year": 2019,
-          "end_year": 2019
-        },
-        "club": {
-          "id": "Q9616",
-          "name_english": "Chelsea F.C.",
-          "name_cantonese": "車路士",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They were teammates at Chelsea F.C.",
-        "B": "They have never been teammates",
-        "C": "They have never been teammates",
-        "D": "They have never been teammates"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋喺車路士做過隊友",
-        "B": "佢哋從來冇做過隊友",
-        "C": "佢哋從來冇做過隊友",
-        "D": "佢哋從來冇做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Ivan Rakitić and Xavi Hernández",
-        "B": "Lionel Messi and João Cancelo",
-        "C": "Trent Alexander-Arnold and Toby Alderweireld",
-        "D": "N'Golo Kanté and Sergio Ramos"
-      },
-      "choices_cantonese": {
-        "A": "伊凡·拉傑迪同沙維",
-        "B": "美斯同簡些路",
-        "C": "阿諾同艾達韋列特",
-        "D": "簡迪同沙治奧拉莫斯"
-      },
-      "correct_answer": "A",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q115453",
-          "name_english": "Ivan Rakitić",
-          "name_cantonese": "伊凡·拉傑迪",
-          "start_year": 2014,
-          "end_year": 2020
-        },
-        "player2": {
-          "id": "Q17500",
-          "name_english": "Xavi Hernández",
-          "name_cantonese": "沙維",
-          "start_year": 1998,
-          "end_year": 2015
-        },
-        "club": {
-          "id": "Q7156",
-          "name_english": "FC Barcelona",
-          "name_cantonese": "巴塞隆拿足球會",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They were teammates at FC Barcelona",
-        "B": "They have never been teammates",
-        "C": "They have never been teammates",
-        "D": "They have never been teammates"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋喺巴塞隆拿足球會做過隊友",
-        "B": "佢哋從來冇做過隊友",
-        "C": "佢哋從來冇做過隊友",
-        "D": "佢哋從來冇做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Paulo Dybala and Sergio Busquets",
-        "B": "Raheem Sterling and Ivan Rakitić",
-        "C": "Mats Hummels and Franck Ribéry",
-        "D": "Bernd Leno and Bastian Schweinsteiger"
-      },
-      "choices_cantonese": {
-        "A": "保羅·戴巴拿同沙治奧·布斯基斯",
-        "B": "史達寧同伊凡·拉傑迪",
-        "C": "麥斯·曉姆斯同列貝利",
-        "D": "蘭奴同舒韋恩史迪加"
-      },
-      "correct_answer": "C",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q110053",
-          "name_english": "Mats Hummels",
-          "name_cantonese": "麥斯·曉姆斯",
+          "id": "Q184586",
+          "name_english": "Gareth Bale",
+          "name_cantonese": "加里夫巴利",
           "start_year": 2007,
-          "end_year": 2009
-        },
-        "player2": {
-          "id": "Q1918",
-          "name_english": "Franck Ribéry",
-          "name_cantonese": "列貝利",
-          "start_year": 2007,
-          "end_year": 2019
-        },
-        "club": {
-          "id": "Q15789",
-          "name_english": "FC Bayern Munich",
-          "name_cantonese": "拜仁慕尼黑",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They have never been teammates",
-        "B": "They have never been teammates",
-        "C": "They were teammates at FC Bayern Munich",
-        "D": "They have never been teammates"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋從來冇做過隊友",
-        "C": "佢哋喺拜仁慕尼黑做過隊友",
-        "D": "佢哋從來冇做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Kylian Mbappé and Sergio Ramos",
-        "B": "Alex Sandro and Xavi Hernández",
-        "C": "Andrés Iniesta and Marquinhos",
-        "D": "Bruno Fernandes and Philipp Lahm"
-      },
-      "choices_cantonese": {
-        "A": "麥巴比同沙治奧拉莫斯",
-        "B": "A.辛特路同沙維",
-        "C": "恩尼斯達同馬昆奴斯",
-        "D": "般奴費南迪斯同菲臘·拿姆"
-      },
-      "correct_answer": "A",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q21621995",
-          "name_english": "Kylian Mbappé",
-          "name_cantonese": "麥巴比",
-          "start_year": 2018,
-          "end_year": 2024
-        },
-        "player2": {
-          "id": "Q483309",
-          "name_english": "Sergio Ramos",
-          "name_cantonese": "沙治奧拉莫斯",
-          "start_year": 2021,
-          "end_year": 2023
-        },
-        "club": {
-          "id": "Q483020",
-          "name_english": "Paris Saint-Germain FC",
-          "name_cantonese": "巴黎聖日耳門",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They were teammates at Paris Saint-Germain FC",
-        "B": "They have never been teammates",
-        "C": "They have never been teammates",
-        "D": "They have never been teammates"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋喺巴黎聖日耳門做過隊友",
-        "B": "佢哋從來冇做過隊友",
-        "C": "佢哋從來冇做過隊友",
-        "D": "佢哋從來冇做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Zlatan Ibrahimović and Andrew Robertson",
-        "B": "Manuel Neuer and Jadon Sancho",
-        "C": "Sergio Ramos and Jamal Musiala",
-        "D": "Luis Suárez and Sergio Busquets"
-      },
-      "choices_cantonese": {
-        "A": "伊巴謙莫域同安祖·羅拔臣",
-        "B": "紐亞同查頓辛祖",
-        "C": "沙治奧拉莫斯同查馬爾·穆斯亞拿",
-        "D": "路易斯·蘇亞利斯同沙治奧·布斯基斯"
-      },
-      "correct_answer": "D",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q26517",
-          "name_english": "Luis Suárez",
-          "name_cantonese": "路易斯·蘇亞利斯",
-          "start_year": 2014,
-          "end_year": 2020
-        },
-        "player2": {
-          "id": "Q49704",
-          "name_english": "Sergio Busquets",
-          "name_cantonese": "沙治奧·布斯基斯",
-          "start_year": 2000,
-          "end_year": 2023
-        },
-        "club": {
-          "id": "Q7156",
-          "name_english": "FC Barcelona",
-          "name_cantonese": "巴塞隆拿足球會",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They have never been teammates",
-        "B": "They have never been teammates",
-        "C": "They have never been teammates",
-        "D": "They were teammates at FC Barcelona"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋從來冇做過隊友",
-        "C": "佢哋從來冇做過隊友",
-        "D": "佢哋喺巴塞隆拿足球會做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Paul Pogba and Isco",
-        "B": "Cesc Fàbregas and Thiago Alcântara",
-        "C": "Leonardo Bonucci and Petr Čech",
-        "D": "Gonzalo Higuaín and Alisson Becker"
-      },
-      "choices_cantonese": {
-        "A": "普巴同伊斯高",
-        "B": "法比加斯同堤亞高艾勤達拿",
-        "C": "李安納度·邦路斯同施治",
-        "D": "希古恩同艾利臣"
-      },
-      "correct_answer": "B",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q17499",
-          "name_english": "Cesc Fàbregas",
-          "name_cantonese": "法比加斯",
-          "start_year": 2011,
-          "end_year": 2014
-        },
-        "player2": {
-          "id": "Q17493",
-          "name_english": "Thiago Alcântara",
-          "name_cantonese": "堤亞高艾勤達拿",
-          "start_year": 2009,
           "end_year": 2013
         },
-        "club": {
-          "id": "Q7156",
-          "name_english": "FC Barcelona",
-          "name_cantonese": "巴塞隆拿足球會",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They have never been teammates",
-        "B": "They were teammates at FC Barcelona",
-        "C": "They have never been teammates",
-        "D": "They have never been teammates"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋喺巴塞隆拿足球會做過隊友",
-        "C": "佢哋從來冇做過隊友",
-        "D": "佢哋從來冇做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Robin van Persie and Radamel Falcao",
-        "B": "Edinson Acavani and Luka Modrić",
-        "C": "Philipp Lahm and Andrés Iniesta",
-        "D": "Lorenzo Insigne and Robert Lewandowski"
-      },
-      "choices_cantonese": {
-        "A": "雲佩斯同拉達梅爾·法卡奧",
-        "B": "艾甸臣卡雲尼同盧卡·摩德列治",
-        "C": "菲臘·拿姆同恩尼斯達",
-        "D": "洛倫佐·因西涅同利雲度夫斯基"
-      },
-      "correct_answer": "A",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q2339",
-          "name_english": "Robin van Persie",
-          "name_cantonese": "雲佩斯",
+        "player2": {
+          "id": "Q1907",
+          "name_english": "Hugo Lloris",
+          "name_cantonese": "曉高洛里斯",
           "start_year": 2012,
-          "end_year": 2015
-        },
-        "player2": {
-          "id": "Q138172",
-          "name_english": "Radamel Falcao",
-          "name_cantonese": "拉達梅爾·法卡奧",
-          "start_year": 2014,
-          "end_year": 2015
+          "end_year": 2023
         },
         "club": {
-          "id": "Q18656",
-          "name_english": "Manchester United F.C.",
-          "name_cantonese": "曼聯",
+          "id": "Q18741",
+          "name_english": "Tottenham Hotspur F.C.",
+          "name_cantonese": "熱刺",
           "type": "club"
         }
       },
       "explanations": {
-        "A": "They were teammates at Manchester United F.C.",
+        "A": "They were teammates at Tottenham Hotspur F.C.",
         "B": "They have never been teammates",
         "C": "They have never been teammates",
         "D": "They have never been teammates"
       },
       "explanations_cantonese": {
-        "A": "佢哋喺曼聯做過隊友",
+        "A": "佢哋喺熱刺做過隊友",
         "B": "佢哋從來冇做過隊友",
         "C": "佢哋從來冇做過隊友",
         "D": "佢哋從來冇做過隊友"
@@ -1214,344 +1474,32 @@
       "question": "Which two players below have been teammates in the same club before?",
       "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
       "choices": {
-        "A": "James Rodríguez and Alex Sandro",
-        "B": "Arturo Vidal and N'Golo Kanté",
-        "C": "Naldo and Ousmane Dembélé",
-        "D": "Marquinhos and Javi Martínez"
+        "A": "Marcelo Brozović and Gareth Bale",
+        "B": "Gerard Piqué and Robert Lewandowski",
+        "C": "David Alaba and Sergio Agüero",
+        "D": "Antonio Rüdiger and Javi Martínez"
       },
       "choices_cantonese": {
-        "A": "占士洛迪古斯同A.辛特路",
-        "B": "亞杜羅·維度同簡迪",
-        "C": "拿杜同迪比利",
-        "D": "馬昆奴斯同查維·馬天尼斯"
+        "A": "馬些路波索域同加里夫巴利",
+        "B": "碧基同利雲度夫斯基",
+        "C": "大衛·阿拉巴同阿古路",
+        "D": "安東尼奧魯迪加同查維·馬天尼斯"
       },
-      "correct_answer": "A",
+      "correct_answer": "B",
       "correct_pair_info": {
         "player1": {
-          "id": "Q368441",
-          "name_english": "James Rodríguez",
-          "name_cantonese": "占士洛迪古斯",
-          "start_year": 2010,
-          "end_year": 2013
-        },
-        "player2": {
-          "id": "Q551192",
-          "name_english": "Alex Sandro",
-          "name_cantonese": "A.辛特路",
-          "start_year": 2011,
-          "end_year": 2015
-        },
-        "club": {
-          "id": "Q128446",
-          "name_english": "FC Porto",
-          "name_cantonese": "波圖足球會",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They were teammates at FC Porto",
-        "B": "They have never been teammates",
-        "C": "They have never been teammates",
-        "D": "They have never been teammates"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋喺波圖足球會做過隊友",
-        "B": "佢哋從來冇做過隊友",
-        "C": "佢哋從來冇做過隊友",
-        "D": "佢哋從來冇做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Alexandre Lacazette and Paul Pogba",
-        "B": "Paulo Dybala and Dani Carvajal",
-        "C": "Pierre-Emerick Aubameyang and Robert Lewandowski",
-        "D": "Fabinho and Antonio Rüdiger"
-      },
-      "choices_cantonese": {
-        "A": "拿卡錫迪同普巴",
-        "B": "保羅·戴巴拿同丹尼卡華積",
-        "C": "奧巴美揚同利雲度夫斯基",
-        "D": "法賓奴同安東尼奧魯迪加"
-      },
-      "correct_answer": "C",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q44977",
-          "name_english": "Pierre-Emerick Aubameyang",
-          "name_cantonese": "奧巴美揚",
-          "start_year": 2013,
-          "end_year": 2018
+          "id": "Q17507",
+          "name_english": "Gerard Piqué",
+          "name_cantonese": "碧基",
+          "start_year": 2008,
+          "end_year": 2022
         },
         "player2": {
           "id": "Q151269",
           "name_english": "Robert Lewandowski",
           "name_cantonese": "利雲度夫斯基",
-          "start_year": 2010,
-          "end_year": 2014
-        },
-        "club": {
-          "id": "Q41420",
-          "name_english": "Borussia Dortmund",
-          "name_cantonese": "多蒙特",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They have never been teammates",
-        "B": "They have never been teammates",
-        "C": "They were teammates at Borussia Dortmund",
-        "D": "They have never been teammates"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋從來冇做過隊友",
-        "C": "佢哋喺多蒙特做過隊友",
-        "D": "佢哋從來冇做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Naldo and Sadio Mané",
-        "B": "Paul Pogba and Cesc Fàbregas",
-        "C": "Manuel Neuer and Wojciech Szczęsny",
-        "D": "Luis Suárez and Marc-André ter Stegen"
-      },
-      "choices_cantonese": {
-        "A": "拿杜同沙迪奧文尼",
-        "B": "普巴同法比加斯",
-        "C": "紐亞同禾捷治施捷斯尼",
-        "D": "路易斯·蘇亞利斯同馬克-安德烈·達史特根"
-      },
-      "correct_answer": "D",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q26517",
-          "name_english": "Luis Suárez",
-          "name_cantonese": "路易斯·蘇亞利斯",
-          "start_year": 2014,
-          "end_year": 2020
-        },
-        "player2": {
-          "id": "Q160472",
-          "name_english": "Marc-André ter Stegen",
-          "name_cantonese": "馬克-安德烈·達史特根",
-          "start_year": 2014,
+          "start_year": 2022,
           "end_year": null
-        },
-        "club": {
-          "id": "Q7156",
-          "name_english": "FC Barcelona",
-          "name_cantonese": "巴塞隆拿足球會",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They have never been teammates",
-        "B": "They have never been teammates",
-        "C": "They have never been teammates",
-        "D": "They were teammates at FC Barcelona"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋從來冇做過隊友",
-        "C": "佢哋從來冇做過隊友",
-        "D": "佢哋喺巴塞隆拿足球會做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Sergio Busquets and Petr Čech",
-        "B": "David Luiz and Nemanja Matić",
-        "C": "Paulo Dybala and Jamie Vardy",
-        "D": "Lautaro Martínez and Isco"
-      },
-      "choices_cantonese": {
-        "A": "沙治奧·布斯基斯同施治",
-        "B": "大衛雷斯同尼馬查馬迪",
-        "C": "保羅·戴巴拿同占美華迪",
-        "D": "拿達路·馬天尼斯同伊斯高"
-      },
-      "correct_answer": "B",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q193706",
-          "name_english": "David Luiz",
-          "name_cantonese": "大衛雷斯",
-          "start_year": 2016,
-          "end_year": 2019
-        },
-        "player2": {
-          "id": "Q297603",
-          "name_english": "Nemanja Matić",
-          "name_cantonese": "尼馬查馬迪",
-          "start_year": 2014,
-          "end_year": 2017
-        },
-        "club": {
-          "id": "Q9616",
-          "name_english": "Chelsea F.C.",
-          "name_cantonese": "車路士",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They have never been teammates",
-        "B": "They were teammates at Chelsea F.C.",
-        "C": "They have never been teammates",
-        "D": "They have never been teammates"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋喺車路士做過隊友",
-        "C": "佢哋從來冇做過隊友",
-        "D": "佢哋從來冇做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Miralem Pjanić and Gianluigi Donnarumma",
-        "B": "Ronald Araújo and Andrew Robertson",
-        "C": "Éder Militão and Medhi Benatia",
-        "D": "Luis Suárez and Toby Alderweireld"
-      },
-      "choices_cantonese": {
-        "A": "米拉萊姆·比真歷同基安盧基·當拿隆馬",
-        "B": "阿拿祖同安祖·羅拔臣",
-        "C": "艾達美列度奧同美迪·賓拿迪亞",
-        "D": "路易斯·蘇亞利斯同艾達韋列特"
-      },
-      "correct_answer": "D",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q26517",
-          "name_english": "Luis Suárez",
-          "name_cantonese": "路易斯·蘇亞利斯",
-          "start_year": 2007,
-          "end_year": 2011
-        },
-        "player2": {
-          "id": "Q128840",
-          "name_english": "Toby Alderweireld",
-          "name_cantonese": "艾達韋列特",
-          "start_year": 2008,
-          "end_year": 2013
-        },
-        "club": {
-          "id": "Q81888",
-          "name_english": "AFC Ajax",
-          "name_cantonese": "阿積士足球會",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They have never been teammates",
-        "B": "They have never been teammates",
-        "C": "They have never been teammates",
-        "D": "They were teammates at AFC Ajax"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋從來冇做過隊友",
-        "C": "佢哋從來冇做過隊友",
-        "D": "佢哋喺阿積士足球會做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "N'Golo Kanté and Xavi Hernández",
-        "B": "Arturo Vidal and Christian Eriksen",
-        "C": "Kylian Mbappé and Naldo",
-        "D": "Mike Maignan and Ronald Araújo"
-      },
-      "choices_cantonese": {
-        "A": "簡迪同沙維",
-        "B": "亞杜羅·維度同基斯甸艾歷臣",
-        "C": "麥巴比同拿杜",
-        "D": "邁治南同阿拿祖"
-      },
-      "correct_answer": "B",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q192671",
-          "name_english": "Arturo Vidal",
-          "name_cantonese": "亞杜羅·維度",
-          "start_year": 2020,
-          "end_year": 2022
-        },
-        "player2": {
-          "id": "Q294951",
-          "name_english": "Christian Eriksen",
-          "name_cantonese": "基斯甸艾歷臣",
-          "start_year": 2020,
-          "end_year": 2021
-        },
-        "club": {
-          "id": "Q631",
-          "name_english": "Inter Milan",
-          "name_cantonese": "國際米蘭",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They have never been teammates",
-        "B": "They were teammates at Inter Milan",
-        "C": "They have never been teammates",
-        "D": "They have never been teammates"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋喺國際米蘭做過隊友",
-        "C": "佢哋從來冇做過隊友",
-        "D": "佢哋從來冇做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Jamal Musiala and Karim Benzema",
-        "B": "Ivan Rakitić and Sergio Busquets",
-        "C": "David de Gea and Marcelo Brozović",
-        "D": "Mohamed Salah and Edinson Acavani"
-      },
-      "choices_cantonese": {
-        "A": "查馬爾·穆斯亞拿同卡廉賓森馬",
-        "B": "伊凡·拉傑迪同沙治奧·布斯基斯",
-        "C": "迪基亞同馬些路波索域",
-        "D": "沙拿同艾甸臣卡雲尼"
-      },
-      "correct_answer": "B",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q115453",
-          "name_english": "Ivan Rakitić",
-          "name_cantonese": "伊凡·拉傑迪",
-          "start_year": 2014,
-          "end_year": 2020
-        },
-        "player2": {
-          "id": "Q49704",
-          "name_english": "Sergio Busquets",
-          "name_cantonese": "沙治奧·布斯基斯",
-          "start_year": 2000,
-          "end_year": 2023
         },
         "club": {
           "id": "Q7156",
@@ -1578,50 +1526,50 @@
       "question": "Which two players below have been teammates in the same club before?",
       "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
       "choices": {
-        "A": "Andrea Barzagli and Bukayo Saka",
-        "B": "Gianluigi Buffon and Virgil van Dijk",
-        "C": "Edinson Acavani and Alexis Sánchez Chileno",
-        "D": "Mohamed Salah and Bastian Schweinsteiger"
+        "A": "Bruno Fernandes and Gianluigi Buffon",
+        "B": "Medhi Benatia and Andrea Barzagli",
+        "C": "Éder Militão and Paulo Dybala",
+        "D": "Miranda and Karim Benzema"
       },
       "choices_cantonese": {
-        "A": "安祖亞·巴沙利同布卡約·沙卡",
-        "B": "保方同雲迪積克",
-        "C": "艾甸臣卡雲尼同阿歷斯山齊士",
-        "D": "沙拿同舒韋恩史迪加"
+        "A": "般奴費南迪斯同保方",
+        "B": "美迪·賓拿迪亞同安祖亞·巴沙利",
+        "C": "艾達美列度奧同保羅·戴巴拿",
+        "D": "祖奧米蘭達同卡廉賓森馬"
       },
-      "correct_answer": "C",
+      "correct_answer": "B",
       "correct_pair_info": {
         "player1": {
-          "id": "Q167790",
-          "name_english": "Edinson Acavani",
-          "name_cantonese": "艾甸臣卡雲尼",
-          "start_year": 2020,
-          "end_year": 2022
+          "id": "Q462779",
+          "name_english": "Medhi Benatia",
+          "name_cantonese": "美迪·賓拿迪亞",
+          "start_year": 2017,
+          "end_year": 2019
         },
         "player2": {
-          "id": "Q180553",
-          "name_english": "Alexis Sánchez Chileno",
-          "name_cantonese": "阿歷斯山齊士",
-          "start_year": 2018,
-          "end_year": 2020
+          "id": "Q107051",
+          "name_english": "Andrea Barzagli",
+          "name_cantonese": "安祖亞·巴沙利",
+          "start_year": 2011,
+          "end_year": 2019
         },
         "club": {
-          "id": "Q18656",
-          "name_english": "Manchester United F.C.",
-          "name_cantonese": "曼聯",
+          "id": "Q1422",
+          "name_english": "Juventus FC",
+          "name_cantonese": "祖雲達斯",
           "type": "club"
         }
       },
       "explanations": {
         "A": "They have never been teammates",
-        "B": "They have never been teammates",
-        "C": "They were teammates at Manchester United F.C.",
+        "B": "They were teammates at Juventus FC",
+        "C": "They have never been teammates",
         "D": "They have never been teammates"
       },
       "explanations_cantonese": {
         "A": "佢哋從來冇做過隊友",
-        "B": "佢哋從來冇做過隊友",
-        "C": "佢哋喺曼聯做過隊友",
+        "B": "佢哋喺祖雲達斯做過隊友",
+        "C": "佢哋從來冇做過隊友",
         "D": "佢哋從來冇做過隊友"
       },
       "question_type": "teammate_relationship"
@@ -1630,18 +1578,18 @@
       "question": "Which two players below have been teammates in the same club before?",
       "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
       "choices": {
-        "A": "Jamal Musiala and Marcelo Vieira",
-        "B": "Antonio Rüdiger and Lorenzo Insigne",
-        "C": "Paulo Dybala and Ronald Araújo",
-        "D": "Jérôme Boateng and Sergio Agüero"
+        "A": "Sergej Milinković-Savić and Alexis Sánchez Chileno",
+        "B": "Jérôme Boateng and Sergio Agüero",
+        "C": "Jordi Alba and Zlatan Ibrahimović",
+        "D": "David Alaba and Jordi Alba"
       },
       "choices_cantonese": {
-        "A": "查馬爾·穆斯亞拿同馬些路",
-        "B": "安東尼奧魯迪加同洛倫佐·因西涅",
-        "C": "保羅·戴巴拿同阿拿祖",
-        "D": "謝洛美·保定同阿古路"
+        "A": "沙治米連高域沙域同阿歷斯山齊士",
+        "B": "謝洛美·保定同阿古路",
+        "C": "佐迪·艾巴同伊巴謙莫域",
+        "D": "大衛·阿拉巴同佐迪·艾巴"
       },
-      "correct_answer": "D",
+      "correct_answer": "B",
       "correct_pair_info": {
         "player1": {
           "id": "Q151260",
@@ -1656,162 +1604,6 @@
           "name_cantonese": "阿古路",
           "start_year": 2011,
           "end_year": 2021
-        },
-        "club": {
-          "id": "Q50602",
-          "name_english": "Manchester City F.C.",
-          "name_cantonese": "曼城足球會",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They have never been teammates",
-        "B": "They have never been teammates",
-        "C": "They have never been teammates",
-        "D": "They were teammates at Manchester City F.C."
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋從來冇做過隊友",
-        "C": "佢哋從來冇做過隊友",
-        "D": "佢哋喺曼城足球會做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Frenkie de Jong and Alexandre Lacazette",
-        "B": "Lionel Messi and Keylor Navas",
-        "C": "Philippe Coutinho and Marek Hamšík",
-        "D": "David Luiz and Medhi Benatia"
-      },
-      "choices_cantonese": {
-        "A": "法蘭基·迪莊同拿卡錫迪",
-        "B": "美斯同基羅拿華斯",
-        "C": "古天奴同馬歷·咸錫",
-        "D": "大衛雷斯同美迪·賓拿迪亞"
-      },
-      "correct_answer": "B",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q615",
-          "name_english": "Lionel Messi",
-          "name_cantonese": "美斯",
-          "start_year": 2021,
-          "end_year": 2023
-        },
-        "player2": {
-          "id": "Q969423",
-          "name_english": "Keylor Navas",
-          "name_cantonese": "基羅拿華斯",
-          "start_year": 2019,
-          "end_year": 2024
-        },
-        "club": {
-          "id": "Q483020",
-          "name_english": "Paris Saint-Germain FC",
-          "name_cantonese": "巴黎聖日耳門",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They have never been teammates",
-        "B": "They were teammates at Paris Saint-Germain FC",
-        "C": "They have never been teammates",
-        "D": "They have never been teammates"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋喺巴黎聖日耳門做過隊友",
-        "C": "佢哋從來冇做過隊友",
-        "D": "佢哋從來冇做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Wayne Rooney and Javi Martínez",
-        "B": "Ousmane Dembélé and Neymar",
-        "C": "Kevin De Bruyne and Bruno Fernandes",
-        "D": "João Cancelo and Jude Bellingham"
-      },
-      "choices_cantonese": {
-        "A": "朗尼同查維·馬天尼斯",
-        "B": "迪比利同尼馬",
-        "C": "迪布尼同般奴費南迪斯",
-        "D": "簡些路同祖迪·比寧咸"
-      },
-      "correct_answer": "B",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q20851003",
-          "name_english": "Ousmane Dembélé",
-          "name_cantonese": "迪比利",
-          "start_year": 2023,
-          "end_year": null
-        },
-        "player2": {
-          "id": "Q142794",
-          "name_english": "Neymar",
-          "name_cantonese": "尼馬",
-          "start_year": 2017,
-          "end_year": 2023
-        },
-        "club": {
-          "id": "Q483020",
-          "name_english": "Paris Saint-Germain FC",
-          "name_cantonese": "巴黎聖日耳門",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They have never been teammates",
-        "B": "They were teammates at Paris Saint-Germain FC",
-        "C": "They have never been teammates",
-        "D": "They have never been teammates"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋喺巴黎聖日耳門做過隊友",
-        "C": "佢哋從來冇做過隊友",
-        "D": "佢哋從來冇做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Joshua Kimmich and Marco Reus",
-        "B": "Yaya Touré and Kevin De Bruyne",
-        "C": "Santi Cazorla and Ronald Araújo",
-        "D": "Lorenzo Insigne and Raheem Sterling"
-      },
-      "choices_cantonese": {
-        "A": "約素亞·劍米克同馬高·萊斯",
-        "B": "耶耶托尼同迪布尼",
-        "C": "辛迪卡蘇拿同阿拿祖",
-        "D": "洛倫佐·因西涅同史達寧"
-      },
-      "correct_answer": "B",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q184277",
-          "name_english": "Yaya Touré",
-          "name_cantonese": "耶耶托尼",
-          "start_year": 2010,
-          "end_year": 2018
-        },
-        "player2": {
-          "id": "Q357984",
-          "name_english": "Kevin De Bruyne",
-          "name_cantonese": "迪布尼",
-          "start_year": 2015,
-          "end_year": 2025
         },
         "club": {
           "id": "Q50602",
@@ -1838,187 +1630,31 @@
       "question": "Which two players below have been teammates in the same club before?",
       "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
       "choices": {
-        "A": "Gareth Bale and Gerard Piqué",
-        "B": "Alisson Becker and Ousmane Dembélé",
-        "C": "Mohamed Salah and Karim Benzema",
-        "D": "Gareth Bale and Jan Vertonghen"
+        "A": "Andrew Robertson and Diego Costa",
+        "B": "İlkay Gündoğan and Karim Benzema",
+        "C": "Jérôme Boateng and Manuel Neuer",
+        "D": "Keylor Navas and Paulo Dybala"
       },
       "choices_cantonese": {
-        "A": "加里夫巴利同碧基",
-        "B": "艾利臣同迪比利",
-        "C": "沙拿同卡廉賓森馬",
-        "D": "加里夫巴利同真維頓漢"
-      },
-      "correct_answer": "D",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q184586",
-          "name_english": "Gareth Bale",
-          "name_cantonese": "加里夫巴利",
-          "start_year": 2007,
-          "end_year": 2013
-        },
-        "player2": {
-          "id": "Q313170",
-          "name_english": "Jan Vertonghen",
-          "name_cantonese": "真維頓漢",
-          "start_year": 2012,
-          "end_year": 2020
-        },
-        "club": {
-          "id": "Q18741",
-          "name_english": "Tottenham Hotspur F.C.",
-          "name_cantonese": "熱刺",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They have never been teammates",
-        "B": "They have never been teammates",
-        "C": "They have never been teammates",
-        "D": "They were teammates at Tottenham Hotspur F.C."
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋從來冇做過隊友",
-        "C": "佢哋從來冇做過隊友",
-        "D": "佢哋喺熱刺做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Robin van Persie and Trent Alexander-Arnold",
-        "B": "Manuel Neuer and Gerard Piqué",
-        "C": "Toby Alderweireld and Christian Eriksen",
-        "D": "Mohamed Salah and Rodri"
-      },
-      "choices_cantonese": {
-        "A": "雲佩斯同阿諾",
-        "B": "紐亞同碧基",
-        "C": "艾達韋列特同基斯甸艾歷臣",
-        "D": "沙拿同洛迪 (足球員)"
+        "A": "安祖·羅拔臣同迪亞高哥斯達",
+        "B": "根度簡同卡廉賓森馬",
+        "C": "謝洛美·保定同紐亞",
+        "D": "基羅拿華斯同保羅·戴巴拿"
       },
       "correct_answer": "C",
       "correct_pair_info": {
         "player1": {
-          "id": "Q128840",
-          "name_english": "Toby Alderweireld",
-          "name_cantonese": "艾達韋列特",
-          "start_year": 2008,
-          "end_year": 2013
-        },
-        "player2": {
-          "id": "Q294951",
-          "name_english": "Christian Eriksen",
-          "name_cantonese": "基斯甸艾歷臣",
-          "start_year": 2010,
-          "end_year": 2013
-        },
-        "club": {
-          "id": "Q81888",
-          "name_english": "AFC Ajax",
-          "name_cantonese": "阿積士足球會",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They have never been teammates",
-        "B": "They have never been teammates",
-        "C": "They were teammates at AFC Ajax",
-        "D": "They have never been teammates"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋從來冇做過隊友",
-        "C": "佢哋喺阿積士足球會做過隊友",
-        "D": "佢哋從來冇做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Franck Ribéry and Pedri",
-        "B": "Wayne Rooney and Mohamed Salah",
-        "C": "Cristiano Ronaldo and Sergio Ramos",
-        "D": "İlkay Gündoğan and Bernd Leno"
-      },
-      "choices_cantonese": {
-        "A": "列貝利同柏迪",
-        "B": "朗尼同沙拿",
-        "C": "基斯坦奴朗拿度同沙治奧拉莫斯",
-        "D": "根度簡同蘭奴"
-      },
-      "correct_answer": "C",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q11571",
-          "name_english": "Cristiano Ronaldo",
-          "name_cantonese": "基斯坦奴朗拿度",
-          "start_year": 2009,
-          "end_year": 2018
-        },
-        "player2": {
-          "id": "Q483309",
-          "name_english": "Sergio Ramos",
-          "name_cantonese": "沙治奧拉莫斯",
-          "start_year": 2005,
+          "id": "Q151260",
+          "name_english": "Jérôme Boateng",
+          "name_cantonese": "謝洛美·保定",
+          "start_year": 2011,
           "end_year": 2021
         },
-        "club": {
-          "id": "Q8682",
-          "name_english": "Real Madrid CF",
-          "name_cantonese": "皇家馬德里足球會",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They have never been teammates",
-        "B": "They have never been teammates",
-        "C": "They were teammates at Real Madrid CF",
-        "D": "They have never been teammates"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋從來冇做過隊友",
-        "C": "佢哋喺皇家馬德里足球會做過隊友",
-        "D": "佢哋從來冇做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Mesut Özil and Toni Kroos",
-        "B": "Toby Alderweireld and Javi Martínez",
-        "C": "Harry Kane and Jamal Musiala",
-        "D": "Franck Ribéry and İlkay Gündoğan"
-      },
-      "choices_cantonese": {
-        "A": "奧斯爾同東尼·卻奧斯",
-        "B": "艾達韋列特同查維·馬天尼斯",
-        "C": "哈利簡尼同查馬爾·穆斯亞拿",
-        "D": "列貝利同根度簡"
-      },
-      "correct_answer": "C",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q969725",
-          "name_english": "Harry Kane",
-          "name_cantonese": "哈利簡尼",
-          "start_year": 2023,
-          "end_year": null
-        },
         "player2": {
-          "id": "Q96072055",
-          "name_english": "Jamal Musiala",
-          "name_cantonese": "查馬爾·穆斯亞拿",
-          "start_year": 2020,
+          "id": "Q107365",
+          "name_english": "Manuel Neuer",
+          "name_cantonese": "紐亞",
+          "start_year": 2011,
           "end_year": null
         },
         "club": {
@@ -2046,50 +1682,50 @@
       "question": "Which two players below have been teammates in the same club before?",
       "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
       "choices": {
-        "A": "Yaya Touré and Jadon Sancho",
-        "B": "Fernandinho and Ivan Perišić",
-        "C": "Kevin De Bruyne and Riyad Mahrez",
-        "D": "Manuel Neuer and Gianluigi Donnarumma"
+        "A": "Naldo and Robin van Persie",
+        "B": "Federico Valverde and Carlos Tevez",
+        "C": "Alexis Sánchez Chileno and Marcelo Brozović",
+        "D": "Franck Ribéry and Sergio Agüero"
       },
       "choices_cantonese": {
-        "A": "耶耶托尼同查頓辛祖",
-        "B": "費蘭甸奴同艾雲·比列錫",
-        "C": "迪布尼同列恩馬列斯",
-        "D": "紐亞同基安盧基·當拿隆馬"
+        "A": "拿杜同雲佩斯",
+        "B": "費達歷高華維迪同迪維斯",
+        "C": "阿歷斯山齊士同馬些路波索域",
+        "D": "列貝利同阿古路"
       },
       "correct_answer": "C",
       "correct_pair_info": {
         "player1": {
-          "id": "Q357984",
-          "name_english": "Kevin De Bruyne",
-          "name_cantonese": "迪布尼",
-          "start_year": 2015,
-          "end_year": 2025
+          "id": "Q180553",
+          "name_english": "Alexis Sánchez Chileno",
+          "name_cantonese": "阿歷斯山齊士",
+          "start_year": 2020,
+          "end_year": 2022
         },
         "player2": {
-          "id": "Q8338725",
-          "name_english": "Riyad Mahrez",
-          "name_cantonese": "列恩馬列斯",
-          "start_year": 2018,
+          "id": "Q3845710",
+          "name_english": "Marcelo Brozović",
+          "name_cantonese": "馬些路波索域",
+          "start_year": 2015,
           "end_year": 2023
         },
         "club": {
-          "id": "Q50602",
-          "name_english": "Manchester City F.C.",
-          "name_cantonese": "曼城足球會",
+          "id": "Q631",
+          "name_english": "Inter Milan",
+          "name_cantonese": "國際米蘭",
           "type": "club"
         }
       },
       "explanations": {
         "A": "They have never been teammates",
         "B": "They have never been teammates",
-        "C": "They were teammates at Manchester City F.C.",
+        "C": "They were teammates at Inter Milan",
         "D": "They have never been teammates"
       },
       "explanations_cantonese": {
         "A": "佢哋從來冇做過隊友",
         "B": "佢哋從來冇做過隊友",
-        "C": "佢哋喺曼城足球會做過隊友",
+        "C": "佢哋喺國際米蘭做過隊友",
         "D": "佢哋從來冇做過隊友"
       },
       "question_type": "teammate_relationship"
@@ -2098,100 +1734,48 @@
       "question": "Which two players below have been teammates in the same club before?",
       "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
       "choices": {
-        "A": "Miranda and Medhi Benatia",
-        "B": "Pierre-Emerick Aubameyang and César Azpilicueta",
-        "C": "David Alaba and Antoine Griezmann",
-        "D": "Toby Alderweireld and Neymar"
+        "A": "Jordi Alba and Antoine Griezmann",
+        "B": "Yaya Touré and Pedri",
+        "C": "Zlatan Ibrahimović and Raheem Sterling",
+        "D": "Mike Maignan and Manuel Neuer"
       },
       "choices_cantonese": {
-        "A": "祖奧米蘭達同美迪·賓拿迪亞",
-        "B": "奧巴美揚同艾斯派古達",
-        "C": "大衛·阿拉巴同基士文 (法國足球員)",
-        "D": "艾達韋列特同尼馬"
-      },
-      "correct_answer": "B",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q44977",
-          "name_english": "Pierre-Emerick Aubameyang",
-          "name_cantonese": "奧巴美揚",
-          "start_year": 2022,
-          "end_year": 2023
-        },
-        "player2": {
-          "id": "Q294806",
-          "name_english": "César Azpilicueta",
-          "name_cantonese": "艾斯派古達",
-          "start_year": 2012,
-          "end_year": 2023
-        },
-        "club": {
-          "id": "Q9616",
-          "name_english": "Chelsea F.C.",
-          "name_cantonese": "車路士",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They have never been teammates",
-        "B": "They were teammates at Chelsea F.C.",
-        "C": "They have never been teammates",
-        "D": "They have never been teammates"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋喺車路士做過隊友",
-        "C": "佢哋從來冇做過隊友",
-        "D": "佢哋從來冇做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Kingsley Coman and Carlos Tevez",
-        "B": "Lorenzo Insigne and Wayne Rooney",
-        "C": "Jamie Vardy and David Luiz",
-        "D": "Hugo Lloris and Mesut Özil"
-      },
-      "choices_cantonese": {
-        "A": "京士利·高文同迪維斯",
-        "B": "洛倫佐·因西涅同朗尼",
-        "C": "占美華迪同大衛雷斯",
-        "D": "曉高洛里斯同奧斯爾"
+        "A": "佐迪·艾巴同基士文 (法國足球員)",
+        "B": "耶耶托尼同柏迪",
+        "C": "伊巴謙莫域同史達寧",
+        "D": "邁治南同紐亞"
       },
       "correct_answer": "A",
       "correct_pair_info": {
         "player1": {
-          "id": "Q6413296",
-          "name_english": "Kingsley Coman",
-          "name_cantonese": "京士利·高文",
-          "start_year": 2014,
-          "end_year": 2017
+          "id": "Q187159",
+          "name_english": "Jordi Alba",
+          "name_cantonese": "佐迪·艾巴",
+          "start_year": 2012,
+          "end_year": 2023
         },
         "player2": {
-          "id": "Q50600",
-          "name_english": "Carlos Tevez",
-          "name_cantonese": "迪維斯",
-          "start_year": 2013,
-          "end_year": 2015
+          "id": "Q455462",
+          "name_english": "Antoine Griezmann",
+          "name_cantonese": "基士文 (法國足球員)",
+          "start_year": 2019,
+          "end_year": 2022
         },
         "club": {
-          "id": "Q1422",
-          "name_english": "Juventus FC",
-          "name_cantonese": "祖雲達斯",
+          "id": "Q7156",
+          "name_english": "FC Barcelona",
+          "name_cantonese": "巴塞隆拿足球會",
           "type": "club"
         }
       },
       "explanations": {
-        "A": "They were teammates at Juventus FC",
+        "A": "They were teammates at FC Barcelona",
         "B": "They have never been teammates",
         "C": "They have never been teammates",
         "D": "They have never been teammates"
       },
       "explanations_cantonese": {
-        "A": "佢哋喺祖雲達斯做過隊友",
+        "A": "佢哋喺巴塞隆拿足球會做過隊友",
         "B": "佢哋從來冇做過隊友",
         "C": "佢哋從來冇做過隊友",
         "D": "佢哋從來冇做過隊友"
@@ -2202,25 +1786,77 @@
       "question": "Which two players below have been teammates in the same club before?",
       "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
       "choices": {
-        "A": "Andrea Barzagli and Pierre-Emerick Aubameyang",
-        "B": "Gianluigi Buffon and Gonzalo Higuaín",
-        "C": "Thiago Silva and Arjen Robben",
-        "D": "Naldo and Jérôme Boateng"
+        "A": "Dani Carvajal and Nemanja Matić",
+        "B": "Gianluigi Buffon and Pedri",
+        "C": "Karim Benzema and Gerard Piqué",
+        "D": "Thomas Müller and Franck Ribéry"
       },
       "choices_cantonese": {
-        "A": "安祖亞·巴沙利同奧巴美揚",
-        "B": "保方同希古恩",
-        "C": "泰亞高施華同阿仁洛賓",
-        "D": "拿杜同謝洛美·保定"
+        "A": "丹尼卡華積同尼馬查馬迪",
+        "B": "保方同柏迪",
+        "C": "卡廉賓森馬同碧基",
+        "D": "湯馬士·梅拿同列貝利"
+      },
+      "correct_answer": "D",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q43666",
+          "name_english": "Thomas Müller",
+          "name_cantonese": "湯馬士·梅拿",
+          "start_year": 2008,
+          "end_year": 2025
+        },
+        "player2": {
+          "id": "Q1918",
+          "name_english": "Franck Ribéry",
+          "name_cantonese": "列貝利",
+          "start_year": 2007,
+          "end_year": 2019
+        },
+        "club": {
+          "id": "Q15789",
+          "name_english": "FC Bayern Munich",
+          "name_cantonese": "拜仁慕尼黑",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They have never been teammates",
+        "C": "They have never been teammates",
+        "D": "They were teammates at FC Bayern Munich"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋喺拜仁慕尼黑做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "David Alaba and Rafael Leão",
+        "B": "Andrea Barzagli and Gonzalo Higuaín",
+        "C": "Petr Čech and Jérôme Boateng",
+        "D": "Antoine Griezmann and Giorgio Chiellini"
+      },
+      "choices_cantonese": {
+        "A": "大衛·阿拉巴同里奧",
+        "B": "安祖亞·巴沙利同希古恩",
+        "C": "施治同謝洛美·保定",
+        "D": "基士文 (法國足球員)同喬治奧·基亞連尼"
       },
       "correct_answer": "B",
       "correct_pair_info": {
         "player1": {
-          "id": "Q68060",
-          "name_english": "Gianluigi Buffon",
-          "name_cantonese": "保方",
-          "start_year": 2001,
-          "end_year": 2018
+          "id": "Q107051",
+          "name_english": "Andrea Barzagli",
+          "name_cantonese": "安祖亞·巴沙利",
+          "start_year": 2011,
+          "end_year": 2019
         },
         "player2": {
           "id": "Q483846",
@@ -2254,50 +1890,50 @@
       "question": "Which two players below have been teammates in the same club before?",
       "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
       "choices": {
-        "A": "Erling Haaland and Jan Vertonghen",
-        "B": "Thiago Silva and Raphaël Varane",
-        "C": "Thibaut Courtois and Antoine Griezmann",
-        "D": "Andrea Barzagli and Naldo"
+        "A": "David Silva and Zlatan Ibrahimović",
+        "B": "Jordan Henderson and Luka Modrić",
+        "C": "Kylian Mbappé and Keylor Navas",
+        "D": "Bukayo Saka and Cristiano Ronaldo"
       },
       "choices_cantonese": {
-        "A": "夏蘭特同真維頓漢",
-        "B": "泰亞高施華同華拉尼",
-        "C": "高圖爾斯同基士文 (法國足球員)",
-        "D": "安祖亞·巴沙利同拿杜"
+        "A": "大衞施華同伊巴謙莫域",
+        "B": "軒達臣同盧卡·摩德列治",
+        "C": "麥巴比同基羅拿華斯",
+        "D": "布卡約·沙卡同基斯坦奴朗拿度"
       },
       "correct_answer": "C",
       "correct_pair_info": {
         "player1": {
-          "id": "Q73360",
-          "name_english": "Thibaut Courtois",
-          "name_cantonese": "高圖爾斯",
-          "start_year": 2011,
-          "end_year": 2014
+          "id": "Q21621995",
+          "name_english": "Kylian Mbappé",
+          "name_cantonese": "麥巴比",
+          "start_year": 2018,
+          "end_year": 2024
         },
         "player2": {
-          "id": "Q455462",
-          "name_english": "Antoine Griezmann",
-          "name_cantonese": "基士文 (法國足球員)",
-          "start_year": 2014,
-          "end_year": 2019
+          "id": "Q969423",
+          "name_english": "Keylor Navas",
+          "name_cantonese": "基羅拿華斯",
+          "start_year": 2019,
+          "end_year": 2024
         },
         "club": {
-          "id": "Q8701",
-          "name_english": "Atlético de Madrid",
-          "name_cantonese": "馬德里體育會",
+          "id": "Q483020",
+          "name_english": "Paris Saint-Germain FC",
+          "name_cantonese": "巴黎聖日耳門",
           "type": "club"
         }
       },
       "explanations": {
         "A": "They have never been teammates",
         "B": "They have never been teammates",
-        "C": "They were teammates at Atlético de Madrid",
+        "C": "They were teammates at Paris Saint-Germain FC",
         "D": "They have never been teammates"
       },
       "explanations_cantonese": {
         "A": "佢哋從來冇做過隊友",
         "B": "佢哋從來冇做過隊友",
-        "C": "佢哋喺馬德里體育會做過隊友",
+        "C": "佢哋喺巴黎聖日耳門做過隊友",
         "D": "佢哋從來冇做過隊友"
       },
       "question_type": "teammate_relationship"
@@ -2306,16 +1942,536 @@
       "question": "Which two players below have been teammates in the same club before?",
       "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
       "choices": {
-        "A": "Gianluigi Donnarumma and Nemanja Matić",
-        "B": "Mohamed Salah and Rafael Leão",
-        "C": "Mohamed Salah and Marek Hamšík",
-        "D": "Fabinho and N'Golo Kanté"
+        "A": "Sergio Busquets and Éder Militão",
+        "B": "Alex Sandro and Raphaël Varane",
+        "C": "Sergio Agüero and Antoine Griezmann",
+        "D": "Robert Lewandowski and Rodri"
       },
       "choices_cantonese": {
-        "A": "基安盧基·當拿隆馬同尼馬查馬迪",
-        "B": "沙拿同里奧",
-        "C": "沙拿同馬歷·咸錫",
-        "D": "法賓奴同簡迪"
+        "A": "沙治奧·布斯基斯同艾達美列度奧",
+        "B": "A.辛特路同華拉尼",
+        "C": "阿古路同基士文 (法國足球員)",
+        "D": "利雲度夫斯基同洛迪 (足球員)"
+      },
+      "correct_answer": "C",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q119562",
+          "name_english": "Sergio Agüero",
+          "name_cantonese": "阿古路",
+          "start_year": 2021,
+          "end_year": 2021
+        },
+        "player2": {
+          "id": "Q455462",
+          "name_english": "Antoine Griezmann",
+          "name_cantonese": "基士文 (法國足球員)",
+          "start_year": 2019,
+          "end_year": 2022
+        },
+        "club": {
+          "id": "Q7156",
+          "name_english": "FC Barcelona",
+          "name_cantonese": "巴塞隆拿足球會",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They have never been teammates",
+        "C": "They were teammates at FC Barcelona",
+        "D": "They have never been teammates"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋喺巴塞隆拿足球會做過隊友",
+        "D": "佢哋從來冇做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Zlatan Ibrahimović and João Cancelo",
+        "B": "Radamel Falcao and Thiago Alcântara",
+        "C": "James Rodríguez and Luka Modrić",
+        "D": "Cristiano Ronaldo and Jan Oblak"
+      },
+      "choices_cantonese": {
+        "A": "伊巴謙莫域同簡些路",
+        "B": "拉達梅爾·法卡奧同堤亞高艾勤達拿",
+        "C": "占士洛迪古斯同盧卡·摩德列治",
+        "D": "基斯坦奴朗拿度同奧比歷"
+      },
+      "correct_answer": "C",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q368441",
+          "name_english": "James Rodríguez",
+          "name_cantonese": "占士洛迪古斯",
+          "start_year": 2014,
+          "end_year": 2020
+        },
+        "player2": {
+          "id": "Q483837",
+          "name_english": "Luka Modrić",
+          "name_cantonese": "盧卡·摩德列治",
+          "start_year": 2012,
+          "end_year": 2025
+        },
+        "club": {
+          "id": "Q8682",
+          "name_english": "Real Madrid CF",
+          "name_cantonese": "皇家馬德里足球會",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They have never been teammates",
+        "C": "They were teammates at Real Madrid CF",
+        "D": "They have never been teammates"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋喺皇家馬德里足球會做過隊友",
+        "D": "佢哋從來冇做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Wayne Rooney and Paul Pogba",
+        "B": "Andrés Iniesta and Gianluigi Donnarumma",
+        "C": "Rodri and Jude Bellingham",
+        "D": "Marek Hamšík and Sergio Ramos"
+      },
+      "choices_cantonese": {
+        "A": "朗尼同普巴",
+        "B": "恩尼斯達同基安盧基·當拿隆馬",
+        "C": "洛迪 (足球員)同祖迪·比寧咸",
+        "D": "馬歷·咸錫同沙治奧拉莫斯"
+      },
+      "correct_answer": "A",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q266613",
+          "name_english": "Wayne Rooney",
+          "name_cantonese": "朗尼",
+          "start_year": 2004,
+          "end_year": 2017
+        },
+        "player2": {
+          "id": "Q129027",
+          "name_english": "Paul Pogba",
+          "name_cantonese": "普巴",
+          "start_year": 2011,
+          "end_year": 2012
+        },
+        "club": {
+          "id": "Q18656",
+          "name_english": "Manchester United F.C.",
+          "name_cantonese": "曼聯",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They were teammates at Manchester United F.C.",
+        "B": "They have never been teammates",
+        "C": "They have never been teammates",
+        "D": "They have never been teammates"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋喺曼聯做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋從來冇做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Luka Modrić and Cristiano Ronaldo",
+        "B": "Harry Kane and Yaya Touré",
+        "C": "Cesc Fàbregas and İlkay Gündoğan",
+        "D": "Douglas Costa and Gareth Bale"
+      },
+      "choices_cantonese": {
+        "A": "盧卡·摩德列治同基斯坦奴朗拿度",
+        "B": "哈利簡尼同耶耶托尼",
+        "C": "法比加斯同根度簡",
+        "D": "杜格拉斯·哥斯達同加里夫巴利"
+      },
+      "correct_answer": "A",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q483837",
+          "name_english": "Luka Modrić",
+          "name_cantonese": "盧卡·摩德列治",
+          "start_year": 2012,
+          "end_year": 2025
+        },
+        "player2": {
+          "id": "Q11571",
+          "name_english": "Cristiano Ronaldo",
+          "name_cantonese": "基斯坦奴朗拿度",
+          "start_year": 2009,
+          "end_year": 2018
+        },
+        "club": {
+          "id": "Q8682",
+          "name_english": "Real Madrid CF",
+          "name_cantonese": "皇家馬德里足球會",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They were teammates at Real Madrid CF",
+        "B": "They have never been teammates",
+        "C": "They have never been teammates",
+        "D": "They have never been teammates"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋喺皇家馬德里足球會做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋從來冇做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Jordan Henderson and Antoine Griezmann",
+        "B": "Marek Hamšík and Ángel Di María",
+        "C": "Andrew Robertson and Franck Ribéry",
+        "D": "Harry Kane and Toby Alderweireld"
+      },
+      "choices_cantonese": {
+        "A": "軒達臣同基士文 (法國足球員)",
+        "B": "馬歷·咸錫同迪馬利亞",
+        "C": "安祖·羅拔臣同列貝利",
+        "D": "哈利簡尼同艾達韋列特"
+      },
+      "correct_answer": "D",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q969725",
+          "name_english": "Harry Kane",
+          "name_cantonese": "哈利簡尼",
+          "start_year": 2009,
+          "end_year": 2023
+        },
+        "player2": {
+          "id": "Q128840",
+          "name_english": "Toby Alderweireld",
+          "name_cantonese": "艾達韋列特",
+          "start_year": 2015,
+          "end_year": 2021
+        },
+        "club": {
+          "id": "Q18741",
+          "name_english": "Tottenham Hotspur F.C.",
+          "name_cantonese": "熱刺",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They have never been teammates",
+        "C": "They have never been teammates",
+        "D": "They were teammates at Tottenham Hotspur F.C."
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋喺熱刺做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Aymeric Laporte and Andrés Iniesta",
+        "B": "João Cancelo and Ousmane Dembélé",
+        "C": "Andrew Robertson and Naldo",
+        "D": "Éder Militão and Thomas Müller"
+      },
+      "choices_cantonese": {
+        "A": "拿樸迪同恩尼斯達",
+        "B": "簡些路同迪比利",
+        "C": "安祖·羅拔臣同拿杜",
+        "D": "艾達美列度奧同湯馬士·梅拿"
+      },
+      "correct_answer": "B",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q6298063",
+          "name_english": "João Cancelo",
+          "name_cantonese": "簡些路",
+          "start_year": 2023,
+          "end_year": 2024
+        },
+        "player2": {
+          "id": "Q20851003",
+          "name_english": "Ousmane Dembélé",
+          "name_cantonese": "迪比利",
+          "start_year": 2017,
+          "end_year": 2023
+        },
+        "club": {
+          "id": "Q7156",
+          "name_english": "FC Barcelona",
+          "name_cantonese": "巴塞隆拿足球會",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They were teammates at FC Barcelona",
+        "C": "They have never been teammates",
+        "D": "They have never been teammates"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋喺巴塞隆拿足球會做過隊友",
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋從來冇做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Xavi Hernández and Jude Bellingham",
+        "B": "Aymeric Laporte and Robert Lewandowski",
+        "C": "Yann Sommer and Marc-André ter Stegen",
+        "D": "Yann Sommer and Marcelo Vieira"
+      },
+      "choices_cantonese": {
+        "A": "沙維同祖迪·比寧咸",
+        "B": "拿樸迪同利雲度夫斯基",
+        "C": "恩·蘇馬同馬克-安德烈·達史特根",
+        "D": "恩·蘇馬同馬些路"
+      },
+      "correct_answer": "C",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q667596",
+          "name_english": "Yann Sommer",
+          "name_cantonese": "恩·蘇馬",
+          "start_year": 2014,
+          "end_year": 2023
+        },
+        "player2": {
+          "id": "Q160472",
+          "name_english": "Marc-André ter Stegen",
+          "name_cantonese": "馬克-安德烈·達史特根",
+          "start_year": 2011,
+          "end_year": 2014
+        },
+        "club": {
+          "id": "Q101959",
+          "name_english": "Borussia Mönchengladbach",
+          "name_cantonese": "慕遜加柏足球會",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They have never been teammates",
+        "C": "They were teammates at Borussia Mönchengladbach",
+        "D": "They have never been teammates"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋喺慕遜加柏足球會做過隊友",
+        "D": "佢哋從來冇做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "César Azpilicueta and Marco Reus",
+        "B": "Ivan Rakitić and Raheem Sterling",
+        "C": "Ousmane Dembélé and Papu Gómez",
+        "D": "Arturo Vidal and Mats Hummels"
+      },
+      "choices_cantonese": {
+        "A": "艾斯派古達同馬高·萊斯",
+        "B": "伊凡·拉傑迪同史達寧",
+        "C": "迪比利同達里奧·戈麥斯",
+        "D": "亞杜羅·維度同麥斯·曉姆斯"
+      },
+      "correct_answer": "D",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q192671",
+          "name_english": "Arturo Vidal",
+          "name_cantonese": "亞杜羅·維度",
+          "start_year": 2015,
+          "end_year": 2018
+        },
+        "player2": {
+          "id": "Q110053",
+          "name_english": "Mats Hummels",
+          "name_cantonese": "麥斯·曉姆斯",
+          "start_year": 2016,
+          "end_year": 2019
+        },
+        "club": {
+          "id": "Q15789",
+          "name_english": "FC Bayern Munich",
+          "name_cantonese": "拜仁慕尼黑",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They have never been teammates",
+        "C": "They have never been teammates",
+        "D": "They were teammates at FC Bayern Munich"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋喺拜仁慕尼黑做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Alexis Sánchez Chileno and Leroy Sané",
+        "B": "David Silva and Samir Handanović",
+        "C": "Cesc Fàbregas and Sergej Milinković-Savić",
+        "D": "David Luiz and Eden Hazard"
+      },
+      "choices_cantonese": {
+        "A": "阿歷斯山齊士同利萊辛尼",
+        "B": "大衞施華同薩米爾·漢丹洛域",
+        "C": "法比加斯同沙治米連高域沙域",
+        "D": "大衛雷斯同夏薩特"
+      },
+      "correct_answer": "D",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q193706",
+          "name_english": "David Luiz",
+          "name_cantonese": "大衛雷斯",
+          "start_year": 2016,
+          "end_year": 2019
+        },
+        "player2": {
+          "id": "Q214204",
+          "name_english": "Eden Hazard",
+          "name_cantonese": "夏薩特",
+          "start_year": 2012,
+          "end_year": 2019
+        },
+        "club": {
+          "id": "Q9616",
+          "name_english": "Chelsea F.C.",
+          "name_cantonese": "車路士",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They have never been teammates",
+        "C": "They have never been teammates",
+        "D": "They were teammates at Chelsea F.C."
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋從來冇做過隊友",
+        "D": "佢哋喺車路士做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Ederson Moraes and Philippe Coutinho",
+        "B": "Mike Maignan and Luis Suárez",
+        "C": "David Silva and Nicolás Otamendi",
+        "D": "Luis Suárez and Vincent Kompany"
+      },
+      "choices_cantonese": {
+        "A": "艾達臣·摩拉斯同古天奴",
+        "B": "邁治南同路易斯·蘇亞利斯",
+        "C": "大衞施華同尼古拉斯奧達文迪",
+        "D": "路易斯·蘇亞利斯同文森特·甘賓尼"
+      },
+      "correct_answer": "C",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q161069",
+          "name_english": "David Silva",
+          "name_cantonese": "大衞施華",
+          "start_year": 2010,
+          "end_year": 2020
+        },
+        "player2": {
+          "id": "Q182063",
+          "name_english": "Nicolás Otamendi",
+          "name_cantonese": "尼古拉斯奧達文迪",
+          "start_year": 2015,
+          "end_year": 2020
+        },
+        "club": {
+          "id": "Q50602",
+          "name_english": "Manchester City F.C.",
+          "name_cantonese": "曼城足球會",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They have never been teammates",
+        "C": "They were teammates at Manchester City F.C.",
+        "D": "They have never been teammates"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋喺曼城足球會做過隊友",
+        "D": "佢哋從來冇做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Sokratis Papastathopoulos and Jamal Musiala",
+        "B": "Hugo Lloris and Éder Militão",
+        "C": "Sergej Milinković-Savić and Yann Sommer",
+        "D": "Fabinho and Ángel Di María"
+      },
+      "choices_cantonese": {
+        "A": "蘇卡迪斯同查馬爾·穆斯亞拿",
+        "B": "曉高洛里斯同艾達美列度奧",
+        "C": "沙治米連高域沙域同恩·蘇馬",
+        "D": "法賓奴同迪馬利亞"
       },
       "correct_answer": "D",
       "correct_pair_info": {
@@ -2323,20 +2479,20 @@
           "id": "Q641425",
           "name_english": "Fabinho",
           "name_cantonese": "法賓奴",
-          "start_year": 2023,
-          "end_year": null
+          "start_year": 2013,
+          "end_year": 2013
         },
         "player2": {
-          "id": "Q16665941",
-          "name_english": "N'Golo Kanté",
-          "name_cantonese": "簡迪",
-          "start_year": 2023,
-          "end_year": null
+          "id": "Q251683",
+          "name_english": "Ángel Di María",
+          "name_cantonese": "迪馬利亞",
+          "start_year": 2010,
+          "end_year": 2014
         },
         "club": {
-          "id": "Q309480",
-          "name_english": "Al Ittihad FC",
-          "name_cantonese": "伊蒂哈德",
+          "id": "Q8682",
+          "name_english": "Real Madrid CF",
+          "name_cantonese": "皇家馬德里足球會",
           "type": "club"
         }
       },
@@ -2344,13 +2500,13 @@
         "A": "They have never been teammates",
         "B": "They have never been teammates",
         "C": "They have never been teammates",
-        "D": "They were teammates at Al Ittihad FC"
+        "D": "They were teammates at Real Madrid CF"
       },
       "explanations_cantonese": {
         "A": "佢哋從來冇做過隊友",
         "B": "佢哋從來冇做過隊友",
         "C": "佢哋從來冇做過隊友",
-        "D": "佢哋喺伊蒂哈德做過隊友"
+        "D": "佢哋喺皇家馬德里足球會做過隊友"
       },
       "question_type": "teammate_relationship"
     },
@@ -2358,86 +2514,86 @@
       "question": "Which two players below have been teammates in the same club before?",
       "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
       "choices": {
-        "A": "Luis Suárez and Pedri",
-        "B": "Jamal Musiala and Diego Godín",
-        "C": "Vincent Kompany and Cesc Fàbregas",
-        "D": "N'Golo Kanté and Mohamed Salah"
+        "A": "Virgil van Dijk and Jamie Vardy",
+        "B": "David Alaba and Santi Cazorla",
+        "C": "Santi Cazorla and Mesut Özil",
+        "D": "Franck Ribéry and Marco Reus"
       },
       "choices_cantonese": {
-        "A": "路易斯·蘇亞利斯同柏迪",
-        "B": "查馬爾·穆斯亞拿同高甸",
-        "C": "文森特·甘賓尼同法比加斯",
-        "D": "簡迪同沙拿"
+        "A": "雲迪積克同占美華迪",
+        "B": "大衛·阿拉巴同辛迪卡蘇拿",
+        "C": "辛迪卡蘇拿同奧斯爾",
+        "D": "列貝利同馬高·萊斯"
       },
-      "correct_answer": "A",
+      "correct_answer": "C",
       "correct_pair_info": {
         "player1": {
-          "id": "Q26517",
-          "name_english": "Luis Suárez",
-          "name_cantonese": "路易斯·蘇亞利斯",
-          "start_year": 2014,
-          "end_year": 2020
+          "id": "Q185225",
+          "name_english": "Santi Cazorla",
+          "name_cantonese": "辛迪卡蘇拿",
+          "start_year": 2012,
+          "end_year": 2018
         },
         "player2": {
-          "id": "Q66606355",
-          "name_english": "Pedri",
-          "name_cantonese": "柏迪",
+          "id": "Q83488",
+          "name_english": "Mesut Özil",
+          "name_cantonese": "奧斯爾",
+          "start_year": 2013,
+          "end_year": 2021
+        },
+        "club": {
+          "id": "Q9617",
+          "name_english": "Arsenal F.C.",
+          "name_cantonese": "阿仙奴",
+          "type": "club"
+        }
+      },
+      "explanations": {
+        "A": "They have never been teammates",
+        "B": "They have never been teammates",
+        "C": "They were teammates at Arsenal F.C.",
+        "D": "They have never been teammates"
+      },
+      "explanations_cantonese": {
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋從來冇做過隊友",
+        "C": "佢哋喺阿仙奴做過隊友",
+        "D": "佢哋從來冇做過隊友"
+      },
+      "question_type": "teammate_relationship"
+    },
+    {
+      "question": "Which two players below have been teammates in the same club before?",
+      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
+      "choices": {
+        "A": "Naldo and Giorgio Chiellini",
+        "B": "Harry Kane and Jamal Musiala",
+        "C": "Erling Haaland and Zlatan Ibrahimović",
+        "D": "Éder Militão and Diego Costa"
+      },
+      "choices_cantonese": {
+        "A": "拿杜同喬治奧·基亞連尼",
+        "B": "哈利簡尼同查馬爾·穆斯亞拿",
+        "C": "夏蘭特同伊巴謙莫域",
+        "D": "艾達美列度奧同迪亞高哥斯達"
+      },
+      "correct_answer": "B",
+      "correct_pair_info": {
+        "player1": {
+          "id": "Q969725",
+          "name_english": "Harry Kane",
+          "name_cantonese": "哈利簡尼",
+          "start_year": 2023,
+          "end_year": null
+        },
+        "player2": {
+          "id": "Q96072055",
+          "name_english": "Jamal Musiala",
+          "name_cantonese": "查馬爾·穆斯亞拿",
           "start_year": 2020,
           "end_year": null
         },
         "club": {
-          "id": "Q7156",
-          "name_english": "FC Barcelona",
-          "name_cantonese": "巴塞隆拿足球會",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They were teammates at FC Barcelona",
-        "B": "They have never been teammates",
-        "C": "They have never been teammates",
-        "D": "They have never been teammates"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋喺巴塞隆拿足球會做過隊友",
-        "B": "佢哋從來冇做過隊友",
-        "C": "佢哋從來冇做過隊友",
-        "D": "佢哋從來冇做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Carlos Tevez and Jordan Henderson",
-        "B": "Trent Alexander-Arnold and Ederson Moraes",
-        "C": "Philipp Lahm and Javi Martínez",
-        "D": "Medhi Benatia and Miranda"
-      },
-      "choices_cantonese": {
-        "A": "迪維斯同軒達臣",
-        "B": "阿諾同艾達臣·摩拉斯",
-        "C": "菲臘·拿姆同查維·馬天尼斯",
-        "D": "美迪·賓拿迪亞同祖奧米蘭達"
-      },
-      "correct_answer": "C",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q43682",
-          "name_english": "Philipp Lahm",
-          "name_cantonese": "菲臘·拿姆",
-          "start_year": 2002,
-          "end_year": 2017
-        },
-        "player2": {
-          "id": "Q201752",
-          "name_english": "Javi Martínez",
-          "name_cantonese": "查維·馬天尼斯",
-          "start_year": 2012,
-          "end_year": 2021
-        },
-        "club": {
           "id": "Q15789",
           "name_english": "FC Bayern Munich",
           "name_cantonese": "拜仁慕尼黑",
@@ -2446,171 +2602,15 @@
       },
       "explanations": {
         "A": "They have never been teammates",
-        "B": "They have never been teammates",
-        "C": "They were teammates at FC Bayern Munich",
-        "D": "They have never been teammates"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋從來冇做過隊友",
-        "C": "佢哋喺拜仁慕尼黑做過隊友",
-        "D": "佢哋從來冇做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Gonzalo Higuaín and Miralem Pjanić",
-        "B": "Marco Verratti and Antoine Griezmann",
-        "C": "Giorgio Chiellini and Mike Maignan",
-        "D": "Nemanja Matić and Jordan Henderson"
-      },
-      "choices_cantonese": {
-        "A": "希古恩同米拉萊姆·比真歷",
-        "B": "華拉堤同基士文 (法國足球員)",
-        "C": "喬治奧·基亞連尼同邁治南",
-        "D": "尼馬查馬迪同軒達臣"
-      },
-      "correct_answer": "A",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q483846",
-          "name_english": "Gonzalo Higuaín",
-          "name_cantonese": "希古恩",
-          "start_year": 2016,
-          "end_year": 2020
-        },
-        "player2": {
-          "id": "Q146907",
-          "name_english": "Miralem Pjanić",
-          "name_cantonese": "米拉萊姆·比真歷",
-          "start_year": 2016,
-          "end_year": 2020
-        },
-        "club": {
-          "id": "Q1422",
-          "name_english": "Juventus FC",
-          "name_cantonese": "祖雲達斯",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They were teammates at Juventus FC",
-        "B": "They have never been teammates",
+        "B": "They were teammates at FC Bayern Munich",
         "C": "They have never been teammates",
         "D": "They have never been teammates"
       },
       "explanations_cantonese": {
-        "A": "佢哋喺祖雲達斯做過隊友",
-        "B": "佢哋從來冇做過隊友",
+        "A": "佢哋從來冇做過隊友",
+        "B": "佢哋喺拜仁慕尼黑做過隊友",
         "C": "佢哋從來冇做過隊友",
         "D": "佢哋從來冇做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Matthijs de Ligt and Luis Suárez",
-        "B": "Andrew Robertson and Naldo",
-        "C": "Kingsley Coman and Franck Ribéry",
-        "D": "Jan Vertonghen and Fernandinho"
-      },
-      "choices_cantonese": {
-        "A": "馬菲斯·迪列治同路易斯·蘇亞利斯",
-        "B": "安祖·羅拔臣同拿杜",
-        "C": "京士利·高文同列貝利",
-        "D": "真維頓漢同費蘭甸奴"
-      },
-      "correct_answer": "C",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q6413296",
-          "name_english": "Kingsley Coman",
-          "name_cantonese": "京士利·高文",
-          "start_year": 2015,
-          "end_year": 2017
-        },
-        "player2": {
-          "id": "Q1918",
-          "name_english": "Franck Ribéry",
-          "name_cantonese": "列貝利",
-          "start_year": 2007,
-          "end_year": 2019
-        },
-        "club": {
-          "id": "Q15789",
-          "name_english": "FC Bayern Munich",
-          "name_cantonese": "拜仁慕尼黑",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They have never been teammates",
-        "B": "They have never been teammates",
-        "C": "They were teammates at FC Bayern Munich",
-        "D": "They have never been teammates"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋從來冇做過隊友",
-        "C": "佢哋喺拜仁慕尼黑做過隊友",
-        "D": "佢哋從來冇做過隊友"
-      },
-      "question_type": "teammate_relationship"
-    },
-    {
-      "question": "Which two players below have been teammates in the same club before?",
-      "question_cantonese": "以下邊對球員曾經喺同一間球會做過隊友？",
-      "choices": {
-        "A": "Federico Valverde and Sergio Agüero",
-        "B": "Thomas Müller and Sokratis Papastathopoulos",
-        "C": "Lionel Messi and Ederson Moraes",
-        "D": "Philippe Coutinho and Frenkie de Jong"
-      },
-      "choices_cantonese": {
-        "A": "費達歷高華維迪同阿古路",
-        "B": "湯馬士·梅拿同蘇卡迪斯",
-        "C": "美斯同艾達臣·摩拉斯",
-        "D": "古天奴同法蘭基·迪莊"
-      },
-      "correct_answer": "D",
-      "correct_pair_info": {
-        "player1": {
-          "id": "Q311872",
-          "name_english": "Philippe Coutinho",
-          "name_cantonese": "古天奴",
-          "start_year": 2018,
-          "end_year": 2022
-        },
-        "player2": {
-          "id": "Q19898898",
-          "name_english": "Frenkie de Jong",
-          "name_cantonese": "法蘭基·迪莊",
-          "start_year": 2019,
-          "end_year": null
-        },
-        "club": {
-          "id": "Q7156",
-          "name_english": "FC Barcelona",
-          "name_cantonese": "巴塞隆拿足球會",
-          "type": "club"
-        }
-      },
-      "explanations": {
-        "A": "They have never been teammates",
-        "B": "They have never been teammates",
-        "C": "They have never been teammates",
-        "D": "They were teammates at FC Barcelona"
-      },
-      "explanations_cantonese": {
-        "A": "佢哋從來冇做過隊友",
-        "B": "佢哋從來冇做過隊友",
-        "C": "佢哋從來冇做過隊友",
-        "D": "佢哋喺巴塞隆拿足球會做過隊友"
       },
       "question_type": "teammate_relationship"
     }

@@ -1,0 +1,3003 @@
+{
+  "metadata": {
+    "description": "Football player birth years extracted from WikiData for analysis and benchmark construction",
+    "purpose": "Support generation of questions about player ages, birth years, and generational analysis",
+    "data_structure": {
+      "players": "Dictionary of player_id -> player data with birth year information",
+      "note": "Only includes players with valid birth year data"
+    },
+    "extraction_date": "2025-09-08T22:00:48.497074",
+    "total_players_with_birth_data": 141,
+    "processing_time_seconds": 0.31,
+    "performance_optimization": "Uses cached Cantonese names for improved speed",
+    "filtering_info": {
+      "original_player_count": 141,
+      "filtered_player_count": 141,
+      "filtering_ratio": 100.0,
+      "filter_criteria": "Players must have valid birth year data (P569 property)"
+    }
+  },
+  "players": {
+    "Q6298063": {
+      "player_id": "Q6298063",
+      "player_names": {
+        "id": "Q6298063",
+        "english": "João Cancelo",
+        "cantonese": {
+          "yue": "簡些路"
+        },
+        "cantonese_best": "簡些路",
+        "cantonese_lang": "yue",
+        "description_english": "Portuguese association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1994-05-27T00:00:00Z",
+      "birth_year": 1994,
+      "file_path": "./data/intermediate/football_players_triples/Q6298063.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q641425": {
+      "player_id": "Q641425",
+      "player_names": {
+        "id": "Q641425",
+        "english": "Fabinho",
+        "cantonese": {
+          "yue": "法賓奴",
+          "zh-hk": "費賓奴"
+        },
+        "cantonese_best": "法賓奴",
+        "cantonese_lang": "yue",
+        "description_english": "Brazilian association football player (born 1995)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1993-10-23T00:00:00Z",
+      "birth_year": 1993,
+      "file_path": "./data/intermediate/football_players_triples/Q641425.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q192923": {
+      "player_id": "Q192923",
+      "player_names": {
+        "id": "Q192923",
+        "english": "Sokratis Papastathopoulos",
+        "cantonese": {
+          "yue": "蘇卡迪斯",
+          "zh-hk": "蘇卡迪斯·柏柏斯達夫普路斯"
+        },
+        "cantonese_best": "蘇卡迪斯",
+        "cantonese_lang": "yue",
+        "description_english": "Greek association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1988-06-09T00:00:00Z",
+      "birth_year": 1988,
+      "file_path": "./data/intermediate/football_players_triples/Q192923.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q151260": {
+      "player_id": "Q151260",
+      "player_names": {
+        "id": "Q151260",
+        "english": "Jérôme Boateng",
+        "cantonese": {
+          "yue": "謝洛美·保定",
+          "zh-hk": "謝洛美·保定"
+        },
+        "cantonese_best": "謝洛美·保定",
+        "cantonese_lang": "yue",
+        "description_english": "German association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1988-09-03T00:00:00Z",
+      "birth_year": 1988,
+      "file_path": "./data/intermediate/football_players_triples/Q151260.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q27569376": {
+      "player_id": "Q27569376",
+      "player_names": {
+        "id": "Q27569376",
+        "english": "Trent Alexander-Arnold",
+        "cantonese": {
+          "yue": "阿諾"
+        },
+        "cantonese_best": "阿諾",
+        "cantonese_lang": "yue",
+        "description_english": "English association football player (born 1998)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1998-10-07T00:00:00Z",
+      "birth_year": 1998,
+      "file_path": "./data/intermediate/football_players_triples/Q27569376.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q184277": {
+      "player_id": "Q184277",
+      "player_names": {
+        "id": "Q184277",
+        "english": "Yaya Touré",
+        "cantonese": {
+          "yue": "耶耶托尼",
+          "zh-hk": "耶耶·托尼"
+        },
+        "cantonese_best": "耶耶托尼",
+        "cantonese_lang": "yue",
+        "description_english": "Ivorian association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1983-05-13T00:00:00Z",
+      "birth_year": 1983,
+      "file_path": "./data/intermediate/football_players_triples/Q184277.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q21621995": {
+      "player_id": "Q21621995",
+      "player_names": {
+        "id": "Q21621995",
+        "english": "Kylian Mbappé",
+        "cantonese": {
+          "zh-hk": "基利安·麥巴比",
+          "yue": "麥巴比"
+        },
+        "cantonese_best": "麥巴比",
+        "cantonese_lang": "yue",
+        "description_english": "French footballer (born 1998)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1998-12-20T00:00:00Z",
+      "birth_year": 1998,
+      "file_path": "./data/intermediate/football_players_triples/Q21621995.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q368441": {
+      "player_id": "Q368441",
+      "player_names": {
+        "id": "Q368441",
+        "english": "James Rodríguez",
+        "cantonese": {
+          "yue": "占士洛迪古斯",
+          "zh-hk": "占士·洛迪古斯"
+        },
+        "cantonese_best": "占士洛迪古斯",
+        "cantonese_lang": "yue",
+        "description_english": "Colombian association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1991-07-12T00:00:00Z",
+      "birth_year": 1991,
+      "file_path": "./data/intermediate/football_players_triples/Q368441.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q273715": {
+      "player_id": "Q273715",
+      "player_names": {
+        "id": "Q273715",
+        "english": "Jordan Henderson",
+        "cantonese": {
+          "yue": "軒達臣",
+          "zh-hk": "佐敦·軒達臣"
+        },
+        "cantonese_best": "軒達臣",
+        "cantonese_lang": "yue",
+        "description_english": "English association football player (born 1990)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1990-06-17T00:00:00Z",
+      "birth_year": 1990,
+      "file_path": "./data/intermediate/football_players_triples/Q273715.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q192671": {
+      "player_id": "Q192671",
+      "player_names": {
+        "id": "Q192671",
+        "english": "Arturo Vidal",
+        "cantonese": {
+          "yue": "亞杜羅·維度",
+          "zh-hk": "阿圖羅·維達爾"
+        },
+        "cantonese_best": "亞杜羅·維度",
+        "cantonese_lang": "yue",
+        "description_english": "Chilean association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1987-05-22T00:00:00Z",
+      "birth_year": 1987,
+      "file_path": "./data/intermediate/football_players_triples/Q192671.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q30055335": {
+      "player_id": "Q30055335",
+      "player_names": {
+        "id": "Q30055335",
+        "english": "Rafael Leão",
+        "cantonese": {
+          "zh-hk": "里奧"
+        },
+        "cantonese_best": "里奧",
+        "cantonese_lang": "zh-hk",
+        "description_english": "Portuguese footballer (born 1999)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1999-06-10T00:00:00Z",
+      "birth_year": 1999,
+      "file_path": "./data/intermediate/football_players_triples/Q30055335.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q15673000": {
+      "player_id": "Q15673000",
+      "player_names": {
+        "id": "Q15673000",
+        "english": "Sergej Milinković-Savić",
+        "cantonese": {
+          "yue": "沙治米連高域沙域"
+        },
+        "cantonese_best": "沙治米連高域沙域",
+        "cantonese_lang": "yue",
+        "description_english": "Serbian association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1995-02-27T00:00:00Z",
+      "birth_year": 1995,
+      "file_path": "./data/intermediate/football_players_triples/Q15673000.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q462779": {
+      "player_id": "Q462779",
+      "player_names": {
+        "id": "Q462779",
+        "english": "Medhi Benatia",
+        "cantonese": {
+          "yue": "美迪·賓拿迪亞"
+        },
+        "cantonese_best": "美迪·賓拿迪亞",
+        "cantonese_lang": "yue",
+        "description_english": "Moroccan footballer",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1987-04-17T00:00:00Z",
+      "birth_year": 1987,
+      "file_path": "./data/intermediate/football_players_triples/Q462779.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q56332606": {
+      "player_id": "Q56332606",
+      "player_names": {
+        "id": "Q56332606",
+        "english": "Ronald Araújo",
+        "cantonese": {
+          "yue": "阿拿祖"
+        },
+        "cantonese_best": "阿拿祖",
+        "cantonese_lang": "yue",
+        "description_english": "Uruguayan association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1999-03-07T00:00:00Z",
+      "birth_year": 1999,
+      "file_path": "./data/intermediate/football_players_triples/Q56332606.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q208050": {
+      "player_id": "Q208050",
+      "player_names": {
+        "id": "Q208050",
+        "english": "Leonardo Bonucci",
+        "cantonese": {
+          "zh-hk": "李安納度·邦路斯"
+        },
+        "cantonese_best": "李安納度·邦路斯",
+        "cantonese_lang": "zh-hk",
+        "description_english": "Italian association football player",
+        "description_cantonese": {
+          "yue": "意大利足球員"
+        },
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1987-05-01T00:00:00Z",
+      "birth_year": 1987,
+      "file_path": "./data/intermediate/football_players_triples/Q208050.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q193706": {
+      "player_id": "Q193706",
+      "player_names": {
+        "id": "Q193706",
+        "english": "David Luiz",
+        "cantonese": {
+          "yue": "大衛雷斯",
+          "zh-hk": "大衛·雷斯"
+        },
+        "cantonese_best": "大衛雷斯",
+        "cantonese_lang": "yue",
+        "description_english": "Brazilian association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1987-04-22T00:00:00Z",
+      "birth_year": 1987,
+      "file_path": "./data/intermediate/football_players_triples/Q193706.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q266613": {
+      "player_id": "Q266613",
+      "player_names": {
+        "id": "Q266613",
+        "english": "Wayne Rooney",
+        "cantonese": {
+          "yue": "朗尼",
+          "zh-hk": "韋恩·朗尼"
+        },
+        "cantonese_best": "朗尼",
+        "cantonese_lang": "yue",
+        "description_english": "English footballer and manager",
+        "description_cantonese": {
+          "zh-hk": "英格蘭職業足球運動員"
+        },
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1985-10-24T00:00:00Z",
+      "birth_year": 1985,
+      "file_path": "./data/intermediate/football_players_triples/Q266613.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q357984": {
+      "player_id": "Q357984",
+      "player_names": {
+        "id": "Q357984",
+        "english": "Kevin De Bruyne",
+        "cantonese": {
+          "yue": "迪布尼"
+        },
+        "cantonese_best": "迪布尼",
+        "cantonese_lang": "yue",
+        "description_english": "Belgian association football player (born 1991)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1991-06-28T00:00:00Z",
+      "birth_year": 1991,
+      "file_path": "./data/intermediate/football_players_triples/Q357984.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q214903": {
+      "player_id": "Q214903",
+      "player_names": {
+        "id": "Q214903",
+        "english": "Diego Godín",
+        "cantonese": {
+          "yue": "高甸",
+          "zh-hk": "迪亞高·高甸"
+        },
+        "cantonese_best": "高甸",
+        "cantonese_lang": "yue",
+        "description_english": "Uruguayan association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1986-02-16T00:00:00Z",
+      "birth_year": 1986,
+      "file_path": "./data/intermediate/football_players_triples/Q214903.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q44298": {
+      "player_id": "Q44298",
+      "player_names": {
+        "id": "Q44298",
+        "english": "Bastian Schweinsteiger",
+        "cantonese": {
+          "yue": "舒韋恩史迪加",
+          "zh-hk": "巴斯坦·舒韋恩史迪加"
+        },
+        "cantonese_best": "舒韋恩史迪加",
+        "cantonese_lang": "yue",
+        "description_english": "German association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1984-08-01T00:00:00Z",
+      "birth_year": 1984,
+      "file_path": "./data/intermediate/football_players_triples/Q44298.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q17499": {
+      "player_id": "Q17499",
+      "player_names": {
+        "id": "Q17499",
+        "english": "Cesc Fàbregas",
+        "cantonese": {
+          "yue": "法比加斯",
+          "zh-hk": "薩斯克·法比加斯"
+        },
+        "cantonese_best": "法比加斯",
+        "cantonese_lang": "yue",
+        "description_english": "Spanish professional footballer player and manager",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1987-05-04T00:00:00Z",
+      "birth_year": 1987,
+      "file_path": "./data/intermediate/football_players_triples/Q17499.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q96755": {
+      "player_id": "Q96755",
+      "player_names": {
+        "id": "Q96755",
+        "english": "Antonio Rüdiger",
+        "cantonese": {
+          "yue": "安東尼奧魯迪加"
+        },
+        "cantonese_best": "安東尼奧魯迪加",
+        "cantonese_lang": "yue",
+        "description_english": "German association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1993-03-03T00:00:00Z",
+      "birth_year": 1993,
+      "file_path": "./data/intermediate/football_players_triples/Q96755.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q187159": {
+      "player_id": "Q187159",
+      "player_names": {
+        "id": "Q187159",
+        "english": "Jordi Alba",
+        "cantonese": {
+          "yue": "佐迪·艾巴",
+          "zh-hk": "佐迪·艾巴"
+        },
+        "cantonese_best": "佐迪·艾巴",
+        "cantonese_lang": "yue",
+        "description_english": "Spanish association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1989-03-21T00:00:00Z",
+      "birth_year": 1989,
+      "file_path": "./data/intermediate/football_players_triples/Q187159.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q15521306": {
+      "player_id": "Q15521306",
+      "player_names": {
+        "id": "Q15521306",
+        "english": "Bernardo Silva",
+        "cantonese": {
+          "yue": "賓拿度施華"
+        },
+        "cantonese_best": "賓拿度施華",
+        "cantonese_lang": "yue",
+        "description_english": "Portuguese association football player (born 1994)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1994-08-10T00:00:00Z",
+      "birth_year": 1994,
+      "file_path": "./data/intermediate/football_players_triples/Q15521306.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q1756086": {
+      "player_id": "Q1756086",
+      "player_names": {
+        "id": "Q1756086",
+        "english": "Lorenzo Insigne",
+        "cantonese": {
+          "zh-hk": "洛倫佐·因西涅"
+        },
+        "cantonese_best": "洛倫佐·因西涅",
+        "cantonese_lang": "zh-hk",
+        "description_english": "Italian association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1991-06-04T00:00:00Z",
+      "birth_year": 1991,
+      "file_path": "./data/intermediate/football_players_triples/Q1756086.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q391680": {
+      "player_id": "Q391680",
+      "player_names": {
+        "id": "Q391680",
+        "english": "Douglas Costa",
+        "cantonese": {
+          "yue": "杜格拉斯·哥斯達",
+          "zh-hk": "杜格拉斯·哥斯達"
+        },
+        "cantonese_best": "杜格拉斯·哥斯達",
+        "cantonese_lang": "yue",
+        "description_english": "Brazilian association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1990-09-14T00:00:00Z",
+      "birth_year": 1990,
+      "file_path": "./data/intermediate/football_players_triples/Q391680.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q150268": {
+      "player_id": "Q150268",
+      "player_names": {
+        "id": "Q150268",
+        "english": "David de Gea",
+        "cantonese": {
+          "yue": "迪基亞",
+          "zh-hk": "大衛·迪基亞"
+        },
+        "cantonese_best": "迪基亞",
+        "cantonese_lang": "yue",
+        "description_english": "Spanish association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1990-11-07T00:00:00Z",
+      "birth_year": 1990,
+      "file_path": "./data/intermediate/football_players_triples/Q150268.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q483137": {
+      "player_id": "Q483137",
+      "player_names": {
+        "id": "Q483137",
+        "english": "Petr Čech",
+        "cantonese": {
+          "yue": "施治",
+          "zh-hk": "佩特·施治"
+        },
+        "cantonese_best": "施治",
+        "cantonese_lang": "yue",
+        "description_english": "Czech football goalkeeper",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1982-05-20T00:00:00Z",
+      "birth_year": 1982,
+      "file_path": "./data/intermediate/football_players_triples/Q483137.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q43666": {
+      "player_id": "Q43666",
+      "player_names": {
+        "id": "Q43666",
+        "english": "Thomas Müller",
+        "cantonese": {
+          "yue": "湯馬士·梅拿",
+          "zh-hk": "湯瑪士·梅拿"
+        },
+        "cantonese_best": "湯馬士·梅拿",
+        "cantonese_lang": "yue",
+        "description_english": "German association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1989-09-13T00:00:00Z",
+      "birth_year": 1989,
+      "file_path": "./data/intermediate/football_players_triples/Q43666.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q44977": {
+      "player_id": "Q44977",
+      "player_names": {
+        "id": "Q44977",
+        "english": "Pierre-Emerick Aubameyang",
+        "cantonese": {
+          "yue": "奧巴美揚"
+        },
+        "cantonese_best": "奧巴美揚",
+        "cantonese_lang": "yue",
+        "description_english": "Gabonese-French footballer (born 1989)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1989-06-18T00:00:00Z",
+      "birth_year": 1989,
+      "file_path": "./data/intermediate/football_players_triples/Q44977.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q80306": {
+      "player_id": "Q80306",
+      "player_names": {
+        "id": "Q80306",
+        "english": "Giorgio Chiellini",
+        "cantonese": {
+          "yue": "喬治奧·基亞連尼"
+        },
+        "cantonese_best": "喬治奧·基亞連尼",
+        "cantonese_lang": "yue",
+        "description_english": "Italian sports executive and former association football player",
+        "description_cantonese": {
+          "yue": "意大利足球員"
+        },
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1984-08-14T00:00:00Z",
+      "birth_year": 1984,
+      "file_path": "./data/intermediate/football_players_triples/Q80306.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q161089": {
+      "player_id": "Q161089",
+      "player_names": {
+        "id": "Q161089",
+        "english": "İlkay Gündoğan",
+        "cantonese": {
+          "yue": "根度簡"
+        },
+        "cantonese_best": "根度簡",
+        "cantonese_lang": "yue",
+        "description_english": "German footballer (born 1990)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1990-10-24T00:00:00Z",
+      "birth_year": 1990,
+      "file_path": "./data/intermediate/football_players_triples/Q161089.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q318119": {
+      "player_id": "Q318119",
+      "player_names": {
+        "id": "Q318119",
+        "english": "Miranda",
+        "cantonese": {
+          "zh-hk": "小祖奧·米蘭達·迪蘇沙",
+          "yue": "祖奧米蘭達"
+        },
+        "cantonese_best": "祖奧米蘭達",
+        "cantonese_lang": "yue",
+        "description_english": "Brazilian footballer (born 1984)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1984-09-07T00:00:00Z",
+      "birth_year": 1984,
+      "file_path": "./data/intermediate/football_players_triples/Q318119.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q59306386": {
+      "player_id": "Q59306386",
+      "player_names": {
+        "id": "Q59306386",
+        "english": "Bukayo Saka",
+        "cantonese": {
+          "zh-hk": "布卡約·沙卡",
+          "yue": "布卡約·沙卡"
+        },
+        "cantonese_best": "布卡約·沙卡",
+        "cantonese_lang": "yue",
+        "description_english": "English footballer (born 2001)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "2001-09-05T00:00:00Z",
+      "birth_year": 2001,
+      "file_path": "./data/intermediate/football_players_triples/Q59306386.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q152377": {
+      "player_id": "Q152377",
+      "player_names": {
+        "id": "Q152377",
+        "english": "Marco Reus",
+        "cantonese": {
+          "yue": "馬高·萊斯",
+          "zh-hk": "馬高·列奧斯"
+        },
+        "cantonese_best": "馬高·萊斯",
+        "cantonese_lang": "yue",
+        "description_english": "German association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1989-05-31T00:00:00Z",
+      "birth_year": 1989,
+      "file_path": "./data/intermediate/football_players_triples/Q152377.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q16499882": {
+      "player_id": "Q16499882",
+      "player_names": {
+        "id": "Q16499882",
+        "english": "Leroy Sané",
+        "cantonese": {
+          "zh-hk": "利萊·辛尼",
+          "yue": "利萊辛尼"
+        },
+        "cantonese_best": "利萊辛尼",
+        "cantonese_lang": "yue",
+        "description_english": "German association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1996-01-11T00:00:00Z",
+      "birth_year": 1996,
+      "file_path": "./data/intermediate/football_players_triples/Q16499882.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q210453": {
+      "player_id": "Q210453",
+      "player_names": {
+        "id": "Q210453",
+        "english": "Thiago Silva",
+        "cantonese": {
+          "yue": "泰亞高施華",
+          "zh-hk": "泰亞高·施華"
+        },
+        "cantonese_best": "泰亞高施華",
+        "cantonese_lang": "yue",
+        "description_english": "Brazilian association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1984-09-22T00:00:00Z",
+      "birth_year": 1984,
+      "file_path": "./data/intermediate/football_players_triples/Q210453.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q129027": {
+      "player_id": "Q129027",
+      "player_names": {
+        "id": "Q129027",
+        "english": "Paul Pogba",
+        "cantonese": {
+          "yue": "普巴",
+          "zh-hk": "保羅·普巴"
+        },
+        "cantonese_best": "普巴",
+        "cantonese_lang": "yue",
+        "description_english": "French footballer (born 1993)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1993-03-15T00:00:00Z",
+      "birth_year": 1993,
+      "file_path": "./data/intermediate/football_players_triples/Q129027.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q119562": {
+      "player_id": "Q119562",
+      "player_names": {
+        "id": "Q119562",
+        "english": "Sergio Agüero",
+        "cantonese": {
+          "yue": "阿古路",
+          "zh-hk": "沙治奧·阿古路"
+        },
+        "cantonese_best": "阿古路",
+        "cantonese_lang": "yue",
+        "description_english": "Argentine association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1988-06-02T00:00:00Z",
+      "birth_year": 1988,
+      "file_path": "./data/intermediate/football_players_triples/Q119562.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q17507": {
+      "player_id": "Q17507",
+      "player_names": {
+        "id": "Q17507",
+        "english": "Gerard Piqué",
+        "cantonese": {
+          "yue": "碧基"
+        },
+        "cantonese_best": "碧基",
+        "cantonese_lang": "yue",
+        "description_english": "Spanish association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1987-02-02T00:00:00Z",
+      "birth_year": 1987,
+      "file_path": "./data/intermediate/football_players_triples/Q17507.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q21484126": {
+      "player_id": "Q21484126",
+      "player_names": {
+        "id": "Q21484126",
+        "english": "Lautaro Martínez",
+        "cantonese": {
+          "zh-hk": "拿達路·馬天尼斯",
+          "yue": "拿達路·馬天尼斯"
+        },
+        "cantonese_best": "拿達路·馬天尼斯",
+        "cantonese_lang": "yue",
+        "description_english": "Argentine association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1997-08-22T00:00:00Z",
+      "birth_year": 1997,
+      "file_path": "./data/intermediate/football_players_triples/Q21484126.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q297603": {
+      "player_id": "Q297603",
+      "player_names": {
+        "id": "Q297603",
+        "english": "Nemanja Matić",
+        "cantonese": {
+          "yue": "尼馬查馬迪",
+          "zh-hk": "尼曼查·馬迪"
+        },
+        "cantonese_best": "尼馬查馬迪",
+        "cantonese_lang": "yue",
+        "description_english": "Serbian association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1988-08-01T00:00:00Z",
+      "birth_year": 1988,
+      "file_path": "./data/intermediate/football_players_triples/Q297603.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q309966": {
+      "player_id": "Q309966",
+      "player_names": {
+        "id": "Q309966",
+        "english": "Bernd Leno",
+        "cantonese": {
+          "yue": "蘭奴",
+          "zh-hk": "貝恩德·萊諾"
+        },
+        "cantonese_best": "蘭奴",
+        "cantonese_lang": "yue",
+        "description_english": "German association football player (born 1992)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1992-03-04T00:00:00Z",
+      "birth_year": 1992,
+      "file_path": "./data/intermediate/football_players_triples/Q309966.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q17493": {
+      "player_id": "Q17493",
+      "player_names": {
+        "id": "Q17493",
+        "english": "Thiago Alcântara",
+        "cantonese": {
+          "yue": "堤亞高艾勤達拿"
+        },
+        "cantonese_best": "堤亞高艾勤達拿",
+        "cantonese_lang": "yue",
+        "description_english": "Spanish association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1991-04-11T00:00:00Z",
+      "birth_year": 1991,
+      "file_path": "./data/intermediate/football_players_triples/Q17493.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q213002": {
+      "player_id": "Q213002",
+      "player_names": {
+        "id": "Q213002",
+        "english": "Samir Handanović",
+        "cantonese": {
+          "zh-hk": "薩米爾·漢丹洛域"
+        },
+        "cantonese_best": "薩米爾·漢丹洛域",
+        "cantonese_lang": "zh-hk",
+        "description_english": "Slovenian association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1984-07-14T00:00:00Z",
+      "birth_year": 1984,
+      "file_path": "./data/intermediate/football_players_triples/Q213002.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q131234": {
+      "player_id": "Q131234",
+      "player_names": {
+        "id": "Q131234",
+        "english": "Toni Kroos",
+        "cantonese": {
+          "yue": "東尼·卻奧斯",
+          "zh-hk": "東尼·卻奧斯"
+        },
+        "cantonese_best": "東尼·卻奧斯",
+        "cantonese_lang": "yue",
+        "description_english": "German former football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1990-01-04T00:00:00Z",
+      "birth_year": 1990,
+      "file_path": "./data/intermediate/football_players_triples/Q131234.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q80892": {
+      "player_id": "Q80892",
+      "player_names": {
+        "id": "Q80892",
+        "english": "Isco",
+        "cantonese": {
+          "yue": "伊斯高",
+          "zh-hk": "伊斯高"
+        },
+        "cantonese_best": "伊斯高",
+        "cantonese_lang": "yue",
+        "description_english": "Spanish association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1992-04-21T00:00:00Z",
+      "birth_year": 1992,
+      "file_path": "./data/intermediate/football_players_triples/Q80892.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q184586": {
+      "player_id": "Q184586",
+      "player_names": {
+        "id": "Q184586",
+        "english": "Gareth Bale",
+        "cantonese": {
+          "zh-hk": "加里夫·巴利",
+          "yue": "加里夫巴利"
+        },
+        "cantonese_best": "加里夫巴利",
+        "cantonese_lang": "yue",
+        "description_english": "Welsh association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1989-07-16T00:00:00Z",
+      "birth_year": 1989,
+      "file_path": "./data/intermediate/football_players_triples/Q184586.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q43729": {
+      "player_id": "Q43729",
+      "player_names": {
+        "id": "Q43729",
+        "english": "Andrés Iniesta",
+        "cantonese": {
+          "yue": "恩尼斯達"
+        },
+        "cantonese_best": "恩尼斯達",
+        "cantonese_lang": "yue",
+        "description_english": "Spanish association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1984-05-11T00:00:00Z",
+      "birth_year": 1984,
+      "file_path": "./data/intermediate/football_players_triples/Q43729.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q133903": {
+      "player_id": "Q133903",
+      "player_names": {
+        "id": "Q133903",
+        "english": "Virgil van Dijk",
+        "cantonese": {
+          "yue": "雲迪積克",
+          "zh-hk": "維基爾·雲迪克"
+        },
+        "cantonese_best": "雲迪積克",
+        "cantonese_lang": "yue",
+        "description_english": "Dutch association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1991-07-09T00:00:00Z",
+      "birth_year": 1991,
+      "file_path": "./data/intermediate/football_players_triples/Q133903.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q311872": {
+      "player_id": "Q311872",
+      "player_names": {
+        "id": "Q311872",
+        "english": "Philippe Coutinho",
+        "cantonese": {
+          "yue": "古天奴",
+          "zh-hk": "菲臘比·古天奴"
+        },
+        "cantonese_best": "古天奴",
+        "cantonese_lang": "yue",
+        "description_english": "Brazilian association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1992-06-12T00:00:00Z",
+      "birth_year": 1992,
+      "file_path": "./data/intermediate/football_players_triples/Q311872.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q20994118": {
+      "player_id": "Q20994118",
+      "player_names": {
+        "id": "Q20994118",
+        "english": "Rodri",
+        "cantonese": {
+          "yue": "洛迪 (足球員)"
+        },
+        "cantonese_best": "洛迪 (足球員)",
+        "cantonese_lang": "yue",
+        "description_english": "Spanish association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1996-06-22T00:00:00Z",
+      "birth_year": 1996,
+      "file_path": "./data/intermediate/football_players_triples/Q20994118.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q66241169": {
+      "player_id": "Q66241169",
+      "player_names": {
+        "id": "Q66241169",
+        "english": "Jude Bellingham",
+        "cantonese": {
+          "zh-hk": "祖迪·比寧咸",
+          "yue": "祖迪·比寧咸"
+        },
+        "cantonese_best": "祖迪·比寧咸",
+        "cantonese_lang": "yue",
+        "description_english": "English association football player (born 2003)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "2003-06-29T00:00:00Z",
+      "birth_year": 2003,
+      "file_path": "./data/intermediate/football_players_triples/Q66241169.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q73360": {
+      "player_id": "Q73360",
+      "player_names": {
+        "id": "Q73360",
+        "english": "Thibaut Courtois",
+        "cantonese": {
+          "yue": "高圖爾斯",
+          "zh-hk": "泰拔·高圖爾斯"
+        },
+        "cantonese_best": "高圖爾斯",
+        "cantonese_lang": "yue",
+        "description_english": "Belgian association football player (born 1992)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1992-05-11T00:00:00Z",
+      "birth_year": 1992,
+      "file_path": "./data/intermediate/football_players_triples/Q73360.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q18237361": {
+      "player_id": "Q18237361",
+      "player_names": {
+        "id": "Q18237361",
+        "english": "Alisson Becker",
+        "cantonese": {
+          "yue": "艾利臣"
+        },
+        "cantonese_best": "艾利臣",
+        "cantonese_lang": "yue",
+        "description_english": "Brazilian association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1992-10-02T00:00:00Z",
+      "birth_year": 1992,
+      "file_path": "./data/intermediate/football_players_triples/Q18237361.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q28973866": {
+      "player_id": "Q28973866",
+      "player_names": {
+        "id": "Q28973866",
+        "english": "Vinícius Júnior",
+        "cantonese": {
+          "zh-hk": "雲尼斯奧斯·祖利亞",
+          "yue": "雲尼斯奧斯·祖利亞"
+        },
+        "cantonese_best": "雲尼斯奧斯·祖利亞",
+        "cantonese_lang": "yue",
+        "description_english": "Brazilian association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "2000-07-12T00:00:00Z",
+      "birth_year": 2000,
+      "file_path": "./data/intermediate/football_players_triples/Q28973866.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q31981": {
+      "player_id": "Q31981",
+      "player_names": {
+        "id": "Q31981",
+        "english": "David Alaba",
+        "cantonese": {
+          "yue": "大衛·阿拉巴"
+        },
+        "cantonese_best": "大衛·阿拉巴",
+        "cantonese_lang": "yue",
+        "description_english": "Austrian footballer (born 1992)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1992-06-24T00:00:00Z",
+      "birth_year": 1992,
+      "file_path": "./data/intermediate/football_players_triples/Q31981.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q30148558": {
+      "player_id": "Q30148558",
+      "player_names": {
+        "id": "Q30148558",
+        "english": "Jadon Sancho",
+        "cantonese": {
+          "yue": "查頓辛祖"
+        },
+        "cantonese_best": "查頓辛祖",
+        "cantonese_lang": "yue",
+        "description_english": "English association football player (born 2000)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "2000-03-25T00:00:00Z",
+      "birth_year": 2000,
+      "file_path": "./data/intermediate/football_players_triples/Q30148558.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q3855340": {
+      "player_id": "Q3855340",
+      "player_names": {
+        "id": "Q3855340",
+        "english": "Aymeric Laporte",
+        "cantonese": {
+          "yue": "拿樸迪"
+        },
+        "cantonese_best": "拿樸迪",
+        "cantonese_lang": "yue",
+        "description_english": "Spanish-French footballer (born 1994)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1994-05-27T00:00:00Z",
+      "birth_year": 1994,
+      "file_path": "./data/intermediate/football_players_triples/Q3855340.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q201381": {
+      "player_id": "Q201381",
+      "player_names": {
+        "id": "Q201381",
+        "english": "Vincent Kompany",
+        "cantonese": {
+          "zh-hk": "文森特·甘賓尼"
+        },
+        "cantonese_best": "文森特·甘賓尼",
+        "cantonese_lang": "zh-hk",
+        "description_english": "Belgian association football player and manager (born 1986)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1986-04-10T00:00:00Z",
+      "birth_year": 1986,
+      "file_path": "./data/intermediate/football_players_triples/Q201381.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q969725": {
+      "player_id": "Q969725",
+      "player_names": {
+        "id": "Q969725",
+        "english": "Harry Kane",
+        "cantonese": {
+          "yue": "哈利簡尼",
+          "zh-hk": "哈利簡尼"
+        },
+        "cantonese_best": "哈利簡尼",
+        "cantonese_lang": "yue",
+        "description_english": "English association football player (born 1993)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1993-07-28T00:00:00Z",
+      "birth_year": 1993,
+      "file_path": "./data/intermediate/football_players_triples/Q969725.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q1354960": {
+      "player_id": "Q1354960",
+      "player_names": {
+        "id": "Q1354960",
+        "english": "Mohamed Salah",
+        "cantonese": {
+          "yue": "沙拿",
+          "zh-hk": "穆罕默德·沙拿"
+        },
+        "cantonese_best": "沙拿",
+        "cantonese_lang": "yue",
+        "description_english": "Egyptian association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1992-06-15T00:00:00Z",
+      "birth_year": 1992,
+      "file_path": "./data/intermediate/football_players_triples/Q1354960.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q313170": {
+      "player_id": "Q313170",
+      "player_names": {
+        "id": "Q313170",
+        "english": "Jan Vertonghen",
+        "cantonese": {
+          "yue": "真維頓漢",
+          "zh-hk": "真·維頓漢"
+        },
+        "cantonese_best": "真維頓漢",
+        "cantonese_lang": "yue",
+        "description_english": "Belgian association football player (born 1987)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1987-04-24T00:00:00Z",
+      "birth_year": 1987,
+      "file_path": "./data/intermediate/football_players_triples/Q313170.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q19509544": {
+      "player_id": "Q19509544",
+      "player_names": {
+        "id": "Q19509544",
+        "english": "Federico Valverde",
+        "cantonese": {
+          "yue": "費達歷高華維迪",
+          "zh-hk": "費達歷高·韋華迪"
+        },
+        "cantonese_best": "費達歷高華維迪",
+        "cantonese_lang": "yue",
+        "description_english": "Uruguayan professional footballer",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1998-07-22T00:00:00Z",
+      "birth_year": 1998,
+      "file_path": "./data/intermediate/football_players_triples/Q19509544.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q20851003": {
+      "player_id": "Q20851003",
+      "player_names": {
+        "id": "Q20851003",
+        "english": "Ousmane Dembélé",
+        "cantonese": {
+          "yue": "迪比利"
+        },
+        "cantonese_best": "迪比利",
+        "cantonese_lang": "yue",
+        "description_english": "French footballer (born 1997)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1997-05-15T00:00:00Z",
+      "birth_year": 1997,
+      "file_path": "./data/intermediate/football_players_triples/Q20851003.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q4979316": {
+      "player_id": "Q4979316",
+      "player_names": {
+        "id": "Q4979316",
+        "english": "Bruno Fernandes",
+        "cantonese": {
+          "yue": "般奴費南迪斯",
+          "zh-hk": "般奴·費南迪斯"
+        },
+        "cantonese_best": "般奴費南迪斯",
+        "cantonese_lang": "yue",
+        "description_english": "Portuguese association football player (born 1994)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1994-09-08T00:00:00Z",
+      "birth_year": 1994,
+      "file_path": "./data/intermediate/football_players_triples/Q4979316.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q39230": {
+      "player_id": "Q39230",
+      "player_names": {
+        "id": "Q39230",
+        "english": "Marquinhos",
+        "cantonese": {
+          "yue": "馬昆奴斯",
+          "zh-hk": "馬昆奴斯"
+        },
+        "cantonese_best": "馬昆奴斯",
+        "cantonese_lang": "yue",
+        "description_english": "Brazilian association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1994-05-14T00:00:00Z",
+      "birth_year": 1994,
+      "file_path": "./data/intermediate/football_players_triples/Q39230.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q127452": {
+      "player_id": "Q127452",
+      "player_names": {
+        "id": "Q127452",
+        "english": "Dani Carvajal",
+        "cantonese": {
+          "yue": "丹尼卡華積"
+        },
+        "cantonese_best": "丹尼卡華積",
+        "cantonese_lang": "yue",
+        "description_english": "Spanish association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1992-01-11T00:00:00Z",
+      "birth_year": 1992,
+      "file_path": "./data/intermediate/football_players_triples/Q127452.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q28967995": {
+      "player_id": "Q28967995",
+      "player_names": {
+        "id": "Q28967995",
+        "english": "Erling Haaland",
+        "cantonese": {
+          "yue": "夏蘭特",
+          "zh-hk": "艾寧·夏蘭特"
+        },
+        "cantonese_best": "夏蘭特",
+        "cantonese_lang": "yue",
+        "description_english": "Norwegian association football player (born 2000)",
+        "description_cantonese": {
+          "yue": "挪威足球員"
+        },
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "2000-07-21T00:00:00Z",
+      "birth_year": 2000,
+      "file_path": "./data/intermediate/football_players_triples/Q28967995.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q6147586": {
+      "player_id": "Q6147586",
+      "player_names": {
+        "id": "Q6147586",
+        "english": "Jamie Vardy",
+        "cantonese": {
+          "yue": "占美華迪"
+        },
+        "cantonese_best": "占美華迪",
+        "cantonese_lang": "yue",
+        "description_english": "English association football player (born 1987)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1987-01-11T00:00:00Z",
+      "birth_year": 1987,
+      "file_path": "./data/intermediate/football_players_triples/Q6147586.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q13306": {
+      "player_id": "Q13306",
+      "player_names": {
+        "id": "Q13306",
+        "english": "Alexandre Lacazette",
+        "cantonese": {
+          "yue": "拿卡錫迪",
+          "zh-hk": "阿歷山大·拿卡錫迪"
+        },
+        "cantonese_best": "拿卡錫迪",
+        "cantonese_lang": "yue",
+        "description_english": "French footballer (born 1991)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1991-05-28T00:00:00Z",
+      "birth_year": 1991,
+      "file_path": "./data/intermediate/football_players_triples/Q13306.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q68060": {
+      "player_id": "Q68060",
+      "player_names": {
+        "id": "Q68060",
+        "english": "Gianluigi Buffon",
+        "cantonese": {
+          "yue": "保方"
+        },
+        "cantonese_best": "保方",
+        "cantonese_lang": "yue",
+        "description_english": "former Italian footballer (born 1978)",
+        "description_cantonese": {
+          "yue": "意大利足球員"
+        },
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1978-01-28T00:00:00Z",
+      "birth_year": 1978,
+      "file_path": "./data/intermediate/football_players_triples/Q68060.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q142794": {
+      "player_id": "Q142794",
+      "player_names": {
+        "id": "Q142794",
+        "english": "Neymar",
+        "cantonese": {
+          "yue": "尼馬",
+          "zh-hk": "尼馬·達施華"
+        },
+        "cantonese_best": "尼馬",
+        "cantonese_lang": "yue",
+        "description_english": "Brazilian association football player.",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1992-02-05T00:00:00Z",
+      "birth_year": 1992,
+      "file_path": "./data/intermediate/football_players_triples/Q142794.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q96072055": {
+      "player_id": "Q96072055",
+      "player_names": {
+        "id": "Q96072055",
+        "english": "Jamal Musiala",
+        "cantonese": {
+          "yue": "查馬爾·穆斯亞拿"
+        },
+        "cantonese_best": "查馬爾·穆斯亞拿",
+        "cantonese_lang": "yue",
+        "description_english": "German association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "2003-02-26T00:00:00Z",
+      "birth_year": 2003,
+      "file_path": "./data/intermediate/football_players_triples/Q96072055.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q489039": {
+      "player_id": "Q489039",
+      "player_names": {
+        "id": "Q489039",
+        "english": "Raphaël Varane",
+        "cantonese": {
+          "yue": "華拉尼",
+          "zh-hk": "拉斐爾·華拉尼"
+        },
+        "cantonese_best": "華拉尼",
+        "cantonese_lang": "yue",
+        "description_english": "French footballer (born 1993)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1993-04-25T00:00:00Z",
+      "birth_year": 1993,
+      "file_path": "./data/intermediate/football_players_triples/Q489039.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q201825": {
+      "player_id": "Q201825",
+      "player_names": {
+        "id": "Q201825",
+        "english": "Marek Hamšík",
+        "cantonese": {
+          "zh-hk": "馬歷·咸錫",
+          "yue": "馬歷·咸錫"
+        },
+        "cantonese_best": "馬歷·咸錫",
+        "cantonese_lang": "yue",
+        "description_english": "Slovak footballer",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1987-07-27T00:00:00Z",
+      "birth_year": 1987,
+      "file_path": "./data/intermediate/football_players_triples/Q201825.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q107051": {
+      "player_id": "Q107051",
+      "player_names": {
+        "id": "Q107051",
+        "english": "Andrea Barzagli",
+        "cantonese": {
+          "zh-hk": "安祖亞·巴沙利"
+        },
+        "cantonese_best": "安祖亞·巴沙利",
+        "cantonese_lang": "zh-hk",
+        "description_english": "Italian association football player",
+        "description_cantonese": {
+          "yue": "意大利足球員"
+        },
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1981-05-08T00:00:00Z",
+      "birth_year": 1981,
+      "file_path": "./data/intermediate/football_players_triples/Q107051.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q161054": {
+      "player_id": "Q161054",
+      "player_names": {
+        "id": "Q161054",
+        "english": "Ivan Perišić",
+        "cantonese": {
+          "yue": "艾雲·比列錫",
+          "zh-hk": "貝里錫"
+        },
+        "cantonese_best": "艾雲·比列錫",
+        "cantonese_lang": "yue",
+        "description_english": "Croatian association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1989-02-02T00:00:00Z",
+      "birth_year": 1989,
+      "file_path": "./data/intermediate/football_players_triples/Q161054.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q15915040": {
+      "player_id": "Q15915040",
+      "player_names": {
+        "id": "Q15915040",
+        "english": "Andrew Robertson",
+        "cantonese": {
+          "yue": "安祖·羅拔臣",
+          "zh-hk": "安祖·羅拔臣"
+        },
+        "cantonese_best": "安祖·羅拔臣",
+        "cantonese_lang": "yue",
+        "description_english": "Scottish association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1994-03-11T00:00:00Z",
+      "birth_year": 1994,
+      "file_path": "./data/intermediate/football_players_triples/Q15915040.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q459707": {
+      "player_id": "Q459707",
+      "player_names": {
+        "id": "Q459707",
+        "english": "Diego Costa",
+        "cantonese": {
+          "yue": "迪亞高哥斯達",
+          "zh-hk": "迪亞高·哥斯達"
+        },
+        "cantonese_best": "迪亞高哥斯達",
+        "cantonese_lang": "yue",
+        "description_english": "Spanish-Brazilian association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1988-10-07T00:00:00Z",
+      "birth_year": 1988,
+      "file_path": "./data/intermediate/football_players_triples/Q459707.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q1907": {
+      "player_id": "Q1907",
+      "player_names": {
+        "id": "Q1907",
+        "english": "Hugo Lloris",
+        "cantonese": {
+          "yue": "曉高洛里斯"
+        },
+        "cantonese_best": "曉高洛里斯",
+        "cantonese_lang": "yue",
+        "description_english": "French footballer (born 1986)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1986-12-26T00:00:00Z",
+      "birth_year": 1986,
+      "file_path": "./data/intermediate/football_players_triples/Q1907.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q313520": {
+      "player_id": "Q313520",
+      "player_names": {
+        "id": "Q313520",
+        "english": "Naldo",
+        "cantonese": {
+          "yue": "拿杜",
+          "zh-hk": "拿杜"
+        },
+        "cantonese_best": "拿杜",
+        "cantonese_lang": "yue",
+        "description_english": "Brazilian footballer (1982–)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1982-09-10T00:00:00Z",
+      "birth_year": 1982,
+      "file_path": "./data/intermediate/football_players_triples/Q313520.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q185225": {
+      "player_id": "Q185225",
+      "player_names": {
+        "id": "Q185225",
+        "english": "Santi Cazorla",
+        "cantonese": {
+          "zh-hk": "辛迪·卡蘇拿",
+          "yue": "辛迪卡蘇拿"
+        },
+        "cantonese_best": "辛迪卡蘇拿",
+        "cantonese_lang": "yue",
+        "description_english": "Spanish association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1984-12-13T00:00:00Z",
+      "birth_year": 1984,
+      "file_path": "./data/intermediate/football_players_triples/Q185225.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q251683": {
+      "player_id": "Q251683",
+      "player_names": {
+        "id": "Q251683",
+        "english": "Ángel Di María",
+        "cantonese": {
+          "yue": "迪馬利亞"
+        },
+        "cantonese_best": "迪馬利亞",
+        "cantonese_lang": "yue",
+        "description_english": "Argentine footballer (born 1988)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1988-02-14T00:00:00Z",
+      "birth_year": 1988,
+      "file_path": "./data/intermediate/football_players_triples/Q251683.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q43913": {
+      "player_id": "Q43913",
+      "player_names": {
+        "id": "Q43913",
+        "english": "Arjen Robben",
+        "cantonese": {
+          "yue": "阿仁洛賓"
+        },
+        "cantonese_best": "阿仁洛賓",
+        "cantonese_lang": "yue",
+        "description_english": "Dutch association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1984-01-23T00:00:00Z",
+      "birth_year": 1984,
+      "file_path": "./data/intermediate/football_players_triples/Q43913.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q337623": {
+      "player_id": "Q337623",
+      "player_names": {
+        "id": "Q337623",
+        "english": "Marco Verratti",
+        "cantonese": {
+          "yue": "華拉堤",
+          "zh-hk": "馬高·華拉堤"
+        },
+        "cantonese_best": "華拉堤",
+        "cantonese_lang": "yue",
+        "description_english": "Italian association football player",
+        "description_cantonese": {
+          "yue": "意大利足球員"
+        },
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1992-11-05T00:00:00Z",
+      "birth_year": 1992,
+      "file_path": "./data/intermediate/football_players_triples/Q337623.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q483846": {
+      "player_id": "Q483846",
+      "player_names": {
+        "id": "Q483846",
+        "english": "Gonzalo Higuaín",
+        "cantonese": {
+          "yue": "希古恩",
+          "zh-hk": "干沙路·希古恩"
+        },
+        "cantonese_best": "希古恩",
+        "cantonese_lang": "yue",
+        "description_english": "Argentine association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1987-12-10T00:00:00Z",
+      "birth_year": 1987,
+      "file_path": "./data/intermediate/football_players_triples/Q483846.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q483837": {
+      "player_id": "Q483837",
+      "player_names": {
+        "id": "Q483837",
+        "english": "Luka Modrić",
+        "cantonese": {
+          "yue": "盧卡·摩德列治",
+          "zh-hk": "盧卡·莫迪歷"
+        },
+        "cantonese_best": "盧卡·摩德列治",
+        "cantonese_lang": "yue",
+        "description_english": "Croatian association football player (born 1985)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1985-09-09T00:00:00Z",
+      "birth_year": 1985,
+      "file_path": "./data/intermediate/football_players_triples/Q483837.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q615": {
+      "player_id": "Q615",
+      "player_names": {
+        "id": "Q615",
+        "english": "Lionel Messi",
+        "cantonese": {
+          "yue": "美斯",
+          "zh-hk": "利安奴·美斯"
+        },
+        "cantonese_best": "美斯",
+        "cantonese_lang": "yue",
+        "description_english": "Argentine association football player (born 1987)",
+        "description_cantonese": {
+          "zh-hk": "阿根廷足球運動員",
+          "yue": "亞根庭足球員"
+        },
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1987-06-24T00:00:00Z",
+      "birth_year": 1987,
+      "file_path": "./data/intermediate/football_players_triples/Q615.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q83488": {
+      "player_id": "Q83488",
+      "player_names": {
+        "id": "Q83488",
+        "english": "Mesut Özil",
+        "cantonese": {
+          "yue": "奧斯爾"
+        },
+        "cantonese_best": "奧斯爾",
+        "cantonese_lang": "yue",
+        "description_english": "German association footballer (born 1988)",
+        "description_cantonese": {
+          "yue": "土耳其裔德國足球員"
+        },
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1988-10-15T00:00:00Z",
+      "birth_year": 1988,
+      "file_path": "./data/intermediate/football_players_triples/Q83488.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q110053": {
+      "player_id": "Q110053",
+      "player_names": {
+        "id": "Q110053",
+        "english": "Mats Hummels",
+        "cantonese": {
+          "yue": "麥斯·曉姆斯",
+          "zh-hk": "麥斯·曉姆斯"
+        },
+        "cantonese_best": "麥斯·曉姆斯",
+        "cantonese_lang": "yue",
+        "description_english": "German association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1988-12-16T00:00:00Z",
+      "birth_year": 1988,
+      "file_path": "./data/intermediate/football_players_triples/Q110053.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q8338725": {
+      "player_id": "Q8338725",
+      "player_names": {
+        "id": "Q8338725",
+        "english": "Riyad Mahrez",
+        "cantonese": {
+          "yue": "列恩馬列斯"
+        },
+        "cantonese_best": "列恩馬列斯",
+        "cantonese_lang": "yue",
+        "description_english": "Algerian-French footballer (born 1991)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1991-02-21T00:00:00Z",
+      "birth_year": 1991,
+      "file_path": "./data/intermediate/football_players_triples/Q8338725.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q17274709": {
+      "player_id": "Q17274709",
+      "player_names": {
+        "id": "Q17274709",
+        "english": "Mike Maignan",
+        "cantonese": {
+          "yue": "邁治南"
+        },
+        "cantonese_best": "邁治南",
+        "cantonese_lang": "yue",
+        "description_english": "French footballer (born 1995)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1995-07-03T00:00:00Z",
+      "birth_year": 1995,
+      "file_path": "./data/intermediate/football_players_triples/Q17274709.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q26517": {
+      "player_id": "Q26517",
+      "player_names": {
+        "id": "Q26517",
+        "english": "Luis Suárez",
+        "cantonese": {
+          "yue": "路易斯·蘇亞利斯"
+        },
+        "cantonese_best": "路易斯·蘇亞利斯",
+        "cantonese_lang": "yue",
+        "description_english": "Uruguayan association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1987-01-24T00:00:00Z",
+      "birth_year": 1987,
+      "file_path": "./data/intermediate/football_players_triples/Q26517.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q115453": {
+      "player_id": "Q115453",
+      "player_names": {
+        "id": "Q115453",
+        "english": "Ivan Rakitić",
+        "cantonese": {
+          "yue": "伊凡·拉傑迪",
+          "zh-hk": "艾雲·拉傑迪"
+        },
+        "cantonese_best": "伊凡·拉傑迪",
+        "cantonese_lang": "yue",
+        "description_english": "Croatian association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1988-03-10T00:00:00Z",
+      "birth_year": 1988,
+      "file_path": "./data/intermediate/football_players_triples/Q115453.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q161069": {
+      "player_id": "Q161069",
+      "player_names": {
+        "id": "Q161069",
+        "english": "David Silva",
+        "cantonese": {
+          "zh-hk": "大衛·施華",
+          "yue": "大衞施華"
+        },
+        "cantonese_best": "大衞施華",
+        "cantonese_lang": "yue",
+        "description_english": "Spanish association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1986-01-08T00:00:00Z",
+      "birth_year": 1986,
+      "file_path": "./data/intermediate/football_players_triples/Q161069.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q19898898": {
+      "player_id": "Q19898898",
+      "player_names": {
+        "id": "Q19898898",
+        "english": "Frenkie de Jong",
+        "cantonese": {
+          "zh-hk": "弗蘭基·德容",
+          "yue": "法蘭基·迪莊"
+        },
+        "cantonese_best": "法蘭基·迪莊",
+        "cantonese_lang": "yue",
+        "description_english": "Dutch association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1997-05-12T00:00:00Z",
+      "birth_year": 1997,
+      "file_path": "./data/intermediate/football_players_triples/Q19898898.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q167790": {
+      "player_id": "Q167790",
+      "player_names": {
+        "id": "Q167790",
+        "english": "Edinson Acavani",
+        "cantonese": {
+          "zh-hk": "卡雲尼",
+          "yue": "艾甸臣卡雲尼"
+        },
+        "cantonese_best": "艾甸臣卡雲尼",
+        "cantonese_lang": "yue",
+        "description_english": "Uruguayan association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1987-02-14T00:00:00Z",
+      "birth_year": 1987,
+      "file_path": "./data/intermediate/football_players_triples/Q167790.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q20830808": {
+      "player_id": "Q20830808",
+      "player_names": {
+        "id": "Q20830808",
+        "english": "Gianluigi Donnarumma",
+        "cantonese": {
+          "zh-hk": "基安盧基·當拿隆馬",
+          "yue": "基安盧基·當拿隆馬"
+        },
+        "cantonese_best": "基安盧基·當拿隆馬",
+        "cantonese_lang": "yue",
+        "description_english": "Italian association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1999-02-25T00:00:00Z",
+      "birth_year": 1999,
+      "file_path": "./data/intermediate/football_players_triples/Q20830808.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q6413296": {
+      "player_id": "Q6413296",
+      "player_names": {
+        "id": "Q6413296",
+        "english": "Kingsley Coman",
+        "cantonese": {
+          "yue": "京士利·高文"
+        },
+        "cantonese_best": "京士利·高文",
+        "cantonese_lang": "yue",
+        "description_english": "French footballer",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1996-06-13T00:00:00Z",
+      "birth_year": 1996,
+      "file_path": "./data/intermediate/football_players_triples/Q6413296.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q46896": {
+      "player_id": "Q46896",
+      "player_names": {
+        "id": "Q46896",
+        "english": "Zlatan Ibrahimović",
+        "cantonese": {
+          "yue": "伊巴謙莫域"
+        },
+        "cantonese_best": "伊巴謙莫域",
+        "cantonese_lang": "yue",
+        "description_english": "Swedish association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1981-10-03T00:00:00Z",
+      "birth_year": 1981,
+      "file_path": "./data/intermediate/football_players_triples/Q46896.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q312157": {
+      "player_id": "Q312157",
+      "player_names": {
+        "id": "Q312157",
+        "english": "Raheem Sterling",
+        "cantonese": {
+          "yue": "史達寧",
+          "zh-hk": "拉謙·史達寧"
+        },
+        "cantonese_best": "史達寧",
+        "cantonese_lang": "yue",
+        "description_english": "English association football player (born 1994)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1994-12-08T00:00:00Z",
+      "birth_year": 1994,
+      "file_path": "./data/intermediate/football_players_triples/Q312157.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q50600": {
+      "player_id": "Q50600",
+      "player_names": {
+        "id": "Q50600",
+        "english": "Carlos Tevez",
+        "cantonese": {
+          "yue": "迪維斯"
+        },
+        "cantonese_best": "迪維斯",
+        "cantonese_lang": "yue",
+        "description_english": "Argentine association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1984-02-05T00:00:00Z",
+      "birth_year": 1984,
+      "file_path": "./data/intermediate/football_players_triples/Q50600.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q128840": {
+      "player_id": "Q128840",
+      "player_names": {
+        "id": "Q128840",
+        "english": "Toby Alderweireld",
+        "cantonese": {
+          "yue": "艾達韋列特",
+          "zh-hk": "杜比·艾達韋列特"
+        },
+        "cantonese_best": "艾達韋列特",
+        "cantonese_lang": "yue",
+        "description_english": "Belgian association football player (born 1989)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1989-03-02T00:00:00Z",
+      "birth_year": 1989,
+      "file_path": "./data/intermediate/football_players_triples/Q128840.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q17074511": {
+      "player_id": "Q17074511",
+      "player_names": {
+        "id": "Q17074511",
+        "english": "Ederson Moraes",
+        "cantonese": {
+          "zh-hk": "艾達臣·摩拉斯"
+        },
+        "cantonese_best": "艾達臣·摩拉斯",
+        "cantonese_lang": "zh-hk",
+        "description_english": "Brazilian goalkeeper (1993-)",
+        "description_cantonese": {
+          "zh-hk": "巴西足球員（1993—）"
+        },
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1993-08-17T00:00:00Z",
+      "birth_year": 1993,
+      "file_path": "./data/intermediate/football_players_triples/Q17074511.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q1912": {
+      "player_id": "Q1912",
+      "player_names": {
+        "id": "Q1912",
+        "english": "Karim Benzema",
+        "cantonese": {
+          "yue": "卡廉賓森馬",
+          "zh-hk": "卡廉·賓施馬"
+        },
+        "cantonese_best": "卡廉賓森馬",
+        "cantonese_lang": "yue",
+        "description_english": "French footballer (born 1987)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1987-12-19T00:00:00Z",
+      "birth_year": 1987,
+      "file_path": "./data/intermediate/football_players_triples/Q1912.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q551192": {
+      "player_id": "Q551192",
+      "player_names": {
+        "id": "Q551192",
+        "english": "Alex Sandro",
+        "cantonese": {
+          "zh-hk": "A.辛特路"
+        },
+        "cantonese_best": "A.辛特路",
+        "cantonese_lang": "zh-hk",
+        "description_english": "Brazilian footballer (born 1991)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1991-01-26T00:00:00Z",
+      "birth_year": 1991,
+      "file_path": "./data/intermediate/football_players_triples/Q551192.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q16665941": {
+      "player_id": "Q16665941",
+      "player_names": {
+        "id": "Q16665941",
+        "english": "N'Golo Kanté",
+        "cantonese": {
+          "zh-hk": "尼高路·簡迪",
+          "yue": "簡迪"
+        },
+        "cantonese_best": "簡迪",
+        "cantonese_lang": "yue",
+        "description_english": "French footballer (born 1991)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1991-03-29T00:00:00Z",
+      "birth_year": 1991,
+      "file_path": "./data/intermediate/football_players_triples/Q16665941.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q146907": {
+      "player_id": "Q146907",
+      "player_names": {
+        "id": "Q146907",
+        "english": "Miralem Pjanić",
+        "cantonese": {
+          "zh-hk": "米拉萊姆·比真歷"
+        },
+        "cantonese_best": "米拉萊姆·比真歷",
+        "cantonese_lang": "zh-hk",
+        "description_english": "Bosnian association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1990-04-02T00:00:00Z",
+      "birth_year": 1990,
+      "file_path": "./data/intermediate/football_players_triples/Q146907.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q667596": {
+      "player_id": "Q667596",
+      "player_names": {
+        "id": "Q667596",
+        "english": "Yann Sommer",
+        "cantonese": {
+          "yue": "恩·蘇馬"
+        },
+        "cantonese_best": "恩·蘇馬",
+        "cantonese_lang": "yue",
+        "description_english": "Swiss association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1988-12-17T00:00:00Z",
+      "birth_year": 1988,
+      "file_path": "./data/intermediate/football_players_triples/Q667596.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q29950055": {
+      "player_id": "Q29950055",
+      "player_names": {
+        "id": "Q29950055",
+        "english": "Éder Militão",
+        "cantonese": {
+          "zh-hk": "艾達·美列度奧",
+          "yue": "艾達美列度奧"
+        },
+        "cantonese_best": "艾達美列度奧",
+        "cantonese_lang": "yue",
+        "description_english": "Brazilian association football player (born 1998)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1998-01-18T00:00:00Z",
+      "birth_year": 1998,
+      "file_path": "./data/intermediate/football_players_triples/Q29950055.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q969423": {
+      "player_id": "Q969423",
+      "player_names": {
+        "id": "Q969423",
+        "english": "Keylor Navas",
+        "cantonese": {
+          "yue": "基羅拿華斯",
+          "zh-hk": "基羅·拿華斯"
+        },
+        "cantonese_best": "基羅拿華斯",
+        "cantonese_lang": "yue",
+        "description_english": "Costa Rican association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1986-12-15T00:00:00Z",
+      "birth_year": 1986,
+      "file_path": "./data/intermediate/football_players_triples/Q969423.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q2339": {
+      "player_id": "Q2339",
+      "player_names": {
+        "id": "Q2339",
+        "english": "Robin van Persie",
+        "cantonese": {
+          "yue": "雲佩斯",
+          "zh-hk": "羅賓·雲佩斯"
+        },
+        "cantonese_best": "雲佩斯",
+        "cantonese_lang": "yue",
+        "description_english": "Dutch association football player and manager",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1983-08-06T00:00:00Z",
+      "birth_year": 1983,
+      "file_path": "./data/intermediate/football_players_triples/Q2339.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q214204": {
+      "player_id": "Q214204",
+      "player_names": {
+        "id": "Q214204",
+        "english": "Eden Hazard",
+        "cantonese": {
+          "yue": "夏薩特",
+          "zh-hk": "伊登·夏薩特"
+        },
+        "cantonese_best": "夏薩特",
+        "cantonese_lang": "yue",
+        "description_english": "Belgian footballer (born 1991)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1991-01-07T00:00:00Z",
+      "birth_year": 1991,
+      "file_path": "./data/intermediate/football_players_triples/Q214204.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q188997": {
+      "player_id": "Q188997",
+      "player_names": {
+        "id": "Q188997",
+        "english": "Wojciech Szczęsny",
+        "cantonese": {
+          "yue": "禾捷治施捷斯尼",
+          "zh-hk": "沃伊切赫·施捷斯尼"
+        },
+        "cantonese_best": "禾捷治施捷斯尼",
+        "cantonese_lang": "yue",
+        "description_english": "Polish association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1990-04-18T00:00:00Z",
+      "birth_year": 1990,
+      "file_path": "./data/intermediate/football_players_triples/Q188997.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q294806": {
+      "player_id": "Q294806",
+      "player_names": {
+        "id": "Q294806",
+        "english": "César Azpilicueta",
+        "cantonese": {
+          "yue": "艾斯派古達",
+          "zh-hk": "施薩·艾斯派古達"
+        },
+        "cantonese_best": "艾斯派古達",
+        "cantonese_lang": "yue",
+        "description_english": "Spanish association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1989-08-28T00:00:00Z",
+      "birth_year": 1989,
+      "file_path": "./data/intermediate/football_players_triples/Q294806.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q180553": {
+      "player_id": "Q180553",
+      "player_names": {
+        "id": "Q180553",
+        "english": "Alexis Sánchez Chileno",
+        "cantonese": {
+          "zh-hk": "阿歷斯·山齊士",
+          "yue": "阿歷斯山齊士"
+        },
+        "cantonese_best": "阿歷斯山齊士",
+        "cantonese_lang": "yue",
+        "description_english": "Chilean footballer (born 1988)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1988-12-19T00:00:00Z",
+      "birth_year": 1988,
+      "file_path": "./data/intermediate/football_players_triples/Q180553.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q459356": {
+      "player_id": "Q459356",
+      "player_names": {
+        "id": "Q459356",
+        "english": "Fernandinho",
+        "cantonese": {
+          "yue": "費蘭甸奴"
+        },
+        "cantonese_best": "費蘭甸奴",
+        "cantonese_lang": "yue",
+        "description_english": "Brazilian association football player, born May 1985",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1985-05-04T00:00:00Z",
+      "birth_year": 1985,
+      "file_path": "./data/intermediate/football_players_triples/Q459356.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q160472": {
+      "player_id": "Q160472",
+      "player_names": {
+        "id": "Q160472",
+        "english": "Marc-André ter Stegen",
+        "cantonese": {
+          "yue": "馬克-安德烈·達史特根",
+          "zh-hk": "馬克-安德烈·達·史特根"
+        },
+        "cantonese_best": "馬克-安德烈·達史特根",
+        "cantonese_lang": "yue",
+        "description_english": "German association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1992-04-30T00:00:00Z",
+      "birth_year": 1992,
+      "file_path": "./data/intermediate/football_players_triples/Q160472.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q965846": {
+      "player_id": "Q965846",
+      "player_names": {
+        "id": "Q965846",
+        "english": "Papu Gómez",
+        "cantonese": {
+          "zh-hk": "達里奧·戈麥斯"
+        },
+        "cantonese_best": "達里奧·戈麥斯",
+        "cantonese_lang": "zh-hk",
+        "description_english": "Argentine association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1988-02-15T00:00:00Z",
+      "birth_year": 1988,
+      "file_path": "./data/intermediate/football_players_triples/Q965846.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q455462": {
+      "player_id": "Q455462",
+      "player_names": {
+        "id": "Q455462",
+        "english": "Antoine Griezmann",
+        "cantonese": {
+          "yue": "基士文 (法國足球員)"
+        },
+        "cantonese_best": "基士文 (法國足球員)",
+        "cantonese_lang": "yue",
+        "description_english": "French footballer (born 1991)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1991-03-21T00:00:00Z",
+      "birth_year": 1991,
+      "file_path": "./data/intermediate/football_players_triples/Q455462.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q2058682": {
+      "player_id": "Q2058682",
+      "player_names": {
+        "id": "Q2058682",
+        "english": "Jan Oblak",
+        "cantonese": {
+          "yue": "奧比歷"
+        },
+        "cantonese_best": "奧比歷",
+        "cantonese_lang": "yue",
+        "description_english": "Slovenian association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1993-01-07T00:00:00Z",
+      "birth_year": 1993,
+      "file_path": "./data/intermediate/football_players_triples/Q2058682.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q43682": {
+      "player_id": "Q43682",
+      "player_names": {
+        "id": "Q43682",
+        "english": "Philipp Lahm",
+        "cantonese": {
+          "yue": "菲臘·拿姆"
+        },
+        "cantonese_best": "菲臘·拿姆",
+        "cantonese_lang": "yue",
+        "description_english": "German association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1983-11-11T00:00:00Z",
+      "birth_year": 1983,
+      "file_path": "./data/intermediate/football_players_triples/Q43682.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q49704": {
+      "player_id": "Q49704",
+      "player_names": {
+        "id": "Q49704",
+        "english": "Sergio Busquets",
+        "cantonese": {
+          "yue": "沙治奧·布斯基斯"
+        },
+        "cantonese_best": "沙治奧·布斯基斯",
+        "cantonese_lang": "yue",
+        "description_english": "Spanish association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1988-07-16T00:00:00Z",
+      "birth_year": 1988,
+      "file_path": "./data/intermediate/football_players_triples/Q49704.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q182063": {
+      "player_id": "Q182063",
+      "player_names": {
+        "id": "Q182063",
+        "english": "Nicolás Otamendi",
+        "cantonese": {
+          "yue": "尼古拉斯奧達文迪"
+        },
+        "cantonese_best": "尼古拉斯奧達文迪",
+        "cantonese_lang": "yue",
+        "description_english": "Argentine association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1988-02-12T00:00:00Z",
+      "birth_year": 1988,
+      "file_path": "./data/intermediate/football_players_triples/Q182063.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q166317": {
+      "player_id": "Q166317",
+      "player_names": {
+        "id": "Q166317",
+        "english": "Paulo Dybala",
+        "cantonese": {
+          "yue": "保羅·戴巴拿",
+          "zh-hk": "保羅·戴巴拿"
+        },
+        "cantonese_best": "保羅·戴巴拿",
+        "cantonese_lang": "yue",
+        "description_english": "Argentine association football player (born 1993)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1993-11-15T00:00:00Z",
+      "birth_year": 1993,
+      "file_path": "./data/intermediate/football_players_triples/Q166317.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q11571": {
+      "player_id": "Q11571",
+      "player_names": {
+        "id": "Q11571",
+        "english": "Cristiano Ronaldo",
+        "cantonese": {
+          "yue": "基斯坦奴朗拿度",
+          "zh-hk": "基斯坦奴·朗拿度"
+        },
+        "cantonese_best": "基斯坦奴朗拿度",
+        "cantonese_lang": "yue",
+        "description_english": "Portuguese association football player (born 1985)",
+        "description_cantonese": {
+          "zh-hk": "葡萄牙足球運動員",
+          "yue": "葡萄牙足球員"
+        },
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1985-02-05T00:00:00Z",
+      "birth_year": 1985,
+      "file_path": "./data/intermediate/football_players_triples/Q11571.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q138172": {
+      "player_id": "Q138172",
+      "player_names": {
+        "id": "Q138172",
+        "english": "Radamel Falcao",
+        "cantonese": {
+          "zh-hk": "拉達梅爾·法卡奧"
+        },
+        "cantonese_best": "拉達梅爾·法卡奧",
+        "cantonese_lang": "zh-hk",
+        "description_english": "Colombian association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1986-02-10T00:00:00Z",
+      "birth_year": 1986,
+      "file_path": "./data/intermediate/football_players_triples/Q138172.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q66606355": {
+      "player_id": "Q66606355",
+      "player_names": {
+        "id": "Q66606355",
+        "english": "Pedri",
+        "cantonese": {
+          "yue": "柏迪"
+        },
+        "cantonese_best": "柏迪",
+        "cantonese_lang": "yue",
+        "description_english": "Spanish association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "2002-11-25T00:00:00Z",
+      "birth_year": 2002,
+      "file_path": "./data/intermediate/football_players_triples/Q66606355.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q3845710": {
+      "player_id": "Q3845710",
+      "player_names": {
+        "id": "Q3845710",
+        "english": "Marcelo Brozović",
+        "cantonese": {
+          "yue": "馬些路波索域"
+        },
+        "cantonese_best": "馬些路波索域",
+        "cantonese_lang": "yue",
+        "description_english": "Croatian association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1992-11-16T00:00:00Z",
+      "birth_year": 1992,
+      "file_path": "./data/intermediate/football_players_triples/Q3845710.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q107365": {
+      "player_id": "Q107365",
+      "player_names": {
+        "id": "Q107365",
+        "english": "Manuel Neuer",
+        "cantonese": {
+          "yue": "紐亞",
+          "zh-hk": "文奴爾·紐亞"
+        },
+        "cantonese_best": "紐亞",
+        "cantonese_lang": "yue",
+        "description_english": "German association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1986-03-27T00:00:00Z",
+      "birth_year": 1986,
+      "file_path": "./data/intermediate/football_players_triples/Q107365.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q1918": {
+      "player_id": "Q1918",
+      "player_names": {
+        "id": "Q1918",
+        "english": "Franck Ribéry",
+        "cantonese": {
+          "yue": "列貝利"
+        },
+        "cantonese_best": "列貝利",
+        "cantonese_lang": "yue",
+        "description_english": "French footballer (born 1983)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1983-04-07T00:00:00Z",
+      "birth_year": 1983,
+      "file_path": "./data/intermediate/football_players_triples/Q1918.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q209942": {
+      "player_id": "Q209942",
+      "player_names": {
+        "id": "Q209942",
+        "english": "Sadio Mané",
+        "cantonese": {
+          "yue": "沙迪奧文尼",
+          "zh-hk": "沙迪奧·文尼"
+        },
+        "cantonese_best": "沙迪奧文尼",
+        "cantonese_lang": "yue",
+        "description_english": "Senegalese association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1992-04-10T00:00:00Z",
+      "birth_year": 1992,
+      "file_path": "./data/intermediate/football_players_triples/Q209942.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q201752": {
+      "player_id": "Q201752",
+      "player_names": {
+        "id": "Q201752",
+        "english": "Javi Martínez",
+        "cantonese": {
+          "yue": "查維·馬天尼斯",
+          "zh-hk": "查維·馬天尼斯"
+        },
+        "cantonese_best": "查維·馬天尼斯",
+        "cantonese_lang": "yue",
+        "description_english": "Spanish footballer",
+        "description_cantonese": {
+          "yue": "西班牙足球員"
+        },
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1988-09-02T00:00:00Z",
+      "birth_year": 1988,
+      "file_path": "./data/intermediate/football_players_triples/Q201752.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q13865408": {
+      "player_id": "Q13865408",
+      "player_names": {
+        "id": "Q13865408",
+        "english": "Joshua Kimmich",
+        "cantonese": {
+          "yue": "約素亞·劍米克"
+        },
+        "cantonese_best": "約素亞·劍米克",
+        "cantonese_lang": "yue",
+        "description_english": "German association football player (born 1995)",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1995-02-08T00:00:00Z",
+      "birth_year": 1995,
+      "file_path": "./data/intermediate/football_players_triples/Q13865408.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q38136": {
+      "player_id": "Q38136",
+      "player_names": {
+        "id": "Q38136",
+        "english": "Marcelo Vieira",
+        "cantonese": {
+          "yue": "馬些路",
+          "zh-hk": "馬些路·韋拉"
+        },
+        "cantonese_best": "馬些路",
+        "cantonese_lang": "yue",
+        "description_english": "Brazilian association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1988-05-12T00:00:00Z",
+      "birth_year": 1988,
+      "file_path": "./data/intermediate/football_players_triples/Q38136.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q151269": {
+      "player_id": "Q151269",
+      "player_names": {
+        "id": "Q151269",
+        "english": "Robert Lewandowski",
+        "cantonese": {
+          "yue": "利雲度夫斯基",
+          "zh-hk": "羅拔·利雲度夫斯基"
+        },
+        "cantonese_best": "利雲度夫斯基",
+        "cantonese_lang": "yue",
+        "description_english": "Polish association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1988-08-21T00:00:00Z",
+      "birth_year": 1988,
+      "file_path": "./data/intermediate/football_players_triples/Q151269.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q294951": {
+      "player_id": "Q294951",
+      "player_names": {
+        "id": "Q294951",
+        "english": "Christian Eriksen",
+        "cantonese": {
+          "yue": "基斯甸艾歷臣",
+          "zh-hk": "基斯甸·艾歷臣"
+        },
+        "cantonese_best": "基斯甸艾歷臣",
+        "cantonese_lang": "yue",
+        "description_english": "Danish association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1992-02-14T00:00:00Z",
+      "birth_year": 1992,
+      "file_path": "./data/intermediate/football_players_triples/Q294951.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q17500": {
+      "player_id": "Q17500",
+      "player_names": {
+        "id": "Q17500",
+        "english": "Xavi Hernández",
+        "cantonese": {
+          "yue": "沙維"
+        },
+        "cantonese_best": "沙維",
+        "cantonese_lang": "yue",
+        "description_english": "Spanish association football player and manager",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1980-01-25T00:00:00Z",
+      "birth_year": 1980,
+      "file_path": "./data/intermediate/football_players_triples/Q17500.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q26259982": {
+      "player_id": "Q26259982",
+      "player_names": {
+        "id": "Q26259982",
+        "english": "Matthijs de Ligt",
+        "cantonese": {
+          "yue": "馬菲斯·迪列治"
+        },
+        "cantonese_best": "馬菲斯·迪列治",
+        "cantonese_lang": "yue",
+        "description_english": "Dutch association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1999-08-12T00:00:00Z",
+      "birth_year": 1999,
+      "file_path": "./data/intermediate/football_players_triples/Q26259982.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    },
+    "Q483309": {
+      "player_id": "Q483309",
+      "player_names": {
+        "id": "Q483309",
+        "english": "Sergio Ramos",
+        "cantonese": {
+          "yue": "沙治奧拉莫斯",
+          "zh-hk": "沙治奧·拉莫斯"
+        },
+        "cantonese_best": "沙治奧拉莫斯",
+        "cantonese_lang": "yue",
+        "description_english": "Spanish association football player",
+        "description_cantonese": {},
+        "cantonese_source": "wikidata"
+      },
+      "birth_date": "1986-03-30T00:00:00Z",
+      "birth_year": 1986,
+      "file_path": "./data/intermediate/football_players_triples/Q483309.jsonld",
+      "has_cantonese_data": true,
+      "has_birth_data": true
+    }
+  },
+  "statistics": {
+    "total_files_processed": 141,
+    "players_with_birth_data": 141,
+    "players_with_cantonese_data": 141,
+    "players_with_both_birth_and_cantonese": 141,
+    "birth_year_range": {
+      "min": 1978,
+      "max": 2003
+    },
+    "birth_years_distribution": {
+      "1994": 7,
+      "1993": 8,
+      "1988": 17,
+      "1998": 4,
+      "1983": 4,
+      "1991": 11,
+      "1990": 7,
+      "1987": 14,
+      "1999": 4,
+      "1995": 3,
+      "1985": 4,
+      "1986": 8,
+      "1984": 9,
+      "1989": 8,
+      "1982": 2,
+      "2001": 1,
+      "1996": 3,
+      "1997": 3,
+      "1992": 14,
+      "2003": 2,
+      "2000": 3,
+      "1978": 1,
+      "1981": 2,
+      "2002": 1,
+      "1980": 1
+    },
+    "errors": [],
+    "cache_info": "Using cached names for 141 players",
+    "successfully_processed": 141,
+    "birth_data_coverage_percentage": 100.0,
+    "cantonese_data_coverage_percentage": 100.0,
+    "both_data_coverage_percentage": 100.0,
+    "original_player_count": 141,
+    "filtered_player_count": 141,
+    "filtering_ratio": 100.0
+  },
+  "processing_info": {
+    "timestamp": "2025-09-08T22:00:48.496995",
+    "directory_processed": "./data/intermediate/football_players_triples",
+    "cache_directory_used": "./data/cantonese_name_mapping",
+    "cache_status": "Using cached names for 141 players"
+  }
+}

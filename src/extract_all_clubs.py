@@ -13,50 +13,21 @@ import os
 import csv
 from typing import List, Dict, Any, Optional, Tuple
 from datetime import datetime
+import sys
 
+# Add the current directory to Python path to import utils
+sys.path.append(os.path.dirname(__file__))
 
-def parse_date(date_str):
-    """Parse WikiData date string to extract year."""
-    if isinstance(date_str, str) and len(date_str) >= 4:
-        return int(date_str[:4])
-    return None
-
-
-def load_paranames_cantonese(paranames_tsv_path: str) -> Dict[str, Dict[str, str]]:
-    """
-    Load Cantonese names from ParaNames dataset.
-    
-    Args:
-        paranames_tsv_path: Path to the paranames.tsv file
-        
-    Returns:
-        Dictionary mapping wikidata_id to cantonese names (yue and zh-hk)
-    """
-    cantonese_names = {}
-    
-    if not os.path.exists(paranames_tsv_path):
-        print(f"Warning: ParaNames file not found at {paranames_tsv_path}")
-        return cantonese_names
-    
-    print(f"Loading Cantonese names from ParaNames dataset: {paranames_tsv_path}")
-    
-    with open(paranames_tsv_path, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f, delimiter='\t')
-        
-        for row in reader:
-            wikidata_id = row.get('wikidata_id', '').strip()
-            language = row.get('language', '').strip()
-            label = row.get('label', '').strip()
-            
-            # Only process Cantonese-related language codes
-            if language in ['yue', 'zh-hk'] and wikidata_id and label:
-                if wikidata_id not in cantonese_names:
-                    cantonese_names[wikidata_id] = {}
-                
-                cantonese_names[wikidata_id][language] = label
-    
-    print(f"Loaded Cantonese names for {len(cantonese_names)} entities from ParaNames")
-    return cantonese_names
+from utils.jsonld_reader import (
+    load_paranames_cantonese,
+    parse_date,
+    extract_entity_names,
+    get_best_cantonese_name,
+    load_jsonld_file,
+    extract_player_id_from_filename,
+    load_cached_cantonese_names,
+    get_entity_names_from_cache
+)
 
 
 def teams_overlap(team1_info, team2_info):
@@ -238,14 +209,15 @@ def extract_entity_names(data: dict, target_id: str, paranames_cantonese: Dict[s
     
     return names
     
-def extract_all_teams(jsonld_file_path: str, paranames_cantonese: Dict[str, Dict[str, str]] = None) -> Dict[str, Any]:
+def extract_all_teams(jsonld_file_path: str, cached_players: Dict = None, cached_teams: Dict = None) -> Dict[str, Any]:
     """
     Extract ALL team information for a football player from WikiData JSONLD.
-    Now includes Cantonese names for both players and teams, enhanced with ParaNames dataset.
+    Now uses cached Cantonese names for improved performance.
     
     Args:
         jsonld_file_path: Path to the JSONLD file containing player data
-        paranames_cantonese: Dictionary of Cantonese names from ParaNames dataset
+        cached_players: Dictionary of cached player names
+        cached_teams: Dictionary of cached team names
         
     Returns:
         Dictionary containing complete player and team information with Cantonese names
@@ -275,8 +247,17 @@ def extract_all_teams(jsonld_file_path: str, paranames_cantonese: Dict[str, Dict
         player_id = filename[:-7]  # Remove .jsonld extension
         result['player_id'] = player_id
         
-        # Extract all player names (English and Cantonese)
-        result['player_names'] = extract_entity_names(data, player_id, paranames_cantonese)
+        # Get player names from cache if available, otherwise use fallback
+        if cached_players:
+            cached_names = get_entity_names_from_cache(player_id, cached_players)
+            if cached_names:
+                result['player_names'] = cached_names
+            else:
+                # Fallback to dynamic extraction if not in cache
+                result['player_names'] = extract_entity_names(data, player_id, None)
+        else:
+            # No cache available, use dynamic extraction
+            result['player_names'] = extract_entity_names(data, player_id, None)
         
         # Check if we have Cantonese data for the player
         if result['player_names']['cantonese_lang'] != 'none':
@@ -324,8 +305,17 @@ def extract_all_teams(jsonld_file_path: str, paranames_cantonese: Dict[str, Dict
     for team_info in team_statements:
         team_id = team_info['club_id']  # Using club_id field for backward compatibility
         if team_id:
-            # Extract all names for this team
-            team_names = extract_entity_names(data, team_id, paranames_cantonese)
+            # Get team names from cache if available, otherwise use fallback
+            if cached_teams:
+                cached_names = get_entity_names_from_cache(team_id, None, cached_teams)
+                if cached_names:
+                    team_names = cached_names
+                else:
+                    # Fallback to dynamic extraction if not in cache
+                    team_names = extract_entity_names(data, team_id, None)
+            else:
+                # No cache available, use dynamic extraction
+                team_names = extract_entity_names(data, team_id, None)
             team_info['club_names'] = team_names
             
             # Set backward compatibility fields
@@ -365,13 +355,24 @@ def extract_all_teams(jsonld_file_path: str, paranames_cantonese: Dict[str, Dict
     return result
 
 
-def process_all_players(directory_path: str, paranames_tsv_path: str = None) -> Dict[str, Any]:
-    """Process all player files and return structured data with Cantonese names from both WikiData and ParaNames."""
+def process_all_players(directory_path: str, cache_dir: str = None) -> Dict[str, Any]:
+    """Process all player files and return structured data using cached Cantonese names for improved performance."""
     
-    # Load ParaNames Cantonese data if provided
-    paranames_cantonese = {}
-    if paranames_tsv_path:
-        paranames_cantonese = load_paranames_cantonese(paranames_tsv_path)
+    # Load cached Cantonese names if available
+    cached_players = None
+    cached_teams = None
+    cache_info = "No cache used"
+    
+    if cache_dir and os.path.exists(cache_dir):
+        print(f"Loading cached Cantonese names from {cache_dir}...")
+        cached_players, cached_teams = load_cached_cantonese_names(cache_dir)
+        if cached_players and cached_teams:
+            cache_info = f"Using cached names for {len(cached_players)} players and {len(cached_teams)} teams"
+            print(cache_info)
+        else:
+            print("Failed to load cached names, proceeding without cache")
+    else:
+        print("No cache directory provided or cache directory not found, proceeding without cache")
     
     all_players = {}
     club_to_players = {}  # Map club_id to list of players who played there
@@ -385,7 +386,8 @@ def process_all_players(directory_path: str, paranames_tsv_path: str = None) -> 
         'cantonese_from_wikidata': 0,
         'cantonese_from_paranames': 0,
         'clubs_enhanced_by_paranames': set(),
-        'national_teams_enhanced_by_paranames': set()
+        'national_teams_enhanced_by_paranames': set(),
+        'cache_info': cache_info
     }
     
     files = [f for f in os.listdir(directory_path) if f.endswith('.jsonld')]
@@ -399,7 +401,7 @@ def process_all_players(directory_path: str, paranames_tsv_path: str = None) -> 
         file_path = os.path.join(directory_path, filename)
         
         try:
-            player_data = extract_all_teams(file_path, paranames_cantonese)
+            player_data = extract_all_teams(file_path, cached_players, cached_teams)
             player_id = player_data['player_id']
             
             if player_id:
@@ -684,7 +686,7 @@ def analyze_single_player(file_path: str, paranames_cantonese: Dict[str, Dict[st
     print("=" * 60)
     
     try:
-        team_info = extract_all_teams(file_path, paranames_cantonese)
+        team_info = extract_all_teams(file_path, cached_players, cached_teams)
         
         # Display player information
         player_names = team_info['player_names']
@@ -792,17 +794,22 @@ def analyze_single_player(file_path: str, paranames_cantonese: Dict[str, Dict[st
 
 
 if __name__ == "__main__":
+    import time
+    
     directory_path = "./data/intermediate/football_players_triples"
-    paranames_path = "./data/raw/paranames.tsv"
+    cache_dir = "./data/cantonese_name_mapping"
     
     if not os.path.exists(directory_path):
         print(f"Directory not found: {directory_path}")
         exit(1)
     
-    # Process all players with ParaNames enhancement
+    # Measure performance
+    start_time = time.time()
+    
+    # Process all players using cached names
     print("Starting comprehensive analysis of all players with Cantonese name extraction...")
-    print("Enhanced with ParaNames dataset for additional Cantonese club names...")
-    all_data = process_all_players(directory_path, paranames_path)
+    print("Using cached Cantonese names for improved performance...")
+    all_data = process_all_players(directory_path, cache_dir)
     
     # Filter to keep only players with Cantonese names
     print("Filtering players to keep only those with Cantonese names...")
@@ -1012,6 +1019,10 @@ if __name__ == "__main__":
     print(f"✓ Player names from WikiData: {cantonese_stats.get('cantonese_from_wikidata', 0)}")
     print(f"✓ Player names from ParaNames: {cantonese_stats.get('cantonese_from_paranames', 0)}")
     print(f"✓ Filtered data saved to: {output_file}")
+    
+    processing_time = time.time() - start_time
+    print(f"✓ Processing time: {processing_time:.2f} seconds")
+    
     print("\nFiltered dataset contains ONLY players with valid Cantonese names and can be used for:")
     print("  • Cantonese benchmark questions about player club careers")
     print("  • Cantonese benchmark questions about player national team careers")
@@ -1020,5 +1031,5 @@ if __name__ == "__main__":
     print("  • Bilingual player career timelines and transfers")
     print("  • Translation tasks between English and Cantonese player/team names")
     print("  • All questions will have guaranteed Cantonese name coverage")
-    print("  • Enhanced coverage from ParaNames dataset for additional team names")
+    print("  • Performance optimized with cached Cantonese names")
     print("  • Youth teams are completely filtered out from the dataset")

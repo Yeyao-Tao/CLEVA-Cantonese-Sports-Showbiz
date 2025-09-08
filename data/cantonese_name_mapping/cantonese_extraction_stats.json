@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "description": "Statistics about Cantonese name extraction from WikiData",
+    "extraction_date": "2025-09-08T21:47:14.534856"
+  },
+  "statistics": {
+    "total_players": 141,
+    "total_teams": 457,
+    "players_with_cantonese": 141,
+    "teams_with_cantonese": 234,
+    "players_cantonese_percentage": 100.0,
+    "teams_cantonese_percentage": 51.2,
+    "players_from_wikidata": 141,
+    "players_from_paranames": 0,
+    "teams_from_wikidata": 0,
+    "teams_from_paranames": 234
+  },
+  "processing_info": {
+    "timestamp": "2025-09-08T21:47:14.534856",
+    "directory_processed": "./data/intermediate/football_players_triples",
+    "paranames_file_used": "./data/raw/paranames.tsv",
+    "jsonld_files_processed": 141
+  }
+}

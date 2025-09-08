@@ -185,50 +185,75 @@ def generate_age_question(player_id: str, player_data: Dict[str, Any],
 
 
 def generate_youngest_oldest_question(all_data: Dict[str, Any], question_type: str) -> Dict[str, Any]:
-    """Generate questions about the youngest or oldest player."""
+    """Generate questions about the youngest or oldest player among a random sample."""
     
     players = all_data.get('players', {})
-    players_with_years = []
+    players_with_dates = []
     
     for player_id, player_data in players.items():
+        birth_date = player_data.get('birth_date')
         birth_year = player_data.get('birth_year')
-        if birth_year:
-            players_with_years.append((player_id, player_data, birth_year))
+        if birth_date or birth_year:  # Accept players with either birth_date or birth_year
+            players_with_dates.append((player_id, player_data))
     
-    if len(players_with_years) < 4:
+    if len(players_with_dates) < 4:
         return None
     
-    # Sort by birth year
+    # Randomly sample 4 players from all available players
+    sampled_players = random.sample(players_with_dates, 4)
+    
+    # Sort the sampled players by birth date (or birth year as fallback) to find youngest/oldest among them
+    def get_birth_sort_key(player_tuple):
+        player_id, player_data = player_tuple
+        birth_date = player_data.get('birth_date')
+        if birth_date:
+            # Parse birth_date string like "1994-05-27T00:00:00Z" to datetime for accurate sorting
+            try:
+                # Handle timezone-aware and timezone-naive datetime strings
+                if birth_date.endswith('Z'):
+                    return datetime.fromisoformat(birth_date.replace('Z', '+00:00')).replace(tzinfo=None)
+                else:
+                    return datetime.fromisoformat(birth_date).replace(tzinfo=None)
+            except (ValueError, AttributeError):
+                # Fallback to birth_year if birth_date parsing fails
+                birth_year = player_data.get('birth_year')
+                if birth_year:
+                    return datetime(birth_year, 1, 1)  # Use January 1st as default
+                return datetime(1900, 1, 1)  # Default very old date
+        else:
+            # Fallback to birth_year
+            birth_year = player_data.get('birth_year')
+            if birth_year:
+                return datetime(birth_year, 1, 1)  # Use January 1st as default
+            return datetime(1900, 1, 1)  # Default very old date
+    
     if question_type == 'youngest':
-        players_with_years.sort(key=lambda x: x[2], reverse=True)  # Most recent birth year
+        sampled_players.sort(key=get_birth_sort_key, reverse=True)  # Most recent birth date
         question_text = "Who is the youngest player among these options?"
         question_cantonese = "邊個係呢啲選擇入面最後生嘅球員？"
     else:  # oldest
-        players_with_years.sort(key=lambda x: x[2])  # Earliest birth year
+        sampled_players.sort(key=get_birth_sort_key)  # Earliest birth date
         question_text = "Who is the oldest player among these options?"
         question_cantonese = "邊個係呢啲選擇入面最年長嘅球員？"
     
-    # Get the correct answer (youngest/oldest)
-    correct_player_id, correct_player_data, correct_birth_year = players_with_years[0]
+    # Get the correct answer (youngest/oldest among the 4 sampled players)
+    correct_player_id, correct_player_data = sampled_players[0]
     correct_player_names = correct_player_data.get('player_names', {})
     correct_name = correct_player_names.get('english', 'Unknown Player')
     correct_cantonese_name = correct_player_names.get('cantonese_best', correct_name)
+    correct_birth_year = correct_player_data.get('birth_year')
     
-    # Get distractors from different birth years
+    # Get distractors from the other 3 sampled players
     distractors = []
-    for player_id, player_data, birth_year in players_with_years[1:]:
-        if len(distractors) >= 3:
-            break
+    for player_id, player_data in sampled_players[1:]:
         player_names = player_data.get('player_names', {})
         name = player_names.get('english', 'Unknown Player')
         cantonese_name = player_names.get('cantonese_best', name)
+        birth_year = player_data.get('birth_year')
         distractors.append((name, cantonese_name, birth_year))
     
-    if len(distractors) < 3:
-        return None
-    
-    # Create answer choices
-    all_choices = [(correct_name, correct_cantonese_name, correct_birth_year)] + distractors[:3]
+    # Create answer choices from all 4 sampled players
+    all_choices = [(correct_name, correct_cantonese_name, correct_birth_year)] + distractors
     random.shuffle(all_choices)
     
     # Find the correct answer index
@@ -253,7 +278,8 @@ def generate_youngest_oldest_question(all_data: Dict[str, Any], question_type: s
         'correct_answer': correct_letter,
         'correct_birth_info': {
             'birth_year': correct_birth_year,
-            'age_in_2025': 2025 - correct_birth_year
+            'birth_date': correct_player_data.get('birth_date', ''),
+            'age_in_2025': 2025 - correct_birth_year if correct_birth_year else None
         },
         'player_info': {
             'name': correct_name,
@@ -268,8 +294,7 @@ def generate_youngest_oldest_question(all_data: Dict[str, Any], question_type: s
     return question_data
 
 
-def generate_multiple_questions(all_data: Dict[str, Any], 
-                              num_questions_per_type: int = 25) -> List[Dict[str, Any]]:
+def generate_multiple_questions(all_data: Dict[str, Any]) -> List[Dict[str, Any]]:
     """Generate multiple birth year related questions."""
     
     players = all_data.get('players', {})
@@ -289,25 +314,20 @@ def generate_multiple_questions(all_data: Dict[str, Any],
     age_questions = 0
     
     for player_id, player_data in player_list:
-        if birth_year_questions < num_questions_per_type:
-            question = generate_birth_year_question(player_id, player_data, year_distribution)
-            if question:
-                questions.append(question)
-                birth_year_questions += 1
+        question = generate_birth_year_question(player_id, player_data, year_distribution)
+        if question:
+            questions.append(question)
+            birth_year_questions += 1
         
-        if age_questions < num_questions_per_type:
-            question = generate_age_question(player_id, player_data, year_distribution)
-            if question:
-                questions.append(question)
-                age_questions += 1
-        
-        if birth_year_questions >= num_questions_per_type and age_questions >= num_questions_per_type:
-            break
+        question = generate_age_question(player_id, player_data, year_distribution)
+        if question:
+            questions.append(question)
+            age_questions += 1
     
     # Generate youngest/oldest questions
     print("Generating youngest/oldest player questions...")
     for question_type in ['youngest', 'oldest']:
-        for _ in range(min(5, num_questions_per_type // 5)):  # Generate a few of these
+        for _ in range(100):  # Generate a few of these
             question = generate_youngest_oldest_question(all_data, question_type)
             if question:
                 questions.append(question)
@@ -368,7 +388,7 @@ if __name__ == "__main__":
     
     # Generate questions
     print("Generating birth year and age questions...")
-    questions = generate_multiple_questions(all_data, num_questions_per_type=25)
+    questions = generate_multiple_questions(all_data)
     
     print(f"Generated {len(questions)} questions")
     
@@ -378,22 +398,40 @@ if __name__ == "__main__":
     
     print(f"Questions saved to {output_file}")
     
-    # Display first 5 questions as examples
+    # Display 5 questions for each type as examples
     print("\n" + "="*80)
-    print("SAMPLE QUESTIONS")
+    print("SAMPLE QUESTIONS (5 per type)")
     print("="*80)
     
-    for i, question in enumerate(questions[:5], 1):
-        print(f"\nQuestion {i} ({question['question_type']}):")
-        print(format_question_for_display(question))
-        print(f"Correct Answer: {question['correct_answer']}")
-        
-        if 'player_info' in question:
-            print(f"Player: {question['player_info']['name']} / {question['player_info']['name_cantonese']}")
-        
-        if 'correct_birth_info' in question:
-            birth_info = question['correct_birth_info']
-            print(f"Birth Year: {birth_info.get('birth_year', 'N/A')}, Age in 2025: {birth_info.get('age_in_2025', 'N/A')}")
+    # Group questions by type
+    questions_by_type = {}
+    for question in questions:
+        q_type = question['question_type']
+        if q_type not in questions_by_type:
+            questions_by_type[q_type] = []
+        questions_by_type[q_type].append(question)
+    
+    # Display 5 questions for each type
+    question_counter = 1
+    for q_type in ['player_birth_year', 'player_current_age', 'player_youngest', 'player_oldest']:
+        if q_type in questions_by_type:
+            print(f"\n{'-'*40}")
+            print(f"{q_type.replace('_', ' ').title()} Questions:")
+            print(f"{'-'*40}")
+            
+            for i, question in enumerate(questions_by_type[q_type][:5], 1):
+                print(f"\nQuestion {question_counter} ({question['question_type']}):")
+                print(format_question_for_display(question))
+                print(f"Correct Answer: {question['correct_answer']}")
+                
+                if 'player_info' in question:
+                    print(f"Player: {question['player_info']['name']} / {question['player_info']['name_cantonese']}")
+                
+                if 'correct_birth_info' in question:
+                    birth_info = question['correct_birth_info']
+                    print(f"Birth Year: {birth_info.get('birth_year', 'N/A')}, Age in 2025: {birth_info.get('age_in_2025', 'N/A')}")
+                
+                question_counter += 1
     
     print(f"\n✓ All {len(questions)} questions saved to {output_file}")
     print("✓ Ready for Cantonese benchmark construction!")

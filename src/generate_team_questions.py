@@ -18,6 +18,23 @@ def load_player_data(file_path: str) -> Dict[str, Any]:
         return json.load(f)
 
 
+def get_national_teams_only(player_data: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """Get only senior national teams for a player, excluding youth teams."""
+    national_teams = []
+    for team in player_data.get('national_teams', []):
+        description = team.get('description', '').lower()
+        name = team.get('name', '').lower()
+        
+        # Skip youth teams
+        is_youth = any(keyword in description for keyword in ['under-', 'youth', 'u-']) or \
+                   any(keyword in name for keyword in ['under-', 'youth', 'u-'])
+        
+        if not is_youth:
+            national_teams.append(team)
+            
+    return national_teams
+
+
 def get_football_clubs_only(player_data: Dict[str, Any]) -> List[Dict[str, Any]]:
     """Get only football clubs (excluding national teams) for a player."""
     clubs = []
@@ -34,6 +51,34 @@ def get_football_clubs_only(player_data: Dict[str, Any]) -> List[Dict[str, Any]]
         clubs.append(club)
     
     return clubs
+
+
+def get_popular_national_teams(all_data: Dict[str, Any], min_players: int) -> List[Dict[str, Any]]:
+    """Get national teams that have had multiple players (good for distractors)."""
+    national_teams = all_data.get('all_national_teams', {})
+    team_to_players = all_data.get('national_team_to_players_mapping', {})
+    popular_teams = []
+    
+    for team_id, players_list in team_to_players.items():
+        if len(players_list) >= min_players:
+            team = national_teams[team_id]
+            team_name = team['club_names']['english']
+
+            # Filter out youth teams
+            if any(keyword in team_name.lower() for keyword in ['under-', 'youth', 'u-']):
+                continue
+
+            # Filter for teams that have Cantonese names
+            if team['has_cantonese']:
+                popular_teams.append({
+                    'id': team_id,
+                    'name': team_name,
+                    'name_cantonese': team['club_names']['cantonese_best'],
+                    'player_count': len(players_list)
+                })
+
+    return popular_teams
+
 
 
 def get_popular_clubs(all_data: Dict[str, Any], min_players: int) -> List[Dict[str, Any]]:
@@ -90,7 +135,8 @@ def get_longest_tenure_club(player_clubs: List[Dict[str, Any]]) -> Dict[str, Any
 
 
 def generate_team_question(player_id: str, player_data: Dict[str, Any], 
-                          popular_clubs: List[Dict[str, Any]], all_data: Dict[str, Any]) -> Dict[str, Any]:
+                          popular_teams: List[Dict[str, Any]], all_data: Dict[str, Any],
+                          team_type: str) -> Dict[str, Any]:
     """Generate a multiple-choice question about which team a player has played for."""
     
     # Get player names from player_names structure
@@ -98,37 +144,42 @@ def generate_team_question(player_id: str, player_data: Dict[str, Any],
     player_name = player_names.get('english', 'Unknown Player')
     cantonese_name = player_names.get('cantonese_best', player_name)
     
-    player_clubs = get_football_clubs_only(player_data)
-    
-    if not player_clubs:
+    if team_type == 'club':
+        player_teams = get_football_clubs_only(player_data)
+    elif team_type == 'national':
+        player_teams = get_national_teams_only(player_data)
+    else:
+        return None
+
+    if not player_teams:
         return None
     
-    # Choose the club where the player had the longest tenure
-    correct_club = get_longest_tenure_club(player_clubs)
-    if not correct_club:
+    # Choose the team where the player had the longest tenure
+    correct_team = get_longest_tenure_club(player_teams)
+    if not correct_team:
         return None
         
-    correct_answer = correct_club['name']
-    correct_answer_cantonese = correct_club.get('cantonese_name', correct_answer)
-    tenure_years = calculate_club_tenure(correct_club)
+    correct_answer = correct_team['name']
+    correct_answer_cantonese = correct_team.get('cantonese_name', correct_answer)
+    tenure_years = calculate_club_tenure(correct_team)
     
-    # Generate 3 incorrect options from popular clubs
-    player_club_ids = {club['club_id'] for club in player_clubs}
+    # Generate 3 incorrect options from popular teams
+    player_team_ids = {team['club_id'] for team in player_teams}
     available_distractors = [
-        club for club in popular_clubs 
-        if club['id'] not in player_club_ids and club['name'] != correct_answer
+        team for team in popular_teams 
+        if team['id'] not in player_team_ids and team['name'] != correct_answer
     ]
     
     if len(available_distractors) < 3:
         return None  # Not enough distractors available
     
     distractors = random.sample(available_distractors, 3)
-    distractor_names = [club['name'] for club in distractors]
+    distractor_names = [team['name'] for team in distractors]
     
     # Get Cantonese names for distractors (need to look them up from the data)
     distractor_names_cantonese = []
     for distractor in distractors:
-        # Find the Cantonese name for this club from any player's data
+        # Find the Cantonese name for this team from any player's data
         cantonese_distractor_name = distractor['name_cantonese']
         distractor_names_cantonese.append(cantonese_distractor_name)
     
@@ -149,9 +200,15 @@ def generate_team_question(player_id: str, player_data: Dict[str, Any],
     correct_index = choices.index(correct_answer)
     correct_letter = ['A', 'B', 'C', 'D'][correct_index]
     
+    question_text = f"Which team has {player_name} played for?"
+    question_text_cantonese = f"{cantonese_name}曾經效力過邊隊？"
+    if team_type == 'national':
+        question_text = f"Which national team has {player_name} represented?"
+        question_text_cantonese = f"{cantonese_name}曾經代表過邊隊國家隊？"
+
     question_data = {
-        'question': f"Which team has {player_name} played for?",
-        'question_cantonese': f"{cantonese_name}曾經效力過邊隊？",
+        'question': question_text,
+        'question_cantonese': question_text_cantonese,
         'choices': {
             'A': choices[0],
             'B': choices[1], 
@@ -168,30 +225,29 @@ def generate_team_question(player_id: str, player_data: Dict[str, Any],
         'correct_club_info': {
             'name': correct_answer,
             'name_cantonese': correct_answer_cantonese,
-            'id': correct_club['club_id'],
-            'start_year': correct_club.get('start_year'),
-            'end_year': correct_club.get('end_year'),
+            'id': correct_team['club_id'],
+            'start_year': correct_team.get('start_year'),
+            'end_year': correct_team.get('end_year'),
             'tenure_years': tenure_years,
-            'is_current': correct_club.get('is_current', False),
+            'is_current': correct_team.get('is_current', False),
             'selection_reason': 'longest_tenure'
         },
         'player_info': {
             'name': player_name,
             'name_cantonese': cantonese_name,
             'id': player_id,
-            'total_clubs': len(player_clubs)
+            'total_clubs': len(player_teams)
         },
         'distractors': distractor_names,
         'distractors_cantonese': distractor_names_cantonese,
-        'question_type': 'player_team_affiliation'
+        'question_type': f'player_{team_type}_affiliation'
     }
     
     return question_data
 
 
-def generate_multiple_questions(all_data: Dict[str, Any], 
-                              num_questions: int = 50) -> List[Dict[str, Any]]:
-    """Generate multiple team affiliation questions."""
+def generate_multiple_club_questions(all_data: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """Generate multiple team affiliation questions for clubs."""
     
     players = all_data.get('players', {})
     popular_clubs = get_popular_clubs(all_data, min_players=5)
@@ -209,11 +265,41 @@ def generate_multiple_questions(all_data: Dict[str, Any],
         if len(football_clubs) >= 1 and player_name:
             eligible_players.append((player_id, player_data))
     
-    print(f"Found {len(eligible_players)} eligible players")
+    print(f"Found {len(eligible_players)} eligible players for club questions")
 
     for player in eligible_players:
         player_id, player_data = player
-        question = generate_team_question(player_id, player_data, popular_clubs, all_data)
+        question = generate_team_question(player_id, player_data, popular_clubs, all_data, 'club')
+        if question:
+            questions.append(question)
+
+    return questions
+
+
+def generate_multiple_national_team_questions(all_data: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """Generate multiple team affiliation questions for national teams."""
+    
+    players = all_data.get('players', {})
+    popular_teams = get_popular_national_teams(all_data, min_players=2)
+    
+    print(f"Found {len(popular_teams)} popular national teams for distractors")
+    
+    questions = []
+    
+    # Get players with national team experience
+    eligible_players = []
+    for player_id, player_data in players.items():
+        national_teams = get_national_teams_only(player_data)
+        player_names = player_data.get('player_names', {})
+        player_name = player_names.get('english')
+        if len(national_teams) >= 1 and player_name:
+            eligible_players.append((player_id, player_data))
+            
+    print(f"Found {len(eligible_players)} eligible players for national team questions")
+
+    for player in eligible_players:
+        player_id, player_data = player
+        question = generate_team_question(player_id, player_data, popular_teams, all_data, 'national')
         if question:
             questions.append(question)
 
@@ -266,10 +352,18 @@ if __name__ == "__main__":
     print(f"Loaded data for {len(all_data['players'])} players")
     
     # Generate questions
-    print("Generating team affiliation questions...")
-    questions = generate_multiple_questions(all_data, num_questions=50)
+    print("\nGenerating club affiliation questions...")
+    club_questions = generate_multiple_club_questions(all_data)
+    print(f"Generated {len(club_questions)} club questions")
+
+    print("\nGenerating national team affiliation questions...")
+    national_team_questions = generate_multiple_national_team_questions(all_data)
+    print(f"Generated {len(national_team_questions)} national team questions")
     
-    print(f"Generated {len(questions)} questions")
+    questions = club_questions + national_team_questions
+    random.shuffle(questions)
+    
+    print(f"\nTotal questions generated: {len(questions)}")
     
     # Save to file
     output_file = "./data/output/team_affiliation_questions.json"
@@ -286,14 +380,18 @@ if __name__ == "__main__":
         print(f"\nQuestion {i}:")
         print(format_question_for_display(question))
         print(f"Correct Answer: {question['correct_answer']}")
-        print(f"Player: {question['player_info']['name']} / {question['player_info']['name_cantonese']} ({question['player_info']['total_clubs']} clubs)")
-        print(f"Correct Club: {question['correct_club_info']['name']} / {question['correct_club_info']['name_cantonese']} ({question['correct_club_info']['tenure_years']} years)")
-        if question['correct_club_info']['is_current']:
-            print("  → Current club (longest tenure)")
+        player_info = question['player_info']
+        club_info = question['correct_club_info']
+        team_type = 'club' if question['question_type'] == 'player_club_affiliation' else 'national team'
+        
+        print(f"Player: {player_info['name']} / {player_info['name_cantonese']} ({player_info['total_clubs']} {team_type}s)")
+        print(f"Correct Club: {club_info['name']} / {club_info['name_cantonese']} ({club_info['tenure_years']} years)")
+        if club_info['is_current']:
+            print("  → Current team (longest tenure)")
         else:
-            start = question['correct_club_info']['start_year'] or "?"
-            end = question['correct_club_info']['end_year'] or "?"
-            print(f"  → Former club ({start}-{end}, longest tenure)")
+            start = club_info['start_year'] or "?"
+            end = club_info['end_year'] or "?"
+            print(f"  → Former team ({start}-{end}, longest tenure)")
     
     print(f"\n✓ All {len(questions)} questions saved to {output_file}")
     print("✓ Ready for Cantonese benchmark construction!")

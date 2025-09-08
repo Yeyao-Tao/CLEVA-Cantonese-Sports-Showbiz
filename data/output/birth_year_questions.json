@@ -19,563 +19,101 @@
       "Cantonese"
     ],
     "total_questions": 60,
-    "generation_date": "2025-09-08T22:01:16.584624",
+    "generation_date": "2025-09-08T22:26:00.743870",
     "format": "Four choices (A, B, C, D) with one correct answer in both languages"
   },
   "questions": [
     {
-      "question": "What year was Marco Verratti, the soccer player, born?",
-      "question_cantonese": "足球員華拉堤係邊年出世？",
+      "question": "What year was Kylian Mbappé, the soccer player, born?",
+      "question_cantonese": "足球員麥巴比係邊年出世？",
       "choices": {
-        "A": "1993",
-        "B": "1992",
-        "C": "1991",
-        "D": "1994"
-      },
-      "choices_cantonese": {
-        "A": "1993年",
-        "B": "1992年",
-        "C": "1991年",
-        "D": "1994年"
-      },
-      "correct_answer": "B",
-      "correct_birth_info": {
-        "birth_year": 1992,
-        "birth_date": "1992-11-05T00:00:00Z",
-        "age_in_2025": 33
-      },
-      "player_info": {
-        "name": "Marco Verratti",
-        "name_cantonese": "華拉堤",
-        "id": "Q337623"
-      },
-      "distractors": [
-        "1991",
-        "1993",
-        "1994"
-      ],
-      "question_type": "player_birth_year"
-    },
-    {
-      "question": "How old is Marco Verratti, the soccer player, in 2025?",
-      "question_cantonese": "足球員華拉堤喺2025年幾多歲？",
-      "choices": {
-        "A": "33",
-        "B": "34",
-        "C": "35",
-        "D": "32"
-      },
-      "choices_cantonese": {
-        "A": "33歲",
-        "B": "34歲",
-        "C": "35歲",
-        "D": "32歲"
-      },
-      "correct_answer": "A",
-      "correct_birth_info": {
-        "birth_year": 1992,
-        "birth_date": "1992-11-05T00:00:00Z",
-        "age_in_2025": 33
-      },
-      "player_info": {
-        "name": "Marco Verratti",
-        "name_cantonese": "華拉堤",
-        "id": "Q337623"
-      },
-      "distractors": [
-        "34",
-        "32",
-        "35"
-      ],
-      "question_type": "player_current_age"
-    },
-    {
-      "question": "What year was Fabinho, the soccer player, born?",
-      "question_cantonese": "足球員法賓奴係邊年出世？",
-      "choices": {
-        "A": "1993",
-        "B": "1991",
-        "C": "1994",
-        "D": "1992"
-      },
-      "choices_cantonese": {
-        "A": "1993年",
-        "B": "1991年",
-        "C": "1994年",
-        "D": "1992年"
-      },
-      "correct_answer": "A",
-      "correct_birth_info": {
-        "birth_year": 1993,
-        "birth_date": "1993-10-23T00:00:00Z",
-        "age_in_2025": 32
-      },
-      "player_info": {
-        "name": "Fabinho",
-        "name_cantonese": "法賓奴",
-        "id": "Q641425"
-      },
-      "distractors": [
-        "1992",
-        "1994",
-        "1991"
-      ],
-      "question_type": "player_birth_year"
-    },
-    {
-      "question": "How old is Fabinho, the soccer player, in 2025?",
-      "question_cantonese": "足球員法賓奴喺2025年幾多歲？",
-      "choices": {
-        "A": "33",
-        "B": "32",
-        "C": "34",
-        "D": "31"
-      },
-      "choices_cantonese": {
-        "A": "33歲",
-        "B": "32歲",
-        "C": "34歲",
-        "D": "31歲"
-      },
-      "correct_answer": "B",
-      "correct_birth_info": {
-        "birth_year": 1993,
-        "birth_date": "1993-10-23T00:00:00Z",
-        "age_in_2025": 32
-      },
-      "player_info": {
-        "name": "Fabinho",
-        "name_cantonese": "法賓奴",
-        "id": "Q641425"
-      },
-      "distractors": [
-        "33",
-        "31",
-        "34"
-      ],
-      "question_type": "player_current_age"
-    },
-    {
-      "question": "What year was Cesc Fàbregas, the soccer player, born?",
-      "question_cantonese": "足球員法比加斯係邊年出世？",
-      "choices": {
-        "A": "1987",
-        "B": "1986",
-        "C": "1988",
-        "D": "1989"
-      },
-      "choices_cantonese": {
-        "A": "1987年",
-        "B": "1986年",
-        "C": "1988年",
-        "D": "1989年"
-      },
-      "correct_answer": "A",
-      "correct_birth_info": {
-        "birth_year": 1987,
-        "birth_date": "1987-05-04T00:00:00Z",
-        "age_in_2025": 38
-      },
-      "player_info": {
-        "name": "Cesc Fàbregas",
-        "name_cantonese": "法比加斯",
-        "id": "Q17499"
-      },
-      "distractors": [
-        "1988",
-        "1986",
-        "1989"
-      ],
-      "question_type": "player_birth_year"
-    },
-    {
-      "question": "How old is Cesc Fàbregas, the soccer player, in 2025?",
-      "question_cantonese": "足球員法比加斯喺2025年幾多歲？",
-      "choices": {
-        "A": "38",
-        "B": "39",
-        "C": "40",
-        "D": "37"
-      },
-      "choices_cantonese": {
-        "A": "38歲",
-        "B": "39歲",
-        "C": "40歲",
-        "D": "37歲"
-      },
-      "correct_answer": "A",
-      "correct_birth_info": {
-        "birth_year": 1987,
-        "birth_date": "1987-05-04T00:00:00Z",
-        "age_in_2025": 38
-      },
-      "player_info": {
-        "name": "Cesc Fàbregas",
-        "name_cantonese": "法比加斯",
-        "id": "Q17499"
-      },
-      "distractors": [
-        "39",
-        "37",
-        "40"
-      ],
-      "question_type": "player_current_age"
-    },
-    {
-      "question": "What year was Javi Martínez, the soccer player, born?",
-      "question_cantonese": "足球員查維·馬天尼斯係邊年出世？",
-      "choices": {
-        "A": "1989",
-        "B": "1986",
-        "C": "1987",
-        "D": "1988"
-      },
-      "choices_cantonese": {
-        "A": "1989年",
-        "B": "1986年",
-        "C": "1987年",
-        "D": "1988年"
-      },
-      "correct_answer": "D",
-      "correct_birth_info": {
-        "birth_year": 1988,
-        "birth_date": "1988-09-02T00:00:00Z",
-        "age_in_2025": 37
-      },
-      "player_info": {
-        "name": "Javi Martínez",
-        "name_cantonese": "查維·馬天尼斯",
-        "id": "Q201752"
-      },
-      "distractors": [
-        "1987",
-        "1989",
-        "1986"
-      ],
-      "question_type": "player_birth_year"
-    },
-    {
-      "question": "How old is Javi Martínez, the soccer player, in 2025?",
-      "question_cantonese": "足球員查維·馬天尼斯喺2025年幾多歲？",
-      "choices": {
-        "A": "39",
-        "B": "38",
-        "C": "37",
-        "D": "36"
-      },
-      "choices_cantonese": {
-        "A": "39歲",
-        "B": "38歲",
-        "C": "37歲",
-        "D": "36歲"
-      },
-      "correct_answer": "C",
-      "correct_birth_info": {
-        "birth_year": 1988,
-        "birth_date": "1988-09-02T00:00:00Z",
-        "age_in_2025": 37
-      },
-      "player_info": {
-        "name": "Javi Martínez",
-        "name_cantonese": "查維·馬天尼斯",
-        "id": "Q201752"
-      },
-      "distractors": [
-        "38",
-        "36",
-        "39"
-      ],
-      "question_type": "player_current_age"
-    },
-    {
-      "question": "What year was Alexandre Lacazette, the soccer player, born?",
-      "question_cantonese": "足球員拿卡錫迪係邊年出世？",
-      "choices": {
-        "A": "1992",
-        "B": "1993",
-        "C": "1991",
-        "D": "1990"
-      },
-      "choices_cantonese": {
-        "A": "1992年",
-        "B": "1993年",
-        "C": "1991年",
-        "D": "1990年"
-      },
-      "correct_answer": "C",
-      "correct_birth_info": {
-        "birth_year": 1991,
-        "birth_date": "1991-05-28T00:00:00Z",
-        "age_in_2025": 34
-      },
-      "player_info": {
-        "name": "Alexandre Lacazette",
-        "name_cantonese": "拿卡錫迪",
-        "id": "Q13306"
-      },
-      "distractors": [
-        "1992",
-        "1990",
-        "1993"
-      ],
-      "question_type": "player_birth_year"
-    },
-    {
-      "question": "How old is Alexandre Lacazette, the soccer player, in 2025?",
-      "question_cantonese": "足球員拿卡錫迪喺2025年幾多歲？",
-      "choices": {
-        "A": "34",
-        "B": "36",
-        "C": "33",
-        "D": "35"
-      },
-      "choices_cantonese": {
-        "A": "34歲",
-        "B": "36歲",
-        "C": "33歲",
-        "D": "35歲"
-      },
-      "correct_answer": "A",
-      "correct_birth_info": {
-        "birth_year": 1991,
-        "birth_date": "1991-05-28T00:00:00Z",
-        "age_in_2025": 34
-      },
-      "player_info": {
-        "name": "Alexandre Lacazette",
-        "name_cantonese": "拿卡錫迪",
-        "id": "Q13306"
-      },
-      "distractors": [
-        "35",
-        "33",
-        "36"
-      ],
-      "question_type": "player_current_age"
-    },
-    {
-      "question": "What year was Ederson Moraes, the soccer player, born?",
-      "question_cantonese": "足球員艾達臣·摩拉斯係邊年出世？",
-      "choices": {
-        "A": "1994",
-        "B": "1991",
-        "C": "1992",
-        "D": "1993"
-      },
-      "choices_cantonese": {
-        "A": "1994年",
-        "B": "1991年",
-        "C": "1992年",
-        "D": "1993年"
-      },
-      "correct_answer": "D",
-      "correct_birth_info": {
-        "birth_year": 1993,
-        "birth_date": "1993-08-17T00:00:00Z",
-        "age_in_2025": 32
-      },
-      "player_info": {
-        "name": "Ederson Moraes",
-        "name_cantonese": "艾達臣·摩拉斯",
-        "id": "Q17074511"
-      },
-      "distractors": [
-        "1992",
-        "1994",
-        "1991"
-      ],
-      "question_type": "player_birth_year"
-    },
-    {
-      "question": "How old is Ederson Moraes, the soccer player, in 2025?",
-      "question_cantonese": "足球員艾達臣·摩拉斯喺2025年幾多歲？",
-      "choices": {
-        "A": "31",
-        "B": "34",
-        "C": "33",
-        "D": "32"
-      },
-      "choices_cantonese": {
-        "A": "31歲",
-        "B": "34歲",
-        "C": "33歲",
-        "D": "32歲"
-      },
-      "correct_answer": "D",
-      "correct_birth_info": {
-        "birth_year": 1993,
-        "birth_date": "1993-08-17T00:00:00Z",
-        "age_in_2025": 32
-      },
-      "player_info": {
-        "name": "Ederson Moraes",
-        "name_cantonese": "艾達臣·摩拉斯",
-        "id": "Q17074511"
-      },
-      "distractors": [
-        "33",
-        "31",
-        "34"
-      ],
-      "question_type": "player_current_age"
-    },
-    {
-      "question": "What year was Gianluigi Donnarumma, the soccer player, born?",
-      "question_cantonese": "足球員基安盧基·當拿隆馬係邊年出世？",
-      "choices": {
-        "A": "2000",
+        "A": "1996",
         "B": "1998",
-        "C": "1999",
-        "D": "1997"
+        "C": "1997",
+        "D": "1999"
       },
       "choices_cantonese": {
-        "A": "2000年",
+        "A": "1996年",
         "B": "1998年",
-        "C": "1999年",
-        "D": "1997年"
+        "C": "1997年",
+        "D": "1999年"
       },
-      "correct_answer": "C",
+      "correct_answer": "B",
       "correct_birth_info": {
-        "birth_year": 1999,
-        "birth_date": "1999-02-25T00:00:00Z",
-        "age_in_2025": 26
+        "birth_year": 1998,
+        "birth_date": "1998-12-20T00:00:00Z",
+        "age_in_2025": 27
       },
       "player_info": {
-        "name": "Gianluigi Donnarumma",
-        "name_cantonese": "基安盧基·當拿隆馬",
-        "id": "Q20830808"
+        "name": "Kylian Mbappé",
+        "name_cantonese": "麥巴比",
+        "id": "Q21621995"
       },
       "distractors": [
-        "1998",
-        "2000",
-        "1997"
+        "1999",
+        "1997",
+        "1996"
       ],
       "question_type": "player_birth_year"
     },
     {
-      "question": "How old is Gianluigi Donnarumma, the soccer player, in 2025?",
-      "question_cantonese": "足球員基安盧基·當拿隆馬喺2025年幾多歲？",
+      "question": "How old is Kylian Mbappé, the soccer player, in 2025?",
+      "question_cantonese": "足球員麥巴比喺2025年幾多歲？",
       "choices": {
-        "A": "28",
-        "B": "26",
-        "C": "25",
-        "D": "27"
+        "A": "26",
+        "B": "27",
+        "C": "28",
+        "D": "29"
       },
       "choices_cantonese": {
-        "A": "28歲",
-        "B": "26歲",
-        "C": "25歲",
-        "D": "27歲"
+        "A": "26歲",
+        "B": "27歲",
+        "C": "28歲",
+        "D": "29歲"
       },
       "correct_answer": "B",
       "correct_birth_info": {
-        "birth_year": 1999,
-        "birth_date": "1999-02-25T00:00:00Z",
-        "age_in_2025": 26
+        "birth_year": 1998,
+        "birth_date": "1998-12-20T00:00:00Z",
+        "age_in_2025": 27
       },
       "player_info": {
-        "name": "Gianluigi Donnarumma",
-        "name_cantonese": "基安盧基·當拿隆馬",
-        "id": "Q20830808"
+        "name": "Kylian Mbappé",
+        "name_cantonese": "麥巴比",
+        "id": "Q21621995"
       },
       "distractors": [
-        "27",
-        "25",
-        "28"
+        "28",
+        "26",
+        "29"
       ],
       "question_type": "player_current_age"
     },
     {
-      "question": "What year was David Luiz, the soccer player, born?",
-      "question_cantonese": "足球員大衛雷斯係邊年出世？",
-      "choices": {
-        "A": "1986",
-        "B": "1989",
-        "C": "1988",
-        "D": "1987"
-      },
-      "choices_cantonese": {
-        "A": "1986年",
-        "B": "1989年",
-        "C": "1988年",
-        "D": "1987年"
-      },
-      "correct_answer": "D",
-      "correct_birth_info": {
-        "birth_year": 1987,
-        "birth_date": "1987-04-22T00:00:00Z",
-        "age_in_2025": 38
-      },
-      "player_info": {
-        "name": "David Luiz",
-        "name_cantonese": "大衛雷斯",
-        "id": "Q193706"
-      },
-      "distractors": [
-        "1988",
-        "1986",
-        "1989"
-      ],
-      "question_type": "player_birth_year"
-    },
-    {
-      "question": "How old is David Luiz, the soccer player, in 2025?",
-      "question_cantonese": "足球員大衛雷斯喺2025年幾多歲？",
-      "choices": {
-        "A": "37",
-        "B": "38",
-        "C": "40",
-        "D": "39"
-      },
-      "choices_cantonese": {
-        "A": "37歲",
-        "B": "38歲",
-        "C": "40歲",
-        "D": "39歲"
-      },
-      "correct_answer": "B",
-      "correct_birth_info": {
-        "birth_year": 1987,
-        "birth_date": "1987-04-22T00:00:00Z",
-        "age_in_2025": 38
-      },
-      "player_info": {
-        "name": "David Luiz",
-        "name_cantonese": "大衛雷斯",
-        "id": "Q193706"
-      },
-      "distractors": [
-        "39",
-        "37",
-        "40"
-      ],
-      "question_type": "player_current_age"
-    },
-    {
-      "question": "What year was Robert Lewandowski, the soccer player, born?",
-      "question_cantonese": "足球員利雲度夫斯基係邊年出世？",
+      "question": "What year was Ivan Rakitić, the soccer player, born?",
+      "question_cantonese": "足球員伊凡·拉傑迪係邊年出世？",
       "choices": {
         "A": "1988",
-        "B": "1987",
-        "C": "1986",
+        "B": "1986",
+        "C": "1987",
         "D": "1989"
       },
       "choices_cantonese": {
         "A": "1988年",
-        "B": "1987年",
-        "C": "1986年",
+        "B": "1986年",
+        "C": "1987年",
         "D": "1989年"
       },
       "correct_answer": "A",
       "correct_birth_info": {
         "birth_year": 1988,
-        "birth_date": "1988-08-21T00:00:00Z",
+        "birth_date": "1988-03-10T00:00:00Z",
         "age_in_2025": 37
       },
       "player_info": {
-        "name": "Robert Lewandowski",
-        "name_cantonese": "利雲度夫斯基",
-        "id": "Q151269"
+        "name": "Ivan Rakitić",
+        "name_cantonese": "伊凡·拉傑迪",
+        "id": "Q115453"
       },
       "distractors": [
         "1987",
@@ -585,8 +123,8 @@
       "question_type": "player_birth_year"
     },
     {
-      "question": "How old is Robert Lewandowski, the soccer player, in 2025?",
-      "question_cantonese": "足球員利雲度夫斯基喺2025年幾多歲？",
+      "question": "How old is Ivan Rakitić, the soccer player, in 2025?",
+      "question_cantonese": "足球員伊凡·拉傑迪喺2025年幾多歲？",
       "choices": {
         "A": "39",
         "B": "38",
@@ -602,678 +140,18 @@
       "correct_answer": "D",
       "correct_birth_info": {
         "birth_year": 1988,
-        "birth_date": "1988-08-21T00:00:00Z",
+        "birth_date": "1988-03-10T00:00:00Z",
         "age_in_2025": 37
       },
       "player_info": {
-        "name": "Robert Lewandowski",
-        "name_cantonese": "利雲度夫斯基",
-        "id": "Q151269"
+        "name": "Ivan Rakitić",
+        "name_cantonese": "伊凡·拉傑迪",
+        "id": "Q115453"
       },
       "distractors": [
         "38",
         "36",
         "39"
-      ],
-      "question_type": "player_current_age"
-    },
-    {
-      "question": "What year was Vinícius Júnior, the soccer player, born?",
-      "question_cantonese": "足球員雲尼斯奧斯·祖利亞係邊年出世？",
-      "choices": {
-        "A": "1998",
-        "B": "1999",
-        "C": "2001",
-        "D": "2000"
-      },
-      "choices_cantonese": {
-        "A": "1998年",
-        "B": "1999年",
-        "C": "2001年",
-        "D": "2000年"
-      },
-      "correct_answer": "D",
-      "correct_birth_info": {
-        "birth_year": 2000,
-        "birth_date": "2000-07-12T00:00:00Z",
-        "age_in_2025": 25
-      },
-      "player_info": {
-        "name": "Vinícius Júnior",
-        "name_cantonese": "雲尼斯奧斯·祖利亞",
-        "id": "Q28973866"
-      },
-      "distractors": [
-        "1999",
-        "2001",
-        "1998"
-      ],
-      "question_type": "player_birth_year"
-    },
-    {
-      "question": "How old is Vinícius Júnior, the soccer player, in 2025?",
-      "question_cantonese": "足球員雲尼斯奧斯·祖利亞喺2025年幾多歲？",
-      "choices": {
-        "A": "25",
-        "B": "24",
-        "C": "27",
-        "D": "26"
-      },
-      "choices_cantonese": {
-        "A": "25歲",
-        "B": "24歲",
-        "C": "27歲",
-        "D": "26歲"
-      },
-      "correct_answer": "A",
-      "correct_birth_info": {
-        "birth_year": 2000,
-        "birth_date": "2000-07-12T00:00:00Z",
-        "age_in_2025": 25
-      },
-      "player_info": {
-        "name": "Vinícius Júnior",
-        "name_cantonese": "雲尼斯奧斯·祖利亞",
-        "id": "Q28973866"
-      },
-      "distractors": [
-        "26",
-        "24",
-        "27"
-      ],
-      "question_type": "player_current_age"
-    },
-    {
-      "question": "What year was Bernd Leno, the soccer player, born?",
-      "question_cantonese": "足球員蘭奴係邊年出世？",
-      "choices": {
-        "A": "1994",
-        "B": "1993",
-        "C": "1991",
-        "D": "1992"
-      },
-      "choices_cantonese": {
-        "A": "1994年",
-        "B": "1993年",
-        "C": "1991年",
-        "D": "1992年"
-      },
-      "correct_answer": "D",
-      "correct_birth_info": {
-        "birth_year": 1992,
-        "birth_date": "1992-03-04T00:00:00Z",
-        "age_in_2025": 33
-      },
-      "player_info": {
-        "name": "Bernd Leno",
-        "name_cantonese": "蘭奴",
-        "id": "Q309966"
-      },
-      "distractors": [
-        "1991",
-        "1993",
-        "1994"
-      ],
-      "question_type": "player_birth_year"
-    },
-    {
-      "question": "How old is Bernd Leno, the soccer player, in 2025?",
-      "question_cantonese": "足球員蘭奴喺2025年幾多歲？",
-      "choices": {
-        "A": "33",
-        "B": "35",
-        "C": "32",
-        "D": "34"
-      },
-      "choices_cantonese": {
-        "A": "33歲",
-        "B": "35歲",
-        "C": "32歲",
-        "D": "34歲"
-      },
-      "correct_answer": "A",
-      "correct_birth_info": {
-        "birth_year": 1992,
-        "birth_date": "1992-03-04T00:00:00Z",
-        "age_in_2025": 33
-      },
-      "player_info": {
-        "name": "Bernd Leno",
-        "name_cantonese": "蘭奴",
-        "id": "Q309966"
-      },
-      "distractors": [
-        "34",
-        "32",
-        "35"
-      ],
-      "question_type": "player_current_age"
-    },
-    {
-      "question": "What year was Santi Cazorla, the soccer player, born?",
-      "question_cantonese": "足球員辛迪卡蘇拿係邊年出世？",
-      "choices": {
-        "A": "1983",
-        "B": "1984",
-        "C": "1986",
-        "D": "1985"
-      },
-      "choices_cantonese": {
-        "A": "1983年",
-        "B": "1984年",
-        "C": "1986年",
-        "D": "1985年"
-      },
-      "correct_answer": "B",
-      "correct_birth_info": {
-        "birth_year": 1984,
-        "birth_date": "1984-12-13T00:00:00Z",
-        "age_in_2025": 41
-      },
-      "player_info": {
-        "name": "Santi Cazorla",
-        "name_cantonese": "辛迪卡蘇拿",
-        "id": "Q185225"
-      },
-      "distractors": [
-        "1983",
-        "1985",
-        "1986"
-      ],
-      "question_type": "player_birth_year"
-    },
-    {
-      "question": "How old is Santi Cazorla, the soccer player, in 2025?",
-      "question_cantonese": "足球員辛迪卡蘇拿喺2025年幾多歲？",
-      "choices": {
-        "A": "40",
-        "B": "43",
-        "C": "42",
-        "D": "41"
-      },
-      "choices_cantonese": {
-        "A": "40歲",
-        "B": "43歲",
-        "C": "42歲",
-        "D": "41歲"
-      },
-      "correct_answer": "D",
-      "correct_birth_info": {
-        "birth_year": 1984,
-        "birth_date": "1984-12-13T00:00:00Z",
-        "age_in_2025": 41
-      },
-      "player_info": {
-        "name": "Santi Cazorla",
-        "name_cantonese": "辛迪卡蘇拿",
-        "id": "Q185225"
-      },
-      "distractors": [
-        "42",
-        "40",
-        "43"
-      ],
-      "question_type": "player_current_age"
-    },
-    {
-      "question": "What year was Giorgio Chiellini, the soccer player, born?",
-      "question_cantonese": "足球員喬治奧·基亞連尼係邊年出世？",
-      "choices": {
-        "A": "1984",
-        "B": "1983",
-        "C": "1985",
-        "D": "1986"
-      },
-      "choices_cantonese": {
-        "A": "1984年",
-        "B": "1983年",
-        "C": "1985年",
-        "D": "1986年"
-      },
-      "correct_answer": "A",
-      "correct_birth_info": {
-        "birth_year": 1984,
-        "birth_date": "1984-08-14T00:00:00Z",
-        "age_in_2025": 41
-      },
-      "player_info": {
-        "name": "Giorgio Chiellini",
-        "name_cantonese": "喬治奧·基亞連尼",
-        "id": "Q80306"
-      },
-      "distractors": [
-        "1983",
-        "1985",
-        "1986"
-      ],
-      "question_type": "player_birth_year"
-    },
-    {
-      "question": "How old is Giorgio Chiellini, the soccer player, in 2025?",
-      "question_cantonese": "足球員喬治奧·基亞連尼喺2025年幾多歲？",
-      "choices": {
-        "A": "42",
-        "B": "40",
-        "C": "43",
-        "D": "41"
-      },
-      "choices_cantonese": {
-        "A": "42歲",
-        "B": "40歲",
-        "C": "43歲",
-        "D": "41歲"
-      },
-      "correct_answer": "D",
-      "correct_birth_info": {
-        "birth_year": 1984,
-        "birth_date": "1984-08-14T00:00:00Z",
-        "age_in_2025": 41
-      },
-      "player_info": {
-        "name": "Giorgio Chiellini",
-        "name_cantonese": "喬治奧·基亞連尼",
-        "id": "Q80306"
-      },
-      "distractors": [
-        "42",
-        "40",
-        "43"
-      ],
-      "question_type": "player_current_age"
-    },
-    {
-      "question": "What year was Trent Alexander-Arnold, the soccer player, born?",
-      "question_cantonese": "足球員阿諾係邊年出世？",
-      "choices": {
-        "A": "1998",
-        "B": "1997",
-        "C": "1999",
-        "D": "1996"
-      },
-      "choices_cantonese": {
-        "A": "1998年",
-        "B": "1997年",
-        "C": "1999年",
-        "D": "1996年"
-      },
-      "correct_answer": "A",
-      "correct_birth_info": {
-        "birth_year": 1998,
-        "birth_date": "1998-10-07T00:00:00Z",
-        "age_in_2025": 27
-      },
-      "player_info": {
-        "name": "Trent Alexander-Arnold",
-        "name_cantonese": "阿諾",
-        "id": "Q27569376"
-      },
-      "distractors": [
-        "1999",
-        "1997",
-        "1996"
-      ],
-      "question_type": "player_birth_year"
-    },
-    {
-      "question": "How old is Trent Alexander-Arnold, the soccer player, in 2025?",
-      "question_cantonese": "足球員阿諾喺2025年幾多歲？",
-      "choices": {
-        "A": "27",
-        "B": "29",
-        "C": "28",
-        "D": "26"
-      },
-      "choices_cantonese": {
-        "A": "27歲",
-        "B": "29歲",
-        "C": "28歲",
-        "D": "26歲"
-      },
-      "correct_answer": "A",
-      "correct_birth_info": {
-        "birth_year": 1998,
-        "birth_date": "1998-10-07T00:00:00Z",
-        "age_in_2025": 27
-      },
-      "player_info": {
-        "name": "Trent Alexander-Arnold",
-        "name_cantonese": "阿諾",
-        "id": "Q27569376"
-      },
-      "distractors": [
-        "28",
-        "26",
-        "29"
-      ],
-      "question_type": "player_current_age"
-    },
-    {
-      "question": "What year was Ángel Di María, the soccer player, born?",
-      "question_cantonese": "足球員迪馬利亞係邊年出世？",
-      "choices": {
-        "A": "1986",
-        "B": "1988",
-        "C": "1989",
-        "D": "1987"
-      },
-      "choices_cantonese": {
-        "A": "1986年",
-        "B": "1988年",
-        "C": "1989年",
-        "D": "1987年"
-      },
-      "correct_answer": "B",
-      "correct_birth_info": {
-        "birth_year": 1988,
-        "birth_date": "1988-02-14T00:00:00Z",
-        "age_in_2025": 37
-      },
-      "player_info": {
-        "name": "Ángel Di María",
-        "name_cantonese": "迪馬利亞",
-        "id": "Q251683"
-      },
-      "distractors": [
-        "1987",
-        "1989",
-        "1986"
-      ],
-      "question_type": "player_birth_year"
-    },
-    {
-      "question": "How old is Ángel Di María, the soccer player, in 2025?",
-      "question_cantonese": "足球員迪馬利亞喺2025年幾多歲？",
-      "choices": {
-        "A": "36",
-        "B": "37",
-        "C": "39",
-        "D": "38"
-      },
-      "choices_cantonese": {
-        "A": "36歲",
-        "B": "37歲",
-        "C": "39歲",
-        "D": "38歲"
-      },
-      "correct_answer": "B",
-      "correct_birth_info": {
-        "birth_year": 1988,
-        "birth_date": "1988-02-14T00:00:00Z",
-        "age_in_2025": 37
-      },
-      "player_info": {
-        "name": "Ángel Di María",
-        "name_cantonese": "迪馬利亞",
-        "id": "Q251683"
-      },
-      "distractors": [
-        "38",
-        "36",
-        "39"
-      ],
-      "question_type": "player_current_age"
-    },
-    {
-      "question": "What year was Ousmane Dembélé, the soccer player, born?",
-      "question_cantonese": "足球員迪比利係邊年出世？",
-      "choices": {
-        "A": "1996",
-        "B": "1998",
-        "C": "1999",
-        "D": "1997"
-      },
-      "choices_cantonese": {
-        "A": "1996年",
-        "B": "1998年",
-        "C": "1999年",
-        "D": "1997年"
-      },
-      "correct_answer": "D",
-      "correct_birth_info": {
-        "birth_year": 1997,
-        "birth_date": "1997-05-15T00:00:00Z",
-        "age_in_2025": 28
-      },
-      "player_info": {
-        "name": "Ousmane Dembélé",
-        "name_cantonese": "迪比利",
-        "id": "Q20851003"
-      },
-      "distractors": [
-        "1998",
-        "1996",
-        "1999"
-      ],
-      "question_type": "player_birth_year"
-    },
-    {
-      "question": "How old is Ousmane Dembélé, the soccer player, in 2025?",
-      "question_cantonese": "足球員迪比利喺2025年幾多歲？",
-      "choices": {
-        "A": "27",
-        "B": "29",
-        "C": "28",
-        "D": "30"
-      },
-      "choices_cantonese": {
-        "A": "27歲",
-        "B": "29歲",
-        "C": "28歲",
-        "D": "30歲"
-      },
-      "correct_answer": "C",
-      "correct_birth_info": {
-        "birth_year": 1997,
-        "birth_date": "1997-05-15T00:00:00Z",
-        "age_in_2025": 28
-      },
-      "player_info": {
-        "name": "Ousmane Dembélé",
-        "name_cantonese": "迪比利",
-        "id": "Q20851003"
-      },
-      "distractors": [
-        "29",
-        "27",
-        "30"
-      ],
-      "question_type": "player_current_age"
-    },
-    {
-      "question": "What year was Neymar, the soccer player, born?",
-      "question_cantonese": "足球員尼馬係邊年出世？",
-      "choices": {
-        "A": "1991",
-        "B": "1994",
-        "C": "1992",
-        "D": "1993"
-      },
-      "choices_cantonese": {
-        "A": "1991年",
-        "B": "1994年",
-        "C": "1992年",
-        "D": "1993年"
-      },
-      "correct_answer": "C",
-      "correct_birth_info": {
-        "birth_year": 1992,
-        "birth_date": "1992-02-05T00:00:00Z",
-        "age_in_2025": 33
-      },
-      "player_info": {
-        "name": "Neymar",
-        "name_cantonese": "尼馬",
-        "id": "Q142794"
-      },
-      "distractors": [
-        "1991",
-        "1993",
-        "1994"
-      ],
-      "question_type": "player_birth_year"
-    },
-    {
-      "question": "How old is Neymar, the soccer player, in 2025?",
-      "question_cantonese": "足球員尼馬喺2025年幾多歲？",
-      "choices": {
-        "A": "32",
-        "B": "34",
-        "C": "35",
-        "D": "33"
-      },
-      "choices_cantonese": {
-        "A": "32歲",
-        "B": "34歲",
-        "C": "35歲",
-        "D": "33歲"
-      },
-      "correct_answer": "D",
-      "correct_birth_info": {
-        "birth_year": 1992,
-        "birth_date": "1992-02-05T00:00:00Z",
-        "age_in_2025": 33
-      },
-      "player_info": {
-        "name": "Neymar",
-        "name_cantonese": "尼馬",
-        "id": "Q142794"
-      },
-      "distractors": [
-        "34",
-        "32",
-        "35"
-      ],
-      "question_type": "player_current_age"
-    },
-    {
-      "question": "What year was Dani Carvajal, the soccer player, born?",
-      "question_cantonese": "足球員丹尼卡華積係邊年出世？",
-      "choices": {
-        "A": "1992",
-        "B": "1993",
-        "C": "1994",
-        "D": "1991"
-      },
-      "choices_cantonese": {
-        "A": "1992年",
-        "B": "1993年",
-        "C": "1994年",
-        "D": "1991年"
-      },
-      "correct_answer": "A",
-      "correct_birth_info": {
-        "birth_year": 1992,
-        "birth_date": "1992-01-11T00:00:00Z",
-        "age_in_2025": 33
-      },
-      "player_info": {
-        "name": "Dani Carvajal",
-        "name_cantonese": "丹尼卡華積",
-        "id": "Q127452"
-      },
-      "distractors": [
-        "1991",
-        "1993",
-        "1994"
-      ],
-      "question_type": "player_birth_year"
-    },
-    {
-      "question": "How old is Dani Carvajal, the soccer player, in 2025?",
-      "question_cantonese": "足球員丹尼卡華積喺2025年幾多歲？",
-      "choices": {
-        "A": "32",
-        "B": "34",
-        "C": "35",
-        "D": "33"
-      },
-      "choices_cantonese": {
-        "A": "32歲",
-        "B": "34歲",
-        "C": "35歲",
-        "D": "33歲"
-      },
-      "correct_answer": "D",
-      "correct_birth_info": {
-        "birth_year": 1992,
-        "birth_date": "1992-01-11T00:00:00Z",
-        "age_in_2025": 33
-      },
-      "player_info": {
-        "name": "Dani Carvajal",
-        "name_cantonese": "丹尼卡華積",
-        "id": "Q127452"
-      },
-      "distractors": [
-        "34",
-        "32",
-        "35"
-      ],
-      "question_type": "player_current_age"
-    },
-    {
-      "question": "What year was Petr Čech, the soccer player, born?",
-      "question_cantonese": "足球員施治係邊年出世？",
-      "choices": {
-        "A": "1983",
-        "B": "1982",
-        "C": "1984",
-        "D": "1981"
-      },
-      "choices_cantonese": {
-        "A": "1983年",
-        "B": "1982年",
-        "C": "1984年",
-        "D": "1981年"
-      },
-      "correct_answer": "B",
-      "correct_birth_info": {
-        "birth_year": 1982,
-        "birth_date": "1982-05-20T00:00:00Z",
-        "age_in_2025": 43
-      },
-      "player_info": {
-        "name": "Petr Čech",
-        "name_cantonese": "施治",
-        "id": "Q483137"
-      },
-      "distractors": [
-        "1983",
-        "1981",
-        "1984"
-      ],
-      "question_type": "player_birth_year"
-    },
-    {
-      "question": "How old is Petr Čech, the soccer player, in 2025?",
-      "question_cantonese": "足球員施治喺2025年幾多歲？",
-      "choices": {
-        "A": "45",
-        "B": "44",
-        "C": "42",
-        "D": "43"
-      },
-      "choices_cantonese": {
-        "A": "45歲",
-        "B": "44歲",
-        "C": "42歲",
-        "D": "43歲"
-      },
-      "correct_answer": "D",
-      "correct_birth_info": {
-        "birth_year": 1982,
-        "birth_date": "1982-05-20T00:00:00Z",
-        "age_in_2025": 43
-      },
-      "player_info": {
-        "name": "Petr Čech",
-        "name_cantonese": "施治",
-        "id": "Q483137"
-      },
-      "distractors": [
-        "44",
-        "42",
-        "45"
       ],
       "question_type": "player_current_age"
     },
@@ -1281,18 +159,18 @@
       "question": "What year was David de Gea, the soccer player, born?",
       "question_cantonese": "足球員迪基亞係邊年出世？",
       "choices": {
-        "A": "1988",
-        "B": "1990",
-        "C": "1989",
-        "D": "1991"
+        "A": "1990",
+        "B": "1989",
+        "C": "1991",
+        "D": "1988"
       },
       "choices_cantonese": {
-        "A": "1988年",
-        "B": "1990年",
-        "C": "1989年",
-        "D": "1991年"
+        "A": "1990年",
+        "B": "1989年",
+        "C": "1991年",
+        "D": "1988年"
       },
-      "correct_answer": "B",
+      "correct_answer": "A",
       "correct_birth_info": {
         "birth_year": 1990,
         "birth_date": "1990-11-07T00:00:00Z",
@@ -1314,18 +192,18 @@
       "question": "How old is David de Gea, the soccer player, in 2025?",
       "question_cantonese": "足球員迪基亞喺2025年幾多歲？",
       "choices": {
-        "A": "35",
+        "A": "36",
         "B": "37",
-        "C": "36",
+        "C": "35",
         "D": "34"
       },
       "choices_cantonese": {
-        "A": "35歲",
+        "A": "36歲",
         "B": "37歲",
-        "C": "36歲",
+        "C": "35歲",
         "D": "34歲"
       },
-      "correct_answer": "A",
+      "correct_answer": "C",
       "correct_birth_info": {
         "birth_year": 1990,
         "birth_date": "1990-11-07T00:00:00Z",
@@ -1344,96 +222,360 @@
       "question_type": "player_current_age"
     },
     {
-      "question": "What year was Cristiano Ronaldo, the soccer player, born?",
-      "question_cantonese": "足球員基斯坦奴朗拿度係邊年出世？",
+      "question": "What year was Xavi Hernández, the soccer player, born?",
+      "question_cantonese": "足球員沙維係邊年出世？",
       "choices": {
-        "A": "1986",
-        "B": "1985",
-        "C": "1984",
-        "D": "1987"
+        "A": "1978",
+        "B": "1982",
+        "C": "1980",
+        "D": "1981"
       },
       "choices_cantonese": {
-        "A": "1986年",
-        "B": "1985年",
-        "C": "1984年",
-        "D": "1987年"
+        "A": "1978年",
+        "B": "1982年",
+        "C": "1980年",
+        "D": "1981年"
       },
-      "correct_answer": "B",
+      "correct_answer": "C",
       "correct_birth_info": {
-        "birth_year": 1985,
-        "birth_date": "1985-02-05T00:00:00Z",
-        "age_in_2025": 40
+        "birth_year": 1980,
+        "birth_date": "1980-01-25T00:00:00Z",
+        "age_in_2025": 45
       },
       "player_info": {
-        "name": "Cristiano Ronaldo",
-        "name_cantonese": "基斯坦奴朗拿度",
-        "id": "Q11571"
+        "name": "Xavi Hernández",
+        "name_cantonese": "沙維",
+        "id": "Q17500"
       },
       "distractors": [
-        "1984",
-        "1986",
-        "1987"
+        "1981",
+        "1982",
+        "1978"
       ],
       "question_type": "player_birth_year"
     },
     {
-      "question": "How old is Cristiano Ronaldo, the soccer player, in 2025?",
-      "question_cantonese": "足球員基斯坦奴朗拿度喺2025年幾多歲？",
+      "question": "How old is Xavi Hernández, the soccer player, in 2025?",
+      "question_cantonese": "足球員沙維喺2025年幾多歲？",
       "choices": {
-        "A": "39",
-        "B": "41",
-        "C": "42",
-        "D": "40"
+        "A": "47",
+        "B": "44",
+        "C": "46",
+        "D": "45"
       },
       "choices_cantonese": {
-        "A": "39歲",
-        "B": "41歲",
-        "C": "42歲",
-        "D": "40歲"
+        "A": "47歲",
+        "B": "44歲",
+        "C": "46歲",
+        "D": "45歲"
       },
       "correct_answer": "D",
       "correct_birth_info": {
-        "birth_year": 1985,
-        "birth_date": "1985-02-05T00:00:00Z",
-        "age_in_2025": 40
+        "birth_year": 1980,
+        "birth_date": "1980-01-25T00:00:00Z",
+        "age_in_2025": 45
       },
       "player_info": {
-        "name": "Cristiano Ronaldo",
-        "name_cantonese": "基斯坦奴朗拿度",
-        "id": "Q11571"
+        "name": "Xavi Hernández",
+        "name_cantonese": "沙維",
+        "id": "Q17500"
       },
       "distractors": [
-        "41",
-        "39",
-        "42"
+        "46",
+        "44",
+        "47"
       ],
       "question_type": "player_current_age"
     },
     {
-      "question": "What year was Kevin De Bruyne, the soccer player, born?",
-      "question_cantonese": "足球員迪布尼係邊年出世？",
+      "question": "What year was Christian Eriksen, the soccer player, born?",
+      "question_cantonese": "足球員基斯甸艾歷臣係邊年出世？",
       "choices": {
-        "A": "1993",
-        "B": "1991",
-        "C": "1992",
-        "D": "1990"
+        "A": "1994",
+        "B": "1992",
+        "C": "1991",
+        "D": "1993"
       },
       "choices_cantonese": {
-        "A": "1993年",
+        "A": "1994年",
+        "B": "1992年",
+        "C": "1991年",
+        "D": "1993年"
+      },
+      "correct_answer": "B",
+      "correct_birth_info": {
+        "birth_year": 1992,
+        "birth_date": "1992-02-14T00:00:00Z",
+        "age_in_2025": 33
+      },
+      "player_info": {
+        "name": "Christian Eriksen",
+        "name_cantonese": "基斯甸艾歷臣",
+        "id": "Q294951"
+      },
+      "distractors": [
+        "1991",
+        "1993",
+        "1994"
+      ],
+      "question_type": "player_birth_year"
+    },
+    {
+      "question": "How old is Christian Eriksen, the soccer player, in 2025?",
+      "question_cantonese": "足球員基斯甸艾歷臣喺2025年幾多歲？",
+      "choices": {
+        "A": "33",
+        "B": "32",
+        "C": "34",
+        "D": "35"
+      },
+      "choices_cantonese": {
+        "A": "33歲",
+        "B": "32歲",
+        "C": "34歲",
+        "D": "35歲"
+      },
+      "correct_answer": "A",
+      "correct_birth_info": {
+        "birth_year": 1992,
+        "birth_date": "1992-02-14T00:00:00Z",
+        "age_in_2025": 33
+      },
+      "player_info": {
+        "name": "Christian Eriksen",
+        "name_cantonese": "基斯甸艾歷臣",
+        "id": "Q294951"
+      },
+      "distractors": [
+        "34",
+        "32",
+        "35"
+      ],
+      "question_type": "player_current_age"
+    },
+    {
+      "question": "What year was Toni Kroos, the soccer player, born?",
+      "question_cantonese": "足球員東尼·卻奧斯係邊年出世？",
+      "choices": {
+        "A": "1990",
+        "B": "1991",
+        "C": "1989",
+        "D": "1988"
+      },
+      "choices_cantonese": {
+        "A": "1990年",
         "B": "1991年",
-        "C": "1992年",
-        "D": "1990年"
+        "C": "1989年",
+        "D": "1988年"
+      },
+      "correct_answer": "A",
+      "correct_birth_info": {
+        "birth_year": 1990,
+        "birth_date": "1990-01-04T00:00:00Z",
+        "age_in_2025": 35
+      },
+      "player_info": {
+        "name": "Toni Kroos",
+        "name_cantonese": "東尼·卻奧斯",
+        "id": "Q131234"
+      },
+      "distractors": [
+        "1991",
+        "1989",
+        "1988"
+      ],
+      "question_type": "player_birth_year"
+    },
+    {
+      "question": "How old is Toni Kroos, the soccer player, in 2025?",
+      "question_cantonese": "足球員東尼·卻奧斯喺2025年幾多歲？",
+      "choices": {
+        "A": "36",
+        "B": "37",
+        "C": "34",
+        "D": "35"
+      },
+      "choices_cantonese": {
+        "A": "36歲",
+        "B": "37歲",
+        "C": "34歲",
+        "D": "35歲"
+      },
+      "correct_answer": "D",
+      "correct_birth_info": {
+        "birth_year": 1990,
+        "birth_date": "1990-01-04T00:00:00Z",
+        "age_in_2025": 35
+      },
+      "player_info": {
+        "name": "Toni Kroos",
+        "name_cantonese": "東尼·卻奧斯",
+        "id": "Q131234"
+      },
+      "distractors": [
+        "36",
+        "34",
+        "37"
+      ],
+      "question_type": "player_current_age"
+    },
+    {
+      "question": "What year was Franck Ribéry, the soccer player, born?",
+      "question_cantonese": "足球員列貝利係邊年出世？",
+      "choices": {
+        "A": "1984",
+        "B": "1982",
+        "C": "1985",
+        "D": "1983"
+      },
+      "choices_cantonese": {
+        "A": "1984年",
+        "B": "1982年",
+        "C": "1985年",
+        "D": "1983年"
+      },
+      "correct_answer": "D",
+      "correct_birth_info": {
+        "birth_year": 1983,
+        "birth_date": "1983-04-07T00:00:00Z",
+        "age_in_2025": 42
+      },
+      "player_info": {
+        "name": "Franck Ribéry",
+        "name_cantonese": "列貝利",
+        "id": "Q1918"
+      },
+      "distractors": [
+        "1984",
+        "1982",
+        "1985"
+      ],
+      "question_type": "player_birth_year"
+    },
+    {
+      "question": "How old is Franck Ribéry, the soccer player, in 2025?",
+      "question_cantonese": "足球員列貝利喺2025年幾多歲？",
+      "choices": {
+        "A": "41",
+        "B": "44",
+        "C": "42",
+        "D": "43"
+      },
+      "choices_cantonese": {
+        "A": "41歲",
+        "B": "44歲",
+        "C": "42歲",
+        "D": "43歲"
+      },
+      "correct_answer": "C",
+      "correct_birth_info": {
+        "birth_year": 1983,
+        "birth_date": "1983-04-07T00:00:00Z",
+        "age_in_2025": 42
+      },
+      "player_info": {
+        "name": "Franck Ribéry",
+        "name_cantonese": "列貝利",
+        "id": "Q1918"
+      },
+      "distractors": [
+        "43",
+        "41",
+        "44"
+      ],
+      "question_type": "player_current_age"
+    },
+    {
+      "question": "What year was Kingsley Coman, the soccer player, born?",
+      "question_cantonese": "足球員京士利·高文係邊年出世？",
+      "choices": {
+        "A": "1996",
+        "B": "1994",
+        "C": "1995",
+        "D": "1997"
+      },
+      "choices_cantonese": {
+        "A": "1996年",
+        "B": "1994年",
+        "C": "1995年",
+        "D": "1997年"
+      },
+      "correct_answer": "A",
+      "correct_birth_info": {
+        "birth_year": 1996,
+        "birth_date": "1996-06-13T00:00:00Z",
+        "age_in_2025": 29
+      },
+      "player_info": {
+        "name": "Kingsley Coman",
+        "name_cantonese": "京士利·高文",
+        "id": "Q6413296"
+      },
+      "distractors": [
+        "1995",
+        "1997",
+        "1994"
+      ],
+      "question_type": "player_birth_year"
+    },
+    {
+      "question": "How old is Kingsley Coman, the soccer player, in 2025?",
+      "question_cantonese": "足球員京士利·高文喺2025年幾多歲？",
+      "choices": {
+        "A": "28",
+        "B": "31",
+        "C": "30",
+        "D": "29"
+      },
+      "choices_cantonese": {
+        "A": "28歲",
+        "B": "31歲",
+        "C": "30歲",
+        "D": "29歲"
+      },
+      "correct_answer": "D",
+      "correct_birth_info": {
+        "birth_year": 1996,
+        "birth_date": "1996-06-13T00:00:00Z",
+        "age_in_2025": 29
+      },
+      "player_info": {
+        "name": "Kingsley Coman",
+        "name_cantonese": "京士利·高文",
+        "id": "Q6413296"
+      },
+      "distractors": [
+        "30",
+        "28",
+        "31"
+      ],
+      "question_type": "player_current_age"
+    },
+    {
+      "question": "What year was N'Golo Kanté, the soccer player, born?",
+      "question_cantonese": "足球員簡迪係邊年出世？",
+      "choices": {
+        "A": "1992",
+        "B": "1991",
+        "C": "1990",
+        "D": "1993"
+      },
+      "choices_cantonese": {
+        "A": "1992年",
+        "B": "1991年",
+        "C": "1990年",
+        "D": "1993年"
       },
       "correct_answer": "B",
       "correct_birth_info": {
         "birth_year": 1991,
-        "birth_date": "1991-06-28T00:00:00Z",
+        "birth_date": "1991-03-29T00:00:00Z",
         "age_in_2025": 34
       },
       "player_info": {
-        "name": "Kevin De Bruyne",
-        "name_cantonese": "迪布尼",
-        "id": "Q357984"
+        "name": "N'Golo Kanté",
+        "name_cantonese": "簡迪",
+        "id": "Q16665941"
       },
       "distractors": [
         "1992",
@@ -1443,8 +585,8 @@
       "question_type": "player_birth_year"
     },
     {
-      "question": "How old is Kevin De Bruyne, the soccer player, in 2025?",
-      "question_cantonese": "足球員迪布尼喺2025年幾多歲？",
+      "question": "How old is N'Golo Kanté, the soccer player, in 2025?",
+      "question_cantonese": "足球員簡迪喺2025年幾多歲？",
       "choices": {
         "A": "35",
         "B": "33",
@@ -1460,13 +602,13 @@
       "correct_answer": "D",
       "correct_birth_info": {
         "birth_year": 1991,
-        "birth_date": "1991-06-28T00:00:00Z",
+        "birth_date": "1991-03-29T00:00:00Z",
         "age_in_2025": 34
       },
       "player_info": {
-        "name": "Kevin De Bruyne",
-        "name_cantonese": "迪布尼",
-        "id": "Q357984"
+        "name": "N'Golo Kanté",
+        "name_cantonese": "簡迪",
+        "id": "Q16665941"
       },
       "distractors": [
         "35",
@@ -1476,162 +618,30 @@
       "question_type": "player_current_age"
     },
     {
-      "question": "What year was Bastian Schweinsteiger, the soccer player, born?",
-      "question_cantonese": "足球員舒韋恩史迪加係邊年出世？",
+      "question": "What year was Toby Alderweireld, the soccer player, born?",
+      "question_cantonese": "足球員艾達韋列特係邊年出世？",
       "choices": {
-        "A": "1985",
-        "B": "1986",
-        "C": "1983",
-        "D": "1984"
-      },
-      "choices_cantonese": {
-        "A": "1985年",
-        "B": "1986年",
-        "C": "1983年",
-        "D": "1984年"
-      },
-      "correct_answer": "D",
-      "correct_birth_info": {
-        "birth_year": 1984,
-        "birth_date": "1984-08-01T00:00:00Z",
-        "age_in_2025": 41
-      },
-      "player_info": {
-        "name": "Bastian Schweinsteiger",
-        "name_cantonese": "舒韋恩史迪加",
-        "id": "Q44298"
-      },
-      "distractors": [
-        "1983",
-        "1985",
-        "1986"
-      ],
-      "question_type": "player_birth_year"
-    },
-    {
-      "question": "How old is Bastian Schweinsteiger, the soccer player, in 2025?",
-      "question_cantonese": "足球員舒韋恩史迪加喺2025年幾多歲？",
-      "choices": {
-        "A": "43",
-        "B": "40",
-        "C": "42",
-        "D": "41"
-      },
-      "choices_cantonese": {
-        "A": "43歲",
-        "B": "40歲",
-        "C": "42歲",
-        "D": "41歲"
-      },
-      "correct_answer": "D",
-      "correct_birth_info": {
-        "birth_year": 1984,
-        "birth_date": "1984-08-01T00:00:00Z",
-        "age_in_2025": 41
-      },
-      "player_info": {
-        "name": "Bastian Schweinsteiger",
-        "name_cantonese": "舒韋恩史迪加",
-        "id": "Q44298"
-      },
-      "distractors": [
-        "42",
-        "40",
-        "43"
-      ],
-      "question_type": "player_current_age"
-    },
-    {
-      "question": "What year was Alisson Becker, the soccer player, born?",
-      "question_cantonese": "足球員艾利臣係邊年出世？",
-      "choices": {
-        "A": "1992",
-        "B": "1993",
-        "C": "1991",
-        "D": "1994"
-      },
-      "choices_cantonese": {
-        "A": "1992年",
-        "B": "1993年",
-        "C": "1991年",
-        "D": "1994年"
-      },
-      "correct_answer": "A",
-      "correct_birth_info": {
-        "birth_year": 1992,
-        "birth_date": "1992-10-02T00:00:00Z",
-        "age_in_2025": 33
-      },
-      "player_info": {
-        "name": "Alisson Becker",
-        "name_cantonese": "艾利臣",
-        "id": "Q18237361"
-      },
-      "distractors": [
-        "1991",
-        "1993",
-        "1994"
-      ],
-      "question_type": "player_birth_year"
-    },
-    {
-      "question": "How old is Alisson Becker, the soccer player, in 2025?",
-      "question_cantonese": "足球員艾利臣喺2025年幾多歲？",
-      "choices": {
-        "A": "32",
-        "B": "33",
-        "C": "34",
-        "D": "35"
-      },
-      "choices_cantonese": {
-        "A": "32歲",
-        "B": "33歲",
-        "C": "34歲",
-        "D": "35歲"
-      },
-      "correct_answer": "B",
-      "correct_birth_info": {
-        "birth_year": 1992,
-        "birth_date": "1992-10-02T00:00:00Z",
-        "age_in_2025": 33
-      },
-      "player_info": {
-        "name": "Alisson Becker",
-        "name_cantonese": "艾利臣",
-        "id": "Q18237361"
-      },
-      "distractors": [
-        "34",
-        "32",
-        "35"
-      ],
-      "question_type": "player_current_age"
-    },
-    {
-      "question": "What year was Thomas Müller, the soccer player, born?",
-      "question_cantonese": "足球員湯馬士·梅拿係邊年出世？",
-      "choices": {
-        "A": "1988",
-        "B": "1989",
+        "A": "1989",
+        "B": "1988",
         "C": "1990",
         "D": "1987"
       },
       "choices_cantonese": {
-        "A": "1988年",
-        "B": "1989年",
+        "A": "1989年",
+        "B": "1988年",
         "C": "1990年",
         "D": "1987年"
       },
-      "correct_answer": "B",
+      "correct_answer": "A",
       "correct_birth_info": {
         "birth_year": 1989,
-        "birth_date": "1989-09-13T00:00:00Z",
+        "birth_date": "1989-03-02T00:00:00Z",
         "age_in_2025": 36
       },
       "player_info": {
-        "name": "Thomas Müller",
-        "name_cantonese": "湯馬士·梅拿",
-        "id": "Q43666"
+        "name": "Toby Alderweireld",
+        "name_cantonese": "艾達韋列特",
+        "id": "Q128840"
       },
       "distractors": [
         "1988",
@@ -1641,30 +651,30 @@
       "question_type": "player_birth_year"
     },
     {
-      "question": "How old is Thomas Müller, the soccer player, in 2025?",
-      "question_cantonese": "足球員湯馬士·梅拿喺2025年幾多歲？",
+      "question": "How old is Toby Alderweireld, the soccer player, in 2025?",
+      "question_cantonese": "足球員艾達韋列特喺2025年幾多歲？",
       "choices": {
-        "A": "37",
-        "B": "35",
-        "C": "36",
-        "D": "38"
+        "A": "38",
+        "B": "36",
+        "C": "35",
+        "D": "37"
       },
       "choices_cantonese": {
-        "A": "37歲",
-        "B": "35歲",
-        "C": "36歲",
-        "D": "38歲"
+        "A": "38歲",
+        "B": "36歲",
+        "C": "35歲",
+        "D": "37歲"
       },
-      "correct_answer": "C",
+      "correct_answer": "B",
       "correct_birth_info": {
         "birth_year": 1989,
-        "birth_date": "1989-09-13T00:00:00Z",
+        "birth_date": "1989-03-02T00:00:00Z",
         "age_in_2025": 36
       },
       "player_info": {
-        "name": "Thomas Müller",
-        "name_cantonese": "湯馬士·梅拿",
-        "id": "Q43666"
+        "name": "Toby Alderweireld",
+        "name_cantonese": "艾達韋列特",
+        "id": "Q128840"
       },
       "distractors": [
         "37",
@@ -1674,19 +684,1009 @@
       "question_type": "player_current_age"
     },
     {
+      "question": "What year was Philipp Lahm, the soccer player, born?",
+      "question_cantonese": "足球員菲臘·拿姆係邊年出世？",
+      "choices": {
+        "A": "1984",
+        "B": "1982",
+        "C": "1983",
+        "D": "1985"
+      },
+      "choices_cantonese": {
+        "A": "1984年",
+        "B": "1982年",
+        "C": "1983年",
+        "D": "1985年"
+      },
+      "correct_answer": "C",
+      "correct_birth_info": {
+        "birth_year": 1983,
+        "birth_date": "1983-11-11T00:00:00Z",
+        "age_in_2025": 42
+      },
+      "player_info": {
+        "name": "Philipp Lahm",
+        "name_cantonese": "菲臘·拿姆",
+        "id": "Q43682"
+      },
+      "distractors": [
+        "1984",
+        "1982",
+        "1985"
+      ],
+      "question_type": "player_birth_year"
+    },
+    {
+      "question": "How old is Philipp Lahm, the soccer player, in 2025?",
+      "question_cantonese": "足球員菲臘·拿姆喺2025年幾多歲？",
+      "choices": {
+        "A": "41",
+        "B": "43",
+        "C": "42",
+        "D": "44"
+      },
+      "choices_cantonese": {
+        "A": "41歲",
+        "B": "43歲",
+        "C": "42歲",
+        "D": "44歲"
+      },
+      "correct_answer": "C",
+      "correct_birth_info": {
+        "birth_year": 1983,
+        "birth_date": "1983-11-11T00:00:00Z",
+        "age_in_2025": 42
+      },
+      "player_info": {
+        "name": "Philipp Lahm",
+        "name_cantonese": "菲臘·拿姆",
+        "id": "Q43682"
+      },
+      "distractors": [
+        "43",
+        "41",
+        "44"
+      ],
+      "question_type": "player_current_age"
+    },
+    {
+      "question": "What year was Douglas Costa, the soccer player, born?",
+      "question_cantonese": "足球員杜格拉斯·哥斯達係邊年出世？",
+      "choices": {
+        "A": "1988",
+        "B": "1989",
+        "C": "1991",
+        "D": "1990"
+      },
+      "choices_cantonese": {
+        "A": "1988年",
+        "B": "1989年",
+        "C": "1991年",
+        "D": "1990年"
+      },
+      "correct_answer": "D",
+      "correct_birth_info": {
+        "birth_year": 1990,
+        "birth_date": "1990-09-14T00:00:00Z",
+        "age_in_2025": 35
+      },
+      "player_info": {
+        "name": "Douglas Costa",
+        "name_cantonese": "杜格拉斯·哥斯達",
+        "id": "Q391680"
+      },
+      "distractors": [
+        "1991",
+        "1989",
+        "1988"
+      ],
+      "question_type": "player_birth_year"
+    },
+    {
+      "question": "How old is Douglas Costa, the soccer player, in 2025?",
+      "question_cantonese": "足球員杜格拉斯·哥斯達喺2025年幾多歲？",
+      "choices": {
+        "A": "36",
+        "B": "37",
+        "C": "34",
+        "D": "35"
+      },
+      "choices_cantonese": {
+        "A": "36歲",
+        "B": "37歲",
+        "C": "34歲",
+        "D": "35歲"
+      },
+      "correct_answer": "D",
+      "correct_birth_info": {
+        "birth_year": 1990,
+        "birth_date": "1990-09-14T00:00:00Z",
+        "age_in_2025": 35
+      },
+      "player_info": {
+        "name": "Douglas Costa",
+        "name_cantonese": "杜格拉斯·哥斯達",
+        "id": "Q391680"
+      },
+      "distractors": [
+        "36",
+        "34",
+        "37"
+      ],
+      "question_type": "player_current_age"
+    },
+    {
+      "question": "What year was Jérôme Boateng, the soccer player, born?",
+      "question_cantonese": "足球員謝洛美·保定係邊年出世？",
+      "choices": {
+        "A": "1989",
+        "B": "1986",
+        "C": "1987",
+        "D": "1988"
+      },
+      "choices_cantonese": {
+        "A": "1989年",
+        "B": "1986年",
+        "C": "1987年",
+        "D": "1988年"
+      },
+      "correct_answer": "D",
+      "correct_birth_info": {
+        "birth_year": 1988,
+        "birth_date": "1988-09-03T00:00:00Z",
+        "age_in_2025": 37
+      },
+      "player_info": {
+        "name": "Jérôme Boateng",
+        "name_cantonese": "謝洛美·保定",
+        "id": "Q151260"
+      },
+      "distractors": [
+        "1987",
+        "1989",
+        "1986"
+      ],
+      "question_type": "player_birth_year"
+    },
+    {
+      "question": "How old is Jérôme Boateng, the soccer player, in 2025?",
+      "question_cantonese": "足球員謝洛美·保定喺2025年幾多歲？",
+      "choices": {
+        "A": "38",
+        "B": "36",
+        "C": "37",
+        "D": "39"
+      },
+      "choices_cantonese": {
+        "A": "38歲",
+        "B": "36歲",
+        "C": "37歲",
+        "D": "39歲"
+      },
+      "correct_answer": "C",
+      "correct_birth_info": {
+        "birth_year": 1988,
+        "birth_date": "1988-09-03T00:00:00Z",
+        "age_in_2025": 37
+      },
+      "player_info": {
+        "name": "Jérôme Boateng",
+        "name_cantonese": "謝洛美·保定",
+        "id": "Q151260"
+      },
+      "distractors": [
+        "38",
+        "36",
+        "39"
+      ],
+      "question_type": "player_current_age"
+    },
+    {
+      "question": "What year was Rodri, the soccer player, born?",
+      "question_cantonese": "足球員洛迪 (足球員)係邊年出世？",
+      "choices": {
+        "A": "1996",
+        "B": "1995",
+        "C": "1997",
+        "D": "1994"
+      },
+      "choices_cantonese": {
+        "A": "1996年",
+        "B": "1995年",
+        "C": "1997年",
+        "D": "1994年"
+      },
+      "correct_answer": "A",
+      "correct_birth_info": {
+        "birth_year": 1996,
+        "birth_date": "1996-06-22T00:00:00Z",
+        "age_in_2025": 29
+      },
+      "player_info": {
+        "name": "Rodri",
+        "name_cantonese": "洛迪 (足球員)",
+        "id": "Q20994118"
+      },
+      "distractors": [
+        "1995",
+        "1997",
+        "1994"
+      ],
+      "question_type": "player_birth_year"
+    },
+    {
+      "question": "How old is Rodri, the soccer player, in 2025?",
+      "question_cantonese": "足球員洛迪 (足球員)喺2025年幾多歲？",
+      "choices": {
+        "A": "30",
+        "B": "28",
+        "C": "31",
+        "D": "29"
+      },
+      "choices_cantonese": {
+        "A": "30歲",
+        "B": "28歲",
+        "C": "31歲",
+        "D": "29歲"
+      },
+      "correct_answer": "D",
+      "correct_birth_info": {
+        "birth_year": 1996,
+        "birth_date": "1996-06-22T00:00:00Z",
+        "age_in_2025": 29
+      },
+      "player_info": {
+        "name": "Rodri",
+        "name_cantonese": "洛迪 (足球員)",
+        "id": "Q20994118"
+      },
+      "distractors": [
+        "30",
+        "28",
+        "31"
+      ],
+      "question_type": "player_current_age"
+    },
+    {
+      "question": "What year was Jude Bellingham, the soccer player, born?",
+      "question_cantonese": "足球員祖迪·比寧咸係邊年出世？",
+      "choices": {
+        "A": "2002",
+        "B": "2003",
+        "C": "2001",
+        "D": "2000"
+      },
+      "choices_cantonese": {
+        "A": "2002年",
+        "B": "2003年",
+        "C": "2001年",
+        "D": "2000年"
+      },
+      "correct_answer": "B",
+      "correct_birth_info": {
+        "birth_year": 2003,
+        "birth_date": "2003-06-29T00:00:00Z",
+        "age_in_2025": 22
+      },
+      "player_info": {
+        "name": "Jude Bellingham",
+        "name_cantonese": "祖迪·比寧咸",
+        "id": "Q66241169"
+      },
+      "distractors": [
+        "2002",
+        "2001",
+        "2000"
+      ],
+      "question_type": "player_birth_year"
+    },
+    {
+      "question": "How old is Jude Bellingham, the soccer player, in 2025?",
+      "question_cantonese": "足球員祖迪·比寧咸喺2025年幾多歲？",
+      "choices": {
+        "A": "21",
+        "B": "22",
+        "C": "23",
+        "D": "24"
+      },
+      "choices_cantonese": {
+        "A": "21歲",
+        "B": "22歲",
+        "C": "23歲",
+        "D": "24歲"
+      },
+      "correct_answer": "B",
+      "correct_birth_info": {
+        "birth_year": 2003,
+        "birth_date": "2003-06-29T00:00:00Z",
+        "age_in_2025": 22
+      },
+      "player_info": {
+        "name": "Jude Bellingham",
+        "name_cantonese": "祖迪·比寧咸",
+        "id": "Q66241169"
+      },
+      "distractors": [
+        "23",
+        "21",
+        "24"
+      ],
+      "question_type": "player_current_age"
+    },
+    {
+      "question": "What year was Ángel Di María, the soccer player, born?",
+      "question_cantonese": "足球員迪馬利亞係邊年出世？",
+      "choices": {
+        "A": "1987",
+        "B": "1989",
+        "C": "1986",
+        "D": "1988"
+      },
+      "choices_cantonese": {
+        "A": "1987年",
+        "B": "1989年",
+        "C": "1986年",
+        "D": "1988年"
+      },
+      "correct_answer": "D",
+      "correct_birth_info": {
+        "birth_year": 1988,
+        "birth_date": "1988-02-14T00:00:00Z",
+        "age_in_2025": 37
+      },
+      "player_info": {
+        "name": "Ángel Di María",
+        "name_cantonese": "迪馬利亞",
+        "id": "Q251683"
+      },
+      "distractors": [
+        "1987",
+        "1989",
+        "1986"
+      ],
+      "question_type": "player_birth_year"
+    },
+    {
+      "question": "How old is Ángel Di María, the soccer player, in 2025?",
+      "question_cantonese": "足球員迪馬利亞喺2025年幾多歲？",
+      "choices": {
+        "A": "38",
+        "B": "37",
+        "C": "39",
+        "D": "36"
+      },
+      "choices_cantonese": {
+        "A": "38歲",
+        "B": "37歲",
+        "C": "39歲",
+        "D": "36歲"
+      },
+      "correct_answer": "B",
+      "correct_birth_info": {
+        "birth_year": 1988,
+        "birth_date": "1988-02-14T00:00:00Z",
+        "age_in_2025": 37
+      },
+      "player_info": {
+        "name": "Ángel Di María",
+        "name_cantonese": "迪馬利亞",
+        "id": "Q251683"
+      },
+      "distractors": [
+        "38",
+        "36",
+        "39"
+      ],
+      "question_type": "player_current_age"
+    },
+    {
+      "question": "What year was Aymeric Laporte, the soccer player, born?",
+      "question_cantonese": "足球員拿樸迪係邊年出世？",
+      "choices": {
+        "A": "1993",
+        "B": "1995",
+        "C": "1992",
+        "D": "1994"
+      },
+      "choices_cantonese": {
+        "A": "1993年",
+        "B": "1995年",
+        "C": "1992年",
+        "D": "1994年"
+      },
+      "correct_answer": "D",
+      "correct_birth_info": {
+        "birth_year": 1994,
+        "birth_date": "1994-05-27T00:00:00Z",
+        "age_in_2025": 31
+      },
+      "player_info": {
+        "name": "Aymeric Laporte",
+        "name_cantonese": "拿樸迪",
+        "id": "Q3855340"
+      },
+      "distractors": [
+        "1993",
+        "1992",
+        "1995"
+      ],
+      "question_type": "player_birth_year"
+    },
+    {
+      "question": "How old is Aymeric Laporte, the soccer player, in 2025?",
+      "question_cantonese": "足球員拿樸迪喺2025年幾多歲？",
+      "choices": {
+        "A": "31",
+        "B": "30",
+        "C": "32",
+        "D": "33"
+      },
+      "choices_cantonese": {
+        "A": "31歲",
+        "B": "30歲",
+        "C": "32歲",
+        "D": "33歲"
+      },
+      "correct_answer": "A",
+      "correct_birth_info": {
+        "birth_year": 1994,
+        "birth_date": "1994-05-27T00:00:00Z",
+        "age_in_2025": 31
+      },
+      "player_info": {
+        "name": "Aymeric Laporte",
+        "name_cantonese": "拿樸迪",
+        "id": "Q3855340"
+      },
+      "distractors": [
+        "32",
+        "30",
+        "33"
+      ],
+      "question_type": "player_current_age"
+    },
+    {
+      "question": "What year was Marcelo Brozović, the soccer player, born?",
+      "question_cantonese": "足球員馬些路波索域係邊年出世？",
+      "choices": {
+        "A": "1992",
+        "B": "1994",
+        "C": "1993",
+        "D": "1991"
+      },
+      "choices_cantonese": {
+        "A": "1992年",
+        "B": "1994年",
+        "C": "1993年",
+        "D": "1991年"
+      },
+      "correct_answer": "A",
+      "correct_birth_info": {
+        "birth_year": 1992,
+        "birth_date": "1992-11-16T00:00:00Z",
+        "age_in_2025": 33
+      },
+      "player_info": {
+        "name": "Marcelo Brozović",
+        "name_cantonese": "馬些路波索域",
+        "id": "Q3845710"
+      },
+      "distractors": [
+        "1991",
+        "1993",
+        "1994"
+      ],
+      "question_type": "player_birth_year"
+    },
+    {
+      "question": "How old is Marcelo Brozović, the soccer player, in 2025?",
+      "question_cantonese": "足球員馬些路波索域喺2025年幾多歲？",
+      "choices": {
+        "A": "35",
+        "B": "32",
+        "C": "33",
+        "D": "34"
+      },
+      "choices_cantonese": {
+        "A": "35歲",
+        "B": "32歲",
+        "C": "33歲",
+        "D": "34歲"
+      },
+      "correct_answer": "C",
+      "correct_birth_info": {
+        "birth_year": 1992,
+        "birth_date": "1992-11-16T00:00:00Z",
+        "age_in_2025": 33
+      },
+      "player_info": {
+        "name": "Marcelo Brozović",
+        "name_cantonese": "馬些路波索域",
+        "id": "Q3845710"
+      },
+      "distractors": [
+        "34",
+        "32",
+        "35"
+      ],
+      "question_type": "player_current_age"
+    },
+    {
+      "question": "What year was Miranda, the soccer player, born?",
+      "question_cantonese": "足球員祖奧米蘭達係邊年出世？",
+      "choices": {
+        "A": "1983",
+        "B": "1986",
+        "C": "1985",
+        "D": "1984"
+      },
+      "choices_cantonese": {
+        "A": "1983年",
+        "B": "1986年",
+        "C": "1985年",
+        "D": "1984年"
+      },
+      "correct_answer": "D",
+      "correct_birth_info": {
+        "birth_year": 1984,
+        "birth_date": "1984-09-07T00:00:00Z",
+        "age_in_2025": 41
+      },
+      "player_info": {
+        "name": "Miranda",
+        "name_cantonese": "祖奧米蘭達",
+        "id": "Q318119"
+      },
+      "distractors": [
+        "1983",
+        "1985",
+        "1986"
+      ],
+      "question_type": "player_birth_year"
+    },
+    {
+      "question": "How old is Miranda, the soccer player, in 2025?",
+      "question_cantonese": "足球員祖奧米蘭達喺2025年幾多歲？",
+      "choices": {
+        "A": "40",
+        "B": "43",
+        "C": "42",
+        "D": "41"
+      },
+      "choices_cantonese": {
+        "A": "40歲",
+        "B": "43歲",
+        "C": "42歲",
+        "D": "41歲"
+      },
+      "correct_answer": "D",
+      "correct_birth_info": {
+        "birth_year": 1984,
+        "birth_date": "1984-09-07T00:00:00Z",
+        "age_in_2025": 41
+      },
+      "player_info": {
+        "name": "Miranda",
+        "name_cantonese": "祖奧米蘭達",
+        "id": "Q318119"
+      },
+      "distractors": [
+        "42",
+        "40",
+        "43"
+      ],
+      "question_type": "player_current_age"
+    },
+    {
+      "question": "What year was Joshua Kimmich, the soccer player, born?",
+      "question_cantonese": "足球員約素亞·劍米克係邊年出世？",
+      "choices": {
+        "A": "1995",
+        "B": "1993",
+        "C": "1996",
+        "D": "1994"
+      },
+      "choices_cantonese": {
+        "A": "1995年",
+        "B": "1993年",
+        "C": "1996年",
+        "D": "1994年"
+      },
+      "correct_answer": "A",
+      "correct_birth_info": {
+        "birth_year": 1995,
+        "birth_date": "1995-02-08T00:00:00Z",
+        "age_in_2025": 30
+      },
+      "player_info": {
+        "name": "Joshua Kimmich",
+        "name_cantonese": "約素亞·劍米克",
+        "id": "Q13865408"
+      },
+      "distractors": [
+        "1994",
+        "1996",
+        "1993"
+      ],
+      "question_type": "player_birth_year"
+    },
+    {
+      "question": "How old is Joshua Kimmich, the soccer player, in 2025?",
+      "question_cantonese": "足球員約素亞·劍米克喺2025年幾多歲？",
+      "choices": {
+        "A": "29",
+        "B": "32",
+        "C": "31",
+        "D": "30"
+      },
+      "choices_cantonese": {
+        "A": "29歲",
+        "B": "32歲",
+        "C": "31歲",
+        "D": "30歲"
+      },
+      "correct_answer": "D",
+      "correct_birth_info": {
+        "birth_year": 1995,
+        "birth_date": "1995-02-08T00:00:00Z",
+        "age_in_2025": 30
+      },
+      "player_info": {
+        "name": "Joshua Kimmich",
+        "name_cantonese": "約素亞·劍米克",
+        "id": "Q13865408"
+      },
+      "distractors": [
+        "31",
+        "29",
+        "32"
+      ],
+      "question_type": "player_current_age"
+    },
+    {
+      "question": "What year was Yaya Touré, the soccer player, born?",
+      "question_cantonese": "足球員耶耶托尼係邊年出世？",
+      "choices": {
+        "A": "1984",
+        "B": "1982",
+        "C": "1983",
+        "D": "1985"
+      },
+      "choices_cantonese": {
+        "A": "1984年",
+        "B": "1982年",
+        "C": "1983年",
+        "D": "1985年"
+      },
+      "correct_answer": "C",
+      "correct_birth_info": {
+        "birth_year": 1983,
+        "birth_date": "1983-05-13T00:00:00Z",
+        "age_in_2025": 42
+      },
+      "player_info": {
+        "name": "Yaya Touré",
+        "name_cantonese": "耶耶托尼",
+        "id": "Q184277"
+      },
+      "distractors": [
+        "1984",
+        "1982",
+        "1985"
+      ],
+      "question_type": "player_birth_year"
+    },
+    {
+      "question": "How old is Yaya Touré, the soccer player, in 2025?",
+      "question_cantonese": "足球員耶耶托尼喺2025年幾多歲？",
+      "choices": {
+        "A": "44",
+        "B": "41",
+        "C": "43",
+        "D": "42"
+      },
+      "choices_cantonese": {
+        "A": "44歲",
+        "B": "41歲",
+        "C": "43歲",
+        "D": "42歲"
+      },
+      "correct_answer": "D",
+      "correct_birth_info": {
+        "birth_year": 1983,
+        "birth_date": "1983-05-13T00:00:00Z",
+        "age_in_2025": 42
+      },
+      "player_info": {
+        "name": "Yaya Touré",
+        "name_cantonese": "耶耶托尼",
+        "id": "Q184277"
+      },
+      "distractors": [
+        "43",
+        "41",
+        "44"
+      ],
+      "question_type": "player_current_age"
+    },
+    {
+      "question": "What year was Edinson Acavani, the soccer player, born?",
+      "question_cantonese": "足球員艾甸臣卡雲尼係邊年出世？",
+      "choices": {
+        "A": "1988",
+        "B": "1989",
+        "C": "1986",
+        "D": "1987"
+      },
+      "choices_cantonese": {
+        "A": "1988年",
+        "B": "1989年",
+        "C": "1986年",
+        "D": "1987年"
+      },
+      "correct_answer": "D",
+      "correct_birth_info": {
+        "birth_year": 1987,
+        "birth_date": "1987-02-14T00:00:00Z",
+        "age_in_2025": 38
+      },
+      "player_info": {
+        "name": "Edinson Acavani",
+        "name_cantonese": "艾甸臣卡雲尼",
+        "id": "Q167790"
+      },
+      "distractors": [
+        "1988",
+        "1986",
+        "1989"
+      ],
+      "question_type": "player_birth_year"
+    },
+    {
+      "question": "How old is Edinson Acavani, the soccer player, in 2025?",
+      "question_cantonese": "足球員艾甸臣卡雲尼喺2025年幾多歲？",
+      "choices": {
+        "A": "37",
+        "B": "38",
+        "C": "40",
+        "D": "39"
+      },
+      "choices_cantonese": {
+        "A": "37歲",
+        "B": "38歲",
+        "C": "40歲",
+        "D": "39歲"
+      },
+      "correct_answer": "B",
+      "correct_birth_info": {
+        "birth_year": 1987,
+        "birth_date": "1987-02-14T00:00:00Z",
+        "age_in_2025": 38
+      },
+      "player_info": {
+        "name": "Edinson Acavani",
+        "name_cantonese": "艾甸臣卡雲尼",
+        "id": "Q167790"
+      },
+      "distractors": [
+        "39",
+        "37",
+        "40"
+      ],
+      "question_type": "player_current_age"
+    },
+    {
+      "question": "What year was Arjen Robben, the soccer player, born?",
+      "question_cantonese": "足球員阿仁洛賓係邊年出世？",
+      "choices": {
+        "A": "1986",
+        "B": "1985",
+        "C": "1984",
+        "D": "1983"
+      },
+      "choices_cantonese": {
+        "A": "1986年",
+        "B": "1985年",
+        "C": "1984年",
+        "D": "1983年"
+      },
+      "correct_answer": "C",
+      "correct_birth_info": {
+        "birth_year": 1984,
+        "birth_date": "1984-01-23T00:00:00Z",
+        "age_in_2025": 41
+      },
+      "player_info": {
+        "name": "Arjen Robben",
+        "name_cantonese": "阿仁洛賓",
+        "id": "Q43913"
+      },
+      "distractors": [
+        "1983",
+        "1985",
+        "1986"
+      ],
+      "question_type": "player_birth_year"
+    },
+    {
+      "question": "How old is Arjen Robben, the soccer player, in 2025?",
+      "question_cantonese": "足球員阿仁洛賓喺2025年幾多歲？",
+      "choices": {
+        "A": "41",
+        "B": "42",
+        "C": "43",
+        "D": "40"
+      },
+      "choices_cantonese": {
+        "A": "41歲",
+        "B": "42歲",
+        "C": "43歲",
+        "D": "40歲"
+      },
+      "correct_answer": "A",
+      "correct_birth_info": {
+        "birth_year": 1984,
+        "birth_date": "1984-01-23T00:00:00Z",
+        "age_in_2025": 41
+      },
+      "player_info": {
+        "name": "Arjen Robben",
+        "name_cantonese": "阿仁洛賓",
+        "id": "Q43913"
+      },
+      "distractors": [
+        "42",
+        "40",
+        "43"
+      ],
+      "question_type": "player_current_age"
+    },
+    {
+      "question": "What year was Pierre-Emerick Aubameyang, the soccer player, born?",
+      "question_cantonese": "足球員奧巴美揚係邊年出世？",
+      "choices": {
+        "A": "1990",
+        "B": "1989",
+        "C": "1988",
+        "D": "1987"
+      },
+      "choices_cantonese": {
+        "A": "1990年",
+        "B": "1989年",
+        "C": "1988年",
+        "D": "1987年"
+      },
+      "correct_answer": "B",
+      "correct_birth_info": {
+        "birth_year": 1989,
+        "birth_date": "1989-06-18T00:00:00Z",
+        "age_in_2025": 36
+      },
+      "player_info": {
+        "name": "Pierre-Emerick Aubameyang",
+        "name_cantonese": "奧巴美揚",
+        "id": "Q44977"
+      },
+      "distractors": [
+        "1988",
+        "1990",
+        "1987"
+      ],
+      "question_type": "player_birth_year"
+    },
+    {
+      "question": "How old is Pierre-Emerick Aubameyang, the soccer player, in 2025?",
+      "question_cantonese": "足球員奧巴美揚喺2025年幾多歲？",
+      "choices": {
+        "A": "35",
+        "B": "36",
+        "C": "38",
+        "D": "37"
+      },
+      "choices_cantonese": {
+        "A": "35歲",
+        "B": "36歲",
+        "C": "38歲",
+        "D": "37歲"
+      },
+      "correct_answer": "B",
+      "correct_birth_info": {
+        "birth_year": 1989,
+        "birth_date": "1989-06-18T00:00:00Z",
+        "age_in_2025": 36
+      },
+      "player_info": {
+        "name": "Pierre-Emerick Aubameyang",
+        "name_cantonese": "奧巴美揚",
+        "id": "Q44977"
+      },
+      "distractors": [
+        "37",
+        "35",
+        "38"
+      ],
+      "question_type": "player_current_age"
+    },
+    {
+      "question": "What year was Hugo Lloris, the soccer player, born?",
+      "question_cantonese": "足球員曉高洛里斯係邊年出世？",
+      "choices": {
+        "A": "1985",
+        "B": "1988",
+        "C": "1987",
+        "D": "1986"
+      },
+      "choices_cantonese": {
+        "A": "1985年",
+        "B": "1988年",
+        "C": "1987年",
+        "D": "1986年"
+      },
+      "correct_answer": "D",
+      "correct_birth_info": {
+        "birth_year": 1986,
+        "birth_date": "1986-12-26T00:00:00Z",
+        "age_in_2025": 39
+      },
+      "player_info": {
+        "name": "Hugo Lloris",
+        "name_cantonese": "曉高洛里斯",
+        "id": "Q1907"
+      },
+      "distractors": [
+        "1987",
+        "1988",
+        "1985"
+      ],
+      "question_type": "player_birth_year"
+    },
+    {
+      "question": "How old is Hugo Lloris, the soccer player, in 2025?",
+      "question_cantonese": "足球員曉高洛里斯喺2025年幾多歲？",
+      "choices": {
+        "A": "38",
+        "B": "40",
+        "C": "39",
+        "D": "41"
+      },
+      "choices_cantonese": {
+        "A": "38歲",
+        "B": "40歲",
+        "C": "39歲",
+        "D": "41歲"
+      },
+      "correct_answer": "C",
+      "correct_birth_info": {
+        "birth_year": 1986,
+        "birth_date": "1986-12-26T00:00:00Z",
+        "age_in_2025": 39
+      },
+      "player_info": {
+        "name": "Hugo Lloris",
+        "name_cantonese": "曉高洛里斯",
+        "id": "Q1907"
+      },
+      "distractors": [
+        "40",
+        "38",
+        "41"
+      ],
+      "question_type": "player_current_age"
+    },
+    {
       "question": "Who is the youngest player among these options?",
       "question_cantonese": "邊個係呢啲選擇入面最後生嘅球員？",
       "choices": {
-        "A": "Bukayo Saka",
+        "A": "Jamal Musiala",
         "B": "Pedri",
         "C": "Jude Bellingham",
-        "D": "Jamal Musiala"
+        "D": "Bukayo Saka"
       },
       "choices_cantonese": {
-        "A": "布卡約·沙卡",
+        "A": "查馬爾·穆斯亞拿",
         "B": "柏迪",
         "C": "祖迪·比寧咸",
-        "D": "查馬爾·穆斯亞拿"
+        "D": "布卡約·沙卡"
       },
       "correct_answer": "C",
       "correct_birth_info": {
@@ -1699,14 +1699,14 @@
         "id": "Q66241169"
       },
       "distractors": [
-        "Bukayo Saka",
+        "Jamal Musiala",
         "Pedri",
-        "Jamal Musiala"
+        "Bukayo Saka"
       ],
       "distractors_cantonese": [
-        "布卡約·沙卡",
+        "查馬爾·穆斯亞拿",
         "柏迪",
-        "查馬爾·穆斯亞拿"
+        "布卡約·沙卡"
       ],
       "question_type": "player_youngest"
     },
@@ -1716,14 +1716,14 @@
       "choices": {
         "A": "Jamal Musiala",
         "B": "Jude Bellingham",
-        "C": "Bukayo Saka",
-        "D": "Pedri"
+        "C": "Pedri",
+        "D": "Bukayo Saka"
       },
       "choices_cantonese": {
         "A": "查馬爾·穆斯亞拿",
         "B": "祖迪·比寧咸",
-        "C": "布卡約·沙卡",
-        "D": "柏迪"
+        "C": "柏迪",
+        "D": "布卡約·沙卡"
       },
       "correct_answer": "B",
       "correct_birth_info": {
@@ -1737,50 +1737,13 @@
       },
       "distractors": [
         "Jamal Musiala",
-        "Bukayo Saka",
-        "Pedri"
+        "Pedri",
+        "Bukayo Saka"
       ],
       "distractors_cantonese": [
         "查馬爾·穆斯亞拿",
-        "布卡約·沙卡",
-        "柏迪"
-      ],
-      "question_type": "player_youngest"
-    },
-    {
-      "question": "Who is the youngest player among these options?",
-      "question_cantonese": "邊個係呢啲選擇入面最後生嘅球員？",
-      "choices": {
-        "A": "Pedri",
-        "B": "Jude Bellingham",
-        "C": "Bukayo Saka",
-        "D": "Jamal Musiala"
-      },
-      "choices_cantonese": {
-        "A": "柏迪",
-        "B": "祖迪·比寧咸",
-        "C": "布卡約·沙卡",
-        "D": "查馬爾·穆斯亞拿"
-      },
-      "correct_answer": "B",
-      "correct_birth_info": {
-        "birth_year": 2003,
-        "age_in_2025": 22
-      },
-      "player_info": {
-        "name": "Jude Bellingham",
-        "name_cantonese": "祖迪·比寧咸",
-        "id": "Q66241169"
-      },
-      "distractors": [
-        "Pedri",
-        "Bukayo Saka",
-        "Jamal Musiala"
-      ],
-      "distractors_cantonese": [
         "柏迪",
-        "布卡約·沙卡",
-        "查馬爾·穆斯亞拿"
+        "布卡約·沙卡"
       ],
       "question_type": "player_youngest"
     },
@@ -1825,18 +1788,18 @@
       "question": "Who is the youngest player among these options?",
       "question_cantonese": "邊個係呢啲選擇入面最後生嘅球員？",
       "choices": {
-        "A": "Jamal Musiala",
-        "B": "Bukayo Saka",
-        "C": "Jude Bellingham",
+        "A": "Jude Bellingham",
+        "B": "Jamal Musiala",
+        "C": "Bukayo Saka",
         "D": "Pedri"
       },
       "choices_cantonese": {
-        "A": "查馬爾·穆斯亞拿",
-        "B": "布卡約·沙卡",
-        "C": "祖迪·比寧咸",
+        "A": "祖迪·比寧咸",
+        "B": "查馬爾·穆斯亞拿",
+        "C": "布卡約·沙卡",
         "D": "柏迪"
       },
-      "correct_answer": "C",
+      "correct_answer": "A",
       "correct_birth_info": {
         "birth_year": 2003,
         "age_in_2025": 22
@@ -1859,21 +1822,58 @@
       "question_type": "player_youngest"
     },
     {
+      "question": "Who is the youngest player among these options?",
+      "question_cantonese": "邊個係呢啲選擇入面最後生嘅球員？",
+      "choices": {
+        "A": "Pedri",
+        "B": "Jamal Musiala",
+        "C": "Jude Bellingham",
+        "D": "Bukayo Saka"
+      },
+      "choices_cantonese": {
+        "A": "柏迪",
+        "B": "查馬爾·穆斯亞拿",
+        "C": "祖迪·比寧咸",
+        "D": "布卡約·沙卡"
+      },
+      "correct_answer": "C",
+      "correct_birth_info": {
+        "birth_year": 2003,
+        "age_in_2025": 22
+      },
+      "player_info": {
+        "name": "Jude Bellingham",
+        "name_cantonese": "祖迪·比寧咸",
+        "id": "Q66241169"
+      },
+      "distractors": [
+        "Pedri",
+        "Jamal Musiala",
+        "Bukayo Saka"
+      ],
+      "distractors_cantonese": [
+        "柏迪",
+        "查馬爾·穆斯亞拿",
+        "布卡約·沙卡"
+      ],
+      "question_type": "player_youngest"
+    },
+    {
       "question": "Who is the oldest player among these options?",
       "question_cantonese": "邊個係呢啲選擇入面最年長嘅球員？",
       "choices": {
-        "A": "Gianluigi Buffon",
+        "A": "Xavi Hernández",
         "B": "Zlatan Ibrahimović",
-        "C": "Xavi Hernández",
+        "C": "Gianluigi Buffon",
         "D": "Andrea Barzagli"
       },
       "choices_cantonese": {
-        "A": "保方",
+        "A": "沙維",
         "B": "伊巴謙莫域",
-        "C": "沙維",
+        "C": "保方",
         "D": "安祖亞·巴沙利"
       },
-      "correct_answer": "A",
+      "correct_answer": "C",
       "correct_birth_info": {
         "birth_year": 1978,
         "age_in_2025": 47
@@ -1884,13 +1884,13 @@
         "id": "Q68060"
       },
       "distractors": [
-        "Zlatan Ibrahimović",
         "Xavi Hernández",
+        "Zlatan Ibrahimović",
         "Andrea Barzagli"
       ],
       "distractors_cantonese": [
-        "伊巴謙莫域",
         "沙維",
+        "伊巴謙莫域",
         "安祖亞·巴沙利"
       ],
       "question_type": "player_oldest"
@@ -1937,43 +1937,6 @@
       "question_cantonese": "邊個係呢啲選擇入面最年長嘅球員？",
       "choices": {
         "A": "Gianluigi Buffon",
-        "B": "Andrea Barzagli",
-        "C": "Zlatan Ibrahimović",
-        "D": "Xavi Hernández"
-      },
-      "choices_cantonese": {
-        "A": "保方",
-        "B": "安祖亞·巴沙利",
-        "C": "伊巴謙莫域",
-        "D": "沙維"
-      },
-      "correct_answer": "A",
-      "correct_birth_info": {
-        "birth_year": 1978,
-        "age_in_2025": 47
-      },
-      "player_info": {
-        "name": "Gianluigi Buffon",
-        "name_cantonese": "保方",
-        "id": "Q68060"
-      },
-      "distractors": [
-        "Andrea Barzagli",
-        "Zlatan Ibrahimović",
-        "Xavi Hernández"
-      ],
-      "distractors_cantonese": [
-        "安祖亞·巴沙利",
-        "伊巴謙莫域",
-        "沙維"
-      ],
-      "question_type": "player_oldest"
-    },
-    {
-      "question": "Who is the oldest player among these options?",
-      "question_cantonese": "邊個係呢啲選擇入面最年長嘅球員？",
-      "choices": {
-        "A": "Gianluigi Buffon",
         "B": "Zlatan Ibrahimović",
         "C": "Andrea Barzagli",
         "D": "Xavi Hernández"
@@ -2010,18 +1973,18 @@
       "question": "Who is the oldest player among these options?",
       "question_cantonese": "邊個係呢啲選擇入面最年長嘅球員？",
       "choices": {
-        "A": "Gianluigi Buffon",
-        "B": "Andrea Barzagli",
-        "C": "Xavi Hernández",
+        "A": "Xavi Hernández",
+        "B": "Gianluigi Buffon",
+        "C": "Andrea Barzagli",
         "D": "Zlatan Ibrahimović"
       },
       "choices_cantonese": {
-        "A": "保方",
-        "B": "安祖亞·巴沙利",
-        "C": "沙維",
+        "A": "沙維",
+        "B": "保方",
+        "C": "安祖亞·巴沙利",
         "D": "伊巴謙莫域"
       },
-      "correct_answer": "A",
+      "correct_answer": "B",
       "correct_birth_info": {
         "birth_year": 1978,
         "age_in_2025": 47
@@ -2032,14 +1995,51 @@
         "id": "Q68060"
       },
       "distractors": [
-        "Andrea Barzagli",
         "Xavi Hernández",
+        "Andrea Barzagli",
         "Zlatan Ibrahimović"
       ],
       "distractors_cantonese": [
-        "安祖亞·巴沙利",
         "沙維",
+        "安祖亞·巴沙利",
         "伊巴謙莫域"
+      ],
+      "question_type": "player_oldest"
+    },
+    {
+      "question": "Who is the oldest player among these options?",
+      "question_cantonese": "邊個係呢啲選擇入面最年長嘅球員？",
+      "choices": {
+        "A": "Xavi Hernández",
+        "B": "Zlatan Ibrahimović",
+        "C": "Gianluigi Buffon",
+        "D": "Andrea Barzagli"
+      },
+      "choices_cantonese": {
+        "A": "沙維",
+        "B": "伊巴謙莫域",
+        "C": "保方",
+        "D": "安祖亞·巴沙利"
+      },
+      "correct_answer": "C",
+      "correct_birth_info": {
+        "birth_year": 1978,
+        "age_in_2025": 47
+      },
+      "player_info": {
+        "name": "Gianluigi Buffon",
+        "name_cantonese": "保方",
+        "id": "Q68060"
+      },
+      "distractors": [
+        "Xavi Hernández",
+        "Zlatan Ibrahimović",
+        "Andrea Barzagli"
+      ],
+      "distractors_cantonese": [
+        "沙維",
+        "伊巴謙莫域",
+        "安祖亞·巴沙利"
       ],
       "question_type": "player_oldest"
     }

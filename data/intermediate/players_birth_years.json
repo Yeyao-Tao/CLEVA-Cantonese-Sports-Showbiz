@@ -6,9 +6,9 @@
       "players": "Dictionary of player_id -> player data with birth year information",
       "note": "Only includes players with valid birth year data"
     },
-    "extraction_date": "2025-09-08T22:00:48.497074",
+    "extraction_date": "2025-09-08T22:25:53.417691",
     "total_players_with_birth_data": 141,
-    "processing_time_seconds": 0.31,
+    "processing_time_seconds": 0.27,
     "performance_optimization": "Uses cached Cantonese names for improved speed",
     "filtering_info": {
       "original_player_count": 141,
@@ -2995,7 +2995,7 @@
     "filtering_ratio": 100.0
   },
   "processing_info": {
-    "timestamp": "2025-09-08T22:00:48.496995",
+    "timestamp": "2025-09-08T22:25:53.417597",
     "directory_processed": "./data/intermediate/football_players_triples",
     "cache_directory_used": "./data/cantonese_name_mapping",
     "cache_status": "Using cached names for 141 players"

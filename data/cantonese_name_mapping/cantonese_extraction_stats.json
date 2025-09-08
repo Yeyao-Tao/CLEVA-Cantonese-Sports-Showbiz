@@ -1,7 +1,7 @@
 {
   "metadata": {
     "description": "Statistics about Cantonese name extraction from WikiData",
-    "extraction_date": "2025-09-08T21:47:14.534856"
+    "extraction_date": "2025-09-08T22:25:18.005494"
   },
   "statistics": {
     "total_players": 141,
@@ -16,7 +16,7 @@
     "teams_from_paranames": 234
   },
   "processing_info": {
-    "timestamp": "2025-09-08T21:47:14.534856",
+    "timestamp": "2025-09-08T22:25:18.005494",
     "directory_processed": "./data/intermediate/football_players_triples",
     "paranames_file_used": "./data/raw/paranames.tsv",
     "jsonld_files_processed": 141

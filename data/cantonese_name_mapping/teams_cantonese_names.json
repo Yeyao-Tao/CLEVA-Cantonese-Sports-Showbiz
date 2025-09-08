@@ -5,23 +5,13 @@
     "total_teams": 457,
     "teams_with_cantonese": 234,
     "cantonese_coverage_percentage": 51.2,
-    "extraction_date": "2025-09-08T21:47:14.534856",
+    "extraction_date": "2025-09-08T22:25:18.005494",
     "sources": [
       "WikiData JSONLD",
       "ParaNames dataset"
     ]
   },
   "teams": {
-    "Q3873511": {
-      "id": "Q3873511",
-      "english": "Portugal national under-18 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national association football team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
     "Q1630430": {
       "id": "Q1630430",
       "english": "Portugal national under-21 football team",
@@ -31,31 +21,6 @@
       "cantonese_best": "葡萄牙21歲以下國家足球隊",
       "cantonese_lang": "zh-hk",
       "description_english": "national association football team",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q10333": {
-      "id": "Q10333",
-      "english": "Valencia CF",
-      "cantonese": {
-        "yue": "華倫西亞足球會"
-      },
-      "cantonese_best": "華倫西亞足球會",
-      "cantonese_lang": "yue",
-      "description_english": "association football club in Valencia, Spain",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q50602": {
-      "id": "Q50602",
-      "english": "Manchester City F.C.",
-      "cantonese": {
-        "yue": "曼城足球會",
-        "zh-hk": "曼城足球會"
-      },
-      "cantonese_best": "曼城足球會",
-      "cantonese_lang": "yue",
-      "description_english": "association football club in Manchester, England",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -72,60 +37,6 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q631": {
-      "id": "Q631",
-      "english": "Inter Milan",
-      "cantonese": {
-        "yue": "國際米蘭"
-      },
-      "cantonese_best": "國際米蘭",
-      "cantonese_lang": "yue",
-      "description_english": "association football club based in Milan, Lombardy, Italy",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q3590754": {
-      "id": "Q3590754",
-      "english": "Portugal national under-17 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national association football team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q3873524": {
-      "id": "Q3873524",
-      "english": "Portugal national under-19 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national association football team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q7387221": {
-      "id": "Q7387221",
-      "english": "S.L. Benfica B",
-      "cantonese": {
-        "zh-hk": "賓菲加體育會B隊"
-      },
-      "cantonese_best": "賓菲加體育會B隊",
-      "cantonese_lang": "zh-hk",
-      "description_english": "association football team club in Lisbon, Portugal",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q1772776": {
-      "id": "Q1772776",
-      "english": "Portugal national under-20 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national association football team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
     "Q267245": {
       "id": "Q267245",
       "english": "Portugal men's national football team",
@@ -136,19 +47,6 @@
       "cantonese_best": "葡萄牙足球代表隊",
       "cantonese_lang": "yue",
       "description_english": "men's national association football team representing Portugal",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q15789": {
-      "id": "Q15789",
-      "english": "FC Bayern Munich",
-      "cantonese": {
-        "zh-hk": "拜仁慕尼黑足球會",
-        "yue": "拜仁慕尼黑"
-      },
-      "cantonese_best": "拜仁慕尼黑",
-      "cantonese_lang": "yue",
-      "description_english": "association football club in Munich, Germany",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -165,9 +63,29 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
+    "Q3873524": {
+      "id": "Q3873524",
+      "english": "Portugal national under-19 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national association football team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
     "Q7232579": {
       "id": "Q7232579",
       "english": "Portugal national under-16 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national association football team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q3590754": {
+      "id": "Q3590754",
+      "english": "Portugal national under-17 football team",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
@@ -200,28 +118,85 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q1130849": {
-      "id": "Q1130849",
-      "english": "Liverpool F.C.",
+    "Q1772776": {
+      "id": "Q1772776",
+      "english": "Portugal national under-20 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national association football team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q15789": {
+      "id": "Q15789",
+      "english": "FC Bayern Munich",
       "cantonese": {
-        "yue": "利物浦足球會",
-        "zh-hk": "利物浦足球會"
+        "zh-hk": "拜仁慕尼黑足球會",
+        "yue": "拜仁慕尼黑"
       },
-      "cantonese_best": "利物浦足球會",
+      "cantonese_best": "拜仁慕尼黑",
       "cantonese_lang": "yue",
-      "description_english": "association football club in Liverpool, England",
+      "description_english": "association football club in Munich, Germany",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q8682": {
-      "id": "Q8682",
-      "english": "Real Madrid CF",
+    "Q7387221": {
+      "id": "Q7387221",
+      "english": "S.L. Benfica B",
       "cantonese": {
-        "yue": "皇家馬德里足球會"
+        "zh-hk": "賓菲加體育會B隊"
       },
-      "cantonese_best": "皇家馬德里足球會",
+      "cantonese_best": "賓菲加體育會B隊",
+      "cantonese_lang": "zh-hk",
+      "description_english": "association football team club in Lisbon, Portugal",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q3873511": {
+      "id": "Q3873511",
+      "english": "Portugal national under-18 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national association football team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q50602": {
+      "id": "Q50602",
+      "english": "Manchester City F.C.",
+      "cantonese": {
+        "yue": "曼城足球會",
+        "zh-hk": "曼城足球會"
+      },
+      "cantonese_best": "曼城足球會",
       "cantonese_lang": "yue",
-      "description_english": "association football club in Madrid, Spain",
+      "description_english": "association football club in Manchester, England",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q631": {
+      "id": "Q631",
+      "english": "Inter Milan",
+      "cantonese": {
+        "yue": "國際米蘭"
+      },
+      "cantonese_best": "國際米蘭",
+      "cantonese_lang": "yue",
+      "description_english": "association football club based in Milan, Lombardy, Italy",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q10333": {
+      "id": "Q10333",
+      "english": "Valencia CF",
+      "cantonese": {
+        "yue": "華倫西亞足球會"
+      },
+      "cantonese_best": "華倫西亞足球會",
+      "cantonese_lang": "yue",
+      "description_english": "association football club in Valencia, Spain",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -235,6 +210,16 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
+    "Q2308235": {
+      "id": "Q2308235",
+      "english": "Brazil national under-20 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national association football team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
     "Q80987": {
       "id": "Q80987",
       "english": "Fluminense F.C.",
@@ -242,16 +227,6 @@
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
       "description_english": "sports club in Rio de Janeiro, Brazil best known for its professional association football team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q12217": {
-      "id": "Q12217",
-      "english": "Real Madrid Castilla",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "Spanish association football team, reserve team of Real Madrid CF",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -268,25 +243,35 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q309480": {
-      "id": "Q309480",
-      "english": "Al Ittihad FC",
-      "cantonese": {
-        "yue": "伊蒂哈德"
-      },
-      "cantonese_best": "伊蒂哈德",
-      "cantonese_lang": "yue",
-      "description_english": "Saudi Arabian association football club based in Jeddah",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q2308235": {
-      "id": "Q2308235",
-      "english": "Brazil national under-20 football team",
+    "Q180305": {
+      "id": "Q180305",
+      "english": "AS Monaco FC",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
-      "description_english": "national association football team",
+      "description_english": "association football club in Monaco",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q8682": {
+      "id": "Q8682",
+      "english": "Real Madrid CF",
+      "cantonese": {
+        "yue": "皇家馬德里足球會"
+      },
+      "cantonese_best": "皇家馬德里足球會",
+      "cantonese_lang": "yue",
+      "description_english": "association football club in Madrid, Spain",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q12217": {
+      "id": "Q12217",
+      "english": "Real Madrid Castilla",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "Spanish association football team, reserve team of Real Madrid CF",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -302,15 +287,56 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q180305": {
-      "id": "Q180305",
-      "english": "AS Monaco FC",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "association football club in Monaco",
+    "Q309480": {
+      "id": "Q309480",
+      "english": "Al Ittihad FC",
+      "cantonese": {
+        "yue": "伊蒂哈德"
+      },
+      "cantonese_best": "伊蒂哈德",
+      "cantonese_lang": "yue",
+      "description_english": "Saudi Arabian association football club based in Jeddah",
       "description_cantonese": {},
-      "cantonese_source": "none"
+      "cantonese_source": "paranames"
+    },
+    "Q1130849": {
+      "id": "Q1130849",
+      "english": "Liverpool F.C.",
+      "cantonese": {
+        "yue": "利物浦足球會",
+        "zh-hk": "利物浦足球會"
+      },
+      "cantonese_best": "利物浦足球會",
+      "cantonese_lang": "yue",
+      "description_english": "association football club in Liverpool, England",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q9617": {
+      "id": "Q9617",
+      "english": "Arsenal F.C.",
+      "cantonese": {
+        "yue": "阿仙奴",
+        "zh-hk": "阿仙奴足球會"
+      },
+      "cantonese_best": "阿仙奴",
+      "cantonese_lang": "yue",
+      "description_english": "association football club in London, England",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q8723": {
+      "id": "Q8723",
+      "english": "Real Betis Balompié",
+      "cantonese": {
+        "zh-hk": "皇家貝迪斯",
+        "yue": "皇家貝迪斯足球會"
+      },
+      "cantonese_best": "皇家貝迪斯足球會",
+      "cantonese_lang": "yue",
+      "description_english": "Spanish professional football club",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
     },
     "Q2736735": {
       "id": "Q2736735",
@@ -319,6 +345,36 @@
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
       "description_english": "national association football team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q957565": {
+      "id": "Q957565",
+      "english": "Greece national under-21 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national association football team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q3180055": {
+      "id": "Q3180055",
+      "english": "Niki Volos F.C.",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "Association football team in Greece",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q2819143": {
+      "id": "Q2819143",
+      "english": "A.E.K.",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "multi-sports club in Greece",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -334,6 +390,40 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
+    "Q51976": {
+      "id": "Q51976",
+      "english": "SV Werder Bremen",
+      "cantonese": {
+        "yue": "雲達不萊梅體育會"
+      },
+      "cantonese_best": "雲達不萊梅體育會",
+      "cantonese_lang": "yue",
+      "description_english": "association football club in Bremen, Germany",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q2074": {
+      "id": "Q2074",
+      "english": "Genoa CFC",
+      "cantonese": {
+        "yue": "熱拿亞木球及足球會"
+      },
+      "cantonese_best": "熱拿亞木球及足球會",
+      "cantonese_lang": "yue",
+      "description_english": "association football club in Genoa, Italy",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q19628": {
+      "id": "Q19628",
+      "english": "Olympiacos F.C.",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "professional association football club based in Piraeus, Greece. Part of the major multi-sport club Olympiacos SFP",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
     "Q134925": {
       "id": "Q134925",
       "english": "Greece men's national football team",
@@ -346,16 +436,6 @@
       "description_english": "men's national association football team representing Greece",
       "description_cantonese": {},
       "cantonese_source": "paranames"
-    },
-    "Q1543": {
-      "id": "Q1543",
-      "english": "AC Milan",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "football club in Milan, Italy",
-      "description_cantonese": {},
-      "cantonese_source": "none"
     },
     "Q41420": {
       "id": "Q41420",
@@ -379,107 +459,15 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q8723": {
-      "id": "Q8723",
-      "english": "Real Betis Balompié",
-      "cantonese": {
-        "zh-hk": "皇家貝迪斯",
-        "yue": "皇家貝迪斯足球會"
-      },
-      "cantonese_best": "皇家貝迪斯足球會",
-      "cantonese_lang": "yue",
-      "description_english": "Spanish professional football club",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q3180055": {
-      "id": "Q3180055",
-      "english": "Niki Volos F.C.",
+    "Q1543": {
+      "id": "Q1543",
+      "english": "AC Milan",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
-      "description_english": "Association football team in Greece",
+      "description_english": "football club in Milan, Italy",
       "description_cantonese": {},
       "cantonese_source": "none"
-    },
-    "Q9617": {
-      "id": "Q9617",
-      "english": "Arsenal F.C.",
-      "cantonese": {
-        "yue": "阿仙奴",
-        "zh-hk": "阿仙奴足球會"
-      },
-      "cantonese_best": "阿仙奴",
-      "cantonese_lang": "yue",
-      "description_english": "association football club in London, England",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q2074": {
-      "id": "Q2074",
-      "english": "Genoa CFC",
-      "cantonese": {
-        "yue": "熱拿亞木球及足球會"
-      },
-      "cantonese_best": "熱拿亞木球及足球會",
-      "cantonese_lang": "yue",
-      "description_english": "association football club in Genoa, Italy",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q51976": {
-      "id": "Q51976",
-      "english": "SV Werder Bremen",
-      "cantonese": {
-        "yue": "雲達不萊梅體育會"
-      },
-      "cantonese_best": "雲達不萊梅體育會",
-      "cantonese_lang": "yue",
-      "description_english": "association football club in Bremen, Germany",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q19628": {
-      "id": "Q19628",
-      "english": "Olympiacos F.C.",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "professional association football club based in Piraeus, Greece. Part of the major multi-sport club Olympiacos SFP",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q2819143": {
-      "id": "Q2819143",
-      "english": "A.E.K.",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "multi-sports club in Greece",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q957565": {
-      "id": "Q957565",
-      "english": "Greece national under-21 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national association football team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q704": {
-      "id": "Q704",
-      "english": "Olympique Lyonnais",
-      "cantonese": {
-        "yue": "奧林匹克里昂"
-      },
-      "cantonese_best": "奧林匹克里昂",
-      "cantonese_lang": "yue",
-      "description_english": "association football club in Lyon, France",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
     },
     "Q314851": {
       "id": "Q314851",
@@ -491,15 +479,28 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q51974": {
-      "id": "Q51974",
-      "english": "Hamburger SV",
+    "Q324854": {
+      "id": "Q324854",
+      "english": "Germany national under-19 football team",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
-      "description_english": "German sports club based in Hamburg, with its largest branch being its football department",
+      "description_english": "national association football team",
       "description_cantonese": {},
       "cantonese_source": "none"
+    },
+    "Q102720": {
+      "id": "Q102720",
+      "english": "Hertha BSC",
+      "cantonese": {
+        "zh-hk": "哈化柏林足球會",
+        "yue": "哈化柏林體育會"
+      },
+      "cantonese_best": "哈化柏林體育會",
+      "cantonese_lang": "yue",
+      "description_english": "sports club of Berlin in Germany",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
     },
     "Q43310": {
       "id": "Q43310",
@@ -514,16 +515,35 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q102720": {
-      "id": "Q102720",
-      "english": "Hertha BSC",
+    "Q51974": {
+      "id": "Q51974",
+      "english": "Hamburger SV",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "German sports club based in Hamburg, with its largest branch being its football department",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q920263": {
+      "id": "Q920263",
+      "english": "Hertha BSC II",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "association football club",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q704": {
+      "id": "Q704",
+      "english": "Olympique Lyonnais",
       "cantonese": {
-        "zh-hk": "哈化柏林足球會",
-        "yue": "哈化柏林體育會"
+        "yue": "奧林匹克里昂"
       },
-      "cantonese_best": "哈化柏林體育會",
+      "cantonese_best": "奧林匹克里昂",
       "cantonese_lang": "yue",
-      "description_english": "sports club of Berlin in Germany",
+      "description_english": "association football club in Lyon, France",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -561,25 +581,39 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q920263": {
-      "id": "Q920263",
-      "english": "Hertha BSC II",
+    "Q204238": {
+      "id": "Q204238",
+      "english": "England national under-21 association football team",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
-      "description_english": "association football club",
+      "description_english": "national under-21 association football team representing England",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q324854": {
-      "id": "Q324854",
-      "english": "Germany national under-19 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national association football team",
+    "Q1049171": {
+      "id": "Q1049171",
+      "english": "England national under-18 association football team",
+      "cantonese": {
+        "zh-hk": "英格蘭18歲以下足球代表隊"
+      },
+      "cantonese_best": "英格蘭18歲以下足球代表隊",
+      "cantonese_lang": "zh-hk",
+      "description_english": "national under-18 association football team representing England",
       "description_cantonese": {},
-      "cantonese_source": "none"
+      "cantonese_source": "paranames"
+    },
+    "Q2752922": {
+      "id": "Q2752922",
+      "english": "England national under-17 association football team",
+      "cantonese": {
+        "zh-hk": "英格蘭17歲以下足球代表隊"
+      },
+      "cantonese_best": "英格蘭17歲以下足球代表隊",
+      "cantonese_lang": "zh-hk",
+      "description_english": "national under-17 association football team representing England",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
     },
     "Q4201740": {
       "id": "Q4201740",
@@ -605,40 +639,6 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q204238": {
-      "id": "Q204238",
-      "english": "England national under-21 association football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national under-21 association football team representing England",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q2752922": {
-      "id": "Q2752922",
-      "english": "England national under-17 association football team",
-      "cantonese": {
-        "zh-hk": "英格蘭17歲以下足球代表隊"
-      },
-      "cantonese_best": "英格蘭17歲以下足球代表隊",
-      "cantonese_lang": "zh-hk",
-      "description_english": "national under-17 association football team representing England",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q1049171": {
-      "id": "Q1049171",
-      "english": "England national under-18 association football team",
-      "cantonese": {
-        "zh-hk": "英格蘭18歲以下足球代表隊"
-      },
-      "cantonese_best": "英格蘭18歲以下足球代表隊",
-      "cantonese_lang": "zh-hk",
-      "description_english": "national under-18 association football team representing England",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
     "Q47762": {
       "id": "Q47762",
       "english": "England men's national association football team",
@@ -648,30 +648,6 @@
       "cantonese_best": "英格蘭足球代表隊",
       "cantonese_lang": "yue",
       "description_english": "men's national association football team representing England",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q388972": {
-      "id": "Q388972",
-      "english": "FC Metalurh Donetsk",
-      "cantonese": {
-        "zh-hk": "頓涅茨克冶金工人足球會"
-      },
-      "cantonese_best": "頓涅茨克冶金工人足球會",
-      "cantonese_lang": "zh-hk",
-      "description_english": "professional football club based in Donetsk, Ukraine",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q3866968": {
-      "id": "Q3866968",
-      "english": "Qingdao F.C.",
-      "cantonese": {
-        "zh-hk": "青島足球俱樂部"
-      },
-      "cantonese_best": "青島足球俱樂部",
-      "cantonese_lang": "zh-hk",
-      "description_english": "Chinese professional football club",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -687,6 +663,18 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
+    "Q3866968": {
+      "id": "Q3866968",
+      "english": "Qingdao F.C.",
+      "cantonese": {
+        "zh-hk": "青島足球俱樂部"
+      },
+      "cantonese_best": "青島足球俱樂部",
+      "cantonese_lang": "zh-hk",
+      "description_english": "Chinese professional football club",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
     "Q849139": {
       "id": "Q849139",
       "english": "K.S.K. Beveren",
@@ -694,6 +682,51 @@
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
       "description_english": "association football club in Beveren, Belgium",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q388972": {
+      "id": "Q388972",
+      "english": "FC Metalurh Donetsk",
+      "cantonese": {
+        "zh-hk": "頓涅茨克冶金工人足球會"
+      },
+      "cantonese_best": "頓涅茨克冶金工人足球會",
+      "cantonese_lang": "zh-hk",
+      "description_english": "professional football club based in Donetsk, Ukraine",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q1450568": {
+      "id": "Q1450568",
+      "english": "France national under-17 association football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national under-17 association football team representing France",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q483020": {
+      "id": "Q483020",
+      "english": "Paris Saint-Germain FC",
+      "cantonese": {
+        "zh-hk": "巴黎聖日耳門足球會",
+        "yue": "巴黎聖日耳門"
+      },
+      "cantonese_best": "巴黎聖日耳門",
+      "cantonese_lang": "yue",
+      "description_english": "association football club in Paris, France",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q47774": {
+      "id": "Q47774",
+      "english": "France men's national association football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national association football team representing France",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -717,58 +750,23 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q1450568": {
-      "id": "Q1450568",
-      "english": "France national under-17 association football team",
+    "Q1641573": {
+      "id": "Q1641573",
+      "english": "Colombia national under-20 football team",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
-      "description_english": "national under-17 association football team representing France",
+      "description_english": "national association football team",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q47774": {
-      "id": "Q47774",
-      "english": "France men's national association football team",
+    "Q332636": {
+      "id": "Q332636",
+      "english": "Envigado Fútbol Club",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
-      "description_english": "national association football team representing France",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q483020": {
-      "id": "Q483020",
-      "english": "Paris Saint-Germain FC",
-      "cantonese": {
-        "zh-hk": "巴黎聖日耳門足球會",
-        "yue": "巴黎聖日耳門"
-      },
-      "cantonese_best": "巴黎聖日耳門",
-      "cantonese_lang": "yue",
-      "description_english": "association football club in Paris, France",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q633223": {
-      "id": "Q633223",
-      "english": "Club León",
-      "cantonese": {
-        "zh-hk": "雷歐"
-      },
-      "cantonese_best": "雷歐",
-      "cantonese_lang": "zh-hk",
-      "description_english": "Mexican men's professional football club",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q311268": {
-      "id": "Q311268",
-      "english": "Al-Rayyan",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "association football club",
+      "description_english": "association football club in Envigado, Colombia",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -785,13 +783,25 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q3589930": {
-      "id": "Q3589930",
-      "english": "Colombia national under-17 football team",
+    "Q692646": {
+      "id": "Q692646",
+      "english": "Club Atlético Banfield",
+      "cantonese": {
+        "zh-hk": "班菲特體育會"
+      },
+      "cantonese_best": "班菲特體育會",
+      "cantonese_lang": "zh-hk",
+      "description_english": "Argentine sports club",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q311268": {
+      "id": "Q311268",
+      "english": "Al-Rayyan",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
-      "description_english": "national association football team",
+      "description_english": "association football club",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -807,27 +817,29 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q692646": {
-      "id": "Q692646",
-      "english": "Club Atlético Banfield",
+    "Q10300": {
+      "id": "Q10300",
+      "english": "Rayo Vallecano",
       "cantonese": {
-        "zh-hk": "班菲特體育會"
+        "yue": "華歷簡奴"
       },
-      "cantonese_best": "班菲特體育會",
-      "cantonese_lang": "zh-hk",
-      "description_english": "Argentine sports club",
+      "cantonese_best": "華歷簡奴",
+      "cantonese_lang": "yue",
+      "description_english": "Spanish football team",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q332636": {
-      "id": "Q332636",
-      "english": "Envigado Fútbol Club",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "association football club in Envigado, Colombia",
+    "Q633223": {
+      "id": "Q633223",
+      "english": "Club León",
+      "cantonese": {
+        "zh-hk": "雷歐"
+      },
+      "cantonese_best": "雷歐",
+      "cantonese_lang": "zh-hk",
+      "description_english": "Mexican men's professional football club",
       "description_cantonese": {},
-      "cantonese_source": "none"
+      "cantonese_source": "paranames"
     },
     "Q128446": {
       "id": "Q128446",
@@ -842,27 +854,15 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q1641573": {
-      "id": "Q1641573",
-      "english": "Colombia national under-20 football team",
+    "Q3589930": {
+      "id": "Q3589930",
+      "english": "Colombia national under-17 football team",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
       "description_english": "national association football team",
       "description_cantonese": {},
       "cantonese_source": "none"
-    },
-    "Q10300": {
-      "id": "Q10300",
-      "english": "Rayo Vallecano",
-      "cantonese": {
-        "yue": "華歷簡奴"
-      },
-      "cantonese_best": "華歷簡奴",
-      "cantonese_lang": "yue",
-      "description_english": "Spanish football team",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
     },
     "Q5794": {
       "id": "Q5794",
@@ -874,43 +874,6 @@
       "cantonese_best": "愛華頓",
       "cantonese_lang": "yue",
       "description_english": "association football club in Liverpool, England",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q18739": {
-      "id": "Q18739",
-      "english": "Sunderland A.F.C.",
-      "cantonese": {
-        "yue": "新特蘭"
-      },
-      "cantonese_best": "新特蘭",
-      "cantonese_lang": "yue",
-      "description_english": "association football club in Sunderland, England",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q81888": {
-      "id": "Q81888",
-      "english": "AFC Ajax",
-      "cantonese": {
-        "zh-hk": "阿積士足球會",
-        "yue": "阿積士足球會"
-      },
-      "cantonese_best": "阿積士足球會",
-      "cantonese_lang": "yue",
-      "description_english": "Dutch association football team",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q1049176": {
-      "id": "Q1049176",
-      "english": "England national under-20 association football team",
-      "cantonese": {
-        "zh-hk": "英格蘭20歲以下足球代表隊"
-      },
-      "cantonese_best": "英格蘭20歲以下足球代表隊",
-      "cantonese_lang": "zh-hk",
-      "description_english": "national under-20 association football team representing England",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -937,6 +900,43 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
+    "Q81888": {
+      "id": "Q81888",
+      "english": "AFC Ajax",
+      "cantonese": {
+        "zh-hk": "阿積士足球會",
+        "yue": "阿積士足球會"
+      },
+      "cantonese_best": "阿積士足球會",
+      "cantonese_lang": "yue",
+      "description_english": "Dutch association football team",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q18739": {
+      "id": "Q18739",
+      "english": "Sunderland A.F.C.",
+      "cantonese": {
+        "yue": "新特蘭"
+      },
+      "cantonese_best": "新特蘭",
+      "cantonese_lang": "yue",
+      "description_english": "association football club in Sunderland, England",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q1049176": {
+      "id": "Q1049176",
+      "english": "England national under-20 association football team",
+      "cantonese": {
+        "zh-hk": "英格蘭20歲以下足球代表隊"
+      },
+      "cantonese_best": "英格蘭20歲以下足球代表隊",
+      "cantonese_lang": "zh-hk",
+      "description_english": "national under-20 association football team representing England",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
     "Q19571": {
       "id": "Q19571",
       "english": "Brentford F.C.",
@@ -946,44 +946,6 @@
       "cantonese_best": "賓福特足球會",
       "cantonese_lang": "yue",
       "description_english": "association football club in London, England",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q506832": {
-      "id": "Q506832",
-      "english": "Club Athletico Paranaense",
-      "cantonese": {
-        "zh-hk": "帕拉尼恩斯體育會"
-      },
-      "cantonese_best": "帕拉尼恩斯體育會",
-      "cantonese_lang": "zh-hk",
-      "description_english": "association football club in Brazil",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q172025": {
-      "id": "Q172025",
-      "english": "Chile men's national football team",
-      "cantonese": {
-        "zh-hk": "智利國家足球隊",
-        "yue": "智利足球代表隊"
-      },
-      "cantonese_best": "智利足球代表隊",
-      "cantonese_lang": "yue",
-      "description_english": "men's national association football team representing Chile",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q207373": {
-      "id": "Q207373",
-      "english": "Club Social y Deportivo Colo Colo",
-      "cantonese": {
-        "zh-hk": "高魯高魯體育會",
-        "yue": "高路高路體育會"
-      },
-      "cantonese_best": "高路高路體育會",
-      "cantonese_lang": "yue",
-      "description_english": "Chilean football club based in Macul, Santiago",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -1000,16 +962,6 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q2442328": {
-      "id": "Q2442328",
-      "english": "Chile national under-20 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national association football team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
     "Q17479": {
       "id": "Q17479",
       "english": "Clube de Regatas do Flamengo",
@@ -1023,15 +975,51 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q75729": {
-      "id": "Q75729",
-      "english": "Sporting CP",
+    "Q207373": {
+      "id": "Q207373",
+      "english": "Club Social y Deportivo Colo Colo",
       "cantonese": {
-        "yue": "士砵亭"
+        "zh-hk": "高魯高魯體育會",
+        "yue": "高路高路體育會"
       },
-      "cantonese_best": "士砵亭",
+      "cantonese_best": "高路高路體育會",
       "cantonese_lang": "yue",
-      "description_english": "Portuguese sports club",
+      "description_english": "Chilean football club based in Macul, Santiago",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q506832": {
+      "id": "Q506832",
+      "english": "Club Athletico Paranaense",
+      "cantonese": {
+        "zh-hk": "帕拉尼恩斯體育會"
+      },
+      "cantonese_best": "帕拉尼恩斯體育會",
+      "cantonese_lang": "zh-hk",
+      "description_english": "association football club in Brazil",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q2442328": {
+      "id": "Q2442328",
+      "english": "Chile national under-20 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national association football team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q172025": {
+      "id": "Q172025",
+      "english": "Chile men's national football team",
+      "cantonese": {
+        "zh-hk": "智利國家足球隊",
+        "yue": "智利足球代表隊"
+      },
+      "cantonese_best": "智利足球代表隊",
+      "cantonese_lang": "yue",
+      "description_english": "men's national association football team representing Chile",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -1047,35 +1035,17 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q953632": {
-      "id": "Q953632",
-      "english": "Serbia national under-19 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national association football team",
+    "Q75729": {
+      "id": "Q75729",
+      "english": "Sporting CP",
+      "cantonese": {
+        "yue": "士砵亭"
+      },
+      "cantonese_best": "士砵亭",
+      "cantonese_lang": "yue",
+      "description_english": "Portuguese sports club",
       "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q2272209": {
-      "id": "Q2272209",
-      "english": "Serbia national under-21 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national association football team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q207501": {
-      "id": "Q207501",
-      "english": "FK Vojvodina",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "association football club in Novi Sad, Serbia",
-      "description_cantonese": {},
-      "cantonese_source": "none"
+      "cantonese_source": "paranames"
     },
     "Q2609": {
       "id": "Q2609",
@@ -1089,13 +1059,23 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q182740": {
-      "id": "Q182740",
-      "english": "Serbia men's national football team",
+    "Q207501": {
+      "id": "Q207501",
+      "english": "FK Vojvodina",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
-      "description_english": "men's national association football team representing Serbia",
+      "description_english": "association football club in Novi Sad, Serbia",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q953632": {
+      "id": "Q953632",
+      "english": "Serbia national under-19 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national association football team",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -1109,6 +1089,26 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
+    "Q182740": {
+      "id": "Q182740",
+      "english": "Serbia men's national football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "men's national association football team representing Serbia",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q2272209": {
+      "id": "Q2272209",
+      "english": "Serbia national under-21 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national association football team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
     "Q20155517": {
       "id": "Q20155517",
       "english": "Serbia national under-20 football team",
@@ -1119,53 +1119,6 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q1056948": {
-      "id": "Q1056948",
-      "english": "Al-Duhail SC",
-      "cantonese": {
-        "zh-hk": "歷基韋亞體育會"
-      },
-      "cantonese_best": "歷基韋亞體育會",
-      "cantonese_lang": "zh-hk",
-      "description_english": "Qatari multi-sport club",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q2798": {
-      "id": "Q2798",
-      "english": "Udinese Calcio",
-      "cantonese": {
-        "yue": "烏甸尼斯足球會"
-      },
-      "cantonese_best": "烏甸尼斯足球會",
-      "cantonese_lang": "yue",
-      "description_english": "Italian association football club based in Udine, Italy",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q3590713": {
-      "id": "Q3590713",
-      "english": "Morocco national under-17 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national association football team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q207337": {
-      "id": "Q207337",
-      "english": "Morocco men's national football team",
-      "cantonese": {
-        "zh-hk": "摩洛哥國家足球隊",
-        "yue": "摩洛哥足球代表隊"
-      },
-      "cantonese_best": "摩洛哥足球代表隊",
-      "cantonese_lang": "yue",
-      "description_english": "men's national association football team representing Morocco",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
     "Q1398111": {
       "id": "Q1398111",
       "english": "Fatih Karagümrük S.K.",
@@ -1173,16 +1126,6 @@
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
       "description_english": "Turkish football club",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q1450557": {
-      "id": "Q1450557",
-      "english": "France national under-18 association football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national under-18 association football team representing France",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -1210,6 +1153,61 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
+    "Q48911": {
+      "id": "Q48911",
+      "english": "F.C. Lorient",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "French association football club",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q2798": {
+      "id": "Q2798",
+      "english": "Udinese Calcio",
+      "cantonese": {
+        "yue": "烏甸尼斯足球會"
+      },
+      "cantonese_best": "烏甸尼斯足球會",
+      "cantonese_lang": "yue",
+      "description_english": "Italian association football club based in Udine, Italy",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q1450557": {
+      "id": "Q1450557",
+      "english": "France national under-18 association football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national under-18 association football team representing France",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q3590714": {
+      "id": "Q3590714",
+      "english": "Morocco national under-20 association football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national under-20 association football team representing Morocco",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q207337": {
+      "id": "Q207337",
+      "english": "Morocco men's national football team",
+      "cantonese": {
+        "zh-hk": "摩洛哥國家足球隊",
+        "yue": "摩洛哥足球代表隊"
+      },
+      "cantonese_best": "摩洛哥足球代表隊",
+      "cantonese_lang": "yue",
+      "description_english": "men's national association football team representing Morocco",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
     "Q870182": {
       "id": "Q870182",
       "english": "Clermont Foot 63",
@@ -1222,15 +1220,17 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q48911": {
-      "id": "Q48911",
-      "english": "F.C. Lorient",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "French association football club",
+    "Q1056948": {
+      "id": "Q1056948",
+      "english": "Al-Duhail SC",
+      "cantonese": {
+        "zh-hk": "歷基韋亞體育會"
+      },
+      "cantonese_best": "歷基韋亞體育會",
+      "cantonese_lang": "zh-hk",
+      "description_english": "Qatari multi-sport club",
       "description_cantonese": {},
-      "cantonese_source": "none"
+      "cantonese_source": "paranames"
     },
     "Q132885": {
       "id": "Q132885",
@@ -1245,13 +1245,46 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q3590714": {
-      "id": "Q3590714",
-      "english": "Morocco national under-20 association football team",
+    "Q3590713": {
+      "id": "Q3590713",
+      "english": "Morocco national under-17 football team",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
-      "description_english": "national under-20 association football team representing Morocco",
+      "description_english": "national association football team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q1022910": {
+      "id": "Q1022910",
+      "english": "Boston River",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "association football club",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q134916": {
+      "id": "Q134916",
+      "english": "Uruguay men's national football team",
+      "cantonese": {
+        "zh-hk": "烏拉圭國家足球隊",
+        "yue": "烏拉圭足球代表隊"
+      },
+      "cantonese_best": "烏拉圭足球代表隊",
+      "cantonese_lang": "yue",
+      "description_english": "men's national association football team representing AUF",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q2442864": {
+      "id": "Q2442864",
+      "english": "Uruguay national under-20 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national association football team",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -1287,69 +1320,6 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q134916": {
-      "id": "Q134916",
-      "english": "Uruguay men's national football team",
-      "cantonese": {
-        "zh-hk": "烏拉圭國家足球隊",
-        "yue": "烏拉圭足球代表隊"
-      },
-      "cantonese_best": "烏拉圭足球代表隊",
-      "cantonese_lang": "yue",
-      "description_english": "men's national association football team representing AUF",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q1022910": {
-      "id": "Q1022910",
-      "english": "Boston River",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "association football club",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q2442864": {
-      "id": "Q2442864",
-      "english": "Uruguay national under-20 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national association football team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q676899": {
-      "id": "Q676899",
-      "english": "Italy men's national association football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "men's national association football team representing Italy",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q6641": {
-      "id": "Q6641",
-      "english": "SSC Bari",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "association football club in Bari, Italy",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q611222": {
-      "id": "Q611222",
-      "english": "Treviso F.B.C. 1993",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "association football club in Italy",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
     "Q289613": {
       "id": "Q289613",
       "english": "Pisa SC",
@@ -1372,6 +1342,26 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
+    "Q6641": {
+      "id": "Q6641",
+      "english": "SSC Bari",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "association football club in Bari, Italy",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q676899": {
+      "id": "Q676899",
+      "english": "Italy men's national association football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "men's national association football team representing Italy",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
     "Q141971": {
       "id": "Q141971",
       "english": "1. FC Union Berlin",
@@ -1381,6 +1371,50 @@
       "cantonese_best": "柏林聯",
       "cantonese_lang": "yue",
       "description_english": "association football club in Berlin, Germany",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q611222": {
+      "id": "Q611222",
+      "english": "Treviso F.B.C. 1993",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "association football club in Italy",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q274465": {
+      "id": "Q274465",
+      "english": "E.C. Vitória",
+      "cantonese": {
+        "zh-hk": "維多利亞體育俱樂部"
+      },
+      "cantonese_best": "維多利亞體育俱樂部",
+      "cantonese_lang": "zh-hk",
+      "description_english": "Brazilian association football club",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q17442894": {
+      "id": "Q17442894",
+      "english": "Pafos FC",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "association football team from Paphos, Cyprus",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q188841": {
+      "id": "Q188841",
+      "english": "Fortaleza E.C.",
+      "cantonese": {
+        "zh-hk": "福塔雷薩體育會"
+      },
+      "cantonese_best": "福塔雷薩體育會",
+      "cantonese_lang": "zh-hk",
+      "description_english": "association football club",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -1397,40 +1431,6 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q17442894": {
-      "id": "Q17442894",
-      "english": "Pafos FC",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "association football team from Paphos, Cyprus",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q274465": {
-      "id": "Q274465",
-      "english": "E.C. Vitória",
-      "cantonese": {
-        "zh-hk": "維多利亞體育俱樂部"
-      },
-      "cantonese_best": "維多利亞體育俱樂部",
-      "cantonese_lang": "zh-hk",
-      "description_english": "Brazilian association football club",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q188841": {
-      "id": "Q188841",
-      "english": "Fortaleza E.C.",
-      "cantonese": {
-        "zh-hk": "福塔雷薩體育會"
-      },
-      "cantonese_best": "福塔雷薩體育會",
-      "cantonese_lang": "zh-hk",
-      "description_english": "association football club",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
     "Q238593": {
       "id": "Q238593",
       "english": "D.C. United",
@@ -1440,18 +1440,6 @@
       "cantonese_best": "華盛頓聯隊",
       "cantonese_lang": "zh-hk",
       "description_english": "soccer club in Washington, DC, USA",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q19470": {
-      "id": "Q19470",
-      "english": "Derby County F.C.",
-      "cantonese": {
-        "yue": "打比郡足球會"
-      },
-      "cantonese_best": "打比郡足球會",
-      "cantonese_lang": "yue",
-      "description_english": "association football club in Derby, England",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -1468,6 +1456,28 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
+    "Q19470": {
+      "id": "Q19470",
+      "english": "Derby County F.C.",
+      "cantonese": {
+        "yue": "打比郡足球會"
+      },
+      "cantonese_best": "打比郡足球會",
+      "cantonese_lang": "yue",
+      "description_english": "association football club in Derby, England",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q815515": {
+      "id": "Q815515",
+      "english": "Belgium national under-21 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national association football team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
     "Q101859": {
       "id": "Q101859",
       "english": "VfL Wolfsburg",
@@ -1481,42 +1491,9 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q166776": {
-      "id": "Q166776",
-      "english": "Belgium men's national football team",
-      "cantonese": {
-        "zh-hk": "比利時國家足球隊",
-        "yue": "比利時國家足球隊"
-      },
-      "cantonese_best": "比利時國家足球隊",
-      "cantonese_lang": "yue",
-      "description_english": "men's national association football team representing Belgium",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
     "Q15224541": {
       "id": "Q15224541",
       "english": "Belgium national under-18 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national association football team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q2641": {
-      "id": "Q2641",
-      "english": "SSC Napoli",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "Italian professional football club based in Naples",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q815515": {
-      "id": "Q815515",
-      "english": "Belgium national under-21 football team",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
@@ -1534,51 +1511,26 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q499616": {
-      "id": "Q499616",
-      "english": "Club Nacional de Football",
-      "cantonese": {
-        "zh-hk": "蒙特維多國民足球會"
-      },
-      "cantonese_best": "蒙特維多國民足球會",
-      "cantonese_lang": "zh-hk",
-      "description_english": "Uruguayan football club based in Montevideo, Uruguay",
+    "Q2641": {
+      "id": "Q2641",
+      "english": "SSC Napoli",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "Italian professional football club based in Naples",
       "description_cantonese": {},
-      "cantonese_source": "paranames"
+      "cantonese_source": "none"
     },
-    "Q221882": {
-      "id": "Q221882",
-      "english": "Newell's Old Boys",
+    "Q166776": {
+      "id": "Q166776",
+      "english": "Belgium men's national football team",
       "cantonese": {
-        "zh-hk": "紐維爾舊生體育會"
+        "zh-hk": "比利時國家足球隊",
+        "yue": "比利時國家足球隊"
       },
-      "cantonese_best": "紐維爾舊生體育會",
-      "cantonese_lang": "zh-hk",
-      "description_english": "Argentine sports club in Rosario",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q719344": {
-      "id": "Q719344",
-      "english": "C.A. Cerro",
-      "cantonese": {
-        "zh-hk": "塞羅競技俱樂部"
-      },
-      "cantonese_best": "塞羅競技俱樂部",
-      "cantonese_lang": "zh-hk",
-      "description_english": "athletic football club",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q1900": {
-      "id": "Q1900",
-      "english": "Cagliari Calcio",
-      "cantonese": {
-        "yue": "卡利亞里足球會"
-      },
-      "cantonese_best": "卡利亞里足球會",
+      "cantonese_best": "比利時國家足球隊",
       "cantonese_lang": "yue",
-      "description_english": "association football club in Cagliari, Italy",
+      "description_english": "men's national association football team representing Belgium",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -1594,15 +1546,63 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q12297": {
-      "id": "Q12297",
-      "english": "Villarreal CF",
+    "Q270995": {
+      "id": "Q270995",
+      "english": "Clube Atlético Mineiro",
       "cantonese": {
-        "yue": "維拉利爾足球會"
+        "zh-hk": "米內羅競技"
       },
-      "cantonese_best": "維拉利爾足球會",
+      "cantonese_best": "米內羅競技",
+      "cantonese_lang": "zh-hk",
+      "description_english": "association football club in Belo Horizonte, Brazil",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q1900": {
+      "id": "Q1900",
+      "english": "Cagliari Calcio",
+      "cantonese": {
+        "yue": "卡利亞里足球會"
+      },
+      "cantonese_best": "卡利亞里足球會",
       "cantonese_lang": "yue",
-      "description_english": "association football club in Villarreal, Spain",
+      "description_english": "association football club in Cagliari, Italy",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q499616": {
+      "id": "Q499616",
+      "english": "Club Nacional de Football",
+      "cantonese": {
+        "zh-hk": "蒙特維多國民足球會"
+      },
+      "cantonese_best": "蒙特維多國民足球會",
+      "cantonese_lang": "zh-hk",
+      "description_english": "Uruguayan football club based in Montevideo, Uruguay",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q719344": {
+      "id": "Q719344",
+      "english": "C.A. Cerro",
+      "cantonese": {
+        "zh-hk": "塞羅競技俱樂部"
+      },
+      "cantonese_best": "塞羅競技俱樂部",
+      "cantonese_lang": "zh-hk",
+      "description_english": "athletic football club",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q221882": {
+      "id": "Q221882",
+      "english": "Newell's Old Boys",
+      "cantonese": {
+        "zh-hk": "紐維爾舊生體育會"
+      },
+      "cantonese_best": "紐維爾舊生體育會",
+      "cantonese_lang": "zh-hk",
+      "description_english": "Argentine sports club in Rosario",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -1616,17 +1616,27 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q270995": {
-      "id": "Q270995",
-      "english": "Clube Atlético Mineiro",
+    "Q12297": {
+      "id": "Q12297",
+      "english": "Villarreal CF",
       "cantonese": {
-        "zh-hk": "米內羅競技"
+        "yue": "維拉利爾足球會"
       },
-      "cantonese_best": "米內羅競技",
-      "cantonese_lang": "zh-hk",
-      "description_english": "association football club in Belo Horizonte, Brazil",
+      "cantonese_best": "維拉利爾足球會",
+      "cantonese_lang": "yue",
+      "description_english": "association football club in Villarreal, Spain",
       "description_cantonese": {},
       "cantonese_source": "paranames"
+    },
+    "Q2016992": {
+      "id": "Q2016992",
+      "english": "Germany national under-18 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national association football team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
     },
     "Q1202759": {
       "id": "Q1202759",
@@ -1635,16 +1645,6 @@
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
       "description_english": "national association football team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q994701": {
-      "id": "Q994701",
-      "english": "FC Bayern Munich II",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "German association football team and the reserve team of FC Bayern Munich",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -1660,13 +1660,13 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q2016992": {
-      "id": "Q2016992",
-      "english": "Germany national under-18 football team",
+    "Q994701": {
+      "id": "Q994701",
+      "english": "FC Bayern Munich II",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
-      "description_english": "national association football team",
+      "description_english": "German association football team and the reserve team of FC Bayern Munich",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -1680,13 +1680,68 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q4384231": {
-      "id": "Q4384231",
-      "english": "Arsenal F.C. Reserves",
+    "Q3160759": {
+      "id": "Q3160759",
+      "english": "CE Mataró",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
-      "description_english": "Arsenal soccer academy",
+      "description_english": "Spanish football team based in Mataró",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q2356290": {
+      "id": "Q2356290",
+      "english": "Spain national under-20 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "under-20 association football team representing Spain",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q2310295": {
+      "id": "Q2310295",
+      "english": "Spain national under-17 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "under-17 association football team representing Spain",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q42267": {
+      "id": "Q42267",
+      "english": "Spain men's national football team",
+      "cantonese": {
+        "yue": "西班牙足球代表隊",
+        "zh-hk": "西班牙國家足球隊"
+      },
+      "cantonese_best": "西班牙足球代表隊",
+      "cantonese_lang": "yue",
+      "description_english": "men's national association football team representing Spain",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q1129595": {
+      "id": "Q1129595",
+      "english": "Spain national under-21 association football team",
+      "cantonese": {
+        "zh-hk": "西班牙21歲以下國家足球隊"
+      },
+      "cantonese_best": "西班牙21歲以下國家足球隊",
+      "cantonese_lang": "zh-hk",
+      "description_english": "national under-21 association football team representing Spain",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q1120838": {
+      "id": "Q1120838",
+      "english": "Como 1907",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "association football club in Italy",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -1710,70 +1765,15 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q2310295": {
-      "id": "Q2310295",
-      "english": "Spain national under-17 football team",
+    "Q4384231": {
+      "id": "Q4384231",
+      "english": "Arsenal F.C. Reserves",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
-      "description_english": "under-17 association football team representing Spain",
+      "description_english": "Arsenal soccer academy",
       "description_cantonese": {},
       "cantonese_source": "none"
-    },
-    "Q3160759": {
-      "id": "Q3160759",
-      "english": "CE Mataró",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "Spanish football team based in Mataró",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q1120838": {
-      "id": "Q1120838",
-      "english": "Como 1907",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "association football club in Italy",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q42267": {
-      "id": "Q42267",
-      "english": "Spain men's national football team",
-      "cantonese": {
-        "yue": "西班牙足球代表隊",
-        "zh-hk": "西班牙國家足球隊"
-      },
-      "cantonese_best": "西班牙足球代表隊",
-      "cantonese_lang": "yue",
-      "description_english": "men's national association football team representing Spain",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q2356290": {
-      "id": "Q2356290",
-      "english": "Spain national under-20 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "under-20 association football team representing Spain",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q1129595": {
-      "id": "Q1129595",
-      "english": "Spain national under-21 association football team",
-      "cantonese": {
-        "zh-hk": "西班牙21歲以下國家足球隊"
-      },
-      "cantonese_best": "西班牙21歲以下國家足球隊",
-      "cantonese_lang": "zh-hk",
-      "description_english": "national under-21 association football team representing Spain",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
     },
     "Q316497": {
       "id": "Q316497",
@@ -1807,18 +1807,6 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q16844931": {
-      "id": "Q16844931",
-      "english": "Inter Miami CF",
-      "cantonese": {
-        "yue": "邁阿密國際"
-      },
-      "cantonese_best": "邁阿密國際",
-      "cantonese_lang": "yue",
-      "description_english": "American professional soccer club based in Miami",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
     "Q918044": {
       "id": "Q918044",
       "english": "Valencia CF Mestalla",
@@ -1840,6 +1828,18 @@
       "description_english": "under-19 association football team representing Spain",
       "description_cantonese": {},
       "cantonese_source": "none"
+    },
+    "Q16844931": {
+      "id": "Q16844931",
+      "english": "Inter Miami CF",
+      "cantonese": {
+        "yue": "邁阿密國際"
+      },
+      "cantonese_best": "邁阿密國際",
+      "cantonese_lang": "yue",
+      "description_english": "American professional soccer club based in Miami",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
     },
     "Q257984": {
       "id": "Q257984",
@@ -1863,16 +1863,6 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q3873548": {
-      "id": "Q3873548",
-      "english": "Italy national under-20 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "selected team of Italian football players under 20 years",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
     "Q327238": {
       "id": "Q327238",
       "english": "Toronto FC",
@@ -1892,6 +1882,26 @@
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
       "description_english": "Italian football club based in Foggia, Apulia",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q3873548": {
+      "id": "Q3873548",
+      "english": "Italy national under-20 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "selected team of Italian football players under 20 years",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q1520422": {
+      "id": "Q1520422",
+      "english": "Cavese 1919",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "Italian association football club",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -1919,15 +1929,17 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q1520422": {
-      "id": "Q1520422",
-      "english": "Cavese 1919",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "Italian association football club",
+    "Q221695": {
+      "id": "Q221695",
+      "english": "Grêmio FBPA",
+      "cantonese": {
+        "zh-hk": "甘美奧"
+      },
+      "cantonese_best": "甘美奧",
+      "cantonese_lang": "zh-hk",
+      "description_english": "Brazilian professional football club based in Porto Alegre",
       "description_cantonese": {},
-      "cantonese_source": "none"
+      "cantonese_source": "paranames"
     },
     "Q330143": {
       "id": "Q330143",
@@ -1938,19 +1950,6 @@
       "cantonese_best": "悉尼足球會",
       "cantonese_lang": "zh-hk",
       "description_english": "soccer club based in Sydney, Australia",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q172969": {
-      "id": "Q172969",
-      "english": "FC Shakhtar Donetsk",
-      "cantonese": {
-        "zh-hk": "薩克達足球會",
-        "yue": "薩克達足球會"
-      },
-      "cantonese_best": "薩克達足球會",
-      "cantonese_lang": "yue",
-      "description_english": "professional football club based in Donetsk, Ukraine",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -1966,37 +1965,16 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q221695": {
-      "id": "Q221695",
-      "english": "Grêmio FBPA",
+    "Q172969": {
+      "id": "Q172969",
+      "english": "FC Shakhtar Donetsk",
       "cantonese": {
-        "zh-hk": "甘美奧"
+        "zh-hk": "薩克達足球會",
+        "yue": "薩克達足球會"
       },
-      "cantonese_best": "甘美奧",
-      "cantonese_lang": "zh-hk",
-      "description_english": "Brazilian professional football club based in Porto Alegre",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q6124177": {
-      "id": "Q6124177",
-      "english": "Spain national under-15 association football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "under-15 association football team representing Spain",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q8701": {
-      "id": "Q8701",
-      "english": "Atlético de Madrid",
-      "cantonese": {
-        "yue": "馬德里體育會"
-      },
-      "cantonese_best": "馬德里體育會",
+      "cantonese_best": "薩克達足球會",
       "cantonese_lang": "yue",
-      "description_english": "Spanish professional football club in Madrid",
+      "description_english": "professional football club based in Donetsk, Ukraine",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -2020,6 +1998,16 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
+    "Q6124177": {
+      "id": "Q6124177",
+      "english": "Spain national under-15 association football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "under-15 association football team representing Spain",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
     "Q2052": {
       "id": "Q2052",
       "english": "ACF Fiorentina",
@@ -2032,35 +2020,15 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q19509": {
-      "id": "Q19509",
-      "english": "Stade Rennais F.C.",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "French association football club",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q3873547": {
-      "id": "Q3873547",
-      "english": "Czech Republic national under-20 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national under-20 football team of Czechia",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q193481": {
-      "id": "Q193481",
-      "english": "AC Sparta Prague",
+    "Q8701": {
+      "id": "Q8701",
+      "english": "Atlético de Madrid",
       "cantonese": {
-        "zh-hk": "布拉格斯巴達足球會"
+        "yue": "馬德里體育會"
       },
-      "cantonese_best": "布拉格斯巴達足球會",
-      "cantonese_lang": "zh-hk",
-      "description_english": "professional football club based in Prague, Czech Republic",
+      "cantonese_best": "馬德里體育會",
+      "cantonese_lang": "yue",
+      "description_english": "Spanish professional football club in Madrid",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -2077,13 +2045,13 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q3873527": {
-      "id": "Q3873527",
-      "english": "Czech Republic national under-19 football team",
+    "Q3873547": {
+      "id": "Q3873547",
+      "english": "Czech Republic national under-20 football team",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
-      "description_english": "national under-19 football team of Czechia",
+      "description_english": "national under-20 football team of Czechia",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -2094,16 +2062,6 @@
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
       "description_english": "national under-17 football team of Czechia",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q612017": {
-      "id": "Q612017",
-      "english": "FK Chmel Blšany",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "Czech association football team",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -2118,6 +2076,48 @@
       "description_english": "national under-21 association football team representingCzech Republic",
       "description_cantonese": {},
       "cantonese_source": "paranames"
+    },
+    "Q19509": {
+      "id": "Q19509",
+      "english": "Stade Rennais F.C.",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "French association football club",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q3873527": {
+      "id": "Q3873527",
+      "english": "Czech Republic national under-19 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national under-19 football team of Czechia",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q193481": {
+      "id": "Q193481",
+      "english": "AC Sparta Prague",
+      "cantonese": {
+        "zh-hk": "布拉格斯巴達足球會"
+      },
+      "cantonese_best": "布拉格斯巴達足球會",
+      "cantonese_lang": "zh-hk",
+      "description_english": "professional football club based in Prague, Czech Republic",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q612017": {
+      "id": "Q612017",
+      "english": "FK Chmel Blšany",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "Czech association football team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
     },
     "Q15079182": {
       "id": "Q15079182",
@@ -2140,6 +2140,16 @@
       "description_english": "Major League Soccer team in Vancouver, BC, Canada",
       "description_cantonese": {},
       "cantonese_source": "paranames"
+    },
+    "Q19521": {
+      "id": "Q19521",
+      "english": "AS Saint-Étienne",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "association football club in Saint-Étienne, France",
+      "description_cantonese": {},
+      "cantonese_source": "none"
     },
     "Q235416": {
       "id": "Q235416",
@@ -2165,26 +2175,6 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q503317": {
-      "id": "Q503317",
-      "english": "Dijon FCO",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "French association football club based in Dijon",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q2804483": {
-      "id": "Q2804483",
-      "english": "Gabon national under-23 association football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national association football team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
     "Q286191": {
       "id": "Q286191",
       "english": "Al Qadsiah FC",
@@ -2207,19 +2197,9 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q19521": {
-      "id": "Q19521",
-      "english": "AS Saint-Étienne",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "association football club in Saint-Étienne, France",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q14753120": {
-      "id": "Q14753120",
-      "english": "Italy national under-15 football team",
+    "Q2804483": {
+      "id": "Q2804483",
+      "english": "Gabon national under-23 association football team",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
@@ -2227,9 +2207,19 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q3873502": {
-      "id": "Q3873502",
-      "english": "Italy national under-16 football team",
+    "Q503317": {
+      "id": "Q503317",
+      "english": "Dijon FCO",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "French association football club based in Dijon",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q3873513": {
+      "id": "Q3873513",
+      "english": "Italy national under-18 football team",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
@@ -2247,13 +2237,13 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q2331232": {
-      "id": "Q2331232",
-      "english": "Italy national under-17 football team",
+    "Q14753120": {
+      "id": "Q14753120",
+      "english": "Italy national under-15 football team",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
-      "description_english": "selected team of Italian football players under 17 years",
+      "description_english": "national association football team",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -2267,9 +2257,9 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q3873513": {
-      "id": "Q3873513",
-      "english": "Italy national under-18 football team",
+    "Q3873502": {
+      "id": "Q3873502",
+      "english": "Italy national under-16 football team",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
@@ -2284,6 +2274,16 @@
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
       "description_english": "association football club in Los Angeles, California, USA",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q2331232": {
+      "id": "Q2331232",
+      "english": "Italy national under-17 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "selected team of Italian football players under 17 years",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -2317,6 +2317,16 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
+    "Q19512": {
+      "id": "Q19512",
+      "english": "FC Sochaux-Montbéliard",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "French association football club",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
     "Q925648": {
       "id": "Q925648",
       "english": "Jiangsu F.C.",
@@ -2341,16 +2351,6 @@
       "description_english": "Brazilian football club from Curitiba",
       "description_cantonese": {},
       "cantonese_source": "paranames"
-    },
-    "Q19512": {
-      "id": "Q19512",
-      "english": "FC Sochaux-Montbéliard",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "French association football club",
-      "description_cantonese": {},
-      "cantonese_source": "none"
     },
     "Q170125": {
       "id": "Q170125",
@@ -2401,16 +2401,6 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q17497": {
-      "id": "Q17497",
-      "english": "FC Dinamo Moscow",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "Russian association football club based in Moscow",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
     "Q5423714": {
       "id": "Q5423714",
       "english": "F.C. Porto B",
@@ -2421,9 +2411,19 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q7159367": {
-      "id": "Q7159367",
-      "english": "Pedrabranca Futebol Clube",
+    "Q17497": {
+      "id": "Q17497",
+      "english": "FC Dinamo Moscow",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "Russian association football club based in Moscow",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q4859851": {
+      "id": "Q4859851",
+      "english": "Barcelona Esporte Clube",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
@@ -2431,9 +2431,9 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q4859851": {
-      "id": "Q4859851",
-      "english": "Barcelona Esporte Clube",
+    "Q7159367": {
+      "id": "Q7159367",
+      "english": "Pedrabranca Futebol Clube",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
@@ -2473,18 +2473,6 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q1187790": {
-      "id": "Q1187790",
-      "english": "Argentina national under-20 football team",
-      "cantonese": {
-        "yue": "阿根廷20歲以下國家足球代表隊"
-      },
-      "cantonese_best": "阿根廷20歲以下國家足球代表隊",
-      "cantonese_lang": "yue",
-      "description_english": "association football club",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
     "Q214978": {
       "id": "Q214978",
       "english": "Club Atlético Independiente",
@@ -2507,6 +2495,18 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
+    "Q79800": {
+      "id": "Q79800",
+      "english": "Argentina men's national association football team",
+      "cantonese": {
+        "yue": "阿根廷足球代表隊"
+      },
+      "cantonese_best": "阿根廷足球代表隊",
+      "cantonese_lang": "yue",
+      "description_english": "men's national association football team representing Argentina",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
     "Q2462207": {
       "id": "Q2462207",
       "english": "Argentina national under-23 football team",
@@ -2517,15 +2517,15 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q79800": {
-      "id": "Q79800",
-      "english": "Argentina men's national association football team",
+    "Q1187790": {
+      "id": "Q1187790",
+      "english": "Argentina national under-20 football team",
       "cantonese": {
-        "yue": "阿根廷足球代表隊"
+        "yue": "阿根廷20歲以下國家足球代表隊"
       },
-      "cantonese_best": "阿根廷足球代表隊",
+      "cantonese_best": "阿根廷20歲以下國家足球代表隊",
       "cantonese_lang": "yue",
-      "description_english": "men's national association football team representing Argentina",
+      "description_english": "association football club",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -2563,15 +2563,15 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q219233": {
-      "id": "Q219233",
-      "english": "SBV Vitesse",
+    "Q8603": {
+      "id": "Q8603",
+      "english": "US Sassuolo Calcio",
       "cantonese": {
-        "zh-hk": "維迪斯"
+        "yue": "薩斯索羅足球體育會"
       },
-      "cantonese_best": "維迪斯",
-      "cantonese_lang": "zh-hk",
-      "description_english": "Dutch association football club based in Arnhem",
+      "cantonese_best": "薩斯索羅足球體育會",
+      "cantonese_lang": "yue",
+      "description_english": "Italian football club based in Sassuolo, Emilia-Romagna",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -2585,15 +2585,15 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q8603": {
-      "id": "Q8603",
-      "english": "US Sassuolo Calcio",
+    "Q219233": {
+      "id": "Q219233",
+      "english": "SBV Vitesse",
       "cantonese": {
-        "yue": "薩斯索羅足球體育會"
+        "zh-hk": "維迪斯"
       },
-      "cantonese_best": "薩斯索羅足球體育會",
-      "cantonese_lang": "yue",
-      "description_english": "Italian football club based in Sassuolo, Emilia-Romagna",
+      "cantonese_best": "維迪斯",
+      "cantonese_lang": "zh-hk",
+      "description_english": "Dutch association football club based in Arnhem",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -2639,6 +2639,18 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
+    "Q384850": {
+      "id": "Q384850",
+      "english": "NK Domžale",
+      "cantonese": {
+        "zh-hk": "多姆扎勒足球會"
+      },
+      "cantonese_best": "多姆扎勒足球會",
+      "cantonese_lang": "zh-hk",
+      "description_english": "association football club in Domžale, Slovenia",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
     "Q1629342": {
       "id": "Q1629342",
       "english": "NK Zagorje",
@@ -2646,6 +2658,28 @@
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
       "description_english": "association football club",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q172221": {
+      "id": "Q172221",
+      "english": "Slovenia men's national football team",
+      "cantonese": {
+        "zh-hk": "斯洛文尼亞國家足球隊"
+      },
+      "cantonese_best": "斯洛文尼亞國家足球隊",
+      "cantonese_lang": "zh-hk",
+      "description_english": "men's national association football team representing Slovenia",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q289713": {
+      "id": "Q289713",
+      "english": "Rimini FC",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "Italian association football club in Rimini",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -2659,37 +2693,16 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q289713": {
-      "id": "Q289713",
-      "english": "Rimini FC",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "Italian association football club in Rimini",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q384850": {
-      "id": "Q384850",
-      "english": "NK Domžale",
+    "Q10329": {
+      "id": "Q10329",
+      "english": "Sevilla FC",
       "cantonese": {
-        "zh-hk": "多姆扎勒足球會"
+        "zh-hk": "西維爾足球會",
+        "yue": "西維爾足球會"
       },
-      "cantonese_best": "多姆扎勒足球會",
-      "cantonese_lang": "zh-hk",
-      "description_english": "association football club in Domžale, Slovenia",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q172221": {
-      "id": "Q172221",
-      "english": "Slovenia men's national football team",
-      "cantonese": {
-        "zh-hk": "斯洛文尼亞國家足球隊"
-      },
-      "cantonese_best": "斯洛文尼亞國家足球隊",
-      "cantonese_lang": "zh-hk",
-      "description_english": "men's national association football team representing Slovenia",
+      "cantonese_best": "西維爾足球會",
+      "cantonese_lang": "yue",
+      "description_english": "Spanish professional football club based in Seville",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -2705,35 +2718,9 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q10329": {
-      "id": "Q10329",
-      "english": "Sevilla FC",
-      "cantonese": {
-        "zh-hk": "西維爾足球會",
-        "yue": "西維爾足球會"
-      },
-      "cantonese_best": "西維爾足球會",
-      "cantonese_lang": "yue",
-      "description_english": "Spanish professional football club based in Seville",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q18741": {
-      "id": "Q18741",
-      "english": "Tottenham Hotspur F.C.",
-      "cantonese": {
-        "yue": "熱刺",
-        "zh-hk": "托定咸熱刺足球會"
-      },
-      "cantonese_best": "熱刺",
-      "cantonese_lang": "yue",
-      "description_english": "association football club in London, England",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q3590810": {
-      "id": "Q3590810",
-      "english": "Wales national under-19 football team",
+    "Q3590809": {
+      "id": "Q3590809",
+      "english": "Wales national under-17 football team",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
@@ -2753,16 +2740,6 @@
       "description_english": "men's association football team representing Wales",
       "description_cantonese": {},
       "cantonese_source": "paranames"
-    },
-    "Q3590809": {
-      "id": "Q3590809",
-      "english": "Wales national under-17 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national association football team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
     },
     "Q18732": {
       "id": "Q18732",
@@ -2787,6 +2764,29 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
+    "Q3590810": {
+      "id": "Q3590810",
+      "english": "Wales national under-19 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national association football team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q18741": {
+      "id": "Q18741",
+      "english": "Tottenham Hotspur F.C.",
+      "cantonese": {
+        "yue": "熱刺",
+        "zh-hk": "托定咸熱刺足球會"
+      },
+      "cantonese_best": "熱刺",
+      "cantonese_lang": "yue",
+      "description_english": "association football club in London, England",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
     "Q1191998": {
       "id": "Q1191998",
       "english": "Emirates Club",
@@ -2810,26 +2810,6 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q1811026": {
-      "id": "Q1811026",
-      "english": "Netherlands national under-21 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national under-21 association football team representing Netherlands",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q24711": {
-      "id": "Q24711",
-      "english": "FC Groningen",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "Dutch association football club",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
     "Q47050": {
       "id": "Q47050",
       "english": "Netherlands national association football team",
@@ -2841,16 +2821,6 @@
       "description_english": "men's national association football team representing the Netherlands",
       "description_cantonese": {},
       "cantonese_source": "paranames"
-    },
-    "Q514714": {
-      "id": "Q514714",
-      "english": "Netherlands national under-19 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national association football team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
     },
     "Q19593": {
       "id": "Q19593",
@@ -2865,6 +2835,36 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
+    "Q514714": {
+      "id": "Q514714",
+      "english": "Netherlands national under-19 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national association football team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q24711": {
+      "id": "Q24711",
+      "english": "FC Groningen",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "Dutch association football club",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q1811026": {
+      "id": "Q1811026",
+      "english": "Netherlands national under-21 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national under-21 association football team representing Netherlands",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
     "Q18711": {
       "id": "Q18711",
       "english": "Aston Villa F.C.",
@@ -2878,18 +2878,6 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q8780": {
-      "id": "Q8780",
-      "english": "RCD Espanyol de Barcelona",
-      "cantonese": {
-        "yue": "皇家愛斯賓奴體育會"
-      },
-      "cantonese_best": "皇家愛斯賓奴體育會",
-      "cantonese_lang": "yue",
-      "description_english": "sports club in Spain",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
     "Q2402747": {
       "id": "Q2402747",
       "english": "Brazil national under-17 football team",
@@ -2899,6 +2887,18 @@
       "cantonese_best": "巴西國家U17足球隊",
       "cantonese_lang": "zh-hk",
       "description_english": "national association football team",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q8780": {
+      "id": "Q8780",
+      "english": "RCD Espanyol de Barcelona",
+      "cantonese": {
+        "yue": "皇家愛斯賓奴體育會"
+      },
+      "cantonese_best": "皇家愛斯賓奴體育會",
+      "cantonese_lang": "yue",
+      "description_english": "sports club in Spain",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -2944,9 +2944,54 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
+    "Q302977": {
+      "id": "Q302977",
+      "english": "Austria national under-19 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national association football team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q163534": {
+      "id": "Q163534",
+      "english": "Austria men's national football team",
+      "cantonese": {
+        "zh-hk": "奧地利國家足球隊",
+        "yue": "奧地利足球代表隊"
+      },
+      "cantonese_best": "奧地利足球代表隊",
+      "cantonese_lang": "yue",
+      "description_english": "men's national association football team representing Austria",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q22707": {
+      "id": "Q22707",
+      "english": "TSG 1899 Hoffenheim",
+      "cantonese": {
+        "zh-hk": "賀芬咸1899體育會"
+      },
+      "cantonese_best": "賀芬咸1899體育會",
+      "cantonese_lang": "zh-hk",
+      "description_english": "German association football club",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
     "Q303033": {
       "id": "Q303033",
       "english": "Austria national under-21 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national association football team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q4825450": {
+      "id": "Q4825450",
+      "english": "Austria national under-17 association football team",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
@@ -2966,50 +3011,18 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q22707": {
-      "id": "Q22707",
-      "english": "TSG 1899 Hoffenheim",
+    "Q794970": {
+      "id": "Q794970",
+      "english": "Athletic Bilbao B",
       "cantonese": {
-        "zh-hk": "賀芬咸1899體育會"
+        "zh-hk": "畢爾包體育會B隊",
+        "yue": "畢爾包體育會B隊"
       },
-      "cantonese_best": "賀芬咸1899體育會",
-      "cantonese_lang": "zh-hk",
-      "description_english": "German association football club",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q163534": {
-      "id": "Q163534",
-      "english": "Austria men's national football team",
-      "cantonese": {
-        "zh-hk": "奧地利國家足球隊",
-        "yue": "奧地利足球代表隊"
-      },
-      "cantonese_best": "奧地利足球代表隊",
+      "cantonese_best": "畢爾包體育會B隊",
       "cantonese_lang": "yue",
-      "description_english": "men's national association football team representing Austria",
+      "description_english": "football team, male subsidiary of Athletic Club",
       "description_cantonese": {},
       "cantonese_source": "paranames"
-    },
-    "Q4825450": {
-      "id": "Q4825450",
-      "english": "Austria national under-17 association football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national association football team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q302977": {
-      "id": "Q302977",
-      "english": "Austria national under-19 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national association football team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
     },
     "Q8687": {
       "id": "Q8687",
@@ -3022,16 +3035,6 @@
       "description_english": "Spanish association football team from Bilbao, Spain",
       "description_cantonese": {},
       "cantonese_source": "paranames"
-    },
-    "Q727093": {
-      "id": "Q727093",
-      "english": "CD Baskonia",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "Spanish association football team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
     },
     "Q482764": {
       "id": "Q482764",
@@ -3046,32 +3049,19 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q794970": {
-      "id": "Q794970",
-      "english": "Athletic Bilbao B",
-      "cantonese": {
-        "zh-hk": "畢爾包體育會B隊",
-        "yue": "畢爾包體育會B隊"
-      },
-      "cantonese_best": "畢爾包體育會B隊",
-      "cantonese_lang": "yue",
-      "description_english": "football team, male subsidiary of Athletic Club",
+    "Q727093": {
+      "id": "Q727093",
+      "english": "CD Baskonia",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "Spanish association football team",
       "description_cantonese": {},
-      "cantonese_source": "paranames"
+      "cantonese_source": "none"
     },
     "Q3589895": {
       "id": "Q3589895",
       "english": "Belgium national under-17 association football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national association football team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q23674710": {
-      "id": "Q23674710",
-      "english": "Belgium national under-16 association football team",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
@@ -3092,18 +3082,25 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q18721": {
-      "id": "Q18721",
-      "english": "Norwich City F.C.",
-      "cantonese": {
-        "yue": "諾域治城足球會",
-        "zh-hk": "諾域治城足球會"
-      },
-      "cantonese_best": "諾域治城足球會",
-      "cantonese_lang": "yue",
-      "description_english": "association football club in Norwich, England",
+    "Q23674710": {
+      "id": "Q23674710",
+      "english": "Belgium national under-16 association football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national association football team",
       "description_cantonese": {},
-      "cantonese_source": "paranames"
+      "cantonese_source": "none"
+    },
+    "Q19481": {
+      "id": "Q19481",
+      "english": "Leicester City F.C.",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "association football club in Leicester, England",
+      "description_cantonese": {},
+      "cantonese_source": "none"
     },
     "Q19487": {
       "id": "Q19487",
@@ -3117,16 +3114,6 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q19481": {
-      "id": "Q19481",
-      "english": "Leicester City F.C.",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "association football club in Leicester, England",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
     "Q19595": {
       "id": "Q19595",
       "english": "Leyton Orient F.C.",
@@ -3137,15 +3124,28 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q189671": {
-      "id": "Q189671",
-      "english": "FC Basel",
+    "Q18721": {
+      "id": "Q18721",
+      "english": "Norwich City F.C.",
       "cantonese": {
-        "zh-hk": "巴素利足球會"
+        "yue": "諾域治城足球會",
+        "zh-hk": "諾域治城足球會"
       },
-      "cantonese_best": "巴素利足球會",
+      "cantonese_best": "諾域治城足球會",
+      "cantonese_lang": "yue",
+      "description_english": "association football club in Norwich, England",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q2073915": {
+      "id": "Q2073915",
+      "english": "Al Mokawloon Al Arab SC",
+      "cantonese": {
+        "zh-hk": "阿拉伯建築足球會"
+      },
+      "cantonese_best": "阿拉伯建築足球會",
       "cantonese_lang": "zh-hk",
-      "description_english": "association football club in Basel, Switzerland",
+      "description_english": "Egyptian sports club",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -3161,15 +3161,15 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q2073915": {
-      "id": "Q2073915",
-      "english": "Al Mokawloon Al Arab SC",
+    "Q189671": {
+      "id": "Q189671",
+      "english": "FC Basel",
       "cantonese": {
-        "zh-hk": "阿拉伯建築足球會"
+        "zh-hk": "巴素利足球會"
       },
-      "cantonese_best": "阿拉伯建築足球會",
+      "cantonese_best": "巴素利足球會",
       "cantonese_lang": "zh-hk",
-      "description_english": "Egyptian sports club",
+      "description_english": "association football club in Basel, Switzerland",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -3193,16 +3193,6 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q3589858": {
-      "id": "Q3589858",
-      "english": "Uruguay national under-17 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national association football team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
     "Q8760": {
       "id": "Q8760",
       "english": "Deportivo de La Coruña",
@@ -3214,6 +3204,16 @@
       "description_english": "Spanish association football club",
       "description_cantonese": {},
       "cantonese_source": "paranames"
+    },
+    "Q3589858": {
+      "id": "Q3589858",
+      "english": "Uruguay national under-17 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national association football team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
     },
     "Q3590758": {
       "id": "Q3590758",
@@ -3259,18 +3259,6 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q184387": {
-      "id": "Q184387",
-      "english": "Norway men's national association football team",
-      "cantonese": {
-        "zh-hk": "挪威國家足球隊"
-      },
-      "cantonese_best": "挪威國家足球隊",
-      "cantonese_lang": "zh-hk",
-      "description_english": "national association football team representing Norway",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
     "Q2446294": {
       "id": "Q2446294",
       "english": "Norway national under-21 association football team",
@@ -3280,18 +3268,6 @@
       "cantonese_best": "挪威21歲以下國家足球隊",
       "cantonese_lang": "zh-hk",
       "description_english": "national under-21 association football team representing Norway",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q994811": {
-      "id": "Q994811",
-      "english": "FC Red Bull Salzburg",
-      "cantonese": {
-        "yue": "薩爾斯堡紅牛足球會"
-      },
-      "cantonese_best": "薩爾斯堡紅牛足球會",
-      "cantonese_lang": "yue",
-      "description_english": "Austrian professional football club",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -3327,6 +3303,30 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
+    "Q184387": {
+      "id": "Q184387",
+      "english": "Norway men's national association football team",
+      "cantonese": {
+        "zh-hk": "挪威國家足球隊"
+      },
+      "cantonese_best": "挪威國家足球隊",
+      "cantonese_lang": "zh-hk",
+      "description_english": "national association football team representing Norway",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q994811": {
+      "id": "Q994811",
+      "english": "FC Red Bull Salzburg",
+      "cantonese": {
+        "yue": "薩爾斯堡紅牛足球會"
+      },
+      "cantonese_best": "薩爾斯堡紅牛足球會",
+      "cantonese_lang": "yue",
+      "description_english": "Austrian professional football club",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
     "Q48941": {
       "id": "Q48941",
       "english": "Fleetwood Town F.C.",
@@ -3334,6 +3334,16 @@
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
       "description_english": "association football club in Fleetwood, England",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q18305": {
+      "id": "Q18305",
+      "english": "Stocksbridge Park Steels F.C.",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "football club",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -3354,16 +3364,6 @@
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
       "description_english": "association football club in Halifax, England",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q18305": {
-      "id": "Q18305",
-      "english": "Stocksbridge Park Steels F.C.",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "football club",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -3422,38 +3422,17 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q174512": {
-      "id": "Q174512",
-      "english": "Slovakia men's national football team",
+    "Q1969085": {
+      "id": "Q1969085",
+      "english": "Slovakia national under-21 football team",
       "cantonese": {
-        "zh-hk": "斯洛伐克國家足球隊",
-        "yue": "斯洛伐克足球代表隊"
+        "zh-hk": "斯洛伐克21歲以下國家足球隊"
       },
-      "cantonese_best": "斯洛伐克足球代表隊",
-      "cantonese_lang": "yue",
-      "description_english": "men's national football team representing Slovakia",
+      "cantonese_best": "斯洛伐克21歲以下國家足球隊",
+      "cantonese_lang": "zh-hk",
+      "description_english": "national under-21 association football team representing Slovakia",
       "description_cantonese": {},
       "cantonese_source": "paranames"
-    },
-    "Q6651": {
-      "id": "Q6651",
-      "english": "Brescia Calcio",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "Italian football club based in Brescia, Lombardy",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q3590367": {
-      "id": "Q3590367",
-      "english": "Slovakia national under-17 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "sports team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
     },
     "Q192641": {
       "id": "Q192641",
@@ -3467,6 +3446,16 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
+    "Q3590367": {
+      "id": "Q3590367",
+      "english": "Slovakia national under-17 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "sports team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
     "Q1157920": {
       "id": "Q1157920",
       "english": "Dalian Professional F.C.",
@@ -3476,18 +3465,6 @@
       "cantonese_best": "大連人職業足球會",
       "cantonese_lang": "zh-hk",
       "description_english": "Chinese association football club",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q192253": {
-      "id": "Q192253",
-      "english": "ŠK Slovan Bratislava",
-      "cantonese": {
-        "zh-hk": "斯洛雲體育會"
-      },
-      "cantonese_best": "斯洛雲體育會",
-      "cantonese_lang": "zh-hk",
-      "description_english": "association football club in Bratislava, Slovakia",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -3503,15 +3480,28 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q1969085": {
-      "id": "Q1969085",
-      "english": "Slovakia national under-21 football team",
+    "Q174512": {
+      "id": "Q174512",
+      "english": "Slovakia men's national football team",
       "cantonese": {
-        "zh-hk": "斯洛伐克21歲以下國家足球隊"
+        "zh-hk": "斯洛伐克國家足球隊",
+        "yue": "斯洛伐克足球代表隊"
       },
-      "cantonese_best": "斯洛伐克21歲以下國家足球隊",
+      "cantonese_best": "斯洛伐克足球代表隊",
+      "cantonese_lang": "yue",
+      "description_english": "men's national football team representing Slovakia",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q192253": {
+      "id": "Q192253",
+      "english": "ŠK Slovan Bratislava",
+      "cantonese": {
+        "zh-hk": "斯洛雲體育會"
+      },
+      "cantonese_best": "斯洛雲體育會",
       "cantonese_lang": "zh-hk",
-      "description_english": "national under-21 association football team representing Slovakia",
+      "description_english": "association football club in Bratislava, Slovakia",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -3524,6 +3514,41 @@
       "description_english": "national association football team",
       "description_cantonese": {},
       "cantonese_source": "none"
+    },
+    "Q6651": {
+      "id": "Q6651",
+      "english": "Brescia Calcio",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "Italian football club based in Brescia, Lombardy",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q459794": {
+      "id": "Q459794",
+      "english": "Piacenza Calcio",
+      "cantonese": {
+        "zh-hk": "皮亞琴察足球俱樂部"
+      },
+      "cantonese_best": "皮亞琴察足球俱樂部",
+      "cantonese_lang": "zh-hk",
+      "description_english": "association football club in Italy",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q2037": {
+      "id": "Q2037",
+      "english": "AC ChievoVerona",
+      "cantonese": {
+        "zh-hk": "切沃维罗纳足球俱乐部",
+        "yue": "基爾禾維羅納足球會"
+      },
+      "cantonese_best": "基爾禾維羅納足球會",
+      "cantonese_lang": "yue",
+      "description_english": "Italian football club from Chievo, Verona",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
     },
     "Q4006951": {
       "id": "Q4006951",
@@ -3555,19 +3580,6 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q2037": {
-      "id": "Q2037",
-      "english": "AC ChievoVerona",
-      "cantonese": {
-        "zh-hk": "切沃维罗纳足球俱乐部",
-        "yue": "基爾禾維羅納足球會"
-      },
-      "cantonese_best": "基爾禾維羅納足球會",
-      "cantonese_lang": "yue",
-      "description_english": "Italian football club from Chievo, Verona",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
     "Q2674": {
       "id": "Q2674",
       "english": "Palermo F.C.",
@@ -3580,37 +3592,13 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q459794": {
-      "id": "Q459794",
-      "english": "Piacenza Calcio",
-      "cantonese": {
-        "zh-hk": "皮亞琴察足球俱樂部"
-      },
-      "cantonese_best": "皮亞琴察足球俱樂部",
-      "cantonese_lang": "zh-hk",
-      "description_english": "association football club in Italy",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q181216": {
-      "id": "Q181216",
-      "english": "HNK Hajduk Split",
-      "cantonese": {
-        "zh-hk": "夏德足球會"
-      },
-      "cantonese_best": "夏德足球會",
-      "cantonese_lang": "zh-hk",
-      "description_english": "association football club in Split, Croatia",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q1053917": {
-      "id": "Q1053917",
-      "english": "K.S.V. Roeselare",
+    "Q3446766": {
+      "id": "Q3446766",
+      "english": "Croatia national under-19 football team",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
-      "description_english": "association football club in Belgium",
+      "description_english": "national association football team",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -3624,16 +3612,15 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q134479": {
-      "id": "Q134479",
-      "english": "Croatia men's national football team",
+    "Q181216": {
+      "id": "Q181216",
+      "english": "HNK Hajduk Split",
       "cantonese": {
-        "zh-hk": "克羅地亞國家足球隊",
-        "yue": "克羅地亞足球代表隊"
+        "zh-hk": "夏德足球會"
       },
-      "cantonese_best": "克羅地亞足球代表隊",
-      "cantonese_lang": "yue",
-      "description_english": "men's national association football team representing Croatia",
+      "cantonese_best": "夏德足球會",
+      "cantonese_lang": "zh-hk",
+      "description_english": "association football club in Split, Croatia",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -3644,6 +3631,29 @@
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
       "description_english": "national association football team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q190916": {
+      "id": "Q190916",
+      "english": "Club Brugge K.V.",
+      "cantonese": {
+        "zh-hk": "布魯日足球俱樂部",
+        "yue": "布魯日足球會"
+      },
+      "cantonese_best": "布魯日足球會",
+      "cantonese_lang": "yue",
+      "description_english": "association football club in Belgium",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q1053917": {
+      "id": "Q1053917",
+      "english": "K.S.V. Roeselare",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "association football club in Belgium",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -3659,62 +3669,16 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q190916": {
-      "id": "Q190916",
-      "english": "Club Brugge K.V.",
+    "Q134479": {
+      "id": "Q134479",
+      "english": "Croatia men's national football team",
       "cantonese": {
-        "zh-hk": "布魯日足球俱樂部",
-        "yue": "布魯日足球會"
+        "zh-hk": "克羅地亞國家足球隊",
+        "yue": "克羅地亞足球代表隊"
       },
-      "cantonese_best": "布魯日足球會",
+      "cantonese_best": "克羅地亞足球代表隊",
       "cantonese_lang": "yue",
-      "description_english": "association football club in Belgium",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q3446766": {
-      "id": "Q3446766",
-      "english": "Croatia national under-19 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national association football team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q34044": {
-      "id": "Q34044",
-      "english": "Scotland men's national football team",
-      "cantonese": {
-        "yue": "蘇格蘭足球代表隊"
-      },
-      "cantonese_best": "蘇格蘭足球代表隊",
-      "cantonese_lang": "yue",
-      "description_english": "men's association football team representing Scotland",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q1812121": {
-      "id": "Q1812121",
-      "english": "Scotland national under-21 football team",
-      "cantonese": {
-        "zh-hk": "蘇格蘭21歲以下足球代表隊"
-      },
-      "cantonese_best": "蘇格蘭21歲以下足球代表隊",
-      "cantonese_lang": "zh-hk",
-      "description_english": "sports team",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q192873": {
-      "id": "Q192873",
-      "english": "Dundee United F.C.",
-      "cantonese": {
-        "zh-hk": "登地聯足球會"
-      },
-      "cantonese_best": "登地聯足球會",
-      "cantonese_lang": "zh-hk",
-      "description_english": "association football club in Dundee, Scotland",
+      "description_english": "men's national association football team representing Croatia",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -3742,6 +3706,42 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
+    "Q1812121": {
+      "id": "Q1812121",
+      "english": "Scotland national under-21 football team",
+      "cantonese": {
+        "zh-hk": "蘇格蘭21歲以下足球代表隊"
+      },
+      "cantonese_best": "蘇格蘭21歲以下足球代表隊",
+      "cantonese_lang": "zh-hk",
+      "description_english": "sports team",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q192873": {
+      "id": "Q192873",
+      "english": "Dundee United F.C.",
+      "cantonese": {
+        "zh-hk": "登地聯足球會"
+      },
+      "cantonese_best": "登地聯足球會",
+      "cantonese_lang": "zh-hk",
+      "description_english": "association football club in Dundee, Scotland",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q34044": {
+      "id": "Q34044",
+      "english": "Scotland men's national football team",
+      "cantonese": {
+        "yue": "蘇格蘭足球代表隊"
+      },
+      "cantonese_best": "蘇格蘭足球代表隊",
+      "cantonese_lang": "yue",
+      "description_english": "men's association football team representing Scotland",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
     "Q576285": {
       "id": "Q576285",
       "english": "Albacete Balompié",
@@ -3762,15 +3762,15 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q75684": {
-      "id": "Q75684",
-      "english": "S.C. Braga",
+    "Q1387471": {
+      "id": "Q1387471",
+      "english": "F.C. Penafiel",
       "cantonese": {
-        "yue": "布拉加體育會"
+        "zh-hk": "彭拿費爾足球會"
       },
-      "cantonese_best": "布拉加體育會",
-      "cantonese_lang": "yue",
-      "description_english": "association football team from Braga, Portugal",
+      "cantonese_best": "彭拿費爾足球會",
+      "cantonese_lang": "zh-hk",
+      "description_english": "Portuguese football club based in the city of Penafiel",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -3783,18 +3783,6 @@
       "description_english": "association football team from Rio de Janeiro",
       "description_cantonese": {},
       "cantonese_source": "none"
-    },
-    "Q19500": {
-      "id": "Q19500",
-      "english": "Wolverhampton Wanderers F.C.",
-      "cantonese": {
-        "yue": "狼隊足球會"
-      },
-      "cantonese_best": "狼隊足球會",
-      "cantonese_lang": "yue",
-      "description_english": "association football club in Wolverhampton, England",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
     },
     "Q8749": {
       "id": "Q8749",
@@ -3809,15 +3797,27 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q1387471": {
-      "id": "Q1387471",
-      "english": "F.C. Penafiel",
+    "Q19500": {
+      "id": "Q19500",
+      "english": "Wolverhampton Wanderers F.C.",
       "cantonese": {
-        "zh-hk": "彭拿費爾足球會"
+        "yue": "狼隊足球會"
       },
-      "cantonese_best": "彭拿費爾足球會",
-      "cantonese_lang": "zh-hk",
-      "description_english": "Portuguese football club based in the city of Penafiel",
+      "cantonese_best": "狼隊足球會",
+      "cantonese_lang": "yue",
+      "description_english": "association football club in Wolverhampton, England",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q75684": {
+      "id": "Q75684",
+      "english": "S.C. Braga",
+      "cantonese": {
+        "yue": "布拉加體育會"
+      },
+      "cantonese_best": "布拉加體育會",
+      "cantonese_lang": "yue",
+      "description_english": "association football team from Braga, Portugal",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -3833,15 +3833,15 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q283545": {
-      "id": "Q283545",
-      "english": "Al Sadd Sports Club",
+    "Q12249": {
+      "id": "Q12249",
+      "english": "Recreativo de Huelva",
       "cantonese": {
-        "zh-hk": "水壩體育會"
+        "zh-hk": "維爾瓦足球會"
       },
-      "cantonese_best": "水壩體育會",
+      "cantonese_best": "維爾瓦足球會",
       "cantonese_lang": "zh-hk",
-      "description_english": "sports club in Qatar",
+      "description_english": "Spanish football club",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -3857,15 +3857,15 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q12249": {
-      "id": "Q12249",
-      "english": "Recreativo de Huelva",
+    "Q283545": {
+      "id": "Q283545",
+      "english": "Al Sadd Sports Club",
       "cantonese": {
-        "zh-hk": "維爾瓦足球會"
+        "zh-hk": "水壩體育會"
       },
-      "cantonese_best": "維爾瓦足球會",
+      "cantonese_best": "水壩體育會",
       "cantonese_lang": "zh-hk",
-      "description_english": "Spanish football club",
+      "description_english": "sports club in Qatar",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -3880,16 +3880,6 @@
       "description_english": "Argentine sports club based in Rosario",
       "description_cantonese": {},
       "cantonese_source": "paranames"
-    },
-    "Q601723": {
-      "id": "Q601723",
-      "english": "Netherlands national under-17 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national association football team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
     },
     "Q1837832": {
       "id": "Q1837832",
@@ -3908,6 +3898,16 @@
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
       "description_english": "",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q601723": {
+      "id": "Q601723",
+      "english": "Netherlands national under-17 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national association football team",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -3933,6 +3933,18 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
+    "Q399282": {
+      "id": "Q399282",
+      "english": "HŠK Zrinjski Mostar",
+      "cantonese": {
+        "zh-hk": "辛連斯基足球會"
+      },
+      "cantonese_best": "辛連斯基足球會",
+      "cantonese_lang": "zh-hk",
+      "description_english": "association football club in Bosnia and Herzegovina",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
     "Q723644": {
       "id": "Q723644",
       "english": "NK Inter Zaprešić",
@@ -3954,18 +3966,6 @@
       "cantonese_best": "薩格勒布戴拿模足球會",
       "cantonese_lang": "zh-hk",
       "description_english": "association football club in Zagreb, Croatia",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q399282": {
-      "id": "Q399282",
-      "english": "HŠK Zrinjski Mostar",
-      "cantonese": {
-        "zh-hk": "辛連斯基足球會"
-      },
-      "cantonese_best": "辛連斯基足球會",
-      "cantonese_lang": "zh-hk",
-      "description_english": "association football club in Bosnia and Herzegovina",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -3999,18 +3999,6 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q328658": {
-      "id": "Q328658",
-      "english": "Le Havre AC",
-      "cantonese": {
-        "zh-hk": "勒哈弗爾體育會"
-      },
-      "cantonese_best": "勒哈弗爾體育會",
-      "cantonese_lang": "zh-hk",
-      "description_english": "association football club in Le Havre, France",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
     "Q1431996": {
       "id": "Q1431996",
       "english": "Quimper Kerfeunteun F.C.",
@@ -4018,6 +4006,16 @@
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
       "description_english": "French association football club",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q44441": {
+      "id": "Q44441",
+      "english": "Al-Ahli Saudi FC",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "football Club in Jeddah, Saudi Arabia",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -4034,15 +4032,17 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q44441": {
-      "id": "Q44441",
-      "english": "Al-Ahli Saudi FC",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "football Club in Jeddah, Saudi Arabia",
+    "Q328658": {
+      "id": "Q328658",
+      "english": "Le Havre AC",
+      "cantonese": {
+        "zh-hk": "勒哈弗爾體育會"
+      },
+      "cantonese_best": "勒哈弗爾體育會",
+      "cantonese_lang": "zh-hk",
+      "description_english": "association football club in Le Havre, France",
       "description_cantonese": {},
-      "cantonese_source": "none"
+      "cantonese_source": "paranames"
     },
     "Q2945336": {
       "id": "Q2945336",
@@ -4064,18 +4064,6 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q2636005": {
-      "id": "Q2636005",
-      "english": "Al-Shabab Football Club",
-      "cantonese": {
-        "zh-hk": "利雅得艾沙比足球會"
-      },
-      "cantonese_best": "利雅得艾沙比足球會",
-      "cantonese_lang": "zh-hk",
-      "description_english": "association football club in Saudi Arabia",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
     "Q678582": {
       "id": "Q678582",
       "english": "Switzerland national under-21 football team",
@@ -4085,6 +4073,18 @@
       "cantonese_best": "瑞士21歲以下國家足球隊",
       "cantonese_lang": "zh-hk",
       "description_english": "national association football team",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q2636005": {
+      "id": "Q2636005",
+      "english": "Al-Shabab Football Club",
+      "cantonese": {
+        "zh-hk": "利雅得艾沙比足球會"
+      },
+      "cantonese_best": "利雅得艾沙比足球會",
+      "cantonese_lang": "zh-hk",
+      "description_english": "association football club in Saudi Arabia",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -4110,18 +4110,6 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q1770361": {
-      "id": "Q1770361",
-      "english": "Jong Ajax",
-      "cantonese": {
-        "zh-hk": "阿積士青年隊"
-      },
-      "cantonese_best": "阿積士青年隊",
-      "cantonese_lang": "zh-hk",
-      "description_english": "reserve association football team in Amsterdam",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
     "Q332664": {
       "id": "Q332664",
       "english": "Willem II",
@@ -4134,15 +4122,17 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q584316": {
-      "id": "Q584316",
-      "english": "Danubio F.C.",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "Uruguayan football team",
+    "Q1770361": {
+      "id": "Q1770361",
+      "english": "Jong Ajax",
+      "cantonese": {
+        "zh-hk": "阿積士青年隊"
+      },
+      "cantonese_best": "阿積士青年隊",
+      "cantonese_lang": "zh-hk",
+      "description_english": "reserve association football team in Amsterdam",
       "description_cantonese": {},
-      "cantonese_source": "none"
+      "cantonese_source": "paranames"
     },
     "Q170703": {
       "id": "Q170703",
@@ -4156,6 +4146,16 @@
       "description_english": "Argentine sports club",
       "description_cantonese": {},
       "cantonese_source": "paranames"
+    },
+    "Q584316": {
+      "id": "Q584316",
+      "english": "Danubio F.C.",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "Uruguayan football team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
     },
     "Q160826": {
       "id": "Q160826",
@@ -4182,18 +4182,15 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q18747": {
-      "id": "Q18747",
-      "english": "West Ham United F.C.",
-      "cantonese": {
-        "zh-hk": "韋斯咸足球會",
-        "yue": "韋斯咸足球會"
-      },
-      "cantonese_best": "韋斯咸足球會",
-      "cantonese_lang": "yue",
-      "description_english": "association football club in London, England",
+    "Q646088": {
+      "id": "Q646088",
+      "english": "Club Atletico All Boys",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "sports club in Argentina",
       "description_cantonese": {},
-      "cantonese_source": "paranames"
+      "cantonese_source": "none"
     },
     "Q725367": {
       "id": "Q725367",
@@ -4208,15 +4205,18 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q646088": {
-      "id": "Q646088",
-      "english": "Club Atletico All Boys",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "sports club in Argentina",
+    "Q18747": {
+      "id": "Q18747",
+      "english": "West Ham United F.C.",
+      "cantonese": {
+        "zh-hk": "韋斯咸足球會",
+        "yue": "韋斯咸足球會"
+      },
+      "cantonese_best": "韋斯咸足球會",
+      "cantonese_lang": "yue",
+      "description_english": "association football club in London, England",
       "description_cantonese": {},
-      "cantonese_source": "none"
+      "cantonese_source": "paranames"
     },
     "Q732002": {
       "id": "Q732002",
@@ -4285,15 +4285,15 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q181190": {
-      "id": "Q181190",
-      "english": "Bosnia and Herzegovina men's national football team",
+    "Q176371": {
+      "id": "Q176371",
+      "english": "PFC CSKA Moscow",
       "cantonese": {
-        "zh-hk": "波斯尼亞和黑塞哥維那國家足球隊"
+        "zh-hk": "莫斯科中央陸軍足球俱樂部"
       },
-      "cantonese_best": "波斯尼亞和黑塞哥維那國家足球隊",
+      "cantonese_best": "莫斯科中央陸軍足球俱樂部",
       "cantonese_lang": "zh-hk",
-      "description_english": "men's national association football team representing Bosnia and Herzegovina",
+      "description_english": "Russian association football club in Moscow",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -4317,15 +4317,25 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q172567": {
-      "id": "Q172567",
-      "english": "Beşiktaş J.K.",
+    "Q769512": {
+      "id": "Q769512",
+      "english": "Bosnia and Herzegovina national under-21 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national association football team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q181190": {
+      "id": "Q181190",
+      "english": "Bosnia and Herzegovina men's national football team",
       "cantonese": {
-        "zh-hk": "比錫達斯體育會"
+        "zh-hk": "波斯尼亞和黑塞哥維那國家足球隊"
       },
-      "cantonese_best": "比錫達斯體育會",
+      "cantonese_best": "波斯尼亞和黑塞哥維那國家足球隊",
       "cantonese_lang": "zh-hk",
-      "description_english": "Turkish professional sports club based in Istanbul",
+      "description_english": "men's national association football team representing Bosnia and Herzegovina",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -4339,15 +4349,17 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q769512": {
-      "id": "Q769512",
-      "english": "Bosnia and Herzegovina national under-21 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national association football team",
+    "Q172567": {
+      "id": "Q172567",
+      "english": "Beşiktaş J.K.",
+      "cantonese": {
+        "zh-hk": "比錫達斯體育會"
+      },
+      "cantonese_best": "比錫達斯體育會",
+      "cantonese_lang": "zh-hk",
+      "description_english": "Turkish professional sports club based in Istanbul",
       "description_cantonese": {},
-      "cantonese_source": "none"
+      "cantonese_source": "paranames"
     },
     "Q221525": {
       "id": "Q221525",
@@ -4358,18 +4370,6 @@
       "cantonese_best": "梅斯足球會",
       "cantonese_lang": "zh-hk",
       "description_english": "association football club based in Metz, Lorraine, France",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q176371": {
-      "id": "Q176371",
-      "english": "PFC CSKA Moscow",
-      "cantonese": {
-        "zh-hk": "莫斯科中央陸軍足球俱樂部"
-      },
-      "cantonese_best": "莫斯科中央陸軍足球俱樂部",
-      "cantonese_lang": "zh-hk",
-      "description_english": "Russian association football club in Moscow",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -4396,9 +4396,9 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q650273": {
-      "id": "Q650273",
-      "english": "Switzerland national under-17 association football team",
+    "Q7659182": {
+      "id": "Q7659182",
+      "english": "Switzerland national under-16 association football team",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
@@ -4406,9 +4406,9 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q7659182": {
-      "id": "Q7659182",
-      "english": "Switzerland national under-16 association football team",
+    "Q650273": {
+      "id": "Q650273",
+      "english": "Switzerland national under-17 association football team",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
@@ -4440,6 +4440,16 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
+    "Q3044773": {
+      "id": "Q3044773",
+      "english": "Costa Rica national under-17 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national association football team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
     "Q8823": {
       "id": "Q8823",
       "english": "Levante UD",
@@ -4449,6 +4459,18 @@
       "description_english": "Spanish football club",
       "description_cantonese": {},
       "cantonese_source": "none"
+    },
+    "Q19490": {
+      "id": "Q19490",
+      "english": "Nottingham Forest F.C.",
+      "cantonese": {
+        "yue": "諾定咸森林足球會"
+      },
+      "cantonese_best": "諾定咸森林足球會",
+      "cantonese_lang": "yue",
+      "description_english": "association football club in West Bridgford, England",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
     },
     "Q194387": {
       "id": "Q194387",
@@ -4463,38 +4485,6 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q19490": {
-      "id": "Q19490",
-      "english": "Nottingham Forest F.C.",
-      "cantonese": {
-        "yue": "諾定咸森林足球會"
-      },
-      "cantonese_best": "諾定咸森林足球會",
-      "cantonese_lang": "yue",
-      "description_english": "association football club in West Bridgford, England",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q3044773": {
-      "id": "Q3044773",
-      "english": "Costa Rica national under-17 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national association football team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q868582": {
-      "id": "Q868582",
-      "english": "Deportivo Saprissa",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "association football club in San José, Costa Rica",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
     "Q1143000": {
       "id": "Q1143000",
       "english": "Club Universidad Nacional",
@@ -4506,6 +4496,16 @@
       "description_english": "Mexican association football club",
       "description_cantonese": {},
       "cantonese_source": "paranames"
+    },
+    "Q868582": {
+      "id": "Q868582",
+      "english": "Deportivo Saprissa",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "association football club in San José, Costa Rica",
+      "description_cantonese": {},
+      "cantonese_source": "none"
     },
     "Q134241": {
       "id": "Q134241",
@@ -4530,6 +4530,16 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
+    "Q3873552": {
+      "id": "Q3873552",
+      "english": "Poland national under-20 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "sports team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
     "Q1780231": {
       "id": "Q1780231",
       "english": "Poland national under-21 football team",
@@ -4541,16 +4551,6 @@
       "description_english": "national under-21 association football team representing Poland",
       "description_cantonese": {},
       "cantonese_source": "paranames"
-    },
-    "Q3873552": {
-      "id": "Q3873552",
-      "english": "Poland national under-20 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "sports team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
     },
     "Q166196": {
       "id": "Q166196",
@@ -4565,18 +4565,6 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q2657829": {
-      "id": "Q2657829",
-      "english": "Osasuna B",
-      "cantonese": {
-        "zh-hk": "奧沙辛拿B隊"
-      },
-      "cantonese_best": "奧沙辛拿B隊",
-      "cantonese_lang": "zh-hk",
-      "description_english": "reserve team of CA Osasuna",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
     "Q10286": {
       "id": "Q10286",
       "english": "Club Atlético Osasuna",
@@ -4586,6 +4574,18 @@
       "cantonese_best": "奧沙辛拿體育會",
       "cantonese_lang": "yue",
       "description_english": "Spanish association football team",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q2657829": {
+      "id": "Q2657829",
+      "english": "Osasuna B",
+      "cantonese": {
+        "zh-hk": "奧沙辛拿B隊"
+      },
+      "cantonese_best": "奧沙辛拿B隊",
+      "cantonese_lang": "zh-hk",
+      "description_english": "reserve team of CA Osasuna",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -4645,18 +4645,6 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q1886": {
-      "id": "Q1886",
-      "english": "Atalanta BC",
-      "cantonese": {
-        "yue": "阿特蘭大足球會"
-      },
-      "cantonese_best": "阿特蘭大足球會",
-      "cantonese_lang": "yue",
-      "description_english": "association football club in Bergamo, Italy",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
     "Q207462": {
       "id": "Q207462",
       "english": "FC Metalist Kharkiv",
@@ -4666,6 +4654,18 @@
       "cantonese_best": "哈爾科夫米達列斯足球會",
       "cantonese_lang": "zh-hk",
       "description_english": "professional association football club based in Kharkiv, Ukraine",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q1886": {
+      "id": "Q1886",
+      "english": "Atalanta BC",
+      "cantonese": {
+        "yue": "阿特蘭大足球會"
+      },
+      "cantonese_best": "阿特蘭大足球會",
+      "cantonese_lang": "yue",
+      "description_english": "association football club in Bergamo, Italy",
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
@@ -4681,6 +4681,28 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
+    "Q621259": {
+      "id": "Q621259",
+      "english": "S.C. Olhanense",
+      "cantonese": {
+        "zh-hk": "歐漢尼斯"
+      },
+      "cantonese_best": "歐漢尼斯",
+      "cantonese_lang": "zh-hk",
+      "description_english": "sports club in Portugal",
+      "description_cantonese": {},
+      "cantonese_source": "paranames"
+    },
+    "Q3590374": {
+      "id": "Q3590374",
+      "english": "Slovenia national under-17 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national association football team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
     "Q211401": {
       "id": "Q211401",
       "english": "U.D. Leiria",
@@ -4693,13 +4715,13 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q3590374": {
-      "id": "Q3590374",
-      "english": "Slovenia national under-17 football team",
+    "Q31932": {
+      "id": "Q31932",
+      "english": "NK Olimpija Ljubljana",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
-      "description_english": "national association football team",
+      "description_english": "association football club in Ljubljana, Slovenia",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -4715,30 +4737,28 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q621259": {
-      "id": "Q621259",
-      "english": "S.C. Olhanense",
-      "cantonese": {
-        "zh-hk": "歐漢尼斯"
-      },
-      "cantonese_best": "歐漢尼斯",
-      "cantonese_lang": "zh-hk",
-      "description_english": "sports club in Portugal",
-      "description_cantonese": {},
-      "cantonese_source": "paranames"
-    },
-    "Q31932": {
-      "id": "Q31932",
-      "english": "NK Olimpija Ljubljana",
+    "Q112840839": {
+      "id": "Q112840839",
+      "english": "UFB Jàbac i Terrassa",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
-      "description_english": "association football club in Ljubljana, Slovenia",
+      "description_english": "",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
     "Q112841080": {
       "id": "Q112841080",
+      "english": "Unknown",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q112841087": {
+      "id": "Q112841087",
       "english": "Unknown",
       "cantonese": {},
       "cantonese_best": "unknown",
@@ -4754,26 +4774,6 @@
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
       "description_english": "association football team in Spain",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q112841087": {
-      "id": "Q112841087",
-      "english": "Unknown",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q112840839": {
-      "id": "Q112840839",
-      "english": "UFB Jàbac i Terrassa",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -4841,16 +4841,6 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q9306674": {
-      "id": "Q9306674",
-      "english": "Croatia national under-18 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national association football team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
     "Q1258871": {
       "id": "Q1258871",
       "english": "NK Hrvatski Dragovoljac",
@@ -4858,6 +4848,16 @@
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
       "description_english": "association football club in Croatia",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q9306674": {
+      "id": "Q9306674",
+      "english": "Croatia national under-18 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national association football team",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -4881,16 +4881,6 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q1757655": {
-      "id": "Q1757655",
-      "english": "Olympique Alès",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "association football club in France",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
     "Q218372": {
       "id": "Q218372",
       "english": "Stade Brestois 29",
@@ -4902,6 +4892,16 @@
       "description_english": "association football club",
       "description_cantonese": {},
       "cantonese_source": "paranames"
+    },
+    "Q1757655": {
+      "id": "Q1757655",
+      "english": "Olympique Alès",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "association football club in France",
+      "description_cantonese": {},
+      "cantonese_source": "none"
     },
     "Q3132749": {
       "id": "Q3132749",
@@ -4926,16 +4926,6 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q2722081": {
-      "id": "Q2722081",
-      "english": "CD Izarra",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "Spanish football team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
     "Q60318566": {
       "id": "Q60318566",
       "english": "Al Bidaa SC",
@@ -4946,13 +4936,43 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q1481307": {
-      "id": "Q1481307",
-      "english": "Spain Olympic football team",
+    "Q1051203": {
+      "id": "Q1051203",
+      "english": "Qatar SC",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
-      "description_english": "",
+      "description_english": "sports club based in Doha, Qatar",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q2722081": {
+      "id": "Q2722081",
+      "english": "CD Izarra",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "Spanish football team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q5010044": {
+      "id": "Q5010044",
+      "english": "CD Berceo",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "association football club in Spain",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q657865": {
+      "id": "Q657865",
+      "english": "CD Logroñés",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "association football club",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -4968,33 +4988,13 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q1051203": {
-      "id": "Q1051203",
-      "english": "Qatar SC",
+    "Q1481307": {
+      "id": "Q1481307",
+      "english": "Spain Olympic football team",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
-      "description_english": "sports club based in Doha, Qatar",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q657865": {
-      "id": "Q657865",
-      "english": "CD Logroñés",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "association football club",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q5010044": {
-      "id": "Q5010044",
-      "english": "CD Berceo",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "association football club in Spain",
+      "description_english": "",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -5010,16 +5010,6 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
-    "Q52942": {
-      "id": "Q52942",
-      "english": "Lech Poznań",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "professional association football club",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
     "Q217977": {
       "id": "Q217977",
       "english": "Znicz Pruszków",
@@ -5030,13 +5020,13 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q15178660": {
-      "id": "Q15178660",
-      "english": "Ajax Youth Academy",
+    "Q52942": {
+      "id": "Q52942",
+      "english": "Lech Poznań",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
-      "description_english": "football club",
+      "description_english": "professional association football club",
       "description_cantonese": {},
       "cantonese_source": "none"
     },
@@ -5062,9 +5052,9 @@
       "description_cantonese": {},
       "cantonese_source": "none"
     },
-    "Q1270152": {
-      "id": "Q1270152",
-      "english": "Denmark national under-21 football team",
+    "Q3873525": {
+      "id": "Q3873525",
+      "english": "Denmark national under-19 football team",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
@@ -5075,6 +5065,16 @@
     "Q1270129": {
       "id": "Q1270129",
       "english": "Denmark national under-18 football team",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "national association football team",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
+    "Q1270152": {
+      "id": "Q1270152",
+      "english": "Denmark national under-21 football team",
       "cantonese": {},
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
@@ -5095,6 +5095,16 @@
       "description_cantonese": {},
       "cantonese_source": "paranames"
     },
+    "Q15178660": {
+      "id": "Q15178660",
+      "english": "Ajax Youth Academy",
+      "cantonese": {},
+      "cantonese_best": "unknown",
+      "cantonese_lang": "none",
+      "description_english": "football club",
+      "description_cantonese": {},
+      "cantonese_source": "none"
+    },
     "Q4994478": {
       "id": "Q4994478",
       "english": "Middelfart Boldklub",
@@ -5102,16 +5112,6 @@
       "cantonese_best": "unknown",
       "cantonese_lang": "none",
       "description_english": "Danish association football team",
-      "description_cantonese": {},
-      "cantonese_source": "none"
-    },
-    "Q3873525": {
-      "id": "Q3873525",
-      "english": "Denmark national under-19 football team",
-      "cantonese": {},
-      "cantonese_best": "unknown",
-      "cantonese_lang": "none",
-      "description_english": "national association football team",
       "description_cantonese": {},
       "cantonese_source": "none"
     }

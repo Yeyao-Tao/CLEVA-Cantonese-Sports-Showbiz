@@ -17,15 +17,19 @@ import sys
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from utils.jsonld_reader import (
-    load_paranames_cantonese,
-    parse_date,
     extract_entity_names,
     load_jsonld_file,
-    extract_player_id_from_filename,
-    get_all_jsonld_files,
-    extract_property_value,
+    extract_property_value
+)
+from utils.cantonese_utils import (
+    load_paranames_cantonese,
     load_cached_cantonese_names,
     get_entity_names_from_cache
+)
+from utils.date_utils import parse_date
+from utils.file_utils import (
+    extract_player_id_from_filename,
+    get_all_jsonld_files
 )
 
 

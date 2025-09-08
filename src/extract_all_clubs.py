@@ -19,15 +19,17 @@ import sys
 sys.path.append(os.path.dirname(__file__))
 
 from utils.jsonld_reader import (
-    load_paranames_cantonese,
-    parse_date,
     extract_entity_names,
+    load_jsonld_file
+)
+from utils.cantonese_utils import (
+    load_paranames_cantonese,
     get_best_cantonese_name,
-    load_jsonld_file,
-    extract_player_id_from_filename,
     load_cached_cantonese_names,
     get_entity_names_from_cache
 )
+from utils.date_utils import parse_date
+from utils.file_utils import extract_player_id_from_filename
 
 
 def teams_overlap(team1_info, team2_info):
@@ -80,135 +82,6 @@ def categorize_teams(all_affiliations):
     return clubs, national_teams, youth_teams
 
 
-def extract_cantonese_labels(data: dict, target_id: str) -> Dict[str, str]:
-    """
-    Extract Cantonese labels for a specific entity from WikiData JSONLD.
-    
-    Args:
-        data: The parsed JSON-LD data
-        target_id: The entity ID to extract labels for (e.g., 'Q107051')
-        
-    Returns:
-        Dictionary containing Cantonese labels with language codes as keys
-    """
-    cantonese_labels = {}
-    
-    for item in data.get('@graph', []):
-        item_id = item.get('@id', '')
-        
-        # Look for the target entity
-        if (item.get('@type') == 'wikibase:Item' and 
-            item_id == f'wd:{target_id}' and 
-            'label' in item):
-            
-            labels = item.get('label', [])
-            if isinstance(labels, dict):
-                labels = [labels]
-            
-            # Extract Cantonese labels (yue and zh-hk)
-            for label in labels:
-                if isinstance(label, dict):
-                    lang = label.get('@language', '')
-                    value = label.get('@value', '')
-                    
-                    if lang in ['yue', 'zh-hk'] and value:
-                        cantonese_labels[lang] = value
-                        
-    return cantonese_labels
-
-
-def get_best_cantonese_name(cantonese_labels: Dict[str, str]) -> Tuple[str, str]:
-    """
-    Get the best Cantonese name from available labels.
-    Prioritizes 'yue' over 'zh-hk', returns language code used.
-    
-    Args:
-        cantonese_labels: Dict of language codes to labels
-        
-    Returns:
-        Tuple of (best_name, language_code_used)
-    """
-    if 'yue' in cantonese_labels:
-        return cantonese_labels['yue'], 'yue'
-    elif 'zh-hk' in cantonese_labels:
-        return cantonese_labels['zh-hk'], 'zh-hk'
-    else:
-        return 'unknown', 'none'
-
-
-def extract_entity_names(data: dict, target_id: str, paranames_cantonese: Dict[str, Dict[str, str]] = None) -> Dict[str, Any]:
-    """
-    Extract all available names for an entity (English, Cantonese, etc.).
-    Now enhanced with ParaNames dataset for additional Cantonese names.
-    
-    Args:
-        data: The parsed JSON-LD data
-        target_id: The entity ID to extract names for
-        paranames_cantonese: Dictionary of Cantonese names from ParaNames dataset
-        
-    Returns:
-        Dictionary containing all available names and metadata
-    """
-    names = {
-        'id': target_id,
-        'english': 'Unknown',
-        'cantonese': {},
-        'cantonese_best': 'Unknown',
-        'cantonese_lang': 'none',
-        'description_english': '',
-        'description_cantonese': {},
-        'cantonese_source': 'none'  # Track whether Cantonese name came from WikiData or ParaNames
-    }
-    
-    for item in data.get('@graph', []):
-        item_id = item.get('@id', '')
-        
-        # Look for the target entity (can be with or without @type)
-        if item_id == f'wd:{target_id}':
-            
-            # Extract labels
-            if 'label' in item:
-                labels = item.get('label', [])
-                if isinstance(labels, dict):
-                    labels = [labels]
-                
-                for label in labels:
-                    if isinstance(label, dict):
-                        lang = label.get('@language', '')
-                        value = label.get('@value', '')
-                        
-                        if lang == 'en':
-                            names['english'] = value
-                        elif lang in ['yue', 'zh-hk']:
-                            names['cantonese'][lang] = value
-                            names['cantonese_source'] = 'wikidata'
-            
-            # Extract descriptions
-            if 'description' in item:
-                descriptions = item.get('description', [])
-                if isinstance(descriptions, dict):
-                    descriptions = [descriptions]
-                
-                for desc in descriptions:
-                    if isinstance(desc, dict):
-                        lang = desc.get('@language', '')
-                        value = desc.get('@value', '')
-                        
-                        if lang == 'en':
-                            names['description_english'] = value
-                        elif lang in ['yue', 'zh-hk']:
-                            names['description_cantonese'][lang] = value
-
-    # If no Cantonese names found in WikiData, check ParaNames dataset
-    if not names['cantonese'] and paranames_cantonese and target_id in paranames_cantonese:
-        names['cantonese'] = paranames_cantonese[target_id].copy()
-        names['cantonese_source'] = 'paranames'
-    
-    # Set best Cantonese name
-    names['cantonese_best'], names['cantonese_lang'] = get_best_cantonese_name(names['cantonese'])
-    
-    return names
-    
 def extract_all_teams(jsonld_file_path: str, cached_players: Dict = None, cached_teams: Dict = None) -> Dict[str, Any]:
     """
     Extract ALL team information for a football player from WikiData JSONLD.

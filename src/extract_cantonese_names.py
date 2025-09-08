@@ -17,9 +17,14 @@ import sys
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from utils.jsonld_reader import (
-    load_paranames_cantonese,
     extract_entity_names,
-    load_jsonld_file,
+    load_jsonld_file
+)
+from utils.cantonese_utils import (
+    load_paranames_cantonese,
+    load_cached_cantonese_names
+)
+from utils.file_utils import (
     extract_player_id_from_filename,
     get_all_jsonld_files
 )
@@ -288,36 +293,6 @@ def save_cantonese_mappings(data: Dict[str, Any], output_dir: str):
         json.dump(stats_output, f, indent=2, ensure_ascii=False)
     
     return player_file, team_file, stats_file
-
-
-def load_cached_cantonese_names(cache_dir: str) -> tuple:
-    """
-    Load cached Cantonese names from the cache directory.
-    
-    Args:
-        cache_dir: Directory containing cached name files
-        
-    Returns:
-        Tuple of (player_names_dict, team_names_dict) or (None, None) if files don't exist
-    """
-    player_file = os.path.join(cache_dir, 'players_cantonese_names.json')
-    team_file = os.path.join(cache_dir, 'teams_cantonese_names.json')
-    
-    if not os.path.exists(player_file) or not os.path.exists(team_file):
-        return None, None
-    
-    try:
-        with open(player_file, 'r', encoding='utf-8') as f:
-            player_data = json.load(f)
-        
-        with open(team_file, 'r', encoding='utf-8') as f:
-            team_data = json.load(f)
-        
-        return player_data['players'], team_data['teams']
-    
-    except Exception as e:
-        print(f"Error loading cached names: {e}")
-        return None, None
 
 
 if __name__ == "__main__":

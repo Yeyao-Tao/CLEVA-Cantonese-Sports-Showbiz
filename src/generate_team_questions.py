@@ -11,11 +11,7 @@ import random
 from typing import List, Dict, Any, Tuple
 from datetime import datetime
 
-
-def load_player_data(file_path: str) -> Dict[str, Any]:
-    """Load the complete player club data."""
-    with open(file_path, 'r', encoding='utf-8') as f:
-        return json.load(f)
+from .utils.file_utils import load_player_data
 
 
 def get_national_teams_only(player_data: Dict[str, Any]) -> List[Dict[str, Any]]:

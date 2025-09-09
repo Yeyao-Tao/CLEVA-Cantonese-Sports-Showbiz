@@ -3,8 +3,9 @@
 Utilities for file system operations.
 """
 
+import json
 import os
-from typing import List, Optional
+from typing import List, Optional, Dict, Any
 
 def extract_player_id_from_filename(jsonld_file_path: str) -> Optional[str]:
     """
@@ -36,3 +37,9 @@ def get_all_jsonld_files(directory_path: str) -> List[str]:
     
     files = [f for f in os.listdir(directory_path) if f.endswith('.jsonld')]
     return [os.path.join(directory_path, f) for f in files]
+
+
+def load_player_data(file_path: str) -> Dict[str, Any]:
+    """Load the complete player club data."""
+    with open(file_path, 'r', encoding='utf-8') as f:
+        return json.load(f)

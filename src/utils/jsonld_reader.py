@@ -12,43 +12,6 @@ from typing import Dict, Any, Optional
 from .cantonese_utils import get_best_cantonese_name
 
 
-def extract_cantonese_labels(data: dict, target_id: str) -> Dict[str, str]:
-    """
-    Extract Cantonese labels for a specific entity from WikiData JSONLD.
-    
-    Args:
-        data: The parsed JSON-LD data
-        target_id: The entity ID to extract labels for (e.g., 'Q107051')
-        
-    Returns:
-        Dictionary containing Cantonese labels with language codes as keys
-    """
-    cantonese_labels = {}
-    
-    for item in data.get('@graph', []):
-        item_id = item.get('@id', '')
-        
-        # Look for the target entity
-        if (item.get('@type') == 'wikibase:Item' and 
-            item_id == f'wd:{target_id}' and 
-            'label' in item):
-            
-            labels = item.get('label', [])
-            if isinstance(labels, dict):
-                labels = [labels]
-            
-            # Extract Cantonese labels (yue and zh-hk)
-            for label in labels:
-                if isinstance(label, dict):
-                    lang = label.get('@language', '')
-                    value = label.get('@value', '')
-                    
-                    if lang in ['yue', 'zh-hk'] and value:
-                        cantonese_labels[lang] = value
-                        
-    return cantonese_labels
-
-
 def extract_entity_names(data: dict, target_id: str, paranames_cantonese: Dict[str, Dict[str, str]] = None) -> Dict[str, Any]:
     """
     Extract all available names for an entity (English, Cantonese, etc.).

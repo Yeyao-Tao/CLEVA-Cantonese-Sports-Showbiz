@@ -1,0 +1,171 @@
+  Alejandro Darío Gómez -> Q965846
+  Alex Sandro Lobo Silva -> Q551192
+  Alexandre Lacazette -> Q13306
+  Alexis Alejandro Sánchez Sánchez -> Q180553
+  Alisson Ramsés Becker -> Q18237361
+  Andrea Barzagli -> Q107051
+  Andrew Robertson -> Q15915040
+  Andrés Iniesta Luján -> Q43729
+  Antoine Griezmann -> Q455462
+  Antonio Rüdiger -> Q96755
+  Arjen Robben -> Q43913
+  Arturo Erasmo Vidal Pardo -> Q192671
+  Aymeric Laporte -> Q3855340
+  Bastian Schweinsteiger -> Q44298
+  Bernardo Mota Veiga de Carvalho e Silva -> Q15521306
+  Bernd Leno -> Q309966
+  Blaise Matuidi -> Q1921
+  Bruno Miguel Borges Fernandes -> Q4979316
+  Bukayo Saka -> Q59306386
+  Carlos Alberto Tevez -> Q50600
+  Carlos Henrique Venancio Casimiro -> None
+  Christian Dannemann Eriksen -> Q294951
+  Christopher Nkunku -> Q21693199
+  Ciro Immobile -> Q458101
+  Claudio Marchisio -> Q179995
+  Cristiano Ronaldo dos Santos Aveiro -> Q11571
+  César Azpilicueta Tanco -> Q294806
+  Daniel Carvajal Ramos -> Q127452
+  Daniel Parejo Muñoz -> Q19388
+  David De Gea Quintana -> Q150268
+  David Josué Jiménez Silva -> Q161069
+  David Luiz Moreira Marinho -> Q193706
+  David Olatukunbo Alaba -> Q31981
+  Diego Roberto Godín Leal -> Q214903
+  Diego da Silva Costa -> Q459707
+  Dimitri Payet -> Q376247
+  Douglas Costa de Souza -> Q391680
+  Dries Mertens -> Q11954
+  Eden Michael Hazard -> Q214204
+  Ederson Santana de Moraes -> Q17074511
+  Edinson Roberto Cavani Gómez -> Q167790
+  Erling Braut Haaland -> Q28967995
+  Federico Santiago Valverde Dipetta -> Q19509544
+  Fernando Luiz Rosa -> Q459356
+  Francesc Fàbregas i Soler -> Q17499
+  Francisco Román Alarcón Suárez -> Q80892
+  Franck Bilal Ribéry -> Q1918
+  Frenkie de Jong -> Q19898898
+  Fábio Henrique Tavares -> Q641425
+  Gareth Frank Bale -> Q184586
+  Gerard Moreno Balagueró -> Q5550103
+  Gerard Piqué Bernabéu -> Q17507
+  Gianluigi Buffon -> Q68060
+  Gianluigi Donnarumma -> Q20830808
+  Giorgio Chiellini -> Q80306
+  Gnégnéri Yaya Touré -> Q184277
+  Gonzalo Gerardo Higuaín -> Q483846
+  Gregor Kobel -> Q36184031
+  Harry Kane -> Q969725
+  Hugo Lloris -> Q1907
+  Ivan Perišić -> Q161054
+  Ivan Rakitić -> Q115453
+  Jadon Sancho -> Q30148558
+  Jamal Musiala -> Q96072055
+  James David Rodríguez Rubio -> Q368441
+  Jamie Vardy -> Q6147586
+  Jan Bert Lieve Vertonghen -> Q313170
+  Jan Oblak -> Q2058682
+  Javier Martínez Aginaga -> Q201752
+  Jordan Henderson -> Q273715
+  Jordi Alba Ramos -> Q187159
+  Joshua Walter Kimmich -> Q13865408
+  João Miranda de Souza Filho -> Q318119
+  João Pedro Cavaco Cancelo -> Q6298063
+  Jude Victor William Bellingham -> Q66241169
+  Jérôme Boateng -> Q151260
+  Kalidou Koulibaly -> Q3192187
+  Karim Benzema -> Q1912
+  Kevin De Bruyne -> Q357984
+  Kevin Trapp -> Q118207
+  Keylor Navas Gamboa -> Q969423
+  Khvicha Kvaratskhelia -> Q61780902
+  Kingsley Junior Coman -> Q6413296
+  Kléper Laveran de Lima Ferreira -> None
+  Koen Casteels -> Q1756556
+  Kylian Mbappé Lottin -> Q21621995
+  Lautaro Javier Martínez -> Q21484126
+  Leon Christoph Goretzka -> Q520721
+  Leonardo Bonucci -> Q208050
+  Leroy Aziz Sané -> Q16499882
+  Lionel Andrés Messi Cuccittini -> Q615
+  Lorenzo Insigne -> Q1756086
+  Luis Alberto Suárez Díaz -> Q26517
+  Luka Modrić -> Q483837
+  Manuel Peter Neuer -> Q107365
+  Marc-André ter Stegen -> Q160472
+  Marcelo Brozović -> Q3845710
+  Marcelo Vieira da Silva Júnior -> Q38136
+  Marco Reus -> Q152377
+  Marco Verratti -> Q337623
+  Marcos Aoás Corrêa -> Q39230
+  Marcos Llorente Moreno -> Q21130285
+  Marek Hamšík -> Q201825
+  Martin Ødegaard -> Q16902219
+  Mats Hummels -> Q110053
+  Matthijs de Ligt -> Q26259982
+  Mauro Emanuel Icardi Rivero -> Q136986
+  Medhi Amine El Mouttaqi Benatia -> Q462779
+  Mesut Özil -> Q83488
+  Mike Maignan -> Q17274709
+  Milan Škriniar -> Q891520
+  Miralem Pjanić -> Q146907
+  Mohamed Salah Ghaly -> Q1354960
+  N'Golo Kanté -> Q16665941
+  Nemanja Matić -> Q297603
+  Neymar da Silva Santos Júnior -> Q142794
+  Nicolás Hernán Gonzalo Otamendi -> Q182063
+  Nicolò Barella -> Q20090225
+  Ousmane Dembélé -> Q20851003
+  Paul Pogba -> Q129027
+  Paulo Bruno Exequiel Dybala -> Q166317
+  Pedro González López -> Q66606355
+  Petr Čech -> Q483137
+  Philipp Lahm -> Q43682
+  Philippe Coutinho Correia -> Q311872
+  Pierre-Emerick Emiliano François Aubameyang -> Q44977
+  Radamel Falcao García Zárate -> Q138172
+  Radja Nainggolan -> Q517192
+  Rafael Alexandre Conceição Leão -> Q30055335
+  Raheem Sterling -> Q312157
+  Raphaël Varane -> Q489039
+  Riyad Mahrez -> Q8338725
+  Robert Lewandowski -> Q151269
+  Roberto Firmino Barbosa de Oliveira -> Q602525
+  Robin van Persie -> Q2339
+  Rodrigo Hernández Cascante -> Q20994118
+  Romelu Lukaku Menama -> None
+  Ronald Federico Araújo da Silva -> Q56332606
+  Ronaldo Aparecido Rodrigues -> Q313520
+  Rúben dos Santos Gato Alves Dias -> Q21621168
+  Sadio Mané -> Q209942
+  Samir Handanovič -> Q213002
+  Samuel Yves Umtiti -> Q13308
+  Sandro Tonali -> Q43402334
+  Santiago Cazorla González -> Q185225
+  Sergej Milinković-Savić -> Q15673000
+  Sergio Busquets i Burgos -> Q49704
+  Sergio Leonel Agüero del Castillo -> Q119562
+  Sergio Ramos García -> Q483309
+  Sokratis Papastathopoulos -> Q192923
+  Thiago Alcântara do Nascimento -> Q17493
+  Thiago Emiliano da Silva -> Q210453
+  Thibaut Nicolas Marc Courtois -> Q73360
+  Thomas Müller -> Q43666
+  Toby Albertine Maurits Alderweireld -> Q128840
+  Toni Kroos -> Q131234
+  Trent Alexander-Arnold -> Q27569376
+  Victor James Osimhen -> Q25253293
+  Vincent Jean Mpoy Kompany -> Q201381
+  Vinícius José Paixão de Oliveira Júnior -> Q28973866
+  Virgil van Dijk -> None
+  Wayne Mark Rooney -> Q266613
+  Wojciech Tomasz Szczęsny -> Q188997
+  Xavier Hernández Creus -> Q17500
+  Yann Sommer -> Q667596
+  Zlatan Ibrahimović -> Q46896
+  Ángel Fabián Di María Hernández -> Q251683
+  Éder Gabriel Militão -> Q29950055
+  Édouard Mendy -> Q27736107
+  İlkay Gündoğan -> Q161089
+  손흥민 孙兴慜 -> None

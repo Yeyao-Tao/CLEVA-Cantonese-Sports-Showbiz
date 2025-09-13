@@ -669,8 +669,8 @@ def analyze_single_player(file_path: str, paranames_cantonese: Dict[str, Dict[st
 if __name__ == "__main__":
     import time
     
-    directory_path = "./data/intermediate/football_players_triples"
-    cache_dir = "./data/cantonese_name_mapping"
+    directory_path = "./data/soccer/intermediate/football_players_triples"
+    cache_dir = "./data/soccer/cantonese_name_mapping"
     
     if not os.path.exists(directory_path):
         print(f"Directory not found: {directory_path}")
@@ -864,11 +864,11 @@ if __name__ == "__main__":
     }
     
     # Write to JSON file with enhanced name
-    output_file = "./data/intermediate/football_players_clubs_complete.json"
+    output_file = "./data/soccer/intermediate/football_players_clubs_complete.json"
     print(f"Writing filtered data (Cantonese players only) to {output_file}...")
     
     # Ensure output directory exists
-    os.makedirs("./data/intermediate", exist_ok=True)
+    os.makedirs("./data/soccer/intermediate", exist_ok=True)
 
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=2, ensure_ascii=False)

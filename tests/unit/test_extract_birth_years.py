@@ -549,8 +549,8 @@ class TestIntegration(unittest.TestCase):
             extract_birth_years.__name__ = "__main__"
             
             # Instead of exec, call the main functions directly
-            directory_path = "./data/intermediate/football_players_triples"
-            cache_dir = "./data/cantonese_name_mapping"
+            directory_path = "./data/soccer/intermediate/football_players_triples"
+            cache_dir = "./data/soccer/cantonese_name_mapping"
             
             # Simulate the main execution flow
             all_data = mock_process.return_value

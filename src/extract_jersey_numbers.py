@@ -275,8 +275,8 @@ def process_all_players_jersey_numbers(directory_path: str, cache_dir: str = Non
 if __name__ == "__main__":
     import time
     
-    directory_path = "./data/intermediate/football_players_triples"
-    cache_dir = "./data/cantonese_name_mapping"
+    directory_path = "./data/soccer/intermediate/football_players_triples"
+    cache_dir = "./data/soccer/cantonese_name_mapping"
     
     if not os.path.exists(directory_path):
         print(f"Directory not found: {directory_path}")
@@ -311,11 +311,11 @@ if __name__ == "__main__":
     }
     
     # Write to JSON file
-    output_file = "./data/intermediate/football_players_jersey_numbers.json"
+    output_file = "./data/soccer/intermediate/football_players_jersey_numbers.json"
     print(f"Writing jersey number data to {output_file}...")
     
     # Ensure output directory exists
-    os.makedirs("./data/intermediate", exist_ok=True)
+    os.makedirs("./data/soccer/intermediate", exist_ok=True)
 
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=2, ensure_ascii=False)

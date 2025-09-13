@@ -20,10 +20,10 @@ python src/generate_debut_year_questions.py
 ```
 
 The script will:
-1. Load player data from `data/intermediate/football_players_clubs_complete.json`
+1. Load player data from `data/soccer/intermediate/football_players_clubs_complete.json`
 2. Analyze debut year distribution across all players
 3. Generate questions for players with known national team debut years
-4. Save results to `data/output/debut_year_questions.json`
+4. Save results to `data/soccer/output/debut_year_questions.json`
 
 ## Question Format
 
@@ -130,7 +130,7 @@ The tests cover:
 
 ## Output File
 
-The generated questions are saved to `data/output/debut_year_questions.json` with comprehensive metadata including:
+The generated questions are saved to `data/soccer/output/debut_year_questions.json` with comprehensive metadata including:
 - Question type and purpose
 - Total number of questions
 - Year range covered

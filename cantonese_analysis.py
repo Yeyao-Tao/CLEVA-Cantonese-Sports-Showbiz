@@ -85,7 +85,7 @@ if __name__ == "__main__":
     print(f"Players without Cantonese labels: {len(players_without_cantonese)}")
     
     # Save detailed results
-    detailed_output = "./data/intermediate/cantonese_players_detailed.txt"
+    detailed_output = "./data/soccer/intermediate/cantonese_players_detailed.txt"
     with open(detailed_output, 'w', encoding='utf-8') as f:
         f.write("Players with Cantonese labels and their names:\n")
         f.write("="*50 + "\n\n")

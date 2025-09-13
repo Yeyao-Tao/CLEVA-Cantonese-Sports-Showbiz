@@ -6,7 +6,7 @@ Verify ParaNames enhancement statistics in the output data.
 import json
 
 def main():
-    with open('data/intermediate/football_players_clubs_complete.json', 'r', encoding='utf-8') as f:
+    with open('data/soccer/intermediate/football_players_clubs_complete.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
     
     # Count sources

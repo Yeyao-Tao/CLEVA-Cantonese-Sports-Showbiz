@@ -7,7 +7,7 @@ The `src/generate_teammate_questions.py` script generates multiple-choice questi
 ## How It Works
 
 ### Data Source
-The script reads from `./data/intermediate/football_players_clubs_complete.json`, specifically using the `potential_teammates` array that contains pairs of players who have played together at the same club.
+The script reads from `./data/soccer/intermediate/football_players_clubs_complete.json`, specifically using the `potential_teammates` array that contains pairs of players who have played together at the same club.
 
 ### Question Format
 Each question asks which pair of players has been teammates before, with four multiple-choice answers:
@@ -37,11 +37,11 @@ python src/generate_teammate_questions.py
 ```
 
 ### What It Does
-1. **Loads data** from `./data/intermediate/football_players_clubs_complete.json`
+1. **Loads data** from `./data/soccer/intermediate/football_players_clubs_complete.json`
 2. **Filters** for player pairs where both players have Cantonese names
 3. **Generates** 50 multiple-choice questions (or fewer if insufficient data)
 4. **Creates distractors** by selecting random pairs of players who were never teammates
-5. **Saves** results to `./data/output/teammate_relationship_questions.json`
+5. **Saves** results to `./data/soccer/output/teammate_relationship_questions.json`
 
 ### Output Structure
 The generated JSON file contains:
@@ -81,8 +81,8 @@ python tests/test_teammate_questions.py
 ## File Locations
 
 - **Script**: `src/generate_teammate_questions.py`
-- **Input**: `./data/intermediate/football_players_clubs_complete.json`
-- **Output**: `./data/output/teammate_relationship_questions.json`
+- **Input**: `./data/soccer/intermediate/football_players_clubs_complete.json`
+- **Output**: `./data/soccer/output/teammate_relationship_questions.json`
 - **Tests**: `tests/test_teammate_questions.py`
 
 ## Integration with Existing Work

@@ -16,7 +16,7 @@ The `extract_all_clubs.py` script has been successfully enhanced with ParaNames 
 
 ### Integration Features
 
-1. **Load ParaNames Data**: The script now loads Cantonese names (yue and zh-hk) from `data/raw/paranames.tsv`
+1. **Load ParaNames Data**: The script now loads Cantonese names (yue and zh-hk) from `data/soccer/raw/paranames.tsv`
 
 2. **Priority System**: 
    - First tries to get Cantonese names from WikiData
@@ -44,8 +44,8 @@ This enhancement dramatically improves the coverage of Cantonese names for footb
 ## Files Modified
 
 - `src/extract_all_clubs.py` - Enhanced with ParaNames integration
-- `data/intermediate/football_players_clubs_complete.json` - Output now includes enhanced club names
+- `data/soccer/intermediate/football_players_clubs_complete.json` - Output now includes enhanced club names
 
 ## Usage
 
-The script automatically uses ParaNames data when available at `./data/raw/paranames.tsv`. All existing functionality is preserved while providing significant enhancement in Cantonese name coverage for clubs.
+The script automatically uses ParaNames data when available at `./data/soccer/raw/paranames.tsv`. All existing functionality is preserved while providing significant enhancement in Cantonese name coverage for clubs.

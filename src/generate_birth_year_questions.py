@@ -379,7 +379,7 @@ def save_questions(questions: List[Dict[str, Any]], output_file: str):
 
 if __name__ == "__main__":
     # Load the birth year data
-    data_file = "./data/intermediate/players_birth_years.json"
+    data_file = "./data/soccer/intermediate/players_birth_years.json"
     
     print("Loading player birth year data...")
     all_data = load_birth_year_data(data_file)
@@ -393,7 +393,7 @@ if __name__ == "__main__":
     print(f"Generated {len(questions)} questions")
     
     # Save to file
-    output_file = "./data/output/birth_year_questions.json"
+    output_file = "./data/soccer/output/birth_year_questions.json"
     save_questions(questions, output_file)
     
     print(f"Questions saved to {output_file}")

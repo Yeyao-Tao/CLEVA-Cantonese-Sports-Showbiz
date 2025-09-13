@@ -21,12 +21,12 @@ def get_names_from_FC24(file_path: str, min_overall: int = 85) -> list[str]:
 
 if __name__ == "__main__":
     min_overall = 85
-    names = get_names_from_FC24("./data/raw/FC24/male_players.csv", min_overall)
+    names = get_names_from_FC24("./data/soccer/raw/FC24/male_players.csv", min_overall)
     print(f"Players with overall > {min_overall}: {len(names)}")
     print(f"First player: {names[0]}")
     
     # Create output directory if it doesn't exist
-    output_dir = "./data/intermediate"
+    output_dir = "./data/soccer/intermediate"
     os.makedirs(output_dir, exist_ok=True)
     
     # Save names to file

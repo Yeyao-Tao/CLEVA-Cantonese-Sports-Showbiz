@@ -17,13 +17,19 @@ import requests
 import os
 import json
 import time
+import sys
 from collections import defaultdict
+
+# Add the current directory to Python path to import utils
+sys.path.append(os.path.dirname(__file__))
+
+from utils.path_utils import get_football_players_triples_dir, get_soccer_intermediate_dir
 
 WIKIDATA_API = "https://www.wikidata.org/w/api.php"
 WIKIDATA_ENTITY_DATA_URL = "https://www.wikidata.org/wiki/Special:EntityData/"
 
 # Path constants
-TRIPLES_DIR = "./data/soccer/intermediate/football_players_triples/"
+TRIPLES_DIR = get_football_players_triples_dir() + "/"
 
 # Wikidata constants
 Q_HUMAN = "Q5"
@@ -400,7 +406,7 @@ def filter_existing_players_for_cantonese(input_dir=TRIPLES_DIR):
 
 if __name__ == "__main__":
     # Read player names from the file created by fifa_dataset_lookup.py
-    names_file = "./data/soccer/intermediate/fifa_player_names.txt"
+    names_file = os.path.join(get_soccer_intermediate_dir(), "fifa_player_names.txt")
     
     try:
         names = read_names_from_file(names_file)
@@ -451,7 +457,7 @@ if __name__ == "__main__":
             print(f"  - {name} ({qid})")
     
     # Save the list of players with Cantonese labels to a file
-    cantonese_players_file = "./data/soccer/intermediate/players_with_cantonese_labels.txt"
+    cantonese_players_file = os.path.join(get_soccer_intermediate_dir(), "players_with_cantonese_labels.txt")
     with open(cantonese_players_file, 'w', encoding='utf-8') as f:
         for qid in players_with_cantonese:
             f.write(f"{qid}\n")

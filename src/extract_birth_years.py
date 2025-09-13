@@ -31,6 +31,11 @@ from utils.file_utils import (
     extract_player_id_from_filename,
     get_all_jsonld_files
 )
+from utils.path_utils import (
+    get_football_players_triples_dir,
+    get_cantonese_mapping_dir,
+    get_soccer_intermediate_dir
+)
 
 
 def extract_birth_year(jsonld_file_path: str, cached_players: Dict = None) -> Dict[str, Any]:
@@ -329,9 +334,9 @@ if __name__ == "__main__":
     import time
     
     # Configuration
-    directory_path = "./data/soccer/intermediate/football_players_triples"
-    cache_dir = "./data/soccer/cantonese_name_mapping"
-    output_file = "./data/soccer/intermediate/players_birth_years.json"
+    directory_path = get_football_players_triples_dir()
+    cache_dir = get_cantonese_mapping_dir()
+    output_file = os.path.join(get_soccer_intermediate_dir(), "players_birth_years.json")
     
     # Check if directory exists
     if not os.path.exists(directory_path):
@@ -381,7 +386,7 @@ if __name__ == "__main__":
     print(f"Writing birth year data to {output_file}...")
     
     # Ensure output directory exists
-    os.makedirs("./data/soccer/intermediate", exist_ok=True)
+    os.makedirs(get_soccer_intermediate_dir(), exist_ok=True)
     
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=2, ensure_ascii=False)

@@ -28,6 +28,11 @@ from utils.file_utils import (
     extract_player_id_from_filename,
     get_all_jsonld_files
 )
+from utils.path_utils import (
+    get_football_players_triples_dir,
+    get_soccer_raw_dir,
+    get_cantonese_mapping_dir
+)
 
 
 def extract_all_entity_ids_from_jsonld(jsonld_file_path: str) -> Set[str]:
@@ -297,9 +302,9 @@ def save_cantonese_mappings(data: Dict[str, Any], output_dir: str):
 
 if __name__ == "__main__":
     # Configuration
-    directory_path = "./data/soccer/intermediate/football_players_triples"
-    paranames_path = "./data/soccer/raw/paranames.tsv"
-    output_dir = "./data/soccer/cantonese_name_mapping"
+    directory_path = get_football_players_triples_dir()
+    paranames_path = os.path.join(get_soccer_raw_dir(), "paranames.tsv")
+    output_dir = get_cantonese_mapping_dir()
     
     # Check if directory exists
     if not os.path.exists(directory_path):

@@ -8,8 +8,13 @@ import os
 import json
 from collections import defaultdict
 
+# Add the src directory to Python path to import utils
+sys.path.append('src')
+
+from utils.path_utils import get_football_players_triples_dir, get_soccer_intermediate_dir
+
 # Path constants
-TRIPLES_DIR = "./data/soccer/intermediate/football_players_triples/"
+TRIPLES_DIR = get_football_players_triples_dir() + "/"
 
 def extract_labels_by_language(jsonld_file_path, language_codes):
     """
@@ -176,7 +181,7 @@ def compare_yue_and_zh_hk():
         print(f"Different labels: {stats['different_labels']} ({different_percentage:.1f}%)")
     
     # Save detailed results
-    results_file = "./data/soccer/intermediate/yue_vs_zh_hk_comparison.txt"
+    results_file = os.path.join(get_soccer_intermediate_dir(), "yue_vs_zh_hk_comparison.txt")
     with open(results_file, 'w', encoding='utf-8') as f:
         f.write("Comparison of 'yue' vs 'zh-hk' labels\n")
         f.write("=" * 40 + "\n\n")

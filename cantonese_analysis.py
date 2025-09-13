@@ -11,6 +11,7 @@ import json
 sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
 
 from wikidata_lookup import filter_existing_players_for_cantonese, TRIPLES_DIR
+from utils.path_utils import get_soccer_intermediate_dir
 
 def extract_cantonese_names(jsonld_file_path):
     """
@@ -85,7 +86,7 @@ if __name__ == "__main__":
     print(f"Players without Cantonese labels: {len(players_without_cantonese)}")
     
     # Save detailed results
-    detailed_output = "./data/soccer/intermediate/cantonese_players_detailed.txt"
+    detailed_output = os.path.join(get_soccer_intermediate_dir(), "cantonese_players_detailed.txt")
     with open(detailed_output, 'w', encoding='utf-8') as f:
         f.write("Players with Cantonese labels and their names:\n")
         f.write("="*50 + "\n\n")

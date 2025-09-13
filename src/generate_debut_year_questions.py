@@ -9,10 +9,16 @@ focusing on when players first debuted for their senior national teams.
 
 import json
 import random
+import os
+import sys
 from typing import List, Dict, Any, Tuple, Optional
 from datetime import datetime
 
-from .utils.file_utils import load_player_data
+# Add the current directory to Python path to import utils
+sys.path.append(os.path.dirname(__file__))
+
+from utils.file_utils import load_player_data
+from utils.path_utils import get_soccer_intermediate_dir, get_soccer_output_dir
 
 
 def get_national_teams_only(player_data: Dict[str, Any]) -> List[Dict[str, Any]]:
@@ -254,7 +260,7 @@ def save_questions(questions: List[Dict[str, Any]], output_file: str):
 
 if __name__ == "__main__":
     # Get the data file path
-    data_file = "./data/soccer/intermediate/football_players_clubs_complete.json"
+    data_file = os.path.join(get_soccer_intermediate_dir(), "football_players_clubs_complete.json")
     
     print("Loading player data...")
     all_data = load_player_data(data_file)
@@ -276,7 +282,11 @@ if __name__ == "__main__":
     print(f"\nTotal questions generated: {len(questions)}")
     
     # Save to file
-    output_file = "./data/soccer/output/debut_year_questions.json"
+    output_file = os.path.join(get_soccer_output_dir(), "debut_year_questions.json")
+    
+    # Ensure output directory exists
+    os.makedirs(get_soccer_output_dir(), exist_ok=True)
+    
     save_questions(questions, output_file)
     
     print(f"Questions saved to {output_file}")

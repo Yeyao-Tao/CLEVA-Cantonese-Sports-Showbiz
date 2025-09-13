@@ -8,9 +8,16 @@ for testing LLM understanding of Cantonese football terminology and player infor
 
 import json
 import random
+import os
+import sys
 from typing import List, Dict, Any, Tuple
 from datetime import datetime
 import collections
+
+# Add the current directory to Python path to import utils
+sys.path.append(os.path.dirname(__file__))
+
+from utils.path_utils import get_soccer_intermediate_dir, get_soccer_output_dir
 
 
 def load_birth_year_data(file_path: str) -> Dict[str, Any]:
@@ -379,7 +386,7 @@ def save_questions(questions: List[Dict[str, Any]], output_file: str):
 
 if __name__ == "__main__":
     # Load the birth year data
-    data_file = "./data/soccer/intermediate/players_birth_years.json"
+    data_file = os.path.join(get_soccer_intermediate_dir(), "players_birth_years.json")
     
     print("Loading player birth year data...")
     all_data = load_birth_year_data(data_file)
@@ -393,7 +400,11 @@ if __name__ == "__main__":
     print(f"Generated {len(questions)} questions")
     
     # Save to file
-    output_file = "./data/soccer/output/birth_year_questions.json"
+    output_file = os.path.join(get_soccer_output_dir(), "birth_year_questions.json")
+    
+    # Ensure output directory exists
+    os.makedirs(get_soccer_output_dir(), exist_ok=True)
+    
     save_questions(questions, output_file)
     
     print(f"Questions saved to {output_file}")

@@ -27,6 +27,11 @@ from utils.cantonese_utils import (
 )
 from utils.date_utils import parse_date
 from utils.file_utils import extract_player_id_from_filename
+from utils.path_utils import (
+    get_football_players_triples_dir,
+    get_cantonese_mapping_dir,
+    get_soccer_intermediate_dir
+)
 
 
 def extract_jersey_numbers(jsonld_file_path: str, cached_players: Dict = None, cached_teams: Dict = None) -> Dict[str, Any]:
@@ -275,8 +280,8 @@ def process_all_players_jersey_numbers(directory_path: str, cache_dir: str = Non
 if __name__ == "__main__":
     import time
     
-    directory_path = "./data/soccer/intermediate/football_players_triples"
-    cache_dir = "./data/soccer/cantonese_name_mapping"
+    directory_path = get_football_players_triples_dir()
+    cache_dir = get_cantonese_mapping_dir()
     
     if not os.path.exists(directory_path):
         print(f"Directory not found: {directory_path}")
@@ -311,11 +316,11 @@ if __name__ == "__main__":
     }
     
     # Write to JSON file
-    output_file = "./data/soccer/intermediate/football_players_jersey_numbers.json"
+    output_file = os.path.join(get_soccer_intermediate_dir(), "football_players_jersey_numbers.json")
     print(f"Writing jersey number data to {output_file}...")
     
     # Ensure output directory exists
-    os.makedirs("./data/soccer/intermediate", exist_ok=True)
+    os.makedirs(get_soccer_intermediate_dir(), exist_ok=True)
 
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=2, ensure_ascii=False)

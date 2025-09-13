@@ -1,5 +1,11 @@
 import pandas as pd
 import os
+import sys
+
+# Add the current directory to Python path to import utils
+sys.path.append(os.path.dirname(__file__))
+
+from utils.path_utils import get_soccer_raw_dir, get_soccer_intermediate_dir
 
 def get_names_from_FC24(file_path: str, min_overall: int = 85) -> list[str]:
     # Read the data with both long_name and overall columns
@@ -21,12 +27,13 @@ def get_names_from_FC24(file_path: str, min_overall: int = 85) -> list[str]:
 
 if __name__ == "__main__":
     min_overall = 85
-    names = get_names_from_FC24("./data/soccer/raw/FC24/male_players.csv", min_overall)
+    fifa_file = os.path.join(get_soccer_raw_dir(), "FC24", "male_players.csv")
+    names = get_names_from_FC24(fifa_file, min_overall)
     print(f"Players with overall > {min_overall}: {len(names)}")
     print(f"First player: {names[0]}")
     
     # Create output directory if it doesn't exist
-    output_dir = "./data/soccer/intermediate"
+    output_dir = get_soccer_intermediate_dir()
     os.makedirs(output_dir, exist_ok=True)
     
     # Save names to file

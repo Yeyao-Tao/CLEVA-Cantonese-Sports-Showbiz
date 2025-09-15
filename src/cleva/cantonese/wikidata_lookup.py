@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """
-Resolve player names -> Wikidata Q-IDs (footballers only).
+Generic Wikidata lookup module for resolving entity names to Q-IDs.
 
-Filters out non-people (books, trials, photos) and non-footballers by requiring:
-  - P31 (instance of) includes Q5 (human), AND
-  - (P106 (occupation) includes Q937857 association football player) OR
-    (P641 (sport) includes Q2736 association football)
+This module provides generic functionality for:
+- Searching Wikidata entities by name
+- Fetching entity data in JSON-LD format
+- Filtering entities based on configurable criteria
+- Handling Cantonese language labels
 
-The script now filters for Cantonese labels during the data fetching process,
-only saving JSON-LD files for players who have Cantonese (yue) or Hong Kong Chinese (zh-hk) labels.
-This avoids storing unnecessary data for players without Cantonese names.
+Can be used for various entity types (footballers, movies, actors, etc.)
+by providing appropriate filter functions and configuration.
 
 Requires: requests
 """
@@ -19,23 +19,20 @@ import json
 import time
 import sys
 from collections import defaultdict
-
-from cleva.cantonese.utils.path_utils import get_football_players_triples_dir, get_soccer_intermediate_dir
+from typing import Dict, List, Set, Callable, Optional, Tuple, Any
 
 WIKIDATA_API = "https://www.wikidata.org/w/api.php"
 WIKIDATA_ENTITY_DATA_URL = "https://www.wikidata.org/wiki/Special:EntityData/"
 
-# Path constants
-TRIPLES_DIR = get_football_players_triples_dir() + "/"
-
-# Wikidata constants
+# Common Wikidata constants
 Q_HUMAN = "Q5"
+Q_FILM = "Q11424"
 Q_ASSOC_FOOTBALL = "Q2736"
 Q_ASSOC_FOOTBALL_PLAYER = "Q937857"
 
 HEADERS = {
     # Please put a contact per Wikidata's API etiquette
-    "User-Agent": "player-qid-resolver/1.0 (your-email@example.com)"
+    "User-Agent": "entity-qid-resolver/1.0 (your-email@example.com)"
 }
 
 def wbsearchentities(name, limit=10, language="en"):
@@ -89,12 +86,46 @@ def is_football_person(claims):
     football_by_sport = Q_ASSOC_FOOTBALL in sports
     return is_human and (football_by_occ or football_by_sport)
 
-def resolve_player_qids(names, language="en", search_limit=10, max_candidates=20):
+def is_movie(claims):
+    """True if entity is a film."""
+    instance_of = claim_object_ids(claims, "P31")
+    return Q_FILM in instance_of
+
+def create_entity_filter(filter_type: str) -> Callable[[Dict], bool]:
     """
-    For each name, search candidates and keep the first 'football person'.
+    Create an entity filter function based on the specified type.
+    
+    Args:
+        filter_type: Type of entity filter ('football_player' or 'movie')
+        
     Returns:
-      result: {name: qid or None}
-      debug_filtered: {name: [qid, ...]}  # candidates that were rejected
+        Function that takes claims dict and returns True if entity matches filter
+    """
+    if filter_type == "football_player":
+        return is_football_person
+    elif filter_type == "movie":
+        return is_movie
+    else:
+        raise ValueError(f"Unknown filter type: {filter_type}")
+
+def resolve_entity_qids(names: List[str], 
+                       entity_filter: Callable[[Dict], bool],
+                       language: str = "en", 
+                       search_limit: int = 10, 
+                       max_candidates: int = 20) -> Tuple[Dict[str, Optional[str]], Dict[str, List[str]]]:
+    """
+    For each name, search candidates and keep the first one matching the filter.
+    
+    Args:
+        names: List of entity names to search for
+        entity_filter: Function to filter entities (takes claims dict, returns bool)
+        language: Language for search (default: "en")
+        search_limit: Maximum search results per name
+        max_candidates: Maximum candidates to check per name
+        
+    Returns:
+        result: {name: qid or None}
+        debug_filtered: {name: [qid, ...]}  # candidates that were rejected
     """
     result = {}
     debug_filtered = defaultdict(list)
@@ -120,9 +151,9 @@ def resolve_player_qids(names, language="en", search_limit=10, max_candidates=20
             claims_map = wbgetentities_claims(batch)
             for qid in batch:
                 claims = claims_map.get(qid, {})
-                if is_football_person(claims):
+                if entity_filter(claims):
                     picked = qid
-                    print(f"  ✓ Found football player: {qid}")
+                    print(f"  ✓ Found matching entity: {qid}")
                     break
                 else:
                     debug_filtered[name].append(qid)
@@ -131,7 +162,7 @@ def resolve_player_qids(names, language="en", search_limit=10, max_candidates=20
         
         batch_time = time.time() - batch_start
         if not picked:
-            print(f"  ✗ No football player found (checked in {batch_time:.2f}s)")
+            print(f"  ✗ No matching entity found (checked in {batch_time:.2f}s)")
         
         result[name] = picked
         
@@ -145,7 +176,7 @@ def resolve_player_qids(names, language="en", search_limit=10, max_candidates=20
         print(f"  Progress: {idx}/{total_names} ({idx/total_names*100:.1f}%) - ETA: {eta_minutes:.1f} minutes\n")
 
     total_time = time.time() - start_time
-    print(f"Completed player resolution in {total_time/60:.1f} minutes")
+    print(f"Completed entity resolution in {total_time/60:.1f} minutes")
     return result, debug_filtered
 
 def read_names_from_file(file_path):
@@ -200,7 +231,7 @@ def has_cantonese_label(jsonld_data):
     # Return True if we have 'yue' labels, or if we have 'zh-hk' labels as fallback
     return has_yue or has_zh_hk
 
-def fetch_entity_jsonld(qid, output_dir=TRIPLES_DIR, filter_cantonese=False):
+def fetch_entity_jsonld(qid: str, output_dir: str, filter_cantonese: bool = False) -> Tuple[Optional[Dict], Optional[str]]:
     """
     Fetch JSON-LD triples for a Wikidata entity (Q-ID) and optionally save to file.
     
@@ -258,36 +289,40 @@ def fetch_entity_jsonld(qid, output_dir=TRIPLES_DIR, filter_cantonese=False):
         print(f"    ✗ Unexpected error for {qid}: {e}")
         return None, None
 
-def fetch_all_player_triples(qid_mapping, output_dir=TRIPLES_DIR, filter_cantonese=False):
+def fetch_all_entity_triples(qid_mapping: Dict[str, Optional[str]], 
+                           output_dir: str, 
+                           filter_cantonese: bool = False,
+                           entity_type: str = "entity") -> Tuple[Dict[str, str], Dict[str, str], Dict[str, str]]:
     """
-    Fetch JSON-LD triples for all resolved players.
+    Fetch JSON-LD triples for all resolved entities.
     
     Args:
-        qid_mapping (dict): Mapping of player names to Q-IDs
-        output_dir (str): Directory to save the JSON-LD files
-        filter_cantonese (bool): If True, only save files for players with Cantonese labels
+        qid_mapping: Mapping of entity names to Q-IDs
+        output_dir: Directory to save the JSON-LD files
+        filter_cantonese: If True, only save files for entities with Cantonese labels
+        entity_type: Type of entity for logging purposes (e.g., "player", "movie")
     
     Returns:
-        dict: Mapping of Q-IDs to saved file paths (only for players with Cantonese labels if filtering)
-        dict: Mapping of Q-IDs to player names for players with Cantonese labels
-        dict: Mapping of Q-IDs to player names for players without Cantonese labels (if filtering)
+        dict: Mapping of Q-IDs to saved file paths (only for entities with Cantonese labels if filtering)
+        dict: Mapping of Q-IDs to entity names for entities with Cantonese labels
+        dict: Mapping of Q-IDs to entity names for entities without Cantonese labels (if filtering)
     """
     saved_files = {}
-    players_with_cantonese = {}
-    players_without_cantonese = {}
+    entities_with_cantonese = {}
+    entities_without_cantonese = {}
     successful_fetches = 0
     
-    # Count how many players have Q-IDs
-    players_with_qids = [(name, qid) for name, qid in qid_mapping.items() if qid]
-    total_to_fetch = len(players_with_qids)
+    # Count how many entities have Q-IDs
+    entities_with_qids = [(name, qid) for name, qid in qid_mapping.items() if qid]
+    total_to_fetch = len(entities_with_qids)
     
     if filter_cantonese:
-        print(f"\nFetching JSON-LD triples for {total_to_fetch} players and filtering for Cantonese labels...")
+        print(f"\nFetching JSON-LD triples for {total_to_fetch} {entity_type}s and filtering for Cantonese labels...")
     else:
-        print(f"\nFetching JSON-LD triples for {total_to_fetch} players with Q-IDs...")
+        print(f"\nFetching JSON-LD triples for {total_to_fetch} {entity_type}s with Q-IDs...")
     
     start_time = time.time()
-    for idx, (name, qid) in enumerate(players_with_qids, 1):
+    for idx, (name, qid) in enumerate(entities_with_qids, 1):
         print(f"Processing {idx}/{total_to_fetch}: {name} ({qid})")
         jsonld_data, file_path = fetch_entity_jsonld(qid, output_dir, filter_cantonese)
         
@@ -296,10 +331,10 @@ def fetch_all_player_triples(qid_mapping, output_dir=TRIPLES_DIR, filter_cantone
             if filter_cantonese:
                 if file_path is not None:  # Has Cantonese labels and was saved
                     saved_files[qid] = file_path
-                    players_with_cantonese[qid] = name
+                    entities_with_cantonese[qid] = name
                     print(f"    ✓ {name} ({qid}) has Cantonese labels - saved")
                 else:  # No Cantonese labels, not saved
-                    players_without_cantonese[qid] = name
+                    entities_without_cantonese[qid] = name
                     print(f"    ✗ {name} ({qid}) does not have Cantonese labels - not saved")
             else:
                 if file_path is not None:  # Successfully saved (no filtering)
@@ -314,38 +349,39 @@ def fetch_all_player_triples(qid_mapping, output_dir=TRIPLES_DIR, filter_cantone
             eta_minutes = eta_seconds / 60
             print(f"  Progress: {idx}/{total_to_fetch} ({idx/total_to_fetch*100:.1f}%) - ETA: {eta_minutes:.1f} minutes\n")
     
-    # Skip players without Q-IDs
+    # Skip entities without Q-IDs
     skipped_count = len(qid_mapping) - total_to_fetch
     if skipped_count > 0:
-        print(f"Skipped {skipped_count} players without Q-IDs")
+        print(f"Skipped {skipped_count} {entity_type}s without Q-IDs")
     
     total_time = time.time() - start_time
     print(f"\nCompleted processing in {total_time/60:.1f} minutes")
-    print(f"Successfully fetched data for {successful_fetches}/{total_to_fetch} players with Q-IDs")
+    print(f"Successfully fetched data for {successful_fetches}/{total_to_fetch} {entity_type}s with Q-IDs")
     
     if filter_cantonese:
-        print(f"Saved JSON-LD files for {len(saved_files)} players with Cantonese labels")
-        print(f"Filtered out {len(players_without_cantonese)} players without Cantonese labels")
-        return saved_files, players_with_cantonese, players_without_cantonese
+        print(f"Saved JSON-LD files for {len(saved_files)} {entity_type}s with Cantonese labels")
+        print(f"Filtered out {len(entities_without_cantonese)} {entity_type}s without Cantonese labels")
+        return saved_files, entities_with_cantonese, entities_without_cantonese
     else:
-        print(f"Saved JSON-LD files for {len(saved_files)} players")
+        print(f"Saved JSON-LD files for {len(saved_files)} {entity_type}s")
         return saved_files, {}, {}
 
-def filter_players_with_cantonese_labels(saved_files):
+def filter_entities_with_cantonese_labels(saved_files: Dict[str, str], entity_type: str = "entity") -> Tuple[Dict[str, str], Dict[str, str]]:
     """
-    Filter players to keep only those with Cantonese labels.
+    Filter entities to keep only those with Cantonese labels.
     
     Args:
-        saved_files (dict): Mapping of Q-IDs to saved file paths
+        saved_files: Mapping of Q-IDs to saved file paths
+        entity_type: Type of entity for logging purposes (e.g., "player", "movie")
     
     Returns:
-        dict: Mapping of Q-IDs to file paths for players with Cantonese labels
-        dict: Mapping of Q-IDs to file paths for players without Cantonese labels
+        dict: Mapping of Q-IDs to file paths for entities with Cantonese labels
+        dict: Mapping of Q-IDs to file paths for entities without Cantonese labels
     """
-    players_with_cantonese = {}
-    players_without_cantonese = {}
+    entities_with_cantonese = {}
+    entities_without_cantonese = {}
     
-    print(f"\nFiltering players based on Cantonese labels...")
+    print(f"\nFiltering {entity_type}s based on Cantonese labels...")
     
     for qid, file_path in saved_files.items():
         print(f"Checking {qid} for Cantonese labels...")
@@ -355,32 +391,33 @@ def filter_players_with_cantonese_labels(saved_files):
                 jsonld_data = json.load(f)
             
             if has_cantonese_label(jsonld_data):
-                players_with_cantonese[qid] = file_path
+                entities_with_cantonese[qid] = file_path
                 print(f"  ✓ {qid} has Cantonese labels")
             else:
-                players_without_cantonese[qid] = file_path
+                entities_without_cantonese[qid] = file_path
                 print(f"  ✗ {qid} does not have Cantonese labels")
                 
         except Exception as e:
             print(f"  ✗ Error reading {file_path}: {e}")
-            players_without_cantonese[qid] = file_path
+            entities_without_cantonese[qid] = file_path
     
     print(f"\nCantonese label filtering complete:")
-    print(f"- Players with Cantonese labels: {len(players_with_cantonese)}")
-    print(f"- Players without Cantonese labels: {len(players_without_cantonese)}")
+    print(f"- {entity_type.title()}s with Cantonese labels: {len(entities_with_cantonese)}")
+    print(f"- {entity_type.title()}s without Cantonese labels: {len(entities_without_cantonese)}")
     
-    return players_with_cantonese, players_without_cantonese
+    return entities_with_cantonese, entities_without_cantonese
 
-def filter_existing_players_for_cantonese(input_dir=TRIPLES_DIR):
+def filter_existing_entities_for_cantonese(input_dir: str, entity_type: str = "entity") -> Tuple[Dict[str, str], Dict[str, str]]:
     """
-    Filter existing JSON-LD files to find players with Cantonese labels.
+    Filter existing JSON-LD files to find entities with Cantonese labels.
     
     Args:
-        input_dir (str): Directory containing the JSON-LD files
+        input_dir: Directory containing the JSON-LD files
+        entity_type: Type of entity for logging purposes (e.g., "player", "movie")
     
     Returns:
-        dict: Mapping of Q-IDs to file paths for players with Cantonese labels
-        dict: Mapping of Q-IDs to file paths for players without Cantonese labels
+        dict: Mapping of Q-IDs to file paths for entities with Cantonese labels
+        dict: Mapping of Q-IDs to file paths for entities without Cantonese labels
     """
     if not os.path.exists(input_dir):
         print(f"Error: Directory {input_dir} does not exist.")
@@ -399,63 +436,7 @@ def filter_existing_players_for_cantonese(input_dir=TRIPLES_DIR):
         print("No JSON-LD files found to process.")
         return {}, {}
     
-    return filter_players_with_cantonese_labels(saved_files)
+    return filter_entities_with_cantonese_labels(saved_files, entity_type)
 
-if __name__ == "__main__":
-    # Read player names from the file created by fifa_dataset_lookup.py
-    names_file = os.path.join(get_soccer_intermediate_dir(), "fifa_player_names.txt")
-    
-    try:
-        names = read_names_from_file(names_file)
-        print(f"Loaded {len(names)} player names from {names_file}")
-        print("Starting player Q-ID resolution...\n")
-    except FileNotFoundError as e:
-        print(f"Error: {e}")
-        print("Please run fifa_dataset_lookup.py first to generate the names file.")
-        exit(1)
-    
-    # names = names[:10]
-    # Resolve Q-IDs for all players
-    mapping, filtered = resolve_player_qids(names)
-
-    print("\n" + "="*50)
-    print("RESOLUTION COMPLETE - RESULTS:")
-    print("="*50)
-    
-    resolved_count = len([qid for qid in mapping.values() if qid])
-    print(f"Players with Q-IDs found: {resolved_count}/{len(names)}")
-    
-    print("\nResolved mapping:")
-    for nm, qid in mapping.items():
-        status = "✓" if qid else "✗"
-        print(f"  {status} {nm} -> {qid}")
-
-    print("\nFiltered-out candidates (not football *people*):")
-    for nm, qids in filtered.items():
-        if qids:
-            print(f"  {nm}: {', '.join(qids)}")
-
-    # Fetch JSON-LD triples for all resolved players and filter for Cantonese labels
-    saved_files, players_with_cantonese, players_without_cantonese = fetch_all_player_triples(mapping, filter_cantonese=True)
-    
-    print(f"\n" + "="*50)
-    print("FINAL SUMMARY:")
-    print("="*50)
-    print(f"- Total players processed: {len(names)}")
-    print(f"- Players with Q-IDs found: {resolved_count}")
-    print(f"- Players with Cantonese labels: {len(players_with_cantonese)}")
-    print(f"- Players without Cantonese labels: {len(players_without_cantonese)}")
-    print(f"- JSON-LD files saved: {len(saved_files)} (only for players with Cantonese labels)")
-    print(f"- Files saved to: {TRIPLES_DIR}")
-    
-    if players_with_cantonese:
-        print(f"\nPlayers with Cantonese labels:")
-        for qid, name in players_with_cantonese.items():
-            print(f"  - {name} ({qid})")
-    
-    # Save the list of players with Cantonese labels to a file
-    cantonese_players_file = os.path.join(get_soccer_intermediate_dir(), "players_with_cantonese_labels.txt")
-    with open(cantonese_players_file, 'w', encoding='utf-8') as f:
-        for qid in players_with_cantonese:
-            f.write(f"{qid}\n")
-    print(f"\nList of players with Cantonese labels saved to: {cantonese_players_file}")
+# This module provides generic functions for Wikidata entity lookup
+# See specific implementation scripts in soccer/ and entertainment/ directories

@@ -50,3 +50,28 @@ def get_cantonese_mapping_dir():
 def get_football_players_triples_dir():
     """Get the absolute path to the football players triples directory."""
     return os.path.join(get_soccer_intermediate_dir(), "football_players_triples")
+
+
+def get_entertainment_data_dir():
+    """Get the absolute path to the entertainment data directory."""
+    return os.path.join(get_data_dir(), "entertainment")
+
+
+def get_entertainment_intermediate_dir():
+    """Get the absolute path to the entertainment intermediate data directory."""
+    return os.path.join(get_entertainment_data_dir(), "intermediate")
+
+
+def get_entertainment_output_dir():
+    """Get the absolute path to the entertainment output directory."""
+    return os.path.join(get_entertainment_data_dir(), "output")
+
+
+def get_entertainment_raw_dir():
+    """Get the absolute path to the entertainment raw data directory."""
+    return os.path.join(get_entertainment_data_dir(), "raw")
+
+
+def get_movies_triples_dir():
+    """Get the absolute path to the movies triples directory."""
+    return os.path.join(get_entertainment_intermediate_dir(), "movie_triples")

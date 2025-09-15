@@ -6,9 +6,9 @@
       "about": "wd:Q13306",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "softwareVersion": "1.0.0",
-      "version": 2380704523,
-      "dateModified": "2025-07-17T03:07:39Z",
-      "statements": 80,
+      "version": 2400338577,
+      "dateModified": "2025-09-04T12:44:23Z",
+      "statements": 81,
       "sitelinks": 54,
       "identifiers": 42
     },
@@ -846,6 +846,7 @@
       "P413": "wd:Q9731197",
       "P2276": "1908196",
       "P2446": "93720",
+      "P1618": "91",
       "P2574": "52305",
       "P2048": "+175",
       "P2067": "+73",
@@ -1362,7 +1363,7 @@
     },
     {
       "@id": "wd:Q13306",
-      "P1618": "wds:Q13306-77FB4381-7D3E-4FBD-9BDF-BAB20F90C7D0"
+      "p:P1618": "wds:Q13306-77FB4381-7D3E-4FBD-9BDF-BAB20F90C7D0"
     },
     {
       "@id": "wds:Q13306-77FB4381-7D3E-4FBD-9BDF-BAB20F90C7D0",
@@ -1374,6 +1375,20 @@
       "pqv:P580": "wdv:b2d5337aae66cfc2d138cc6fa7c4e368",
       "P582": "2025-01-01T00:00:00Z",
       "pqv:P582": "wdv:0bba73a2c22634302960d00f316f5fff"
+    },
+    {
+      "@id": "wd:Q13306",
+      "p:P1618": "wds:Q13306-a928f261-435b-abce-2ac2-59dff0ba02aa"
+    },
+    {
+      "@id": "wds:Q13306-a928f261-435b-abce-2ac2-59dff0ba02aa",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:PreferredRank",
+      "ps:P1618": "91",
+      "pq:P54": "wd:Q12247491"
     },
     {
       "@id": "wd:Q13306",
@@ -4773,6 +4788,79 @@
       "someValuesFrom": "owl:Thing"
     },
     {
+      "@id": "wd:P1618",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "sport number"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "sport number"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "sport number"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "number worn on a player's (competitor's) uniform, equipment, etc"
+      },
+      "propertyType": "http://wikiba.se/ontology#String",
+      "directClaim": "wdt:P1618",
+      "claim": "p:P1618",
+      "statementProperty": "ps:P1618",
+      "statementValue": "psv:P1618",
+      "qualifier": "pq:P1618",
+      "qualifierValue": "pqv:P1618",
+      "reference": "pr:P1618",
+      "referenceValue": "prv:P1618",
+      "novalue": "wdno:P1618"
+    },
+    {
+      "@id": "p:P1618",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P1618",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P1618",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P1618",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P1618",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P1618",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P1618",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P1618",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "wdno:P1618",
+      "@type": "owl:Class",
+      "complementOf": "_:c40031de330ada341dab2f27e7cbfdc7"
+    },
+    {
+      "@id": "_:c40031de330ada341dab2f27e7cbfdc7",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P1618",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
       "@id": "wd:P2574",
       "@type": "wikibase:Property",
       "label": {
@@ -5685,18 +5773,36 @@
     {
       "@id": "wd:Q13394",
       "@type": "wikibase:Item",
-      "label": {
-        "@language": "mul",
-        "@value": "Ligue 1"
-      },
-      "prefLabel": {
-        "@language": "mul",
-        "@value": "Ligue 1"
-      },
-      "name": {
-        "@language": "mul",
-        "@value": "Ligue 1"
-      },
+      "label": [
+        {
+          "@language": "en",
+          "@value": "Ligue 1"
+        },
+        {
+          "@language": "mul",
+          "@value": "Ligue 1"
+        }
+      ],
+      "prefLabel": [
+        {
+          "@language": "en",
+          "@value": "Ligue 1"
+        },
+        {
+          "@language": "mul",
+          "@value": "Ligue 1"
+        }
+      ],
+      "name": [
+        {
+          "@language": "en",
+          "@value": "Ligue 1"
+        },
+        {
+          "@language": "mul",
+          "@value": "Ligue 1"
+        }
+      ],
       "description": {
         "@language": "en",
         "@value": "French professional league for men's association football clubs"
@@ -10911,79 +11017,6 @@
       }
     },
     {
-      "@id": "wd:P1618",
-      "@type": "wikibase:Property",
-      "label": {
-        "@language": "en",
-        "@value": "sport number"
-      },
-      "prefLabel": {
-        "@language": "en",
-        "@value": "sport number"
-      },
-      "name": {
-        "@language": "en",
-        "@value": "sport number"
-      },
-      "description": {
-        "@language": "en",
-        "@value": "number worn on a player's (competitor's) uniform, equipment, etc"
-      },
-      "propertyType": "http://wikiba.se/ontology#String",
-      "directClaim": "wdt:P1618",
-      "claim": "p:P1618",
-      "statementProperty": "ps:P1618",
-      "statementValue": "psv:P1618",
-      "qualifier": "pq:P1618",
-      "qualifierValue": "pqv:P1618",
-      "reference": "pr:P1618",
-      "referenceValue": "prv:P1618",
-      "novalue": "wdno:P1618"
-    },
-    {
-      "@id": "p:P1618",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "psv:P1618",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "pqv:P1618",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "prv:P1618",
-      "@type": "owl:ObjectProperty"
-    },
-    {
-      "@id": "wdt:P1618",
-      "@type": "owl:DatatypeProperty"
-    },
-    {
-      "@id": "ps:P1618",
-      "@type": "owl:DatatypeProperty"
-    },
-    {
-      "@id": "pq:P1618",
-      "@type": "owl:DatatypeProperty"
-    },
-    {
-      "@id": "pr:P1618",
-      "@type": "owl:DatatypeProperty"
-    },
-    {
-      "@id": "wdno:P1618",
-      "@type": "owl:Class",
-      "complementOf": "_:c40031de330ada341dab2f27e7cbfdc7"
-    },
-    {
-      "@id": "_:c40031de330ada341dab2f27e7cbfdc7",
-      "@type": "owl:Restriction",
-      "onProperty": "wdt:P1618",
-      "someValuesFrom": "owl:Thing"
-    },
-    {
       "@id": "wd:Q11920",
       "@type": "wikibase:Item",
       "label": {
@@ -12518,6 +12551,9 @@
     "P2446": {
       "@id": "wdt:P2446"
     },
+    "P1618": {
+      "@id": "wdt:P1618"
+    },
     "P2574": {
       "@id": "wdt:P2574"
     },
@@ -12893,8 +12929,7 @@
     "p:P2446": {
       "@type": "@id"
     },
-    "P1618": {
-      "@id": "p:P1618",
+    "p:P1618": {
       "@type": "@id"
     },
     "pq:P54": {

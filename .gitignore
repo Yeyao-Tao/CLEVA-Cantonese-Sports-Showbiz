@@ -227,6 +227,7 @@ $RECYCLE.BIN/
 
 # Large dataset files that might be downloaded
 data/soccer/raw/
+data/entertainment/raw/
 
 # API keys and secrets
 .secrets

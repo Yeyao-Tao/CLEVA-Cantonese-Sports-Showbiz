@@ -21,7 +21,7 @@ from datetime import datetime
 # Add src directory to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../../src'))
 
-from extract_all_clubs import (
+from cleva.cantonese.soccer.extract_all_clubs import (
     teams_overlap,
     categorize_teams,
     extract_all_teams,
@@ -220,7 +220,7 @@ class TestExtractAllTeams(unittest.TestCase):
     
     @patch('builtins.open', new_callable=mock_open)
     @patch('json.load')
-    @patch('extract_all_clubs.extract_entity_names')
+    @patch('cleva.cantonese.soccer.extract_all_clubs.extract_entity_names')
     def test_extract_all_teams_basic(self, mock_extract_names, mock_json_load, mock_file):
         """Test basic team extraction functionality."""
         mock_json_load.return_value = self.mock_jsonld_data
@@ -286,8 +286,8 @@ class TestProcessAllPlayers(unittest.TestCase):
     
     @patch('os.listdir')
     @patch('os.path.exists')
-    @patch('extract_all_clubs.extract_all_teams')
-    @patch('extract_all_clubs.load_cached_cantonese_names')
+    @patch('cleva.cantonese.soccer.extract_all_clubs.extract_all_teams')
+    @patch('cleva.cantonese.soccer.extract_all_clubs.load_cached_cantonese_names')
     def test_process_all_players_basic(self, mock_load_cache, mock_extract_teams, mock_exists, mock_listdir):
         """Test basic processing of all players."""
         # Mock file system
@@ -357,7 +357,7 @@ class TestProcessAllPlayers(unittest.TestCase):
         self.assertEqual(stats['unique_clubs_with_cantonese'], 1)
     
     @patch('os.listdir')
-    @patch('extract_all_clubs.extract_all_teams')
+    @patch('cleva.cantonese.soccer.extract_all_clubs.extract_all_teams')
     def test_process_all_players_with_errors(self, mock_extract_teams, mock_listdir):
         """Test processing with errors in some files."""
         mock_listdir.return_value = ['Q107051.jsonld', 'Q110053.jsonld']
@@ -507,7 +507,7 @@ class TestFindPotentialTeammates(unittest.TestCase):
 class TestAnalyzeSinglePlayer(unittest.TestCase):
     """Test the analyze_single_player function."""
     
-    @patch('extract_all_clubs.extract_all_teams')
+    @patch('cleva.cantonese.soccer.extract_all_clubs.extract_all_teams')
     @patch('builtins.print')
     def test_analyze_single_player_basic(self, mock_print, mock_extract_teams):
         """Test basic single player analysis."""
@@ -536,7 +536,7 @@ class TestAnalyzeSinglePlayer(unittest.TestCase):
         # Verify that print was called (indicating output was generated)
         self.assertTrue(mock_print.called)
     
-    @patch('extract_all_clubs.extract_all_teams')
+    @patch('cleva.cantonese.soccer.extract_all_clubs.extract_all_teams')
     @patch('builtins.print')
     def test_analyze_single_player_with_error(self, mock_print, mock_extract_teams):
         """Test single player analysis with error."""

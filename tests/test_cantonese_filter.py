@@ -9,7 +9,7 @@ import os
 # Add src directory to path so we can import our module
 sys.path.append(os.path.join(os.path.dirname(__file__), '../src'))
 
-from wikidata_lookup import filter_existing_players_for_cantonese
+from cleva.cantonese.wikidata_lookup import filter_existing_players_for_cantonese
 
 if __name__ == "__main__":
     print("Testing Cantonese label filtering on existing player data...")

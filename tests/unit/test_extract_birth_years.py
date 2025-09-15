@@ -20,7 +20,7 @@ from datetime import datetime
 # Add src directory to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../../src'))
 
-from extract_birth_years import (
+from cleva.cantonese.soccer.extract_birth_years import (
     extract_birth_year,
     process_all_players_birth_years,
     filter_players_with_birth_data,
@@ -66,11 +66,11 @@ class TestExtractBirthYear(unittest.TestCase):
             }
         }
     
-    @patch('extract_birth_years.load_jsonld_file')
-    @patch('extract_birth_years.extract_property_value')
-    @patch('extract_birth_years.extract_player_id_from_filename')
-    @patch('extract_birth_years.get_entity_names_from_cache')
-    @patch('extract_birth_years.parse_date')
+    @patch('cleva.cantonese.soccer.extract_birth_years.load_jsonld_file')
+    @patch('cleva.cantonese.soccer.extract_birth_years.extract_property_value')
+    @patch('cleva.cantonese.soccer.extract_birth_years.extract_player_id_from_filename')
+    @patch('cleva.cantonese.soccer.extract_birth_years.get_entity_names_from_cache')
+    @patch('cleva.cantonese.soccer.extract_birth_years.parse_date')
     def test_extract_birth_year_success_with_cache(self, mock_parse_date, mock_get_names, 
                                                    mock_extract_id, mock_extract_prop, mock_load_jsonld):
         """Test successful birth year extraction with cached data."""
@@ -100,10 +100,10 @@ class TestExtractBirthYear(unittest.TestCase):
         mock_extract_prop.assert_called_once_with(self.sample_jsonld_data, self.test_player_id, 'P569')
         mock_parse_date.assert_called_once_with('1990-03-15T00:00:00Z')
     
-    @patch('extract_birth_years.load_jsonld_file')
-    @patch('extract_birth_years.extract_property_value')
-    @patch('extract_birth_years.extract_player_id_from_filename')
-    @patch('extract_birth_years.parse_date')
+    @patch('cleva.cantonese.soccer.extract_birth_years.load_jsonld_file')
+    @patch('cleva.cantonese.soccer.extract_birth_years.extract_property_value')
+    @patch('cleva.cantonese.soccer.extract_birth_years.extract_player_id_from_filename')
+    @patch('cleva.cantonese.soccer.extract_birth_years.parse_date')
     def test_extract_birth_year_success_without_cache(self, mock_parse_date, mock_extract_id, 
                                                       mock_extract_prop, mock_load_jsonld):
         """Test successful birth year extraction without cached data."""
@@ -125,8 +125,8 @@ class TestExtractBirthYear(unittest.TestCase):
         self.assertEqual(result['player_names']['english'], 'Unknown')
         self.assertEqual(result['player_names']['cantonese_lang'], 'none')
     
-    @patch('extract_birth_years.load_jsonld_file')
-    @patch('extract_birth_years.extract_player_id_from_filename')
+    @patch('cleva.cantonese.soccer.extract_birth_years.load_jsonld_file')
+    @patch('cleva.cantonese.soccer.extract_birth_years.extract_player_id_from_filename')
     def test_extract_birth_year_invalid_filename(self, mock_extract_id, mock_load_jsonld):
         """Test handling of invalid filename format."""
         # Setup mocks
@@ -141,7 +141,7 @@ class TestExtractBirthYear(unittest.TestCase):
         self.assertEqual(result['error'], "Invalid filename format")
         self.assertIsNone(result['player_id'])
     
-    @patch('extract_birth_years.load_jsonld_file')
+    @patch('cleva.cantonese.soccer.extract_birth_years.load_jsonld_file')
     def test_extract_birth_year_file_load_error(self, mock_load_jsonld):
         """Test handling of file loading errors."""
         # Setup mock to raise exception
@@ -155,9 +155,9 @@ class TestExtractBirthYear(unittest.TestCase):
         self.assertIn("Failed to load JSONLD file", result['error'])
         self.assertEqual(result['file_path'], self.test_file_path)
     
-    @patch('extract_birth_years.load_jsonld_file')
-    @patch('extract_birth_years.extract_property_value')
-    @patch('extract_birth_years.extract_player_id_from_filename')
+    @patch('cleva.cantonese.soccer.extract_birth_years.load_jsonld_file')
+    @patch('cleva.cantonese.soccer.extract_birth_years.extract_property_value')
+    @patch('cleva.cantonese.soccer.extract_birth_years.extract_player_id_from_filename')
     def test_extract_birth_year_no_birth_data(self, mock_extract_id, mock_extract_prop, mock_load_jsonld):
         """Test handling when no birth data is available."""
         # Setup mocks
@@ -188,9 +188,9 @@ class TestProcessAllPlayersBirthYears(unittest.TestCase):
             "/test/directory/Q110053.jsonld"
         ]
     
-    @patch('extract_birth_years.get_all_jsonld_files')
-    @patch('extract_birth_years.load_cached_cantonese_names')
-    @patch('extract_birth_years.extract_birth_year')
+    @patch('cleva.cantonese.soccer.extract_birth_years.get_all_jsonld_files')
+    @patch('cleva.cantonese.soccer.extract_birth_years.load_cached_cantonese_names')
+    @patch('cleva.cantonese.soccer.extract_birth_years.extract_birth_year')
     @patch('os.path.exists')
     def test_process_all_players_success(self, mock_exists, mock_extract_birth, 
                                         mock_load_cache, mock_get_files):
@@ -254,7 +254,7 @@ class TestProcessAllPlayersBirthYears(unittest.TestCase):
         self.assertEqual(stats['birth_years_distribution'][1990], 1)
         self.assertEqual(stats['birth_years_distribution'][1995], 1)
     
-    @patch('extract_birth_years.get_all_jsonld_files')
+    @patch('cleva.cantonese.soccer.extract_birth_years.get_all_jsonld_files')
     @patch('os.path.exists')
     def test_process_all_players_no_files(self, mock_exists, mock_get_files):
         """Test handling when no JSONLD files are found."""
@@ -270,8 +270,8 @@ class TestProcessAllPlayersBirthYears(unittest.TestCase):
         self.assertIn("No JSONLD files found", result['error'])
         self.assertEqual(result['players'], {})
     
-    @patch('extract_birth_years.get_all_jsonld_files')
-    @patch('extract_birth_years.extract_birth_year')
+    @patch('cleva.cantonese.soccer.extract_birth_years.get_all_jsonld_files')
+    @patch('cleva.cantonese.soccer.extract_birth_years.extract_birth_year')
     @patch('os.path.exists')
     def test_process_all_players_with_errors(self, mock_exists, mock_extract_birth, mock_get_files):
         """Test handling when some files have errors."""
@@ -499,12 +499,12 @@ class TestAnalyzeBirthYears(unittest.TestCase):
 class TestIntegration(unittest.TestCase):
     """Integration tests for the complete workflow."""
     
-    @patch('extract_birth_years.os.path.exists')
-    @patch('extract_birth_years.os.makedirs')
+    @patch('cleva.cantonese.soccer.extract_birth_years.os.path.exists')
+    @patch('cleva.cantonese.soccer.extract_birth_years.os.makedirs')
     @patch('builtins.open', new_callable=mock_open)
-    @patch('extract_birth_years.process_all_players_birth_years')
-    @patch('extract_birth_years.filter_players_with_birth_data')
-    @patch('extract_birth_years.analyze_birth_years')
+    @patch('cleva.cantonese.soccer.extract_birth_years.process_all_players_birth_years')
+    @patch('cleva.cantonese.soccer.extract_birth_years.filter_players_with_birth_data')
+    @patch('cleva.cantonese.soccer.extract_birth_years.analyze_birth_years')
     def test_main_workflow_success(self, mock_analyze, mock_filter, mock_process, 
                                   mock_file, mock_makedirs, mock_exists):
         """Test the main workflow when running as script."""
@@ -541,7 +541,7 @@ class TestIntegration(unittest.TestCase):
         mock_file_handle = mock_file.return_value.__enter__.return_value
         
         # Execute main block logic (simulate running as script)
-        import extract_birth_years
+        import cleva.cantonese.soccer.extract_birth_years as extract_birth_years
         
         # Temporarily replace __name__ to simulate script execution
         original_name = extract_birth_years.__name__

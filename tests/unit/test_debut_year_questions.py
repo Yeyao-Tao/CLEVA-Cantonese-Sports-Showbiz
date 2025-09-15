@@ -11,7 +11,7 @@ import os
 # Add the src directory to the path so we can import the module
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..', 'src'))
 
-from generate_debut_year_questions import (
+from cleva.cantonese.soccer.generate_debut_year_questions import (
     get_national_teams_only,
     get_earliest_national_team_debut,
     get_debut_years_distribution,

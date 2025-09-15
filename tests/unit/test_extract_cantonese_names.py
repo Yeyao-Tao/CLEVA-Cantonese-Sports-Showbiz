@@ -20,7 +20,7 @@ from datetime import datetime
 # Add src directory to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../../src'))
 
-from extract_cantonese_names import (
+from cleva.cantonese.soccer.extract_cantonese_names import (
     extract_all_entity_ids_from_jsonld,
     extract_all_cantonese_names,
     save_cantonese_mappings
@@ -62,8 +62,8 @@ class TestExtractAllEntityIdsFromJsonld(unittest.TestCase):
             ]
         }
     
-    @patch('extract_cantonese_names.load_jsonld_file')
-    @patch('extract_cantonese_names.extract_player_id_from_filename')
+    @patch('cleva.cantonese.soccer.extract_cantonese_names.load_jsonld_file')
+    @patch('cleva.cantonese.soccer.extract_cantonese_names.extract_player_id_from_filename')
     def test_extract_entity_ids_success(self, mock_extract_id, mock_load_jsonld):
         """Test successful extraction of entity IDs."""
         mock_extract_id.return_value = self.test_player_id
@@ -76,8 +76,8 @@ class TestExtractAllEntityIdsFromJsonld(unittest.TestCase):
         mock_load_jsonld.assert_called_once_with(self.test_file_path)
         mock_extract_id.assert_called_once_with(self.test_file_path)
     
-    @patch('extract_cantonese_names.load_jsonld_file')
-    @patch('extract_cantonese_names.extract_player_id_from_filename')
+    @patch('cleva.cantonese.soccer.extract_cantonese_names.load_jsonld_file')
+    @patch('cleva.cantonese.soccer.extract_cantonese_names.extract_player_id_from_filename')
     def test_extract_entity_ids_no_player_id(self, mock_extract_id, mock_load_jsonld):
         """Test extraction when player ID cannot be extracted from filename."""
         mock_extract_id.return_value = None
@@ -89,8 +89,8 @@ class TestExtractAllEntityIdsFromJsonld(unittest.TestCase):
         expected_ids = {self.test_team_id}
         self.assertEqual(result, expected_ids)
     
-    @patch('extract_cantonese_names.load_jsonld_file')
-    @patch('extract_cantonese_names.extract_player_id_from_filename')
+    @patch('cleva.cantonese.soccer.extract_cantonese_names.load_jsonld_file')
+    @patch('cleva.cantonese.soccer.extract_cantonese_names.extract_player_id_from_filename')
     def test_extract_entity_ids_no_teams(self, mock_extract_id, mock_load_jsonld):
         """Test extraction when no team data is present."""
         mock_extract_id.return_value = self.test_player_id
@@ -116,7 +116,7 @@ class TestExtractAllEntityIdsFromJsonld(unittest.TestCase):
         expected_ids = {self.test_player_id}
         self.assertEqual(result, expected_ids)
     
-    @patch('extract_cantonese_names.load_jsonld_file')
+    @patch('cleva.cantonese.soccer.extract_cantonese_names.load_jsonld_file')
     def test_extract_entity_ids_load_error(self, mock_load_jsonld):
         """Test handling of file loading errors."""
         mock_load_jsonld.side_effect = Exception("File not found")
@@ -126,8 +126,8 @@ class TestExtractAllEntityIdsFromJsonld(unittest.TestCase):
         # Should return empty set on error
         self.assertEqual(result, set())
     
-    @patch('extract_cantonese_names.load_jsonld_file')
-    @patch('extract_cantonese_names.extract_player_id_from_filename')
+    @patch('cleva.cantonese.soccer.extract_cantonese_names.load_jsonld_file')
+    @patch('cleva.cantonese.soccer.extract_cantonese_names.extract_player_id_from_filename')
     def test_extract_entity_ids_multiple_types(self, mock_extract_id, mock_load_jsonld):
         """Test extraction with different @type formats (list vs string)."""
         mock_extract_id.return_value = self.test_player_id
@@ -186,7 +186,7 @@ class TestExtractAllCantoneseNames(unittest.TestCase):
             'cantonese_source': 'paranames'
         }
     
-    @patch('extract_cantonese_names.get_all_jsonld_files')
+    @patch('cleva.cantonese.soccer.extract_cantonese_names.get_all_jsonld_files')
     def test_extract_no_files_found(self, mock_get_files):
         """Test handling when no JSONLD files are found."""
         mock_get_files.return_value = []
@@ -198,12 +198,12 @@ class TestExtractAllCantoneseNames(unittest.TestCase):
         self.assertEqual(result['teams'], {})
         mock_get_files.assert_called_once_with(self.test_directory)
     
-    @patch('extract_cantonese_names.load_paranames_cantonese')
-    @patch('extract_cantonese_names.get_all_jsonld_files')
-    @patch('extract_cantonese_names.extract_all_entity_ids_from_jsonld')
-    @patch('extract_cantonese_names.extract_player_id_from_filename')
-    @patch('extract_cantonese_names.load_jsonld_file')
-    @patch('extract_cantonese_names.extract_entity_names')
+    @patch('cleva.cantonese.soccer.extract_cantonese_names.load_paranames_cantonese')
+    @patch('cleva.cantonese.soccer.extract_cantonese_names.get_all_jsonld_files')
+    @patch('cleva.cantonese.soccer.extract_cantonese_names.extract_all_entity_ids_from_jsonld')
+    @patch('cleva.cantonese.soccer.extract_cantonese_names.extract_player_id_from_filename')
+    @patch('cleva.cantonese.soccer.extract_cantonese_names.load_jsonld_file')
+    @patch('cleva.cantonese.soccer.extract_cantonese_names.extract_entity_names')
     def test_extract_cantonese_names_success(self, mock_extract_names, mock_load_jsonld, 
                                            mock_extract_id, mock_extract_entity_ids, 
                                            mock_get_files, mock_load_paranames):
@@ -263,10 +263,10 @@ class TestExtractAllCantoneseNames(unittest.TestCase):
         self.assertEqual(processing_info['paranames_file_used'], self.test_paranames_path)
         self.assertEqual(processing_info['jsonld_files_processed'], 1)
     
-    @patch('extract_cantonese_names.get_all_jsonld_files')
-    @patch('extract_cantonese_names.extract_all_entity_ids_from_jsonld')
-    @patch('extract_cantonese_names.extract_player_id_from_filename')
-    @patch('extract_cantonese_names.load_jsonld_file')
+    @patch('cleva.cantonese.soccer.extract_cantonese_names.get_all_jsonld_files')
+    @patch('cleva.cantonese.soccer.extract_cantonese_names.extract_all_entity_ids_from_jsonld')
+    @patch('cleva.cantonese.soccer.extract_cantonese_names.extract_player_id_from_filename')
+    @patch('cleva.cantonese.soccer.extract_cantonese_names.load_jsonld_file')
     def test_extract_cantonese_names_file_error(self, mock_load_jsonld, mock_extract_id, 
                                               mock_extract_entity_ids, mock_get_files):
         """Test handling of file processing errors."""
@@ -287,11 +287,11 @@ class TestExtractAllCantoneseNames(unittest.TestCase):
         self.assertEqual(player_data['cantonese_lang'], 'none')
         self.assertEqual(len(result['teams']), 0)
     
-    @patch('extract_cantonese_names.get_all_jsonld_files')
-    @patch('extract_cantonese_names.extract_all_entity_ids_from_jsonld')
-    @patch('extract_cantonese_names.extract_player_id_from_filename')
-    @patch('extract_cantonese_names.load_jsonld_file')
-    @patch('extract_cantonese_names.extract_entity_names')
+    @patch('cleva.cantonese.soccer.extract_cantonese_names.get_all_jsonld_files')
+    @patch('cleva.cantonese.soccer.extract_cantonese_names.extract_all_entity_ids_from_jsonld')
+    @patch('cleva.cantonese.soccer.extract_cantonese_names.extract_player_id_from_filename')
+    @patch('cleva.cantonese.soccer.extract_cantonese_names.load_jsonld_file')
+    @patch('cleva.cantonese.soccer.extract_cantonese_names.extract_entity_names')
     def test_extract_cantonese_names_no_paranames(self, mock_extract_names, mock_load_jsonld,
                                                  mock_extract_id, mock_extract_entity_ids, 
                                                  mock_get_files):

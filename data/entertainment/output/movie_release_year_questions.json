@@ -1,0 +1,7121 @@
+{
+  "metadata": {
+    "description": "Multiple-choice questions about movie release years and chronology in English and Cantonese",
+    "purpose": "Cantonese benchmark for testing LLM understanding of movie information and chronology",
+    "question_types": [
+      "movie_release_year",
+      "movie_decade",
+      "movie_earliest",
+      "movie_latest"
+    ],
+    "question_type_distribution": {
+      "movie_release_year": 92,
+      "movie_decade": 50,
+      "movie_earliest": 25,
+      "movie_latest": 25
+    },
+    "languages": [
+      "English",
+      "Cantonese"
+    ],
+    "total_questions": 192,
+    "generation_date": "2025-09-16T23:43:09.554177",
+    "format": "Four choices (A, B, C, D) with one correct answer in both languages"
+  },
+  "questions": [
+    {
+      "question": "Which of the following movies was released earliest?",
+      "question_cantonese": "以下邊套電影最早上映？",
+      "choices": {
+        "A": "American Beauty",
+        "B": "Alvin and the Chipmunks: Road Chip",
+        "C": "American Pie",
+        "D": "The 33"
+      },
+      "choices_cantonese": {
+        "A": "《美麗有罪》",
+        "B": "《花鼠明星俱樂部：開心大唱遊》",
+        "C": "《美國處男》",
+        "D": "《絕地拯救33》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 1999,
+        "release_date": "1999-01-01T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "American Beauty",
+            "release_year": 1999
+          },
+          {
+            "name": "American Pie",
+            "release_year": 1999
+          },
+          {
+            "name": "The 33",
+            "release_year": 2014
+          },
+          {
+            "name": "Alvin and the Chipmunks: Road Chip",
+            "release_year": 2015
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "American Beauty",
+        "name_cantonese": "美麗有罪",
+        "id": "Q25139"
+      },
+      "distractors": [
+        "Alvin and the Chipmunks: Road Chip",
+        "American Pie",
+        "The 33"
+      ],
+      "question_type": "movie_earliest"
+    },
+    {
+      "question": "Which of the following movies was released latest?",
+      "question_cantonese": "以下邊套電影最遲上映？",
+      "choices": {
+        "A": "The Age of Innocence",
+        "B": "8 Women",
+        "C": "Alvin and the Chipmunks: Chipwrecked",
+        "D": "American Gangster"
+      },
+      "choices_cantonese": {
+        "A": "《心外幽情》",
+        "B": "《8美千嬌》",
+        "C": "《花鼠明星俱樂部3》",
+        "D": "《犯罪帝國》"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2011,
+        "release_date": "2011-01-01T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "The Age of Innocence",
+            "release_year": 1993
+          },
+          {
+            "name": "8 Women",
+            "release_year": 2002
+          },
+          {
+            "name": "American Gangster",
+            "release_year": 2007
+          },
+          {
+            "name": "Alvin and the Chipmunks: Chipwrecked",
+            "release_year": 2011
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "Alvin and the Chipmunks: Chipwrecked",
+        "name_cantonese": "花鼠明星俱樂部3",
+        "id": "Q303678"
+      },
+      "distractors": [
+        "The Age of Innocence",
+        "8 Women",
+        "American Gangster"
+      ],
+      "question_type": "movie_latest"
+    },
+    {
+      "question": "Which of the following movies was released in the 2020s (2020-2029)?",
+      "question_cantonese": "以下邊套電影係喺2020年代（2020-2029年）上映？",
+      "choices": {
+        "A": "All We Imagine as Light",
+        "B": "The 5th Wave",
+        "C": "The Adjustment Bureau",
+        "D": "Adaptation."
+      },
+      "choices_cantonese": {
+        "A": "《乘著光的幻想》",
+        "B": "《第五天劫》",
+        "C": "《天網逆緣》",
+        "D": "《何必偏偏玩謝我》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "decade": 2020,
+        "release_year": 2024,
+        "release_date": "2024-05-23T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "All We Imagine as Light",
+        "name_cantonese": "乘著光的幻想",
+        "id": "Q125422662"
+      },
+      "distractors": [
+        "The 5th Wave",
+        "Adaptation.",
+        "The Adjustment Bureau"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "What year was the movie \"The Adjustment Bureau\" released?",
+      "question_cantonese": "電影《天網逆緣》係邊年上映？",
+      "choices": {
+        "A": "2012",
+        "B": "2013",
+        "C": "2011",
+        "D": "2009"
+      },
+      "choices_cantonese": {
+        "A": "2012年",
+        "B": "2013年",
+        "C": "2011年",
+        "D": "2009年"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2011,
+        "release_date": "2011-02-14T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "The Adjustment Bureau",
+        "name_cantonese": "天網逆緣",
+        "id": "Q492089"
+      },
+      "distractors": [
+        "2012",
+        "2013",
+        "2009"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released in the 2000s (2000-2009)?",
+      "question_cantonese": "以下邊套電影係喺2000年代（2000-2009年）上映？",
+      "choices": {
+        "A": "Ad Astra",
+        "B": "Alien: Resurrection",
+        "C": "8 Mile",
+        "D": "Airplane!"
+      },
+      "choices_cantonese": {
+        "A": "《星際任務》",
+        "B": "《異形四集之逆種》",
+        "C": "《8里公路》",
+        "D": "《空前絕後滿天飛》"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "decade": 2000,
+        "release_year": 2002,
+        "release_date": "2002-09-08T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "8 Mile",
+        "name_cantonese": "8里公路",
+        "id": "Q196665"
+      },
+      "distractors": [
+        "Airplane!",
+        "Ad Astra",
+        "Alien: Resurrection"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "Which of the following movies was released in the 2010s (2010-2019)?",
+      "question_cantonese": "以下邊套電影係喺2010年代（2010-2019年）上映？",
+      "choices": {
+        "A": "All About Steve",
+        "B": "Les Amants du Pont-Neuf",
+        "C": "The Adjustment Bureau",
+        "D": "American History X"
+      },
+      "choices_cantonese": {
+        "A": "《情迷靚肌佬》",
+        "B": "《新橋之戀》",
+        "C": "《天網逆緣》",
+        "D": "《野獸良民》"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "decade": 2010,
+        "release_year": 2011,
+        "release_date": "2011-02-14T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "The Adjustment Bureau",
+        "name_cantonese": "天網逆緣",
+        "id": "Q492089"
+      },
+      "distractors": [
+        "American History X",
+        "All About Steve",
+        "Les Amants du Pont-Neuf"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "What year was the movie \"(500) Days of Summer\" released?",
+      "question_cantonese": "電影《心跳500天》係邊年上映？",
+      "choices": {
+        "A": "2008",
+        "B": "2007",
+        "C": "2009",
+        "D": "2011"
+      },
+      "choices_cantonese": {
+        "A": "2008年",
+        "B": "2007年",
+        "C": "2009年",
+        "D": "2011年"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2009,
+        "release_date": "2009-01-17T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "(500) Days of Summer",
+        "name_cantonese": "心跳500天",
+        "id": "Q154935"
+      },
+      "distractors": [
+        "2008",
+        "2011",
+        "2007"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"The Act of Killing\" released?",
+      "question_cantonese": "電影《殺人凶戲》係邊年上映？",
+      "choices": {
+        "A": "2011",
+        "B": "2013",
+        "C": "2014",
+        "D": "2012"
+      },
+      "choices_cantonese": {
+        "A": "2011年",
+        "B": "2013年",
+        "C": "2014年",
+        "D": "2012年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2012,
+        "release_date": "2012-08-31T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "The Act of Killing",
+        "name_cantonese": "殺人凶戲",
+        "id": "Q7712287"
+      },
+      "distractors": [
+        "2013",
+        "2011",
+        "2014"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"American Reunion\" released?",
+      "question_cantonese": "電影《美國處男之孔雀開屏》係邊年上映？",
+      "choices": {
+        "A": "2013",
+        "B": "2011",
+        "C": "2014",
+        "D": "2012"
+      },
+      "choices_cantonese": {
+        "A": "2013年",
+        "B": "2011年",
+        "C": "2014年",
+        "D": "2012年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2012,
+        "release_date": "2012-04-04T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "American Reunion",
+        "name_cantonese": "美國處男之孔雀開屏",
+        "id": "Q303040"
+      },
+      "distractors": [
+        "2013",
+        "2011",
+        "2014"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"American History X\" released?",
+      "question_cantonese": "電影《野獸良民》係邊年上映？",
+      "choices": {
+        "A": "1998",
+        "B": "2000",
+        "C": "1997",
+        "D": "1999"
+      },
+      "choices_cantonese": {
+        "A": "1998年",
+        "B": "2000年",
+        "C": "1997年",
+        "D": "1999年"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 1998,
+        "release_date": "1998-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "American History X",
+        "name_cantonese": "野獸良民",
+        "id": "Q208572"
+      },
+      "distractors": [
+        "1999",
+        "1997",
+        "2000"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released in the 2020s (2020-2029)?",
+      "question_cantonese": "以下邊套電影係喺2020年代（2020-2029年）上映？",
+      "choices": {
+        "A": "Afraid",
+        "B": "Abduction",
+        "C": "21 and Over",
+        "D": "American Beauty"
+      },
+      "choices_cantonese": {
+        "A": "《人凶智能》",
+        "B": "《喋血新世紀》",
+        "C": "《21成人鳥》",
+        "D": "《美麗有罪》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "decade": 2020,
+        "release_year": 2024,
+        "release_date": "2024-08-29T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Afraid",
+        "name_cantonese": "人凶智能",
+        "id": "Q115859045"
+      },
+      "distractors": [
+        "Abduction",
+        "21 and Over",
+        "American Beauty"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "Which of the following movies was released earliest?",
+      "question_cantonese": "以下邊套電影最早上映？",
+      "choices": {
+        "A": "Amadeus",
+        "B": "Adventureland",
+        "C": "20 Feet from Stardom",
+        "D": "Abominable"
+      },
+      "choices_cantonese": {
+        "A": "《莫扎特傳》",
+        "B": "《搞事樂園》",
+        "C": "《我就嚟是歌手》",
+        "D": "《長毛雪寶》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 1984,
+        "release_date": "1984-01-01T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "Amadeus",
+            "release_year": 1984
+          },
+          {
+            "name": "Adventureland",
+            "release_year": 2009
+          },
+          {
+            "name": "20 Feet from Stardom",
+            "release_year": 2013
+          },
+          {
+            "name": "Abominable",
+            "release_year": 2019
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "Amadeus",
+        "name_cantonese": "莫扎特傳",
+        "id": "Q190956"
+      },
+      "distractors": [
+        "Adventureland",
+        "20 Feet from Stardom",
+        "Abominable"
+      ],
+      "question_type": "movie_earliest"
+    },
+    {
+      "question": "What year was the movie \"American Hustle\" released?",
+      "question_cantonese": "電影《騙海豪情》係邊年上映？",
+      "choices": {
+        "A": "2013",
+        "B": "2012",
+        "C": "2014",
+        "D": "2011"
+      },
+      "choices_cantonese": {
+        "A": "2013年",
+        "B": "2012年",
+        "C": "2014年",
+        "D": "2011年"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 2013,
+        "release_date": "2013-12-13T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "American Hustle",
+        "name_cantonese": "騙海豪情",
+        "id": "Q9013673"
+      },
+      "distractors": [
+        "2014",
+        "2012",
+        "2011"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released earliest?",
+      "question_cantonese": "以下邊套電影最早上映？",
+      "choices": {
+        "A": "American Reunion",
+        "B": "Airplane!",
+        "C": "All the Pretty Horses",
+        "D": "The Age of Adaline"
+      },
+      "choices_cantonese": {
+        "A": "《美國處男之孔雀開屏》",
+        "B": "《空前絕後滿天飛》",
+        "C": "《馴不了的愛》",
+        "D": "《時光逆愛90年》"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 1980,
+        "release_date": "1980-06-27T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "Airplane!",
+            "release_year": 1980
+          },
+          {
+            "name": "All the Pretty Horses",
+            "release_year": 2000
+          },
+          {
+            "name": "American Reunion",
+            "release_year": 2012
+          },
+          {
+            "name": "The Age of Adaline",
+            "release_year": 2015
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "Airplane!",
+        "name_cantonese": "空前絕後滿天飛",
+        "id": "Q497256"
+      },
+      "distractors": [
+        "American Reunion",
+        "All the Pretty Horses",
+        "The Age of Adaline"
+      ],
+      "question_type": "movie_earliest"
+    },
+    {
+      "question": "Which of the following movies was released in the 1970s (1970-1979)?",
+      "question_cantonese": "以下邊套電影係喺1970年代（1970-1979年）上映？",
+      "choices": {
+        "A": "22 Jump Street",
+        "B": "All the Money in the World",
+        "C": "All That Jazz",
+        "D": "28 Years Later"
+      },
+      "choices_cantonese": {
+        "A": "《囧探出更》",
+        "B": "《萬惡金錢》",
+        "C": "《爵士春秋》",
+        "D": "《28年後》"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "decade": 1970,
+        "release_year": 1979,
+        "release_date": "1979-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "All That Jazz",
+        "name_cantonese": "爵士春秋",
+        "id": "Q1353441"
+      },
+      "distractors": [
+        "28 Years Later",
+        "22 Jump Street",
+        "All the Money in the World"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "What year was the movie \"American Wedding\" released?",
+      "question_cantonese": "電影《處男有喜》係邊年上映？",
+      "choices": {
+        "A": "2004",
+        "B": "2002",
+        "C": "2005",
+        "D": "2003"
+      },
+      "choices_cantonese": {
+        "A": "2004年",
+        "B": "2002年",
+        "C": "2005年",
+        "D": "2003年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2003,
+        "release_date": "2003-08-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "American Wedding",
+        "name_cantonese": "處男有喜",
+        "id": "Q466423"
+      },
+      "distractors": [
+        "2002",
+        "2004",
+        "2005"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"The Amazing Spider-Man\" released?",
+      "question_cantonese": "電影《蜘蛛俠：驚世現新》係邊年上映？",
+      "choices": {
+        "A": "2014",
+        "B": "2012",
+        "C": "2011",
+        "D": "2013"
+      },
+      "choices_cantonese": {
+        "A": "2014年",
+        "B": "2012年",
+        "C": "2011年",
+        "D": "2013年"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 2012,
+        "release_date": "2012-06-28T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "The Amazing Spider-Man",
+        "name_cantonese": "蜘蛛俠：驚世現新",
+        "id": "Q229808"
+      },
+      "distractors": [
+        "2013",
+        "2011",
+        "2014"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"The Adventures of Priscilla, Queen of the Desert\" released?",
+      "question_cantonese": "電影《風塵三絕》係邊年上映？",
+      "choices": {
+        "A": "1993",
+        "B": "1994",
+        "C": "1997",
+        "D": "1991"
+      },
+      "choices_cantonese": {
+        "A": "1993年",
+        "B": "1994年",
+        "C": "1997年",
+        "D": "1991年"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 1994,
+        "release_date": "1994-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "The Adventures of Priscilla, Queen of the Desert",
+        "name_cantonese": "風塵三絕",
+        "id": "Q255328"
+      },
+      "distractors": [
+        "1993",
+        "1991",
+        "1997"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"22 Jump Street\" released?",
+      "question_cantonese": "電影《囧探出更》係邊年上映？",
+      "choices": {
+        "A": "2014",
+        "B": "2013",
+        "C": "2015",
+        "D": "2012"
+      },
+      "choices_cantonese": {
+        "A": "2014年",
+        "B": "2013年",
+        "C": "2015年",
+        "D": "2012年"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 2014,
+        "release_date": "2014-06-04T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "22 Jump Street",
+        "name_cantonese": "囧探出更",
+        "id": "Q15040917"
+      },
+      "distractors": [
+        "2013",
+        "2015",
+        "2012"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"Alcarràs\" released?",
+      "question_cantonese": "電影《陽光燦爛的果園》係邊年上映？",
+      "choices": {
+        "A": "2023",
+        "B": "2020",
+        "C": "2022",
+        "D": "2024"
+      },
+      "choices_cantonese": {
+        "A": "2023年",
+        "B": "2020年",
+        "C": "2022年",
+        "D": "2024年"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2022,
+        "release_date": "2022-02-15T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Alcarràs",
+        "name_cantonese": "陽光燦爛的果園",
+        "id": "Q110622667"
+      },
+      "distractors": [
+        "2023",
+        "2024",
+        "2020"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released latest?",
+      "question_cantonese": "以下邊套電影最遲上映？",
+      "choices": {
+        "A": "Admission",
+        "B": "About My Father",
+        "C": "Accepted",
+        "D": "2 Guns"
+      },
+      "choices_cantonese": {
+        "A": "《收生愛過界》",
+        "B": "《教父冇限耆》",
+        "C": "《冒牌天子門生》",
+        "D": "《孖Gun雙雄》"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 2023,
+        "release_date": "2023-05-25T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "Accepted",
+            "release_year": 2006
+          },
+          {
+            "name": "Admission",
+            "release_year": 2013
+          },
+          {
+            "name": "2 Guns",
+            "release_year": 2013
+          },
+          {
+            "name": "About My Father",
+            "release_year": 2023
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "About My Father",
+        "name_cantonese": "教父冇限耆",
+        "id": "Q108809561"
+      },
+      "distractors": [
+        "Admission",
+        "Accepted",
+        "2 Guns"
+      ],
+      "question_type": "movie_latest"
+    },
+    {
+      "question": "What year was the movie \"30 Days of Night\" released?",
+      "question_cantonese": "電影《屍城30夜》係邊年上映？",
+      "choices": {
+        "A": "2008",
+        "B": "2006",
+        "C": "2007",
+        "D": "2009"
+      },
+      "choices_cantonese": {
+        "A": "2008年",
+        "B": "2006年",
+        "C": "2007年",
+        "D": "2009年"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2007,
+        "release_date": "2007-10-16T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "30 Days of Night",
+        "name_cantonese": "屍城30夜",
+        "id": "Q224117"
+      },
+      "distractors": [
+        "2008",
+        "2006",
+        "2009"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"Alvin and the Chipmunks: Road Chip\" released?",
+      "question_cantonese": "電影《花鼠明星俱樂部：開心大唱遊》係邊年上映？",
+      "choices": {
+        "A": "2016",
+        "B": "2013",
+        "C": "2014",
+        "D": "2015"
+      },
+      "choices_cantonese": {
+        "A": "2016年",
+        "B": "2013年",
+        "C": "2014年",
+        "D": "2015年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2015,
+        "release_date": "2015-12-18T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Alvin and the Chipmunks: Road Chip",
+        "name_cantonese": "花鼠明星俱樂部：開心大唱遊",
+        "id": "Q19801728"
+      },
+      "distractors": [
+        "2014",
+        "2016",
+        "2013"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released in the 1980s (1980-1989)?",
+      "question_cantonese": "以下邊套電影係喺1980年代（1980-1989年）上映？",
+      "choices": {
+        "A": "All About Steve",
+        "B": "About a Boy",
+        "C": "Alien vs. Predator",
+        "D": "Story of Women"
+      },
+      "choices_cantonese": {
+        "A": "《情迷靚肌佬》",
+        "B": "《單親插班生》",
+        "C": "《異獸戰》",
+        "D": "《女人韻事》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "decade": 1980,
+        "release_year": 1988,
+        "release_date": "1988-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Story of Women",
+        "name_cantonese": "女人韻事",
+        "id": "Q1306392"
+      },
+      "distractors": [
+        "Alien vs. Predator",
+        "All About Steve",
+        "About a Boy"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "Which of the following movies was released latest?",
+      "question_cantonese": "以下邊套電影最遲上映？",
+      "choices": {
+        "A": "All We Imagine as Light",
+        "B": "All Is Lost",
+        "C": "American Hustle",
+        "D": "About My Father"
+      },
+      "choices_cantonese": {
+        "A": "《乘著光的幻想》",
+        "B": "《怒海求生》",
+        "C": "《騙海豪情》",
+        "D": "《教父冇限耆》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 2024,
+        "release_date": "2024-05-23T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "American Hustle",
+            "release_year": 2013
+          },
+          {
+            "name": "All Is Lost",
+            "release_year": 2013
+          },
+          {
+            "name": "About My Father",
+            "release_year": 2023
+          },
+          {
+            "name": "All We Imagine as Light",
+            "release_year": 2024
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "All We Imagine as Light",
+        "name_cantonese": "乘著光的幻想",
+        "id": "Q125422662"
+      },
+      "distractors": [
+        "All Is Lost",
+        "American Hustle",
+        "About My Father"
+      ],
+      "question_type": "movie_latest"
+    },
+    {
+      "question": "Which of the following movies was released earliest?",
+      "question_cantonese": "以下邊套電影最早上映？",
+      "choices": {
+        "A": "Amarcord",
+        "B": "Alvin and the Chipmunks: Chipwrecked",
+        "C": "Alien: Romulus",
+        "D": "27 Dresses"
+      },
+      "choices_cantonese": {
+        "A": "《想當年》",
+        "B": "《花鼠明星俱樂部3》",
+        "C": "《異形：羅穆盧斯》",
+        "D": "《27宜嫁》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 1973,
+        "release_date": "1973-12-18T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "Amarcord",
+            "release_year": 1973
+          },
+          {
+            "name": "27 Dresses",
+            "release_year": 2008
+          },
+          {
+            "name": "Alvin and the Chipmunks: Chipwrecked",
+            "release_year": 2011
+          },
+          {
+            "name": "Alien: Romulus",
+            "release_year": 2024
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "Amarcord",
+        "name_cantonese": "想當年",
+        "id": "Q18428"
+      },
+      "distractors": [
+        "Alvin and the Chipmunks: Chipwrecked",
+        "Alien: Romulus",
+        "27 Dresses"
+      ],
+      "question_type": "movie_earliest"
+    },
+    {
+      "question": "What year was the movie \"The Age of Adaline\" released?",
+      "question_cantonese": "電影《時光逆愛90年》係邊年上映？",
+      "choices": {
+        "A": "2015",
+        "B": "2013",
+        "C": "2016",
+        "D": "2014"
+      },
+      "choices_cantonese": {
+        "A": "2015年",
+        "B": "2013年",
+        "C": "2016年",
+        "D": "2014年"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 2015,
+        "release_date": "2015-04-23T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "The Age of Adaline",
+        "name_cantonese": "時光逆愛90年",
+        "id": "Q16242543"
+      },
+      "distractors": [
+        "2014",
+        "2016",
+        "2013"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"21 Jump Street\" released?",
+      "question_cantonese": "電影《逃學黐孖咇》係邊年上映？",
+      "choices": {
+        "A": "2014",
+        "B": "2011",
+        "C": "2013",
+        "D": "2012"
+      },
+      "choices_cantonese": {
+        "A": "2014年",
+        "B": "2011年",
+        "C": "2013年",
+        "D": "2012年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2012,
+        "release_date": "2012-03-12T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "21 Jump Street",
+        "name_cantonese": "逃學黐孖咇",
+        "id": "Q214014"
+      },
+      "distractors": [
+        "2013",
+        "2011",
+        "2014"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released latest?",
+      "question_cantonese": "以下邊套電影最遲上映？",
+      "choices": {
+        "A": "The Adventures of Priscilla, Queen of the Desert",
+        "B": "About Time",
+        "C": "Admission",
+        "D": "The Addams Family"
+      },
+      "choices_cantonese": {
+        "A": "《風塵三絕》",
+        "B": "《回到最愛的一天》",
+        "C": "《收生愛過界》",
+        "D": "《愛登士家庭》"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 2013,
+        "release_date": "2013-09-04T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "The Addams Family",
+            "release_year": 1991
+          },
+          {
+            "name": "The Adventures of Priscilla, Queen of the Desert",
+            "release_year": 1994
+          },
+          {
+            "name": "Admission",
+            "release_year": 2013
+          },
+          {
+            "name": "About Time",
+            "release_year": 2013
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "About Time",
+        "name_cantonese": "回到最愛的一天",
+        "id": "Q4668586"
+      },
+      "distractors": [
+        "The Adventures of Priscilla, Queen of the Desert",
+        "Admission",
+        "The Addams Family"
+      ],
+      "question_type": "movie_latest"
+    },
+    {
+      "question": "Which of the following movies was released in the 1950s (1950-1959)?",
+      "question_cantonese": "以下邊套電影係喺1950年代（1950-1959年）上映？",
+      "choices": {
+        "A": "Alvin and the Chipmunks: Road Chip",
+        "B": "9½ Weeks",
+        "C": "An American in Paris",
+        "D": "Abduction"
+      },
+      "choices_cantonese": {
+        "A": "《花鼠明星俱樂部：開心大唱遊》",
+        "B": "《九個半星期》",
+        "C": "《花都艷舞》",
+        "D": "《喋血新世紀》"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "decade": 1950,
+        "release_year": 1951,
+        "release_date": "1951-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "An American in Paris",
+        "name_cantonese": "花都艷舞",
+        "id": "Q747570"
+      },
+      "distractors": [
+        "9½ Weeks",
+        "Alvin and the Chipmunks: Road Chip",
+        "Abduction"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "What year was the movie \"Adventureland\" released?",
+      "question_cantonese": "電影《搞事樂園》係邊年上映？",
+      "choices": {
+        "A": "2008",
+        "B": "2011",
+        "C": "2009",
+        "D": "2007"
+      },
+      "choices_cantonese": {
+        "A": "2008年",
+        "B": "2011年",
+        "C": "2009年",
+        "D": "2007年"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2009,
+        "release_date": "2009-01-19T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Adventureland",
+        "name_cantonese": "搞事樂園",
+        "id": "Q379994"
+      },
+      "distractors": [
+        "2008",
+        "2011",
+        "2007"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released latest?",
+      "question_cantonese": "以下邊套電影最遲上映？",
+      "choices": {
+        "A": "The Act of Killing",
+        "B": "After the Sunset",
+        "C": "Adventureland",
+        "D": "20 Feet from Stardom"
+      },
+      "choices_cantonese": {
+        "A": "《殺人凶戲》",
+        "B": "《合盜偷天》",
+        "C": "《搞事樂園》",
+        "D": "《我就嚟是歌手》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2013,
+        "release_date": "2013-01-17T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "After the Sunset",
+            "release_year": 2004
+          },
+          {
+            "name": "Adventureland",
+            "release_year": 2009
+          },
+          {
+            "name": "The Act of Killing",
+            "release_year": 2012
+          },
+          {
+            "name": "20 Feet from Stardom",
+            "release_year": 2013
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "20 Feet from Stardom",
+        "name_cantonese": "我就嚟是歌手",
+        "id": "Q15052276"
+      },
+      "distractors": [
+        "The Act of Killing",
+        "After the Sunset",
+        "Adventureland"
+      ],
+      "question_type": "movie_latest"
+    },
+    {
+      "question": "Which of the following movies was released latest?",
+      "question_cantonese": "以下邊套電影最遲上映？",
+      "choices": {
+        "A": "The 33",
+        "B": "Les Amants du Pont-Neuf",
+        "C": "Aline",
+        "D": "2 Guns"
+      },
+      "choices_cantonese": {
+        "A": "《絕地拯救33》",
+        "B": "《新橋之戀》",
+        "C": "《聲夢戀歌》",
+        "D": "《孖Gun雙雄》"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2020,
+        "release_date": "2020-10-04T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "Les Amants du Pont-Neuf",
+            "release_year": 1991
+          },
+          {
+            "name": "2 Guns",
+            "release_year": 2013
+          },
+          {
+            "name": "The 33",
+            "release_year": 2014
+          },
+          {
+            "name": "Aline",
+            "release_year": 2020
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "Aline",
+        "name_cantonese": "聲夢戀歌",
+        "id": "Q100324181"
+      },
+      "distractors": [
+        "The 33",
+        "Les Amants du Pont-Neuf",
+        "2 Guns"
+      ],
+      "question_type": "movie_latest"
+    },
+    {
+      "question": "Which of the following movies was released earliest?",
+      "question_cantonese": "以下邊套電影最早上映？",
+      "choices": {
+        "A": "American Wedding",
+        "B": "50/50",
+        "C": "After Earth",
+        "D": "2 Guns"
+      },
+      "choices_cantonese": {
+        "A": "《處男有喜》",
+        "B": "《風雨同路兩支公》",
+        "C": "《末日1000年》",
+        "D": "《孖Gun雙雄》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 2003,
+        "release_date": "2003-08-01T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "American Wedding",
+            "release_year": 2003
+          },
+          {
+            "name": "50/50",
+            "release_year": 2011
+          },
+          {
+            "name": "After Earth",
+            "release_year": 2013
+          },
+          {
+            "name": "2 Guns",
+            "release_year": 2013
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "American Wedding",
+        "name_cantonese": "處男有喜",
+        "id": "Q466423"
+      },
+      "distractors": [
+        "50/50",
+        "After Earth",
+        "2 Guns"
+      ],
+      "question_type": "movie_earliest"
+    },
+    {
+      "question": "What year was the movie \"After the Sunset\" released?",
+      "question_cantonese": "電影《合盜偷天》係邊年上映？",
+      "choices": {
+        "A": "2005",
+        "B": "2004",
+        "C": "2002",
+        "D": "2003"
+      },
+      "choices_cantonese": {
+        "A": "2005年",
+        "B": "2004年",
+        "C": "2002年",
+        "D": "2003年"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 2004,
+        "release_date": "2004-11-10T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "After the Sunset",
+        "name_cantonese": "合盜偷天",
+        "id": "Q389151"
+      },
+      "distractors": [
+        "2003",
+        "2005",
+        "2002"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released in the 1970s (1970-1979)?",
+      "question_cantonese": "以下邊套電影係喺1970年代（1970-1979年）上映？",
+      "choices": {
+        "A": "All About Steve",
+        "B": "3:10 to Yuma",
+        "C": "Goodbye to Language",
+        "D": "All That Jazz"
+      },
+      "choices_cantonese": {
+        "A": "《情迷靚肌佬》",
+        "B": "《決戰猶馬城》",
+        "C": "《告別言語》",
+        "D": "《爵士春秋》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "decade": 1970,
+        "release_year": 1979,
+        "release_date": "1979-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "All That Jazz",
+        "name_cantonese": "爵士春秋",
+        "id": "Q1353441"
+      },
+      "distractors": [
+        "All About Steve",
+        "3:10 to Yuma",
+        "Goodbye to Language"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "Which of the following movies was released latest?",
+      "question_cantonese": "以下邊套電影最遲上映？",
+      "choices": {
+        "A": "American Pie 2",
+        "B": "Amarcord",
+        "C": "All That Jazz",
+        "D": "All Is Lost"
+      },
+      "choices_cantonese": {
+        "A": "《美國處男2》",
+        "B": "《想當年》",
+        "C": "《爵士春秋》",
+        "D": "《怒海求生》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2013,
+        "release_date": "2013-05-22T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "Amarcord",
+            "release_year": 1973
+          },
+          {
+            "name": "All That Jazz",
+            "release_year": 1979
+          },
+          {
+            "name": "American Pie 2",
+            "release_year": 2001
+          },
+          {
+            "name": "All Is Lost",
+            "release_year": 2013
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "All Is Lost",
+        "name_cantonese": "怒海求生",
+        "id": "Q2837490"
+      },
+      "distractors": [
+        "American Pie 2",
+        "Amarcord",
+        "All That Jazz"
+      ],
+      "question_type": "movie_latest"
+    },
+    {
+      "question": "Which of the following movies was released in the 1950s (1950-1959)?",
+      "question_cantonese": "以下邊套電影係喺1950年代（1950-1959年）上映？",
+      "choices": {
+        "A": "22 Jump Street",
+        "B": "An American in Paris",
+        "C": "The Angry Birds Movie",
+        "D": "The Age of Innocence"
+      },
+      "choices_cantonese": {
+        "A": "《囧探出更》",
+        "B": "《花都艷舞》",
+        "C": "《憤怒鳥大電影》",
+        "D": "《心外幽情》"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "decade": 1950,
+        "release_year": 1951,
+        "release_date": "1951-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "An American in Paris",
+        "name_cantonese": "花都艷舞",
+        "id": "Q747570"
+      },
+      "distractors": [
+        "The Age of Innocence",
+        "The Angry Birds Movie",
+        "22 Jump Street"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "Which of the following movies was released in the 1950s (1950-1959)?",
+      "question_cantonese": "以下邊套電影係喺1950年代（1950-1959年）上映？",
+      "choices": {
+        "A": "The Amazing Spider-Man",
+        "B": "Admission",
+        "C": "8 Women",
+        "D": "An American in Paris"
+      },
+      "choices_cantonese": {
+        "A": "《蜘蛛俠：驚世現新》",
+        "B": "《收生愛過界》",
+        "C": "《8美千嬌》",
+        "D": "《花都艷舞》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "decade": 1950,
+        "release_year": 1951,
+        "release_date": "1951-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "An American in Paris",
+        "name_cantonese": "花都艷舞",
+        "id": "Q747570"
+      },
+      "distractors": [
+        "The Amazing Spider-Man",
+        "8 Women",
+        "Admission"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "Which of the following movies was released earliest?",
+      "question_cantonese": "以下邊套電影最早上映？",
+      "choices": {
+        "A": "Aloha",
+        "B": "102 Dalmatians",
+        "C": "Alcarràs",
+        "D": "Admission"
+      },
+      "choices_cantonese": {
+        "A": "《戀上熱愛島》",
+        "B": "《102斑點狗》",
+        "C": "《陽光燦爛的果園》",
+        "D": "《收生愛過界》"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 2000,
+        "release_date": "2000-11-22T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "102 Dalmatians",
+            "release_year": 2000
+          },
+          {
+            "name": "Admission",
+            "release_year": 2013
+          },
+          {
+            "name": "Aloha",
+            "release_year": 2014
+          },
+          {
+            "name": "Alcarràs",
+            "release_year": 2022
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "102 Dalmatians",
+        "name_cantonese": "102斑點狗",
+        "id": "Q165847"
+      },
+      "distractors": [
+        "Aloha",
+        "Alcarràs",
+        "Admission"
+      ],
+      "question_type": "movie_earliest"
+    },
+    {
+      "question": "Which of the following movies was released in the 1970s (1970-1979)?",
+      "question_cantonese": "以下邊套電影係喺1970年代（1970-1979年）上映？",
+      "choices": {
+        "A": "21 Jump Street",
+        "B": "50/50",
+        "C": "10,000 B.C.",
+        "D": "Amarcord"
+      },
+      "choices_cantonese": {
+        "A": "《逃學黐孖咇》",
+        "B": "《風雨同路兩支公》",
+        "C": "《公元前10000年》",
+        "D": "《想當年》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "decade": 1970,
+        "release_year": 1973,
+        "release_date": "1973-12-18T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Amarcord",
+        "name_cantonese": "想當年",
+        "id": "Q18428"
+      },
+      "distractors": [
+        "10,000 B.C.",
+        "21 Jump Street",
+        "50/50"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "What year was the movie \"10 Cloverfield Lane\" released?",
+      "question_cantonese": "電影《末世街10號》係邊年上映？",
+      "choices": {
+        "A": "2017",
+        "B": "2015",
+        "C": "2014",
+        "D": "2016"
+      },
+      "choices_cantonese": {
+        "A": "2017年",
+        "B": "2015年",
+        "C": "2014年",
+        "D": "2016年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2016,
+        "release_date": "2016-03-08T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "10 Cloverfield Lane",
+        "name_cantonese": "末世街10號",
+        "id": "Q18703038"
+      },
+      "distractors": [
+        "2017",
+        "2015",
+        "2014"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released in the 1990s (1990-1999)?",
+      "question_cantonese": "以下邊套電影係喺1990年代（1990-1999年）上映？",
+      "choices": {
+        "A": "All the Pretty Horses",
+        "B": "Airplane!",
+        "C": "2 Guns",
+        "D": "Alien: Resurrection"
+      },
+      "choices_cantonese": {
+        "A": "《馴不了的愛》",
+        "B": "《空前絕後滿天飛》",
+        "C": "《孖Gun雙雄》",
+        "D": "《異形四集之逆種》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "decade": 1990,
+        "release_year": 1997,
+        "release_date": "1997-11-26T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Alien: Resurrection",
+        "name_cantonese": "異形四集之逆種",
+        "id": "Q458314"
+      },
+      "distractors": [
+        "2 Guns",
+        "All the Pretty Horses",
+        "Airplane!"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "Which of the following movies was released latest?",
+      "question_cantonese": "以下邊套電影最遲上映？",
+      "choices": {
+        "A": "Story of Women",
+        "B": "All the Money in the World",
+        "C": "Afraid",
+        "D": "The Adventures of Ford Fairlane"
+      },
+      "choices_cantonese": {
+        "A": "《女人韻事》",
+        "B": "《萬惡金錢》",
+        "C": "《人凶智能》",
+        "D": "《招積偵探顯神通》"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2024,
+        "release_date": "2024-08-29T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "Story of Women",
+            "release_year": 1988
+          },
+          {
+            "name": "The Adventures of Ford Fairlane",
+            "release_year": 1990
+          },
+          {
+            "name": "All the Money in the World",
+            "release_year": 2017
+          },
+          {
+            "name": "Afraid",
+            "release_year": 2024
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "Afraid",
+        "name_cantonese": "人凶智能",
+        "id": "Q115859045"
+      },
+      "distractors": [
+        "Story of Women",
+        "All the Money in the World",
+        "The Adventures of Ford Fairlane"
+      ],
+      "question_type": "movie_latest"
+    },
+    {
+      "question": "What year was the movie \"American Gangster\" released?",
+      "question_cantonese": "電影《犯罪帝國》係邊年上映？",
+      "choices": {
+        "A": "2007",
+        "B": "2009",
+        "C": "2008",
+        "D": "2006"
+      },
+      "choices_cantonese": {
+        "A": "2007年",
+        "B": "2009年",
+        "C": "2008年",
+        "D": "2006年"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 2007,
+        "release_date": "2007-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "American Gangster",
+        "name_cantonese": "犯罪帝國",
+        "id": "Q270351"
+      },
+      "distractors": [
+        "2008",
+        "2006",
+        "2009"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released in the 1970s (1970-1979)?",
+      "question_cantonese": "以下邊套電影係喺1970年代（1970-1979年）上映？",
+      "choices": {
+        "A": "42",
+        "B": "Abominable",
+        "C": "About My Father",
+        "D": "Amarcord"
+      },
+      "choices_cantonese": {
+        "A": "《42號傳奇》",
+        "B": "《長毛雪寶》",
+        "C": "《教父冇限耆》",
+        "D": "《想當年》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "decade": 1970,
+        "release_year": 1973,
+        "release_date": "1973-12-18T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Amarcord",
+        "name_cantonese": "想當年",
+        "id": "Q18428"
+      },
+      "distractors": [
+        "About My Father",
+        "Abominable",
+        "42"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "What year was the movie \"The Adventures of Sharkboy and Lavagirl in 3-D\" released?",
+      "question_cantonese": "電影《鯊膽小英雄》係邊年上映？",
+      "choices": {
+        "A": "2006",
+        "B": "2004",
+        "C": "2007",
+        "D": "2005"
+      },
+      "choices_cantonese": {
+        "A": "2006年",
+        "B": "2004年",
+        "C": "2007年",
+        "D": "2005年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2005,
+        "release_date": "2005-06-04T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "The Adventures of Sharkboy and Lavagirl in 3-D",
+        "name_cantonese": "鯊膽小英雄",
+        "id": "Q656357"
+      },
+      "distractors": [
+        "2004",
+        "2006",
+        "2007"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released latest?",
+      "question_cantonese": "以下邊套電影最遲上映？",
+      "choices": {
+        "A": "Alien vs. Predator",
+        "B": "All the Money in the World",
+        "C": "8 Mile",
+        "D": "22 Jump Street"
+      },
+      "choices_cantonese": {
+        "A": "《異獸戰》",
+        "B": "《萬惡金錢》",
+        "C": "《8里公路》",
+        "D": "《囧探出更》"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 2017,
+        "release_date": "2017-01-01T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "8 Mile",
+            "release_year": 2002
+          },
+          {
+            "name": "Alien vs. Predator",
+            "release_year": 2004
+          },
+          {
+            "name": "22 Jump Street",
+            "release_year": 2014
+          },
+          {
+            "name": "All the Money in the World",
+            "release_year": 2017
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "All the Money in the World",
+        "name_cantonese": "萬惡金錢",
+        "id": "Q30321629"
+      },
+      "distractors": [
+        "Alien vs. Predator",
+        "8 Mile",
+        "22 Jump Street"
+      ],
+      "question_type": "movie_latest"
+    },
+    {
+      "question": "Which of the following movies was released in the 2020s (2020-2029)?",
+      "question_cantonese": "以下邊套電影係喺2020年代（2020-2029年）上映？",
+      "choices": {
+        "A": "The Age of Innocence",
+        "B": "Alvin and the Chipmunks: Chipwrecked",
+        "C": "American Reunion",
+        "D": "About My Father"
+      },
+      "choices_cantonese": {
+        "A": "《心外幽情》",
+        "B": "《花鼠明星俱樂部3》",
+        "C": "《美國處男之孔雀開屏》",
+        "D": "《教父冇限耆》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "decade": 2020,
+        "release_year": 2023,
+        "release_date": "2023-05-25T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "About My Father",
+        "name_cantonese": "教父冇限耆",
+        "id": "Q108809561"
+      },
+      "distractors": [
+        "American Reunion",
+        "The Age of Innocence",
+        "Alvin and the Chipmunks: Chipwrecked"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "Which of the following movies was released earliest?",
+      "question_cantonese": "以下邊套電影最早上映？",
+      "choices": {
+        "A": "10 Cloverfield Lane",
+        "B": "Les Amants du Pont-Neuf",
+        "C": "American Splendor",
+        "D": "American Wedding"
+      },
+      "choices_cantonese": {
+        "A": "《末世街10號》",
+        "B": "《新橋之戀》",
+        "C": "《漫畫人生路》",
+        "D": "《處男有喜》"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 1991,
+        "release_date": "1991-10-16T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "Les Amants du Pont-Neuf",
+            "release_year": 1991
+          },
+          {
+            "name": "American Wedding",
+            "release_year": 2003
+          },
+          {
+            "name": "American Splendor",
+            "release_year": 2003
+          },
+          {
+            "name": "10 Cloverfield Lane",
+            "release_year": 2016
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "Les Amants du Pont-Neuf",
+        "name_cantonese": "新橋之戀",
+        "id": "Q1214555"
+      },
+      "distractors": [
+        "10 Cloverfield Lane",
+        "American Splendor",
+        "American Wedding"
+      ],
+      "question_type": "movie_earliest"
+    },
+    {
+      "question": "Which of the following movies was released earliest?",
+      "question_cantonese": "以下邊套電影最早上映？",
+      "choices": {
+        "A": "20 Feet from Stardom",
+        "B": "The Amazing Spider-Man",
+        "C": "Alien: Resurrection",
+        "D": "American Gangster"
+      },
+      "choices_cantonese": {
+        "A": "《我就嚟是歌手》",
+        "B": "《蜘蛛俠：驚世現新》",
+        "C": "《異形四集之逆種》",
+        "D": "《犯罪帝國》"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 1997,
+        "release_date": "1997-11-26T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "Alien: Resurrection",
+            "release_year": 1997
+          },
+          {
+            "name": "American Gangster",
+            "release_year": 2007
+          },
+          {
+            "name": "The Amazing Spider-Man",
+            "release_year": 2012
+          },
+          {
+            "name": "20 Feet from Stardom",
+            "release_year": 2013
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "Alien: Resurrection",
+        "name_cantonese": "異形四集之逆種",
+        "id": "Q458314"
+      },
+      "distractors": [
+        "20 Feet from Stardom",
+        "The Amazing Spider-Man",
+        "American Gangster"
+      ],
+      "question_type": "movie_earliest"
+    },
+    {
+      "question": "Which of the following movies was released in the 1980s (1980-1989)?",
+      "question_cantonese": "以下邊套電影係喺1980年代（1980-1989年）上映？",
+      "choices": {
+        "A": "9½ Weeks",
+        "B": "21 and Over",
+        "C": "After the Sunset",
+        "D": "All the Pretty Horses"
+      },
+      "choices_cantonese": {
+        "A": "《九個半星期》",
+        "B": "《21成人鳥》",
+        "C": "《合盜偷天》",
+        "D": "《馴不了的愛》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "decade": 1980,
+        "release_year": 1986,
+        "release_date": "1986-02-14T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "9½ Weeks",
+        "name_cantonese": "九個半星期",
+        "id": "Q644552"
+      },
+      "distractors": [
+        "All the Pretty Horses",
+        "21 and Over",
+        "After the Sunset"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "What year was the movie \"About Time\" released?",
+      "question_cantonese": "電影《回到最愛的一天》係邊年上映？",
+      "choices": {
+        "A": "2011",
+        "B": "2013",
+        "C": "2012",
+        "D": "2014"
+      },
+      "choices_cantonese": {
+        "A": "2011年",
+        "B": "2013年",
+        "C": "2012年",
+        "D": "2014年"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 2013,
+        "release_date": "2013-09-04T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "About Time",
+        "name_cantonese": "回到最愛的一天",
+        "id": "Q4668586"
+      },
+      "distractors": [
+        "2014",
+        "2012",
+        "2011"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"9½ Weeks\" released?",
+      "question_cantonese": "電影《九個半星期》係邊年上映？",
+      "choices": {
+        "A": "1988",
+        "B": "1990",
+        "C": "1986",
+        "D": "1984"
+      },
+      "choices_cantonese": {
+        "A": "1988年",
+        "B": "1990年",
+        "C": "1986年",
+        "D": "1984年"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 1986,
+        "release_date": "1986-02-14T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "9½ Weeks",
+        "name_cantonese": "九個半星期",
+        "id": "Q644552"
+      },
+      "distractors": [
+        "1988",
+        "1984",
+        "1990"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released in the 1970s (1970-1979)?",
+      "question_cantonese": "以下邊套電影係喺1970年代（1970-1979年）上映？",
+      "choices": {
+        "A": "28 Years Later",
+        "B": "American Beauty",
+        "C": "Amarcord",
+        "D": "All About Steve"
+      },
+      "choices_cantonese": {
+        "A": "《28年後》",
+        "B": "《美麗有罪》",
+        "C": "《想當年》",
+        "D": "《情迷靚肌佬》"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "decade": 1970,
+        "release_year": 1973,
+        "release_date": "1973-12-18T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Amarcord",
+        "name_cantonese": "想當年",
+        "id": "Q18428"
+      },
+      "distractors": [
+        "All About Steve",
+        "28 Years Later",
+        "American Beauty"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "What year was the movie \"An American in Paris\" released?",
+      "question_cantonese": "電影《花都艷舞》係邊年上映？",
+      "choices": {
+        "A": "1951",
+        "B": "1980",
+        "C": "1973",
+        "D": "1979"
+      },
+      "choices_cantonese": {
+        "A": "1951年",
+        "B": "1980年",
+        "C": "1973年",
+        "D": "1979年"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 1951,
+        "release_date": "1951-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "An American in Paris",
+        "name_cantonese": "花都艷舞",
+        "id": "Q747570"
+      },
+      "distractors": [
+        "1973",
+        "1979",
+        "1980"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released latest?",
+      "question_cantonese": "以下邊套電影最遲上映？",
+      "choices": {
+        "A": "About My Father",
+        "B": "Along Came Polly",
+        "C": "An American in Paris",
+        "D": "The Accountant 2"
+      },
+      "choices_cantonese": {
+        "A": "《教父冇限耆》",
+        "B": "《情場算死草》",
+        "C": "《花都艷舞》",
+        "D": "《暗算2》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2025,
+        "release_date": "2025-03-08T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "An American in Paris",
+            "release_year": 1951
+          },
+          {
+            "name": "Along Came Polly",
+            "release_year": 2004
+          },
+          {
+            "name": "About My Father",
+            "release_year": 2023
+          },
+          {
+            "name": "The Accountant 2",
+            "release_year": 2025
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "The Accountant 2",
+        "name_cantonese": "暗算2",
+        "id": "Q124848369"
+      },
+      "distractors": [
+        "About My Father",
+        "Along Came Polly",
+        "An American in Paris"
+      ],
+      "question_type": "movie_latest"
+    },
+    {
+      "question": "What year was the movie \"The Age of Innocence\" released?",
+      "question_cantonese": "電影《心外幽情》係邊年上映？",
+      "choices": {
+        "A": "1990",
+        "B": "1993",
+        "C": "1994",
+        "D": "1991"
+      },
+      "choices_cantonese": {
+        "A": "1990年",
+        "B": "1993年",
+        "C": "1994年",
+        "D": "1991年"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 1993,
+        "release_date": "1993-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "The Age of Innocence",
+        "name_cantonese": "心外幽情",
+        "id": "Q1125442"
+      },
+      "distractors": [
+        "1994",
+        "1991",
+        "1990"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released earliest?",
+      "question_cantonese": "以下邊套電影最早上映？",
+      "choices": {
+        "A": "American Assassin",
+        "B": "After Earth",
+        "C": "Alcarràs",
+        "D": "All We Imagine as Light"
+      },
+      "choices_cantonese": {
+        "A": "《美國特工》",
+        "B": "《末日1000年》",
+        "C": "《陽光燦爛的果園》",
+        "D": "《乘著光的幻想》"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 2013,
+        "release_date": "2013-01-01T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "After Earth",
+            "release_year": 2013
+          },
+          {
+            "name": "American Assassin",
+            "release_year": 2017
+          },
+          {
+            "name": "Alcarràs",
+            "release_year": 2022
+          },
+          {
+            "name": "All We Imagine as Light",
+            "release_year": 2024
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "After Earth",
+        "name_cantonese": "末日1000年",
+        "id": "Q1254088"
+      },
+      "distractors": [
+        "American Assassin",
+        "Alcarràs",
+        "All We Imagine as Light"
+      ],
+      "question_type": "movie_earliest"
+    },
+    {
+      "question": "Which of the following movies was released earliest?",
+      "question_cantonese": "以下邊套電影最早上映？",
+      "choices": {
+        "A": "50/50",
+        "B": "8 Women",
+        "C": "300: Rise of an Empire",
+        "D": "American History X"
+      },
+      "choices_cantonese": {
+        "A": "《風雨同路兩支公》",
+        "B": "《8美千嬌》",
+        "C": "《戰狼300：帝國崛起》",
+        "D": "《野獸良民》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 1998,
+        "release_date": "1998-01-01T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "American History X",
+            "release_year": 1998
+          },
+          {
+            "name": "8 Women",
+            "release_year": 2002
+          },
+          {
+            "name": "50/50",
+            "release_year": 2011
+          },
+          {
+            "name": "300: Rise of an Empire",
+            "release_year": 2014
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "American History X",
+        "name_cantonese": "野獸良民",
+        "id": "Q208572"
+      },
+      "distractors": [
+        "50/50",
+        "8 Women",
+        "300: Rise of an Empire"
+      ],
+      "question_type": "movie_earliest"
+    },
+    {
+      "question": "Which of the following movies was released in the 2010s (2010-2019)?",
+      "question_cantonese": "以下邊套電影係喺2010年代（2010-2019年）上映？",
+      "choices": {
+        "A": "Abduction",
+        "B": "3:10 to Yuma",
+        "C": "Afraid",
+        "D": "Accepted"
+      },
+      "choices_cantonese": {
+        "A": "《喋血新世紀》",
+        "B": "《決戰猶馬城》",
+        "C": "《人凶智能》",
+        "D": "《冒牌天子門生》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "decade": 2010,
+        "release_year": 2011,
+        "release_date": "2011-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Abduction",
+        "name_cantonese": "喋血新世紀",
+        "id": "Q143716"
+      },
+      "distractors": [
+        "Accepted",
+        "Afraid",
+        "3:10 to Yuma"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "Which of the following movies was released earliest?",
+      "question_cantonese": "以下邊套電影最早上映？",
+      "choices": {
+        "A": "Afraid",
+        "B": "Alien: Resurrection",
+        "C": "Les Amants du Pont-Neuf",
+        "D": "All About Steve"
+      },
+      "choices_cantonese": {
+        "A": "《人凶智能》",
+        "B": "《異形四集之逆種》",
+        "C": "《新橋之戀》",
+        "D": "《情迷靚肌佬》"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 1991,
+        "release_date": "1991-10-16T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "Les Amants du Pont-Neuf",
+            "release_year": 1991
+          },
+          {
+            "name": "Alien: Resurrection",
+            "release_year": 1997
+          },
+          {
+            "name": "All About Steve",
+            "release_year": 2009
+          },
+          {
+            "name": "Afraid",
+            "release_year": 2024
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "Les Amants du Pont-Neuf",
+        "name_cantonese": "新橋之戀",
+        "id": "Q1214555"
+      },
+      "distractors": [
+        "Afraid",
+        "Alien: Resurrection",
+        "All About Steve"
+      ],
+      "question_type": "movie_earliest"
+    },
+    {
+      "question": "What year was the movie \"The Adventures of Ford Fairlane\" released?",
+      "question_cantonese": "電影《招積偵探顯神通》係邊年上映？",
+      "choices": {
+        "A": "1991",
+        "B": "1993",
+        "C": "1988",
+        "D": "1990"
+      },
+      "choices_cantonese": {
+        "A": "1991年",
+        "B": "1993年",
+        "C": "1988年",
+        "D": "1990年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 1990,
+        "release_date": "1990-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "The Adventures of Ford Fairlane",
+        "name_cantonese": "招積偵探顯神通",
+        "id": "Q977196"
+      },
+      "distractors": [
+        "1991",
+        "1988",
+        "1993"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released earliest?",
+      "question_cantonese": "以下邊套電影最早上映？",
+      "choices": {
+        "A": "Aloha",
+        "B": "American Ultra",
+        "C": "Alcarràs",
+        "D": "21 Jump Street"
+      },
+      "choices_cantonese": {
+        "A": "《戀上熱愛島》",
+        "B": "《特務傻的孖》",
+        "C": "《陽光燦爛的果園》",
+        "D": "《逃學黐孖咇》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2012,
+        "release_date": "2012-03-12T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "21 Jump Street",
+            "release_year": 2012
+          },
+          {
+            "name": "Aloha",
+            "release_year": 2014
+          },
+          {
+            "name": "American Ultra",
+            "release_year": 2015
+          },
+          {
+            "name": "Alcarràs",
+            "release_year": 2022
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "21 Jump Street",
+        "name_cantonese": "逃學黐孖咇",
+        "id": "Q214014"
+      },
+      "distractors": [
+        "Aloha",
+        "American Ultra",
+        "Alcarràs"
+      ],
+      "question_type": "movie_earliest"
+    },
+    {
+      "question": "What year was the movie \"About a Boy\" released?",
+      "question_cantonese": "電影《單親插班生》係邊年上映？",
+      "choices": {
+        "A": "2002",
+        "B": "2001",
+        "C": "2003",
+        "D": "2004"
+      },
+      "choices_cantonese": {
+        "A": "2002年",
+        "B": "2001年",
+        "C": "2003年",
+        "D": "2004年"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 2002,
+        "release_date": "2002-04-26T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "About a Boy",
+        "name_cantonese": "單親插班生",
+        "id": "Q1129227"
+      },
+      "distractors": [
+        "2003",
+        "2001",
+        "2004"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released latest?",
+      "question_cantonese": "以下邊套電影最遲上映？",
+      "choices": {
+        "A": "The Accountant 2",
+        "B": "30 Minutes or Less",
+        "C": "3 Days to Kill",
+        "D": "All We Imagine as Light"
+      },
+      "choices_cantonese": {
+        "A": "《暗算2》",
+        "B": "《迫良持槍》",
+        "C": "《3日限殺令》",
+        "D": "《乘著光的幻想》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 2025,
+        "release_date": "2025-03-08T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "30 Minutes or Less",
+            "release_year": 2011
+          },
+          {
+            "name": "3 Days to Kill",
+            "release_year": 2014
+          },
+          {
+            "name": "All We Imagine as Light",
+            "release_year": 2024
+          },
+          {
+            "name": "The Accountant 2",
+            "release_year": 2025
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "The Accountant 2",
+        "name_cantonese": "暗算2",
+        "id": "Q124848369"
+      },
+      "distractors": [
+        "30 Minutes or Less",
+        "3 Days to Kill",
+        "All We Imagine as Light"
+      ],
+      "question_type": "movie_latest"
+    },
+    {
+      "question": "Which of the following movies was released in the 1990s (1990-1999)?",
+      "question_cantonese": "以下邊套電影係喺1990年代（1990-1999年）上映？",
+      "choices": {
+        "A": "27 Dresses",
+        "B": "Alien vs. Predator",
+        "C": "21 Bridges",
+        "D": "The Addams Family"
+      },
+      "choices_cantonese": {
+        "A": "《27宜嫁》",
+        "B": "《異獸戰》",
+        "C": "《曼克頓封暴》",
+        "D": "《愛登士家庭》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "decade": 1990,
+        "release_year": 1991,
+        "release_date": "1991-11-22T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "The Addams Family",
+        "name_cantonese": "愛登士家庭",
+        "id": "Q1210947"
+      },
+      "distractors": [
+        "27 Dresses",
+        "21 Bridges",
+        "Alien vs. Predator"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "What year was the movie \"sander and the Chipmunks: The Squeakquel\" released?",
+      "question_cantonese": "電影《花鼠明星俱樂部2》係邊年上映？",
+      "choices": {
+        "A": "2009",
+        "B": "2007",
+        "C": "2011",
+        "D": "2008"
+      },
+      "choices_cantonese": {
+        "A": "2009年",
+        "B": "2007年",
+        "C": "2011年",
+        "D": "2008年"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 2009,
+        "release_date": "2009-12-24T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "sander and the Chipmunks: The Squeakquel",
+        "name_cantonese": "花鼠明星俱樂部2",
+        "id": "Q378311"
+      },
+      "distractors": [
+        "2008",
+        "2011",
+        "2007"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"Amarcord\" released?",
+      "question_cantonese": "電影《想當年》係邊年上映？",
+      "choices": {
+        "A": "1979",
+        "B": "1980",
+        "C": "1973",
+        "D": "1984"
+      },
+      "choices_cantonese": {
+        "A": "1979年",
+        "B": "1980年",
+        "C": "1973年",
+        "D": "1984年"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 1973,
+        "release_date": "1973-12-18T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Amarcord",
+        "name_cantonese": "想當年",
+        "id": "Q18428"
+      },
+      "distractors": [
+        "1979",
+        "1980",
+        "1984"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released in the 1950s (1950-1959)?",
+      "question_cantonese": "以下邊套電影係喺1950年代（1950-1959年）上映？",
+      "choices": {
+        "A": "All We Imagine as Light",
+        "B": "American Gangster",
+        "C": "21 Jump Street",
+        "D": "An American in Paris"
+      },
+      "choices_cantonese": {
+        "A": "《乘著光的幻想》",
+        "B": "《犯罪帝國》",
+        "C": "《逃學黐孖咇》",
+        "D": "《花都艷舞》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "decade": 1950,
+        "release_year": 1951,
+        "release_date": "1951-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "An American in Paris",
+        "name_cantonese": "花都艷舞",
+        "id": "Q747570"
+      },
+      "distractors": [
+        "21 Jump Street",
+        "American Gangster",
+        "All We Imagine as Light"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "What year was the movie \"2 Guns\" released?",
+      "question_cantonese": "電影《孖Gun雙雄》係邊年上映？",
+      "choices": {
+        "A": "2011",
+        "B": "2014",
+        "C": "2012",
+        "D": "2013"
+      },
+      "choices_cantonese": {
+        "A": "2011年",
+        "B": "2014年",
+        "C": "2012年",
+        "D": "2013年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2013,
+        "release_date": "2013-07-30T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "2 Guns",
+        "name_cantonese": "孖Gun雙雄",
+        "id": "Q3598715"
+      },
+      "distractors": [
+        "2014",
+        "2012",
+        "2011"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released latest?",
+      "question_cantonese": "以下邊套電影最遲上映？",
+      "choices": {
+        "A": "American Pie 2",
+        "B": "Alita: Battle Angel",
+        "C": "21 and Over",
+        "D": "Les Amants du Pont-Neuf"
+      },
+      "choices_cantonese": {
+        "A": "《美國處男2》",
+        "B": "《銃夢：戰鬥天使》",
+        "C": "《21成人鳥》",
+        "D": "《新橋之戀》"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 2019,
+        "release_date": "2019-02-06T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "Les Amants du Pont-Neuf",
+            "release_year": 1991
+          },
+          {
+            "name": "American Pie 2",
+            "release_year": 2001
+          },
+          {
+            "name": "21 and Over",
+            "release_year": 2013
+          },
+          {
+            "name": "Alita: Battle Angel",
+            "release_year": 2019
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "Alita: Battle Angel",
+        "name_cantonese": "銃夢：戰鬥天使",
+        "id": "Q24053265"
+      },
+      "distractors": [
+        "American Pie 2",
+        "21 and Over",
+        "Les Amants du Pont-Neuf"
+      ],
+      "question_type": "movie_latest"
+    },
+    {
+      "question": "What year was the movie \"Alien vs. Predator\" released?",
+      "question_cantonese": "電影《異獸戰》係邊年上映？",
+      "choices": {
+        "A": "2003",
+        "B": "2004",
+        "C": "2005",
+        "D": "2002"
+      },
+      "choices_cantonese": {
+        "A": "2003年",
+        "B": "2004年",
+        "C": "2005年",
+        "D": "2002年"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 2004,
+        "release_date": "2004-08-13T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Alien vs. Predator",
+        "name_cantonese": "異獸戰",
+        "id": "Q155163"
+      },
+      "distractors": [
+        "2003",
+        "2005",
+        "2002"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released latest?",
+      "question_cantonese": "以下邊套電影最遲上映？",
+      "choices": {
+        "A": "American Pie",
+        "B": "300: Rise of an Empire",
+        "C": "The Accountant 2",
+        "D": "Alexander and the Terrible, Horrible, No Good, Very Bad Day"
+      },
+      "choices_cantonese": {
+        "A": "《美國處男》",
+        "B": "《戰狼300：帝國崛起》",
+        "C": "《暗算2》",
+        "D": "《一起黑爆的日子》"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2025,
+        "release_date": "2025-03-08T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "American Pie",
+            "release_year": 1999
+          },
+          {
+            "name": "Alexander and the Terrible, Horrible, No Good, Very Bad Day",
+            "release_year": 2014
+          },
+          {
+            "name": "300: Rise of an Empire",
+            "release_year": 2014
+          },
+          {
+            "name": "The Accountant 2",
+            "release_year": 2025
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "The Accountant 2",
+        "name_cantonese": "暗算2",
+        "id": "Q124848369"
+      },
+      "distractors": [
+        "American Pie",
+        "300: Rise of an Empire",
+        "Alexander and the Terrible, Horrible, No Good, Very Bad Day"
+      ],
+      "question_type": "movie_latest"
+    },
+    {
+      "question": "Which of the following movies was released earliest?",
+      "question_cantonese": "以下邊套電影最早上映？",
+      "choices": {
+        "A": "Alita: Battle Angel",
+        "B": "American Pie",
+        "C": "The Amazing Spider-Man",
+        "D": "30 Days of Night"
+      },
+      "choices_cantonese": {
+        "A": "《銃夢：戰鬥天使》",
+        "B": "《美國處男》",
+        "C": "《蜘蛛俠：驚世現新》",
+        "D": "《屍城30夜》"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 1999,
+        "release_date": "1999-01-01T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "American Pie",
+            "release_year": 1999
+          },
+          {
+            "name": "30 Days of Night",
+            "release_year": 2007
+          },
+          {
+            "name": "The Amazing Spider-Man",
+            "release_year": 2012
+          },
+          {
+            "name": "Alita: Battle Angel",
+            "release_year": 2019
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "American Pie",
+        "name_cantonese": "美國處男",
+        "id": "Q220713"
+      },
+      "distractors": [
+        "Alita: Battle Angel",
+        "The Amazing Spider-Man",
+        "30 Days of Night"
+      ],
+      "question_type": "movie_earliest"
+    },
+    {
+      "question": "What year was the movie \"The Angry Birds Movie 2\" released?",
+      "question_cantonese": "電影《憤怒鳥大電影2》係邊年上映？",
+      "choices": {
+        "A": "2018",
+        "B": "2017",
+        "C": "2020",
+        "D": "2019"
+      },
+      "choices_cantonese": {
+        "A": "2018年",
+        "B": "2017年",
+        "C": "2020年",
+        "D": "2019年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2019,
+        "release_date": "2019-08-02T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "The Angry Birds Movie 2",
+        "name_cantonese": "憤怒鳥大電影2",
+        "id": "Q18722273"
+      },
+      "distractors": [
+        "2018",
+        "2020",
+        "2017"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"All Is Lost\" released?",
+      "question_cantonese": "電影《怒海求生》係邊年上映？",
+      "choices": {
+        "A": "2013",
+        "B": "2012",
+        "C": "2011",
+        "D": "2014"
+      },
+      "choices_cantonese": {
+        "A": "2013年",
+        "B": "2012年",
+        "C": "2011年",
+        "D": "2014年"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 2013,
+        "release_date": "2013-05-22T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "All Is Lost",
+        "name_cantonese": "怒海求生",
+        "id": "Q2837490"
+      },
+      "distractors": [
+        "2014",
+        "2012",
+        "2011"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"300: Rise of an Empire\" released?",
+      "question_cantonese": "電影《戰狼300：帝國崛起》係邊年上映？",
+      "choices": {
+        "A": "2015",
+        "B": "2013",
+        "C": "2014",
+        "D": "2012"
+      },
+      "choices_cantonese": {
+        "A": "2015年",
+        "B": "2013年",
+        "C": "2014年",
+        "D": "2012年"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2014,
+        "release_date": "2014-03-04T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "300: Rise of an Empire",
+        "name_cantonese": "戰狼300：帝國崛起",
+        "id": "Q400332"
+      },
+      "distractors": [
+        "2013",
+        "2015",
+        "2012"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released in the 1970s (1970-1979)?",
+      "question_cantonese": "以下邊套電影係喺1970年代（1970-1979年）上映？",
+      "choices": {
+        "A": "All That Jazz",
+        "B": "All the Money in the World",
+        "C": "American Hustle",
+        "D": "Goodbye to Language"
+      },
+      "choices_cantonese": {
+        "A": "《爵士春秋》",
+        "B": "《萬惡金錢》",
+        "C": "《騙海豪情》",
+        "D": "《告別言語》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "decade": 1970,
+        "release_year": 1979,
+        "release_date": "1979-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "All That Jazz",
+        "name_cantonese": "爵士春秋",
+        "id": "Q1353441"
+      },
+      "distractors": [
+        "American Hustle",
+        "Goodbye to Language",
+        "All the Money in the World"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "Which of the following movies was released latest?",
+      "question_cantonese": "以下邊套電影最遲上映？",
+      "choices": {
+        "A": "Alvin and the Chipmunks",
+        "B": "American History X",
+        "C": "21 and Over",
+        "D": "Alexander and the Terrible, Horrible, No Good, Very Bad Day"
+      },
+      "choices_cantonese": {
+        "A": "《花鼠明星俱樂部》",
+        "B": "《野獸良民》",
+        "C": "《21成人鳥》",
+        "D": "《一起黑爆的日子》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2014,
+        "release_date": "2014-10-10T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "American History X",
+            "release_year": 1998
+          },
+          {
+            "name": "Alvin and the Chipmunks",
+            "release_year": 2007
+          },
+          {
+            "name": "21 and Over",
+            "release_year": 2013
+          },
+          {
+            "name": "Alexander and the Terrible, Horrible, No Good, Very Bad Day",
+            "release_year": 2014
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "Alexander and the Terrible, Horrible, No Good, Very Bad Day",
+        "name_cantonese": "一起黑爆的日子",
+        "id": "Q15104217"
+      },
+      "distractors": [
+        "Alvin and the Chipmunks",
+        "American History X",
+        "21 and Over"
+      ],
+      "question_type": "movie_latest"
+    },
+    {
+      "question": "What year was the movie \"21 Bridges\" released?",
+      "question_cantonese": "電影《曼克頓封暴》係邊年上映？",
+      "choices": {
+        "A": "2018",
+        "B": "2017",
+        "C": "2020",
+        "D": "2019"
+      },
+      "choices_cantonese": {
+        "A": "2018年",
+        "B": "2017年",
+        "C": "2020年",
+        "D": "2019年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2019,
+        "release_date": "2019-10-11T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "21 Bridges",
+        "name_cantonese": "曼克頓封暴",
+        "id": "Q58411015"
+      },
+      "distractors": [
+        "2018",
+        "2020",
+        "2017"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released earliest?",
+      "question_cantonese": "以下邊套電影最早上映？",
+      "choices": {
+        "A": "20 Feet from Stardom",
+        "B": "27 Dresses",
+        "C": "After the Sunset",
+        "D": "Alita: Battle Angel"
+      },
+      "choices_cantonese": {
+        "A": "《我就嚟是歌手》",
+        "B": "《27宜嫁》",
+        "C": "《合盜偷天》",
+        "D": "《銃夢：戰鬥天使》"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2004,
+        "release_date": "2004-11-10T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "After the Sunset",
+            "release_year": 2004
+          },
+          {
+            "name": "27 Dresses",
+            "release_year": 2008
+          },
+          {
+            "name": "20 Feet from Stardom",
+            "release_year": 2013
+          },
+          {
+            "name": "Alita: Battle Angel",
+            "release_year": 2019
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "After the Sunset",
+        "name_cantonese": "合盜偷天",
+        "id": "Q389151"
+      },
+      "distractors": [
+        "20 Feet from Stardom",
+        "27 Dresses",
+        "Alita: Battle Angel"
+      ],
+      "question_type": "movie_earliest"
+    },
+    {
+      "question": "What year was the movie \"Along Came Polly\" released?",
+      "question_cantonese": "電影《情場算死草》係邊年上映？",
+      "choices": {
+        "A": "2002",
+        "B": "2004",
+        "C": "2003",
+        "D": "2005"
+      },
+      "choices_cantonese": {
+        "A": "2002年",
+        "B": "2004年",
+        "C": "2003年",
+        "D": "2005年"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 2004,
+        "release_date": "2004-01-12T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Along Came Polly",
+        "name_cantonese": "情場算死草",
+        "id": "Q426396"
+      },
+      "distractors": [
+        "2003",
+        "2005",
+        "2002"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"Adaptation.\" released?",
+      "question_cantonese": "電影《何必偏偏玩謝我》係邊年上映？",
+      "choices": {
+        "A": "2003",
+        "B": "2001",
+        "C": "2004",
+        "D": "2002"
+      },
+      "choices_cantonese": {
+        "A": "2003年",
+        "B": "2001年",
+        "C": "2004年",
+        "D": "2002年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2002,
+        "release_date": "2002-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Adaptation.",
+        "name_cantonese": "何必偏偏玩謝我",
+        "id": "Q352431"
+      },
+      "distractors": [
+        "2003",
+        "2001",
+        "2004"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"3 Days to Kill\" released?",
+      "question_cantonese": "電影《3日限殺令》係邊年上映？",
+      "choices": {
+        "A": "2014",
+        "B": "2013",
+        "C": "2015",
+        "D": "2012"
+      },
+      "choices_cantonese": {
+        "A": "2014年",
+        "B": "2013年",
+        "C": "2015年",
+        "D": "2012年"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 2014,
+        "release_date": "2014-02-12T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "3 Days to Kill",
+        "name_cantonese": "3日限殺令",
+        "id": "Q3525931"
+      },
+      "distractors": [
+        "2013",
+        "2015",
+        "2012"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"The Addams Family\" released?",
+      "question_cantonese": "電影《愛登士家庭》係邊年上映？",
+      "choices": {
+        "A": "1988",
+        "B": "1990",
+        "C": "1993",
+        "D": "1991"
+      },
+      "choices_cantonese": {
+        "A": "1988年",
+        "B": "1990年",
+        "C": "1993年",
+        "D": "1991年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 1991,
+        "release_date": "1991-11-22T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "The Addams Family",
+        "name_cantonese": "愛登士家庭",
+        "id": "Q1210947"
+      },
+      "distractors": [
+        "1990",
+        "1993",
+        "1988"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"Alien: Romulus\" released?",
+      "question_cantonese": "電影《異形：羅穆盧斯》係邊年上映？",
+      "choices": {
+        "A": "2025",
+        "B": "2022",
+        "C": "2023",
+        "D": "2024"
+      },
+      "choices_cantonese": {
+        "A": "2025年",
+        "B": "2022年",
+        "C": "2023年",
+        "D": "2024年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2024,
+        "release_date": "2024-08-15T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Alien: Romulus",
+        "name_cantonese": "異形：羅穆盧斯",
+        "id": "Q115932544"
+      },
+      "distractors": [
+        "2025",
+        "2023",
+        "2022"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"8 Mile\" released?",
+      "question_cantonese": "電影《8里公路》係邊年上映？",
+      "choices": {
+        "A": "2002",
+        "B": "2004",
+        "C": "2003",
+        "D": "2001"
+      },
+      "choices_cantonese": {
+        "A": "2002年",
+        "B": "2004年",
+        "C": "2003年",
+        "D": "2001年"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 2002,
+        "release_date": "2002-09-08T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "8 Mile",
+        "name_cantonese": "8里公路",
+        "id": "Q196665"
+      },
+      "distractors": [
+        "2003",
+        "2001",
+        "2004"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"American Pie 2\" released?",
+      "question_cantonese": "電影《美國處男2》係邊年上映？",
+      "choices": {
+        "A": "2003",
+        "B": "2001",
+        "C": "2000",
+        "D": "2002"
+      },
+      "choices_cantonese": {
+        "A": "2003年",
+        "B": "2001年",
+        "C": "2000年",
+        "D": "2002年"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 2001,
+        "release_date": "2001-08-10T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "American Pie 2",
+        "name_cantonese": "美國處男2",
+        "id": "Q329127"
+      },
+      "distractors": [
+        "2002",
+        "2000",
+        "2003"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"Aline\" released?",
+      "question_cantonese": "電影《聲夢戀歌》係邊年上映？",
+      "choices": {
+        "A": "2022",
+        "B": "2019",
+        "C": "2020",
+        "D": "2018"
+      },
+      "choices_cantonese": {
+        "A": "2022年",
+        "B": "2019年",
+        "C": "2020年",
+        "D": "2018年"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2020,
+        "release_date": "2020-10-04T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Aline",
+        "name_cantonese": "聲夢戀歌",
+        "id": "Q100324181"
+      },
+      "distractors": [
+        "2019",
+        "2018",
+        "2022"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"Aloha\" released?",
+      "question_cantonese": "電影《戀上熱愛島》係邊年上映？",
+      "choices": {
+        "A": "2015",
+        "B": "2014",
+        "C": "2012",
+        "D": "2013"
+      },
+      "choices_cantonese": {
+        "A": "2015年",
+        "B": "2014年",
+        "C": "2012年",
+        "D": "2013年"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 2014,
+        "release_date": "2014-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Aloha",
+        "name_cantonese": "戀上熱愛島",
+        "id": "Q15078029"
+      },
+      "distractors": [
+        "2013",
+        "2015",
+        "2012"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released earliest?",
+      "question_cantonese": "以下邊套電影最早上映？",
+      "choices": {
+        "A": "21 Bridges",
+        "B": "Alexander and the Terrible, Horrible, No Good, Very Bad Day",
+        "C": "Adaptation.",
+        "D": "Goodbye to Language"
+      },
+      "choices_cantonese": {
+        "A": "《曼克頓封暴》",
+        "B": "《一起黑爆的日子》",
+        "C": "《何必偏偏玩謝我》",
+        "D": "《告別言語》"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2002,
+        "release_date": "2002-01-01T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "Adaptation.",
+            "release_year": 2002
+          },
+          {
+            "name": "Alexander and the Terrible, Horrible, No Good, Very Bad Day",
+            "release_year": 2014
+          },
+          {
+            "name": "Goodbye to Language",
+            "release_year": 2014
+          },
+          {
+            "name": "21 Bridges",
+            "release_year": 2019
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "Adaptation.",
+        "name_cantonese": "何必偏偏玩謝我",
+        "id": "Q352431"
+      },
+      "distractors": [
+        "21 Bridges",
+        "Alexander and the Terrible, Horrible, No Good, Very Bad Day",
+        "Goodbye to Language"
+      ],
+      "question_type": "movie_earliest"
+    },
+    {
+      "question": "Which of the following movies was released in the 2020s (2020-2029)?",
+      "question_cantonese": "以下邊套電影係喺2020年代（2020-2029年）上映？",
+      "choices": {
+        "A": "Alcarràs",
+        "B": "The Adventures of Priscilla, Queen of the Desert",
+        "C": "30 Minutes or Less",
+        "D": "American Reunion"
+      },
+      "choices_cantonese": {
+        "A": "《陽光燦爛的果園》",
+        "B": "《風塵三絕》",
+        "C": "《迫良持槍》",
+        "D": "《美國處男之孔雀開屏》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "decade": 2020,
+        "release_year": 2022,
+        "release_date": "2022-02-15T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Alcarràs",
+        "name_cantonese": "陽光燦爛的果園",
+        "id": "Q110622667"
+      },
+      "distractors": [
+        "30 Minutes or Less",
+        "American Reunion",
+        "The Adventures of Priscilla, Queen of the Desert"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "Which of the following movies was released in the 1950s (1950-1959)?",
+      "question_cantonese": "以下邊套電影係喺1950年代（1950-1959年）上映？",
+      "choices": {
+        "A": "An American in Paris",
+        "B": "2 Guns",
+        "C": "Goodbye to Language",
+        "D": "27 Dresses"
+      },
+      "choices_cantonese": {
+        "A": "《花都艷舞》",
+        "B": "《孖Gun雙雄》",
+        "C": "《告別言語》",
+        "D": "《27宜嫁》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "decade": 1950,
+        "release_year": 1951,
+        "release_date": "1951-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "An American in Paris",
+        "name_cantonese": "花都艷舞",
+        "id": "Q747570"
+      },
+      "distractors": [
+        "Goodbye to Language",
+        "27 Dresses",
+        "2 Guns"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "Which of the following movies was released in the 2020s (2020-2029)?",
+      "question_cantonese": "以下邊套電影係喺2020年代（2020-2029年）上映？",
+      "choices": {
+        "A": "Alvin and the Chipmunks: Road Chip",
+        "B": "American Ultra",
+        "C": "The Accountant 2",
+        "D": "21 Bridges"
+      },
+      "choices_cantonese": {
+        "A": "《花鼠明星俱樂部：開心大唱遊》",
+        "B": "《特務傻的孖》",
+        "C": "《暗算2》",
+        "D": "《曼克頓封暴》"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "decade": 2020,
+        "release_year": 2025,
+        "release_date": "2025-03-08T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "The Accountant 2",
+        "name_cantonese": "暗算2",
+        "id": "Q124848369"
+      },
+      "distractors": [
+        "American Ultra",
+        "Alvin and the Chipmunks: Road Chip",
+        "21 Bridges"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "What year was the movie \"Alvin and the Chipmunks: Chipwrecked\" released?",
+      "question_cantonese": "電影《花鼠明星俱樂部3》係邊年上映？",
+      "choices": {
+        "A": "2012",
+        "B": "2011",
+        "C": "2013",
+        "D": "2009"
+      },
+      "choices_cantonese": {
+        "A": "2012年",
+        "B": "2011年",
+        "C": "2013年",
+        "D": "2009年"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 2011,
+        "release_date": "2011-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Alvin and the Chipmunks: Chipwrecked",
+        "name_cantonese": "花鼠明星俱樂部3",
+        "id": "Q303678"
+      },
+      "distractors": [
+        "2012",
+        "2013",
+        "2009"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"All About Steve\" released?",
+      "question_cantonese": "電影《情迷靚肌佬》係邊年上映？",
+      "choices": {
+        "A": "2009",
+        "B": "2008",
+        "C": "2011",
+        "D": "2007"
+      },
+      "choices_cantonese": {
+        "A": "2009年",
+        "B": "2008年",
+        "C": "2011年",
+        "D": "2007年"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 2009,
+        "release_date": "2009-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "All About Steve",
+        "name_cantonese": "情迷靚肌佬",
+        "id": "Q590813"
+      },
+      "distractors": [
+        "2008",
+        "2011",
+        "2007"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"Amadeus\" released?",
+      "question_cantonese": "電影《莫扎特傳》係邊年上映？",
+      "choices": {
+        "A": "1988",
+        "B": "1984",
+        "C": "1980",
+        "D": "1986"
+      },
+      "choices_cantonese": {
+        "A": "1988年",
+        "B": "1984年",
+        "C": "1980年",
+        "D": "1986年"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 1984,
+        "release_date": "1984-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Amadeus",
+        "name_cantonese": "莫扎特傳",
+        "id": "Q190956"
+      },
+      "distractors": [
+        "1986",
+        "1988",
+        "1980"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"20 Feet from Stardom\" released?",
+      "question_cantonese": "電影《我就嚟是歌手》係邊年上映？",
+      "choices": {
+        "A": "2012",
+        "B": "2013",
+        "C": "2014",
+        "D": "2011"
+      },
+      "choices_cantonese": {
+        "A": "2012年",
+        "B": "2013年",
+        "C": "2014年",
+        "D": "2011年"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 2013,
+        "release_date": "2013-01-17T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "20 Feet from Stardom",
+        "name_cantonese": "我就嚟是歌手",
+        "id": "Q15052276"
+      },
+      "distractors": [
+        "2014",
+        "2012",
+        "2011"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"American Beauty\" released?",
+      "question_cantonese": "電影《美麗有罪》係邊年上映？",
+      "choices": {
+        "A": "1999",
+        "B": "1998",
+        "C": "2000",
+        "D": "1997"
+      },
+      "choices_cantonese": {
+        "A": "1999年",
+        "B": "1998年",
+        "C": "2000年",
+        "D": "1997年"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 1999,
+        "release_date": "1999-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "American Beauty",
+        "name_cantonese": "美麗有罪",
+        "id": "Q25139"
+      },
+      "distractors": [
+        "2000",
+        "1998",
+        "1997"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"All the Money in the World\" released?",
+      "question_cantonese": "電影《萬惡金錢》係邊年上映？",
+      "choices": {
+        "A": "2019",
+        "B": "2016",
+        "C": "2017",
+        "D": "2018"
+      },
+      "choices_cantonese": {
+        "A": "2019年",
+        "B": "2016年",
+        "C": "2017年",
+        "D": "2018年"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2017,
+        "release_date": "2017-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "All the Money in the World",
+        "name_cantonese": "萬惡金錢",
+        "id": "Q30321629"
+      },
+      "distractors": [
+        "2016",
+        "2018",
+        "2019"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"47 Ronin\" released?",
+      "question_cantonese": "電影《浪魂47》係邊年上映？",
+      "choices": {
+        "A": "2012",
+        "B": "2013",
+        "C": "2011",
+        "D": "2014"
+      },
+      "choices_cantonese": {
+        "A": "2012年",
+        "B": "2013年",
+        "C": "2011年",
+        "D": "2014年"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 2013,
+        "release_date": "2013-12-06T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "47 Ronin",
+        "name_cantonese": "浪魂47",
+        "id": "Q2816898"
+      },
+      "distractors": [
+        "2014",
+        "2012",
+        "2011"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released in the 1970s (1970-1979)?",
+      "question_cantonese": "以下邊套電影係喺1970年代（1970-1979年）上映？",
+      "choices": {
+        "A": "102 Dalmatians",
+        "B": "Admission",
+        "C": "Alvin and the Chipmunks: Chipwrecked",
+        "D": "Amarcord"
+      },
+      "choices_cantonese": {
+        "A": "《102斑點狗》",
+        "B": "《收生愛過界》",
+        "C": "《花鼠明星俱樂部3》",
+        "D": "《想當年》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "decade": 1970,
+        "release_year": 1973,
+        "release_date": "1973-12-18T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Amarcord",
+        "name_cantonese": "想當年",
+        "id": "Q18428"
+      },
+      "distractors": [
+        "Alvin and the Chipmunks: Chipwrecked",
+        "Admission",
+        "102 Dalmatians"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "What year was the movie \"Ad Astra\" released?",
+      "question_cantonese": "電影《星際任務》係邊年上映？",
+      "choices": {
+        "A": "2019",
+        "B": "2018",
+        "C": "2020",
+        "D": "2017"
+      },
+      "choices_cantonese": {
+        "A": "2019年",
+        "B": "2018年",
+        "C": "2020年",
+        "D": "2017年"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 2019,
+        "release_date": "2019-08-29T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Ad Astra",
+        "name_cantonese": "星際任務",
+        "id": "Q38774788"
+      },
+      "distractors": [
+        "2018",
+        "2020",
+        "2017"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released in the 1990s (1990-1999)?",
+      "question_cantonese": "以下邊套電影係喺1990年代（1990-1999年）上映？",
+      "choices": {
+        "A": "American Gangster",
+        "B": "The Age of Innocence",
+        "C": "300: Rise of an Empire",
+        "D": "The Accountant 2"
+      },
+      "choices_cantonese": {
+        "A": "《犯罪帝國》",
+        "B": "《心外幽情》",
+        "C": "《戰狼300：帝國崛起》",
+        "D": "《暗算2》"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "decade": 1990,
+        "release_year": 1993,
+        "release_date": "1993-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "The Age of Innocence",
+        "name_cantonese": "心外幽情",
+        "id": "Q1125442"
+      },
+      "distractors": [
+        "American Gangster",
+        "300: Rise of an Empire",
+        "The Accountant 2"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "Which of the following movies was released in the 2020s (2020-2029)?",
+      "question_cantonese": "以下邊套電影係喺2020年代（2020-2029年）上映？",
+      "choices": {
+        "A": "28 Years Later",
+        "B": "About a Boy",
+        "C": "(500) Days of Summer",
+        "D": "American Reunion"
+      },
+      "choices_cantonese": {
+        "A": "《28年後》",
+        "B": "《單親插班生》",
+        "C": "《心跳500天》",
+        "D": "《美國處男之孔雀開屏》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "decade": 2020,
+        "release_year": 2025,
+        "release_date": "2025-06-20T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "28 Years Later",
+        "name_cantonese": "28年後",
+        "id": "Q125392328"
+      },
+      "distractors": [
+        "About a Boy",
+        "American Reunion",
+        "(500) Days of Summer"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "Which of the following movies was released earliest?",
+      "question_cantonese": "以下邊套電影最早上映？",
+      "choices": {
+        "A": "Ad Astra",
+        "B": "The Angry Birds Movie 2",
+        "C": "Story of Women",
+        "D": "Abominable"
+      },
+      "choices_cantonese": {
+        "A": "《星際任務》",
+        "B": "《憤怒鳥大電影2》",
+        "C": "《女人韻事》",
+        "D": "《長毛雪寶》"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 1988,
+        "release_date": "1988-01-01T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "Story of Women",
+            "release_year": 1988
+          },
+          {
+            "name": "Ad Astra",
+            "release_year": 2019
+          },
+          {
+            "name": "Abominable",
+            "release_year": 2019
+          },
+          {
+            "name": "The Angry Birds Movie 2",
+            "release_year": 2019
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "Story of Women",
+        "name_cantonese": "女人韻事",
+        "id": "Q1306392"
+      },
+      "distractors": [
+        "Ad Astra",
+        "The Angry Birds Movie 2",
+        "Abominable"
+      ],
+      "question_type": "movie_earliest"
+    },
+    {
+      "question": "Which of the following movies was released in the 1950s (1950-1959)?",
+      "question_cantonese": "以下邊套電影係喺1950年代（1950-1959年）上映？",
+      "choices": {
+        "A": "Alexander and the Terrible, Horrible, No Good, Very Bad Day",
+        "B": "8 Mile",
+        "C": "An American in Paris",
+        "D": "Admission"
+      },
+      "choices_cantonese": {
+        "A": "《一起黑爆的日子》",
+        "B": "《8里公路》",
+        "C": "《花都艷舞》",
+        "D": "《收生愛過界》"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "decade": 1950,
+        "release_year": 1951,
+        "release_date": "1951-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "An American in Paris",
+        "name_cantonese": "花都艷舞",
+        "id": "Q747570"
+      },
+      "distractors": [
+        "8 Mile",
+        "Admission",
+        "Alexander and the Terrible, Horrible, No Good, Very Bad Day"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "What year was the movie \"Alexander and the Terrible, Horrible, No Good, Very Bad Day\" released?",
+      "question_cantonese": "電影《一起黑爆的日子》係邊年上映？",
+      "choices": {
+        "A": "2014",
+        "B": "2013",
+        "C": "2012",
+        "D": "2015"
+      },
+      "choices_cantonese": {
+        "A": "2014年",
+        "B": "2013年",
+        "C": "2012年",
+        "D": "2015年"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 2014,
+        "release_date": "2014-10-10T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Alexander and the Terrible, Horrible, No Good, Very Bad Day",
+        "name_cantonese": "一起黑爆的日子",
+        "id": "Q15104217"
+      },
+      "distractors": [
+        "2013",
+        "2015",
+        "2012"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released in the 1990s (1990-1999)?",
+      "question_cantonese": "以下邊套電影係喺1990年代（1990-1999年）上映？",
+      "choices": {
+        "A": "Act of Valor",
+        "B": "20 Feet from Stardom",
+        "C": "Les Amants du Pont-Neuf",
+        "D": "All the Money in the World"
+      },
+      "choices_cantonese": {
+        "A": "《海豹突擊隊》",
+        "B": "《我就嚟是歌手》",
+        "C": "《新橋之戀》",
+        "D": "《萬惡金錢》"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "decade": 1990,
+        "release_year": 1991,
+        "release_date": "1991-10-16T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Les Amants du Pont-Neuf",
+        "name_cantonese": "新橋之戀",
+        "id": "Q1214555"
+      },
+      "distractors": [
+        "All the Money in the World",
+        "Act of Valor",
+        "20 Feet from Stardom"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "Which of the following movies was released in the 1950s (1950-1959)?",
+      "question_cantonese": "以下邊套電影係喺1950年代（1950-1959年）上映？",
+      "choices": {
+        "A": "About a Boy",
+        "B": "An American in Paris",
+        "C": "Alvin and the Chipmunks: Road Chip",
+        "D": "Airplane!"
+      },
+      "choices_cantonese": {
+        "A": "《單親插班生》",
+        "B": "《花都艷舞》",
+        "C": "《花鼠明星俱樂部：開心大唱遊》",
+        "D": "《空前絕後滿天飛》"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "decade": 1950,
+        "release_year": 1951,
+        "release_date": "1951-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "An American in Paris",
+        "name_cantonese": "花都艷舞",
+        "id": "Q747570"
+      },
+      "distractors": [
+        "Airplane!",
+        "About a Boy",
+        "Alvin and the Chipmunks: Road Chip"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "What year was the movie \"30 Minutes or Less\" released?",
+      "question_cantonese": "電影《迫良持槍》係邊年上映？",
+      "choices": {
+        "A": "2013",
+        "B": "2012",
+        "C": "2011",
+        "D": "2009"
+      },
+      "choices_cantonese": {
+        "A": "2013年",
+        "B": "2012年",
+        "C": "2011年",
+        "D": "2009年"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2011,
+        "release_date": "2011-08-12T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "30 Minutes or Less",
+        "name_cantonese": "迫良持槍",
+        "id": "Q224133"
+      },
+      "distractors": [
+        "2012",
+        "2013",
+        "2009"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released earliest?",
+      "question_cantonese": "以下邊套電影最早上映？",
+      "choices": {
+        "A": "The Act of Killing",
+        "B": "42",
+        "C": "3 Days to Kill",
+        "D": "Alien: Romulus"
+      },
+      "choices_cantonese": {
+        "A": "《殺人凶戲》",
+        "B": "《42號傳奇》",
+        "C": "《3日限殺令》",
+        "D": "《異形：羅穆盧斯》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 2012,
+        "release_date": "2012-08-31T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "The Act of Killing",
+            "release_year": 2012
+          },
+          {
+            "name": "42",
+            "release_year": 2013
+          },
+          {
+            "name": "3 Days to Kill",
+            "release_year": 2014
+          },
+          {
+            "name": "Alien: Romulus",
+            "release_year": 2024
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "The Act of Killing",
+        "name_cantonese": "殺人凶戲",
+        "id": "Q7712287"
+      },
+      "distractors": [
+        "42",
+        "3 Days to Kill",
+        "Alien: Romulus"
+      ],
+      "question_type": "movie_earliest"
+    },
+    {
+      "question": "Which of the following movies was released in the 2000s (2000-2009)?",
+      "question_cantonese": "以下邊套電影係喺2000年代（2000-2009年）上映？",
+      "choices": {
+        "A": "8 Women",
+        "B": "All the Money in the World",
+        "C": "Goodbye to Language",
+        "D": "300: Rise of an Empire"
+      },
+      "choices_cantonese": {
+        "A": "《8美千嬌》",
+        "B": "《萬惡金錢》",
+        "C": "《告別言語》",
+        "D": "《戰狼300：帝國崛起》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "decade": 2000,
+        "release_year": 2002,
+        "release_date": "2002-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "8 Women",
+        "name_cantonese": "8美千嬌",
+        "id": "Q274895"
+      },
+      "distractors": [
+        "All the Money in the World",
+        "Goodbye to Language",
+        "300: Rise of an Empire"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "What year was the movie \"28 Years Later\" released?",
+      "question_cantonese": "電影《28年後》係邊年上映？",
+      "choices": {
+        "A": "2024",
+        "B": "2022",
+        "C": "2023",
+        "D": "2025"
+      },
+      "choices_cantonese": {
+        "A": "2024年",
+        "B": "2022年",
+        "C": "2023年",
+        "D": "2025年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2025,
+        "release_date": "2025-06-20T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "28 Years Later",
+        "name_cantonese": "28年後",
+        "id": "Q125392328"
+      },
+      "distractors": [
+        "2024",
+        "2023",
+        "2022"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released latest?",
+      "question_cantonese": "以下邊套電影最遲上映？",
+      "choices": {
+        "A": "Airplane!",
+        "B": "Alvin and the Chipmunks",
+        "C": "The Adventures of Priscilla, Queen of the Desert",
+        "D": "Alita: Battle Angel"
+      },
+      "choices_cantonese": {
+        "A": "《空前絕後滿天飛》",
+        "B": "《花鼠明星俱樂部》",
+        "C": "《風塵三絕》",
+        "D": "《銃夢：戰鬥天使》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2019,
+        "release_date": "2019-02-06T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "Airplane!",
+            "release_year": 1980
+          },
+          {
+            "name": "The Adventures of Priscilla, Queen of the Desert",
+            "release_year": 1994
+          },
+          {
+            "name": "Alvin and the Chipmunks",
+            "release_year": 2007
+          },
+          {
+            "name": "Alita: Battle Angel",
+            "release_year": 2019
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "Alita: Battle Angel",
+        "name_cantonese": "銃夢：戰鬥天使",
+        "id": "Q24053265"
+      },
+      "distractors": [
+        "Airplane!",
+        "Alvin and the Chipmunks",
+        "The Adventures of Priscilla, Queen of the Desert"
+      ],
+      "question_type": "movie_latest"
+    },
+    {
+      "question": "What year was the movie \"All the Pretty Horses\" released?",
+      "question_cantonese": "電影《馴不了的愛》係邊年上映？",
+      "choices": {
+        "A": "2001",
+        "B": "2002",
+        "C": "2000",
+        "D": "1999"
+      },
+      "choices_cantonese": {
+        "A": "2001年",
+        "B": "2002年",
+        "C": "2000年",
+        "D": "1999年"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2000,
+        "release_date": "2000-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "All the Pretty Horses",
+        "name_cantonese": "馴不了的愛",
+        "id": "Q2299188"
+      },
+      "distractors": [
+        "1999",
+        "2001",
+        "2002"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"The 33\" released?",
+      "question_cantonese": "電影《絕地拯救33》係邊年上映？",
+      "choices": {
+        "A": "2012",
+        "B": "2015",
+        "C": "2014",
+        "D": "2013"
+      },
+      "choices_cantonese": {
+        "A": "2012年",
+        "B": "2015年",
+        "C": "2014年",
+        "D": "2013年"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2014,
+        "release_date": "2014-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "The 33",
+        "name_cantonese": "絕地拯救33",
+        "id": "Q15727192"
+      },
+      "distractors": [
+        "2013",
+        "2015",
+        "2012"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"About My Father\" released?",
+      "question_cantonese": "電影《教父冇限耆》係邊年上映？",
+      "choices": {
+        "A": "2024",
+        "B": "2022",
+        "C": "2025",
+        "D": "2023"
+      },
+      "choices_cantonese": {
+        "A": "2024年",
+        "B": "2022年",
+        "C": "2025年",
+        "D": "2023年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2023,
+        "release_date": "2023-05-25T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "About My Father",
+        "name_cantonese": "教父冇限耆",
+        "id": "Q108809561"
+      },
+      "distractors": [
+        "2024",
+        "2022",
+        "2025"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released in the 2020s (2020-2029)?",
+      "question_cantonese": "以下邊套電影係喺2020年代（2020-2029年）上映？",
+      "choices": {
+        "A": "An American in Paris",
+        "B": "After the Sunset",
+        "C": "10,000 B.C.",
+        "D": "The Accountant 2"
+      },
+      "choices_cantonese": {
+        "A": "《花都艷舞》",
+        "B": "《合盜偷天》",
+        "C": "《公元前10000年》",
+        "D": "《暗算2》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "decade": 2020,
+        "release_year": 2025,
+        "release_date": "2025-03-08T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "The Accountant 2",
+        "name_cantonese": "暗算2",
+        "id": "Q124848369"
+      },
+      "distractors": [
+        "An American in Paris",
+        "After the Sunset",
+        "10,000 B.C."
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "What year was the movie \"102 Dalmatians\" released?",
+      "question_cantonese": "電影《102斑點狗》係邊年上映？",
+      "choices": {
+        "A": "2002",
+        "B": "2001",
+        "C": "2000",
+        "D": "1999"
+      },
+      "choices_cantonese": {
+        "A": "2002年",
+        "B": "2001年",
+        "C": "2000年",
+        "D": "1999年"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2000,
+        "release_date": "2000-11-22T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "102 Dalmatians",
+        "name_cantonese": "102斑點狗",
+        "id": "Q165847"
+      },
+      "distractors": [
+        "1999",
+        "2001",
+        "2002"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released in the 1950s (1950-1959)?",
+      "question_cantonese": "以下邊套電影係喺1950年代（1950-1959年）上映？",
+      "choices": {
+        "A": "An American in Paris",
+        "B": "Adaptation.",
+        "C": "Alien: Resurrection",
+        "D": "American Assassin"
+      },
+      "choices_cantonese": {
+        "A": "《花都艷舞》",
+        "B": "《何必偏偏玩謝我》",
+        "C": "《異形四集之逆種》",
+        "D": "《美國特工》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "decade": 1950,
+        "release_year": 1951,
+        "release_date": "1951-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "An American in Paris",
+        "name_cantonese": "花都艷舞",
+        "id": "Q747570"
+      },
+      "distractors": [
+        "American Assassin",
+        "Adaptation.",
+        "Alien: Resurrection"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "Which of the following movies was released earliest?",
+      "question_cantonese": "以下邊套電影最早上映？",
+      "choices": {
+        "A": "After Earth",
+        "B": "8 Mile",
+        "C": "Alvin and the Chipmunks",
+        "D": "The 15:17 to Paris"
+      },
+      "choices_cantonese": {
+        "A": "《末日1000年》",
+        "B": "《8里公路》",
+        "C": "《花鼠明星俱樂部》",
+        "D": "《15:17 巴黎列車槍擊案》"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 2002,
+        "release_date": "2002-09-08T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "8 Mile",
+            "release_year": 2002
+          },
+          {
+            "name": "Alvin and the Chipmunks",
+            "release_year": 2007
+          },
+          {
+            "name": "After Earth",
+            "release_year": 2013
+          },
+          {
+            "name": "The 15:17 to Paris",
+            "release_year": 2018
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "8 Mile",
+        "name_cantonese": "8里公路",
+        "id": "Q196665"
+      },
+      "distractors": [
+        "After Earth",
+        "Alvin and the Chipmunks",
+        "The 15:17 to Paris"
+      ],
+      "question_type": "movie_earliest"
+    },
+    {
+      "question": "Which of the following movies was released in the 1970s (1970-1979)?",
+      "question_cantonese": "以下邊套電影係喺1970年代（1970-1979年）上映？",
+      "choices": {
+        "A": "2 Guns",
+        "B": "Afraid",
+        "C": "About Time",
+        "D": "All That Jazz"
+      },
+      "choices_cantonese": {
+        "A": "《孖Gun雙雄》",
+        "B": "《人凶智能》",
+        "C": "《回到最愛的一天》",
+        "D": "《爵士春秋》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "decade": 1970,
+        "release_year": 1979,
+        "release_date": "1979-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "All That Jazz",
+        "name_cantonese": "爵士春秋",
+        "id": "Q1353441"
+      },
+      "distractors": [
+        "Afraid",
+        "2 Guns",
+        "About Time"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "What year was the movie \"Alita: Battle Angel\" released?",
+      "question_cantonese": "電影《銃夢：戰鬥天使》係邊年上映？",
+      "choices": {
+        "A": "2020",
+        "B": "2019",
+        "C": "2017",
+        "D": "2018"
+      },
+      "choices_cantonese": {
+        "A": "2020年",
+        "B": "2019年",
+        "C": "2017年",
+        "D": "2018年"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 2019,
+        "release_date": "2019-02-06T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Alita: Battle Angel",
+        "name_cantonese": "銃夢：戰鬥天使",
+        "id": "Q24053265"
+      },
+      "distractors": [
+        "2018",
+        "2020",
+        "2017"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released earliest?",
+      "question_cantonese": "以下邊套電影最早上映？",
+      "choices": {
+        "A": "42",
+        "B": "The Addams Family",
+        "C": "50 First Dates",
+        "D": "sander and the Chipmunks: The Squeakquel"
+      },
+      "choices_cantonese": {
+        "A": "《42號傳奇》",
+        "B": "《愛登士家庭》",
+        "C": "《每天愛你第一次》",
+        "D": "《花鼠明星俱樂部2》"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 1991,
+        "release_date": "1991-11-22T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "The Addams Family",
+            "release_year": 1991
+          },
+          {
+            "name": "50 First Dates",
+            "release_year": 2004
+          },
+          {
+            "name": "sander and the Chipmunks: The Squeakquel",
+            "release_year": 2009
+          },
+          {
+            "name": "42",
+            "release_year": 2013
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "The Addams Family",
+        "name_cantonese": "愛登士家庭",
+        "id": "Q1210947"
+      },
+      "distractors": [
+        "42",
+        "50 First Dates",
+        "sander and the Chipmunks: The Squeakquel"
+      ],
+      "question_type": "movie_earliest"
+    },
+    {
+      "question": "Which of the following movies was released latest?",
+      "question_cantonese": "以下邊套電影最遲上映？",
+      "choices": {
+        "A": "American History X",
+        "B": "American Wedding",
+        "C": "The 33",
+        "D": "The Addams Family"
+      },
+      "choices_cantonese": {
+        "A": "《野獸良民》",
+        "B": "《處男有喜》",
+        "C": "《絕地拯救33》",
+        "D": "《愛登士家庭》"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2014,
+        "release_date": "2014-01-01T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "The Addams Family",
+            "release_year": 1991
+          },
+          {
+            "name": "American History X",
+            "release_year": 1998
+          },
+          {
+            "name": "American Wedding",
+            "release_year": 2003
+          },
+          {
+            "name": "The 33",
+            "release_year": 2014
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "The 33",
+        "name_cantonese": "絕地拯救33",
+        "id": "Q15727192"
+      },
+      "distractors": [
+        "American History X",
+        "American Wedding",
+        "The Addams Family"
+      ],
+      "question_type": "movie_latest"
+    },
+    {
+      "question": "Which of the following movies was released latest?",
+      "question_cantonese": "以下邊套電影最遲上映？",
+      "choices": {
+        "A": "Afraid",
+        "B": "30 Days of Night",
+        "C": "The 5th Wave",
+        "D": "All About Steve"
+      },
+      "choices_cantonese": {
+        "A": "《人凶智能》",
+        "B": "《屍城30夜》",
+        "C": "《第五天劫》",
+        "D": "《情迷靚肌佬》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 2024,
+        "release_date": "2024-08-29T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "30 Days of Night",
+            "release_year": 2007
+          },
+          {
+            "name": "All About Steve",
+            "release_year": 2009
+          },
+          {
+            "name": "The 5th Wave",
+            "release_year": 2016
+          },
+          {
+            "name": "Afraid",
+            "release_year": 2024
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "Afraid",
+        "name_cantonese": "人凶智能",
+        "id": "Q115859045"
+      },
+      "distractors": [
+        "30 Days of Night",
+        "The 5th Wave",
+        "All About Steve"
+      ],
+      "question_type": "movie_latest"
+    },
+    {
+      "question": "Which of the following movies was released latest?",
+      "question_cantonese": "以下邊套電影最遲上映？",
+      "choices": {
+        "A": "The Age of Adaline",
+        "B": "All the Pretty Horses",
+        "C": "The Act of Killing",
+        "D": "The Adventures of Priscilla, Queen of the Desert"
+      },
+      "choices_cantonese": {
+        "A": "《時光逆愛90年》",
+        "B": "《馴不了的愛》",
+        "C": "《殺人凶戲》",
+        "D": "《風塵三絕》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 2015,
+        "release_date": "2015-04-23T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "The Adventures of Priscilla, Queen of the Desert",
+            "release_year": 1994
+          },
+          {
+            "name": "All the Pretty Horses",
+            "release_year": 2000
+          },
+          {
+            "name": "The Act of Killing",
+            "release_year": 2012
+          },
+          {
+            "name": "The Age of Adaline",
+            "release_year": 2015
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "The Age of Adaline",
+        "name_cantonese": "時光逆愛90年",
+        "id": "Q16242543"
+      },
+      "distractors": [
+        "All the Pretty Horses",
+        "The Act of Killing",
+        "The Adventures of Priscilla, Queen of the Desert"
+      ],
+      "question_type": "movie_latest"
+    },
+    {
+      "question": "Which of the following movies was released latest?",
+      "question_cantonese": "以下邊套電影最遲上映？",
+      "choices": {
+        "A": "After Earth",
+        "B": "Alien: Resurrection",
+        "C": "American Pie 2",
+        "D": "Alien: Romulus"
+      },
+      "choices_cantonese": {
+        "A": "《末日1000年》",
+        "B": "《異形四集之逆種》",
+        "C": "《美國處男2》",
+        "D": "《異形：羅穆盧斯》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2024,
+        "release_date": "2024-08-15T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "Alien: Resurrection",
+            "release_year": 1997
+          },
+          {
+            "name": "American Pie 2",
+            "release_year": 2001
+          },
+          {
+            "name": "After Earth",
+            "release_year": 2013
+          },
+          {
+            "name": "Alien: Romulus",
+            "release_year": 2024
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "Alien: Romulus",
+        "name_cantonese": "異形：羅穆盧斯",
+        "id": "Q115932544"
+      },
+      "distractors": [
+        "After Earth",
+        "Alien: Resurrection",
+        "American Pie 2"
+      ],
+      "question_type": "movie_latest"
+    },
+    {
+      "question": "What year was the movie \"American Ultra\" released?",
+      "question_cantonese": "電影《特務傻的孖》係邊年上映？",
+      "choices": {
+        "A": "2014",
+        "B": "2013",
+        "C": "2015",
+        "D": "2016"
+      },
+      "choices_cantonese": {
+        "A": "2014年",
+        "B": "2013年",
+        "C": "2015年",
+        "D": "2016年"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2015,
+        "release_date": "2015-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "American Ultra",
+        "name_cantonese": "特務傻的孖",
+        "id": "Q16354845"
+      },
+      "distractors": [
+        "2014",
+        "2016",
+        "2013"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released in the 2010s (2010-2019)?",
+      "question_cantonese": "以下邊套電影係喺2010年代（2010-2019年）上映？",
+      "choices": {
+        "A": "102 Dalmatians",
+        "B": "8 Mile",
+        "C": "All That Jazz",
+        "D": "Ad Astra"
+      },
+      "choices_cantonese": {
+        "A": "《102斑點狗》",
+        "B": "《8里公路》",
+        "C": "《爵士春秋》",
+        "D": "《星際任務》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "decade": 2010,
+        "release_year": 2019,
+        "release_date": "2019-08-29T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Ad Astra",
+        "name_cantonese": "星際任務",
+        "id": "Q38774788"
+      },
+      "distractors": [
+        "102 Dalmatians",
+        "8 Mile",
+        "All That Jazz"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "Which of the following movies was released in the 1980s (1980-1989)?",
+      "question_cantonese": "以下邊套電影係喺1980年代（1980-1989年）上映？",
+      "choices": {
+        "A": "American Splendor",
+        "B": "Amadeus",
+        "C": "The Amazing Spider-Man",
+        "D": "Accepted"
+      },
+      "choices_cantonese": {
+        "A": "《漫畫人生路》",
+        "B": "《莫扎特傳》",
+        "C": "《蜘蛛俠：驚世現新》",
+        "D": "《冒牌天子門生》"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "decade": 1980,
+        "release_year": 1984,
+        "release_date": "1984-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Amadeus",
+        "name_cantonese": "莫扎特傳",
+        "id": "Q190956"
+      },
+      "distractors": [
+        "The Amazing Spider-Man",
+        "American Splendor",
+        "Accepted"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "What year was the movie \"Act of Valor\" released?",
+      "question_cantonese": "電影《海豹突擊隊》係邊年上映？",
+      "choices": {
+        "A": "2014",
+        "B": "2013",
+        "C": "2011",
+        "D": "2012"
+      },
+      "choices_cantonese": {
+        "A": "2014年",
+        "B": "2013年",
+        "C": "2011年",
+        "D": "2012年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2012,
+        "release_date": "2012-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Act of Valor",
+        "name_cantonese": "海豹突擊隊",
+        "id": "Q132245"
+      },
+      "distractors": [
+        "2013",
+        "2011",
+        "2014"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"The 5th Wave\" released?",
+      "question_cantonese": "電影《第五天劫》係邊年上映？",
+      "choices": {
+        "A": "2017",
+        "B": "2015",
+        "C": "2014",
+        "D": "2016"
+      },
+      "choices_cantonese": {
+        "A": "2017年",
+        "B": "2015年",
+        "C": "2014年",
+        "D": "2016年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2016,
+        "release_date": "2016-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "The 5th Wave",
+        "name_cantonese": "第五天劫",
+        "id": "Q17436508"
+      },
+      "distractors": [
+        "2017",
+        "2015",
+        "2014"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released in the 2000s (2000-2009)?",
+      "question_cantonese": "以下邊套電影係喺2000年代（2000-2009年）上映？",
+      "choices": {
+        "A": "About Time",
+        "B": "BPM (Beats per Minute)",
+        "C": "American Pie 2",
+        "D": "American Reunion"
+      },
+      "choices_cantonese": {
+        "A": "《回到最愛的一天》",
+        "B": "《心動120》",
+        "C": "《美國處男2》",
+        "D": "《美國處男之孔雀開屏》"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "decade": 2000,
+        "release_year": 2001,
+        "release_date": "2001-08-10T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "American Pie 2",
+        "name_cantonese": "美國處男2",
+        "id": "Q329127"
+      },
+      "distractors": [
+        "American Reunion",
+        "BPM (Beats per Minute)",
+        "About Time"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "What year was the movie \"Goodbye to Language\" released?",
+      "question_cantonese": "電影《告別言語》係邊年上映？",
+      "choices": {
+        "A": "2012",
+        "B": "2014",
+        "C": "2015",
+        "D": "2013"
+      },
+      "choices_cantonese": {
+        "A": "2012年",
+        "B": "2014年",
+        "C": "2015年",
+        "D": "2013年"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 2014,
+        "release_date": "2014-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Goodbye to Language",
+        "name_cantonese": "告別言語",
+        "id": "Q4682732"
+      },
+      "distractors": [
+        "2013",
+        "2015",
+        "2012"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released in the 2000s (2000-2009)?",
+      "question_cantonese": "以下邊套電影係喺2000年代（2000-2009年）上映？",
+      "choices": {
+        "A": "The Act of Killing",
+        "B": "Goodbye to Language",
+        "C": "47 Ronin",
+        "D": "Adaptation."
+      },
+      "choices_cantonese": {
+        "A": "《殺人凶戲》",
+        "B": "《告別言語》",
+        "C": "《浪魂47》",
+        "D": "《何必偏偏玩謝我》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "decade": 2000,
+        "release_year": 2002,
+        "release_date": "2002-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Adaptation.",
+        "name_cantonese": "何必偏偏玩謝我",
+        "id": "Q352431"
+      },
+      "distractors": [
+        "Goodbye to Language",
+        "47 Ronin",
+        "The Act of Killing"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "Which of the following movies was released latest?",
+      "question_cantonese": "以下邊套電影最遲上映？",
+      "choices": {
+        "A": "8 Women",
+        "B": "American Gangster",
+        "C": "Accepted",
+        "D": "50/50"
+      },
+      "choices_cantonese": {
+        "A": "《8美千嬌》",
+        "B": "《犯罪帝國》",
+        "C": "《冒牌天子門生》",
+        "D": "《風雨同路兩支公》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2011,
+        "release_date": "2011-09-12T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "8 Women",
+            "release_year": 2002
+          },
+          {
+            "name": "Accepted",
+            "release_year": 2006
+          },
+          {
+            "name": "American Gangster",
+            "release_year": 2007
+          },
+          {
+            "name": "50/50",
+            "release_year": 2011
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "50/50",
+        "name_cantonese": "風雨同路兩支公",
+        "id": "Q859448"
+      },
+      "distractors": [
+        "8 Women",
+        "American Gangster",
+        "Accepted"
+      ],
+      "question_type": "movie_latest"
+    },
+    {
+      "question": "What year was the movie \"Alvin and the Chipmunks\" released?",
+      "question_cantonese": "電影《花鼠明星俱樂部》係邊年上映？",
+      "choices": {
+        "A": "2009",
+        "B": "2006",
+        "C": "2007",
+        "D": "2008"
+      },
+      "choices_cantonese": {
+        "A": "2009年",
+        "B": "2006年",
+        "C": "2007年",
+        "D": "2008年"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2007,
+        "release_date": "2007-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Alvin and the Chipmunks",
+        "name_cantonese": "花鼠明星俱樂部",
+        "id": "Q387348"
+      },
+      "distractors": [
+        "2008",
+        "2006",
+        "2009"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released latest?",
+      "question_cantonese": "以下邊套電影最遲上映？",
+      "choices": {
+        "A": "Amarcord",
+        "B": "30 Minutes or Less",
+        "C": "21 Jump Street",
+        "D": "American Wedding"
+      },
+      "choices_cantonese": {
+        "A": "《想當年》",
+        "B": "《迫良持槍》",
+        "C": "《逃學黐孖咇》",
+        "D": "《處男有喜》"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2012,
+        "release_date": "2012-03-12T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "Amarcord",
+            "release_year": 1973
+          },
+          {
+            "name": "American Wedding",
+            "release_year": 2003
+          },
+          {
+            "name": "30 Minutes or Less",
+            "release_year": 2011
+          },
+          {
+            "name": "21 Jump Street",
+            "release_year": 2012
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "21 Jump Street",
+        "name_cantonese": "逃學黐孖咇",
+        "id": "Q214014"
+      },
+      "distractors": [
+        "Amarcord",
+        "30 Minutes or Less",
+        "American Wedding"
+      ],
+      "question_type": "movie_latest"
+    },
+    {
+      "question": "What year was the movie \"American Splendor\" released?",
+      "question_cantonese": "電影《漫畫人生路》係邊年上映？",
+      "choices": {
+        "A": "2005",
+        "B": "2004",
+        "C": "2002",
+        "D": "2003"
+      },
+      "choices_cantonese": {
+        "A": "2005年",
+        "B": "2004年",
+        "C": "2002年",
+        "D": "2003年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2003,
+        "release_date": "2003-01-20T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "American Splendor",
+        "name_cantonese": "漫畫人生路",
+        "id": "Q466961"
+      },
+      "distractors": [
+        "2002",
+        "2004",
+        "2005"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"Alien: Resurrection\" released?",
+      "question_cantonese": "電影《異形四集之逆種》係邊年上映？",
+      "choices": {
+        "A": "2000",
+        "B": "1998",
+        "C": "1997",
+        "D": "1999"
+      },
+      "choices_cantonese": {
+        "A": "2000年",
+        "B": "1998年",
+        "C": "1997年",
+        "D": "1999年"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 1997,
+        "release_date": "1997-11-26T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Alien: Resurrection",
+        "name_cantonese": "異形四集之逆種",
+        "id": "Q458314"
+      },
+      "distractors": [
+        "1998",
+        "1999",
+        "2000"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released in the 2000s (2000-2009)?",
+      "question_cantonese": "以下邊套電影係喺2000年代（2000-2009年）上映？",
+      "choices": {
+        "A": "30 Minutes or Less",
+        "B": "Alien: Romulus",
+        "C": "All the Pretty Horses",
+        "D": "Story of Women"
+      },
+      "choices_cantonese": {
+        "A": "《迫良持槍》",
+        "B": "《異形：羅穆盧斯》",
+        "C": "《馴不了的愛》",
+        "D": "《女人韻事》"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "decade": 2000,
+        "release_year": 2000,
+        "release_date": "2000-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "All the Pretty Horses",
+        "name_cantonese": "馴不了的愛",
+        "id": "Q2299188"
+      },
+      "distractors": [
+        "Alien: Romulus",
+        "30 Minutes or Less",
+        "Story of Women"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "Which of the following movies was released earliest?",
+      "question_cantonese": "以下邊套電影最早上映？",
+      "choices": {
+        "A": "Along Came Polly",
+        "B": "102 Dalmatians",
+        "C": "The Adventures of Priscilla, Queen of the Desert",
+        "D": "Admission"
+      },
+      "choices_cantonese": {
+        "A": "《情場算死草》",
+        "B": "《102斑點狗》",
+        "C": "《風塵三絕》",
+        "D": "《收生愛過界》"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 1994,
+        "release_date": "1994-01-01T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "The Adventures of Priscilla, Queen of the Desert",
+            "release_year": 1994
+          },
+          {
+            "name": "102 Dalmatians",
+            "release_year": 2000
+          },
+          {
+            "name": "Along Came Polly",
+            "release_year": 2004
+          },
+          {
+            "name": "Admission",
+            "release_year": 2013
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "The Adventures of Priscilla, Queen of the Desert",
+        "name_cantonese": "風塵三絕",
+        "id": "Q255328"
+      },
+      "distractors": [
+        "Along Came Polly",
+        "102 Dalmatians",
+        "Admission"
+      ],
+      "question_type": "movie_earliest"
+    },
+    {
+      "question": "Which of the following movies was released in the 1950s (1950-1959)?",
+      "question_cantonese": "以下邊套電影係喺1950年代（1950-1959年）上映？",
+      "choices": {
+        "A": "3 Days to Kill",
+        "B": "American Assassin",
+        "C": "An American in Paris",
+        "D": "(500) Days of Summer"
+      },
+      "choices_cantonese": {
+        "A": "《3日限殺令》",
+        "B": "《美國特工》",
+        "C": "《花都艷舞》",
+        "D": "《心跳500天》"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "decade": 1950,
+        "release_year": 1951,
+        "release_date": "1951-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "An American in Paris",
+        "name_cantonese": "花都艷舞",
+        "id": "Q747570"
+      },
+      "distractors": [
+        "3 Days to Kill",
+        "American Assassin",
+        "(500) Days of Summer"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "What year was the movie \"3:10 to Yuma\" released?",
+      "question_cantonese": "電影《決戰猶馬城》係邊年上映？",
+      "choices": {
+        "A": "2008",
+        "B": "2009",
+        "C": "2006",
+        "D": "2007"
+      },
+      "choices_cantonese": {
+        "A": "2008年",
+        "B": "2009年",
+        "C": "2006年",
+        "D": "2007年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2007,
+        "release_date": "2007-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "3:10 to Yuma",
+        "name_cantonese": "決戰猶馬城",
+        "id": "Q746029"
+      },
+      "distractors": [
+        "2008",
+        "2006",
+        "2009"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released latest?",
+      "question_cantonese": "以下邊套電影最遲上映？",
+      "choices": {
+        "A": "30 Minutes or Less",
+        "B": "American Wedding",
+        "C": "Alien: Romulus",
+        "D": "About My Father"
+      },
+      "choices_cantonese": {
+        "A": "《迫良持槍》",
+        "B": "《處男有喜》",
+        "C": "《異形：羅穆盧斯》",
+        "D": "《教父冇限耆》"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2024,
+        "release_date": "2024-08-15T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "American Wedding",
+            "release_year": 2003
+          },
+          {
+            "name": "30 Minutes or Less",
+            "release_year": 2011
+          },
+          {
+            "name": "About My Father",
+            "release_year": 2023
+          },
+          {
+            "name": "Alien: Romulus",
+            "release_year": 2024
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "Alien: Romulus",
+        "name_cantonese": "異形：羅穆盧斯",
+        "id": "Q115932544"
+      },
+      "distractors": [
+        "30 Minutes or Less",
+        "American Wedding",
+        "About My Father"
+      ],
+      "question_type": "movie_latest"
+    },
+    {
+      "question": "Which of the following movies was released in the 2000s (2000-2009)?",
+      "question_cantonese": "以下邊套電影係喺2000年代（2000-2009年）上映？",
+      "choices": {
+        "A": "The Age of Innocence",
+        "B": "sander and the Chipmunks: The Squeakquel",
+        "C": "22 Jump Street",
+        "D": "The Addams Family"
+      },
+      "choices_cantonese": {
+        "A": "《心外幽情》",
+        "B": "《花鼠明星俱樂部2》",
+        "C": "《囧探出更》",
+        "D": "《愛登士家庭》"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "decade": 2000,
+        "release_year": 2009,
+        "release_date": "2009-12-24T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "sander and the Chipmunks: The Squeakquel",
+        "name_cantonese": "花鼠明星俱樂部2",
+        "id": "Q378311"
+      },
+      "distractors": [
+        "The Age of Innocence",
+        "22 Jump Street",
+        "The Addams Family"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "What year was the movie \"All That Jazz\" released?",
+      "question_cantonese": "電影《爵士春秋》係邊年上映？",
+      "choices": {
+        "A": "1984",
+        "B": "1980",
+        "C": "1979",
+        "D": "1973"
+      },
+      "choices_cantonese": {
+        "A": "1984年",
+        "B": "1980年",
+        "C": "1979年",
+        "D": "1973年"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 1979,
+        "release_date": "1979-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "All That Jazz",
+        "name_cantonese": "爵士春秋",
+        "id": "Q1353441"
+      },
+      "distractors": [
+        "1980",
+        "1984",
+        "1973"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released in the 1990s (1990-1999)?",
+      "question_cantonese": "以下邊套電影係喺1990年代（1990-1999年）上映？",
+      "choices": {
+        "A": "The Angry Birds Movie",
+        "B": "Les Amants du Pont-Neuf",
+        "C": "Act of Valor",
+        "D": "Aloha"
+      },
+      "choices_cantonese": {
+        "A": "《憤怒鳥大電影》",
+        "B": "《新橋之戀》",
+        "C": "《海豹突擊隊》",
+        "D": "《戀上熱愛島》"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "decade": 1990,
+        "release_year": 1991,
+        "release_date": "1991-10-16T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Les Amants du Pont-Neuf",
+        "name_cantonese": "新橋之戀",
+        "id": "Q1214555"
+      },
+      "distractors": [
+        "Aloha",
+        "Act of Valor",
+        "The Angry Birds Movie"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "What year was the movie \"Airplane!\" released?",
+      "question_cantonese": "電影《空前絕後滿天飛》係邊年上映？",
+      "choices": {
+        "A": "1986",
+        "B": "1980",
+        "C": "1984",
+        "D": "1979"
+      },
+      "choices_cantonese": {
+        "A": "1986年",
+        "B": "1980年",
+        "C": "1984年",
+        "D": "1979年"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 1980,
+        "release_date": "1980-06-27T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Airplane!",
+        "name_cantonese": "空前絕後滿天飛",
+        "id": "Q497256"
+      },
+      "distractors": [
+        "1979",
+        "1984",
+        "1986"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"21 and Over\" released?",
+      "question_cantonese": "電影《21成人鳥》係邊年上映？",
+      "choices": {
+        "A": "2014",
+        "B": "2013",
+        "C": "2012",
+        "D": "2011"
+      },
+      "choices_cantonese": {
+        "A": "2014年",
+        "B": "2013年",
+        "C": "2012年",
+        "D": "2011年"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 2013,
+        "release_date": "2013-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "21 and Over",
+        "name_cantonese": "21成人鳥",
+        "id": "Q650808"
+      },
+      "distractors": [
+        "2014",
+        "2012",
+        "2011"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released latest?",
+      "question_cantonese": "以下邊套電影最遲上映？",
+      "choices": {
+        "A": "Alita: Battle Angel",
+        "B": "Amarcord",
+        "C": "Les Amants du Pont-Neuf",
+        "D": "47 Ronin"
+      },
+      "choices_cantonese": {
+        "A": "《銃夢：戰鬥天使》",
+        "B": "《想當年》",
+        "C": "《新橋之戀》",
+        "D": "《浪魂47》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 2019,
+        "release_date": "2019-02-06T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "Amarcord",
+            "release_year": 1973
+          },
+          {
+            "name": "Les Amants du Pont-Neuf",
+            "release_year": 1991
+          },
+          {
+            "name": "47 Ronin",
+            "release_year": 2013
+          },
+          {
+            "name": "Alita: Battle Angel",
+            "release_year": 2019
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "Alita: Battle Angel",
+        "name_cantonese": "銃夢：戰鬥天使",
+        "id": "Q24053265"
+      },
+      "distractors": [
+        "Amarcord",
+        "Les Amants du Pont-Neuf",
+        "47 Ronin"
+      ],
+      "question_type": "movie_latest"
+    },
+    {
+      "question": "Which of the following movies was released in the 1950s (1950-1959)?",
+      "question_cantonese": "以下邊套電影係喺1950年代（1950-1959年）上映？",
+      "choices": {
+        "A": "Alien: Romulus",
+        "B": "An American in Paris",
+        "C": "Afraid",
+        "D": "About Time"
+      },
+      "choices_cantonese": {
+        "A": "《異形：羅穆盧斯》",
+        "B": "《花都艷舞》",
+        "C": "《人凶智能》",
+        "D": "《回到最愛的一天》"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "decade": 1950,
+        "release_year": 1951,
+        "release_date": "1951-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "An American in Paris",
+        "name_cantonese": "花都艷舞",
+        "id": "Q747570"
+      },
+      "distractors": [
+        "About Time",
+        "Alien: Romulus",
+        "Afraid"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "What year was the movie \"Accepted\" released?",
+      "question_cantonese": "電影《冒牌天子門生》係邊年上映？",
+      "choices": {
+        "A": "2004",
+        "B": "2005",
+        "C": "2006",
+        "D": "2007"
+      },
+      "choices_cantonese": {
+        "A": "2004年",
+        "B": "2005年",
+        "C": "2006年",
+        "D": "2007年"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2006,
+        "release_date": "2006-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Accepted",
+        "name_cantonese": "冒牌天子門生",
+        "id": "Q1519049"
+      },
+      "distractors": [
+        "2007",
+        "2005",
+        "2004"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released in the 2020s (2020-2029)?",
+      "question_cantonese": "以下邊套電影係喺2020年代（2020-2029年）上映？",
+      "choices": {
+        "A": "Alcarràs",
+        "B": "The Age of Adaline",
+        "C": "30 Minutes or Less",
+        "D": "The Age of Innocence"
+      },
+      "choices_cantonese": {
+        "A": "《陽光燦爛的果園》",
+        "B": "《時光逆愛90年》",
+        "C": "《迫良持槍》",
+        "D": "《心外幽情》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "decade": 2020,
+        "release_year": 2022,
+        "release_date": "2022-02-15T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Alcarràs",
+        "name_cantonese": "陽光燦爛的果園",
+        "id": "Q110622667"
+      },
+      "distractors": [
+        "The Age of Innocence",
+        "30 Minutes or Less",
+        "The Age of Adaline"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "Which of the following movies was released earliest?",
+      "question_cantonese": "以下邊套電影最早上映？",
+      "choices": {
+        "A": "American Pie",
+        "B": "American Hustle",
+        "C": "American Assassin",
+        "D": "The Adventures of Ford Fairlane"
+      },
+      "choices_cantonese": {
+        "A": "《美國處男》",
+        "B": "《騙海豪情》",
+        "C": "《美國特工》",
+        "D": "《招積偵探顯神通》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 1990,
+        "release_date": "1990-01-01T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "The Adventures of Ford Fairlane",
+            "release_year": 1990
+          },
+          {
+            "name": "American Pie",
+            "release_year": 1999
+          },
+          {
+            "name": "American Hustle",
+            "release_year": 2013
+          },
+          {
+            "name": "American Assassin",
+            "release_year": 2017
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "The Adventures of Ford Fairlane",
+        "name_cantonese": "招積偵探顯神通",
+        "id": "Q977196"
+      },
+      "distractors": [
+        "American Pie",
+        "American Hustle",
+        "American Assassin"
+      ],
+      "question_type": "movie_earliest"
+    },
+    {
+      "question": "What year was the movie \"Abduction\" released?",
+      "question_cantonese": "電影《喋血新世紀》係邊年上映？",
+      "choices": {
+        "A": "2011",
+        "B": "2013",
+        "C": "2009",
+        "D": "2012"
+      },
+      "choices_cantonese": {
+        "A": "2011年",
+        "B": "2013年",
+        "C": "2009年",
+        "D": "2012年"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 2011,
+        "release_date": "2011-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Abduction",
+        "name_cantonese": "喋血新世紀",
+        "id": "Q143716"
+      },
+      "distractors": [
+        "2012",
+        "2013",
+        "2009"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"50/50\" released?",
+      "question_cantonese": "電影《風雨同路兩支公》係邊年上映？",
+      "choices": {
+        "A": "2012",
+        "B": "2011",
+        "C": "2009",
+        "D": "2013"
+      },
+      "choices_cantonese": {
+        "A": "2012年",
+        "B": "2011年",
+        "C": "2009年",
+        "D": "2013年"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 2011,
+        "release_date": "2011-09-12T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "50/50",
+        "name_cantonese": "風雨同路兩支公",
+        "id": "Q859448"
+      },
+      "distractors": [
+        "2012",
+        "2013",
+        "2009"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"All We Imagine as Light\" released?",
+      "question_cantonese": "電影《乘著光的幻想》係邊年上映？",
+      "choices": {
+        "A": "2022",
+        "B": "2024",
+        "C": "2023",
+        "D": "2025"
+      },
+      "choices_cantonese": {
+        "A": "2022年",
+        "B": "2024年",
+        "C": "2023年",
+        "D": "2025年"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 2024,
+        "release_date": "2024-05-23T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "All We Imagine as Light",
+        "name_cantonese": "乘著光的幻想",
+        "id": "Q125422662"
+      },
+      "distractors": [
+        "2025",
+        "2023",
+        "2022"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"Abominable\" released?",
+      "question_cantonese": "電影《長毛雪寶》係邊年上映？",
+      "choices": {
+        "A": "2017",
+        "B": "2018",
+        "C": "2020",
+        "D": "2019"
+      },
+      "choices_cantonese": {
+        "A": "2017年",
+        "B": "2018年",
+        "C": "2020年",
+        "D": "2019年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2019,
+        "release_date": "2019-09-26T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Abominable",
+        "name_cantonese": "長毛雪寶",
+        "id": "Q55087665"
+      },
+      "distractors": [
+        "2018",
+        "2020",
+        "2017"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released earliest?",
+      "question_cantonese": "以下邊套電影最早上映？",
+      "choices": {
+        "A": "Alita: Battle Angel",
+        "B": "42",
+        "C": "All We Imagine as Light",
+        "D": "About My Father"
+      },
+      "choices_cantonese": {
+        "A": "《銃夢：戰鬥天使》",
+        "B": "《42號傳奇》",
+        "C": "《乘著光的幻想》",
+        "D": "《教父冇限耆》"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 2013,
+        "release_date": "2013-04-12T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "42",
+            "release_year": 2013
+          },
+          {
+            "name": "Alita: Battle Angel",
+            "release_year": 2019
+          },
+          {
+            "name": "About My Father",
+            "release_year": 2023
+          },
+          {
+            "name": "All We Imagine as Light",
+            "release_year": 2024
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "42",
+        "name_cantonese": "42號傳奇",
+        "id": "Q3599091"
+      },
+      "distractors": [
+        "Alita: Battle Angel",
+        "All We Imagine as Light",
+        "About My Father"
+      ],
+      "question_type": "movie_earliest"
+    },
+    {
+      "question": "Which of the following movies was released in the 1970s (1970-1979)?",
+      "question_cantonese": "以下邊套電影係喺1970年代（1970-1979年）上映？",
+      "choices": {
+        "A": "Amarcord",
+        "B": "American Assassin",
+        "C": "Admission",
+        "D": "The 33"
+      },
+      "choices_cantonese": {
+        "A": "《想當年》",
+        "B": "《美國特工》",
+        "C": "《收生愛過界》",
+        "D": "《絕地拯救33》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "decade": 1970,
+        "release_year": 1973,
+        "release_date": "1973-12-18T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Amarcord",
+        "name_cantonese": "想當年",
+        "id": "Q18428"
+      },
+      "distractors": [
+        "Admission",
+        "American Assassin",
+        "The 33"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "Which of the following movies was released in the 1980s (1980-1989)?",
+      "question_cantonese": "以下邊套電影係喺1980年代（1980-1989年）上映？",
+      "choices": {
+        "A": "47 Ronin",
+        "B": "Airplane!",
+        "C": "The Amazing Spider-Man",
+        "D": "2 Guns"
+      },
+      "choices_cantonese": {
+        "A": "《浪魂47》",
+        "B": "《空前絕後滿天飛》",
+        "C": "《蜘蛛俠：驚世現新》",
+        "D": "《孖Gun雙雄》"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "decade": 1980,
+        "release_year": 1980,
+        "release_date": "1980-06-27T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Airplane!",
+        "name_cantonese": "空前絕後滿天飛",
+        "id": "Q497256"
+      },
+      "distractors": [
+        "2 Guns",
+        "The Amazing Spider-Man",
+        "47 Ronin"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "What year was the movie \"American Pie\" released?",
+      "question_cantonese": "電影《美國處男》係邊年上映？",
+      "choices": {
+        "A": "2000",
+        "B": "1997",
+        "C": "1999",
+        "D": "1998"
+      },
+      "choices_cantonese": {
+        "A": "2000年",
+        "B": "1997年",
+        "C": "1999年",
+        "D": "1998年"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 1999,
+        "release_date": "1999-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "American Pie",
+        "name_cantonese": "美國處男",
+        "id": "Q220713"
+      },
+      "distractors": [
+        "2000",
+        "1998",
+        "1997"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"Story of Women\" released?",
+      "question_cantonese": "電影《女人韻事》係邊年上映？",
+      "choices": {
+        "A": "1988",
+        "B": "1986",
+        "C": "1990",
+        "D": "1991"
+      },
+      "choices_cantonese": {
+        "A": "1988年",
+        "B": "1986年",
+        "C": "1990年",
+        "D": "1991年"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 1988,
+        "release_date": "1988-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Story of Women",
+        "name_cantonese": "女人韻事",
+        "id": "Q1306392"
+      },
+      "distractors": [
+        "1990",
+        "1986",
+        "1991"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released in the 2020s (2020-2029)?",
+      "question_cantonese": "以下邊套電影係喺2020年代（2020-2029年）上映？",
+      "choices": {
+        "A": "Alien: Romulus",
+        "B": "The Adventures of Sharkboy and Lavagirl in 3-D",
+        "C": "Alita: Battle Angel",
+        "D": "American Reunion"
+      },
+      "choices_cantonese": {
+        "A": "《異形：羅穆盧斯》",
+        "B": "《鯊膽小英雄》",
+        "C": "《銃夢：戰鬥天使》",
+        "D": "《美國處男之孔雀開屏》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "decade": 2020,
+        "release_year": 2024,
+        "release_date": "2024-08-15T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Alien: Romulus",
+        "name_cantonese": "異形：羅穆盧斯",
+        "id": "Q115932544"
+      },
+      "distractors": [
+        "American Reunion",
+        "The Adventures of Sharkboy and Lavagirl in 3-D",
+        "Alita: Battle Angel"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "Which of the following movies was released in the 2010s (2010-2019)?",
+      "question_cantonese": "以下邊套電影係喺2010年代（2010-2019年）上映？",
+      "choices": {
+        "A": "About a Boy",
+        "B": "All That Jazz",
+        "C": "Les Amants du Pont-Neuf",
+        "D": "About Time"
+      },
+      "choices_cantonese": {
+        "A": "《單親插班生》",
+        "B": "《爵士春秋》",
+        "C": "《新橋之戀》",
+        "D": "《回到最愛的一天》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "decade": 2010,
+        "release_year": 2013,
+        "release_date": "2013-09-04T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "About Time",
+        "name_cantonese": "回到最愛的一天",
+        "id": "Q4668586"
+      },
+      "distractors": [
+        "All That Jazz",
+        "Les Amants du Pont-Neuf",
+        "About a Boy"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "What year was the movie \"The 15:17 to Paris\" released?",
+      "question_cantonese": "電影《15:17 巴黎列車槍擊案》係邊年上映？",
+      "choices": {
+        "A": "2016",
+        "B": "2017",
+        "C": "2019",
+        "D": "2018"
+      },
+      "choices_cantonese": {
+        "A": "2016年",
+        "B": "2017年",
+        "C": "2019年",
+        "D": "2018年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2018,
+        "release_date": "2018-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "The 15:17 to Paris",
+        "name_cantonese": "15:17 巴黎列車槍擊案",
+        "id": "Q31204331"
+      },
+      "distractors": [
+        "2019",
+        "2017",
+        "2016"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"Admission\" released?",
+      "question_cantonese": "電影《收生愛過界》係邊年上映？",
+      "choices": {
+        "A": "2012",
+        "B": "2011",
+        "C": "2014",
+        "D": "2013"
+      },
+      "choices_cantonese": {
+        "A": "2012年",
+        "B": "2011年",
+        "C": "2014年",
+        "D": "2013年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2013,
+        "release_date": "2013-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Admission",
+        "name_cantonese": "收生愛過界",
+        "id": "Q1588422"
+      },
+      "distractors": [
+        "2014",
+        "2012",
+        "2011"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"The Angry Birds Movie\" released?",
+      "question_cantonese": "電影《憤怒鳥大電影》係邊年上映？",
+      "choices": {
+        "A": "2016",
+        "B": "2017",
+        "C": "2014",
+        "D": "2015"
+      },
+      "choices_cantonese": {
+        "A": "2016年",
+        "B": "2017年",
+        "C": "2014年",
+        "D": "2015年"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 2016,
+        "release_date": "2016-05-12T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "The Angry Birds Movie",
+        "name_cantonese": "憤怒鳥大電影",
+        "id": "Q18703062"
+      },
+      "distractors": [
+        "2017",
+        "2015",
+        "2014"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"BPM (Beats per Minute)\" released?",
+      "question_cantonese": "電影《心動120》係邊年上映？",
+      "choices": {
+        "A": "2018",
+        "B": "2019",
+        "C": "2017",
+        "D": "2016"
+      },
+      "choices_cantonese": {
+        "A": "2018年",
+        "B": "2019年",
+        "C": "2017年",
+        "D": "2016年"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2017,
+        "release_date": "2017-05-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "BPM (Beats per Minute)",
+        "name_cantonese": "心動120",
+        "id": "Q29378617"
+      },
+      "distractors": [
+        "2016",
+        "2018",
+        "2019"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"Afraid\" released?",
+      "question_cantonese": "電影《人凶智能》係邊年上映？",
+      "choices": {
+        "A": "2022",
+        "B": "2023",
+        "C": "2025",
+        "D": "2024"
+      },
+      "choices_cantonese": {
+        "A": "2022年",
+        "B": "2023年",
+        "C": "2025年",
+        "D": "2024年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2024,
+        "release_date": "2024-08-29T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Afraid",
+        "name_cantonese": "人凶智能",
+        "id": "Q115859045"
+      },
+      "distractors": [
+        "2025",
+        "2023",
+        "2022"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"50 First Dates\" released?",
+      "question_cantonese": "電影《每天愛你第一次》係邊年上映？",
+      "choices": {
+        "A": "2003",
+        "B": "2002",
+        "C": "2004",
+        "D": "2005"
+      },
+      "choices_cantonese": {
+        "A": "2003年",
+        "B": "2002年",
+        "C": "2004年",
+        "D": "2005年"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2004,
+        "release_date": "2004-02-13T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "50 First Dates",
+        "name_cantonese": "每天愛你第一次",
+        "id": "Q241482"
+      },
+      "distractors": [
+        "2003",
+        "2005",
+        "2002"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"42\" released?",
+      "question_cantonese": "電影《42號傳奇》係邊年上映？",
+      "choices": {
+        "A": "2014",
+        "B": "2011",
+        "C": "2012",
+        "D": "2013"
+      },
+      "choices_cantonese": {
+        "A": "2014年",
+        "B": "2011年",
+        "C": "2012年",
+        "D": "2013年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2013,
+        "release_date": "2013-04-12T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "42",
+        "name_cantonese": "42號傳奇",
+        "id": "Q3599091"
+      },
+      "distractors": [
+        "2014",
+        "2012",
+        "2011"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"8 Women\" released?",
+      "question_cantonese": "電影《8美千嬌》係邊年上映？",
+      "choices": {
+        "A": "2004",
+        "B": "2003",
+        "C": "2001",
+        "D": "2002"
+      },
+      "choices_cantonese": {
+        "A": "2004年",
+        "B": "2003年",
+        "C": "2001年",
+        "D": "2002年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2002,
+        "release_date": "2002-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "8 Women",
+        "name_cantonese": "8美千嬌",
+        "id": "Q274895"
+      },
+      "distractors": [
+        "2003",
+        "2001",
+        "2004"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released in the 1990s (1990-1999)?",
+      "question_cantonese": "以下邊套電影係喺1990年代（1990-1999年）上映？",
+      "choices": {
+        "A": "Alcarràs",
+        "B": "Les Amants du Pont-Neuf",
+        "C": "(500) Days of Summer",
+        "D": "Story of Women"
+      },
+      "choices_cantonese": {
+        "A": "《陽光燦爛的果園》",
+        "B": "《新橋之戀》",
+        "C": "《心跳500天》",
+        "D": "《女人韻事》"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "decade": 1990,
+        "release_year": 1991,
+        "release_date": "1991-10-16T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Les Amants du Pont-Neuf",
+        "name_cantonese": "新橋之戀",
+        "id": "Q1214555"
+      },
+      "distractors": [
+        "(500) Days of Summer",
+        "Story of Women",
+        "Alcarràs"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "Which of the following movies was released earliest?",
+      "question_cantonese": "以下邊套電影最早上映？",
+      "choices": {
+        "A": "Airplane!",
+        "B": "8 Mile",
+        "C": "The Amazing Spider-Man",
+        "D": "22 Jump Street"
+      },
+      "choices_cantonese": {
+        "A": "《空前絕後滿天飛》",
+        "B": "《8里公路》",
+        "C": "《蜘蛛俠：驚世現新》",
+        "D": "《囧探出更》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 1980,
+        "release_date": "1980-06-27T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "Airplane!",
+            "release_year": 1980
+          },
+          {
+            "name": "8 Mile",
+            "release_year": 2002
+          },
+          {
+            "name": "The Amazing Spider-Man",
+            "release_year": 2012
+          },
+          {
+            "name": "22 Jump Street",
+            "release_year": 2014
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "Airplane!",
+        "name_cantonese": "空前絕後滿天飛",
+        "id": "Q497256"
+      },
+      "distractors": [
+        "8 Mile",
+        "The Amazing Spider-Man",
+        "22 Jump Street"
+      ],
+      "question_type": "movie_earliest"
+    },
+    {
+      "question": "Which of the following movies was released earliest?",
+      "question_cantonese": "以下邊套電影最早上映？",
+      "choices": {
+        "A": "42",
+        "B": "Alvin and the Chipmunks",
+        "C": "After Earth",
+        "D": "Story of Women"
+      },
+      "choices_cantonese": {
+        "A": "《42號傳奇》",
+        "B": "《花鼠明星俱樂部》",
+        "C": "《末日1000年》",
+        "D": "《女人韻事》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 1988,
+        "release_date": "1988-01-01T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "Story of Women",
+            "release_year": 1988
+          },
+          {
+            "name": "Alvin and the Chipmunks",
+            "release_year": 2007
+          },
+          {
+            "name": "42",
+            "release_year": 2013
+          },
+          {
+            "name": "After Earth",
+            "release_year": 2013
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "Story of Women",
+        "name_cantonese": "女人韻事",
+        "id": "Q1306392"
+      },
+      "distractors": [
+        "42",
+        "Alvin and the Chipmunks",
+        "After Earth"
+      ],
+      "question_type": "movie_earliest"
+    },
+    {
+      "question": "What year was the movie \"12 Strong\" released?",
+      "question_cantonese": "電影《12壯士》係邊年上映？",
+      "choices": {
+        "A": "2019",
+        "B": "2016",
+        "C": "2018",
+        "D": "2017"
+      },
+      "choices_cantonese": {
+        "A": "2019年",
+        "B": "2016年",
+        "C": "2018年",
+        "D": "2017年"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2018,
+        "release_date": "2018-01-17T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "12 Strong",
+        "name_cantonese": "12壯士",
+        "id": "Q28863792"
+      },
+      "distractors": [
+        "2019",
+        "2017",
+        "2016"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released in the 2000s (2000-2009)?",
+      "question_cantonese": "以下邊套電影係喺2000年代（2000-2009年）上映？",
+      "choices": {
+        "A": "102 Dalmatians",
+        "B": "The 15:17 to Paris",
+        "C": "American Ultra",
+        "D": "Alvin and the Chipmunks: Chipwrecked"
+      },
+      "choices_cantonese": {
+        "A": "《102斑點狗》",
+        "B": "《15:17 巴黎列車槍擊案》",
+        "C": "《特務傻的孖》",
+        "D": "《花鼠明星俱樂部3》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "decade": 2000,
+        "release_year": 2000,
+        "release_date": "2000-11-22T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "102 Dalmatians",
+        "name_cantonese": "102斑點狗",
+        "id": "Q165847"
+      },
+      "distractors": [
+        "The 15:17 to Paris",
+        "Alvin and the Chipmunks: Chipwrecked",
+        "American Ultra"
+      ],
+      "question_type": "movie_decade"
+    },
+    {
+      "question": "What year was the movie \"The Accountant 2\" released?",
+      "question_cantonese": "電影《暗算2》係邊年上映？",
+      "choices": {
+        "A": "2023",
+        "B": "2022",
+        "C": "2025",
+        "D": "2024"
+      },
+      "choices_cantonese": {
+        "A": "2023年",
+        "B": "2022年",
+        "C": "2025年",
+        "D": "2024年"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2025,
+        "release_date": "2025-03-08T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "The Accountant 2",
+        "name_cantonese": "暗算2",
+        "id": "Q124848369"
+      },
+      "distractors": [
+        "2024",
+        "2023",
+        "2022"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"Les Amants du Pont-Neuf\" released?",
+      "question_cantonese": "電影《新橋之戀》係邊年上映？",
+      "choices": {
+        "A": "1993",
+        "B": "1988",
+        "C": "1990",
+        "D": "1991"
+      },
+      "choices_cantonese": {
+        "A": "1993年",
+        "B": "1988年",
+        "C": "1990年",
+        "D": "1991年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 1991,
+        "release_date": "1991-10-16T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "Les Amants du Pont-Neuf",
+        "name_cantonese": "新橋之戀",
+        "id": "Q1214555"
+      },
+      "distractors": [
+        "1990",
+        "1993",
+        "1988"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"27 Dresses\" released?",
+      "question_cantonese": "電影《27宜嫁》係邊年上映？",
+      "choices": {
+        "A": "2009",
+        "B": "2008",
+        "C": "2006",
+        "D": "2007"
+      },
+      "choices_cantonese": {
+        "A": "2009年",
+        "B": "2008年",
+        "C": "2006年",
+        "D": "2007年"
+      },
+      "correct_answer": "B",
+      "correct_release_info": {
+        "release_year": 2008,
+        "release_date": "2008-01-09T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "27 Dresses",
+        "name_cantonese": "27宜嫁",
+        "id": "Q220154"
+      },
+      "distractors": [
+        "2007",
+        "2009",
+        "2006"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released latest?",
+      "question_cantonese": "以下邊套電影最遲上映？",
+      "choices": {
+        "A": "Alien vs. Predator",
+        "B": "All That Jazz",
+        "C": "102 Dalmatians",
+        "D": "The Adventures of Sharkboy and Lavagirl in 3-D"
+      },
+      "choices_cantonese": {
+        "A": "《異獸戰》",
+        "B": "《爵士春秋》",
+        "C": "《102斑點狗》",
+        "D": "《鯊膽小英雄》"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2005,
+        "release_date": "2005-06-04T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "All That Jazz",
+            "release_year": 1979
+          },
+          {
+            "name": "102 Dalmatians",
+            "release_year": 2000
+          },
+          {
+            "name": "Alien vs. Predator",
+            "release_year": 2004
+          },
+          {
+            "name": "The Adventures of Sharkboy and Lavagirl in 3-D",
+            "release_year": 2005
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "The Adventures of Sharkboy and Lavagirl in 3-D",
+        "name_cantonese": "鯊膽小英雄",
+        "id": "Q656357"
+      },
+      "distractors": [
+        "Alien vs. Predator",
+        "All That Jazz",
+        "102 Dalmatians"
+      ],
+      "question_type": "movie_latest"
+    },
+    {
+      "question": "Which of the following movies was released latest?",
+      "question_cantonese": "以下邊套電影最遲上映？",
+      "choices": {
+        "A": "The Angry Birds Movie 2",
+        "B": "American Assassin",
+        "C": "Abduction",
+        "D": "American Wedding"
+      },
+      "choices_cantonese": {
+        "A": "《憤怒鳥大電影2》",
+        "B": "《美國特工》",
+        "C": "《喋血新世紀》",
+        "D": "《處男有喜》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 2019,
+        "release_date": "2019-08-02T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "American Wedding",
+            "release_year": 2003
+          },
+          {
+            "name": "Abduction",
+            "release_year": 2011
+          },
+          {
+            "name": "American Assassin",
+            "release_year": 2017
+          },
+          {
+            "name": "The Angry Birds Movie 2",
+            "release_year": 2019
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "The Angry Birds Movie 2",
+        "name_cantonese": "憤怒鳥大電影2",
+        "id": "Q18722273"
+      },
+      "distractors": [
+        "American Assassin",
+        "Abduction",
+        "American Wedding"
+      ],
+      "question_type": "movie_latest"
+    },
+    {
+      "question": "What year was the movie \"After Earth\" released?",
+      "question_cantonese": "電影《末日1000年》係邊年上映？",
+      "choices": {
+        "A": "2014",
+        "B": "2012",
+        "C": "2011",
+        "D": "2013"
+      },
+      "choices_cantonese": {
+        "A": "2014年",
+        "B": "2012年",
+        "C": "2011年",
+        "D": "2013年"
+      },
+      "correct_answer": "D",
+      "correct_release_info": {
+        "release_year": 2013,
+        "release_date": "2013-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "After Earth",
+        "name_cantonese": "末日1000年",
+        "id": "Q1254088"
+      },
+      "distractors": [
+        "2014",
+        "2012",
+        "2011"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "What year was the movie \"10,000 B.C.\" released?",
+      "question_cantonese": "電影《公元前10000年》係邊年上映？",
+      "choices": {
+        "A": "2007",
+        "B": "2006",
+        "C": "2008",
+        "D": "2009"
+      },
+      "choices_cantonese": {
+        "A": "2007年",
+        "B": "2006年",
+        "C": "2008年",
+        "D": "2009年"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2008,
+        "release_date": "2008-02-22T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "10,000 B.C.",
+        "name_cantonese": "公元前10000年",
+        "id": "Q163899"
+      },
+      "distractors": [
+        "2007",
+        "2009",
+        "2006"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released earliest?",
+      "question_cantonese": "以下邊套電影最早上映？",
+      "choices": {
+        "A": "Amadeus",
+        "B": "The 5th Wave",
+        "C": "42",
+        "D": "All the Money in the World"
+      },
+      "choices_cantonese": {
+        "A": "《莫扎特傳》",
+        "B": "《第五天劫》",
+        "C": "《42號傳奇》",
+        "D": "《萬惡金錢》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "release_year": 1984,
+        "release_date": "1984-01-01T00:00:00Z",
+        "comparison_movies": [
+          {
+            "name": "Amadeus",
+            "release_year": 1984
+          },
+          {
+            "name": "42",
+            "release_year": 2013
+          },
+          {
+            "name": "The 5th Wave",
+            "release_year": 2016
+          },
+          {
+            "name": "All the Money in the World",
+            "release_year": 2017
+          }
+        ]
+      },
+      "movie_info": {
+        "name": "Amadeus",
+        "name_cantonese": "莫扎特傳",
+        "id": "Q190956"
+      },
+      "distractors": [
+        "The 5th Wave",
+        "42",
+        "All the Money in the World"
+      ],
+      "question_type": "movie_earliest"
+    },
+    {
+      "question": "What year was the movie \"American Assassin\" released?",
+      "question_cantonese": "電影《美國特工》係邊年上映？",
+      "choices": {
+        "A": "2018",
+        "B": "2019",
+        "C": "2017",
+        "D": "2016"
+      },
+      "choices_cantonese": {
+        "A": "2018年",
+        "B": "2019年",
+        "C": "2017年",
+        "D": "2016年"
+      },
+      "correct_answer": "C",
+      "correct_release_info": {
+        "release_year": 2017,
+        "release_date": "2017-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "American Assassin",
+        "name_cantonese": "美國特工",
+        "id": "Q26882523"
+      },
+      "distractors": [
+        "2016",
+        "2018",
+        "2019"
+      ],
+      "question_type": "movie_release_year"
+    },
+    {
+      "question": "Which of the following movies was released in the 1950s (1950-1959)?",
+      "question_cantonese": "以下邊套電影係喺1950年代（1950-1959年）上映？",
+      "choices": {
+        "A": "An American in Paris",
+        "B": "Alcarràs",
+        "C": "10,000 B.C.",
+        "D": "21 and Over"
+      },
+      "choices_cantonese": {
+        "A": "《花都艷舞》",
+        "B": "《陽光燦爛的果園》",
+        "C": "《公元前10000年》",
+        "D": "《21成人鳥》"
+      },
+      "correct_answer": "A",
+      "correct_release_info": {
+        "decade": 1950,
+        "release_year": 1951,
+        "release_date": "1951-01-01T00:00:00Z"
+      },
+      "movie_info": {
+        "name": "An American in Paris",
+        "name_cantonese": "花都艷舞",
+        "id": "Q747570"
+      },
+      "distractors": [
+        "Alcarràs",
+        "10,000 B.C.",
+        "21 and Over"
+      ],
+      "question_type": "movie_decade"
+    }
+  ]
+}

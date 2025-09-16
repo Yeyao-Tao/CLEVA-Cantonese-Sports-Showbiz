@@ -26,6 +26,8 @@ class MovieExtractor:
         
         # Section markers that indicate non-movie content
         self.non_movie_sections = [
+            '==獎項、電影節==',
+            '==虛構角色==',
             '==電影節及相關獎項==',
             '==製片廠及相關業者==', 
             '==其他==',

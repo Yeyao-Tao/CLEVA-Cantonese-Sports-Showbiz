@@ -19,6 +19,7 @@ Requires: requests
 import os
 import sys
 import json
+import random
 
 # Add the parent directory to the path to import the generic wikidata_lookup module
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -35,6 +36,9 @@ from utils.path_utils import (
 
 # Path constants
 TRIPLES_DIR = get_movies_triples_dir() + "/"
+
+# Configuration constants
+MAX_MOVIES_TO_PROCESS = 400
 
 def read_movie_names_from_json(file_path):
     """
@@ -73,8 +77,16 @@ def main():
     # Create movie filter
     movie_filter = create_entity_filter("movie")
     
-    # For testing, you can uncomment the next line to process only first 10 movies
-    movie_names = movie_names[:200]
+    # Set fixed seed for deterministic random selection
+    random.seed(42)
+    
+    # Randomly select movies instead of taking the first ones
+    total_movies = len(movie_names)
+    if total_movies > MAX_MOVIES_TO_PROCESS:
+        movie_names = random.sample(movie_names, MAX_MOVIES_TO_PROCESS)
+        print(f"Randomly selected {MAX_MOVIES_TO_PROCESS} movies out of {total_movies} total movies")
+    else:
+        print(f"Processing all {total_movies} movies (less than {MAX_MOVIES_TO_PROCESS})")
     
     # Resolve Q-IDs for all movies
     mapping, filtered = resolve_entity_qids(movie_names, movie_filter)

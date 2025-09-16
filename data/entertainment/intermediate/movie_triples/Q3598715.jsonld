@@ -3490,7 +3490,7 @@
       },
       "description": {
         "@language": "en",
-        "@value": "type to which this subject corresponds/belongs. Different from P279 (subclass of); for example: K2 is an instance of mountain; volcanoes form a subclass of mountains"
+        "@value": "type to which this subject corresponds/belongs. Different from P279 (subclass of); for example: K2 is an instance of mountain; volcano is a subclass of mountain"
       },
       "propertyType": "http://wikiba.se/ontology#WikibaseItem",
       "directClaim": "wdt:P31",

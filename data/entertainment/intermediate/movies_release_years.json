@@ -1,0 +1,2780 @@
+{
+  "metadata": {
+    "description": "Movie release years extracted from WikiData for analysis and benchmark construction",
+    "purpose": "Support generation of questions about movie release years and decade analysis",
+    "data_structure": {
+      "movies": "Dictionary of movie_id -> movie data with release year information",
+      "note": "Only includes movies with valid release year data"
+    },
+    "extraction_date": "2025-09-16T13:46:23.585144",
+    "total_movies_with_release_data": 107,
+    "total_movies_with_cantonese_data": 107,
+    "processing_time_seconds": 0.29,
+    "performance_optimization": "Direct JSONLD parsing for improved speed",
+    "filtering_info": {
+      "original_movie_count": 107,
+      "filtered_movie_count": 107,
+      "error_count": 0,
+      "filtering_ratio": 100.0,
+      "filter_criteria": "Movies must have valid release year data (P577 property)"
+    }
+  },
+  "movies": {
+    "Q656357": {
+      "movie_id": "Q656357",
+      "movie_names": {
+        "id": "Q656357",
+        "english": "The Adventures of Sharkboy and Lavagirl in 3-D",
+        "cantonese": {
+          "yue": "鯊膽小英雄",
+          "zh-hk": "鯊膽小英雄"
+        },
+        "cantonese_best": "鯊膽小英雄",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2005-06-04T00:00:00Z",
+      "release_year": 2005,
+      "all_release_dates": [
+        "2005-06-04T00:00:00Z",
+        "2005-06-10T00:00:00Z",
+        "2005-10-06T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q656357.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q15727192": {
+      "movie_id": "Q15727192",
+      "movie_names": {
+        "id": "Q15727192",
+        "english": "The 33",
+        "cantonese": {
+          "yue": "絕地拯救33"
+        },
+        "cantonese_best": "絕地拯救33",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2014-01-01T00:00:00Z",
+      "release_year": 2014,
+      "all_release_dates": [
+        "2014-01-01T00:00:00Z",
+        "2016-02-11T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q15727192.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q746029": {
+      "movie_id": "Q746029",
+      "movie_names": {
+        "id": "Q746029",
+        "english": "3:10 to Yuma",
+        "cantonese": {
+          "yue": "決戰猶馬城"
+        },
+        "cantonese_best": "決戰猶馬城",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2007-01-01T00:00:00Z",
+      "release_year": 2007,
+      "all_release_dates": [
+        "2007-12-13T00:00:00Z",
+        "2007-01-01T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q746029.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q224117": {
+      "movie_id": "Q224117",
+      "movie_names": {
+        "id": "Q224117",
+        "english": "30 Days of Night",
+        "cantonese": {
+          "yue": "屍城30夜"
+        },
+        "cantonese_best": "屍城30夜",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2007-10-16T00:00:00Z",
+      "release_year": 2007,
+      "all_release_dates": [
+        "2007-10-16T00:00:00Z",
+        "2007-11-08T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q224117.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q352431": {
+      "movie_id": "Q352431",
+      "movie_names": {
+        "id": "Q352431",
+        "english": "Adaptation.",
+        "cantonese": {
+          "yue": "何必偏偏玩謝我"
+        },
+        "cantonese_best": "何必偏偏玩謝我",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2002-01-01T00:00:00Z",
+      "release_year": 2002,
+      "all_release_dates": [
+        "2002-01-01T00:00:00Z",
+        "2003-03-13T00:00:00Z",
+        "2002-12-06T00:00:00Z",
+        "2003-02-14T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q352431.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q115932544": {
+      "movie_id": "Q115932544",
+      "movie_names": {
+        "id": "Q115932544",
+        "english": "Alien: Romulus",
+        "cantonese": {
+          "yue": "異形：羅穆盧斯",
+          "zh-hk": "異形：羅穆盧斯"
+        },
+        "cantonese_best": "異形：羅穆盧斯",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2024-08-15T00:00:00Z",
+      "release_year": 2024,
+      "all_release_dates": [
+        "2024-08-16T00:00:00Z",
+        "2024-08-15T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q115932544.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q33256085": {
+      "movie_id": "Q33256085",
+      "movie_names": {
+        "id": "Q33256085",
+        "english": "American Animals",
+        "cantonese": {
+          "yue": "美式禽獸"
+        },
+        "cantonese_best": "美式禽獸",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "0",
+      "release_year": 0,
+      "all_release_dates": [
+        "2",
+        "0",
+        "1",
+        "8",
+        "0",
+        "6",
+        "0",
+        "1",
+        "T",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        "Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q33256085.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q224133": {
+      "movie_id": "Q224133",
+      "movie_names": {
+        "id": "Q224133",
+        "english": "30 Minutes or Less",
+        "cantonese": {
+          "yue": "迫良持槍"
+        },
+        "cantonese_best": "迫良持槍",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2011-08-12T00:00:00Z",
+      "release_year": 2011,
+      "all_release_dates": [
+        "2011-08-12T00:00:00Z",
+        "2011-11-24T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q224133.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q241482": {
+      "movie_id": "Q241482",
+      "movie_names": {
+        "id": "Q241482",
+        "english": "50 First Dates",
+        "cantonese": {
+          "yue": "每天愛你第一次"
+        },
+        "cantonese_best": "每天愛你第一次",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2004-02-13T00:00:00Z",
+      "release_year": 2004,
+      "all_release_dates": [
+        "2004-02-13T00:00:00Z",
+        "2004-04-22T00:00:00Z",
+        "2005-06-18T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q241482.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q9013673": {
+      "movie_id": "Q9013673",
+      "movie_names": {
+        "id": "Q9013673",
+        "english": "American Hustle",
+        "cantonese": {
+          "zh-hk": "騙海豪情",
+          "yue": "騙海豪情"
+        },
+        "cantonese_best": "騙海豪情",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2013-12-13T00:00:00Z",
+      "release_year": 2013,
+      "all_release_dates": [
+        "2013-12-13T00:00:00Z",
+        "2014-02-13T00:00:00Z",
+        "2014-01-23T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q9013673.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q26882523": {
+      "movie_id": "Q26882523",
+      "movie_names": {
+        "id": "Q26882523",
+        "english": "American Assassin",
+        "cantonese": {
+          "yue": "美國特工"
+        },
+        "cantonese_best": "美國特工",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2017-01-01T00:00:00Z",
+      "release_year": 2017,
+      "all_release_dates": [
+        "2017-10-12T00:00:00Z",
+        "2017-09-15T00:00:00Z",
+        "2017-09-14T00:00:00Z",
+        "2017-01-01T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q26882523.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q7712287": {
+      "movie_id": "Q7712287",
+      "movie_names": {
+        "id": "Q7712287",
+        "english": "The Act of Killing",
+        "cantonese": {
+          "yue": "殺人凶戲",
+          "zh-hk": "殺人凶戲"
+        },
+        "cantonese_best": "殺人凶戲",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2012-08-31T00:00:00Z",
+      "release_year": 2012,
+      "all_release_dates": [
+        "2012-08-31T00:00:00Z",
+        "2013-11-14T00:00:00Z",
+        "2012-11-01T00:00:00Z",
+        "2014-07-15T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q7712287.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q115859045": {
+      "movie_id": "Q115859045",
+      "movie_names": {
+        "id": "Q115859045",
+        "english": "Afraid",
+        "cantonese": {
+          "zh-hk": "人凶智能",
+          "yue": "人凶智能"
+        },
+        "cantonese_best": "人凶智能",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2024-08-29T00:00:00Z",
+      "release_year": 2024,
+      "all_release_dates": [
+        "2024-08-30T00:00:00Z",
+        "2024-08-29T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q115859045.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q100324181": {
+      "movie_id": "Q100324181",
+      "movie_names": {
+        "id": "Q100324181",
+        "english": "Aline",
+        "cantonese": {
+          "yue": "聲夢戀歌"
+        },
+        "cantonese_best": "聲夢戀歌",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2020-10-04T00:00:00Z",
+      "release_year": 2020,
+      "all_release_dates": [
+        "2020-10-04T00:00:00Z",
+        "2021-07-13T00:00:00Z",
+        "2021-11-10T00:00:00Z",
+        "2021-11-18T00:00:00Z",
+        "2021-12-23T00:00:00Z",
+        "2021-12-24T00:00:00Z",
+        "2022-01-20T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q100324181.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q19801728": {
+      "movie_id": "Q19801728",
+      "movie_names": {
+        "id": "Q19801728",
+        "english": "Alvin and the Chipmunks: Road Chip",
+        "cantonese": {
+          "yue": "花鼠明星俱樂部：開心大唱遊"
+        },
+        "cantonese_best": "花鼠明星俱樂部：開心大唱遊",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2015-12-18T00:00:00Z",
+      "release_year": 2015,
+      "all_release_dates": [
+        "2015-12-18T00:00:00Z",
+        "2016-01-28T00:00:00Z",
+        "2016-01-21T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q19801728.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q18703062": {
+      "movie_id": "Q18703062",
+      "movie_names": {
+        "id": "Q18703062",
+        "english": "The Angry Birds Movie",
+        "cantonese": {
+          "yue": "憤怒鳥大電影"
+        },
+        "cantonese_best": "憤怒鳥大電影",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2016-05-12T00:00:00Z",
+      "release_year": 2016,
+      "all_release_dates": [
+        "2016-05-20T00:00:00Z",
+        "2016-05-12T00:00:00Z",
+        "2016-05-20T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q18703062.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q229808": {
+      "movie_id": "Q229808",
+      "movie_names": {
+        "id": "Q229808",
+        "english": "The Amazing Spider-Man",
+        "cantonese": {
+          "zh-hk": "蜘蛛俠：驚世現新",
+          "yue": "蜘蛛俠：驚世現新"
+        },
+        "cantonese_best": "蜘蛛俠：驚世現新",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2012-06-28T00:00:00Z",
+      "release_year": 2012,
+      "all_release_dates": [
+        "2012-06-28T00:00:00Z",
+        "2012-07-03T00:00:00Z",
+        "2012-07-03T00:00:00Z",
+        "2014-05-01T00:00:00Z",
+        "2012-07-04T00:00:00Z",
+        "2012-07-12T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q229808.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q58411015": {
+      "movie_id": "Q58411015",
+      "movie_names": {
+        "id": "Q58411015",
+        "english": "21 Bridges",
+        "cantonese": {
+          "zh-hk": "曼克頓封暴"
+        },
+        "cantonese_best": "曼克頓封暴",
+        "cantonese_lang": "zh-hk",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2019-10-11T00:00:00Z",
+      "release_year": 2019,
+      "all_release_dates": [
+        "2020-02-06T00:00:00Z",
+        "2019-10-11T00:00:00Z",
+        "2019-11-22T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q58411015.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q163899": {
+      "movie_id": "Q163899",
+      "movie_names": {
+        "id": "Q163899",
+        "english": "10,000 B.C.",
+        "cantonese": {
+          "yue": "公元前10000年"
+        },
+        "cantonese_best": "公元前10000年",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2008-02-22T00:00:00Z",
+      "release_year": 2008,
+      "all_release_dates": [
+        "2008-02-22T00:00:00Z",
+        "2008-03-06T00:00:00Z",
+        "2008-03-07T00:00:00Z",
+        "2008-03-12T00:00:00Z",
+        "2008-03-14T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q163899.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q466961": {
+      "movie_id": "Q466961",
+      "movie_names": {
+        "id": "Q466961",
+        "english": "American Splendor",
+        "cantonese": {
+          "yue": "漫畫人生路",
+          "zh-hk": "漫畫人生路"
+        },
+        "cantonese_best": "漫畫人生路",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2003-01-20T00:00:00Z",
+      "release_year": 2003,
+      "all_release_dates": [
+        "2003-01-20T00:00:00Z",
+        "2004-10-28T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q466961.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q15040917": {
+      "movie_id": "Q15040917",
+      "movie_names": {
+        "id": "Q15040917",
+        "english": "22 Jump Street",
+        "cantonese": {
+          "yue": "囧探出更"
+        },
+        "cantonese_best": "囧探出更",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2014-06-04T00:00:00Z",
+      "release_year": 2014,
+      "all_release_dates": [
+        "2014-06-04T00:00:00Z",
+        "2014-06-13T00:00:00Z",
+        "2014-06-13T00:00:00Z",
+        "2014-07-31T00:00:00Z",
+        "2014-08-21T00:00:00Z",
+        "2014-08-28T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q15040917.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q143716": {
+      "movie_id": "Q143716",
+      "movie_names": {
+        "id": "Q143716",
+        "english": "Abduction",
+        "cantonese": {
+          "yue": "喋血新世紀"
+        },
+        "cantonese_best": "喋血新世紀",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2011-01-01T00:00:00Z",
+      "release_year": 2011,
+      "all_release_dates": [
+        "2011-10-07T00:00:00Z",
+        "2011-10-13T00:00:00Z",
+        "2011-01-01T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q143716.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q378311": {
+      "movie_id": "Q378311",
+      "movie_names": {
+        "id": "Q378311",
+        "english": "sander and the Chipmunks: The Squeakquel",
+        "cantonese": {
+          "yue": "花鼠明星俱樂部2"
+        },
+        "cantonese_best": "花鼠明星俱樂部2",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2009-12-24T00:00:00Z",
+      "release_year": 2009,
+      "all_release_dates": [
+        "2009-12-25T00:00:00Z",
+        "2009-12-24T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q378311.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q104814": {
+      "movie_id": "Q104814",
+      "movie_names": {
+        "id": "Q104814",
+        "english": "Aliens",
+        "cantonese": {
+          "zh-hk": "異形續集",
+          "yue": "異形續集"
+        },
+        "cantonese_best": "異形續集",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "0",
+      "release_year": 0,
+      "all_release_dates": [
+        "1",
+        "9",
+        "8",
+        "6",
+        "0",
+        "7",
+        "1",
+        "8",
+        "T",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        "Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q104814.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q18722273": {
+      "movie_id": "Q18722273",
+      "movie_names": {
+        "id": "Q18722273",
+        "english": "The Angry Birds Movie 2",
+        "cantonese": {
+          "yue": "憤怒鳥大電影2"
+        },
+        "cantonese_best": "憤怒鳥大電影2",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2019-08-02T00:00:00Z",
+      "release_year": 2019,
+      "all_release_dates": [
+        "2019-09-12T00:00:00Z",
+        "2019-09-19T00:00:00Z",
+        "2019-08-14T00:00:00Z",
+        "2019-08-02T00:00:00Z",
+        "2019-08-16T00:00:00Z",
+        "2019-10-16T00:00:00Z",
+        "2019-08-23T00:00:00Z",
+        "2019-08-08T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q18722273.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q124848369": {
+      "movie_id": "Q124848369",
+      "movie_names": {
+        "id": "Q124848369",
+        "english": "The Accountant 2",
+        "cantonese": {
+          "yue": "暗算2"
+        },
+        "cantonese_best": "暗算2",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2025-03-08T00:00:00Z",
+      "release_year": 2025,
+      "all_release_dates": [
+        "2025-03-08T00:00:00Z",
+        "2025-04-25T00:00:00Z",
+        "2025-04-24T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q124848369.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q15052276": {
+      "movie_id": "Q15052276",
+      "movie_names": {
+        "id": "Q15052276",
+        "english": "20 Feet from Stardom",
+        "cantonese": {
+          "yue": "我就嚟是歌手",
+          "zh-hk": "我就嚟是歌手"
+        },
+        "cantonese_best": "我就嚟是歌手",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2013-01-17T00:00:00Z",
+      "release_year": 2013,
+      "all_release_dates": [
+        "2013-01-17T00:00:00Z",
+        "2014-04-24T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q15052276.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q28863792": {
+      "movie_id": "Q28863792",
+      "movie_names": {
+        "id": "Q28863792",
+        "english": "12 Strong",
+        "cantonese": {
+          "yue": "12壯士"
+        },
+        "cantonese_best": "12壯士",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2018-01-17T00:00:00Z",
+      "release_year": 2018,
+      "all_release_dates": [
+        "2018-01-19T00:00:00Z",
+        "2018-03-08T00:00:00Z",
+        "2018-01-17T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q28863792.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q214014": {
+      "movie_id": "Q214014",
+      "movie_names": {
+        "id": "Q214014",
+        "english": "21 Jump Street",
+        "cantonese": {
+          "yue": "逃學黐孖咇",
+          "zh-hk": "逃學黐孖咇"
+        },
+        "cantonese_best": "逃學黐孖咇",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2012-03-12T00:00:00Z",
+      "release_year": 2012,
+      "all_release_dates": [
+        "2012-03-12T00:00:00Z",
+        "2012-04-20T00:00:00Z",
+        "2012-05-10T00:00:00Z",
+        "2012-05-03T00:00:00Z",
+        "2012-03-16T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q214014.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q16354845": {
+      "movie_id": "Q16354845",
+      "movie_names": {
+        "id": "Q16354845",
+        "english": "American Ultra",
+        "cantonese": {
+          "yue": "特務傻的孖",
+          "zh-hk": "特務傻的孖"
+        },
+        "cantonese_best": "特務傻的孖",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2015-01-01T00:00:00Z",
+      "release_year": 2015,
+      "all_release_dates": [
+        "2015-01-01T00:00:00Z",
+        "2015-10-15T00:00:00Z",
+        "2015-08-20T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q16354845.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q30321629": {
+      "movie_id": "Q30321629",
+      "movie_names": {
+        "id": "Q30321629",
+        "english": "All the Money in the World",
+        "cantonese": {
+          "yue": "萬惡金錢"
+        },
+        "cantonese_best": "萬惡金錢",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2017-01-01T00:00:00Z",
+      "release_year": 2017,
+      "all_release_dates": [
+        "2017-12-08T00:00:00Z",
+        "2017-12-21T00:00:00Z",
+        "2018-02-15T00:00:00Z",
+        "2017-01-01T00:00:00Z",
+        "2018-01-25T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q30321629.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q38774788": {
+      "movie_id": "Q38774788",
+      "movie_names": {
+        "id": "Q38774788",
+        "english": "Ad Astra",
+        "cantonese": {
+          "yue": "星際任務",
+          "zh-hk": "星際任務"
+        },
+        "cantonese_best": "星際任務",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2019-08-29T00:00:00Z",
+      "release_year": 2019,
+      "all_release_dates": [
+        "2019-09-18T00:00:00Z",
+        "2019-09-20T00:00:00Z",
+        "2019-09-19T00:00:00Z",
+        "2019-08-29T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q38774788.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q389151": {
+      "movie_id": "Q389151",
+      "movie_names": {
+        "id": "Q389151",
+        "english": "After the Sunset",
+        "cantonese": {
+          "yue": "合盜偷天"
+        },
+        "cantonese_best": "合盜偷天",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2004-11-10T00:00:00Z",
+      "release_year": 2004,
+      "all_release_dates": [
+        "2004-11-10T00:00:00Z",
+        "2005-01-06T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q389151.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q16242543": {
+      "movie_id": "Q16242543",
+      "movie_names": {
+        "id": "Q16242543",
+        "english": "The Age of Adaline",
+        "cantonese": {
+          "zh-hk": "時光逆愛90年",
+          "yue": "時光逆愛90年"
+        },
+        "cantonese_best": "時光逆愛90年",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2015-04-23T00:00:00Z",
+      "release_year": 2015,
+      "all_release_dates": [
+        "2015-07-09T00:00:00Z",
+        "2015-04-23T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q16242543.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q590813": {
+      "movie_id": "Q590813",
+      "movie_names": {
+        "id": "Q590813",
+        "english": "All About Steve",
+        "cantonese": {
+          "yue": "情迷靚肌佬",
+          "zh-hk": "情迷靚肌佬"
+        },
+        "cantonese_best": "情迷靚肌佬",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2009-01-01T00:00:00Z",
+      "release_year": 2009,
+      "all_release_dates": [
+        "2009-01-01T00:00:00Z",
+        "2010-04-29T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q590813.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q501105": {
+      "movie_id": "Q501105",
+      "movie_names": {
+        "id": "Q501105",
+        "english": "The 39 Steps",
+        "cantonese": {
+          "zh-hk": "國防大秘密",
+          "yue": "國防大秘密"
+        },
+        "cantonese_best": "國防大秘密",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "0",
+      "release_year": 0,
+      "all_release_dates": [
+        "1",
+        "9",
+        "3",
+        "5",
+        "0",
+        "1",
+        "0",
+        "1",
+        "T",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        "Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q501105.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q3023357": {
+      "movie_id": "Q3023357",
+      "movie_names": {
+        "id": "Q3023357",
+        "english": "12 Years a Slave",
+        "cantonese": {
+          "zh-hk": "被奪走的12年",
+          "yue": "被奪走的12年"
+        },
+        "cantonese_best": "被奪走的12年",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "0",
+      "release_year": 0,
+      "all_release_dates": [
+        "2",
+        "0",
+        "1",
+        "3",
+        "0",
+        "8",
+        "3",
+        "0",
+        "T",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        "Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q3023357.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q110622667": {
+      "movie_id": "Q110622667",
+      "movie_names": {
+        "id": "Q110622667",
+        "english": "Alcarràs",
+        "cantonese": {
+          "zh-hk": "陽光燦爛的果園"
+        },
+        "cantonese_best": "陽光燦爛的果園",
+        "cantonese_lang": "zh-hk",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2022-02-15T00:00:00Z",
+      "release_year": 2022,
+      "all_release_dates": [
+        "2022-02-15T00:00:00Z",
+        "2022-04-29T00:00:00Z",
+        "2022-05-26T00:00:00Z",
+        "2022-12-08T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q110622667.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q131390": {
+      "movie_id": "Q131390",
+      "movie_names": {
+        "id": "Q131390",
+        "english": "300",
+        "cantonese": {
+          "zh-hk": "戰狼300",
+          "yue": "戰狼300"
+        },
+        "cantonese_best": "戰狼300",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "0",
+      "release_year": 0,
+      "all_release_dates": [
+        "2",
+        "0",
+        "0",
+        "6",
+        "0",
+        "1",
+        "0",
+        "1",
+        "T",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        "Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q131390.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q18428": {
+      "movie_id": "Q18428",
+      "movie_names": {
+        "id": "Q18428",
+        "english": "Amarcord",
+        "cantonese": {
+          "yue": "想當年",
+          "zh-hk": "想當年"
+        },
+        "cantonese_best": "想當年",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "1973-12-18T00:00:00Z",
+      "release_year": 1973,
+      "all_release_dates": [
+        "1973-12-18T00:00:00Z",
+        "1974-03-22T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q18428.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q108809561": {
+      "movie_id": "Q108809561",
+      "movie_names": {
+        "id": "Q108809561",
+        "english": "About My Father",
+        "cantonese": {
+          "yue": "教父冇限耆",
+          "zh-hk": "教父冇限耆"
+        },
+        "cantonese_best": "教父冇限耆",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2023-05-25T00:00:00Z",
+      "release_year": 2023,
+      "all_release_dates": [
+        "2023-05-25T00:00:00Z",
+        "2023-05-26T00:00:00Z",
+        "2023-05-31T00:00:00Z",
+        "2023-06-01T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q108809561.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q650808": {
+      "movie_id": "Q650808",
+      "movie_names": {
+        "id": "Q650808",
+        "english": "21 and Over",
+        "cantonese": {
+          "yue": "21成人鳥"
+        },
+        "cantonese_best": "21成人鳥",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2013-01-01T00:00:00Z",
+      "release_year": 2013,
+      "all_release_dates": [
+        "2013-01-01T00:00:00Z",
+        "2013-07-11T00:00:00Z",
+        "2013-03-14T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q650808.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q1306392": {
+      "movie_id": "Q1306392",
+      "movie_names": {
+        "id": "Q1306392",
+        "english": "Story of Women",
+        "cantonese": {
+          "zh-hk": "女人韻事",
+          "yue": "女人韻事"
+        },
+        "cantonese_best": "女人韻事",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "1988-01-01T00:00:00Z",
+      "release_year": 1988,
+      "all_release_dates": [
+        "1988-01-01T00:00:00Z",
+        "1989-01-26T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q1306392.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q255328": {
+      "movie_id": "Q255328",
+      "movie_names": {
+        "id": "Q255328",
+        "english": "The Adventures of Priscilla, Queen of the Desert",
+        "cantonese": {
+          "zh-hk": "風塵三絕",
+          "yue": "風塵三絕"
+        },
+        "cantonese_best": "風塵三絕",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "1994-01-01T00:00:00Z",
+      "release_year": 1994,
+      "all_release_dates": [
+        "1994-01-01T00:00:00Z",
+        "1994-11-17T00:00:00Z",
+        "1994-11-18T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q255328.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q1210947": {
+      "movie_id": "Q1210947",
+      "movie_names": {
+        "id": "Q1210947",
+        "english": "The Addams Family",
+        "cantonese": {
+          "zh-hk": "愛登士家庭",
+          "yue": "愛登士家庭"
+        },
+        "cantonese_best": "愛登士家庭",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "1991-11-22T00:00:00Z",
+      "release_year": 1991,
+      "all_release_dates": [
+        "1991-11-22T00:00:00Z",
+        "1991-12-13T00:00:00Z",
+        "1992-01-23T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q1210947.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q458314": {
+      "movie_id": "Q458314",
+      "movie_names": {
+        "id": "Q458314",
+        "english": "Alien: Resurrection",
+        "cantonese": {
+          "zh-hk": "異形四集之逆種"
+        },
+        "cantonese_best": "異形四集之逆種",
+        "cantonese_lang": "zh-hk",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "1997-11-26T00:00:00Z",
+      "release_year": 1997,
+      "all_release_dates": [
+        "1997-11-26T00:00:00Z",
+        "1997-11-28T00:00:00Z",
+        "1997-11-27T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q458314.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q400332": {
+      "movie_id": "Q400332",
+      "movie_names": {
+        "id": "Q400332",
+        "english": "300: Rise of an Empire",
+        "cantonese": {
+          "zh-hk": "戰狼300：帝國崛起",
+          "yue": "戰狼300：帝國崛起"
+        },
+        "cantonese_best": "戰狼300：帝國崛起",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2014-03-04T00:00:00Z",
+      "release_year": 2014,
+      "all_release_dates": [
+        "2014-03-04T00:00:00Z",
+        "2014-03-06T00:00:00Z",
+        "2014-03-07T00:00:00Z",
+        "2014-03-07T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q400332.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q274895": {
+      "movie_id": "Q274895",
+      "movie_names": {
+        "id": "Q274895",
+        "english": "8 Women",
+        "cantonese": {
+          "zh-hk": "8美千嬌",
+          "yue": "8美千嬌"
+        },
+        "cantonese_best": "8美千嬌",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2002-01-01T00:00:00Z",
+      "release_year": 2002,
+      "all_release_dates": [
+        "2002-01-01T00:00:00Z",
+        "2002-07-11T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q274895.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q125422662": {
+      "movie_id": "Q125422662",
+      "movie_names": {
+        "id": "Q125422662",
+        "english": "All We Imagine as Light",
+        "cantonese": {
+          "zh-hk": "乘著光的幻想"
+        },
+        "cantonese_best": "乘著光的幻想",
+        "cantonese_lang": "zh-hk",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2024-05-23T00:00:00Z",
+      "release_year": 2024,
+      "all_release_dates": [
+        "2024-05-23T00:00:00Z",
+        "2025-02-13T00:00:00Z",
+        "2024-10-02T00:00:00Z",
+        "2024-10-10T00:00:00Z",
+        "2025-01-03T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q125422662.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q859448": {
+      "movie_id": "Q859448",
+      "movie_names": {
+        "id": "Q859448",
+        "english": "50/50",
+        "cantonese": {
+          "zh-hk": "風雨同路兩支公",
+          "yue": "風雨同路兩支公"
+        },
+        "cantonese_best": "風雨同路兩支公",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2011-09-12T00:00:00Z",
+      "release_year": 2011,
+      "all_release_dates": [
+        "2011-09-12T00:00:00Z",
+        "2012-05-03T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q859448.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q214013": {
+      "movie_id": "Q214013",
+      "movie_names": {
+        "id": "Q214013",
+        "english": "21 Grams",
+        "cantonese": {
+          "yue": "21克—生命可以有多重？"
+        },
+        "cantonese_best": "21克—生命可以有多重？",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "0",
+      "release_year": 0,
+      "all_release_dates": [
+        "2",
+        "0",
+        "0",
+        "3",
+        "0",
+        "1",
+        "0",
+        "1",
+        "T",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        "Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q214013.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q2816898": {
+      "movie_id": "Q2816898",
+      "movie_names": {
+        "id": "Q2816898",
+        "english": "47 Ronin",
+        "cantonese": {
+          "yue": "浪魂47"
+        },
+        "cantonese_best": "浪魂47",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2013-12-06T00:00:00Z",
+      "release_year": 2013,
+      "all_release_dates": [
+        "2013-12-06T00:00:00Z",
+        "2014-01-30T00:00:00Z",
+        "2013-12-26T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q2816898.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q466329": {
+      "movie_id": "Q466329",
+      "movie_names": {
+        "id": "Q466329",
+        "english": "American Pie Presents: Beta House",
+        "cantonese": {
+          "yue": "美國處男：好性大玩派",
+          "zh-hk": "美國處男：好性大玩派"
+        },
+        "cantonese_best": "美國處男：好性大玩派",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "0",
+      "release_year": 0,
+      "all_release_dates": [
+        "2",
+        "0",
+        "0",
+        "7",
+        "0",
+        "1",
+        "0",
+        "1",
+        "T",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        "Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q466329.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q726294": {
+      "movie_id": "Q726294",
+      "movie_names": {
+        "id": "Q726294",
+        "english": "Almost Famous",
+        "cantonese": {
+          "yue": "不日成名"
+        },
+        "cantonese_best": "不日成名",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "0",
+      "release_year": 0,
+      "all_release_dates": [
+        "2",
+        "0",
+        "0",
+        "0",
+        "0",
+        "9",
+        "0",
+        "8",
+        "T",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        "Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q726294.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q55087665": {
+      "movie_id": "Q55087665",
+      "movie_names": {
+        "id": "Q55087665",
+        "english": "Abominable",
+        "cantonese": {
+          "yue": "長毛雪寶",
+          "zh-hk": "長毛雪寶"
+        },
+        "cantonese_best": "長毛雪寶",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2019-09-26T00:00:00Z",
+      "release_year": 2019,
+      "all_release_dates": [
+        "2019-09-27T00:00:00Z",
+        "2019-09-26T00:00:00Z",
+        "2019-10-11T00:00:00Z",
+        "2019-10-03T00:00:00Z",
+        "2019-10-23T00:00:00Z",
+        "2019-10-24T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q55087665.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q492089": {
+      "movie_id": "Q492089",
+      "movie_names": {
+        "id": "Q492089",
+        "english": "The Adjustment Bureau",
+        "cantonese": {
+          "zh-hk": "天網逆緣"
+        },
+        "cantonese_best": "天網逆緣",
+        "cantonese_lang": "zh-hk",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2011-02-14T00:00:00Z",
+      "release_year": 2011,
+      "all_release_dates": [
+        "2011-02-26T00:00:00Z",
+        "2011-03-10T00:00:00Z",
+        "2011-03-10T00:00:00Z",
+        "2011-03-23T00:00:00Z",
+        "2011-02-14T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q492089.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q1125442": {
+      "movie_id": "Q1125442",
+      "movie_names": {
+        "id": "Q1125442",
+        "english": "The Age of Innocence",
+        "cantonese": {
+          "zh-hk": "心外幽情",
+          "yue": "心外幽情"
+        },
+        "cantonese_best": "心外幽情",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "1993-01-01T00:00:00Z",
+      "release_year": 1993,
+      "all_release_dates": [
+        "1993-08-31T00:00:00Z",
+        "1993-11-18T00:00:00Z",
+        "1993-01-01T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q1125442.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q18703038": {
+      "movie_id": "Q18703038",
+      "movie_names": {
+        "id": "Q18703038",
+        "english": "10 Cloverfield Lane",
+        "cantonese": {
+          "yue": "末世街10號"
+        },
+        "cantonese_best": "末世街10號",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2016-03-08T00:00:00Z",
+      "release_year": 2016,
+      "all_release_dates": [
+        "2016-03-11T00:00:00Z",
+        "2016-03-31T00:00:00Z",
+        "2016-04-14T00:00:00Z",
+        "2016-03-08T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q18703038.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q132245": {
+      "movie_id": "Q132245",
+      "movie_names": {
+        "id": "Q132245",
+        "english": "Act of Valor",
+        "cantonese": {
+          "yue": "海豹突擊隊"
+        },
+        "cantonese_best": "海豹突擊隊",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2012-01-01T00:00:00Z",
+      "release_year": 2012,
+      "all_release_dates": [
+        "2012-05-24T00:00:00Z",
+        "2012-01-01T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q132245.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q977196": {
+      "movie_id": "Q977196",
+      "movie_names": {
+        "id": "Q977196",
+        "english": "The Adventures of Ford Fairlane",
+        "cantonese": {
+          "zh-hk": "招積偵探顯神通",
+          "yue": "招積偵探顯神通"
+        },
+        "cantonese_best": "招積偵探顯神通",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "1990-01-01T00:00:00Z",
+      "release_year": 1990,
+      "all_release_dates": [
+        "1990-01-01T00:00:00Z",
+        "1990-11-15T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q977196.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q208572": {
+      "movie_id": "Q208572",
+      "movie_names": {
+        "id": "Q208572",
+        "english": "American History X",
+        "cantonese": {
+          "zh-hk": "野獸良民",
+          "yue": "野獸良民"
+        },
+        "cantonese_best": "野獸良民",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "1998-01-01T00:00:00Z",
+      "release_year": 1998,
+      "all_release_dates": [
+        "1998-01-01T00:00:00Z",
+        "1999-02-25T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q208572.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q1824915": {
+      "movie_id": "Q1824915",
+      "movie_names": {
+        "id": "Q1824915",
+        "english": "The Agony and the Ecstasy",
+        "cantonese": {
+          "yue": "萬世鴻圖",
+          "zh-hk": "萬世鴻圖"
+        },
+        "cantonese_best": "萬世鴻圖",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "0",
+      "release_year": 0,
+      "all_release_dates": [
+        "1",
+        "9",
+        "6",
+        "5",
+        "1",
+        "0",
+        "0",
+        "7",
+        "T",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        "Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q1824915.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q2837490": {
+      "movie_id": "Q2837490",
+      "movie_names": {
+        "id": "Q2837490",
+        "english": "All Is Lost",
+        "cantonese": {
+          "yue": "怒海求生"
+        },
+        "cantonese_best": "怒海求生",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2013-05-22T00:00:00Z",
+      "release_year": 2013,
+      "all_release_dates": [
+        "2013-05-22T00:00:00Z",
+        "2014-01-09T00:00:00Z",
+        "2014-02-21T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q2837490.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q466383": {
+      "movie_id": "Q466383",
+      "movie_names": {
+        "id": "Q466383",
+        "english": "American Pie Presents: The Naked Mile",
+        "cantonese": {
+          "yue": "美國處男：光豬四仔團",
+          "zh-hk": "美國處男：光豬四仔團"
+        },
+        "cantonese_best": "美國處男：光豬四仔團",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "0",
+      "release_year": 0,
+      "all_release_dates": [
+        "2",
+        "0",
+        "0",
+        "6",
+        "0",
+        "1",
+        "0",
+        "1",
+        "T",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        "Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q466383.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q4668586": {
+      "movie_id": "Q4668586",
+      "movie_names": {
+        "id": "Q4668586",
+        "english": "About Time",
+        "cantonese": {
+          "yue": "回到最愛的一天"
+        },
+        "cantonese_best": "回到最愛的一天",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2013-09-04T00:00:00Z",
+      "release_year": 2013,
+      "all_release_dates": [
+        "2013-09-04T00:00:00Z",
+        "2013-10-17T00:00:00Z",
+        "2013-10-10T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q4668586.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q747570": {
+      "movie_id": "Q747570",
+      "movie_names": {
+        "id": "Q747570",
+        "english": "An American in Paris",
+        "cantonese": {
+          "zh-hk": "花都艷舞",
+          "yue": "花都艷舞"
+        },
+        "cantonese_best": "花都艷舞",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "1951-01-01T00:00:00Z",
+      "release_year": 1951,
+      "all_release_dates": [
+        "1951-01-01T00:00:00Z",
+        "1952-12-17T00:00:00Z",
+        "1952-02-25T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q747570.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q3525931": {
+      "movie_id": "Q3525931",
+      "movie_names": {
+        "id": "Q3525931",
+        "english": "3 Days to Kill",
+        "cantonese": {
+          "yue": "3日限殺令"
+        },
+        "cantonese_best": "3日限殺令",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2014-02-12T00:00:00Z",
+      "release_year": 2014,
+      "all_release_dates": [
+        "2014-02-12T00:00:00Z",
+        "2014-05-08T00:00:00Z",
+        "2014-03-13T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q3525931.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q303040": {
+      "movie_id": "Q303040",
+      "movie_names": {
+        "id": "Q303040",
+        "english": "American Reunion",
+        "cantonese": {
+          "zh-hk": "美國處男之孔雀開屏",
+          "yue": "美國處男之孔雀開屏"
+        },
+        "cantonese_best": "美國處男之孔雀開屏",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2012-04-04T00:00:00Z",
+      "release_year": 2012,
+      "all_release_dates": [
+        "2012-04-06T00:00:00Z",
+        "2012-04-26T00:00:00Z",
+        "2012-04-04T00:00:00Z",
+        "2012-04-05T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q303040.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q1214555": {
+      "movie_id": "Q1214555",
+      "movie_names": {
+        "id": "Q1214555",
+        "english": "Les Amants du Pont-Neuf",
+        "cantonese": {
+          "zh-hk": "新橋之戀"
+        },
+        "cantonese_best": "新橋之戀",
+        "cantonese_lang": "zh-hk",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "1991-10-16T00:00:00Z",
+      "release_year": 1991,
+      "all_release_dates": [
+        "1991-10-16T00:00:00Z",
+        "1992-07-02T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q1214555.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q497256": {
+      "movie_id": "Q497256",
+      "movie_names": {
+        "id": "Q497256",
+        "english": "Airplane!",
+        "cantonese": {
+          "zh-hk": "空前絕後滿天飛"
+        },
+        "cantonese_best": "空前絕後滿天飛",
+        "cantonese_lang": "zh-hk",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "1980-06-27T00:00:00Z",
+      "release_year": 1980,
+      "all_release_dates": [
+        "1980-06-27T00:00:00Z",
+        "1980-12-25T00:00:00Z",
+        "1980-11-14T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q497256.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q1254088": {
+      "movie_id": "Q1254088",
+      "movie_names": {
+        "id": "Q1254088",
+        "english": "After Earth",
+        "cantonese": {
+          "zh-hk": "末日1000年",
+          "yue": "末日1000年"
+        },
+        "cantonese_best": "末日1000年",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2013-01-01T00:00:00Z",
+      "release_year": 2013,
+      "all_release_dates": [
+        "2013-01-01T00:00:00Z",
+        "2013-05-31T00:00:00Z",
+        "2013-06-06T00:00:00Z",
+        "2013-05-31T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q1254088.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q1519049": {
+      "movie_id": "Q1519049",
+      "movie_names": {
+        "id": "Q1519049",
+        "english": "Accepted",
+        "cantonese": {
+          "zh-hk": "冒牌天子門生"
+        },
+        "cantonese_best": "冒牌天子門生",
+        "cantonese_lang": "zh-hk",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2006-01-01T00:00:00Z",
+      "release_year": 2006,
+      "all_release_dates": [
+        "2006-01-01T00:00:00Z",
+        "2007-05-31T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q1519049.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q220713": {
+      "movie_id": "Q220713",
+      "movie_names": {
+        "id": "Q220713",
+        "english": "American Pie",
+        "cantonese": {
+          "zh-hk": "美國處男"
+        },
+        "cantonese_best": "美國處男",
+        "cantonese_lang": "zh-hk",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "1999-01-01T00:00:00Z",
+      "release_year": 1999,
+      "all_release_dates": [
+        "1999-07-09T00:00:00Z",
+        "1999-08-27T00:00:00Z",
+        "2000-01-06T00:00:00Z",
+        "1999-01-01T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q220713.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q15104217": {
+      "movie_id": "Q15104217",
+      "movie_names": {
+        "id": "Q15104217",
+        "english": "Alexander and the Terrible, Horrible, No Good, Very Bad Day",
+        "cantonese": {
+          "zh-hk": "一起黑爆的日子",
+          "yue": "一起黑爆的日子"
+        },
+        "cantonese_best": "一起黑爆的日子",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2014-10-10T00:00:00Z",
+      "release_year": 2014,
+      "all_release_dates": [
+        "2014-10-10T00:00:00Z",
+        "2015-04-09T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q15104217.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q4682732": {
+      "movie_id": "Q4682732",
+      "movie_names": {
+        "id": "Q4682732",
+        "english": "Goodbye to Language",
+        "cantonese": {
+          "zh-hk": "告別言語"
+        },
+        "cantonese_best": "告別言語",
+        "cantonese_lang": "zh-hk",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2014-01-01T00:00:00Z",
+      "release_year": 2014,
+      "all_release_dates": [
+        "2014-01-01T00:00:00Z",
+        "2014-12-11T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q4682732.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q1353441": {
+      "movie_id": "Q1353441",
+      "movie_names": {
+        "id": "Q1353441",
+        "english": "All That Jazz",
+        "cantonese": {
+          "zh-hk": "爵士春秋"
+        },
+        "cantonese_best": "爵士春秋",
+        "cantonese_lang": "zh-hk",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "1979-01-01T00:00:00Z",
+      "release_year": 1979,
+      "all_release_dates": [
+        "1979-01-01T00:00:00Z",
+        "1980-09-11T00:00:00Z",
+        "1979-12-20T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q1353441.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q379994": {
+      "movie_id": "Q379994",
+      "movie_names": {
+        "id": "Q379994",
+        "english": "Adventureland",
+        "cantonese": {
+          "yue": "搞事樂園",
+          "zh-hk": "搞事樂園"
+        },
+        "cantonese_best": "搞事樂園",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2009-01-19T00:00:00Z",
+      "release_year": 2009,
+      "all_release_dates": [
+        "2009-01-19T00:00:00Z",
+        "2009-07-16T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q379994.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q3598715": {
+      "movie_id": "Q3598715",
+      "movie_names": {
+        "id": "Q3598715",
+        "english": "2 Guns",
+        "cantonese": {
+          "yue": "孖Gun雙雄",
+          "zh-hk": "孖Gun雙雄"
+        },
+        "cantonese_best": "孖Gun雙雄",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2013-07-30T00:00:00Z",
+      "release_year": 2013,
+      "all_release_dates": [
+        "2013-07-30T00:00:00Z",
+        "2013-09-26T00:00:00Z",
+        "2013-09-19T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q3598715.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q270351": {
+      "movie_id": "Q270351",
+      "movie_names": {
+        "id": "Q270351",
+        "english": "American Gangster",
+        "cantonese": {
+          "zh-hk": "犯罪帝國",
+          "yue": "犯罪帝國"
+        },
+        "cantonese_best": "犯罪帝國",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2007-01-01T00:00:00Z",
+      "release_year": 2007,
+      "all_release_dates": [
+        "2007-10-19T00:00:00Z",
+        "2007-11-15T00:00:00Z",
+        "2007-01-01T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q270351.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q48839262": {
+      "movie_id": "Q48839262",
+      "movie_names": {
+        "id": "Q48839262",
+        "english": "78/52",
+        "cantonese": {
+          "zh-hk": "觸目驚心: 78/52大解密",
+          "yue": "觸目驚心: 78/52大解密"
+        },
+        "cantonese_best": "觸目驚心: 78/52大解密",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "0",
+      "release_year": 0,
+      "all_release_dates": [
+        "2",
+        "0",
+        "1",
+        "7",
+        "0",
+        "1",
+        "0",
+        "1",
+        "T",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        "Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q48839262.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q155163": {
+      "movie_id": "Q155163",
+      "movie_names": {
+        "id": "Q155163",
+        "english": "Alien vs. Predator",
+        "cantonese": {
+          "zh-hk": "異獸戰",
+          "yue": "異獸戰"
+        },
+        "cantonese_best": "異獸戰",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2004-08-13T00:00:00Z",
+      "release_year": 2004,
+      "all_release_dates": [
+        "2004-08-13T00:00:00Z",
+        "2004-11-05T00:00:00Z",
+        "2004-11-04T00:00:00Z",
+        "2004-11-19T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q155163.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q466423": {
+      "movie_id": "Q466423",
+      "movie_names": {
+        "id": "Q466423",
+        "english": "American Wedding",
+        "cantonese": {
+          "yue": "處男有喜",
+          "zh-hk": "美國處男3：處男有喜"
+        },
+        "cantonese_best": "處男有喜",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2003-08-01T00:00:00Z",
+      "release_year": 2003,
+      "all_release_dates": [
+        "2003-08-01T00:00:00Z",
+        "2003-09-05T00:00:00Z",
+        "2003-08-21T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q466423.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q644552": {
+      "movie_id": "Q644552",
+      "movie_names": {
+        "id": "Q644552",
+        "english": "9½ Weeks",
+        "cantonese": {
+          "zh-hk": "九個半星期"
+        },
+        "cantonese_best": "九個半星期",
+        "cantonese_lang": "zh-hk",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "1986-02-14T00:00:00Z",
+      "release_year": 1986,
+      "all_release_dates": [
+        "1986-02-14T00:00:00Z",
+        "1986-04-17T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q644552.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q2299188": {
+      "movie_id": "Q2299188",
+      "movie_names": {
+        "id": "Q2299188",
+        "english": "All the Pretty Horses",
+        "cantonese": {
+          "zh-hk": "馴不了的愛",
+          "yue": "馴不了的愛"
+        },
+        "cantonese_best": "馴不了的愛",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2000-01-01T00:00:00Z",
+      "release_year": 2000,
+      "all_release_dates": [
+        "2000-01-01T00:00:00Z",
+        "2001-07-12T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q2299188.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q220154": {
+      "movie_id": "Q220154",
+      "movie_names": {
+        "id": "Q220154",
+        "english": "27 Dresses",
+        "cantonese": {
+          "yue": "27宜嫁"
+        },
+        "cantonese_best": "27宜嫁",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2008-01-09T00:00:00Z",
+      "release_year": 2008,
+      "all_release_dates": [
+        "2008-01-09T00:00:00Z",
+        "2008-02-14T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q220154.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q426396": {
+      "movie_id": "Q426396",
+      "movie_names": {
+        "id": "Q426396",
+        "english": "Along Came Polly",
+        "cantonese": {
+          "yue": "情場算死草",
+          "zh-hk": "情場算死草"
+        },
+        "cantonese_best": "情場算死草",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2004-01-12T00:00:00Z",
+      "release_year": 2004,
+      "all_release_dates": [
+        "2004-01-12T00:00:00Z",
+        "2004-03-04T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q426396.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q1588422": {
+      "movie_id": "Q1588422",
+      "movie_names": {
+        "id": "Q1588422",
+        "english": "Admission",
+        "cantonese": {
+          "zh-hk": "收生愛過界",
+          "yue": "收生愛過界"
+        },
+        "cantonese_best": "收生愛過界",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2013-01-01T00:00:00Z",
+      "release_year": 2013,
+      "all_release_dates": [
+        "2013-01-01T00:00:00Z",
+        "2013-07-25T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q1588422.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q113195788": {
+      "movie_id": "Q113195788",
+      "movie_names": {
+        "id": "Q113195788",
+        "english": "99 Moons",
+        "cantonese": {
+          "zh-hk": "情慾99月",
+          "yue": "情慾99月"
+        },
+        "cantonese_best": "情慾99月",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "0",
+      "release_year": 0,
+      "all_release_dates": [
+        "2",
+        "0",
+        "2",
+        "2",
+        "0",
+        "1",
+        "0",
+        "1",
+        "T",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        "Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q113195788.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q3599091": {
+      "movie_id": "Q3599091",
+      "movie_names": {
+        "id": "Q3599091",
+        "english": "42",
+        "cantonese": {
+          "yue": "42號傳奇"
+        },
+        "cantonese_best": "42號傳奇",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2013-04-12T00:00:00Z",
+      "release_year": 2013,
+      "all_release_dates": [
+        "2013-04-12T00:00:00Z",
+        "2013-08-08T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q3599091.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q23681360": {
+      "movie_id": "Q23681360",
+      "movie_names": {
+        "id": "Q23681360",
+        "english": "Allied",
+        "cantonese": {
+          "zh-hk": "伴諜同盟",
+          "yue": "伴諜同盟"
+        },
+        "cantonese_best": "伴諜同盟",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "0",
+      "release_year": 0,
+      "all_release_dates": [
+        "2",
+        "0",
+        "1",
+        "6",
+        "1",
+        "1",
+        "1",
+        "3",
+        "T",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        "Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q23681360.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q17436508": {
+      "movie_id": "Q17436508",
+      "movie_names": {
+        "id": "Q17436508",
+        "english": "The 5th Wave",
+        "cantonese": {
+          "yue": "第五天劫"
+        },
+        "cantonese_best": "第五天劫",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2016-01-01T00:00:00Z",
+      "release_year": 2016,
+      "all_release_dates": [
+        "2016-01-01T00:00:00Z",
+        "2016-01-14T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q17436508.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q1129227": {
+      "movie_id": "Q1129227",
+      "movie_names": {
+        "id": "Q1129227",
+        "english": "About a Boy",
+        "cantonese": {
+          "zh-hk": "單親插班生"
+        },
+        "cantonese_best": "單親插班生",
+        "cantonese_lang": "zh-hk",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2002-04-26T00:00:00Z",
+      "release_year": 2002,
+      "all_release_dates": [
+        "2002-04-26T00:00:00Z",
+        "2002-08-22T00:00:00Z",
+        "2002-07-26T00:00:00Z",
+        "2002-06-07T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q1129227.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q190956": {
+      "movie_id": "Q190956",
+      "movie_names": {
+        "id": "Q190956",
+        "english": "Amadeus",
+        "cantonese": {
+          "zh-hk": "莫扎特傳",
+          "yue": "莫扎特傳"
+        },
+        "cantonese_best": "莫扎特傳",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "1984-01-01T00:00:00Z",
+      "release_year": 1984,
+      "all_release_dates": [
+        "1984-01-01T00:00:00Z",
+        "1984-10-26T00:00:00Z",
+        "2013-07-19T00:00:00Z",
+        "1984-09-06T00:00:00Z",
+        "1984-09-12T00:00:00Z",
+        "1984-09-19T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q190956.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q15078029": {
+      "movie_id": "Q15078029",
+      "movie_names": {
+        "id": "Q15078029",
+        "english": "Aloha",
+        "cantonese": {
+          "zh-hk": "戀上熱愛島"
+        },
+        "cantonese_best": "戀上熱愛島",
+        "cantonese_lang": "zh-hk",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2014-01-01T00:00:00Z",
+      "release_year": 2014,
+      "all_release_dates": [
+        "2014-01-01T00:00:00Z",
+        "2015-08-06T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q15078029.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q25139": {
+      "movie_id": "Q25139",
+      "movie_names": {
+        "id": "Q25139",
+        "english": "American Beauty",
+        "cantonese": {
+          "yue": "美麗有罪"
+        },
+        "cantonese_best": "美麗有罪",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "1999-01-01T00:00:00Z",
+      "release_year": 1999,
+      "all_release_dates": [
+        "1999-09-08T00:00:00Z",
+        "2000-01-20T00:00:00Z",
+        "1999-01-01T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q25139.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q244115": {
+      "movie_id": "Q244115",
+      "movie_names": {
+        "id": "Q244115",
+        "english": "55 Days at Peking",
+        "cantonese": {
+          "yue": "危城五十五日",
+          "zh-hk": "危城五十五日"
+        },
+        "cantonese_best": "危城五十五日",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "0",
+      "release_year": 0,
+      "all_release_dates": [
+        "1",
+        "9",
+        "6",
+        "3",
+        "0",
+        "1",
+        "0",
+        "1",
+        "T",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        "Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q244115.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q1619523": {
+      "movie_id": "Q1619523",
+      "movie_names": {
+        "id": "Q1619523",
+        "english": "Alice Adams",
+        "cantonese": {
+          "zh-hk": "月移花影動",
+          "yue": "月移花影動"
+        },
+        "cantonese_best": "月移花影動",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "0",
+      "release_year": 0,
+      "all_release_dates": [
+        "1",
+        "9",
+        "3",
+        "5",
+        "0",
+        "1",
+        "0",
+        "1",
+        "T",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        ":",
+        "0",
+        "0",
+        "Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q1619523.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q196665": {
+      "movie_id": "Q196665",
+      "movie_names": {
+        "id": "Q196665",
+        "english": "8 Mile",
+        "cantonese": {
+          "yue": "8里公路"
+        },
+        "cantonese_best": "8里公路",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2002-09-08T00:00:00Z",
+      "release_year": 2002,
+      "all_release_dates": [
+        "2003-01-02T00:00:00Z",
+        "2002-09-08T00:00:00Z",
+        "2002-11-06T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q196665.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q29378617": {
+      "movie_id": "Q29378617",
+      "movie_names": {
+        "id": "Q29378617",
+        "english": "BPM (Beats per Minute)",
+        "cantonese": {
+          "zh-hk": "心動120"
+        },
+        "cantonese_best": "心動120",
+        "cantonese_lang": "zh-hk",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2017-05-01T00:00:00Z",
+      "release_year": 2017,
+      "all_release_dates": [
+        "2017-05-01T00:00:00Z",
+        "2017-11-30T00:00:00Z",
+        "2017-08-23T00:00:00Z",
+        "2018-04-06T00:00:00Z",
+        "2018-05-11T00:00:00Z",
+        "2019-10-02T00:00:00Z",
+        "2017-11-16T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q29378617.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q165847": {
+      "movie_id": "Q165847",
+      "movie_names": {
+        "id": "Q165847",
+        "english": "102 Dalmatians",
+        "cantonese": {
+          "yue": "102斑點狗"
+        },
+        "cantonese_best": "102斑點狗",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2000-11-22T00:00:00Z",
+      "release_year": 2000,
+      "all_release_dates": [
+        "2000-11-22T00:00:00Z",
+        "2000-12-25T00:00:00Z",
+        "2001-02-09T00:00:00Z",
+        "2001-02-08T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q165847.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q154935": {
+      "movie_id": "Q154935",
+      "movie_names": {
+        "id": "Q154935",
+        "english": "(500) Days of Summer",
+        "cantonese": {
+          "zh-hk": "心跳500天"
+        },
+        "cantonese_best": "心跳500天",
+        "cantonese_lang": "zh-hk",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2009-01-17T00:00:00Z",
+      "release_year": 2009,
+      "all_release_dates": [
+        "2009-01-17T00:00:00Z",
+        "2009-10-22T00:00:00Z",
+        "2009-07-17T00:00:00Z",
+        "2009-08-07T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q154935.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q303678": {
+      "movie_id": "Q303678",
+      "movie_names": {
+        "id": "Q303678",
+        "english": "Alvin and the Chipmunks: Chipwrecked",
+        "cantonese": {
+          "yue": "花鼠明星俱樂部3"
+        },
+        "cantonese_best": "花鼠明星俱樂部3",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2011-01-01T00:00:00Z",
+      "release_year": 2011,
+      "all_release_dates": [
+        "2011-12-25T00:00:00Z",
+        "2011-12-22T00:00:00Z",
+        "2011-01-01T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q303678.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q125392328": {
+      "movie_id": "Q125392328",
+      "movie_names": {
+        "id": "Q125392328",
+        "english": "28 Years Later",
+        "cantonese": {
+          "zh-hk": "28年後",
+          "yue": "28年後"
+        },
+        "cantonese_best": "28年後",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2025-06-20T00:00:00Z",
+      "release_year": 2025,
+      "all_release_dates": [
+        "2025-06-20T00:00:00Z",
+        "2025-07-03T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q125392328.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q387348": {
+      "movie_id": "Q387348",
+      "movie_names": {
+        "id": "Q387348",
+        "english": "Alvin and the Chipmunks",
+        "cantonese": {
+          "zh-hk": "花鼠明星俱樂部",
+          "yue": "花鼠明星俱樂部"
+        },
+        "cantonese_best": "花鼠明星俱樂部",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2007-01-01T00:00:00Z",
+      "release_year": 2007,
+      "all_release_dates": [
+        "2007-12-20T00:00:00Z",
+        "2007-01-01T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q387348.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q24053265": {
+      "movie_id": "Q24053265",
+      "movie_names": {
+        "id": "Q24053265",
+        "english": "Alita: Battle Angel",
+        "cantonese": {
+          "yue": "銃夢：戰鬥天使"
+        },
+        "cantonese_best": "銃夢：戰鬥天使",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2019-02-06T00:00:00Z",
+      "release_year": 2019,
+      "all_release_dates": [
+        "2019-02-14T00:00:00Z",
+        "2019-02-06T00:00:00Z",
+        "2019-02-22T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q24053265.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q329127": {
+      "movie_id": "Q329127",
+      "movie_names": {
+        "id": "Q329127",
+        "english": "American Pie 2",
+        "cantonese": {
+          "zh-hk": "美國處男2",
+          "yue": "美國處男2"
+        },
+        "cantonese_best": "美國處男2",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2001-08-10T00:00:00Z",
+      "release_year": 2001,
+      "all_release_dates": [
+        "2001-08-10T00:00:00Z",
+        "2001-10-26T00:00:00Z",
+        "2001-09-27T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q329127.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    },
+    "Q31204331": {
+      "movie_id": "Q31204331",
+      "movie_names": {
+        "id": "Q31204331",
+        "english": "The 15:17 to Paris",
+        "cantonese": {
+          "yue": "15:17 巴黎列車槍擊案"
+        },
+        "cantonese_best": "15:17 巴黎列車槍擊案",
+        "cantonese_lang": "yue",
+        "cantonese_source": "wikidata"
+      },
+      "release_date": "2018-01-01T00:00:00Z",
+      "release_year": 2018,
+      "all_release_dates": [
+        "2018-04-19T00:00:00Z",
+        "2018-04-20T00:00:00Z",
+        "2018-03-15T00:00:00Z",
+        "2018-01-01T00:00:00Z"
+      ],
+      "file_path": "/Users/taoyeyao/workplace/CLEVA-Cantonese-Sports-Showbiz/data/entertainment/intermediate/movie_triples/Q31204331.jsonld",
+      "has_cantonese_data": true,
+      "has_release_data": true
+    }
+  }
+}

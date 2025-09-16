@@ -51,7 +51,7 @@ Components:
 
 1. **Retrieve JSONLDs from WikiData:** map each film to a unique Wikidata QID; dedupe homonyms (e.g., remakes, TV films). Check `src/cleva/cantonese/wikidata_lookup.py` for how to query WikiData.
 
-2. **Intermediate Data Store:** Consume JSON‑LD from `data/entertainment/intermediate/movie_tripples/*.jsonld`, process in memory, and export intermediate outputs to files in `data/entertainment/intermediate/`.&#x20;
+2. **Intermediate Data Store:** Consume JSON‑LD from `data/entertainment/intermediate/movie_triples/*.jsonld`, process in memory, and export intermediate outputs to files in `data/entertainment/intermediate/`.&#x20;
 
 3. **Questions Construction**: Template‑driven MCQs with difficulty tiers; validated distractors. Export MCQs to a JSON file in `data/entertainment/output/`. The question json format needs to match the questsions for sports entities in `data/soccer/output/` exactly.
 

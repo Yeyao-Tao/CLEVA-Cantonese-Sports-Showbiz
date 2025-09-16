@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "description": "Movie release years extracted from WikiData for analysis and benchmark construction",
+    "purpose": "Support generation of questions about movie release years and decade analysis",
+    "data_structure": {
+      "movies": "Dictionary of movie_id -> movie data with release year information",
+      "note": "Only includes movies with valid release year data"
+    },
+    "extraction_date": "2025-09-16T13:29:02.385917",
+    "total_movies_with_release_data": 0,
+    "total_movies_with_cantonese_data": 0,
+    "processing_time_seconds": 0.0,
+    "performance_optimization": "Direct JSONLD parsing for improved speed",
+    "filtering_info": {
+      "original_movie_count": 0,
+      "filtered_movie_count": 0,
+      "error_count": 0,
+      "filtering_ratio": 0,
+      "filter_criteria": "Movies must have valid release year data (P577 property)"
+    }
+  },
+  "movies": {}
+}

@@ -1,0 +1,6646 @@
+{
+  "@graph": [
+    {
+      "@id": "data:Q124537378",
+      "@type": "schema:Dataset",
+      "about": "wd:Q124537378",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "softwareVersion": "1.0.0",
+      "version": 2401368131,
+      "dateModified": "2025-09-06T13:04:11Z",
+      "statements": 41,
+      "sitelinks": 16,
+      "identifiers": 16
+    },
+    {
+      "@id": "wd:Q124537378",
+      "@type": "wikibase:Item"
+    },
+    {
+      "@id": "https://en.wikipedia.org/wiki/Hard_Truths",
+      "@type": "schema:Article",
+      "about": "wd:Q124537378",
+      "inLanguage": "en",
+      "isPartOf": "https://en.wikipedia.org/",
+      "name": {
+        "@language": "en",
+        "@value": "Hard Truths"
+      }
+    },
+    {
+      "@id": "https://en.wikipedia.org/",
+      "wikiGroup": "wikipedia"
+    },
+    {
+      "@id": "https://nl.wikipedia.org/wiki/Hard_Truths",
+      "@type": "schema:Article",
+      "about": "wd:Q124537378",
+      "inLanguage": "nl",
+      "isPartOf": "https://nl.wikipedia.org/",
+      "name": {
+        "@language": "nl",
+        "@value": "Hard Truths"
+      }
+    },
+    {
+      "@id": "https://nl.wikipedia.org/",
+      "wikiGroup": "wikipedia"
+    },
+    {
+      "@id": "https://eu.wikipedia.org/wiki/Hard_Truths",
+      "@type": "schema:Article",
+      "about": "wd:Q124537378",
+      "inLanguage": "eu",
+      "isPartOf": "https://eu.wikipedia.org/",
+      "name": {
+        "@language": "eu",
+        "@value": "Hard Truths"
+      }
+    },
+    {
+      "@id": "https://eu.wikipedia.org/",
+      "wikiGroup": "wikipedia"
+    },
+    {
+      "@id": "https://commons.wikimedia.org/wiki/Category:Hard_Truths",
+      "@type": "schema:Article",
+      "about": "wd:Q124537378",
+      "inLanguage": "en",
+      "isPartOf": "https://commons.wikimedia.org/",
+      "name": {
+        "@language": "en",
+        "@value": "Category:Hard Truths"
+      }
+    },
+    {
+      "@id": "https://commons.wikimedia.org/",
+      "wikiGroup": "commons"
+    },
+    {
+      "@id": "https://de.wikipedia.org/wiki/Hard_Truths",
+      "@type": "schema:Article",
+      "about": "wd:Q124537378",
+      "inLanguage": "de",
+      "isPartOf": "https://de.wikipedia.org/",
+      "name": {
+        "@language": "de",
+        "@value": "Hard Truths"
+      }
+    },
+    {
+      "@id": "https://de.wikipedia.org/",
+      "wikiGroup": "wikipedia"
+    },
+    {
+      "@id": "https://es.wikipedia.org/wiki/Mi_%C3%BAnica_familia_(pel%C3%ADcula)",
+      "@type": "schema:Article",
+      "about": "wd:Q124537378",
+      "inLanguage": "es",
+      "isPartOf": "https://es.wikipedia.org/",
+      "name": {
+        "@language": "es",
+        "@value": "Mi única familia (película)"
+      }
+    },
+    {
+      "@id": "https://es.wikipedia.org/",
+      "wikiGroup": "wikipedia"
+    },
+    {
+      "@id": "https://id.wikipedia.org/wiki/Hard_Truths",
+      "@type": "schema:Article",
+      "about": "wd:Q124537378",
+      "inLanguage": "id",
+      "isPartOf": "https://id.wikipedia.org/",
+      "name": {
+        "@language": "id",
+        "@value": "Hard Truths"
+      }
+    },
+    {
+      "@id": "https://id.wikipedia.org/",
+      "wikiGroup": "wikipedia"
+    },
+    {
+      "@id": "https://pt.wikipedia.org/wiki/Hard_Truths",
+      "@type": "schema:Article",
+      "about": "wd:Q124537378",
+      "inLanguage": "pt",
+      "isPartOf": "https://pt.wikipedia.org/",
+      "name": {
+        "@language": "pt",
+        "@value": "Hard Truths"
+      }
+    },
+    {
+      "@id": "https://pt.wikipedia.org/",
+      "wikiGroup": "wikipedia"
+    },
+    {
+      "@id": "https://fa.wikipedia.org/wiki/%D8%AD%D9%82%D8%A7%DB%8C%D9%82_%D8%B3%D8%AE%D8%AA",
+      "@type": "schema:Article",
+      "about": "wd:Q124537378",
+      "inLanguage": "fa",
+      "isPartOf": "https://fa.wikipedia.org/",
+      "name": {
+        "@language": "fa",
+        "@value": "حقایق سخت"
+      }
+    },
+    {
+      "@id": "https://fa.wikipedia.org/",
+      "wikiGroup": "wikipedia"
+    },
+    {
+      "@id": "https://tr.wikipedia.org/wiki/Ac%C4%B1_Ger%C3%A7ekler",
+      "@type": "schema:Article",
+      "about": "wd:Q124537378",
+      "inLanguage": "tr",
+      "isPartOf": "https://tr.wikipedia.org/",
+      "name": {
+        "@language": "tr",
+        "@value": "Acı Gerçekler"
+      }
+    },
+    {
+      "@id": "https://tr.wikipedia.org/",
+      "wikiGroup": "wikipedia"
+    },
+    {
+      "@id": "https://ca.wikipedia.org/wiki/Hard_Truths",
+      "@type": "schema:Article",
+      "about": "wd:Q124537378",
+      "inLanguage": "ca",
+      "isPartOf": "https://ca.wikipedia.org/",
+      "name": {
+        "@language": "ca",
+        "@value": "Hard Truths"
+      }
+    },
+    {
+      "@id": "https://ca.wikipedia.org/",
+      "wikiGroup": "wikipedia"
+    },
+    {
+      "@id": "https://da.wikipedia.org/wiki/Sv%C3%A6re_sandheder",
+      "@type": "schema:Article",
+      "about": "wd:Q124537378",
+      "inLanguage": "da",
+      "isPartOf": "https://da.wikipedia.org/",
+      "name": {
+        "@language": "da",
+        "@value": "Svære sandheder"
+      }
+    },
+    {
+      "@id": "https://da.wikipedia.org/",
+      "wikiGroup": "wikipedia"
+    },
+    {
+      "@id": "https://fr.wikipedia.org/wiki/Deux_S%C5%93urs_(film,_2024)",
+      "@type": "schema:Article",
+      "about": "wd:Q124537378",
+      "inLanguage": "fr",
+      "isPartOf": "https://fr.wikipedia.org/",
+      "name": {
+        "@language": "fr",
+        "@value": "Deux Sœurs (film, 2024)"
+      }
+    },
+    {
+      "@id": "https://fr.wikipedia.org/",
+      "wikiGroup": "wikipedia"
+    },
+    {
+      "@id": "https://ko.wikipedia.org/wiki/%EB%82%B4_%EB%A7%90_%EC%A2%80_%EB%93%A4%EC%96%B4%EC%A4%98",
+      "@type": "schema:Article",
+      "about": "wd:Q124537378",
+      "inLanguage": "ko",
+      "isPartOf": "https://ko.wikipedia.org/",
+      "name": {
+        "@language": "ko",
+        "@value": "내 말 좀 들어줘"
+      }
+    },
+    {
+      "@id": "https://ko.wikipedia.org/",
+      "wikiGroup": "wikipedia"
+    },
+    {
+      "@id": "https://it.wikipedia.org/wiki/Scomode_verit%C3%A0",
+      "@type": "schema:Article",
+      "about": "wd:Q124537378",
+      "inLanguage": "it",
+      "isPartOf": "https://it.wikipedia.org/",
+      "name": {
+        "@language": "it",
+        "@value": "Scomode verità"
+      }
+    },
+    {
+      "@id": "https://it.wikipedia.org/",
+      "wikiGroup": "wikipedia"
+    },
+    {
+      "@id": "https://sv.wikipedia.org/wiki/Hard_Truths",
+      "@type": "schema:Article",
+      "about": "wd:Q124537378",
+      "inLanguage": "sv",
+      "isPartOf": "https://sv.wikipedia.org/",
+      "name": {
+        "@language": "sv",
+        "@value": "Hard Truths"
+      }
+    },
+    {
+      "@id": "https://sv.wikipedia.org/",
+      "wikiGroup": "wikipedia"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "P31": "wd:Q11424",
+      "P345": "tt11891850",
+      "P4947": "1013154",
+      "P6127": "hard-truths-2024",
+      "P1657": "wd:Q18665344",
+      "P1712": "movie/hard-truths-2024",
+      "P1258": "m/hard_truths",
+      "P7573": "wd:Q74434531",
+      "P495": [
+        "wd:Q145",
+        "wd:Q29"
+      ],
+      "P577": [
+        "2024-09-06T00:00:00Z",
+        "2025-01-01T00:00:00Z",
+        "2025-02-28T00:00:00Z"
+      ],
+      "P1476": {
+        "@language": "en",
+        "@value": "Hard Truths"
+      },
+      "P57": "wd:Q315756",
+      "P364": "wd:Q1860",
+      "P136": "wd:Q130232",
+      "P373": "Hard Truths",
+      "P9586": "umc.cmc.4fdl1g0jq6v8i53sh7gozvd5s",
+      "P161": [
+        "wd:Q430872",
+        "wd:Q6836690",
+        "wd:Q75562963"
+      ],
+      "P86": "wd:Q5526209",
+      "P162": "wd:Q5548271",
+      "P444": [
+        "88/100",
+        "95%"
+      ],
+      "P344": "wd:Q684952",
+      "P11460": "5f409b718642250042947336",
+      "P7299": "400475",
+      "P10100": "73432680",
+      "P480": "506370",
+      "P1265": "316235",
+      "P2047": "+97",
+      "P462": "wd:Q22006653",
+      "P2603": "6288924",
+      "P2346": "1653167",
+      "P2334": "721061",
+      "P2758": "wd:Q23817729",
+      "P2755": "164253",
+      "P1804": "128904",
+      "P2684": "wd:Q23649980",
+      "p:P31": "wds:Q124537378-6EDD6265-860B-4DC5-9B2F-DD29AB595344"
+    },
+    {
+      "@id": "wds:Q124537378-6EDD6265-860B-4DC5-9B2F-DD29AB595344",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P31": "wd:Q11424"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P345": "wds:Q124537378-D1C0E01E-D63F-4CD6-BDB7-871307396DA7"
+    },
+    {
+      "@id": "wds:Q124537378-D1C0E01E-D63F-4CD6-BDB7-871307396DA7",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P345": "tt11891850",
+      "wasDerivedFrom": "wdref:7e966d9f9a09b186d01c96372fe5401d23d62679"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P4947": "wds:Q124537378-8FB800D2-5A04-4E9A-A44B-710490A62480"
+    },
+    {
+      "@id": "wds:Q124537378-8FB800D2-5A04-4E9A-A44B-710490A62480",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P4947": "1013154"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P6127": "wds:Q124537378-67e97af7-b755-4f98-b041-5ae1ae8bdb29"
+    },
+    {
+      "@id": "wds:Q124537378-67e97af7-b755-4f98-b041-5ae1ae8bdb29",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P6127": "hard-truths-2024",
+      "wasDerivedFrom": "wdref:f8e2f5767060ad2642ea1c72310aefb40c6e64d0"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P1657": "wds:Q124537378-32DF13F5-B664-4D2A-9A99-78F396380B07"
+    },
+    {
+      "@id": "wds:Q124537378-32DF13F5-B664-4D2A-9A99-78F396380B07",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P1657": "wd:Q18665344",
+      "P2676": "54951",
+      "wasDerivedFrom": "wdref:bfd6d05763ec196f5bf1e5dbcb1f2677e75e316c"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P1712": "wds:Q124537378-17023f99-4bd9-b697-0a34-250183cca690"
+    },
+    {
+      "@id": "wds:Q124537378-17023f99-4bd9-b697-0a34-250183cca690",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P1712": "movie/hard-truths-2024"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P1258": "wds:Q124537378-f14f5498-4e72-b3c5-b766-c0696c656510"
+    },
+    {
+      "@id": "wds:Q124537378-f14f5498-4e72-b3c5-b766-c0696c656510",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P1258": "m/hard_truths"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P7573": "wds:Q124537378-866F20B6-86F4-454F-B68F-7D9F5EFECAA9"
+    },
+    {
+      "@id": "wds:Q124537378-866F20B6-86F4-454F-B68F-7D9F5EFECAA9",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P7573": "wd:Q74434531",
+      "wasDerivedFrom": "wdref:ac2d322c7633fb1c3b2625fc7b7bfb029d23f95d"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P495": "wds:Q124537378-4a09c2b3-43ab-fcc9-85e2-574b262afb58"
+    },
+    {
+      "@id": "wds:Q124537378-4a09c2b3-43ab-fcc9-85e2-574b262afb58",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P495": "wd:Q145"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P495": "wds:Q124537378-fbc1bf2f-49aa-5b98-e513-2f8c65b5c158"
+    },
+    {
+      "@id": "wds:Q124537378-fbc1bf2f-49aa-5b98-e513-2f8c65b5c158",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P495": "wd:Q29"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P577": "wds:Q124537378-39ed8de1-4673-ecf3-1420-7c4f28e152ba"
+    },
+    {
+      "@id": "wds:Q124537378-39ed8de1-4673-ecf3-1420-7c4f28e152ba",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P577": "2024-09-06T00:00:00Z",
+      "psv:P577": "wdv:b81ea9d59e98507432dc3794ac8942d5",
+      "P291": "wd:Q125208042"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P577": "wds:Q124537378-f291f1de-4826-1ae8-6363-e44688459695"
+    },
+    {
+      "@id": "wds:Q124537378-f291f1de-4826-1ae8-6363-e44688459695",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P577": "2025-01-01T00:00:00Z",
+      "psv:P577": "wdv:4de5e2012289c65383794ded5feb7092",
+      "P291": "wd:Q145"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P577": "wds:Q124537378-acbcca88-4066-a837-ef11-7de532a326c6"
+    },
+    {
+      "@id": "wds:Q124537378-acbcca88-4066-a837-ef11-7de532a326c6",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P577": "2025-02-28T00:00:00Z",
+      "psv:P577": "wdv:fcc6ae398a35f0863b47cf2dddc60d41",
+      "P291": "wd:Q29"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P1476": "wds:Q124537378-a3e5b351-47cc-bc72-1b5c-e6fbd5bc61c0"
+    },
+    {
+      "@id": "wds:Q124537378-a3e5b351-47cc-bc72-1b5c-e6fbd5bc61c0",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P1476": {
+        "@language": "en",
+        "@value": "Hard Truths"
+      }
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P57": "wds:Q124537378-74b28d28-4376-54a4-ad71-26724c2cb7f1"
+    },
+    {
+      "@id": "wds:Q124537378-74b28d28-4376-54a4-ad71-26724c2cb7f1",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P57": "wd:Q315756"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P364": "wds:Q124537378-a299f616-4450-a57e-9e47-b377fc6eb53e"
+    },
+    {
+      "@id": "wds:Q124537378-a299f616-4450-a57e-9e47-b377fc6eb53e",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P364": "wd:Q1860"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P136": "wds:Q124537378-7b0199c1-41d8-9954-37d6-10aaf8609ca9"
+    },
+    {
+      "@id": "wds:Q124537378-7b0199c1-41d8-9954-37d6-10aaf8609ca9",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P136": "wd:Q130232"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P373": "wds:Q124537378-ec257c87-af50-4a01-a560-2916cfa2b061"
+    },
+    {
+      "@id": "wds:Q124537378-ec257c87-af50-4a01-a560-2916cfa2b061",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P373": "Hard Truths"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P9586": "wds:Q124537378-E7CDE525-411A-4CDE-9D47-BFC2DB884499"
+    },
+    {
+      "@id": "wds:Q124537378-E7CDE525-411A-4CDE-9D47-BFC2DB884499",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P9586": "umc.cmc.4fdl1g0jq6v8i53sh7gozvd5s"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P161": "wds:Q124537378-418189d4-4e2a-aa0c-2277-61e69c2be10c"
+    },
+    {
+      "@id": "wds:Q124537378-418189d4-4e2a-aa0c-2277-61e69c2be10c",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P161": "wd:Q430872",
+      "wasDerivedFrom": "wdref:2a274899dffac09d042fde81eb395bff280092ec"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P161": "wds:Q124537378-1372f910-4304-ca22-acd0-8d90e5cbf897"
+    },
+    {
+      "@id": "wds:Q124537378-1372f910-4304-ca22-acd0-8d90e5cbf897",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P161": "wd:Q6836690",
+      "wasDerivedFrom": "wdref:2a274899dffac09d042fde81eb395bff280092ec"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P161": "wds:Q124537378-06568c85-4819-582e-2f7e-8e3b3ce77339"
+    },
+    {
+      "@id": "wds:Q124537378-06568c85-4819-582e-2f7e-8e3b3ce77339",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P161": "wd:Q75562963",
+      "wasDerivedFrom": "wdref:2a274899dffac09d042fde81eb395bff280092ec"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P86": "wds:Q124537378-8ce2f84f-4e1e-4392-22b3-072c198116a4"
+    },
+    {
+      "@id": "wds:Q124537378-8ce2f84f-4e1e-4392-22b3-072c198116a4",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P86": "wd:Q5526209",
+      "wasDerivedFrom": "wdref:2a274899dffac09d042fde81eb395bff280092ec"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P162": "wds:Q124537378-da4be7ea-4fd6-13f3-553d-ac5de2be4e53"
+    },
+    {
+      "@id": "wds:Q124537378-da4be7ea-4fd6-13f3-553d-ac5de2be4e53",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P162": "wd:Q5548271",
+      "wasDerivedFrom": "wdref:2a274899dffac09d042fde81eb395bff280092ec"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P444": "wds:Q124537378-08753465-5B97-458E-8146-95BE6D13C5CB"
+    },
+    {
+      "@id": "wds:Q124537378-08753465-5B97-458E-8146-95BE6D13C5CB",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P444": "88/100",
+      "P447": "wd:Q150248",
+      "P585": "2025-04-26T00:00:00Z",
+      "pqv:P585": "wdv:4a72c9ae4832bed1fbfafb84c1dce63e",
+      "P459": "wd:Q106515043",
+      "P7887": "+46",
+      "pqv:P7887": "wdv:43997852e4f9b0989415d5e55499cc8c",
+      "wasDerivedFrom": "wdref:7bb33a7c924d2199443fd12fcae16d2b8bec5de1"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P444": "wds:Q124537378-0DA89403-7C09-4876-ACE5-013935A736F5"
+    },
+    {
+      "@id": "wds:Q124537378-0DA89403-7C09-4876-ACE5-013935A736F5",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P444": "95%",
+      "P447": "wd:Q105584",
+      "P585": "2025-05-16T00:00:00Z",
+      "pqv:P585": "wdv:47c641b171998cd13cbc63e70bc67f6b",
+      "P459": "wd:Q108403393",
+      "P7887": "+179",
+      "pqv:P7887": "wdv:faceb0e7a471fde5075a976729224591",
+      "wasDerivedFrom": "wdref:f1f27dd76583bc0ce9f11f37c74137c353bd700a"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P344": "wds:Q124537378-EC31B932-25CE-43D4-B223-B8121CE8BC34"
+    },
+    {
+      "@id": "wds:Q124537378-EC31B932-25CE-43D4-B223-B8121CE8BC34",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P344": "wd:Q684952",
+      "wasDerivedFrom": "wdref:aa27262ab4be356903afe48dcf99926e3fb488fa"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P11460": "wds:Q124537378-bdd0e3a9-4315-4592-bc49-6322423147fa"
+    },
+    {
+      "@id": "wds:Q124537378-bdd0e3a9-4315-4592-bc49-6322423147fa",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P11460": "5f409b718642250042947336"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P7299": "wds:Q124537378-A416FC79-8B39-46F7-98A3-5948BE121DED"
+    },
+    {
+      "@id": "wds:Q124537378-A416FC79-8B39-46F7-98A3-5948BE121DED",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P7299": "400475"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P10100": "wds:Q124537378-CB75F363-6385-40CC-BCAE-CD37DB565EFD"
+    },
+    {
+      "@id": "wds:Q124537378-CB75F363-6385-40CC-BCAE-CD37DB565EFD",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P10100": "73432680"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P480": "wds:Q124537378-41E3A905-DF7E-40A0-8FC7-AD316ACA96AA"
+    },
+    {
+      "@id": "wds:Q124537378-41E3A905-DF7E-40A0-8FC7-AD316ACA96AA",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P480": "506370"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P1265": "wds:Q124537378-02B0CA15-D84A-4571-9072-0282669FDA96"
+    },
+    {
+      "@id": "wds:Q124537378-02B0CA15-D84A-4571-9072-0282669FDA96",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P1265": "316235"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P2047": "wds:Q124537378-CDBBB3FF-03E7-436D-8394-25692229DADA"
+    },
+    {
+      "@id": "wds:Q124537378-CDBBB3FF-03E7-436D-8394-25692229DADA",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P2047": "+97",
+      "psv:P2047": "wdv:0b00cd6513805df0119d20a9152b1774",
+      "psn:P2047": "wdv:b8ae674785f52a41c3b96a6e0eece8cf",
+      "wasDerivedFrom": "wdref:725d3ce531e6ab78374fe382ed09d8b459889e56"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P462": "wds:Q124537378-0BD96FBF-FA74-4691-981C-8D974F8D8034"
+    },
+    {
+      "@id": "wds:Q124537378-0BD96FBF-FA74-4691-981C-8D974F8D8034",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P462": "wd:Q22006653",
+      "wasDerivedFrom": "wdref:725d3ce531e6ab78374fe382ed09d8b459889e56"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P2603": "wds:Q124537378-90261929-43d7-edb7-a785-798308585124"
+    },
+    {
+      "@id": "wds:Q124537378-90261929-43d7-edb7-a785-798308585124",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P2603": "6288924"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P2346": "wds:Q124537378-9a379de3-4777-abf6-3375-61dedc562b1b"
+    },
+    {
+      "@id": "wds:Q124537378-9a379de3-4777-abf6-3375-61dedc562b1b",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P2346": "1653167"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P2334": "wds:Q124537378-af9fef8e-45a0-aa37-8426-fe9b9428fbf6"
+    },
+    {
+      "@id": "wds:Q124537378-af9fef8e-45a0-aa37-8426-fe9b9428fbf6",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P2334": "721061"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P2758": "wds:Q124537378-DCEC5065-2FB7-4132-8DC0-9EC120C41B29"
+    },
+    {
+      "@id": "wds:Q124537378-DCEC5065-2FB7-4132-8DC0-9EC120C41B29",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P2758": "wd:Q23817729",
+      "wasDerivedFrom": "wdref:1ca45851ad9f006cc5b2d34b30268b6724064359"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P2755": "wds:Q124537378-5C9330A9-9662-4E17-A4CC-7111FA53E244"
+    },
+    {
+      "@id": "wds:Q124537378-5C9330A9-9662-4E17-A4CC-7111FA53E244",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P2755": "164253",
+      "P580": "2025-03-04T00:00:00Z",
+      "pqv:P580": "wdv:f3f4a40c8b7bf3be1997cb1f61315c5a"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P1804": "wds:Q124537378-B6B06FCE-DAF5-4C64-8011-D5B5663FE2D2"
+    },
+    {
+      "@id": "wds:Q124537378-B6B06FCE-DAF5-4C64-8011-D5B5663FE2D2",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P1804": "128904"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "p:P2684": "wds:Q124537378-c436ed73-6c58-45f7-8335-41b5307c87c9"
+    },
+    {
+      "@id": "wds:Q124537378-c436ed73-6c58-45f7-8335-41b5307c87c9",
+      "@type": [
+        "wikibase:Statement",
+        "wikibase:BestRank"
+      ],
+      "rank": "wikibase:NormalRank",
+      "ps:P2684": "wd:Q23649980",
+      "P7367": "wd:Q98042270",
+      "wasDerivedFrom": "wdref:99a18c6999098f09e1ffd621f60a3cc0070e78f6"
+    },
+    {
+      "@id": "wd:Q124537378",
+      "label": [
+        {
+          "@language": "en",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "tr",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "nl",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "ko",
+          "@value": "하드 트루스"
+        },
+        {
+          "@language": "it",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "eu",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "de",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "es",
+          "@value": "Mi única familia"
+        },
+        {
+          "@language": "id",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "he",
+          "@value": "אמיתות קשות"
+        },
+        {
+          "@language": "fa",
+          "@value": "حقایق سخت"
+        },
+        {
+          "@language": "pt",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "uk",
+          "@value": "Жорстка правда"
+        },
+        {
+          "@language": "hu",
+          "@value": "Keserű igazságok"
+        },
+        {
+          "@language": "ca",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "da",
+          "@value": "Svære sandheder"
+        },
+        {
+          "@language": "fi",
+          "@value": "Kovia totuuksia"
+        },
+        {
+          "@language": "sv",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "zh-hk",
+          "@value": "狂媽日記"
+        },
+        {
+          "@language": "zh",
+          "@value": "狂媽日記"
+        },
+        {
+          "@language": "yue",
+          "@value": "狂媽日記"
+        },
+        {
+          "@language": "fr",
+          "@value": "Deux Sœurs"
+        },
+        {
+          "@language": "zh-hant",
+          "@value": "媽的碎念日記"
+        },
+        {
+          "@language": "zh-tw",
+          "@value": "媽的碎念日記"
+        }
+      ],
+      "prefLabel": [
+        {
+          "@language": "en",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "tr",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "nl",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "ko",
+          "@value": "하드 트루스"
+        },
+        {
+          "@language": "it",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "eu",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "de",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "es",
+          "@value": "Mi única familia"
+        },
+        {
+          "@language": "id",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "he",
+          "@value": "אמיתות קשות"
+        },
+        {
+          "@language": "fa",
+          "@value": "حقایق سخت"
+        },
+        {
+          "@language": "pt",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "uk",
+          "@value": "Жорстка правда"
+        },
+        {
+          "@language": "hu",
+          "@value": "Keserű igazságok"
+        },
+        {
+          "@language": "ca",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "da",
+          "@value": "Svære sandheder"
+        },
+        {
+          "@language": "fi",
+          "@value": "Kovia totuuksia"
+        },
+        {
+          "@language": "sv",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "zh-hk",
+          "@value": "狂媽日記"
+        },
+        {
+          "@language": "zh",
+          "@value": "狂媽日記"
+        },
+        {
+          "@language": "yue",
+          "@value": "狂媽日記"
+        },
+        {
+          "@language": "fr",
+          "@value": "Deux Sœurs"
+        },
+        {
+          "@language": "zh-hant",
+          "@value": "媽的碎念日記"
+        },
+        {
+          "@language": "zh-tw",
+          "@value": "媽的碎念日記"
+        }
+      ],
+      "name": [
+        {
+          "@language": "en",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "tr",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "nl",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "ko",
+          "@value": "하드 트루스"
+        },
+        {
+          "@language": "it",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "eu",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "de",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "es",
+          "@value": "Mi única familia"
+        },
+        {
+          "@language": "id",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "he",
+          "@value": "אמיתות קשות"
+        },
+        {
+          "@language": "fa",
+          "@value": "حقایق سخت"
+        },
+        {
+          "@language": "pt",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "uk",
+          "@value": "Жорстка правда"
+        },
+        {
+          "@language": "hu",
+          "@value": "Keserű igazságok"
+        },
+        {
+          "@language": "ca",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "da",
+          "@value": "Svære sandheder"
+        },
+        {
+          "@language": "fi",
+          "@value": "Kovia totuuksia"
+        },
+        {
+          "@language": "sv",
+          "@value": "Hard Truths"
+        },
+        {
+          "@language": "zh-hk",
+          "@value": "狂媽日記"
+        },
+        {
+          "@language": "zh",
+          "@value": "狂媽日記"
+        },
+        {
+          "@language": "yue",
+          "@value": "狂媽日記"
+        },
+        {
+          "@language": "fr",
+          "@value": "Deux Sœurs"
+        },
+        {
+          "@language": "zh-hant",
+          "@value": "媽的碎念日記"
+        },
+        {
+          "@language": "zh-tw",
+          "@value": "媽的碎念日記"
+        }
+      ],
+      "description": [
+        {
+          "@language": "en",
+          "@value": "2024 film directed by Mike Leigh"
+        },
+        {
+          "@language": "it",
+          "@value": "film del 2024 diretto da Mike Leigh"
+        },
+        {
+          "@language": "de",
+          "@value": "Film von Mike Leigh (2024)"
+        },
+        {
+          "@language": "es",
+          "@value": "película de 2024 dirigida por Mike Leigh"
+        },
+        {
+          "@language": "hu",
+          "@value": "Mike Leigh 2024-es filmje"
+        },
+        {
+          "@language": "sv",
+          "@value": "dramakomedi från 2024 regisserad av Mike Leigh"
+        },
+        {
+          "@language": "ko",
+          "@value": "2024년 마이크 리 감독의 영화"
+        }
+      ],
+      "altLabel": {
+        "@language": "fi",
+        "@value": "Hard Truths"
+      }
+    },
+    {
+      "@id": "wd:Q11424",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "film"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "film"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "film"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "sequence of images that give the impression of movement, stored on film stock"
+      }
+    },
+    {
+      "@id": "wd:P31",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "instance of"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "instance of"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "instance of"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "type to which this subject corresponds/belongs. Different from P279 (subclass of); for example: K2 is an instance of mountain; volcano is a subclass of mountain"
+      },
+      "propertyType": "http://wikiba.se/ontology#WikibaseItem",
+      "directClaim": "wdt:P31",
+      "claim": "p:P31",
+      "statementProperty": "ps:P31",
+      "statementValue": "psv:P31",
+      "qualifier": "pq:P31",
+      "qualifierValue": "pqv:P31",
+      "reference": "pr:P31",
+      "referenceValue": "prv:P31",
+      "novalue": "wdno:P31"
+    },
+    {
+      "@id": "p:P31",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P31",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P31",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P31",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P31",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "ps:P31",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pq:P31",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pr:P31",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P31",
+      "@type": "owl:Class",
+      "complementOf": "_:0b8bd71b926a65ca3fa72e5d9103e4d6"
+    },
+    {
+      "@id": "_:0b8bd71b926a65ca3fa72e5d9103e4d6",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P31",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P345",
+      "@type": "wikibase:Property",
+      "label": [
+        {
+          "@language": "en",
+          "@value": "IMDb ID"
+        },
+        {
+          "@language": "mul",
+          "@value": "IMDb ID"
+        }
+      ],
+      "prefLabel": [
+        {
+          "@language": "en",
+          "@value": "IMDb ID"
+        },
+        {
+          "@language": "mul",
+          "@value": "IMDb ID"
+        }
+      ],
+      "name": [
+        {
+          "@language": "en",
+          "@value": "IMDb ID"
+        },
+        {
+          "@language": "mul",
+          "@value": "IMDb ID"
+        }
+      ],
+      "description": {
+        "@language": "en",
+        "@value": "identifier for the IMDb (with prefix 'tt', 'nm', 'co', 'ev', 'ch' or 'ni')"
+      },
+      "propertyType": "http://wikiba.se/ontology#ExternalId",
+      "directClaim": "wdt:P345",
+      "claim": "p:P345",
+      "statementProperty": "ps:P345",
+      "statementValue": "psv:P345",
+      "qualifier": "pq:P345",
+      "qualifierValue": "pqv:P345",
+      "reference": "pr:P345",
+      "referenceValue": "prv:P345",
+      "novalue": "wdno:P345",
+      "directClaimNormalized": "wdtn:P345",
+      "statementValueNormalized": "psn:P345",
+      "qualifierValueNormalized": "pqn:P345",
+      "referenceValueNormalized": "prn:P345"
+    },
+    {
+      "@id": "p:P345",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P345",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P345",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P345",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P345",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P345",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P345",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P345",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "psn:P345",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqn:P345",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prn:P345",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdtn:P345",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P345",
+      "@type": "owl:Class",
+      "complementOf": "_:3a4e6350bce9f8651aa60101dacb63de"
+    },
+    {
+      "@id": "_:3a4e6350bce9f8651aa60101dacb63de",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P345",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P4947",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "TMDB movie ID"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "TMDB movie ID"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "TMDB movie ID"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "identifier for a movie at The Movie Database"
+      },
+      "propertyType": "http://wikiba.se/ontology#ExternalId",
+      "directClaim": "wdt:P4947",
+      "claim": "p:P4947",
+      "statementProperty": "ps:P4947",
+      "statementValue": "psv:P4947",
+      "qualifier": "pq:P4947",
+      "qualifierValue": "pqv:P4947",
+      "reference": "pr:P4947",
+      "referenceValue": "prv:P4947",
+      "novalue": "wdno:P4947",
+      "directClaimNormalized": "wdtn:P4947",
+      "statementValueNormalized": "psn:P4947",
+      "qualifierValueNormalized": "pqn:P4947",
+      "referenceValueNormalized": "prn:P4947"
+    },
+    {
+      "@id": "p:P4947",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P4947",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P4947",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P4947",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P4947",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P4947",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P4947",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P4947",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "psn:P4947",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqn:P4947",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prn:P4947",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdtn:P4947",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P4947",
+      "@type": "owl:Class",
+      "complementOf": "_:effbdf824452f09ff48148cf345b3dc7"
+    },
+    {
+      "@id": "_:effbdf824452f09ff48148cf345b3dc7",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P4947",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P6127",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "Letterboxd film ID"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Letterboxd film ID"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Letterboxd film ID"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "identifier for a film on the website Letterboxd"
+      },
+      "propertyType": "http://wikiba.se/ontology#ExternalId",
+      "directClaim": "wdt:P6127",
+      "claim": "p:P6127",
+      "statementProperty": "ps:P6127",
+      "statementValue": "psv:P6127",
+      "qualifier": "pq:P6127",
+      "qualifierValue": "pqv:P6127",
+      "reference": "pr:P6127",
+      "referenceValue": "prv:P6127",
+      "novalue": "wdno:P6127",
+      "directClaimNormalized": "wdtn:P6127",
+      "statementValueNormalized": "psn:P6127",
+      "qualifierValueNormalized": "pqn:P6127",
+      "referenceValueNormalized": "prn:P6127"
+    },
+    {
+      "@id": "p:P6127",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P6127",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P6127",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P6127",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P6127",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P6127",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P6127",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P6127",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "psn:P6127",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqn:P6127",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prn:P6127",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdtn:P6127",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P6127",
+      "@type": "owl:Class",
+      "complementOf": "_:78f2054d4ee6d79ede4259cc36af5598"
+    },
+    {
+      "@id": "_:78f2054d4ee6d79ede4259cc36af5598",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P6127",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:Q18665344",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "R"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "R"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "R"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "film content classification given by the Motion Picture Association"
+      }
+    },
+    {
+      "@id": "wd:P1657",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "MPA film rating"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "MPA film rating"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "MPA film rating"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "US film classification administered by the Motion Picture Association"
+      },
+      "propertyType": "http://wikiba.se/ontology#WikibaseItem",
+      "directClaim": "wdt:P1657",
+      "claim": "p:P1657",
+      "statementProperty": "ps:P1657",
+      "statementValue": "psv:P1657",
+      "qualifier": "pq:P1657",
+      "qualifierValue": "pqv:P1657",
+      "reference": "pr:P1657",
+      "referenceValue": "prv:P1657",
+      "novalue": "wdno:P1657"
+    },
+    {
+      "@id": "p:P1657",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P1657",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P1657",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P1657",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P1657",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "ps:P1657",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pq:P1657",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pr:P1657",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P1657",
+      "@type": "owl:Class",
+      "complementOf": "_:7c4ad4702da98993ed1ba070a1a9908a"
+    },
+    {
+      "@id": "_:7c4ad4702da98993ed1ba070a1a9908a",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P1657",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P1712",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "Metacritic ID"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Metacritic ID"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Metacritic ID"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "identifier for Metacritic"
+      },
+      "propertyType": "http://wikiba.se/ontology#ExternalId",
+      "directClaim": "wdt:P1712",
+      "claim": "p:P1712",
+      "statementProperty": "ps:P1712",
+      "statementValue": "psv:P1712",
+      "qualifier": "pq:P1712",
+      "qualifierValue": "pqv:P1712",
+      "reference": "pr:P1712",
+      "referenceValue": "prv:P1712",
+      "novalue": "wdno:P1712",
+      "directClaimNormalized": "wdtn:P1712",
+      "statementValueNormalized": "psn:P1712",
+      "qualifierValueNormalized": "pqn:P1712",
+      "referenceValueNormalized": "prn:P1712"
+    },
+    {
+      "@id": "p:P1712",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P1712",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P1712",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P1712",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P1712",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P1712",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P1712",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P1712",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "psn:P1712",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqn:P1712",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prn:P1712",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdtn:P1712",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P1712",
+      "@type": "owl:Class",
+      "complementOf": "_:369226ef412daf2d5f8922484d273521"
+    },
+    {
+      "@id": "_:369226ef412daf2d5f8922484d273521",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P1712",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P1258",
+      "@type": "wikibase:Property",
+      "label": [
+        {
+          "@language": "en",
+          "@value": "Rotten Tomatoes ID"
+        },
+        {
+          "@language": "mul",
+          "@value": "Rotten Tomatoes ID"
+        }
+      ],
+      "prefLabel": [
+        {
+          "@language": "en",
+          "@value": "Rotten Tomatoes ID"
+        },
+        {
+          "@language": "mul",
+          "@value": "Rotten Tomatoes ID"
+        }
+      ],
+      "name": [
+        {
+          "@language": "en",
+          "@value": "Rotten Tomatoes ID"
+        },
+        {
+          "@language": "mul",
+          "@value": "Rotten Tomatoes ID"
+        }
+      ],
+      "description": {
+        "@language": "en",
+        "@value": "identifier on Rotten Tomatoes"
+      },
+      "propertyType": "http://wikiba.se/ontology#ExternalId",
+      "directClaim": "wdt:P1258",
+      "claim": "p:P1258",
+      "statementProperty": "ps:P1258",
+      "statementValue": "psv:P1258",
+      "qualifier": "pq:P1258",
+      "qualifierValue": "pqv:P1258",
+      "reference": "pr:P1258",
+      "referenceValue": "prv:P1258",
+      "novalue": "wdno:P1258",
+      "directClaimNormalized": "wdtn:P1258",
+      "statementValueNormalized": "psn:P1258",
+      "qualifierValueNormalized": "pqn:P1258",
+      "referenceValueNormalized": "prn:P1258"
+    },
+    {
+      "@id": "p:P1258",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P1258",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P1258",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P1258",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P1258",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P1258",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P1258",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P1258",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "psn:P1258",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqn:P1258",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prn:P1258",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdtn:P1258",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P1258",
+      "@type": "owl:Class",
+      "complementOf": "_:f73bf261a91757d82cdef8f992dd5275"
+    },
+    {
+      "@id": "_:f73bf261a91757d82cdef8f992dd5275",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P1258",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:Q74434531",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "12A"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "12A"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "12A"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "theatrical certificate in the IFCO classification system (formerly 12PG until January 1, 2005)"
+      }
+    },
+    {
+      "@id": "wd:P7573",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "IFCO rating"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "IFCO rating"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "IFCO rating"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "rating certificate of a film in the Irish content classification system"
+      },
+      "propertyType": "http://wikiba.se/ontology#WikibaseItem",
+      "directClaim": "wdt:P7573",
+      "claim": "p:P7573",
+      "statementProperty": "ps:P7573",
+      "statementValue": "psv:P7573",
+      "qualifier": "pq:P7573",
+      "qualifierValue": "pqv:P7573",
+      "reference": "pr:P7573",
+      "referenceValue": "prv:P7573",
+      "novalue": "wdno:P7573"
+    },
+    {
+      "@id": "p:P7573",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P7573",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P7573",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P7573",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P7573",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "ps:P7573",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pq:P7573",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pr:P7573",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P7573",
+      "@type": "owl:Class",
+      "complementOf": "_:bf6aa66d00467ff4efb6097d2acf1263"
+    },
+    {
+      "@id": "_:bf6aa66d00467ff4efb6097d2acf1263",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P7573",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:Q145",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "United Kingdom"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "United Kingdom"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "United Kingdom"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "country in north-west Europe"
+      }
+    },
+    {
+      "@id": "wd:P495",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "country of origin"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "country of origin"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "country of origin"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "country of origin of this item (creative work, food, phrase, product, etc.)"
+      },
+      "propertyType": "http://wikiba.se/ontology#WikibaseItem",
+      "directClaim": "wdt:P495",
+      "claim": "p:P495",
+      "statementProperty": "ps:P495",
+      "statementValue": "psv:P495",
+      "qualifier": "pq:P495",
+      "qualifierValue": "pqv:P495",
+      "reference": "pr:P495",
+      "referenceValue": "prv:P495",
+      "novalue": "wdno:P495"
+    },
+    {
+      "@id": "p:P495",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P495",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P495",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P495",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P495",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "ps:P495",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pq:P495",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pr:P495",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P495",
+      "@type": "owl:Class",
+      "complementOf": "_:89c964558690e03ec06c2777445cf191"
+    },
+    {
+      "@id": "_:89c964558690e03ec06c2777445cf191",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P495",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:Q29",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Spain"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Spain"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Spain"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "country in southwestern Europe with territories in Africa"
+      }
+    },
+    {
+      "@id": "wd:P577",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "publication date"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "publication date"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "publication date"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "date or point in time when a work was first published or released"
+      },
+      "propertyType": "http://wikiba.se/ontology#Time",
+      "directClaim": "wdt:P577",
+      "claim": "p:P577",
+      "statementProperty": "ps:P577",
+      "statementValue": "psv:P577",
+      "qualifier": "pq:P577",
+      "qualifierValue": "pqv:P577",
+      "reference": "pr:P577",
+      "referenceValue": "prv:P577",
+      "novalue": "wdno:P577"
+    },
+    {
+      "@id": "p:P577",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P577",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P577",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P577",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P577",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P577",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P577",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P577",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "wdno:P577",
+      "@type": "owl:Class",
+      "complementOf": "_:eca5fcd2c546d0e0c20e05f61e0aa797"
+    },
+    {
+      "@id": "_:eca5fcd2c546d0e0c20e05f61e0aa797",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P577",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P1476",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "title"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "title"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "title"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "published name of a work, such as a newspaper article, a literary work, piece of music, a website, or a performance work"
+      },
+      "propertyType": "http://wikiba.se/ontology#Monolingualtext",
+      "directClaim": "wdt:P1476",
+      "claim": "p:P1476",
+      "statementProperty": "ps:P1476",
+      "statementValue": "psv:P1476",
+      "qualifier": "pq:P1476",
+      "qualifierValue": "pqv:P1476",
+      "reference": "pr:P1476",
+      "referenceValue": "prv:P1476",
+      "novalue": "wdno:P1476"
+    },
+    {
+      "@id": "p:P1476",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P1476",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P1476",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P1476",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P1476",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P1476",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P1476",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P1476",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "wdno:P1476",
+      "@type": "owl:Class",
+      "complementOf": "_:d280eacd08390593b606f11be98380c0"
+    },
+    {
+      "@id": "_:d280eacd08390593b606f11be98380c0",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P1476",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:Q315756",
+      "@type": "wikibase:Item",
+      "label": [
+        {
+          "@language": "en",
+          "@value": "Mike Leigh"
+        },
+        {
+          "@language": "mul",
+          "@value": "Mike Leigh"
+        }
+      ],
+      "prefLabel": [
+        {
+          "@language": "en",
+          "@value": "Mike Leigh"
+        },
+        {
+          "@language": "mul",
+          "@value": "Mike Leigh"
+        }
+      ],
+      "name": [
+        {
+          "@language": "en",
+          "@value": "Mike Leigh"
+        },
+        {
+          "@language": "mul",
+          "@value": "Mike Leigh"
+        }
+      ],
+      "description": {
+        "@language": "en",
+        "@value": "English writer and director (born 1943)"
+      }
+    },
+    {
+      "@id": "wd:P57",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "director"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "director"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "director"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "director(s) of film, TV-series, stageplay, video game or similar"
+      },
+      "propertyType": "http://wikiba.se/ontology#WikibaseItem",
+      "directClaim": "wdt:P57",
+      "claim": "p:P57",
+      "statementProperty": "ps:P57",
+      "statementValue": "psv:P57",
+      "qualifier": "pq:P57",
+      "qualifierValue": "pqv:P57",
+      "reference": "pr:P57",
+      "referenceValue": "prv:P57",
+      "novalue": "wdno:P57"
+    },
+    {
+      "@id": "p:P57",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P57",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P57",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P57",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P57",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "ps:P57",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pq:P57",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pr:P57",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P57",
+      "@type": "owl:Class",
+      "complementOf": "_:6d76711477ac90d5982ce348205913c4"
+    },
+    {
+      "@id": "_:6d76711477ac90d5982ce348205913c4",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P57",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:Q1860",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "English"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "English"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "English"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "West Germanic language"
+      }
+    },
+    {
+      "@id": "wd:P364",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "original language of film or TV show"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "original language of film or TV show"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "original language of film or TV show"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "language in which a film or a performance work was originally created. Deprecated for written works and songs; use P407 (\"language of work or name\") instead."
+      },
+      "propertyType": "http://wikiba.se/ontology#WikibaseItem",
+      "directClaim": "wdt:P364",
+      "claim": "p:P364",
+      "statementProperty": "ps:P364",
+      "statementValue": "psv:P364",
+      "qualifier": "pq:P364",
+      "qualifierValue": "pqv:P364",
+      "reference": "pr:P364",
+      "referenceValue": "prv:P364",
+      "novalue": "wdno:P364"
+    },
+    {
+      "@id": "p:P364",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P364",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P364",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P364",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P364",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "ps:P364",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pq:P364",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pr:P364",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P364",
+      "@type": "owl:Class",
+      "complementOf": "_:8de315d1fe397da25a02816546f659b2"
+    },
+    {
+      "@id": "_:8de315d1fe397da25a02816546f659b2",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P364",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:Q130232",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "drama film"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "drama film"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "drama film"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "film genre"
+      }
+    },
+    {
+      "@id": "wd:P136",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "genre"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "genre"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "genre"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "creative work's genre or an artist's field of work (P101). Use main subject (P921) to relate creative works to their topic"
+      },
+      "propertyType": "http://wikiba.se/ontology#WikibaseItem",
+      "directClaim": "wdt:P136",
+      "claim": "p:P136",
+      "statementProperty": "ps:P136",
+      "statementValue": "psv:P136",
+      "qualifier": "pq:P136",
+      "qualifierValue": "pqv:P136",
+      "reference": "pr:P136",
+      "referenceValue": "prv:P136",
+      "novalue": "wdno:P136"
+    },
+    {
+      "@id": "p:P136",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P136",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P136",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P136",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P136",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "ps:P136",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pq:P136",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pr:P136",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P136",
+      "@type": "owl:Class",
+      "complementOf": "_:82beabebf8460a8af5174d4f3e83854d"
+    },
+    {
+      "@id": "_:82beabebf8460a8af5174d4f3e83854d",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P136",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P373",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "Commons category"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Commons category"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Commons category"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "name of the Wikimedia Commons category containing files related to this item (without the prefix \"Category:\")"
+      },
+      "propertyType": "http://wikiba.se/ontology#String",
+      "directClaim": "wdt:P373",
+      "claim": "p:P373",
+      "statementProperty": "ps:P373",
+      "statementValue": "psv:P373",
+      "qualifier": "pq:P373",
+      "qualifierValue": "pqv:P373",
+      "reference": "pr:P373",
+      "referenceValue": "prv:P373",
+      "novalue": "wdno:P373"
+    },
+    {
+      "@id": "p:P373",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P373",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P373",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P373",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P373",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P373",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P373",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P373",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "wdno:P373",
+      "@type": "owl:Class",
+      "complementOf": "_:3de19c92e209926f02f215095eb4fd12"
+    },
+    {
+      "@id": "_:3de19c92e209926f02f215095eb4fd12",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P373",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P9586",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "Apple TV movie ID"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Apple TV movie ID"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Apple TV movie ID"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "identifier for a movie on Apple TV"
+      },
+      "propertyType": "http://wikiba.se/ontology#ExternalId",
+      "directClaim": "wdt:P9586",
+      "claim": "p:P9586",
+      "statementProperty": "ps:P9586",
+      "statementValue": "psv:P9586",
+      "qualifier": "pq:P9586",
+      "qualifierValue": "pqv:P9586",
+      "reference": "pr:P9586",
+      "referenceValue": "prv:P9586",
+      "novalue": "wdno:P9586",
+      "directClaimNormalized": "wdtn:P9586",
+      "statementValueNormalized": "psn:P9586",
+      "qualifierValueNormalized": "pqn:P9586",
+      "referenceValueNormalized": "prn:P9586"
+    },
+    {
+      "@id": "p:P9586",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P9586",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P9586",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P9586",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P9586",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P9586",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P9586",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P9586",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "psn:P9586",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqn:P9586",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prn:P9586",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdtn:P9586",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P9586",
+      "@type": "owl:Class",
+      "complementOf": "_:4ba2ba7e18d183d73d0d5d3fd2b846a6"
+    },
+    {
+      "@id": "_:4ba2ba7e18d183d73d0d5d3fd2b846a6",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P9586",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:Q430872",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Marianne Jean-Baptiste"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Marianne Jean-Baptiste"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Marianne Jean-Baptiste"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "British actress"
+      }
+    },
+    {
+      "@id": "wd:P161",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "cast member"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "cast member"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "cast member"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "actor in the subject production [use \"character role\" (P453) and/or \"name of the character role\" (P4633) as qualifiers] [use \"voice actor\" (P725) for voice-only role] - [use \"recorded participant\" (P11108) for non-fiction productions]"
+      },
+      "propertyType": "http://wikiba.se/ontology#WikibaseItem",
+      "directClaim": "wdt:P161",
+      "claim": "p:P161",
+      "statementProperty": "ps:P161",
+      "statementValue": "psv:P161",
+      "qualifier": "pq:P161",
+      "qualifierValue": "pqv:P161",
+      "reference": "pr:P161",
+      "referenceValue": "prv:P161",
+      "novalue": "wdno:P161"
+    },
+    {
+      "@id": "p:P161",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P161",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P161",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P161",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P161",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "ps:P161",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pq:P161",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pr:P161",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P161",
+      "@type": "owl:Class",
+      "complementOf": "_:6ceafe6b1a816bec1620d1d53c548664"
+    },
+    {
+      "@id": "_:6ceafe6b1a816bec1620d1d53c548664",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P161",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:Q6836690",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Michele Austin"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Michele Austin"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Michele Austin"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "British actress"
+      }
+    },
+    {
+      "@id": "wd:Q75562963",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Sophia Brown"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Sophia Brown"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Sophia Brown"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "British actress"
+      }
+    },
+    {
+      "@id": "wd:Q5526209",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Gary Yershon"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Gary Yershon"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Gary Yershon"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "English composer"
+      }
+    },
+    {
+      "@id": "wd:P86",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "composer"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "composer"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "composer"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "person(s) who wrote the music [for lyricist, use \"lyrics by\" (P676)]"
+      },
+      "propertyType": "http://wikiba.se/ontology#WikibaseItem",
+      "directClaim": "wdt:P86",
+      "claim": "p:P86",
+      "statementProperty": "ps:P86",
+      "statementValue": "psv:P86",
+      "qualifier": "pq:P86",
+      "qualifierValue": "pqv:P86",
+      "reference": "pr:P86",
+      "referenceValue": "prv:P86",
+      "novalue": "wdno:P86"
+    },
+    {
+      "@id": "p:P86",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P86",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P86",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P86",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P86",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "ps:P86",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pq:P86",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pr:P86",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P86",
+      "@type": "owl:Class",
+      "complementOf": "_:c2ca50d9557e58e47a7db5929380f3f0"
+    },
+    {
+      "@id": "_:c2ca50d9557e58e47a7db5929380f3f0",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P86",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:Q5548271",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Georgina Lowe"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Georgina Lowe"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Georgina Lowe"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "British television producer"
+      }
+    },
+    {
+      "@id": "wd:P162",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "producer"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "producer"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "producer"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "person(s) who produced the film, musical work, theatrical production, etc. (for film, this does not include executive producers, associate producers, etc.) [for production company, use P272, video games - use P178]"
+      },
+      "propertyType": "http://wikiba.se/ontology#WikibaseItem",
+      "directClaim": "wdt:P162",
+      "claim": "p:P162",
+      "statementProperty": "ps:P162",
+      "statementValue": "psv:P162",
+      "qualifier": "pq:P162",
+      "qualifierValue": "pqv:P162",
+      "reference": "pr:P162",
+      "referenceValue": "prv:P162",
+      "novalue": "wdno:P162"
+    },
+    {
+      "@id": "p:P162",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P162",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P162",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P162",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P162",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "ps:P162",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pq:P162",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pr:P162",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P162",
+      "@type": "owl:Class",
+      "complementOf": "_:c0571f2175f00c62fbabe94e498c737a"
+    },
+    {
+      "@id": "_:c0571f2175f00c62fbabe94e498c737a",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P162",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P444",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "review score"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "review score"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "review score"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "review score received by a creative work or other entity"
+      },
+      "propertyType": "http://wikiba.se/ontology#String",
+      "directClaim": "wdt:P444",
+      "claim": "p:P444",
+      "statementProperty": "ps:P444",
+      "statementValue": "psv:P444",
+      "qualifier": "pq:P444",
+      "qualifierValue": "pqv:P444",
+      "reference": "pr:P444",
+      "referenceValue": "prv:P444",
+      "novalue": "wdno:P444"
+    },
+    {
+      "@id": "p:P444",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P444",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P444",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P444",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P444",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P444",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P444",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P444",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "wdno:P444",
+      "@type": "owl:Class",
+      "complementOf": "_:80ebd3809fb3df390f641dde0bf1d733"
+    },
+    {
+      "@id": "_:80ebd3809fb3df390f641dde0bf1d733",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P444",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:Q684952",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Dick Pope"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Dick Pope"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Dick Pope"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "British cinematographer (1947–2024)"
+      }
+    },
+    {
+      "@id": "wd:P344",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "director of photography"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "director of photography"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "director of photography"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "person responsible for the framing, lighting, and filtration of the subject work"
+      },
+      "propertyType": "http://wikiba.se/ontology#WikibaseItem",
+      "directClaim": "wdt:P344",
+      "claim": "p:P344",
+      "statementProperty": "ps:P344",
+      "statementValue": "psv:P344",
+      "qualifier": "pq:P344",
+      "qualifierValue": "pqv:P344",
+      "reference": "pr:P344",
+      "referenceValue": "prv:P344",
+      "novalue": "wdno:P344"
+    },
+    {
+      "@id": "p:P344",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P344",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P344",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P344",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P344",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "ps:P344",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pq:P344",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pr:P344",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P344",
+      "@type": "owl:Class",
+      "complementOf": "_:3724f78b729ea17abfaa8677056b612e"
+    },
+    {
+      "@id": "_:3724f78b729ea17abfaa8677056b612e",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P344",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P11460",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "Plex media key"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Plex media key"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Plex media key"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "24 hex character identifier for media item on Plex; different than watch.plex.tv url slug"
+      },
+      "propertyType": "http://wikiba.se/ontology#ExternalId",
+      "directClaim": "wdt:P11460",
+      "claim": "p:P11460",
+      "statementProperty": "ps:P11460",
+      "statementValue": "psv:P11460",
+      "qualifier": "pq:P11460",
+      "qualifierValue": "pqv:P11460",
+      "reference": "pr:P11460",
+      "referenceValue": "prv:P11460",
+      "novalue": "wdno:P11460",
+      "directClaimNormalized": "wdtn:P11460",
+      "statementValueNormalized": "psn:P11460",
+      "qualifierValueNormalized": "pqn:P11460",
+      "referenceValueNormalized": "prn:P11460"
+    },
+    {
+      "@id": "p:P11460",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P11460",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P11460",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P11460",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P11460",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P11460",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P11460",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P11460",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "psn:P11460",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqn:P11460",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prn:P11460",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdtn:P11460",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P11460",
+      "@type": "owl:Class",
+      "complementOf": "_:b726ed7214af60d5c082f43ac33327c6"
+    },
+    {
+      "@id": "_:b726ed7214af60d5c082f43ac33327c6",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P11460",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P7299",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "MUBI film ID"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "MUBI film ID"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "MUBI film ID"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "identifier for a film at MUBI"
+      },
+      "propertyType": "http://wikiba.se/ontology#ExternalId",
+      "directClaim": "wdt:P7299",
+      "claim": "p:P7299",
+      "statementProperty": "ps:P7299",
+      "statementValue": "psv:P7299",
+      "qualifier": "pq:P7299",
+      "qualifierValue": "pqv:P7299",
+      "reference": "pr:P7299",
+      "referenceValue": "prv:P7299",
+      "novalue": "wdno:P7299",
+      "directClaimNormalized": "wdtn:P7299",
+      "statementValueNormalized": "psn:P7299",
+      "qualifierValueNormalized": "pqn:P7299",
+      "referenceValueNormalized": "prn:P7299"
+    },
+    {
+      "@id": "p:P7299",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P7299",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P7299",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P7299",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P7299",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P7299",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P7299",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P7299",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "psn:P7299",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqn:P7299",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prn:P7299",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdtn:P7299",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P7299",
+      "@type": "owl:Class",
+      "complementOf": "_:7671c2a32aa3df973ae3dbb9e669cfba"
+    },
+    {
+      "@id": "_:7671c2a32aa3df973ae3dbb9e669cfba",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P7299",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P10100",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "SensCritique work ID"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "SensCritique work ID"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "SensCritique work ID"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "numerical identifier of a work in the SensCritique database"
+      },
+      "propertyType": "http://wikiba.se/ontology#ExternalId",
+      "directClaim": "wdt:P10100",
+      "claim": "p:P10100",
+      "statementProperty": "ps:P10100",
+      "statementValue": "psv:P10100",
+      "qualifier": "pq:P10100",
+      "qualifierValue": "pqv:P10100",
+      "reference": "pr:P10100",
+      "referenceValue": "prv:P10100",
+      "novalue": "wdno:P10100",
+      "directClaimNormalized": "wdtn:P10100",
+      "statementValueNormalized": "psn:P10100",
+      "qualifierValueNormalized": "pqn:P10100",
+      "referenceValueNormalized": "prn:P10100"
+    },
+    {
+      "@id": "p:P10100",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P10100",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P10100",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P10100",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P10100",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P10100",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P10100",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P10100",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "psn:P10100",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqn:P10100",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prn:P10100",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdtn:P10100",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P10100",
+      "@type": "owl:Class",
+      "complementOf": "_:28012280c17305fd86c817e842717af1"
+    },
+    {
+      "@id": "_:28012280c17305fd86c817e842717af1",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P10100",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P480",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "FilmAffinity film ID"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "FilmAffinity film ID"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "FilmAffinity film ID"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "FilmAffinity identification number of a creative work"
+      },
+      "propertyType": "http://wikiba.se/ontology#ExternalId",
+      "directClaim": "wdt:P480",
+      "claim": "p:P480",
+      "statementProperty": "ps:P480",
+      "statementValue": "psv:P480",
+      "qualifier": "pq:P480",
+      "qualifierValue": "pqv:P480",
+      "reference": "pr:P480",
+      "referenceValue": "prv:P480",
+      "novalue": "wdno:P480",
+      "directClaimNormalized": "wdtn:P480",
+      "statementValueNormalized": "psn:P480",
+      "qualifierValueNormalized": "pqn:P480",
+      "referenceValueNormalized": "prn:P480"
+    },
+    {
+      "@id": "p:P480",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P480",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P480",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P480",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P480",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P480",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P480",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P480",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "psn:P480",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqn:P480",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prn:P480",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdtn:P480",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P480",
+      "@type": "owl:Class",
+      "complementOf": "_:3814f954b1734b6f834e64eff0cf7d36"
+    },
+    {
+      "@id": "_:3814f954b1734b6f834e64eff0cf7d36",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P480",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P1265",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "AlloCiné film ID"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "AlloCiné film ID"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "AlloCiné film ID"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "identifier for a film in the French AlloCiné database"
+      },
+      "propertyType": "http://wikiba.se/ontology#ExternalId",
+      "directClaim": "wdt:P1265",
+      "claim": "p:P1265",
+      "statementProperty": "ps:P1265",
+      "statementValue": "psv:P1265",
+      "qualifier": "pq:P1265",
+      "qualifierValue": "pqv:P1265",
+      "reference": "pr:P1265",
+      "referenceValue": "prv:P1265",
+      "novalue": "wdno:P1265",
+      "directClaimNormalized": "wdtn:P1265",
+      "statementValueNormalized": "psn:P1265",
+      "qualifierValueNormalized": "pqn:P1265",
+      "referenceValueNormalized": "prn:P1265"
+    },
+    {
+      "@id": "p:P1265",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P1265",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P1265",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P1265",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P1265",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P1265",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P1265",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P1265",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "psn:P1265",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqn:P1265",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prn:P1265",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdtn:P1265",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P1265",
+      "@type": "owl:Class",
+      "complementOf": "_:54caf65e51913dd774d25f405d45a62d"
+    },
+    {
+      "@id": "_:54caf65e51913dd774d25f405d45a62d",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P1265",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P2047",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "duration"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "duration"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "duration"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "length of time of an event or process"
+      },
+      "propertyType": "http://wikiba.se/ontology#Quantity",
+      "directClaim": "wdt:P2047",
+      "claim": "p:P2047",
+      "statementProperty": "ps:P2047",
+      "statementValue": "psv:P2047",
+      "qualifier": "pq:P2047",
+      "qualifierValue": "pqv:P2047",
+      "reference": "pr:P2047",
+      "referenceValue": "prv:P2047",
+      "novalue": "wdno:P2047",
+      "directClaimNormalized": "wdtn:P2047",
+      "statementValueNormalized": "psn:P2047",
+      "qualifierValueNormalized": "pqn:P2047",
+      "referenceValueNormalized": "prn:P2047"
+    },
+    {
+      "@id": "p:P2047",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P2047",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P2047",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P2047",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P2047",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P2047",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P2047",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P2047",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "psn:P2047",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqn:P2047",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prn:P2047",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdtn:P2047",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "wdno:P2047",
+      "@type": "owl:Class",
+      "complementOf": "_:2cac63b2d7a417bb5a25c4b95379c2a8"
+    },
+    {
+      "@id": "_:2cac63b2d7a417bb5a25c4b95379c2a8",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P2047",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:Q22006653",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "color"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "color"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "color"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "filmed or drawn in color, the opposite of black-and-white"
+      }
+    },
+    {
+      "@id": "wd:P462",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "color"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "color"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "color"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "color of subject"
+      },
+      "propertyType": "http://wikiba.se/ontology#WikibaseItem",
+      "directClaim": "wdt:P462",
+      "claim": "p:P462",
+      "statementProperty": "ps:P462",
+      "statementValue": "psv:P462",
+      "qualifier": "pq:P462",
+      "qualifierValue": "pqv:P462",
+      "reference": "pr:P462",
+      "referenceValue": "prv:P462",
+      "novalue": "wdno:P462"
+    },
+    {
+      "@id": "p:P462",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P462",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P462",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P462",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P462",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "ps:P462",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pq:P462",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pr:P462",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P462",
+      "@type": "owl:Class",
+      "complementOf": "_:b30ccb5442e0408460e10c2e7f33e6b2"
+    },
+    {
+      "@id": "_:b30ccb5442e0408460e10c2e7f33e6b2",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P462",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P2603",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "Kinopoisk film ID"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Kinopoisk film ID"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Kinopoisk film ID"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "identifier for a film/movie in the Russian Kinopoisk.ru database"
+      },
+      "propertyType": "http://wikiba.se/ontology#ExternalId",
+      "directClaim": "wdt:P2603",
+      "claim": "p:P2603",
+      "statementProperty": "ps:P2603",
+      "statementValue": "psv:P2603",
+      "qualifier": "pq:P2603",
+      "qualifierValue": "pqv:P2603",
+      "reference": "pr:P2603",
+      "referenceValue": "prv:P2603",
+      "novalue": "wdno:P2603",
+      "directClaimNormalized": "wdtn:P2603",
+      "statementValueNormalized": "psn:P2603",
+      "qualifierValueNormalized": "pqn:P2603",
+      "referenceValueNormalized": "prn:P2603"
+    },
+    {
+      "@id": "p:P2603",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P2603",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P2603",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P2603",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P2603",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P2603",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P2603",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P2603",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "psn:P2603",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqn:P2603",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prn:P2603",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdtn:P2603",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P2603",
+      "@type": "owl:Class",
+      "complementOf": "_:b3e5489b213d15db8877f537e50f5421"
+    },
+    {
+      "@id": "_:b3e5489b213d15db8877f537e50f5421",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P2603",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P2346",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "Elonet movie ID"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Elonet movie ID"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Elonet movie ID"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "identifier for a movie in the Elonet database"
+      },
+      "propertyType": "http://wikiba.se/ontology#ExternalId",
+      "directClaim": "wdt:P2346",
+      "claim": "p:P2346",
+      "statementProperty": "ps:P2346",
+      "statementValue": "psv:P2346",
+      "qualifier": "pq:P2346",
+      "qualifierValue": "pqv:P2346",
+      "reference": "pr:P2346",
+      "referenceValue": "prv:P2346",
+      "novalue": "wdno:P2346",
+      "directClaimNormalized": "wdtn:P2346",
+      "statementValueNormalized": "psn:P2346",
+      "qualifierValueNormalized": "pqn:P2346",
+      "referenceValueNormalized": "prn:P2346"
+    },
+    {
+      "@id": "p:P2346",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P2346",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P2346",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P2346",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P2346",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P2346",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P2346",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P2346",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "psn:P2346",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqn:P2346",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prn:P2346",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdtn:P2346",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P2346",
+      "@type": "owl:Class",
+      "complementOf": "_:5d5ade7be269a0f78ab1e802ca2d2453"
+    },
+    {
+      "@id": "_:5d5ade7be269a0f78ab1e802ca2d2453",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P2346",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P2334",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "Swedish Film Database ID"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Swedish Film Database ID"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Swedish Film Database ID"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "identifier for a movie on the Swedish Film Database (SFDb)"
+      },
+      "propertyType": "http://wikiba.se/ontology#ExternalId",
+      "directClaim": "wdt:P2334",
+      "claim": "p:P2334",
+      "statementProperty": "ps:P2334",
+      "statementValue": "psv:P2334",
+      "qualifier": "pq:P2334",
+      "qualifierValue": "pqv:P2334",
+      "reference": "pr:P2334",
+      "referenceValue": "prv:P2334",
+      "novalue": "wdno:P2334",
+      "directClaimNormalized": "wdtn:P2334",
+      "statementValueNormalized": "psn:P2334",
+      "qualifierValueNormalized": "pqn:P2334",
+      "referenceValueNormalized": "prn:P2334"
+    },
+    {
+      "@id": "p:P2334",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P2334",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P2334",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P2334",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P2334",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P2334",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P2334",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P2334",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "psn:P2334",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqn:P2334",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prn:P2334",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdtn:P2334",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P2334",
+      "@type": "owl:Class",
+      "complementOf": "_:3cf563c0e92eca17bb44efa103bbf596"
+    },
+    {
+      "@id": "_:3cf563c0e92eca17bb44efa103bbf596",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P2334",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:Q23817729",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "no age restriction"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "no age restriction"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "no age restriction"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "film rating certificate category authorising the screening of the film to all members of the public"
+      }
+    },
+    {
+      "@id": "wd:P2758",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "CNC film rating (France)"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "CNC film rating (France)"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "CNC film rating (France)"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "category assigned to a film by the Board of Film Classification (CNC) which what audiences may view it in France"
+      },
+      "propertyType": "http://wikiba.se/ontology#WikibaseItem",
+      "directClaim": "wdt:P2758",
+      "claim": "p:P2758",
+      "statementProperty": "ps:P2758",
+      "statementValue": "psv:P2758",
+      "qualifier": "pq:P2758",
+      "qualifierValue": "pqv:P2758",
+      "reference": "pr:P2758",
+      "referenceValue": "prv:P2758",
+      "novalue": "wdno:P2758"
+    },
+    {
+      "@id": "p:P2758",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P2758",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P2758",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P2758",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P2758",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "ps:P2758",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pq:P2758",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pr:P2758",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P2758",
+      "@type": "owl:Class",
+      "complementOf": "_:a1852cb4ad0d363fe145a51c003d0e2e"
+    },
+    {
+      "@id": "_:a1852cb4ad0d363fe145a51c003d0e2e",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P2758",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P2755",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "exploitation mark number"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "exploitation mark number"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "exploitation mark number"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "number of the exploitation mark of a movie in France"
+      },
+      "propertyType": "http://wikiba.se/ontology#ExternalId",
+      "directClaim": "wdt:P2755",
+      "claim": "p:P2755",
+      "statementProperty": "ps:P2755",
+      "statementValue": "psv:P2755",
+      "qualifier": "pq:P2755",
+      "qualifierValue": "pqv:P2755",
+      "reference": "pr:P2755",
+      "referenceValue": "prv:P2755",
+      "novalue": "wdno:P2755",
+      "directClaimNormalized": "wdtn:P2755",
+      "statementValueNormalized": "psn:P2755",
+      "qualifierValueNormalized": "pqn:P2755",
+      "referenceValueNormalized": "prn:P2755"
+    },
+    {
+      "@id": "p:P2755",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P2755",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P2755",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P2755",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P2755",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P2755",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P2755",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P2755",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "psn:P2755",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqn:P2755",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prn:P2755",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdtn:P2755",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P2755",
+      "@type": "owl:Class",
+      "complementOf": "_:afe1724145b15502d6614a9b0189c7d5"
+    },
+    {
+      "@id": "_:afe1724145b15502d6614a9b0189c7d5",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P2755",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P1804",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "DNF film ID"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "DNF film ID"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "DNF film ID"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "identifier for a film in the Danish National Filmography"
+      },
+      "propertyType": "http://wikiba.se/ontology#ExternalId",
+      "directClaim": "wdt:P1804",
+      "claim": "p:P1804",
+      "statementProperty": "ps:P1804",
+      "statementValue": "psv:P1804",
+      "qualifier": "pq:P1804",
+      "qualifierValue": "pqv:P1804",
+      "reference": "pr:P1804",
+      "referenceValue": "prv:P1804",
+      "novalue": "wdno:P1804",
+      "directClaimNormalized": "wdtn:P1804",
+      "statementValueNormalized": "psn:P1804",
+      "qualifierValueNormalized": "pqn:P1804",
+      "referenceValueNormalized": "prn:P1804"
+    },
+    {
+      "@id": "p:P1804",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P1804",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P1804",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P1804",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P1804",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P1804",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P1804",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P1804",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "psn:P1804",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqn:P1804",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prn:P1804",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdtn:P1804",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P1804",
+      "@type": "owl:Class",
+      "complementOf": "_:505aad66331228dd9d669178d3757fd5"
+    },
+    {
+      "@id": "_:505aad66331228dd9d669178d3757fd5",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P1804",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:Q23649980",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "AL"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "AL"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "AL"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "rating category in the Kijkwijzer system"
+      }
+    },
+    {
+      "@id": "wd:P2684",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "Kijkwijzer rating"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Kijkwijzer rating"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Kijkwijzer rating"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "Dutch media content rating system"
+      },
+      "propertyType": "http://wikiba.se/ontology#WikibaseItem",
+      "directClaim": "wdt:P2684",
+      "claim": "p:P2684",
+      "statementProperty": "ps:P2684",
+      "statementValue": "psv:P2684",
+      "qualifier": "pq:P2684",
+      "qualifierValue": "pqv:P2684",
+      "reference": "pr:P2684",
+      "referenceValue": "prv:P2684",
+      "novalue": "wdno:P2684"
+    },
+    {
+      "@id": "p:P2684",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P2684",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P2684",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P2684",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P2684",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "ps:P2684",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pq:P2684",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pr:P2684",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P2684",
+      "@type": "owl:Class",
+      "complementOf": "_:194fa7795302662163487b1c2f56678a"
+    },
+    {
+      "@id": "_:194fa7795302662163487b1c2f56678a",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P2684",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:Q328",
+      "@type": "wikibase:Item",
+      "label": [
+        {
+          "@language": "en",
+          "@value": "English Wikipedia"
+        },
+        {
+          "@language": "mul",
+          "@value": "English Wikipedia"
+        }
+      ],
+      "prefLabel": [
+        {
+          "@language": "en",
+          "@value": "English Wikipedia"
+        },
+        {
+          "@language": "mul",
+          "@value": "English Wikipedia"
+        }
+      ],
+      "name": [
+        {
+          "@language": "en",
+          "@value": "English Wikipedia"
+        },
+        {
+          "@language": "mul",
+          "@value": "English Wikipedia"
+        }
+      ],
+      "description": {
+        "@language": "en",
+        "@value": "English-language edition of Wikipedia"
+      }
+    },
+    {
+      "@id": "wd:P143",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "imported from Wikimedia project"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "imported from Wikimedia project"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "imported from Wikimedia project"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "source of this claim's value; used in references section by bots or humans importing data from Wikimedia projects"
+      },
+      "propertyType": "http://wikiba.se/ontology#WikibaseItem",
+      "directClaim": "wdt:P143",
+      "claim": "p:P143",
+      "statementProperty": "ps:P143",
+      "statementValue": "psv:P143",
+      "qualifier": "pq:P143",
+      "qualifierValue": "pqv:P143",
+      "reference": "pr:P143",
+      "referenceValue": "prv:P143",
+      "novalue": "wdno:P143"
+    },
+    {
+      "@id": "p:P143",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P143",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P143",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P143",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P143",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "ps:P143",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pq:P143",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pr:P143",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P143",
+      "@type": "owl:Class",
+      "complementOf": "_:66a2156e9cbfe8d655274b862fca1b59"
+    },
+    {
+      "@id": "_:66a2156e9cbfe8d655274b862fca1b59",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P143",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P4656",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "Wikimedia import URL"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Wikimedia import URL"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Wikimedia import URL"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "URL of source to indicate the page or revision of an import source from another Wikimedia project (except actual references, such as Wikisource source texts). Use instead of \"reference URL\" (P854). Permalinks are preferred."
+      },
+      "propertyType": "http://wikiba.se/ontology#Url",
+      "directClaim": "wdt:P4656",
+      "claim": "p:P4656",
+      "statementProperty": "ps:P4656",
+      "statementValue": "psv:P4656",
+      "qualifier": "pq:P4656",
+      "qualifierValue": "pqv:P4656",
+      "reference": "pr:P4656",
+      "referenceValue": "prv:P4656",
+      "novalue": "wdno:P4656"
+    },
+    {
+      "@id": "p:P4656",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P4656",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P4656",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P4656",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P4656",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "ps:P4656",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pq:P4656",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pr:P4656",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P4656",
+      "@type": "owl:Class",
+      "complementOf": "_:d0914856b623ca1dd09b1f31c8eea5fe"
+    },
+    {
+      "@id": "_:d0914856b623ca1dd09b1f31c8eea5fe",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P4656",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P854",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "reference URL"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "reference URL"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "reference URL"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "should be used for Internet URLs as references. Use \"Wikimedia import URL\" (P4656) for imports from WMF sites"
+      },
+      "propertyType": "http://wikiba.se/ontology#Url",
+      "directClaim": "wdt:P854",
+      "claim": "p:P854",
+      "statementProperty": "ps:P854",
+      "statementValue": "psv:P854",
+      "qualifier": "pq:P854",
+      "qualifierValue": "pqv:P854",
+      "reference": "pr:P854",
+      "referenceValue": "prv:P854",
+      "novalue": "wdno:P854"
+    },
+    {
+      "@id": "p:P854",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P854",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P854",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P854",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P854",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "ps:P854",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pq:P854",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pr:P854",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P854",
+      "@type": "owl:Class",
+      "complementOf": "_:7317e7e5a3edc1980ecfe7616bb5fa1d"
+    },
+    {
+      "@id": "_:7317e7e5a3edc1980ecfe7616bb5fa1d",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P854",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P2676",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "rating certificate ID"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "rating certificate ID"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "rating certificate ID"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "reference certificate identifier of content rating decisions"
+      },
+      "propertyType": "http://wikiba.se/ontology#String",
+      "directClaim": "wdt:P2676",
+      "claim": "p:P2676",
+      "statementProperty": "ps:P2676",
+      "statementValue": "psv:P2676",
+      "qualifier": "pq:P2676",
+      "qualifierValue": "pqv:P2676",
+      "reference": "pr:P2676",
+      "referenceValue": "prv:P2676",
+      "novalue": "wdno:P2676"
+    },
+    {
+      "@id": "p:P2676",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P2676",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P2676",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P2676",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P2676",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P2676",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P2676",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P2676",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "wdno:P2676",
+      "@type": "owl:Class",
+      "complementOf": "_:d83c6720dba051d6a8988fb78b7bbf24"
+    },
+    {
+      "@id": "_:d83c6720dba051d6a8988fb78b7bbf24",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P2676",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:Q676222",
+      "@type": "wikibase:Item",
+      "label": [
+        {
+          "@language": "en",
+          "@value": "Motion Picture Association"
+        },
+        {
+          "@language": "mul",
+          "@value": "Motion Picture Association Inc"
+        }
+      ],
+      "prefLabel": [
+        {
+          "@language": "en",
+          "@value": "Motion Picture Association"
+        },
+        {
+          "@language": "mul",
+          "@value": "Motion Picture Association Inc"
+        }
+      ],
+      "name": [
+        {
+          "@language": "en",
+          "@value": "Motion Picture Association"
+        },
+        {
+          "@language": "mul",
+          "@value": "Motion Picture Association Inc"
+        }
+      ],
+      "description": {
+        "@language": "en",
+        "@value": "trade organization representing major American film studios"
+      }
+    },
+    {
+      "@id": "wd:P123",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "publisher"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "publisher"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "publisher"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "organization or person responsible for publishing books, periodicals, printed music, podcasts, games or software"
+      },
+      "propertyType": "http://wikiba.se/ontology#WikibaseItem",
+      "directClaim": "wdt:P123",
+      "claim": "p:P123",
+      "statementProperty": "ps:P123",
+      "statementValue": "psv:P123",
+      "qualifier": "pq:P123",
+      "qualifierValue": "pqv:P123",
+      "reference": "pr:P123",
+      "referenceValue": "prv:P123",
+      "novalue": "wdno:P123"
+    },
+    {
+      "@id": "p:P123",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P123",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P123",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P123",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P123",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "ps:P123",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pq:P123",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pr:P123",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P123",
+      "@type": "owl:Class",
+      "complementOf": "_:920b66a59b0d9c7fcb39820893f26e8a"
+    },
+    {
+      "@id": "_:920b66a59b0d9c7fcb39820893f26e8a",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P123",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P813",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "retrieved"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "retrieved"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "retrieved"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "date or point in time that information was retrieved from a database or website (for use in online sources)"
+      },
+      "propertyType": "http://wikiba.se/ontology#Time",
+      "directClaim": "wdt:P813",
+      "claim": "p:P813",
+      "statementProperty": "ps:P813",
+      "statementValue": "psv:P813",
+      "qualifier": "pq:P813",
+      "qualifierValue": "pqv:P813",
+      "reference": "pr:P813",
+      "referenceValue": "prv:P813",
+      "novalue": "wdno:P813"
+    },
+    {
+      "@id": "p:P813",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P813",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P813",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P813",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P813",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P813",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P813",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P813",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "wdno:P813",
+      "@type": "owl:Class",
+      "complementOf": "_:a84dea0fd38ed74f926ea4bdef778770"
+    },
+    {
+      "@id": "_:a84dea0fd38ed74f926ea4bdef778770",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P813",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:Q125208042",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "2024 Toronto International Film Festival"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "2024 Toronto International Film Festival"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "2024 Toronto International Film Festival"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "49th edition of the festival"
+      }
+    },
+    {
+      "@id": "wd:P291",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "place of publication"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "place of publication"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "place of publication"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "geographical place of publication of the edition (use 1st edition when referring to works)"
+      },
+      "propertyType": "http://wikiba.se/ontology#WikibaseItem",
+      "directClaim": "wdt:P291",
+      "claim": "p:P291",
+      "statementProperty": "ps:P291",
+      "statementValue": "psv:P291",
+      "qualifier": "pq:P291",
+      "qualifierValue": "pqv:P291",
+      "reference": "pr:P291",
+      "referenceValue": "prv:P291",
+      "novalue": "wdno:P291"
+    },
+    {
+      "@id": "p:P291",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P291",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P291",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P291",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P291",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "ps:P291",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pq:P291",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pr:P291",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P291",
+      "@type": "owl:Class",
+      "complementOf": "_:438ebdf409a5c1c8bbd57c0c668f2e82"
+    },
+    {
+      "@id": "_:438ebdf409a5c1c8bbd57c0c668f2e82",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P291",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:Q150248",
+      "@type": "wikibase:Item",
+      "label": [
+        {
+          "@language": "en",
+          "@value": "Metacritic"
+        },
+        {
+          "@language": "mul",
+          "@value": "Metacritic"
+        }
+      ],
+      "prefLabel": [
+        {
+          "@language": "en",
+          "@value": "Metacritic"
+        },
+        {
+          "@language": "mul",
+          "@value": "Metacritic"
+        }
+      ],
+      "name": [
+        {
+          "@language": "en",
+          "@value": "Metacritic"
+        },
+        {
+          "@language": "mul",
+          "@value": "Metacritic"
+        }
+      ],
+      "description": {
+        "@language": "en",
+        "@value": "website that aggregates reviews of music albums, games, movies, TV shows, DVDs, and formerly, books"
+      }
+    },
+    {
+      "@id": "wd:P447",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "review score by"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "review score by"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "review score by"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "issuer of a review score"
+      },
+      "propertyType": "http://wikiba.se/ontology#WikibaseItem",
+      "directClaim": "wdt:P447",
+      "claim": "p:P447",
+      "statementProperty": "ps:P447",
+      "statementValue": "psv:P447",
+      "qualifier": "pq:P447",
+      "qualifierValue": "pqv:P447",
+      "reference": "pr:P447",
+      "referenceValue": "prv:P447",
+      "novalue": "wdno:P447"
+    },
+    {
+      "@id": "p:P447",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P447",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P447",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P447",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P447",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "ps:P447",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pq:P447",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pr:P447",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P447",
+      "@type": "owl:Class",
+      "complementOf": "_:b7995a75569befc8ee5650fff9e84605"
+    },
+    {
+      "@id": "_:b7995a75569befc8ee5650fff9e84605",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P447",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P585",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "point in time"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "point in time"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "point in time"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "date something took place, existed or a statement was true; for providing time use the \"refine date\" property (P4241)"
+      },
+      "propertyType": "http://wikiba.se/ontology#Time",
+      "directClaim": "wdt:P585",
+      "claim": "p:P585",
+      "statementProperty": "ps:P585",
+      "statementValue": "psv:P585",
+      "qualifier": "pq:P585",
+      "qualifierValue": "pqv:P585",
+      "reference": "pr:P585",
+      "referenceValue": "prv:P585",
+      "novalue": "wdno:P585"
+    },
+    {
+      "@id": "p:P585",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P585",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P585",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P585",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P585",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P585",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P585",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P585",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "wdno:P585",
+      "@type": "owl:Class",
+      "complementOf": "_:dd1c08307a09e1466ce90c482ad42ea9"
+    },
+    {
+      "@id": "_:dd1c08307a09e1466ce90c482ad42ea9",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P585",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:Q106515043",
+      "@type": "wikibase:Item",
+      "label": [
+        {
+          "@language": "en",
+          "@value": "Metascore"
+        },
+        {
+          "@language": "mul",
+          "@value": "Metascore"
+        }
+      ],
+      "prefLabel": [
+        {
+          "@language": "en",
+          "@value": "Metascore"
+        },
+        {
+          "@language": "mul",
+          "@value": "Metascore"
+        }
+      ],
+      "name": [
+        {
+          "@language": "en",
+          "@value": "Metascore"
+        },
+        {
+          "@language": "mul",
+          "@value": "Metascore"
+        }
+      ],
+      "description": {
+        "@language": "en",
+        "@value": "weighted average of the published critic reviews assigned by Metacritic"
+      }
+    },
+    {
+      "@id": "wd:P459",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "determination method or standard"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "determination method or standard"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "determination method or standard"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "how a value is determined, or the standard by which it is declared"
+      },
+      "propertyType": "http://wikiba.se/ontology#WikibaseItem",
+      "directClaim": "wdt:P459",
+      "claim": "p:P459",
+      "statementProperty": "ps:P459",
+      "statementValue": "psv:P459",
+      "qualifier": "pq:P459",
+      "qualifierValue": "pqv:P459",
+      "reference": "pr:P459",
+      "referenceValue": "prv:P459",
+      "novalue": "wdno:P459"
+    },
+    {
+      "@id": "p:P459",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P459",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P459",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P459",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P459",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "ps:P459",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pq:P459",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pr:P459",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P459",
+      "@type": "owl:Class",
+      "complementOf": "_:88b70b8bfdb5c147baf5a03f4254bd4b"
+    },
+    {
+      "@id": "_:88b70b8bfdb5c147baf5a03f4254bd4b",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P459",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P7887",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "number of reviews/ratings"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "number of reviews/ratings"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "number of reviews/ratings"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "qualifier on review score to state the number of user reviews, user ratings or critic reviews"
+      },
+      "propertyType": "http://wikiba.se/ontology#Quantity",
+      "directClaim": "wdt:P7887",
+      "claim": "p:P7887",
+      "statementProperty": "ps:P7887",
+      "statementValue": "psv:P7887",
+      "qualifier": "pq:P7887",
+      "qualifierValue": "pqv:P7887",
+      "reference": "pr:P7887",
+      "referenceValue": "prv:P7887",
+      "novalue": "wdno:P7887",
+      "directClaimNormalized": "wdtn:P7887",
+      "statementValueNormalized": "psn:P7887",
+      "qualifierValueNormalized": "pqn:P7887",
+      "referenceValueNormalized": "prn:P7887"
+    },
+    {
+      "@id": "p:P7887",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P7887",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P7887",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P7887",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P7887",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P7887",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P7887",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P7887",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "psn:P7887",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqn:P7887",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prn:P7887",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdtn:P7887",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "wdno:P7887",
+      "@type": "owl:Class",
+      "complementOf": "_:b0433692d51e8f0091670ed44aa746be"
+    },
+    {
+      "@id": "_:b0433692d51e8f0091670ed44aa746be",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P7887",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:Q105584",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Rotten Tomatoes"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Rotten Tomatoes"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Rotten Tomatoes"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "American review aggregator for film and television"
+      }
+    },
+    {
+      "@id": "wd:Q108403393",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Tomatometer score"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Tomatometer score"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Tomatometer score"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "percentage of critic reviews that are positive for a film or show"
+      }
+    },
+    {
+      "@id": "wd:Q37312",
+      "@type": "wikibase:Item",
+      "label": [
+        {
+          "@language": "en",
+          "@value": "Internet Movie Database"
+        },
+        {
+          "@language": "mul",
+          "@value": "Internet Movie Database"
+        }
+      ],
+      "prefLabel": [
+        {
+          "@language": "en",
+          "@value": "Internet Movie Database"
+        },
+        {
+          "@language": "mul",
+          "@value": "Internet Movie Database"
+        }
+      ],
+      "name": [
+        {
+          "@language": "en",
+          "@value": "Internet Movie Database"
+        },
+        {
+          "@language": "mul",
+          "@value": "Internet Movie Database"
+        }
+      ],
+      "description": {
+        "@language": "en",
+        "@value": "online database of information related to films, television series, and video games"
+      }
+    },
+    {
+      "@id": "wd:P248",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "stated in"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "stated in"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "stated in"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "to be used in the references field to refer to the information document or database in which a claim is made; for qualifiers use P805; for the type of document in which a claim is made use P3865"
+      },
+      "propertyType": "http://wikiba.se/ontology#WikibaseItem",
+      "directClaim": "wdt:P248",
+      "claim": "p:P248",
+      "statementProperty": "ps:P248",
+      "statementValue": "psv:P248",
+      "qualifier": "pq:P248",
+      "qualifierValue": "pqv:P248",
+      "reference": "pr:P248",
+      "referenceValue": "prv:P248",
+      "novalue": "wdno:P248"
+    },
+    {
+      "@id": "p:P248",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P248",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P248",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P248",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P248",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "ps:P248",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pq:P248",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pr:P248",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P248",
+      "@type": "owl:Class",
+      "complementOf": "_:a2b31078afaf5caae811f4ac846f5f35"
+    },
+    {
+      "@id": "_:a2b31078afaf5caae811f4ac846f5f35",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P248",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P580",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "start time"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "start time"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "start time"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "time an entity begins to exist or a statement starts being valid"
+      },
+      "propertyType": "http://wikiba.se/ontology#Time",
+      "directClaim": "wdt:P580",
+      "claim": "p:P580",
+      "statementProperty": "ps:P580",
+      "statementValue": "psv:P580",
+      "qualifier": "pq:P580",
+      "qualifierValue": "pqv:P580",
+      "reference": "pr:P580",
+      "referenceValue": "prv:P580",
+      "novalue": "wdno:P580"
+    },
+    {
+      "@id": "p:P580",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P580",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P580",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P580",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P580",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P580",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P580",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P580",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "wdno:P580",
+      "@type": "owl:Class",
+      "complementOf": "_:a4f53844ef049c00e67a7c9b973324e1"
+    },
+    {
+      "@id": "_:a4f53844ef049c00e67a7c9b973324e1",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P580",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:Q98042270",
+      "@type": "wikibase:Item",
+      "label": {
+        "@language": "en",
+        "@value": "Coarse language"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "Coarse language"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "Coarse language"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "Kijkwijzer content descriptor for creative works that contain coarse language"
+      }
+    },
+    {
+      "@id": "wd:P7367",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "content descriptor"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "content descriptor"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "content descriptor"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "content descriptors for this video game, film, television show, etc."
+      },
+      "propertyType": "http://wikiba.se/ontology#WikibaseItem",
+      "directClaim": "wdt:P7367",
+      "claim": "p:P7367",
+      "statementProperty": "ps:P7367",
+      "statementValue": "psv:P7367",
+      "qualifier": "pq:P7367",
+      "qualifierValue": "pqv:P7367",
+      "reference": "pr:P7367",
+      "referenceValue": "prv:P7367",
+      "novalue": "wdno:P7367"
+    },
+    {
+      "@id": "p:P7367",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P7367",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P7367",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P7367",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P7367",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "ps:P7367",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pq:P7367",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pr:P7367",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdno:P7367",
+      "@type": "owl:Class",
+      "complementOf": "_:44e06db28bedd022d86ab156c8049516"
+    },
+    {
+      "@id": "_:44e06db28bedd022d86ab156c8049516",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P7367",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wd:P1810",
+      "@type": "wikibase:Property",
+      "label": {
+        "@language": "en",
+        "@value": "subject named as"
+      },
+      "prefLabel": {
+        "@language": "en",
+        "@value": "subject named as"
+      },
+      "name": {
+        "@language": "en",
+        "@value": "subject named as"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "name by which a subject is recorded in a database, mentioned as a contributor of a work, or is referred to in a particular context"
+      },
+      "propertyType": "http://wikiba.se/ontology#String",
+      "directClaim": "wdt:P1810",
+      "claim": "p:P1810",
+      "statementProperty": "ps:P1810",
+      "statementValue": "psv:P1810",
+      "qualifier": "pq:P1810",
+      "qualifierValue": "pqv:P1810",
+      "reference": "pr:P1810",
+      "referenceValue": "prv:P1810",
+      "novalue": "wdno:P1810"
+    },
+    {
+      "@id": "p:P1810",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "psv:P1810",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "pqv:P1810",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "prv:P1810",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "wdt:P1810",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "ps:P1810",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pq:P1810",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "pr:P1810",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "wdno:P1810",
+      "@type": "owl:Class",
+      "complementOf": "_:1d6e1ecf4f0164f6a3471dd66d38c9d8"
+    },
+    {
+      "@id": "_:1d6e1ecf4f0164f6a3471dd66d38c9d8",
+      "@type": "owl:Restriction",
+      "onProperty": "wdt:P1810",
+      "someValuesFrom": "owl:Thing"
+    },
+    {
+      "@id": "wdv:43997852e4f9b0989415d5e55499cc8c",
+      "@type": "wikibase:QuantityValue",
+      "quantityAmount": "+46",
+      "quantityUnit": "http://www.wikidata.org/entity/Q80698083"
+    },
+    {
+      "@id": "wdv:faceb0e7a471fde5075a976729224591",
+      "@type": "wikibase:QuantityValue",
+      "quantityAmount": "+179",
+      "quantityUnit": "http://www.wikidata.org/entity/Q80698083"
+    },
+    {
+      "@id": "wdv:0b00cd6513805df0119d20a9152b1774",
+      "@type": "wikibase:QuantityValue",
+      "quantityAmount": "+97",
+      "quantityUnit": "http://www.wikidata.org/entity/Q7727"
+    },
+    {
+      "@id": "wdv:b8ae674785f52a41c3b96a6e0eece8cf",
+      "@type": "wikibase:QuantityValue",
+      "quantityAmount": "+5820",
+      "quantityUnit": "http://www.wikidata.org/entity/Q11574",
+      "quantityNormalized": "wdv:b8ae674785f52a41c3b96a6e0eece8cf"
+    },
+    {
+      "@id": "wdv:0b00cd6513805df0119d20a9152b1774",
+      "quantityNormalized": "wdv:b8ae674785f52a41c3b96a6e0eece8cf"
+    },
+    {
+      "@id": "wdv:fbbd406ff9d39f99cd7cf3968312c172",
+      "@type": "wikibase:TimeValue",
+      "timeValue": "2024-06-19T00:00:00Z",
+      "timePrecision": 11,
+      "timeTimezone": 0,
+      "timeCalendarModel": "http://www.wikidata.org/entity/Q1985727"
+    },
+    {
+      "@id": "wdv:27c0c212fde1219694e562a70fd8a564",
+      "@type": "wikibase:TimeValue",
+      "timeValue": "2024-06-23T00:00:00Z",
+      "timePrecision": 11,
+      "timeTimezone": 0,
+      "timeCalendarModel": "http://www.wikidata.org/entity/Q1985727"
+    },
+    {
+      "@id": "wdv:b820a7311ba24a21c8a496697565a0c4",
+      "@type": "wikibase:TimeValue",
+      "timeValue": "2024-09-07T00:00:00Z",
+      "timePrecision": 11,
+      "timeTimezone": 0,
+      "timeCalendarModel": "http://www.wikidata.org/entity/Q1985727"
+    },
+    {
+      "@id": "wdv:b81ea9d59e98507432dc3794ac8942d5",
+      "@type": "wikibase:TimeValue",
+      "timeValue": "2024-09-06T00:00:00Z",
+      "timePrecision": 11,
+      "timeTimezone": 0,
+      "timeCalendarModel": "http://www.wikidata.org/entity/Q1985727"
+    },
+    {
+      "@id": "wdv:4de5e2012289c65383794ded5feb7092",
+      "@type": "wikibase:TimeValue",
+      "timeValue": "2025-01-01T00:00:00Z",
+      "timePrecision": 10,
+      "timeTimezone": 0,
+      "timeCalendarModel": "http://www.wikidata.org/entity/Q1985727"
+    },
+    {
+      "@id": "wdv:fcc6ae398a35f0863b47cf2dddc60d41",
+      "@type": "wikibase:TimeValue",
+      "timeValue": "2025-02-28T00:00:00Z",
+      "timePrecision": 11,
+      "timeTimezone": 0,
+      "timeCalendarModel": "http://www.wikidata.org/entity/Q1985727"
+    },
+    {
+      "@id": "wdv:4a72c9ae4832bed1fbfafb84c1dce63e",
+      "@type": "wikibase:TimeValue",
+      "timeValue": "2025-04-26T00:00:00Z",
+      "timePrecision": 11,
+      "timeTimezone": 0,
+      "timeCalendarModel": "http://www.wikidata.org/entity/Q1985727"
+    },
+    {
+      "@id": "wdv:47c641b171998cd13cbc63e70bc67f6b",
+      "@type": "wikibase:TimeValue",
+      "timeValue": "2025-05-16T00:00:00Z",
+      "timePrecision": 11,
+      "timeTimezone": 0,
+      "timeCalendarModel": "http://www.wikidata.org/entity/Q1985727"
+    },
+    {
+      "@id": "wdv:3ac1aa0da02311b35d03d2fdacbbecfb",
+      "@type": "wikibase:TimeValue",
+      "timeValue": "2024-12-09T00:00:00Z",
+      "timePrecision": 11,
+      "timeTimezone": 0,
+      "timeCalendarModel": "http://www.wikidata.org/entity/Q1985727"
+    },
+    {
+      "@id": "wdv:b2a1eddddb35945efa35165f37501a5f",
+      "@type": "wikibase:TimeValue",
+      "timeValue": "2024-12-27T00:00:00Z",
+      "timePrecision": 11,
+      "timeTimezone": 0,
+      "timeCalendarModel": "http://www.wikidata.org/entity/Q1985727"
+    },
+    {
+      "@id": "wdv:59396fdf9b2de755530403d9f511774e",
+      "@type": "wikibase:TimeValue",
+      "timeValue": "2025-05-04T00:00:00Z",
+      "timePrecision": 11,
+      "timeTimezone": 0,
+      "timeCalendarModel": "http://www.wikidata.org/entity/Q1985727"
+    },
+    {
+      "@id": "wdv:f3f4a40c8b7bf3be1997cb1f61315c5a",
+      "@type": "wikibase:TimeValue",
+      "timeValue": "2025-03-04T00:00:00Z",
+      "timePrecision": 11,
+      "timeTimezone": 0,
+      "timeCalendarModel": "http://www.wikidata.org/entity/Q1985727"
+    },
+    {
+      "@id": "wdv:09d8356646954397060877569a855388",
+      "@type": "wikibase:TimeValue",
+      "timeValue": "2025-09-06T00:00:00Z",
+      "timePrecision": 11,
+      "timeTimezone": 0,
+      "timeCalendarModel": "http://www.wikidata.org/entity/Q1985727"
+    },
+    {
+      "@id": "wdref:7e966d9f9a09b186d01c96372fe5401d23d62679",
+      "@type": "wikibase:Reference",
+      "P143": "wd:Q328",
+      "P4656": "https://en.wikipedia.org/w/index.php?title=Hard_Truths&oldid=1211693721"
+    },
+    {
+      "@id": "wdref:f8e2f5767060ad2642ea1c72310aefb40c6e64d0",
+      "@type": "wikibase:Reference",
+      "P854": "https://letterboxd.com/tmdb/1013154"
+    },
+    {
+      "@id": "wdref:bfd6d05763ec196f5bf1e5dbcb1f2677e75e316c",
+      "@type": "wikibase:Reference",
+      "pr:P1476": {
+        "@language": "en",
+        "@value": "Bulletin No: 2839"
+      },
+      "P854": "https://www.filmratings.com/Content/Downloads/cara_rating_bulletin.pdf",
+      "P123": "wd:Q676222",
+      "pr:P577": "2024-06-19T00:00:00Z",
+      "prv:P577": "wdv:fbbd406ff9d39f99cd7cf3968312c172",
+      "P813": "2024-06-23T00:00:00Z",
+      "prv:P813": "wdv:27c0c212fde1219694e562a70fd8a564"
+    },
+    {
+      "@id": "wdref:ac2d322c7633fb1c3b2625fc7b7bfb029d23f95d",
+      "@type": "wikibase:Reference",
+      "P854": "https://www.ifco.ie/en/ifco/pages/15284F8300491AC4",
+      "P813": "2024-09-07T00:00:00Z",
+      "prv:P813": "wdv:b820a7311ba24a21c8a496697565a0c4"
+    },
+    {
+      "@id": "wdref:2a274899dffac09d042fde81eb395bff280092ec",
+      "@type": "wikibase:Reference",
+      "P143": "wd:Q328",
+      "P4656": "https://en.wikipedia.org/?oldid=1251920643"
+    },
+    {
+      "@id": "wdref:7bb33a7c924d2199443fd12fcae16d2b8bec5de1",
+      "@type": "wikibase:Reference",
+      "pr:P1712": "movie/hard-truths-2024"
+    },
+    {
+      "@id": "wdref:f1f27dd76583bc0ce9f11f37c74137c353bd700a",
+      "@type": "wikibase:Reference",
+      "pr:P1258": "m/hard_truths"
+    },
+    {
+      "@id": "wdref:aa27262ab4be356903afe48dcf99926e3fb488fa",
+      "@type": "wikibase:Reference",
+      "P143": "wd:Q328",
+      "P813": "2024-12-09T00:00:00Z",
+      "prv:P813": "wdv:3ac1aa0da02311b35d03d2fdacbbecfb",
+      "P4656": "https://en.wikipedia.org/w/index.php?title=Hard_Truths&oldid=1262063554"
+    },
+    {
+      "@id": "wdref:725d3ce531e6ab78374fe382ed09d8b459889e56",
+      "@type": "wikibase:Reference",
+      "P248": "wd:Q37312",
+      "P854": "https://www.imdb.com/title/tt11891850/technical/",
+      "P813": "2024-12-27T00:00:00Z",
+      "prv:P813": "wdv:b2a1eddddb35945efa35165f37501a5f"
+    },
+    {
+      "@id": "wdref:1ca45851ad9f006cc5b2d34b30268b6724064359",
+      "@type": "wikibase:Reference",
+      "P854": "https://www.cnc.fr/professionnels/visas-et-classification/164253",
+      "P813": "2025-05-04T00:00:00Z",
+      "prv:P813": "wdv:59396fdf9b2de755530403d9f511774e"
+    },
+    {
+      "@id": "wdref:99a18c6999098f09e1ffd621f60a3cc0070e78f6",
+      "@type": "wikibase:Reference",
+      "P1810": "Hard Truths",
+      "P854": "https://www.kijkwijzer.nl/films/hard-truths/",
+      "P813": "2025-09-06T00:00:00Z",
+      "prv:P813": "wdv:09d8356646954397060877569a855388"
+    }
+  ],
+  "@context": {
+    "data": "https://www.wikidata.org/wiki/Special:EntityData/",
+    "schema": "http://schema.org/",
+    "about": {
+      "@id": "schema:about",
+      "@type": "@id"
+    },
+    "wd": "http://www.wikidata.org/entity/",
+    "cc": "http://creativecommons.org/ns#",
+    "license": {
+      "@id": "cc:license",
+      "@type": "@id"
+    },
+    "softwareVersion": {
+      "@id": "schema:softwareVersion"
+    },
+    "version": {
+      "@id": "schema:version"
+    },
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:dateTime"
+    },
+    "wikibase": "http://wikiba.se/ontology#",
+    "statements": {
+      "@id": "wikibase:statements"
+    },
+    "sitelinks": {
+      "@id": "wikibase:sitelinks"
+    },
+    "identifiers": {
+      "@id": "wikibase:identifiers"
+    },
+    "inLanguage": {
+      "@id": "schema:inLanguage"
+    },
+    "isPartOf": {
+      "@id": "schema:isPartOf",
+      "@type": "@id"
+    },
+    "name": {
+      "@id": "schema:name"
+    },
+    "wikiGroup": {
+      "@id": "wikibase:wikiGroup"
+    },
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "P31": {
+      "@id": "wdt:P31",
+      "@type": "@id"
+    },
+    "P345": {
+      "@id": "wdt:P345"
+    },
+    "P4947": {
+      "@id": "wdt:P4947"
+    },
+    "P6127": {
+      "@id": "wdt:P6127"
+    },
+    "P1657": {
+      "@id": "wdt:P1657",
+      "@type": "@id"
+    },
+    "P1712": {
+      "@id": "wdt:P1712"
+    },
+    "P1258": {
+      "@id": "wdt:P1258"
+    },
+    "P7573": {
+      "@id": "wdt:P7573",
+      "@type": "@id"
+    },
+    "P495": {
+      "@id": "wdt:P495",
+      "@type": "@id"
+    },
+    "P577": {
+      "@id": "wdt:P577",
+      "@type": "xsd:dateTime"
+    },
+    "P1476": {
+      "@id": "wdt:P1476"
+    },
+    "P57": {
+      "@id": "wdt:P57",
+      "@type": "@id"
+    },
+    "P364": {
+      "@id": "wdt:P364",
+      "@type": "@id"
+    },
+    "P136": {
+      "@id": "wdt:P136",
+      "@type": "@id"
+    },
+    "P373": {
+      "@id": "wdt:P373"
+    },
+    "P9586": {
+      "@id": "wdt:P9586"
+    },
+    "P161": {
+      "@id": "wdt:P161",
+      "@type": "@id"
+    },
+    "P86": {
+      "@id": "wdt:P86",
+      "@type": "@id"
+    },
+    "P162": {
+      "@id": "wdt:P162",
+      "@type": "@id"
+    },
+    "P444": {
+      "@id": "wdt:P444"
+    },
+    "P344": {
+      "@id": "wdt:P344",
+      "@type": "@id"
+    },
+    "P11460": {
+      "@id": "wdt:P11460"
+    },
+    "P7299": {
+      "@id": "wdt:P7299"
+    },
+    "P10100": {
+      "@id": "wdt:P10100"
+    },
+    "P480": {
+      "@id": "wdt:P480"
+    },
+    "P1265": {
+      "@id": "wdt:P1265"
+    },
+    "P2047": {
+      "@id": "wdt:P2047",
+      "@type": "xsd:decimal"
+    },
+    "P462": {
+      "@id": "wdt:P462",
+      "@type": "@id"
+    },
+    "P2603": {
+      "@id": "wdt:P2603"
+    },
+    "P2346": {
+      "@id": "wdt:P2346"
+    },
+    "P2334": {
+      "@id": "wdt:P2334"
+    },
+    "P2758": {
+      "@id": "wdt:P2758",
+      "@type": "@id"
+    },
+    "P2755": {
+      "@id": "wdt:P2755"
+    },
+    "P1804": {
+      "@id": "wdt:P1804"
+    },
+    "P2684": {
+      "@id": "wdt:P2684",
+      "@type": "@id"
+    },
+    "p": "http://www.wikidata.org/prop/",
+    "wds": "http://www.wikidata.org/entity/statement/",
+    "p:P31": {
+      "@type": "@id"
+    },
+    "rank": {
+      "@id": "wikibase:rank",
+      "@type": "@id"
+    },
+    "ps": "http://www.wikidata.org/prop/statement/",
+    "ps:P31": {
+      "@type": "@id"
+    },
+    "p:P345": {
+      "@type": "@id"
+    },
+    "prov": "http://www.w3.org/ns/prov#",
+    "wasDerivedFrom": {
+      "@id": "prov:wasDerivedFrom",
+      "@type": "@id"
+    },
+    "wdref": "http://www.wikidata.org/reference/",
+    "pr": "http://www.wikidata.org/prop/reference/",
+    "P143": {
+      "@id": "pr:P143",
+      "@type": "@id"
+    },
+    "P4656": {
+      "@id": "pr:P4656",
+      "@type": "@id"
+    },
+    "p:P4947": {
+      "@type": "@id"
+    },
+    "p:P6127": {
+      "@type": "@id"
+    },
+    "P854": {
+      "@id": "pr:P854",
+      "@type": "@id"
+    },
+    "p:P1657": {
+      "@type": "@id"
+    },
+    "ps:P1657": {
+      "@type": "@id"
+    },
+    "pq": "http://www.wikidata.org/prop/qualifier/",
+    "P2676": {
+      "@id": "pq:P2676"
+    },
+    "P123": {
+      "@id": "pr:P123",
+      "@type": "@id"
+    },
+    "pr:P577": {
+      "@type": "xsd:dateTime"
+    },
+    "prv": "http://www.wikidata.org/prop/reference/value/",
+    "wdv": "http://www.wikidata.org/value/",
+    "prv:P577": {
+      "@type": "@id"
+    },
+    "timeValue": {
+      "@id": "wikibase:timeValue",
+      "@type": "xsd:dateTime"
+    },
+    "timePrecision": {
+      "@id": "wikibase:timePrecision"
+    },
+    "timeTimezone": {
+      "@id": "wikibase:timeTimezone"
+    },
+    "timeCalendarModel": {
+      "@id": "wikibase:timeCalendarModel",
+      "@type": "@id"
+    },
+    "P813": {
+      "@id": "pr:P813",
+      "@type": "xsd:dateTime"
+    },
+    "prv:P813": {
+      "@type": "@id"
+    },
+    "p:P1712": {
+      "@type": "@id"
+    },
+    "p:P1258": {
+      "@type": "@id"
+    },
+    "p:P7573": {
+      "@type": "@id"
+    },
+    "ps:P7573": {
+      "@type": "@id"
+    },
+    "p:P495": {
+      "@type": "@id"
+    },
+    "ps:P495": {
+      "@type": "@id"
+    },
+    "p:P577": {
+      "@type": "@id"
+    },
+    "ps:P577": {
+      "@type": "xsd:dateTime"
+    },
+    "psv": "http://www.wikidata.org/prop/statement/value/",
+    "psv:P577": {
+      "@type": "@id"
+    },
+    "P291": {
+      "@id": "pq:P291",
+      "@type": "@id"
+    },
+    "p:P1476": {
+      "@type": "@id"
+    },
+    "p:P57": {
+      "@type": "@id"
+    },
+    "ps:P57": {
+      "@type": "@id"
+    },
+    "p:P364": {
+      "@type": "@id"
+    },
+    "ps:P364": {
+      "@type": "@id"
+    },
+    "p:P136": {
+      "@type": "@id"
+    },
+    "ps:P136": {
+      "@type": "@id"
+    },
+    "p:P373": {
+      "@type": "@id"
+    },
+    "p:P9586": {
+      "@type": "@id"
+    },
+    "p:P161": {
+      "@type": "@id"
+    },
+    "ps:P161": {
+      "@type": "@id"
+    },
+    "p:P86": {
+      "@type": "@id"
+    },
+    "ps:P86": {
+      "@type": "@id"
+    },
+    "p:P162": {
+      "@type": "@id"
+    },
+    "ps:P162": {
+      "@type": "@id"
+    },
+    "p:P444": {
+      "@type": "@id"
+    },
+    "P447": {
+      "@id": "pq:P447",
+      "@type": "@id"
+    },
+    "P585": {
+      "@id": "pq:P585",
+      "@type": "xsd:dateTime"
+    },
+    "pqv": "http://www.wikidata.org/prop/qualifier/value/",
+    "pqv:P585": {
+      "@type": "@id"
+    },
+    "P459": {
+      "@id": "pq:P459",
+      "@type": "@id"
+    },
+    "P7887": {
+      "@id": "pq:P7887",
+      "@type": "xsd:decimal"
+    },
+    "pqv:P7887": {
+      "@type": "@id"
+    },
+    "quantityAmount": {
+      "@id": "wikibase:quantityAmount",
+      "@type": "xsd:decimal"
+    },
+    "quantityUnit": {
+      "@id": "wikibase:quantityUnit",
+      "@type": "@id"
+    },
+    "p:P344": {
+      "@type": "@id"
+    },
+    "ps:P344": {
+      "@type": "@id"
+    },
+    "p:P11460": {
+      "@type": "@id"
+    },
+    "p:P7299": {
+      "@type": "@id"
+    },
+    "p:P10100": {
+      "@type": "@id"
+    },
+    "p:P480": {
+      "@type": "@id"
+    },
+    "p:P1265": {
+      "@type": "@id"
+    },
+    "p:P2047": {
+      "@type": "@id"
+    },
+    "ps:P2047": {
+      "@type": "xsd:decimal"
+    },
+    "psv:P2047": {
+      "@type": "@id"
+    },
+    "psn": "http://www.wikidata.org/prop/statement/value-normalized/",
+    "psn:P2047": {
+      "@type": "@id"
+    },
+    "quantityNormalized": {
+      "@id": "wikibase:quantityNormalized",
+      "@type": "@id"
+    },
+    "P248": {
+      "@id": "pr:P248",
+      "@type": "@id"
+    },
+    "p:P462": {
+      "@type": "@id"
+    },
+    "ps:P462": {
+      "@type": "@id"
+    },
+    "p:P2603": {
+      "@type": "@id"
+    },
+    "p:P2346": {
+      "@type": "@id"
+    },
+    "p:P2334": {
+      "@type": "@id"
+    },
+    "p:P2758": {
+      "@type": "@id"
+    },
+    "ps:P2758": {
+      "@type": "@id"
+    },
+    "p:P2755": {
+      "@type": "@id"
+    },
+    "P580": {
+      "@id": "pq:P580",
+      "@type": "xsd:dateTime"
+    },
+    "pqv:P580": {
+      "@type": "@id"
+    },
+    "p:P1804": {
+      "@type": "@id"
+    },
+    "p:P2684": {
+      "@type": "@id"
+    },
+    "ps:P2684": {
+      "@type": "@id"
+    },
+    "P7367": {
+      "@id": "pq:P7367",
+      "@type": "@id"
+    },
+    "P1810": {
+      "@id": "pr:P1810"
+    },
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "label": {
+      "@id": "rdfs:label"
+    },
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "prefLabel": {
+      "@id": "skos:prefLabel"
+    },
+    "description": {
+      "@id": "schema:description"
+    },
+    "altLabel": {
+      "@id": "skos:altLabel"
+    },
+    "propertyType": {
+      "@id": "wikibase:propertyType",
+      "@type": "@id"
+    },
+    "directClaim": {
+      "@id": "wikibase:directClaim",
+      "@type": "@id"
+    },
+    "claim": {
+      "@id": "wikibase:claim",
+      "@type": "@id"
+    },
+    "statementProperty": {
+      "@id": "wikibase:statementProperty",
+      "@type": "@id"
+    },
+    "statementValue": {
+      "@id": "wikibase:statementValue",
+      "@type": "@id"
+    },
+    "qualifier": {
+      "@id": "wikibase:qualifier",
+      "@type": "@id"
+    },
+    "qualifierValue": {
+      "@id": "wikibase:qualifierValue",
+      "@type": "@id"
+    },
+    "reference": {
+      "@id": "wikibase:reference",
+      "@type": "@id"
+    },
+    "referenceValue": {
+      "@id": "wikibase:referenceValue",
+      "@type": "@id"
+    },
+    "novalue": {
+      "@id": "wikibase:novalue",
+      "@type": "@id"
+    },
+    "wdno": "http://www.wikidata.org/prop/novalue/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "complementOf": {
+      "@id": "owl:complementOf",
+      "@type": "@id"
+    },
+    "onProperty": {
+      "@id": "owl:onProperty",
+      "@type": "@id"
+    },
+    "someValuesFrom": {
+      "@id": "owl:someValuesFrom",
+      "@type": "@id"
+    },
+    "directClaimNormalized": {
+      "@id": "wikibase:directClaimNormalized",
+      "@type": "@id"
+    },
+    "wdtn": "http://www.wikidata.org/prop/direct-normalized/",
+    "statementValueNormalized": {
+      "@id": "wikibase:statementValueNormalized",
+      "@type": "@id"
+    },
+    "qualifierValueNormalized": {
+      "@id": "wikibase:qualifierValueNormalized",
+      "@type": "@id"
+    },
+    "pqn": "http://www.wikidata.org/prop/qualifier/value-normalized/",
+    "referenceValueNormalized": {
+      "@id": "wikibase:referenceValueNormalized",
+      "@type": "@id"
+    },
+    "prn": "http://www.wikidata.org/prop/reference/value-normalized/"
+  }
+}
